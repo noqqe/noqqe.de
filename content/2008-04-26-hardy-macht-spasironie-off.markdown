@@ -1,5 +1,5 @@
 ---
-date: '2008-04-26 01:16:03'
+date: 2008-04-26T01:16:03+02:00
 layout: post
 slug: hardy-macht-spasironie-off
 status: publish

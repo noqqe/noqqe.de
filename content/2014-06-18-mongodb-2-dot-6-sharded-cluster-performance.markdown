@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "MongoDB 2.6 Sharded Cluster Performance"
-date: 2014-06-18 21:02
+date: 2014-06-18T21:02:00+02:00
 comments: true
 categories:
 - MongoDB

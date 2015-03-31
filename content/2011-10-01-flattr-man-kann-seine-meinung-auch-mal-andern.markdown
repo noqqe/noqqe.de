@@ -1,5 +1,5 @@
 ---
-date: '2011-10-01 13:12:03'
+date: 2011-10-01T13:12:03+02:00
 layout: post
 slug: flattr-man-kann-seine-meinung-auch-mal-andern
 status: publish

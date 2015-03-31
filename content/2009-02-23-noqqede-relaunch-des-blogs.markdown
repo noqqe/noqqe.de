@@ -1,5 +1,5 @@
 ---
-date: '2009-02-23 17:06:57'
+date: 2009-02-23T17:06:57+02:00
 layout: post
 slug: noqqede-relaunch-des-blogs
 status: publish

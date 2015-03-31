@@ -1,5 +1,5 @@
 ---
-date: '2009-04-26 12:20:30'
+date: 2009-04-26T12:20:30+02:00
 layout: post
 slug: server-ein-stuck-statistik
 status: publish

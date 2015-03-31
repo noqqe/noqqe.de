@@ -1,5 +1,5 @@
 ---
-date: '2010-04-11 10:40:28'
+date: 2010-04-11T10:40:28+02:00
 layout: post
 slug: roborobo-selfmade-robot
 status: publish

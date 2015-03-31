@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "OpenBL in pf"
-date: 2015-02-04 20:31
+date: 2015-02-04T20:31:00+02:00
 comments: true
 categories:
 - osbn

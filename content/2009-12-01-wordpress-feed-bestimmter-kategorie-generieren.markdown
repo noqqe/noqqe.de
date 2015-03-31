@@ -1,5 +1,5 @@
 ---
-date: '2009-12-01 11:57:37'
+date: 2009-12-01T11:57:37+02:00
 layout: post
 slug: wordpress-feed-bestimmter-kategorie-generieren
 status: publish

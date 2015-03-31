@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "OpenBSD httpd"
-date: 2014-09-27 14:30
+date: 2014-09-27T14:30:00+02:00
 comments: true
 categories:
 - OpenBSD

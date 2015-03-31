@@ -1,5 +1,5 @@
 ---
-date: '2008-05-13 11:12:06'
+date: 2008-05-13T11:12:06+02:00
 layout: post
 slug: eeepc-urlaubstuchtig-media-tauglich-machen
 status: publish

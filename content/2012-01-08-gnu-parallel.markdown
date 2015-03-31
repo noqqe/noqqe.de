@@ -1,5 +1,5 @@
 ---
-date: '2012-01-08 14:47:14'
+date: 2012-01-08T14:47:14+02:00
 layout: post
 slug: gnu-parallel
 status: publish

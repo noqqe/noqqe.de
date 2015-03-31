@@ -1,5 +1,5 @@
 ---
-date: '2008-09-12 16:22:15'
+date: 2008-09-12T16:22:15+02:00
 layout: post
 slug: zwetschgeorg
 status: publish

@@ -1,5 +1,5 @@
 ---
-date: '2010-12-21 18:48:42'
+date: 2010-12-21T18:48:42+02:00
 layout: post
 slug: offtopic-hackerbrause
 status: publish

@@ -1,5 +1,5 @@
 ---
-date: '2009-10-12 18:57:37'
+date: 2009-10-12T18:57:37+02:00
 layout: post
 slug: debian-etclogrotate-d
 status: publish

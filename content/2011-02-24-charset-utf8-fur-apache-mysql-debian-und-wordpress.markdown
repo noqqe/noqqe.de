@@ -1,5 +1,5 @@
 ---
-date: '2011-02-24 11:22:13'
+date: 2011-02-24T11:22:13+02:00
 layout: post
 slug: charset-utf8-fur-apache-mysql-debian-und-wordpress
 status: publish

@@ -1,5 +1,5 @@
 ---
-date: '2010-07-28 11:19:30'
+date: 2010-07-28T11:19:30+02:00
 layout: post
 slug: ssh-app-leid-oder-elend-its-your-choice
 status: publish

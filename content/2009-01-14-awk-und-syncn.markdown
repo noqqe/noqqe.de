@@ -1,5 +1,5 @@
 ---
-date: '2009-01-14 21:40:24'
+date: 2009-01-14T21:40:24+02:00
 layout: post
 slug: awk-und-syncn
 status: publish

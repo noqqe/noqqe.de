@@ -1,5 +1,5 @@
 ---
-date: '2010-04-02 19:24:51'
+date: 2010-04-02T19:24:51+02:00
 layout: post
 slug: nagios-von-sprechenden-druckern-verpflichtungen-und-snmp
 status: publish

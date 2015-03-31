@@ -1,5 +1,5 @@
 ---
-date: '2010-03-31 20:12:03'
+date: 2010-03-31T20:12:03+02:00
 layout: post
 slug: apache2-vhost-logs-und-logrotate
 status: publish

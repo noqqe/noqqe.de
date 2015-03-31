@@ -1,5 +1,5 @@
 ---
-date: '2010-04-22 20:18:54'
+date: 2010-04-22T20:18:54+02:00
 layout: post
 slug: web-anlaufstelle-fur-geekstuff-3dsupply
 status: publish

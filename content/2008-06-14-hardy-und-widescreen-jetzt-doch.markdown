@@ -1,5 +1,5 @@
 ---
-date: '2008-06-14 12:18:19'
+date: 2008-06-14T12:18:19+02:00
 layout: post
 slug: hardy-und-widescreen-jetzt-doch
 status: publish

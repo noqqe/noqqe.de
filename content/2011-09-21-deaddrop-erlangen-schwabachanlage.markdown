@@ -1,5 +1,5 @@
 ---
-date: '2011-09-21 21:16:31'
+date: 2011-09-21T21:16:31+02:00
 layout: post
 slug: deaddrop-erlangen-schwabachanlage
 status: publish

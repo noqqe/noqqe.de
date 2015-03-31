@@ -1,5 +1,5 @@
 ---
-date: '2010-03-01 19:23:26'
+date: 2010-03-01T19:23:26+02:00
 layout: post
 slug: community-planetenblogger-de
 status: publish

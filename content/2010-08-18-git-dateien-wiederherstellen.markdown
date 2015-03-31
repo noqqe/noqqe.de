@@ -1,5 +1,5 @@
 ---
-date: '2010-08-18 21:53:13'
+date: 2010-08-18T21:53:13+02:00
 layout: post
 slug: git-dateien-wiederherstellen
 status: publish

@@ -1,5 +1,5 @@
 ---
-date: '2009-03-27 14:15:35'
+date: 2009-03-27T14:15:35+02:00
 layout: post
 slug: privat-projektantrag-genehmigt
 status: publish

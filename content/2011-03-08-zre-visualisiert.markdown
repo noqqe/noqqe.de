@@ -1,5 +1,5 @@
 ---
-date: '2011-03-08 20:51:13'
+date: 2011-03-08T20:51:13+02:00
 layout: post
 slug: zre-visualisiert
 status: publish

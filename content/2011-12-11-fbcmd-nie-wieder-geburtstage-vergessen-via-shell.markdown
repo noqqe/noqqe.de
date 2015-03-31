@@ -1,5 +1,5 @@
 ---
-date: '2011-12-11 20:45:18'
+date: 2011-12-11T20:45:18+02:00
 layout: post
 slug: fbcmd-nie-wieder-geburtstage-vergessen-via-shell
 status: publish

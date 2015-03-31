@@ -1,5 +1,5 @@
 ---
-date: '2010-11-24 18:14:57'
+date: 2010-11-24T18:14:57+02:00
 layout: post
 slug: bash-it-n0qorg-theme-und-git_info
 status: publish

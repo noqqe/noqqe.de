@@ -1,5 +1,5 @@
 ---
-date: '2011-10-15 16:02:46'
+date: 2011-10-15T16:02:46+02:00
 layout: post
 slug: git-and-the-unix-philosophy
 status: publish

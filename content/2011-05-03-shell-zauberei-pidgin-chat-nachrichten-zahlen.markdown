@@ -1,5 +1,5 @@
 ---
-date: '2011-05-03 12:04:34'
+date: 2011-05-03T12:04:34+02:00
 layout: post
 slug: pidgin-chat-nachrichten-zahlen
 status: publish

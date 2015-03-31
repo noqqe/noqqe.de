@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Das CAP Theorem"
-date: 2012-04-29 12:22
+date: 2012-04-29T12:22:00+02:00
 comments: true
 categories:
 - Web

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Thunderbird Mailing Stats"
-date: 2012-08-25 11:25
+date: 2012-08-25T11:25:00+02:00
 comments: true
 categories:
 - Web

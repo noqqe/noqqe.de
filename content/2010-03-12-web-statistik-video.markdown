@@ -1,5 +1,5 @@
 ---
-date: '2010-03-12 14:27:35'
+date: 2010-03-12T14:27:35+02:00
 layout: post
 slug: web-statistik-video
 status: publish

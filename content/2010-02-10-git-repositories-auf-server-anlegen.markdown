@@ -1,5 +1,5 @@
 ---
-date: '2010-02-10 19:37:53'
+date: 2010-02-10T19:37:53+02:00
 layout: post
 slug: git-repositories-auf-server-anlegen
 status: publish

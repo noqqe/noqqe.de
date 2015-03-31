@@ -1,5 +1,5 @@
 ---
-date: '2011-03-21 18:07:05'
+date: 2011-03-21T18:07:05+02:00
 layout: post
 slug: personlicher-eindruck-chemnitzer-linux-tage-2011
 status: publish

@@ -1,5 +1,5 @@
 ---
-date: '2009-10-06 21:45:01'
+date: 2009-10-06T21:45:01+02:00
 layout: post
 slug: iphone-google-kalender-synchronisieren
 status: publish

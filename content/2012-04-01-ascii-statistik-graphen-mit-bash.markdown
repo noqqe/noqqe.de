@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "ASCII Statistik Graphen mit Bash"
-date: 2012-04-01 11:11
+date: 2012-04-01T11:11:00+02:00
 comments: true
 categories:
 - ubuntuusers

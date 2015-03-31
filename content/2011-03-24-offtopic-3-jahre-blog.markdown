@@ -1,5 +1,5 @@
 ---
-date: '2011-03-24 12:58:24'
+date: 2011-03-24T12:58:24+02:00
 layout: post
 slug: offtopic-3-jahre-blog
 status: publish

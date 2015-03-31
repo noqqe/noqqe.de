@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Britische Pfund Sterling"
-date: 2013-06-17 20:45
+date: 2013-06-17T20:45:00+02:00
 comments: true
 categories:
 - ubuntuusers

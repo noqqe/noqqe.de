@@ -1,5 +1,5 @@
 ---
-date: '2008-09-10 19:49:18'
+date: 2008-09-10T19:49:18+02:00
 layout: post
 slug: mein-erster-apache2
 status: publish

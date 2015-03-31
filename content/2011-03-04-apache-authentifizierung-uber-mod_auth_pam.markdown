@@ -1,5 +1,5 @@
 ---
-date: '2011-03-04 19:53:19'
+date: 2011-03-04T19:53:19+02:00
 layout: post
 slug: apache-authentifizierung-uber-mod_auth_pam
 status: publish

@@ -1,5 +1,5 @@
 ---
-date: '2010-01-30 16:53:04'
+date: 2010-01-30T16:53:04+02:00
 layout: post
 slug: offtopic-reaktion-teeworlds-setup
 status: publish

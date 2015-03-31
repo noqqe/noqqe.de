@@ -1,5 +1,5 @@
 ---
-date: '2009-09-24 22:21:22'
+date: 2009-09-24T22:21:22+02:00
 layout: post
 slug: python-cryzed-bashing
 status: publish

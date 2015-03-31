@@ -1,5 +1,5 @@
 ---
-date: '2011-06-12 13:09:28'
+date: 2011-06-12T13:09:28+02:00
 layout: post
 slug: bitcoin-debian-daemon-script-fur-poclbm-mod
 status: publish

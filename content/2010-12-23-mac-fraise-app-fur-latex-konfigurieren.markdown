@@ -1,5 +1,5 @@
 ---
-date: '2010-12-23 16:16:03'
+date: 2010-12-23T16:16:03+02:00
 layout: post
 slug: mac-fraise-app-fur-latex-konfigurieren
 status: publish

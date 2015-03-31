@@ -1,5 +1,5 @@
 ---
-date: '2009-09-24 19:59:58'
+date: 2009-09-24T19:59:58+02:00
 layout: post
 slug: shell-vollstandiger-file-path
 status: publish

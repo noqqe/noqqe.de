@@ -1,5 +1,5 @@
 ---
-date: '2011-08-13 14:03:20'
+date: 2011-08-13T14:03:20+02:00
 layout: post
 slug: rot13-verschlusselung-in-bash
 status: publish

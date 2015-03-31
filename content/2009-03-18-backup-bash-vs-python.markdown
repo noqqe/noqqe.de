@@ -1,5 +1,5 @@
 ---
-date: '2009-03-18 15:10:49'
+date: 2009-03-18T15:10:49+02:00
 layout: post
 slug: backup-bash-vs-python
 status: publish

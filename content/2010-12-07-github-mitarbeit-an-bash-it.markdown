@@ -1,5 +1,5 @@
 ---
-date: '2010-12-07 20:39:24'
+date: 2010-12-07T20:39:24+02:00
 layout: post
 slug: github-mitarbeit-an-bash-it
 status: publish

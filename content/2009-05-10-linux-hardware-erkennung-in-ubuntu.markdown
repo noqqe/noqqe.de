@@ -1,5 +1,5 @@
 ---
-date: '2009-05-10 11:31:37'
+date: 2009-05-10T11:31:37+02:00
 layout: post
 slug: linux-hardware-erkennung-in-ubuntu
 status: publish

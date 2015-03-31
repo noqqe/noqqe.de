@@ -1,5 +1,5 @@
 ---
-date: '2010-10-17 12:14:05'
+date: 2010-10-17T12:14:05+02:00
 layout: post
 slug: bash-the-zombie-revolution-environment
 status: publish

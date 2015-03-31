@@ -1,5 +1,5 @@
 ---
-date: '2010-10-09 17:28:58'
+date: 2010-10-09T17:28:58+02:00
 layout: post
 slug: git-verschiedene-repos-zusammenfuhren
 status: publish

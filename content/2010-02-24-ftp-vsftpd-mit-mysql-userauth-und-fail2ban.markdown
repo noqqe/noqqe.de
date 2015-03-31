@@ -1,5 +1,5 @@
 ---
-date: '2010-02-24 19:40:51'
+date: 2010-02-24T19:40:51+02:00
 layout: post
 slug: ftp-vsftpd-mit-mysql-userauth-und-fail2ban
 status: publish

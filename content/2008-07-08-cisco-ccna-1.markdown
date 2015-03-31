@@ -1,5 +1,5 @@
 ---
-date: '2008-07-08 19:37:41'
+date: 2008-07-08T19:37:41+02:00
 layout: post
 slug: cisco-ccna-1
 status: publish

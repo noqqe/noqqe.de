@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Deadly 30 unter Debian Squeeze 64bit"
-date: 2012-05-06 21:51
+date: 2012-05-06T21:51:00+02:00
 comments: true
 categories:
 - ubuntuusers

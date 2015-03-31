@@ -1,5 +1,5 @@
 ---
-date: '2010-08-12 19:46:44'
+date: 2010-08-12T19:46:44+02:00
 layout: post
 slug: gitosis-debugging-undokumentiertes-und-konfiguration
 status: publish

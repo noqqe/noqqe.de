@@ -1,5 +1,5 @@
 ---
-date: '2010-06-26 15:52:33'
+date: 2010-06-26T15:52:33+02:00
 layout: post
 slug: theme-nerd-clouds
 status: publish

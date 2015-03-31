@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Keyboard Codes unter Debian mit xfce4.8"
-date: 2012-04-20 08:52
+date: 2012-04-20T08:52:00+02:00
 comments: true
 categories:
 - ubuntuusers

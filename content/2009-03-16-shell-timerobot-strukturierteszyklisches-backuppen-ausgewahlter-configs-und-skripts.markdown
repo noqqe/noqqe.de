@@ -1,5 +1,5 @@
 ---
-date: '2009-03-16 12:06:41'
+date: 2009-03-16T12:06:41+02:00
 layout: post
 slug: shell-timerobot-strukturierteszyklisches-backuppen-ausgewahlter-configs-und-skripts
 status: publish

@@ -1,5 +1,5 @@
 ---
-date: '2010-04-21 10:35:43'
+date: 2010-04-21T10:35:43+02:00
 layout: post
 slug: gitweb-urls-einbinden
 status: publish

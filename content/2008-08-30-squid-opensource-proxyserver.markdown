@@ -1,5 +1,5 @@
 ---
-date: '2008-08-30 20:02:26'
+date: 2008-08-30T20:02:26+02:00
 layout: post
 slug: squid-opensource-proxyserver
 status: publish

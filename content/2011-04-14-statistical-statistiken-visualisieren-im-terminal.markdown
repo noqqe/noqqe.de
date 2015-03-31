@@ -1,5 +1,5 @@
 ---
-date: '2011-04-14 18:55:10'
+date: 2011-04-14T18:55:10+02:00
 layout: post
 slug: statistical-statistiken-visualisieren-im-terminal
 status: publish

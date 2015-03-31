@@ -1,5 +1,5 @@
 ---
-date: '2009-10-07 08:07:24'
+date: 2009-10-07T08:07:24+02:00
 layout: post
 slug: publications-projektdokumentation
 status: publish

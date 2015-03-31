@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Orks und Zwerge im OpenLDAP"
-date: 2013-02-23 12:25
+date: 2013-02-23T12:25:00+02:00
 comments: true
 categories:
 - OpenLDAP

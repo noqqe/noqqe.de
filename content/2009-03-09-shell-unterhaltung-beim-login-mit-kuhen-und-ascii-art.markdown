@@ -1,5 +1,5 @@
 ---
-date: '2009-03-09 21:00:27'
+date: 2009-03-09T21:00:27+02:00
 layout: post
 slug: shell-unterhaltung-beim-login-mit-kuhen-und-ascii-art
 status: publish

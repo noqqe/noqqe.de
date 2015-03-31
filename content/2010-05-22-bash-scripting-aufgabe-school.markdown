@@ -1,5 +1,5 @@
 ---
-date: '2010-05-22 09:09:35'
+date: 2010-05-22T09:09:35+02:00
 layout: post
 slug: bash-scripting-aufgabe-school
 status: publish

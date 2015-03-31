@@ -1,5 +1,5 @@
 ---
-date: '2008-10-28 18:33:26'
+date: 2008-10-28T18:33:26+02:00
 layout: post
 slug: zwetschgeorg-monitoring-mal-wieder
 status: publish

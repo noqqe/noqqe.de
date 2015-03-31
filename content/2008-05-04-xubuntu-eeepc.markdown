@@ -1,5 +1,5 @@
 ---
-date: '2008-05-04 12:02:52'
+date: 2008-05-04T12:02:52+02:00
 layout: post
 slug: xubuntu-eeepc
 status: publish

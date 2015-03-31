@@ -1,5 +1,5 @@
 ---
-date: '2011-07-04 20:42:09'
+date: 2011-07-04T20:42:09+02:00
 layout: post
 slug: minecraft-git-bash
 status: publish

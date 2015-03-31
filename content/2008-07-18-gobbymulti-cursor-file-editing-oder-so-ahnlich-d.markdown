@@ -1,5 +1,5 @@
 ---
-date: '2008-07-18 10:38:15'
+date: 2008-07-18T10:38:15+02:00
 layout: post
 slug: gobbymulti-cursor-file-editing-oder-so-ahnlich-d
 status: publish

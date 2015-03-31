@@ -1,5 +1,5 @@
 ---
-date: '2011-04-20 12:14:50'
+date: 2011-04-20T12:14:50+02:00
 layout: post
 slug: commandline-tools-pdfs-zusammenfuhren
 status: publish

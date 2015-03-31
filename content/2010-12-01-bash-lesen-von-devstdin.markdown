@@ -1,5 +1,5 @@
 ---
-date: '2010-12-01 20:27:18'
+date: 2010-12-01T20:27:18+02:00
 layout: post
 slug: bash-lesen-von-devstdin
 status: publish

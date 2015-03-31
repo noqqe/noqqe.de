@@ -1,5 +1,5 @@
 ---
-date: '2011-07-24 18:56:32'
+date: 2011-07-24T18:56:32+02:00
 layout: post
 slug: abschlussprufung-zentrales-versionskontrollsystem-mit-git-und-etckeeper
 status: publish

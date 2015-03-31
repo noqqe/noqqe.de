@@ -1,5 +1,5 @@
 ---
-date: '2010-12-01 20:58:12'
+date: 2010-12-01T20:58:12+02:00
 layout: post
 slug: hcht-handmade-commandline-history-tool
 status: publish

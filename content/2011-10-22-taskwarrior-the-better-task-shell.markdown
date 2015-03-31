@@ -1,5 +1,5 @@
 ---
-date: '2011-10-22 14:05:57'
+date: 2011-10-22T14:05:57+02:00
 layout: post
 slug: taskwarrior-the-better-task-shell
 status: publish

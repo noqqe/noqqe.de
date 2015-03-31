@@ -1,5 +1,5 @@
 ---
-date: '2011-09-25 13:58:52'
+date: 2011-09-25T13:58:52+02:00
 layout: post
 slug: taskwarrior-migration-von-mytinytodo
 status: publish

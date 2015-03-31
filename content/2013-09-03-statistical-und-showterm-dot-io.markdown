@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "statistical und showterm.io"
-date: 2013-09-03 21:20
+date: 2013-09-03T21:20:00+02:00
 comments: true
 categories:
 - showterm

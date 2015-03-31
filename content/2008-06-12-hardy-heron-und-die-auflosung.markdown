@@ -1,5 +1,5 @@
 ---
-date: '2008-06-12 14:38:24'
+date: 2008-06-12T14:38:24+02:00
 layout: post
 slug: hardy-heron-und-die-auflosung
 status: publish

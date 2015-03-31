@@ -1,5 +1,5 @@
 ---
-date: '2009-12-02 18:37:16'
+date: 2009-12-02T18:37:16+02:00
 layout: post
 slug: bash-timerobot-0-0-8
 status: publish

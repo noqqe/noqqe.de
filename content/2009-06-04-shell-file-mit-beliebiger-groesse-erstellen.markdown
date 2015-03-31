@@ -1,5 +1,5 @@
 ---
-date: '2009-06-04 23:11:54'
+date: 2009-06-04T23:11:54+02:00
 layout: post
 slug: shell-file-mit-beliebiger-groesse-erstellen
 status: publish

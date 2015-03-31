@@ -1,5 +1,5 @@
 ---
-date: '2011-04-29 10:30:52'
+date: 2011-04-29T10:30:52+02:00
 layout: post
 slug: namensliste-in-mysql-datenbank-einspeisen
 status: publish

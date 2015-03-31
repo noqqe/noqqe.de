@@ -1,5 +1,5 @@
 ---
-date: '2010-05-31 20:50:16'
+date: 2010-05-31T20:50:16+02:00
 layout: post
 slug: mail-evolution-und-sein-k-o-kriterium
 status: publish

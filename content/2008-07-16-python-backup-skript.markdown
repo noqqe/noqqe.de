@@ -1,5 +1,5 @@
 ---
-date: '2008-07-16 14:03:12'
+date: 2008-07-16T14:03:12+02:00
 layout: post
 slug: python-backup-skript
 status: publish

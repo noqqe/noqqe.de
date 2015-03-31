@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Isso - Ich schrei sonst"
-date: 2013-11-10 15:50
+date: 2013-11-10T15:50:00+02:00
 comments: true
 categories:
 - isso

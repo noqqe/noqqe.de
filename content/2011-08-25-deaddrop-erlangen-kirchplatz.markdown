@@ -1,5 +1,5 @@
 ---
-date: '2011-08-25 19:00:33'
+date: 2011-08-25T19:00:33+02:00
 layout: post
 slug: deaddrop-erlangen-kirchplatz
 status: publish

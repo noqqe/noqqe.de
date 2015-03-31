@@ -1,5 +1,5 @@
 ---
-date: '2010-06-30 10:25:46'
+date: 2010-06-30T10:25:46+02:00
 layout: post
 slug: theme-8-bit-banner
 status: publish

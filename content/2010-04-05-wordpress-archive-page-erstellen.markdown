@@ -1,5 +1,5 @@
 ---
-date: '2010-04-05 20:01:16'
+date: 2010-04-05T20:01:16+02:00
 layout: post
 slug: wordpress-archive-page-erstellen
 status: publish

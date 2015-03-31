@@ -1,5 +1,5 @@
 ---
-date: '2009-04-16 09:59:27'
+date: 2009-04-16T09:59:27+02:00
 layout: post
 slug: publications-tft-dvi-touchscreen-handout
 status: publish

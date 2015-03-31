@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Git Shell Environment Tricks"
-date: 2012-03-10 12:00
+date: 2012-03-10T12:00:00+02:00
 comments: true
 categories:
 - ubuntuusers

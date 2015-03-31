@@ -1,5 +1,5 @@
 ---
-date: '2010-02-20 18:27:38'
+date: 2010-02-20T18:27:38+02:00
 layout: post
 slug: apt-aktualisierungen-anzeigen-lassen
 status: publish

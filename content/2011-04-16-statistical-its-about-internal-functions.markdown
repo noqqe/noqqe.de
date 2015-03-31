@@ -1,5 +1,5 @@
 ---
-date: '2011-04-16 16:48:23'
+date: 2011-04-16T16:48:23+02:00
 layout: post
 slug: statistical-its-about-internal-functions
 status: publish

@@ -1,5 +1,5 @@
 ---
-date: '2010-07-16 16:39:16'
+date: 2010-07-16T16:39:16+02:00
 layout: post
 slug: thunar-netzwerk-ressourcen-einbinden-mit-gigolo
 status: publish

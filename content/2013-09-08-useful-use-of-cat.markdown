@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Useful use of cat"
-date: 2013-09-08 20:28
+date: 2013-09-08T20:28:00+02:00
 comments: true
 categories:
 - osbn

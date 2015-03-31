@@ -1,5 +1,5 @@
 ---
-date: '2009-11-30 22:24:46'
+date: 2009-11-30T22:24:46+02:00
 layout: post
 slug: hack-the-unix-forkbomb
 status: publish

@@ -1,5 +1,5 @@
 ---
-date: '2010-07-16 10:59:59'
+date: 2010-07-16T10:59:59+02:00
 layout: post
 slug: web-einfachjabber-de
 status: publish

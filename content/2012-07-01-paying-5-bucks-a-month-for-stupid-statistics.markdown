@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Paying 5 bucks a month for stupid statistics?"
-date: 2012-07-02 21:00
+date: 2012-07-02T21:00:00+02:00
 comments: true
 categories:
 - planetenblogger

@@ -1,5 +1,5 @@
 ---
-date: '2010-10-24 21:06:33'
+date: 2010-10-24T21:06:33+02:00
 layout: post
 slug: bash-minimal-bash-debug
 status: publish

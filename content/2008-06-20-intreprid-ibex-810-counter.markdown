@@ -1,5 +1,5 @@
 ---
-date: '2008-06-20 08:41:08'
+date: 2008-06-20T08:41:08+02:00
 layout: post
 slug: intreprid-ibex-810-counter
 status: publish

@@ -1,5 +1,5 @@
 ---
-date: '2010-11-27 13:49:42'
+date: 2010-11-27T13:49:42+02:00
 layout: post
 slug: redmine-git-bare-repository-workaround
 status: publish

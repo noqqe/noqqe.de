@@ -1,5 +1,5 @@
 ---
-date: '2009-11-29 18:20:03'
+date: 2009-11-29T18:20:03+02:00
 layout: post
 slug: theme-clouds-edited
 status: publish

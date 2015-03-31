@@ -1,5 +1,5 @@
 ---
-date: '2010-09-07 19:19:26'
+date: 2010-09-07T19:19:26+02:00
 layout: post
 slug: google-dank-der-us-army-ist-mir-street-view-egal
 status: publish

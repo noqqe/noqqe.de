@@ -1,5 +1,5 @@
 ---
-date: '2009-10-12 19:23:22'
+date: 2009-10-12T19:23:22+02:00
 layout: post
 slug: debian-rsyslogd
 status: publish

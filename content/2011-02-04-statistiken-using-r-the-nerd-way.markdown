@@ -1,5 +1,5 @@
 ---
-date: '2011-02-04 12:18:35'
+date: 2011-02-04T12:18:35+02:00
 layout: post
 slug: statistiken-using-r-the-nerd-way
 status: publish

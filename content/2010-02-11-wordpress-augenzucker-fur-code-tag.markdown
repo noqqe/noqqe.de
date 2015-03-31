@@ -1,5 +1,5 @@
 ---
-date: '2010-02-11 22:09:42'
+date: 2010-02-11T22:09:42+02:00
 layout: post
 slug: wordpress-augenzucker-fur-code-tag
 status: publish

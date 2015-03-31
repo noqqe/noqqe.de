@@ -1,5 +1,5 @@
 ---
-date: '2009-01-09 00:16:13'
+date: 2009-01-09T00:16:13+02:00
 layout: post
 slug: syncn-marke-eigenbau
 status: publish

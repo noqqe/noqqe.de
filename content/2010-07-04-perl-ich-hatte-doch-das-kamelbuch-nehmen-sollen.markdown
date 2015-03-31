@@ -1,5 +1,5 @@
 ---
-date: '2010-07-04 09:17:00'
+date: 2010-07-04T09:17:00+02:00
 layout: post
 slug: perl-ich-hatte-doch-das-kamelbuch-nehmen-sollen
 status: publish

@@ -1,5 +1,5 @@
 ---
-date: '2010-02-15 08:50:01'
+date: 2010-02-15T08:50:01+02:00
 layout: post
 slug: wordpress-tags-in-theme-einbauen
 status: publish

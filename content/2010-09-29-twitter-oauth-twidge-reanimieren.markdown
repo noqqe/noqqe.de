@@ -1,5 +1,5 @@
 ---
-date: '2010-09-29 18:34:51'
+date: 2010-09-29T18:34:51+02:00
 layout: post
 slug: twitter-oauth-twidge-reanimieren
 status: publish

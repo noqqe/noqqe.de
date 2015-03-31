@@ -1,5 +1,5 @@
 ---
-date: '2008-09-21 22:59:27'
+date: 2008-09-21T22:59:27+02:00
 layout: post
 slug: verquirrlte-sch
 status: publish

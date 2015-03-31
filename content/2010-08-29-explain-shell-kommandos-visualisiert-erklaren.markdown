@@ -1,5 +1,5 @@
 ---
-date: '2010-08-29 22:31:32'
+date: 2010-08-29T22:31:32+02:00
 layout: post
 slug: explain-shell-kommandos-visualisiert-erklaren
 status: publish

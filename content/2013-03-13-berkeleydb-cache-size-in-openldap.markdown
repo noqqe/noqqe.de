@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "BerkeleyDB Cache Size in OpenLDAP"
-date: 2013-03-08 18:40
+date: 2013-03-08T18:40:00+02:00
 comments: true
 categories:
 - ubuntuusers

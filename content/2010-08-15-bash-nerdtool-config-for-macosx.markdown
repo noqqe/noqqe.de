@@ -1,5 +1,5 @@
 ---
-date: '2010-08-15 12:44:27'
+date: 2010-08-15T12:44:27+02:00
 layout: post
 slug: bash-nerdtool-config-for-macosx
 status: publish

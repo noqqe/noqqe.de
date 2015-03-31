@@ -1,5 +1,5 @@
 ---
-date: '2010-10-19 20:35:18'
+date: 2010-10-19T20:35:18+02:00
 layout: post
 slug: bash-zre-und-random
 status: publish

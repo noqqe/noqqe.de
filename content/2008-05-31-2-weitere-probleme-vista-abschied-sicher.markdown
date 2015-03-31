@@ -1,5 +1,5 @@
 ---
-date: '2008-05-31 12:06:30'
+date: 2008-05-31T12:06:30+02:00
 layout: post
 slug: 2-weitere-probleme-vista-abschied-sicher
 status: publish

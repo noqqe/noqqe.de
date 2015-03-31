@@ -1,5 +1,5 @@
 ---
-date: '2008-10-09 13:43:16'
+date: 2008-10-09T13:43:16+02:00
 layout: post
 slug: ssh-tunnel
 status: publish

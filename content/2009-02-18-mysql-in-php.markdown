@@ -1,5 +1,5 @@
 ---
-date: '2009-02-18 22:12:43'
+date: 2009-02-18T22:12:43+02:00
 layout: post
 slug: mysql-in-php
 status: publish

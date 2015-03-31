@@ -1,5 +1,5 @@
 ---
-date: '2008-11-05 10:38:29'
+date: 2008-11-05T10:38:29+02:00
 layout: post
 slug: ide-festplatten-backups-und-skripte
 status: publish

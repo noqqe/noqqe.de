@@ -1,5 +1,5 @@
 ---
-date: '2009-03-07 15:10:56'
+date: 2009-03-07T15:10:56+02:00
 layout: post
 slug: feed-rss-im-directors-cut
 status: publish

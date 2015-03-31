@@ -1,5 +1,5 @@
 ---
-date: '2010-01-15 17:40:04'
+date: 2010-01-15T17:40:04+02:00
 layout: post
 slug: offtopic-das-verlorene-kind-ahm-passwort
 status: publish

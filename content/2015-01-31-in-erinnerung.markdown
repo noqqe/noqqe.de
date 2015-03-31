@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "In Erinnerung"
-date: 2015-01-31 13:40
+date: 2015-01-31T13:40:00+02:00
 comments: true
 categories:
 - ronno

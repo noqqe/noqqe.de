@@ -1,5 +1,5 @@
 ---
-date: '2010-04-13 20:07:32'
+date: 2010-04-13T20:07:32+02:00
 layout: post
 slug: regexp-domainendungen
 status: publish

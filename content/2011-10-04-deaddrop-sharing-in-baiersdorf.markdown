@@ -1,5 +1,5 @@
 ---
-date: '2011-10-04 20:50:34'
+date: 2011-10-04T20:50:34+02:00
 layout: post
 slug: deaddrop-sharing-in-baiersdorf
 status: publish

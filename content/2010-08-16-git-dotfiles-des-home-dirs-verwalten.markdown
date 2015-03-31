@@ -1,5 +1,5 @@
 ---
-date: '2010-08-16 18:42:48'
+date: 2010-08-16T18:42:48+02:00
 layout: post
 slug: git-dotfiles-des-home-dirs-verwalten
 status: publish

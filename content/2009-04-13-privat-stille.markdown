@@ -1,5 +1,5 @@
 ---
-date: '2009-04-13 15:30:47'
+date: 2009-04-13T15:30:47+02:00
 layout: post
 slug: privat-stille
 status: publish

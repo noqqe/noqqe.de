@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Von gebundenen Ports die nicht hören wollen"
-date: 2014-11-27 21:45
+date: 2014-11-27T21:45:00+02:00
 comments: true
 categories:
 - ubuntuusers

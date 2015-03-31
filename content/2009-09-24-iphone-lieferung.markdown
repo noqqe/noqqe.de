@@ -1,5 +1,5 @@
 ---
-date: '2009-09-24 19:34:18'
+date: 2009-09-24T19:34:18+02:00
 layout: post
 slug: iphone-lieferung
 status: publish

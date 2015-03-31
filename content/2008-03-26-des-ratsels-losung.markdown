@@ -1,5 +1,5 @@
 ---
-date: '2008-03-26 11:46:52'
+date: 2008-03-26T11:46:52+02:00
 layout: post
 slug: des-ratsels-losung
 status: publish

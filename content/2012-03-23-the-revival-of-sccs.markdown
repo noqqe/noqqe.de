@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Revival of SCCS"
-date: 2012-03-23 15:11
+date: 2012-03-23T15:11:00+02:00
 comments: true
 categories:
 - ubuntuusers

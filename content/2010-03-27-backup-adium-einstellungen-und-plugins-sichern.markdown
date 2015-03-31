@@ -1,5 +1,5 @@
 ---
-date: '2010-03-27 19:29:12'
+date: 2010-03-27T19:29:12+02:00
 layout: post
 slug: backup-adium-einstellungen-und-plugins-sichern
 status: publish

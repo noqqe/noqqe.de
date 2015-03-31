@@ -1,5 +1,5 @@
 ---
-date: '2008-06-18 13:07:52'
+date: 2008-06-18T13:07:52+02:00
 layout: post
 slug: the-geek-code
 status: publish

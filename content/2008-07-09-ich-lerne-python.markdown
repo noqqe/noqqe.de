@@ -1,5 +1,5 @@
 ---
-date: '2008-07-09 22:09:40'
+date: 2008-07-09T22:09:40+02:00
 layout: post
 slug: ich-lerne-python
 status: publish

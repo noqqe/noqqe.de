@@ -1,5 +1,5 @@
 ---
-date: '2009-01-20 01:00:29'
+date: 2009-01-20T01:00:29+02:00
 layout: post
 slug: und-was-machst-du-so
 status: publish

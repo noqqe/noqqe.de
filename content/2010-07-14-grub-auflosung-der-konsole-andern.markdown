@@ -1,5 +1,5 @@
 ---
-date: '2010-07-14 19:17:18'
+date: 2010-07-14T19:17:18+02:00
 layout: post
 slug: grub-auflosung-der-konsole-andern
 status: publish

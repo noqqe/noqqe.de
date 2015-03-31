@@ -1,5 +1,5 @@
 ---
-date: '2008-06-30 21:58:57'
+date: 2008-06-30T21:58:57+02:00
 layout: post
 slug: my-new-desktop
 status: publish

@@ -1,5 +1,5 @@
 ---
-date: '2009-02-01 15:28:50'
+date: 2009-02-01T15:28:50+02:00
 layout: post
 slug: codecocktail-und-feeling-right-now-widget
 status: publish

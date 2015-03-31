@@ -1,5 +1,5 @@
 ---
-date: '2008-09-24 15:33:13'
+date: 2008-09-24T15:33:13+02:00
 layout: post
 slug: montag-mein-projektthema-bekommen-raid
 status: publish

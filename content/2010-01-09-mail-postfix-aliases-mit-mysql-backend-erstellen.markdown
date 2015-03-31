@@ -1,5 +1,5 @@
 ---
-date: '2010-01-09 12:16:10'
+date: 2010-01-09T12:16:10+02:00
 layout: post
 slug: mail-postfix-aliases-mit-mysql-backend-erstellen
 status: publish

@@ -1,5 +1,5 @@
 ---
-date: '2011-03-26 14:45:37'
+date: 2011-03-26T14:45:37+02:00
 layout: post
 slug: zre-sql-statistik-modul
 status: publish

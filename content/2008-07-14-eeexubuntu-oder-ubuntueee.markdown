@@ -1,5 +1,5 @@
 ---
-date: '2008-07-14 13:18:52'
+date: 2008-07-14T13:18:52+02:00
 layout: post
 slug: eeexubuntu-oder-ubuntueee
 status: publish

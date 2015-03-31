@@ -1,5 +1,5 @@
 ---
-date: '2009-05-09 19:28:30'
+date: 2009-05-09T19:28:30+02:00
 layout: post
 slug: jabber-sendxmpp
 status: publish

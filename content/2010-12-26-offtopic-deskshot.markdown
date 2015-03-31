@@ -1,5 +1,5 @@
 ---
-date: '2010-12-26 14:08:48'
+date: 2010-12-26T14:08:48+02:00
 layout: post
 slug: offtopic-deskshot
 status: publish

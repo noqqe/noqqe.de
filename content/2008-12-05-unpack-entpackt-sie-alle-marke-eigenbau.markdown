@@ -1,5 +1,5 @@
 ---
-date: '2008-12-05 15:37:56'
+date: 2008-12-05T15:37:56+02:00
 layout: post
 slug: unpack-entpackt-sie-alle-marke-eigenbau
 status: publish

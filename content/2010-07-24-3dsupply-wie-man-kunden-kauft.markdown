@@ -1,5 +1,5 @@
 ---
-date: '2010-07-24 12:53:10'
+date: 2010-07-24T12:53:10+02:00
 layout: post
 slug: 3dsupply-wie-man-kunden-kauft
 status: publish

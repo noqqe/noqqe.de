@@ -1,5 +1,5 @@
 ---
-date: '2009-03-07 14:15:44'
+date: 2009-03-07T14:15:44+02:00
 layout: post
 slug: ubuntu-the-future-jaunty-jackalope-karmic-koala
 status: publish

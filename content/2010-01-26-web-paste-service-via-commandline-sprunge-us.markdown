@@ -1,5 +1,5 @@
 ---
-date: '2010-01-26 18:28:38'
+date: 2010-01-26T18:28:38+02:00
 layout: post
 slug: web-paste-service-via-commandline-sprunge-us
 status: publish

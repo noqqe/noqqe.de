@@ -1,5 +1,5 @@
 ---
-date: '2009-12-15 22:20:44'
+date: 2009-12-15T22:20:44+02:00
 layout: post
 slug: ubuntuusers-de-planet
 status: publish

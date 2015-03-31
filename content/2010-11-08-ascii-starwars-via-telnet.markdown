@@ -1,5 +1,5 @@
 ---
-date: '2010-11-08 19:22:13'
+date: 2010-11-08T19:22:13+02:00
 layout: post
 slug: ascii-starwars-via-telnet
 status: publish

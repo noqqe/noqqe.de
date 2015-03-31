@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Enlarge your P..GP Key"
-date: 2014-03-16 17:20
+date: 2014-03-16T17:20:00+02:00
 comments: true
 categories:
 - pgp

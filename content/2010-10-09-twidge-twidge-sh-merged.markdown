@@ -1,5 +1,5 @@
 ---
-date: '2010-10-09 18:29:37'
+date: 2010-10-09T18:29:37+02:00
 layout: post
 slug: twidge-twidge-sh-merged
 status: publish

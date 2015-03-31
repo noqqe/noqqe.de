@@ -1,5 +1,5 @@
 ---
-date: '2010-06-24 21:32:29'
+date: 2010-06-24T21:32:29+02:00
 layout: post
 slug: nagios-ricoh-drucker-tonerstand-per-snmp-abfragen
 status: publish

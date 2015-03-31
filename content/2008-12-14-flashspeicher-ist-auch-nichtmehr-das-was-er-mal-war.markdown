@@ -1,5 +1,5 @@
 ---
-date: '2008-12-14 14:33:07'
+date: 2008-12-14T14:33:07+02:00
 layout: post
 slug: flashspeicher-ist-auch-nichtmehr-das-was-er-mal-war
 status: publish

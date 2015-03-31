@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "*.wma zu *.mp3"
-date: 2012-07-29 17:39
+date: 2012-07-29T17:39:00+02:00
 comments: true
 categories:
 - planetenblogger

@@ -1,5 +1,5 @@
 ---
-date: '2012-01-22 15:09:07'
+date: 2012-01-22T15:09:07+02:00
 layout: post
 slug: mysql-table-migration-zu-innodb
 status: publish

@@ -1,5 +1,5 @@
 ---
-date: '2009-12-17 11:43:13'
+date: 2009-12-17T11:43:13+02:00
 layout: post
 slug: wordpress-rss-und-planet
 status: publish

@@ -1,5 +1,5 @@
 ---
-date: '2010-06-04 18:00:22'
+date: 2010-06-04T18:00:22+02:00
 layout: post
 slug: flattr-unentschlossen-und-unterinformiert
 status: publish

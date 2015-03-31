@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Versteckte Prozessparameter in UNIX"
-date: 2014-05-23 22:14
+date: 2014-05-23T22:14:00+02:00
 comments: true
 categories:
 - ubuntuusers

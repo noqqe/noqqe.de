@@ -1,5 +1,5 @@
 ---
-date: '2009-03-02 09:17:20'
+date: 2009-03-02T09:17:20+02:00
 layout: post
 slug: comic-wtfs-pro-minute
 status: publish

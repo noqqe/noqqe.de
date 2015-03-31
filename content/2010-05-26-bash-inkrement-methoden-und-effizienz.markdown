@@ -1,5 +1,5 @@
 ---
-date: '2010-05-26 20:22:56'
+date: 2010-05-26T20:22:56+02:00
 layout: post
 slug: bash-inkrement-methoden-und-effizienz
 status: publish

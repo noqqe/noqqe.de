@@ -1,5 +1,5 @@
 ---
-date: '2009-09-18 09:13:25'
+date: 2009-09-18T09:13:25+02:00
 layout: post
 slug: nebenbei-lpic
 status: publish

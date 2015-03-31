@@ -1,5 +1,5 @@
 ---
-date: '2011-04-29 11:55:33'
+date: 2011-04-29T11:55:33+02:00
 layout: post
 slug: rt-requesttracker-stats
 status: publish

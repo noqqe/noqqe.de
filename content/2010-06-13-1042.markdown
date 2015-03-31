@@ -1,5 +1,5 @@
 ---
-date: '2010-06-13 14:23:20'
+date: 2010-06-13T14:23:20+02:00
 layout: post
 slug: '1042'
 status: publish

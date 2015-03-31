@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Trennung vom bash-it Framework - Koche nun eigenes Süppchen"
-date: 2012-08-12 20:12
+date: 2012-08-12T20:12:00+02:00
 comments: true
 categories:
 - Bash

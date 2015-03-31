@@ -1,5 +1,5 @@
 ---
-date: '2008-03-24 20:46:31'
+date: 2008-03-24T20:46:31+02:00
 layout: post
 slug: grub-und-die-anderen-komplikationen-mal-wieder
 status: publish

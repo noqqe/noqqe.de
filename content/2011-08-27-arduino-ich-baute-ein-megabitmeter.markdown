@@ -1,5 +1,5 @@
 ---
-date: '2011-08-27 13:10:02'
+date: 2011-08-27T13:10:02+02:00
 layout: post
 slug: arduino-ich-baute-ein-megabitmeter
 status: publish

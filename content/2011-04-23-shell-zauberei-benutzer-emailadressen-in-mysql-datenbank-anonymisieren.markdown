@@ -1,5 +1,5 @@
 ---
-date: '2011-04-23 18:53:04'
+date: 2011-04-23T18:53:04+02:00
 layout: post
 slug: shell-zauberei-benutzer-emailadressen-in-mysql-datenbank-anonymisieren
 status: publish

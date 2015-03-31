@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Gnome Terminator und Terminus Bitmap Font Rendering"
-date: 2012-10-19 19:50
+date: 2012-10-19T19:50:00+02:00
 comments: true
 categories:
 - Code

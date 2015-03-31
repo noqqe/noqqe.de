@@ -1,5 +1,5 @@
 ---
-date: '2011-02-07 18:04:06'
+date: 2011-02-07T18:04:06+02:00
 layout: post
 slug: duckduckgo-suche-via-firefox-addressleiste-umstellen
 status: publish

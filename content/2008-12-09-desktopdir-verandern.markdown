@@ -1,5 +1,5 @@
 ---
-date: '2008-12-09 10:18:33'
+date: 2008-12-09T10:18:33+02:00
 layout: post
 slug: desktopdir-verandern
 status: publish

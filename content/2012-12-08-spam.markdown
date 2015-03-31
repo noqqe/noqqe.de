@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Spam"
-date: 2012-12-08 13:12
+date: 2012-12-08T13:12:00+02:00
 comments: true
 categories:
 - Uberspace

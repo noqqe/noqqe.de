@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "On Hackernews"
-date: 2013-12-29 13:50
+date: 2013-12-29T13:50:00+02:00
 comments: true
 categories:
 - acrylamid

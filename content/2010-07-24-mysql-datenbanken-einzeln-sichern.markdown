@@ -1,5 +1,5 @@
 ---
-date: '2010-07-24 15:07:54'
+date: 2010-07-24T15:07:54+02:00
 layout: post
 slug: mysql-datenbanken-einzeln-sichern
 status: publish

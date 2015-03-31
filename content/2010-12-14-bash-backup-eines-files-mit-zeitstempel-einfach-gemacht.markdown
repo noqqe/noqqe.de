@@ -1,5 +1,5 @@
 ---
-date: '2010-12-14 16:33:45'
+date: 2010-12-14T16:33:45+02:00
 layout: post
 slug: bash-backup-eines-files-mit-zeitstempel-einfach-gemacht
 status: publish

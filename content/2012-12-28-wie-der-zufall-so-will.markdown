@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Wie der Zufall so will."
-date: 2012-12-28 20:15
+date: 2012-12-28T20:15:00+02:00
 comments: true
 categories:
 - ubuntuusers

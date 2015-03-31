@@ -1,5 +1,5 @@
 ---
-date: '2010-03-16 19:19:58'
+date: 2010-03-16T19:19:58+02:00
 layout: post
 slug: event-chemnitzer-linux-tage
 status: publish

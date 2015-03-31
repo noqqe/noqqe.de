@@ -1,5 +1,5 @@
 ---
-date: '2008-09-10 09:38:14'
+date: 2008-09-10T09:38:14+02:00
 layout: post
 slug: ubuntu-904-heist-jaunty-jackalope
 status: publish
