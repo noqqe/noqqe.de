@@ -78,6 +78,10 @@ html {
 .sidebar p {
   color: rgba(255,255,255,.7);
   font-size: 17px;
+  position: absolute; 
+  bottom: 0; 
+  right:  2rem;
+  left:  2rem;
 }
 /* About section */
 .sidebar-about h1 {
