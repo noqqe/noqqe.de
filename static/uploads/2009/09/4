@@ -1,0 +1,27 @@
+.
+|-- teeworlds1
+|   |-- data
+|   |-- dm.cfg
+|   |-- license.txt
+|   |-- readme.txt
+|   `-- teeworlds_srv
+|-- teeworlds2
+|   |-- data
+|   |-- dm.cfg
+|   |-- license.txt
+|   |-- readme.txt
+|   `-- teeworlds_srv
+|-- teeworlds3
+|   |-- data
+|   |-- dm.cfg
+|   |-- license.txt
+|   |-- readme.txt
+|   `-- teeworlds_srv
+`-- teeworlds4
+    |-- data
+    |-- dm.cfg
+    |-- license.txt
+    |-- readme.txt
+    `-- teeworlds_srv
+
+8 directories, 16 files

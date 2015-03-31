@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head><title>Einf&uuml;hrung eines zentralen Versionskontrollsystems</title></head>
+
+<meta name="copyright" content="Copyright &#169; 2011 Florian Baumann" />  <!-- Add a copyright notice which will be seen in the footer of your presentation -->
+
+<!-- <link rel="stylesheet" type="text/css" media="screen, projection, print" href="slidy.css" /> -->
+ <link rel="stylesheet" type="text/css" media="screen, projection, print" href="w3c-blue2.css" /> 
+ <script src="slidy.js" charset="utf-8" type="text/javascript"></script>
+ <style type="text/css">
+ </style>
+</head>
+<body>
+
+  
+<!-- HEADER ########################################################### -->
+  <div class="background"> 
+  <img src="tmt_logo_150.png" />
+  </div>
+
+<!-- ################################################################## -->
+<div class="slide cover">
+ 
+ <br clear="all" />
+ <h1><br/>Schulung zur Einf&uuml;hrung des zentralen Versionskontrollsystems</h1>
+ <p><br/><br/><br/>
+	<img src="tmt_logo_small.png" alt="Cover page images" /><br/>
+	<a href="http://tmt.de">Florian Baumann</a><br/>
+	Berufsschule 1, IFS12b<br/>
+	Bayreuth<br/>
+ 	<a href="mailto:florian.baumann@tmt.de">florian.baumann@tmt.de</a><br/>
+ </p>
+</div>
+  
+<!-- ################################################################ -->
+
+  <div class="slide">
+    <center><h1>Umfeld des Projekts</h1></center>
+    
+    <ul>
+    <center><img src="tmt-network.png"></center>
+    </ul>
+  </div>
+  
+<!-- ################################################################ -->
+
+  <div class="slide">
+    <center><h1>Ist-Zustand</h1></center>
+    
+    <ul><b>Situation:</b><br><br>
+        <li>Wachsende Server Infrastruktur</li>
+        <li>Wachsende Anzahl der Systembetreuer</li>
+        <li>Komplexere Kundensetups</li>
+        <li>Sensible Dienste und Applikationen</li>
+        <li>M&uuml;hsames Wiederherstellen alter Konfigurationen</li>
+        <li>Schwere Nachvollziehbarkeit innerhalb der Systeme</li>
+        <li>Keine einheitliche Sammelstelle f&uuml;r Konfigurationen vorhanden</li>
+    </ul>
+    
+  </div>
+  
+<!-- ################################################################ -->
+  
+ <div class="slide">
+    <center><h1>Soll-Zustand</h1></center>
+    <ul>
+        <b>Anforderungen</b><br><br>
+        <li>Generelles Konzept zur Serveradministration</li>
+        <li>Nachvollziehbarkeit</li>
+        <li>Wiederherstellbarkeit</li>
+        <li>Sicherheit</li>
+        <li>Zentrale Sammelstelle f&uuml;r Konfigurationen</li>
+    </ul>
+  </div>
+
+<
+<!-- ################################################################ -->
+
+    <div class="slide">
+    <center><h1>Was ist ein Versionskontrollsystem?</h1></center>
+    
+    <ul><b>Versionskontrollsysteme (oder Versionsverwaltungssysteme):</b><br><br>
+        <li>Generell f&uuml;r Betreuung von Software Projekten entwickelt</li>
+        <li>Erm&ouml;glicht verteiltes Arbeiten mehrerer Entwickler</li>
+        <li>Bietet Werkzeuge f&uuml;r professionelle Software Entwicklung</li>
+    </ul><br>
+    
+    <ul><b>Klassische Funktionen eines VCS:</b><br><br>
+            <li>Splitten separater Arbeitsschritte via "Commits"</li>
+            <li>History bzw. Verlauf des Projekts</li>
+            <li>&Auml;nderungen zwischen Commits anzeigen</li>
+            <li>Austausch von get&auml;tigten Commits zu anderen Entwicklern</li>
+        </ul>
+    </ul>
+  </div>
+  
+<!-- ################################################################ -->
+
+ <div class="slide">
+    <center><h1>Das TMT Versionskontrollsystem</h1></center>
+    <center><img src="vcs-network.png"></center>
+ </div>
+ 
+ <!-- ################################################################ -->
+
+  <div class="slide">
+    <center><h1>Umgang mit dem TMT Versionskontrollsystem</h1></center>
+    <center><img src="vcs-software.png"></center>
+  </div>
+
+
+<!-- ################################################################ -->
+ 
+ <div class="slide">
+    <center><h1>Arbeiten mit git & etckeeper</h1></center>
+    
+    <ul><b>Anlegen einer neuen Subdomain</b><br/><br/>
+         <li><code>$ ssh admin@ftp.tmt.de</code></li>
+         <li><code>$ vim /etc/apache2/sites-availabe/www.kunde1.de</code></li>
+         <li><code>$ /etc/init.d/apache2 reload</code></li>
+         <li><font color="green"><code>$ git commit -m "neue Subdomain portal.kunde1.de eingetragen -- mitarbeiter1"</code></font></li>
+    </ul>
+  </div>
+
+<!-- ################################################################ -->
+ 
+ <div class="slide">
+    <center><h1>Arbeiten mit git & etckeeper</h1></center>
+    
+    <ul><b>Fehlerquellen analysieren</b><br/><br/>
+         <li><code>$ ssh admin@mail.kunde2.com</code></li>
+         <li><pre><font color="green">$ git log --oneline
+93002c4 Anti-Spam laut Ticket #11023 angepasst -- mitarbeiter4
+a6262ed Neues Postfach mustermann@kunde2.com angelegt
+33efadd committing changes in /etc after apt run
+950d503 daily autocommit
+54ad988 Neuen Verteiler verwaltung@kunde2.com angelegt -- mitarbeiter2</font>
+</li>
+         <li>$ vim /etc/postfix/main.cf</li>
+    </ul>
+  </div>
+  
+<!-- ################################################################ -->
+
+
+<div class="slide">
+    <center><h1>Arbeiten mit git & etckeeper</h1></center>
+    
+    <ul><b>Installation zus&auml;tzlicher Software</b><br/><br/>
+    <li><pre>$ git blame /etc/apache2/sites-available/www.kunde1.de   <font size="5" color="green">
+668b7780 (Florian Baumann 2011-05-18 12:01:20  1) &#60;Virtualhost *:80&#62;
+668b7780 (Florian Baumann 2011-05-18 12:01:20  2)    # General
+668b7780 (Florian Baumann 2011-05-18 12:01:20  3)    ServerName kunde1.de
+668b7780 (Florian Baumann 2011-05-18 12:01:20  4)    ServerAdmin info@kunde1.de
+668b7780 (Florian Baumann 2011-05-18 12:01:20  5)    ServerAlias www.kunde1.de
+bc7e1617 (Mitarbeiter 4 2011-05-25 16:03:33    6)    ServerAlias portal.kunde1.de
+bc7e1617 (Mitarbeiter 4 2011-05-25 16:03:33    7)    ServerAlias www.portal.kunde1.de
+668b7780 (Florian Baumann 2011-05-18 12:01:20  8)    DocumentRoot /var/www/www.kunde1.de
+668b7780 (Florian Baumann 2011-05-18 12:01:20  9)    Options All
+668b7780 (Florian Baumann 2011-05-18 12:01:20 10) &#60;/Virtualhost&#62;</font>
+</pre></li>
+    </ul>
+  </div>
+
+<!-- ################################################################ -->
+
+ <div class="slide">
+    <center><h1>Arbeiten mit git & etckeeper</h1></center>
+    
+    <ul><b>Installation zus&auml;tzlicher Software</b><br/><br/>
+         <li><code>$ ssh admin@kundenserver3.tmt.de</code></li>
+         <li><pre>$ aptitude install postfwd
+Richte postfwd ein ...
+<font color="green">[master a6262ed] committing changes in /etc after apt run
+Author: TMT Admin <code>&#60;admin@tmt.de&#62;</code>
+23 files changed, 130 insertions(+), 6 deletions(-)
+delete mode 120000 alternatives/Mail
+delete mode 120000 alternatives/Mail.1.gz
+[...]
+create mode 100644 default/postfwd
+create mode 100755 init.d/postfwd</font>
+Paketlisten werden gelesen... Fertig             
+</pre></li>
+    </ul>
+  </div>
+  
+
+  
+
+<!-- ################################################################ -->
+
+
+  <div class="slide">
+    <center><h1>Umgang mit dem TMT Versionskontrollsystem</h1></center>
+    
+    <ul><b>Konfigurationen &uuml;bertragen:</b><br/><br/>
+         <li>Zentraler Server automatisch in /etc/.git hinterlegt</li>         
+         <li>Senden:</li>        
+         <pre><font color="green">$ git push</font></pre>
+         <li>Empfangen:</li>
+         <pre><font color="green">$ git pull</font></pre>
+    </ul>
+  </div>
+
+
+<!-- ################################################################ -->
+
+<div class="slide">
+    <center><h1>Weiteres Informationsmaterial</h1></center>
+        <ul><b>Hilfreiche Links und Tutorials zu git und etckeeper</b><br/><br/>
+         <li>Pro git <a href="http://progit.org/book/">http://progit.org/book/</a></li>         
+         <li>etckeeper How-To <a href="http://git.kitenet.net/?p=etckeeper.git;a=blob_plain;f=README">http://git.kitenet.net/</a></li>        
+         <li>git Manpages <a href="http://www.kernel.org/pub/software/scm/git/docs/">http://www.kernel.org/pub/software/scm/git/docs/</a></li>
+    </ul>
+  </div>
+
+  </div>
+  
+  <!-- ################################################################## -->
+<div class="slide cover">
+ 
+ <br clear="all" />
+ <h1><br/>Vielen Dank f&uuml;r die Aufmerksamkeit</h1>
+ <p><br/><br/><br/>
+	<img src="tmt_logo_small.png" alt="Cover page images" /><br/>
+	<a href="http://tmt.de">Florian Baumann</a><br/>
+	Berufsschule 1, IFS12b<br/>
+	Bayreuth<br/>
+ 	<a href="mailto:florian.baumann@tmt.de">florian.baumann@tmt.de</a><br/>
+ </p>
+</div>
+
+<!-- ################################################################ -->
+
+</body>
+</html>

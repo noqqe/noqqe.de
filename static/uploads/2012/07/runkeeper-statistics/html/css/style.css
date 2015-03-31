@@ -1,0 +1,210 @@
+
+/*
+ * stylesheet
+ *
+ */
+
+body {
+	padding: 0;
+	margin: 0;
+	background-image: url('../images/background.jpg');
+	background-repeat: repeat;
+	background-color: #2A2A2A;
+	font-family: "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+	font-size: 13px;
+	font-variant: normal;
+	color: #FFF;
+}
+
+p {
+	line-height: 1.4em;
+}
+
+#wrapper {
+	padding: 0;
+	margin: 2em auto;
+	width: 660px; /* 640px of content, 20px for double 10px padding */
+}
+
+#header {
+	padding: 0;
+	margin-bottom: 1em;
+	text-align: center;
+}
+
+#header h1 {
+    font-family: 'Viga', sans-serif;
+	font-size: 48px;
+}
+
+#header h1 .green {
+	/* color: #C0FF3E; */
+    color: #1874CD;
+}
+
+
+#content {
+	padding: 10px;
+	margin-top: 1em;
+	background-color: #2A2A2A;
+	/* background-color: #000; */
+	color: #FFF;
+	/* opacity: 0.3; 
+	-moz-opacity: 0.3;
+	-khtml-opacity: 0.3;
+	-webkit-opacity: 0.3; */
+}
+
+#content h2 {
+	padding: 0;
+	margin: 0;
+	margin-top: 1em;
+	margin-bottom: 1em;
+    color: #1874CD;
+    font-family: 'Viga', sans-serif;
+}
+
+#content h2.first {
+	padding: 0;
+	margin: 0;
+	margin-top: 0.2em;
+	margin-bottom: 1em;
+}
+
+#content h3 {
+    color: #1874CD;
+    font-family: 'Fredoka One', cursive;
+}
+
+#gamebox {
+	font-family: Courier, "Courier New", monospace;
+	font-size: 12px;
+	line-height: 16px;
+}
+
+#footer {
+	padding: 10px;
+	margin-top: 1em;
+	background-color: #000;
+	color: #FFF;
+	line-height: 18px;
+	opacity: 0.3;
+	-moz-opacity: 0.3;
+	-khtml-opacity: 0.3;
+	-webkit-opacity: 0.3;
+}
+
+
+/*
+ * links
+ *
+ */
+ 
+a, a:link, a:visited, a:active {
+    color: #1874CD;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+
+/*
+ * CSS Dropdown Navigation.
+ * Note: I'm always writing navigatoin instead of navigation ~ wondering why #navigatoin doesn't work :)
+ *
+ */
+
+#menuh-container {
+
+}
+
+#menuh {
+	margin: 0;
+}
+		
+#menuh a {
+	text-align: center;
+	display: block;
+	white-space: nowrap;
+	margin: 0;
+	margin-right: 1px;
+	margin-bottom: 1px;
+	padding: 5px 10px 5px 10px;
+	font-weight: bold;
+    color: #FFF;
+}
+	
+#menuh a:link, #menuh a:visited, #menuh a:active {
+	background-color: #2A2A2A;
+	text-decoration:none;
+}
+	
+#menuh a:hover {
+	background-color: #2A2A2A;
+	text-decoration:none;
+	opacity: 1;
+}	
+
+#menuh ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	float: left;
+	width: 124px;
+}
+
+#menuh li {
+	position: relative;
+	min-height: 1px;		
+	vertical-align: bottom;		
+}
+
+#menuh ul ul
+	{
+	position:absolute;
+	z-index:500;
+	top:auto;
+	display:none;
+	padding: 1em;
+	margin:-1em 0 0 -1em;
+	}
+
+#menuh ul ul ul
+	{
+	top:0;
+	left:100%;
+	}
+
+div#menuh li:hover {
+	z-index:100; */
+}
+
+div#menuh li:hover ul ul, div#menuh li li:hover ul ul, div#menuh li li li:hover ul ul, div#menuh li li li li:hover ul ul {
+	display: none;
+}
+
+div#menuh li:hover ul, div#menuh li li:hover ul, div#menuh li li li:hover ul, div#menuh li li li li:hover ul {
+	display: block;
+}
+
+
+/*
+ * classes
+ *
+ */
+
+.clear_left {
+	clear: left; 
+}
+
+
+/*
+ * awesomeness
+ *
+ */
+ 
+.fork-me {
+	position: absolute;
+	top: 0;
+	left: 0;
+	border: 0;
+}

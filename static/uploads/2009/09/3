@@ -1,0 +1,12 @@
+sv_name zwetschge.org X1 [GER][DM]
+sv_map dm1
+sv_maprotation dm1 dm6 dm8
+sv_scorelimit 20
+sv_timelimit 20
+sv_gametype dm
+sv_rcon_password 
+sv_motd Infos unter zwetschge.org oder noqqe.de oder mail@zwetschge.org
+sv_max_clients 10
+sv_spectator_slots 2
+sv_register
+sv_port 8303

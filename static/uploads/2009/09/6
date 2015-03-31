@@ -1,0 +1,3 @@
+#!/bin/bash
+echo "use maildb; insert into aliases values ('$1', '$2');" | mysql -u <user> --password=<pass>
+echo "use maildb; select * from aliases where address = '$1';" | mysql -u <user> --password=<pass>

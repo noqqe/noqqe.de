@@ -1,0 +1,5 @@
+#!/bin/bash
+/home/teeworlds/teeworlds1/teeworlds_srv -f /home/teeworlds/teeworlds1/dm.cfg >> /var/log/teeworlds1.log &
+/home/teeworlds/teeworlds2/teeworlds_srv -f /home/teeworlds/teeworlds2/dm.cfg >> /var/log/teeworlds2.log & 
+/home/teeworlds/teeworlds3/teeworlds_srv -f /home/teeworlds/teeworlds3/dm.cfg >> /var/log/teeworlds3.log & 
+/home/teeworlds/teeworlds4/teeworlds_srv -f /home/teeworlds/teeworlds4/dm.cfg >> /var/log/teeworlds4.log & 

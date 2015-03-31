@@ -1,0 +1,17 @@
+find . -iname '*.png' -exec echo '<br><img src="{}">' \; > gallery.html
+\__/ | \___________/  \________/ \___________________/ |  \___________/
+  |  |       |             |               |           |        |
+  |  |       |             |               |           |        \- Ausgeben nach
+  |  |       |             |               |           |           gallery.html
+  |  |       |             |               |           |
+  |  |       |             |               |           \- find Syntax Ende.
+  |  |       |             |               |
+  |  |       |             |               \- mit folgendem Inhalt aus.
+  |  |       |             |
+  |  |       |             \- und führe echo
+  |  |       |
+  |  |       \- alle Dateien die mit .png enden
+  |  |
+  |  \- im aktuellen Verzeichnis
+  |
+  \- Finde (via find)

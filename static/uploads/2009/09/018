@@ -1,0 +1,144 @@
+# all futurama quotes from slashdot.org http-header
+# target="file" ; while true ; do quote="$(curl -Is slashdot.org |sed -n '5p' |sed 's/^X-//')" ; if [ $(grep "$quote" $target |wc -l) -lt 1 ]; then echo $quote >> $target ; echo $quote ; sleep 1 ; fi ; done
+# collected by noqqe.de
+Bender: Stop doing the right thing, you jerk!
+Fry: You mean Bender is the evil Bender? I'm shocked! Shocked! Well not that shocked.
+Bender: Alright! Closure!
+Bender: You just lost five dollars.
+Fry: Make up some feelings and tell her you have them.
+Bender: The laws of science be a harsh mistress.
+Fry: That doesn't look like an "L", unless you count lower case.
+Bender: When will man learn that all races are equally inferior to robots?
+Bender: I'm an outdated piece of junk.
+Fry: The less fortunate get all the breaks!
+Bender: Since I love you all so much, I'd like to give everyone hugs.
+Fry: There's a lot about my face you don't know.
+Bender: Hooray, we don't have to do anything!
+Bender: An upgrade? I thought we all agreed I was perfect.
+Fry: You'll barely regret this.
+Bender: Ah crap, I'm some sort of robot!
+Bender: Wait! My cheating unit malfunctioned! You gotta give me a do-over!
+Leela: No, Leela will show you out.
+Bender: Bender's a genius!
+Fry: Robots don't go to heaven.
+Bender: Bite my shiny, metal ass!
+Hermes: Without my body, I'm a nobody.
+Bender: Why would God think in binary?
+Bender: Care to contribute to the Anti-Mugging-You Fund?
+Bender: Try this, kids at home!
+Bender: Float like a floatbox, sting like an automatic stingin' machine.
+Bender: Let's commence preparations for rumbling!
+Bender: My full name is Bender Bending Rodriguez.
+Leela: I'm a millionaire! Suddenly I have an opinion about the capital gains tax.
+Fry: Why use my own legs like an idiot when I can use a Chickenwalker?
+Bender: Curse my natural showmanship!
+Fry: It's all there, in the macaroni.
+Fry: I must be a robot. Why else would human women refuse to date me?
+Bender: But-- those girls don't wear cases! You can see their bare circuits!
+Bender: In the event of an emergency, my ass can be used as a flotation device.
+Bender: Nothing like a warm fire and a super-soaker of fine cognac.
+Fry: It's like a party in my mouth and everyone's throwing up.
+Bender: I'm not allowed to sing. Court order.
+Bender: And I bet it's gonna get a lot more confusing.
+Bender: Whoever's directing this is a master of suspense!
+Fry: Existing is basically all I do!
+Fry: I don't regret this, but I both rue and lament it.
+Fry: It's a widely-believed fact!
+Fry: People said I was dumb but I proved them!
+Bender: We're both expressible as the sum of two cubes!
+Bender: This guy's not making any sense. Can I kill him? Please?
+Bender: I'm a fraud. A poor, lazy, sexy fraud.
+Fry: I haven't had time off since I was twenty-one through twenty-four.
+Fry: No, no, I was just picking my nose.
+Bender: OK, but I don't want anyone thinking we're robosexuals.
+Bender: Comedy's a dead art form. Now tragedy -- THAT'S funny.
+Bender: I only know enough binary to ask where the bathroom is.
+Bender: I've gone too far! Who does that guy think I am?
+Bender: Yes! I got the most! I win X-Mas!
+Bender: Farewell, big blue ball of idiots!
+Fry: How can I live my life if I can't tell good from evil?
+Fry: I'm literally angry with rage!
+Leela: Do you have idiots on your planet?
+Bender: The sparks keep me warm.
+Fry: Hooray, we don't have to do anything!
+Fry: I'm going to continue never washing this cheek again.
+Leela: You did the best you could, I guess, and some of these gorillas are okay.
+Fry: I'm gonna be a science fiction hero, just like Uhura, or Captain Janeway, or Xena!
+Bender: Listen up, cause I got a climactic speech.
+Bender: Aw, this bends!
+Bender: I'm tired of this room and everyone in it!
+Leela: This toads the wet sprocket.
+Bender: Gimme your biggest, strongest, cheapest drink.
+Bender: My life, and by extension everyone else's, is meaningless.
+Bender: Boy, who knew a cooler could also make a handy wang coffin?
+Bender: They're tormenting me with uptempo singing and dancing!
+Fry: Leela, Bender, we're going grave-robbing.
+Fry: But this is HDTV. It's got better resolution than the real world.
+Fry: Leela, there's nothing wrong with anything.
+Bender: Well I don't have anything else planned for today, let's get drunk!
+Bender: Would we have donkeys?
+Fry: The spoon's in the foot powder.
+Fry: I have more important things to do today than laugh and clap my hands.
+Bender: I'm so embarrassed. I wish everybody else was dead.
+Bender: I hate people who love me. And they hate me.
+Leela: This wangs chung.
+Bender: Down with Bender!
+Bender: I'm one of those lazy, homeless bums I've been hearing about.
+Leela: There's a political debate on. Quick, change the channel!
+Fry: How about me? I'm human, and I've always wanted to see the future!
+Bender: Life is hilariously cruel.
+Bender: Fry, of all the friends I've had ... you're the first.
+Fry: There's a political debate on. Quick, change the channel!
+Fry: I can burp the alphabet. A, B, D ... no, wait ...
+Fry: They're great! They're like sex except I'm having them.
+Bender: Shooting DNA at each other to make babies. I find it offensive!
+Bender: There! That oughtta convert a few tailgaters.
+Fry: Sweet justice! Sweet, juicy justice!
+Bender: Ahhh, functional.
+Bender: Curse you, merciful Poseidon!
+Bender: Now that's hospital dancing.
+Bender: Oh, so, just 'cause a robot wants to kill humans that makes him a radical?
+Fry: The butter in my pocket is melting!
+Bender: Senseless death! The folk singer's best friend!
+Fry: What kind of bozos would start a Bender protest group?
+Bender: I choose to not understand these signs!
+Bender: I only speak enough binary to ask where the bathroom is.
+Bender: Woohoo, I'm popular!
+Bender: Professor! Make a woman out of me!
+Bender: Emotions are dumb and should be hated.
+Fry: I refuse to testify on the grounds that my organs will be chopped up into a patty.
+Fry: Can I pull up my pants now?
+Bender: Bender knows when to use finesse.
+Bender: Stupid anti-pimping laws!
+Bender: Like most of life's problems, this one can be solved with bending.
+Bender: Lick my frozen, metal ass!
+Fry: Stop abducting me!
+Bender: I am a hideous triumph of form and function.
+Bender: Whaddya say, folks? Hot or not?
+Bender: nogoodlawsprotectingtheinnocent--
+Bender: Are you familiar with the old robot saying "does not compute"?
+Bender: That's not my gold-plated 25-pin connector.
+Fry: Hey look, it's that guy you are!
+Fry: I did it! And it's all thanks to the books at my local library.
+Fry: Prepare to be thought at!
+Bender: A woman like that you gotta romance first!
+Bender: You can't count on God for jack! He pretty much told me so himself.
+Leela: This is by a wide margin the least likely thing that has ever happened.
+Bender: Oh no! Not the magnet!
+Leela: He opened up relations with China. He doesn't want to hear about your ding-dong.
+Fry: I'm not a robot like you -- I don't like having disks crammed into me. Unless they're Oreos. And then only in the mouth.
+Bender: Boy, were we suckers!
+Leela: My old life wasn't as glamorous as my webpage made it look.
+Bender: Fathero!
+Fry: I'll be whatever I wanna do.
+Bender: Want me to smack the corpse around a little?
+Bender: Crippling pain? That's not covered by my insurance fraud.
+Bender: Hey Fry, I'm steering with my ass!
+Fry: These new hands are great. I'm gonna break them in tonight.
+Fry: Please, Mr. Nixon! We're appealing to your sense of decency!
+Fry: Where's Captain Bender? Off catastrophizing some other planet?
+Bender: The modern world can bite my splintery, wooden ass!
+Fry: My hands! My horrible, human hands!
+Fry: I'm never gonna get used to the thirty-first century. Caffeinated bacon?
+Fry: That's a chick show. I prefer programs of the genre: World's Blankiest Blank.
+Fry: Hardy Boys: too easy. Nancy Drew: too hard!

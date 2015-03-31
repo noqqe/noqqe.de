@@ -1,0 +1,49 @@
+zwetschge:/var/log# fail2ban-regex 'Tue Feb  23 23:46:36 2010 [pid 3186] [Administrator] FAIL LOGIN: Client "221.214.180.169"' '.* FAIL LOGIN: Client "<HOST>"$'
+
+Running tests
+=============
+
+Use regex line : .* FAIL LOGIN: Client "<HOST>"$
+Use single line: Tue Feb  23 23:46:36 2010 [pid 3186] [Administrato...
+
+
+Results
+=======
+
+Failregex
+|- Regular expressions:
+|  [1] .* FAIL LOGIN: Client "<HOST>"$
+|
+`- Number of matches:
+   [1] 1 match(es)
+
+Ignoreregex
+|- Regular expressions:
+|
+`- Number of matches:
+
+Summary
+=======
+
+Addresses found:
+[1]
+    221.214.180.169 (Tue Feb 23 23:46:36 2010)
+
+Date template hits:
+0 hit(s): Month Day Hour:Minute:Second
+2 hit(s): Weekday Month Day Hour:Minute:Second Year
+0 hit(s): Weekday Month Day Hour:Minute:Second
+0 hit(s): Year/Month/Day Hour:Minute:Second
+0 hit(s): Day/Month/Year Hour:Minute:Second
+0 hit(s): Day/Month/Year:Hour:Minute:Second
+0 hit(s): Year-Month-Day Hour:Minute:Second
+0 hit(s): Day-Month-Year Hour:Minute:Second[.Millisecond]
+0 hit(s): TAI64N
+0 hit(s): Epoch
+0 hit(s): ISO 8601
+
+Success, the total number of match is 1
+
+However, look at the above section 'Running tests' which could contain important
+information.
+

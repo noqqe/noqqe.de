@@ -1,0 +1,59 @@
+#!/bin/bash
+# mailrequest does my daily work in much less time
+# jut by requesting standard querys to a default mailserver.
+#
+# written by Florian Baumann <flo@noqqe.de> 06-2010
+# mailrequest is licensed under GPLv3. 
+# See /usr/share/common-licenses/GPL-3 for details.
+
+## vars
+modus=$1 ; query=$2 ; host=$3
+# defaults
+defaulthost=mail.domain.de
+
+## functions
+# searching actual logfile
+search () {
+    ssh root@${host:-$defaulthost} "grep $query /var/log/mail.log"
+    exit 0
+}
+# searching all logfiles
+recursive () {
+    ssh root@${host:-$defaulthost} "grep $query /var/log/mail.log ; zgrep $query /var/log/mail.log.*.gz"
+    exit 0
+}
+# quota lookup for mailaddress in $query
+quota () {
+    echo "looking up for quota from $query on ${host:-$defaulthost}"
+    user=$(echo $query | sed -e 's/\(.*\)\@.*/\1/g')
+    domain=$(echo $query | sed -e 's/.*\@\(.*\)/\1/g')
+    owner=$(ssh root@${host:-$defaulthost} "if [ -d /var/spool/imap/${domain}/${user}/ ]; then \
+    ls -ld /var/spool/imap/${domain}/${user}/ ; fi " | awk '{print $3}')
+    if [ -z $owner ]; then echo "user not found" ; exit 4 ; fi
+    ssh root@${host:-$defaulthost} "repquota -avu | grep $owner"
+    exit 0
+}
+helpmsg () {
+    echo -e "usage:"
+    echo -e "  mailrequest [options] pattern [server]"
+    echo -e "options:"
+    echo -e "  -s\t search for pattern in mail.log"
+    echo -e "  -r\t search for pattern in mail.log and mail.log.*.gz"
+    echo -e "  -q\t get quota from user. full address necessary"
+    echo -e "  --help\t print this"
+    exit 0
+}
+
+## security checks
+# parameters
+if [ $# -gt 3 -o $# -lt 1 ]; then helpmsg ; fi
+if [ -z $modus ] || [ -z $query ]; then helpmsg ; fi
+
+## usage case
+case $modus in 
+-s) search ;;
+-r) recursive ;; 
+-q) quota ;;
+--help|*) helpmsg ;;
+esac
+
