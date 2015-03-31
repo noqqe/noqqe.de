@@ -50,19 +50,19 @@ SCCS nur Diffs vom letzten zum neuen Commit speichert.
 
 Das hab ich mal nachgebaut, kommt schon hin:
 
-{% codeblock lang:bash %}
+``` bash 
 $ time git add .
 real  0m38.405s
 user  0m17.121s
 sys 0m2.620s
-{% endcodeblock %}
+```
 
-{% codeblock lang:bash %}
+``` bash 
 $ time git commit -a -m "init"
 real  0m26.078s
 user  0m6.132s
 sys 0m1.660s
-{% endcodeblock %}
+```
 
 Nachvollziehbar, dass git länger dafür braucht alle Files zu kopieren als SCCS
 mit "Ah, hier ist noch ein File, schreib ich den Namen des Files mal in meine Liste".
@@ -80,7 +80,7 @@ Platzbedarf mit GIT geschätzt: ca. 15 TB
 
 Ich war so frei das einfach mal (aus zeitlichen Gründen mit 1 Mio. Files) nachzustellen:
 
-{% codeblock lang:bash %}
+``` bash 
 #!/bin/bash
 touch test
 git add test
@@ -90,14 +90,14 @@ time while [ $C -le 1004225 ]; do
   git commit -a -m "$C"
   ((C++))
 done
-{% endcodeblock %}
+```
 
 Größe nach dem Command:
 
-{% codeblock lang:bash %}
+``` bash 
 $ du -sh /tmp/1miocommits/
 12G .
-{% endcodeblock %}
+```
 
 Ich bin mir nicht sicher was Jörg hier genau getan hat. Meine Testwerte
 unterscheiden sich jedenfalls erheblich von dem, was im Vortrag vorkommt.

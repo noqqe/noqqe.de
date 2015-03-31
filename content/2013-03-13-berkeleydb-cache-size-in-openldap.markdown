@@ -19,21 +19,21 @@ Performance Tuning für OpenLDAP schlauzulesen.
 Das Default Backend `BDB` kann eigentlich Out-of-the-Box benutzt werden. Sobald
 ein paar Objects im DIT sind begegnet einem aber schnell die Cache Size.
 
-{% codeblock %}
+```
 $ slapindex
 51252ecd bdb_db_open: warning - no DB_CONFIG file found in directory /usr/local/var/openldap-data: (2).
 Expect poor performance for suffix "dc=noqqe,dc=de".
-{% endcodeblock %}
+```
 
 ### Welche Files sind interessant?
 
 Um die Files der Berkely DB zu finden und auswerten zu können werden extra Tools
 benötigt.
 
-{% codeblock lang:bash %}
+``` bash 
 $ aptitude install db-util
 $ db_stat -h /usr/local/var/openldap-data/ -m
-{% endcodeblock %}
+```
 
 So werden erstmal alle statistischen Daten zu den einzelnen Datenbankfiles
 ausgegeben. Zwei dieser Files kommen bei OpenLDAP eine besondere Aufgabe zu.
@@ -45,7 +45,7 @@ Zuerst wird man etwas erschlagen von Werten. Wenn man weiss nach was
 man suchen muss, ist aber nur noch wenig Aufwand nötig um die richtigen
 Werte rauzusuchen.
 
-{% codeblock %}
+```
 $ db_stat -h /usr/local/var/openldap-data/ -d dn2id.bdb
 
 Fri Mar  8 09:11:16 2013  Local time
@@ -69,15 +69,15 @@ duplicates, sorted duplicates Flags
 0 Number of bytes free in tree overflow pages (0% ff)
 0 Number of empty pages
 0 Number of pages on the free list
-{% endcodeblock %}
+```
 
 Das einzig wichtige dabei ist folgendes Extrakt:
 
-{% codeblock %}
+```
 4096  Underlying database page size
 3 Number of tree internal pages
 29  Number of tree leaf pages
-{% endcodeblock %}
+```
 
 Die Page Size bei dn2id.bdb ist abhängig vom darunter liegenden Filesystem. Also
 ein Stück weit generisch. Anders bei id2entry.
@@ -91,7 +91,7 @@ $ db_stat -h /usr/local/var/openldap-data/ -d id2entry.bdb
 16384 Underlying database page size
 1 Number of tree internal pages
 29  Number of tree leaf pages
-{% endcodeblock %}
+```
 
 ### Berechnung der Cache Size
 
@@ -110,18 +110,18 @@ Variante 1:
 
 Direkt in der von BDB dafür vorgesehenen Datei `DB_CONFIG`
 
-{% codeblock %}
+```
 vim /usr/local/var/openldap-data/DB_CONFIG
 # Cache      GB  Bytes   Anzahl
 set_cachesize 0  643072  1
-{% endcodeblock %}
+```
 
 Variante 2:
 
 oder in der `/usr/local/etc/openldap/slapd.conf` - Sektion Backend/Database
 
-{% codeblock %}
+```
 dbconfig set_cachesize 0 643072 1
-{% endcodeblock %}
+```
 
 Noch einen kurzen `slapindex` und der Cache ist aktiv.

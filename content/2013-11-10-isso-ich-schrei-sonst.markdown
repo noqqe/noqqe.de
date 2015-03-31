@@ -27,10 +27,10 @@ Abweichend von der Anleitung die auf Debian/Ubuntu Systeme abziehlt ist die
 Installation dank guter Python Packages unter [OpenBSD](http://openbsd.org)
 easy.
 
-{% codeblock lang:bash %}
+``` bash 
 $ sudo pkg_add py-pip
 $ sudo pip install isso
-{% endcodeblock %}
+```
 
 Der Rest läuft dann genauso, wie unter anderen Distributionen auch. Zusätzlich
 habe ich noch ein [kleines Daemon Skript](https://gist.github.com/noqqe/7397719) für OpenBSD geschrieben, damit das neue

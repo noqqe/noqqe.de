@@ -30,11 +30,11 @@ Gewünscht ist ein File das alle Datensätze des Subsets enthält.
 
 Die gewohnte Pauschallösung für derartige Probleme. Ganz im Bash-Admin-Stil
 
-{% codeblock lang:bash %}
+``` bash 
 $ time for x in $(cat idsubset.txt) ; do
 >  grep ^$x dataset.csv
 > done > result.csv
-{% endcodeblock %}
+```
 
 Nur leider kommen dabei ganze 1,5 Records pro Sekunde heraus, was alles in allem
 in über 2 Wochen Rechenzeit endet. `IOwait` enstand dabei nicht.
@@ -44,12 +44,12 @@ in über 2 Wochen Rechenzeit endet. `IOwait` enstand dabei nicht.
 16 Core-Maschine. Einfach härter parallel greppen. [GNU parallel](https://www.gnu.org/software/parallel/)
 hatte ich 2012 einmal [ausprobiert](https://noqqe.de/blog/2012/01/08/gnu-parallel/).
 
-{% codeblock lang:bash %}
+``` bash 
 $ cat idsubset.txt | time parallel 'grep -m 1 ^{} dataset.csv' > result.csv
 [...]
 Command terminated by signal 2
 13165.04user 56967.06system 1:23:04elapsed 1406%CPU (0avgtext+0avgdata 40816maxresident)k
-{% endcodeblock %}
+```
 
 Nach knapp 90 Minuten war das gute Stück bei ca. 80% des Files angekommen.
 Annehmbar, auch wenn die Cores und der RAM der Kiste damit gut beschäftigt
@@ -59,7 +59,7 @@ waren.
 
 Das effizienteste war allerdings `join` aus den [GNU core utilities](https://www.gnu.org/software/coreutils/)
 
-{% codeblock lang:bash %}
+``` bash 
 $ sort idsubset.txt > sidsubset.txt
 $ sort dataset.csv > sdataset.csv
 $ time join sidsubset.txt sdataset.csv > result.txt
@@ -67,7 +67,7 @@ $ time join sidsubset.txt sdataset.csv > result.txt
 real    0m38.965s
 user    0m36.290s
 sys     0m0.991s
-{% endcodeblock %}
+```
 
 Fucking 38 Sekunden. Zwei Dinge sind zu beachten. Sortierung und
 Formatierung.

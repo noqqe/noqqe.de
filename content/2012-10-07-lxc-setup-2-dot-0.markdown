@@ -24,14 +24,14 @@ Dinge haben sich geändert.
 Will man einen anderen Platz für seine LinuxContainer, dann kann man diesen
 in `/etc/default/lxc` definieren
 
-{% codeblock %}
+```
 # Directory containing the container configurations
 CONF_DIR=/etc/lxc
 # Start /etc/lxc/example.conf, /etc/lxc/autostart.conf, etc.
 #CONTAINERS="example autostart container"
 
 LXC_DIRECTORY="/home/lxc"
-{% endcodeblock %}
+```
 
 FHS Konformität ist was anderes... aber zwecks meiner Partitionierung und
 Verschlüsselungstechnisch macht das auf meinem Thinkpad einfach mehr Sinn.
@@ -42,7 +42,7 @@ Ich nutze meine Container teils als Sandboxing, teils um der Dependency Hell zu
 entkommen und Teils um Dingen nur bestimmte Ressourcen zuzuweisen. Das spiegelt
 sich auch in meiner Übersicht wieder:
 
-{% codeblock %}
+```
 /home/lxc
 ├── vm10-core
 ├── vm11-stable
@@ -53,7 +53,7 @@ sich auch in meiner Übersicht wieder:
 ├── vm21-matomat
 ├── vm22-bind
 └── vm25-graylog2
-{% endcodeblock %}
+```
 
 vm10 ist eine Art Management VM. Hostet verschiedene Dinge.
 vm{11..14} sind dabei meine Testcases für jeden Kanal von Debian.
@@ -70,7 +70,7 @@ Innerhalb des 10.10.0.0/24 Netzes, dass über dnsmasq auch DHCP macht, regel ich
 "DNS" über /etc/hosts Einträge. Hier gibt schon bestrebungen das automatisch zu
 machen. Dauert aber noch.
 
-{% codeblock %}
+```
 # LXC Setup
 10.10.0.10 vm10.lxc.local
 10.10.0.11 vm11.lxc.local
@@ -81,7 +81,7 @@ machen. Dauert aber noch.
 10.10.0.21 vm21.lxc.local
 10.10.0.22 vm22.lxc.local
 10.10.0.25 vm25.lxc.local
-{% endcodeblock %}
+```
 
 und zur Erleichterung dann noch ein `search lxc.local` in die `/etc/resolv.conf`
 
@@ -91,30 +91,30 @@ Hier kommt wieder einmal raus, warum lxc m.E. noch nicht fertig ist. Es gibt
 `lxc-clone`. Hört sich gut an. Nur nicht wenn man das default Home
 verändert hat. Mit der Ausgangsconfig
 
-{% codeblock %}
+```
 # mounts point
 lxc.mount.entry=proc /home/lxc/vm11-stable-template/rootfs/proc proc nodev,noexec,nosuid 0 0
 lxc.mount.entry=devpts /home/lxc/vm11-stable-template/rootfs/dev/pts devpts defaults 0 0
 lxc.mount.entry=sysfs /home/lxc/vm11-stable-template/rootfs/sys sysfs defaults 0 0
-{% endcodeblock %}
+```
 
 Wird aus dem geclonten Container (`lxc-clone -o vm11-stable-template -n
 vm12-testing-template`)
 
-{% codeblock %}
+```
 # mounts point
 lxc.mount.entry=proc /home/lxc/vm11-stable-template/rootfs/proc proc nodev,noexec,nosuid 0 0
 lxc.mount.entry=devpts /home/lxc/vm11-stable-template/rootfs/dev/pts devpts defaults 0 0
 lxc.mount.entry=sysfs /home/lxc/vm11-stable-template/rootfs/sys sysfs defaults 0 0
 lxc.utsname = vm12-testing-template
 lxc.rootfs = /var/lib/lxc/vm12-testing-template/rootfs
-{% endcodeblock %}
+```
 
 Das Default Config File scheint hier keine Rolle zu spielen. Deshalb hab ich
 mir hier auch meine eigene Clone Komponente geschrieben, da kann ich auch gleich
 das richtige Netzwerk konfigurieren.
 
-{% codeblock lang:bash %}
+``` bash 
 function vm_clone () {
     if [ -z "$1" -o -z "$2" ] || [ ! -d "$LXC_DIRECTORY/$1" ]; then
         echo "ERROR: non-correct usage - see help"
@@ -137,7 +137,7 @@ function vm_clone () {
     echo "INFO: Making network config with 10.10.0.$OCTET..."
     sed -i "s/address.*/address 10.10.0.$OCTET/" $LXC_DIRECTORY/$2/rootfs/etc/network/interfaces
 }
-{% endcodeblock %}
+```
 
 ## mlxc 2.0
 

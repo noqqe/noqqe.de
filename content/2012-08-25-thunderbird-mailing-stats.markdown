@@ -33,7 +33,7 @@ Thunderbird hält seine Daten in
 Ab hier ist dann ein klein bisschen Shell Zauberei nötig, damit die Daten in
 gewünschter Form herausspringen:
 
-{% codeblock lang:bash %}
+``` bash 
 MAILDIR="/home/<user>/.thunderbird/<generisch>.default/ImapMail/<imapserver>/Inbox"
 PROJECT="../data/Mail/"
 $ echo "data.addColumn('string', 'Month');" > $PROJECT/Mails-per-Month-2012.csv
@@ -54,7 +54,7 @@ $ egrep "\s*id\ \S*\ for <yourmailaddress>;" $MAILDIR/INBOX | awk '{print $8"-"$
 > ['2012-06',  291],
 > ['2012-07',  204],
 > ['2012-08',  118],
-{% endcodeblock %}
+```
 
 Ich muss hier dazu sagen, dass sich der String des egrep von Provider zu
 Provider (oder SMTP Daemon) unterscheiden kann, genau wie das Format des
@@ -100,7 +100,7 @@ sollte nicht allzu schwer sein.
 Ich für meinen Teil lagere (sobald ein Jahr um ist) meine Inbox in Archives um.
 Man kann sich das ungefähr so vorstellen:
 
-{% codeblock %}
+```
 Archives/
 ├── 2008
 │   └── Inbox
@@ -110,7 +110,7 @@ Archives/
 │   └── Inbox
 └── 2011
     └── Inbox
-{% endcodeblock %}
+```
 
 für jede dieser Inbox Verzeichnisse hab ich bis jetzt eine CSV Datei erstellt,
 die ich nun weiter verwenden kann.
@@ -118,18 +118,18 @@ die ich nun weiter verwenden kann.
 
 Eine modifizierte Version der Inbox Line baut mir die Daten in das folgende Format:
 
-{% codeblock %}
+```
 '2010-01', 155
 '2010-02', 102
 '2010-03', 50
 '2010-04', 126
 [...]
-{% endcodeblock %}
+```
 
 Um diese Werte nun alle in eine Zeile zu bekommen schrob ich
 die folgenden Zeilen:
 
-{% codeblock lang:bash %}
+``` bash 
 echo "['Month',  '2008',  '2009',  '2010',  '2011',  '2012'],"  > $PROJECT/Mails-per-Year.csv
 for y in {1..12}; do
     if [ ${#y} -eq 1 ]; then
@@ -146,7 +146,7 @@ for y in {1..12}; do
     echo "],"
 done >> $PROJECT/Mails-per-Year.csv
 sed -i 's#,\s*\],\s*$#\ ],#g' $PROJECT/Mails-per-Year.csv
-{% endcodeblock %}
+```
 
 Der sed Aufruf am Ende ist ein ziemlicher Hack, aber ehrlichgesagt hätte ich das sonst in
 der Loop abfangen müssen obs der letzte Eintrag ist, was umständlich gewesen wäre. Ergebnis:

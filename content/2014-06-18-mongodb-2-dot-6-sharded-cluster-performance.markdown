@@ -31,7 +31,7 @@ ersteinmal auf dem "wie messen".
 Der einfachste Weg war das Python Modul `pymongo` zu benutzen, welches über `pip`
 nachinstalliert werden kann.
 
-{% codeblock lang:python %}
+``` python 
 import pymongo
 m = pymongo.MongoClient('mongodb://user:password@localhost:27017/Database')
 i = 0
@@ -40,7 +40,7 @@ doc = {'a': 1, 'b': 'foo'}
 while (i < 5000000):
         m.Database.testcollection.insert(doc, manipulate=False, w=1)
         i = i + 1
-{% endcodeblock %}
+```
 
 Aufruf im Idealfall mit `time python write.py`, um auch wirklich die Zeit zu messen.
 Die 5 Mio erstellten Documents in der Collection `testcollection`, lassen sich nachher auch
@@ -50,13 +50,13 @@ für Read-Tests weiterverwenden.
 
 Wie lange es dauert, alle 5 Mio Objekte aus der MongoDB auszulesen ist wahrscheinlich klar. Lange.
 
-{% codeblock lang:python %}
+``` python 
 import pymongo
 m = pymongo.MongoClient('mongodb://user:password@localhost:27017/Database')
 r = m.Database.testcollection.find()
 for doc in r:
         print doc["_id"]
-{% endcodeblock %}
+```
 
 Um das komplette Datenset auszugeben: `time python readall.py > allids.txt`
 
@@ -70,7 +70,7 @@ Da sowieso schon eine Liste aller ObjectIds existiert `allids.txt` hab ich dazu 
 ist das auch noch sehr effizient. Die nachfolgende modifizierte Version setzt
 auch gleich den MongoDB Query ab:
 
-{% codeblock lang:python %}
+``` python 
 import random
 import sys
 import linecache
@@ -100,12 +100,12 @@ while (x < samplesize):
         r=linecache.getline(population, y).rstrip('\n')
         print list(m.Database.testcollection.find( { "_id": ObjectId(r) } ))
         x = x + 1
-{% endcodeblock %}
+```
 
 Und wirft 9000 zufällige Documents aus den angelegten
 Datensätzen aus.
 
-{% codeblock %}
+```
 $ time python choose-random-documents.py allids.txt 9000
 [{u'a': 1, u'_id': ObjectId('5399a0620ab2ccca7276853b'), u'b': u'foo'}]
 [{u'a': 1, u'_id': ObjectId('5399ab530ab2ccca728a2453'), u'b': u'foo'}]
@@ -117,7 +117,7 @@ $ time python choose-random-documents.py allids.txt 9000
 real    0m6.355s
 user    0m3.384s
 sys     0m0.512s
-{% endcodeblock %}
+```
 
 ### Distributed Read / Write
 
@@ -144,7 +144,7 @@ das aber alles viel unproblematischer aus als im Dotchart. Es sind ja immerhin
 Nachdem alles geschrieben und gelesen ist, kann man sich auch mal anschauen wies in MongoDB aussieht.
 Status der Chunks anzeigen:
 
-{% codeblock lang:json %}
+``` json 
 mongos> sh.status()
 {  "_id" : "Database",  "partitioned" : true,  "primary" : "rs0" }
  Database.testcollection
@@ -169,11 +169,11 @@ mongos> sh.status()
   { "_id" : NumberLong("5474895056408077106") } -->> { "_id" : NumberLong("6550645461419446020") } on : rs1 Timestamp(2, 29)
   { "_id" : NumberLong("6550645461419446020") } -->> { "_id" : NumberLong("7856429257149966918") } on : rs1 Timestamp(2, 14)
   { "_id" : NumberLong("7856429257149966918") } -->> { "_id" : { "$maxKey" : 1 } } on : rs1 Timestamp(2, 15)
-{% endcodeblock %}
+```
 
 Und auch wie es um die Verteilung der einzelnen Objekte steht (etwas gekürzt):
 
-{% codeblock lang:json %}
+``` json 
 mongos> db.stats()
 {
    "raw" : {
@@ -198,6 +198,6 @@ mongos> db.stats()
    "dataSize" : 332008048,
    "storageSize" : 486662144,
 }
-{% endcodeblock %}
+```
 
 Sharded Cluster Visualisierung CC-NC-BY-SA MongoDB: http://docs.mongodb.org/manual/core/sharded-cluster-query-router/

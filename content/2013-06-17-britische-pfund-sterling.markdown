@@ -37,7 +37,7 @@ sich in dem Fall leicht zu CSV konvertieren
 
 Alles in `R` geworfen. CSV importiert, Tag dazugerechnet.
 
-{% codeblock lang:r %}
+``` r 
 > f <- read.csv(file="gbp.csv", header=F, as.is=T, sep=" ")
 > f$Tag <- format(as.Date(f$Datum), format="%A")
 > f
@@ -51,14 +51,14 @@ Alles in `R` geworfen. CSV importiert, Tag dazugerechnet.
 3685 2013-05-22 0.85570 Wednesday
 3686 2013-05-23 0.85515  Thursday
 [...]
-{% endcodeblock %}
+```
 
 Die Daten spiegeln übrigens (was man den Metadaten des XMLs entnehmen kann) dem
 täglichen Tauschwert um 2:15 pm (C.E.T.) wider. Dass die Daten immer nachmittags
 aufgezeichnet wurden ist ein bisschen schade, vielleicht wäre es morgens
 billiger gewesen? Kann man aber nicht helfen.
 
-{% codeblock lang:r %}
+``` r 
 > kursmean <- NULL
 > days <- unique(f$Tag)
 > for (n in days) kursmean <- c(kursmean,with(f, mean(Kurs[ Tag == n ])))
@@ -66,7 +66,7 @@ billiger gewesen? Kann man aber nicht helfen.
 > kursmean
    Monday   Tuesday Wednesday  Thursday    Friday
    0.7306814 0.7303953 0.7303909 0.7294906 0.7290670
-{% endcodeblock %}
+```
 
 Somit scheint der Montag ein guter Tag zu sein um Pfund zu tauschen. Auch der aktuelle
 Kurs ist mit 0.84 irgendwo im 3. und 4. Quarter. Annehmbar. Nach der selben

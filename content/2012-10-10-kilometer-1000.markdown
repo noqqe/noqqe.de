@@ -46,7 +46,7 @@ das wohl nicht sein :)
 
 Erster Schritt: Header in eine Textdatei `combined.gpx` einfügen
 
-{% codeblock lang:xml %}
+``` xml 
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx
   version="1.1"
@@ -55,14 +55,14 @@ Erster Schritt: Header in eine Textdatei `combined.gpx` einfügen
   xmlns="http://www.topografix.com/GPX/1/1"
   xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
   xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
-{% endcodeblock %}
+```
 
 Jetzt eine kleine Parsing Party in der ich alles von &lt;trk&gt; bis &lt;/trk&gt; heraus schneide und an die Datei
 `combined.gpx` zusammenfüge.
 
-{% codeblock lang:bash %}
+``` bash 
 sed -ne '/^<trk>/,/<\/trk>/p' *.gpx >> combined.gpx
-{% endcodeblock %}
+```
 
 Als letztes den ganzen Spass noch mit `</gpx>` abschliessen. Auf
 [http://gpx2kml.com](http://gpx2kml.com) kann man dann alles zu KML konverten

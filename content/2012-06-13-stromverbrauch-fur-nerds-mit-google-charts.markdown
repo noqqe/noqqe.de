@@ -171,7 +171,7 @@ dann wunderschöne(!), interaktive(!) Graphen in den Browser gezaubert.
 Am Anfang gibts erstmal einen Konfigurationsabschnitt. Dort trage ich die Werte
 ein definiere Variablen. Ich habe hier zu Demonstrationszwecken relativ zufällige Zahlen eingefügt.
 
-{% codeblock lang:js Konfigurationsabschnitt %}
+``` js
 <script type="text/javascript" src="https://www.google.com/jsapi"></script>
 <script type="text/javascript">
   // Zaehlerstaende
@@ -198,12 +198,12 @@ ein definiere Variablen. Ich habe hier zu Demonstrationszwecken relativ zufälli
   // Preis pro kWh
   var kwhpreis = 0.23;
 </script>
-{% endcodeblock %}
+```
 
 Das alles fülle ich dann in die Data Arrays der Google Chart Funktion ein,
 definiere eine `div id` und beschrifte die Spalten und den Graphen an sich.
 
-{% codeblock lang:js horizontales Balkendiagramm %}
+``` js
 <script type="text/javascript">
   google.load("visualization", "1", {packages:["corechart"]});
   google.setOnLoadCallback(drawChart);
@@ -231,7 +231,7 @@ definiere eine `div id` und beschrifte die Spalten und den Graphen an sich.
  chart.draw(data, options);
  }
 </script>
-{% endcodeblock %}
+```
 
 Wenn alles fertig befüllt ist wird die .js Funktion clientseitig ausgeführt und
 somit eine Anfrage an die Google Charts API gestellt. Was diese dann antwortet

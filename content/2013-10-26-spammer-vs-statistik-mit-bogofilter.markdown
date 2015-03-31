@@ -29,10 +29,10 @@ um statistische Auswertung des Contents.
 
 Praktisch wird `bogofilter` trainiert. Was ist Ham, was Spam.
 
-{% codeblock %}
+```
 $ bogofilter -s -B /home/noqqe/Maildir/.Spam/
 $ bogofilter -n -B /home/noqqe/Maildir/INBOX
-{% endcodeblock %}
+```
 
 Einmal angelernt ensteht eine wordlist.db im BerkeleyDB Format in der die
 erlernten Wörter mit Good/Bad Scores abgelegt werden.  In meinem Fall
@@ -47,7 +47,7 @@ xfilter "bogofilter -u -e -p -R -c /home/noqqe/.bogofilter.cf"
 if ( /^X-Bogosity: Spam, tests=bogofilter/:h ) {
   to "$VUSERMAILDIR/.$SPAMDIR/"
 }
-{% endcodeblock %}
+```
 
 
 ## Spam, aber warum?
@@ -58,7 +58,7 @@ in 3 Stufen in `-v` bis `-vvv` einstellen. Zusätzlich dazu beherrscht
 `bogofilter` aber auch noch den Parameter `-R`, der in den Mailheader
 für die Programmiersprache `R` kompatiblen Output generiert.
 
-{% codeblock %}
+```
 $ cat 927470317.21490.txt | bogofilter -R
 X-Bogosity: Spam, tests=bogofilter, spamicity=1.000000, version=1.2.4
                                   n        pgood     pbad      fw     U
@@ -78,7 +78,7 @@ X-Bogosity: Spam, tests=bogofilter, spamicity=1.000000, version=1.2.4
 "Levtira"                         37987  0.000000  0.006480  1.000000 +
 "Gifts"                           39115  0.000000  0.006672  1.000000 +
 N_P_Q_S_s_x_md                       42  0.000000  1.000000  1.000000
-{% endcodeblock %}
+```
 
 Am Anfang wirkt das alles etwas verwirrend, macht aber Sinn. Die Anzahl
 des Vorkommens in der wordlist.db, das Rating in wie vielen Mails das
@@ -108,7 +108,7 @@ die Jahre zusammengekommene Spam wird in `7z` Archiven zur Verfügung
 gestellt. Diesen habe ich mir dann heruntergeladen. Herzliches Dankeschön
 an dieser Stelle btw.
 
-{% codeblock %}
+```
 
 $ mkdir archives ; cd archives
 $ wget http://untroubled.org/spam/{1998..2012}.7z
@@ -118,7 +118,7 @@ $ for x in $(echo *.7z); do
 >  mkdir ../${x/.7z} ;
 >  7z e $x -o../${x/.7z}
 > done
-{% endcodeblock %}
+```
 
 Dabei aber aufpassen. Ich habe die Schleife benutzt und für das
 auspacken etwas über 2,5 Tage(!) gebraucht. Problem war aber

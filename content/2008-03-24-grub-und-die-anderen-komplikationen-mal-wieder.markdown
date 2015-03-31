@@ -21,16 +21,16 @@ zu bekommen, um mein Ubuntu wieder booten zu können!
 
 Meine Versuche sahen, unter anderem, wie folgt aus:
 
-{% codeblock %}	
+```	
 root@Knoppix:~# grub-install --root-directory=/media/sda1 /dev/sda
 rm: Entfernen von >>/media/sda1/boot/grub/stage1<< nicht möglich: Das Dateisystem ist nur lesbar
-{% endcodeblock %}	
+```	
 
 Aus irgendwelchen Grüden stellt es sich als problematisch dar, die Rechte für die sda1 Partition zu ändern..
 
-{% codeblock %}	
+```	
 root@Knoppix:~# grub-install --recheck /media/sda
-{% endcodeblock %}	
+```	
 
 diverse Fehlende/Falsche Parameter, mit denen ich mich noch nicht so auskenne. Aber das werde ich noch ändern ;)
 

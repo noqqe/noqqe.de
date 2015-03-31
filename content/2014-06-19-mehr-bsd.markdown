@@ -54,7 +54,7 @@ einfach ist. Aber dann entdeckte ich [imapfilter](https://github.com/lefcha/imap
 imapfilter ist primär dazu gedacht Mails zwischen einem oder mehrere IMAP Accounts zu verschieben.
 Meine maildrop Regeln sind sehr leicht umgesetzt:
 
-{% codeblock lang:lua %}
+``` lua 
 neomailbox = IMAP {
     server = 'neomailbox.net',
     username = 'user',
@@ -78,14 +78,14 @@ tech:move_messages(neomailbox.Tech)
 -- header: X-SA-Status: Yes
 spamvipul = res:contain_field('X-SA-Status', 'Yes')
 spamvipul:move_messages(neomailbox.Spam)
-{% endcodeblock %}
+```
 
 Mit den Ergebnissen von vipul razor Antispam war ich aber nicht so 100%ig zufrieden,
 weshalb ich anfing zu googeln und [fand](https://gist.github.com/battlemidget/5758764) was ich suchte.
 
 Imapfilter piped jede Mail des letzten Tages zu dem lokal laufenden bogofilter.
 
-{% codeblock lang:lua %}
+``` lua 
 -- bogofilter spam mails to Spam
 res = neomailbox.INBOX:is_newer(1)
 spam = Set {}
@@ -103,7 +103,7 @@ unsure = Set {}
         end
   end
 neomailbox['INBOX']:move_messages(neomailbox['Spam'], spam)
-{% endcodeblock %}
+```
 
 H00ray!
 

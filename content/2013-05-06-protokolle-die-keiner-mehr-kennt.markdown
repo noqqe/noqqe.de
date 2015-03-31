@@ -59,7 +59,7 @@ Bei TCP schickt einem der Dienst so lange Zeichen bis die Session beendet wird.
 Damals muss das ziemlich viel Sinn gemacht haben. Da die Zeichenketten
 eindeutig sind konnte man leicht geflippte Bits oder fehlende Pakete ausmachen.
 
-{% codeblock %}
+```
 telnet localhost 19
 Trying 127.0.0.1...
 Connected to localhost.
@@ -78,7 +78,7 @@ $%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijk
 ,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrs
 -./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrst
 ./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstu
-{% endcodeblock %}
+```
 
 Bei UDP bekommt man eine zufällige Anzahl von Zeichen (zw. 0-512). Zumindest
 für [DDOS Attacken](https://isc.sans.edu/diary/A+Chargen-based+DDoS%3F+Chargen+is+still+a+thing%3F/15647) soll es sich ja anbieten.

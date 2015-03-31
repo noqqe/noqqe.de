@@ -25,16 +25,16 @@ In der SQLite Datenbank unter
 speichert Chrome seine History Daten. Einen der Queries die ich als erstes probiert habe, war herauszufinden welche
 Seiten ich eigentlich am meisten Besuche
 
-{% codeblock lang:sql %}
+``` sql 
 SELECT urls.title, urls.visit_count
   FROM urls
   ORDER BY urls.visit_count DESC
   LIMIT 20;
-{% endcodeblock %}
+```
 
 Der Query sieht eigentlich relativ übersichtlich aus und ebenso die Auswertung
 
-{% codeblock %}
+```
 Facebook|1120
 Google Reader|902
 SPIEGEL ONLINE - Nachrichten|385
@@ -43,24 +43,24 @@ noqqe.de|337
 Wiki - Front Page|330
 GitHub|280
 [...]
-{% endcodeblock %}
+```
 
 ## Wie oft Suche ich auf Google?
 
 Für Searches pflegt Chrome hier in einer eigenen Table. Simpler
 Inner Join, alles klar.
 
-{% codeblock lang:sql %}
+``` sql 
 SELECT SUM(keyword_search_terms.keyword_id)
   FROM keyword_search_terms, urls, visits
   WHERE urls.id = keyword_search_terms.url_id
   AND visits.url = urls.id;
-{% endcodeblock %}
+```
 
 13154 Google Searches. Mich würde aber noch interessieren wie sich das verteilt
 pro Monat oder so vielleicht.
 
-{% codeblock lang:bash %}
+``` bash 
 DEST=/home/noqqe/.config/google-chrome/Default/History
 for x in {1..12}; do
     if [ ${#x} -eq 1 ]; then x="0$x"; fi
@@ -83,24 +83,24 @@ done
 2012-10 - 0
 2012-11 - 0
 2012-12 - 0
-{% endcodeblock %}
+```
 
 So sieht das schon besser aus :) Zu dem seltsam aussehenden Date String gleich mehr.
 
 ## Wie lange surfe ich eigentlich so im Monat?
 
-{% codeblock lang:sql %}
+``` sql 
 SELECT SUM((strftime('%s',datetime(visits.visit_duration/1000000-11644473600,'unixepoch', 'localtime')) - strftime('%s','1601-01-01 00:00:00')))
   FROM urls, visits
   WHERE urls.id = visits.url
   AND datetime(visits.visit_time/1000000-11644473600,'unixepoch', 'localtime') LIKE '2012-06%';
-{% endcodeblock %}
+```
 
 Seien wir ehrlich, das sieht schlimm aus. Warum? Weil Chrome seine Zeitstempel
 nicht im Default Epoch abspeichert sondern in Mikrosekunden seit
 dem 1.1.1601, 00:00:00. Das ist ziemlich doof und aufwändig.
 
-{% codeblock lang:bash %}
+``` bash 
 _hms() {
  local S=${1}
  ((h=S/3600))
@@ -131,7 +131,7 @@ done
 2012-10 0-0-0
 2012-11 0-0-0
 2012-12 0-0-0
-{% endcodeblock %}
+```
 
 Mh. 13.182 Stunden im August. Das scheint mir etwas übertrieben. Bei der
 Auswertung muss man aber verstehen, dass es sich hier bei um die Zeit handelt,
@@ -149,7 +149,7 @@ Trotzdem halte ich die Kennzahl für aussagefähig.
 Aber nun zur Eingangs erwähnten Frage. Ein bisschen kombinierte Queries von oben
 hier und da und schon kommt das raus was man möchte:
 
-{% codeblock lang:bash %}
+``` bash 
 for x in {1..12}; do
     if [ ${#x} -eq 1 ]; then x="0$x"; fi
     echo -n "2012-$x - "
@@ -169,11 +169,11 @@ done
 2012-10 - 0
 2012-11 - 0
 2012-12 - 0
-{% endcodeblock %}
+```
 
 Jetzt kenn ich meine Visits..aber wie siehts mit der Dauer aus?
 
-{% codeblock lang:bash %}
+``` bash 
 for x in {1..12}; do
     if [ ${#x} -eq 1 ]; then x="0$x"; fi
     echo -n "2012-$x - "
@@ -195,7 +195,7 @@ done
 2012-10 - 0-0-0
 2012-11 - 0-0-0
 2012-12 - 0-0-0
-{% endcodeblock %}
+```
 
 Das hab ich auch noch für 9gag, Google Reader und andere Seiten auf denen ich
 so abspacke durchgespielt. Aber am Ende ist es eigentlich egal, ob man sich

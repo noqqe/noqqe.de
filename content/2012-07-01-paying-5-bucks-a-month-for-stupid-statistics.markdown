@@ -45,20 +45,20 @@ spezifiziert sind.
 Zuerst schreibe ich alle meine Daten in die activity.dat. Ziemlich im CSV Stil,
 aber mir fiel nicht blöderes ein ohne SQL sprechen zu müssen.
 
-{% codeblock %}
+```
 # Add your data here to generate awesome graphs ;)
 # ID, Date,      Distance, Duration, Pace, Speed, Burned, Climb
   1,  2012-06-23, 14.07,    0.54,     3.54, 15.38, 458,    156
   2,  2012-06-26, 16.28,    1.09,     4.17, 14.03, 582,    292
   3,  2012-06-28, 17.65,    1.13,     4.11, 14.36, 618,    242
   4,  2012-06-30, 27.28,    1.47,     3.56, 15.24, 876,    379
-{% endcodeblock %}
+```
 
 Danach baut mir das Shellscript die GnuPlots und die HTML Site
 
-{% codeblock %}
+```
 $ ./runkeeper-statistics
-{% endcodeblock %}
+```
 
 Das alles gibts auf [github](http://github.com/noqqe/runkeeper-statistics/) und
 die "Demo" hab ich mal hochgeladen und mit zufälligen Daten befüllt:<b>[Demo](/uploads/2012/07/runkeeper-statistics/html/index.html)</b>

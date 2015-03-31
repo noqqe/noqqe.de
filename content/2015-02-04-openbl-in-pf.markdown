@@ -21,18 +21,18 @@ Angriffs.
 Das Resultat daraus kann jeder frei benutzen und zum Beispiel in seine
 Firewall einbauen. Realisiert hab ich das über einen `pf` Table.
 
-{% codeblock %}
+```
 table <blacklist> persist
 pass in quick from <admins>
 block quick from <blacklist>
-{% endcodeblock %}
+```
 
 Die Regel ist relativ unspektakulär, abgesehen davon, dass die pass-Regel
 für die Admin IPs vor der Blacklist-Block Regel matchen sollte. Nur für den
 Fall dass man mal selbst auf so einer Liste landen sollte.
 Ein kleines Bash Script, dass mit Cron einmal die Woche die IPs updated.
 
-{% codeblock lang:bash %}
+``` bash 
 #!/usr/local/bin/bash
 STORE="/tmp/"
 RULES="base.txt.gz"
@@ -42,7 +42,7 @@ gunzip $STORE/$RULES
 pfctl -t $TABLE -T flush
 pfctl -t $TABLE -T add -f $STORE/${RULES%.*}
 rm $STORE/${RULES%.*}
-{% endcodeblock %}
+```
 
 Es gibt natürlich auch 10.000 andere Listen, die sowas bewerkstelligen.
 Darunter auch ganze

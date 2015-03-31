@@ -61,14 +61,14 @@ der passenden Regex, wobei ich nicht jedes verdammte mal von `sed` die vollen
 10GB durchwühlen lassen möchte. Stattdessen arbeite ich eher nach folgendem
 Prinzip:
 
-{% codeblock lang:bash %}
+``` bash 
 head access.log | sed 's/foo/bar/g' | [...]
 tail access.log | sed 's/foo/bar/g' | [...]
 # wenn ok
 ^head^cat
 # oder über Ctrl-a tippen
 cat access.log | sed 's/foo/bar/g' | [...]
-{% endcodeblock %}
+```
 
 Das spart mir Zeit, Nerven und Tastendrücken.
 

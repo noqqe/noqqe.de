@@ -37,11 +37,11 @@ Entscheidung fiel also auf einen Banking-LinuxContainer.
 Ein kleines Debian stable installiert und mit den Paketen bestückt ist die zum Browsen
 gebraucht werden.
 
-{% codeblock %}
+```
 $ mlxc clone vm13-stable vm24-bankingtemplate
 $ ssh vm24-bankingtemplate -l root "aptitude install chromium xauth"
 $ mlxc clone vm24-bankingtemplate vm99-tempbanking
-{% endcodeblock %}
+```
 
 Noch alle Zertifikate entfernt und fertig wars.
 Bis auf alle 3 (oder 5) Jahre das Zertifikat der Bank updaten und Sicherheitsupdates im
@@ -59,12 +59,12 @@ biser noch `rsync`. Es gäbe coolere Lösungen a la Snapshot in LVM
 oder sonst was, bisher funktioniert es aber mit `rsync` ganz gut
 für mich.
 
-{% codeblock %}
+```
 $ rsync -av --delete /home/lxc/vm24-bankingtemplate/rootfs/ /home/lxc/vm99-tempbanking/rootfs/
 $ mlxc start vm99-tempbanking
 $ ssh -X -l noqqe vm99-tempbanking "chromium"
 $ mlxc stop vm99-tempbanking
-{% endcodeblock %}
+```
 
 Im Endeffekt sehr simpel gehalten, nur umständlich zu bedienen. Irgendwie wollte
 ich noch einen Tick mehr Usability.

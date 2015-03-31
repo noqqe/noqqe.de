@@ -127,7 +127,7 @@ die Grundgesamtheit wie das in deutsch so schön heisst. Am nähesten dran käme
 die Anzahl der Einwohner in den USA. Wie viele US-Amerikaner wurden 2010
 eigentlich nicht ermordet? Seltsame Null-Hypothese.
 
-{% codeblock lang:bash %}
+``` bash 
 for x in 17500 17250 16900 16400 15550 15250 ; do echo "$x/30000000" | bc -l ; done
 .00058333333333333333
 .00057500000000000000
@@ -135,7 +135,7 @@ for x in 17500 17250 16900 16400 15550 15250 ; do echo "$x/30000000" | bc -l ; d
 .00054666666666666666
 .00051833333333333333
 .00050833333333333333
-{% endcodeblock %}
+```
 
 Es macht auch nicht so umbedingt Sinn hier jetzt Promille Werte zu vercharten.
 Gute Graphen machen bleibt eben schwierig.

@@ -53,21 +53,21 @@ Dieses Motto wird folgender guten Dame zugeschrieben.
 
 [Grace Hopper](https://en.wikipedia.org/wiki/Grace_Hopper), die auch den Spitznamen "Grandma COBOL" trägt. Exception-Handling:
 
-{% codeblock lang:python %}
+``` python 
 try:
     ham = spam.eggs
 except AttributeError:
     handle_error()
-{% endcodeblock %}
+```
 
 ...anstelle von if-Conditions:
 
-{% codeblock lang:python %}
+``` python 
 if hasattr(spam, 'eggs'):
     ham = spam.eggs
 else:
     handle_error()
-{% endcodeblock %}
+```
 
 Der Coding-Stil floss in allerlei Sprachen ein.
 Unter anderem [Python](https://en.wikipedia.org/wiki/Python_syntax_and_semantics#Exceptions).

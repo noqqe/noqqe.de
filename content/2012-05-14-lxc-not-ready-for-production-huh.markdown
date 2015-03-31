@@ -44,13 +44,13 @@ davon abraten virtuelle Maschinen an Dritte abzugeben.
 Trotz allem reizt mich das Thema. Installiert wird das wie so ziemlich alles
 über
 
-{% codeblock %}
+```
 $ apt-get install lxc bridge-utils debootstrap
-{% endcodeblock %}
+```
 
 Allerdings gibt es bei testing und auch bei stable Nachteile.
 
-{% codeblock %}
+```
 $ apt-cache policy lxc
 lxc:
   Installiert: 0.7.2-1
@@ -61,18 +61,18 @@ lxc:
  *** 0.7.2-1 0
         990 http://ftp.uni-erlangen.de/debian/ squeeze/main amd64 Packages
         100 /var/lib/dpkg/status
-{% endcodeblock %}
+```
 
 
 * Testing: Im Moment scheinen die cgroups kaputt. Dafür konnte ich keine Lösung
 finden da ich auch noch keine Erfahrung mit cgroups habe. Schade. Verison 0.8 hätte mich gereizt.
 
-{% codeblock %}
+```
 $ lxc-start --name vm0
 lxc-start: No such file or directory - failed to rename cgroup /sys/fs/cgroup//14051->/sys/fs/cgroup//vm0/14051
 lxc-start: failed to spawn 'vm0'
 lxc-start: No such file or directory - failed to remove cgroup '/sys/fs/cgroup//vm0/14051'
-{% endcodeblock %}
+```
 
 * Stable: Unter Stable ist kein Template für Debian Squeeze verfügbar. Da
 heissts dann Lenny Template [umbauen](http://jtrancas.wordpress.com/2011/02/10/debian-squeeze-lxc-template/).
@@ -84,7 +84,7 @@ Das mit dem normalen Bridiging über WLAN Interfaces haut erfahrungsgemäß nich
 hin. Deshalb hab ich mir [hier](http://s3hh.wordpress.com/2011/05/17/lxc-containers-on-a-host-with-wireless/)
 etwas helfen lassen. Meine Config sieht und in etwa so aus:
 
-{% codeblock %}
+```
 auto lxcbr0
 iface lxcbr0 inet static
   address 10.10.0.1
@@ -92,10 +92,10 @@ iface lxcbr0 inet static
   pre-up brctl addbr lxcbr0
   post-up /usr/local/bin/lxcbr0-up
   post-down brctl delbr lxcbr0
-{% endcodeblock %}
+```
 
 
-{% codeblock %}
+```
 $ cat /usr/local/bin/lxcbr0-up
 #!/bin/sh
 # This is the address we assigned to our bridge in /etc/network/interfaces
@@ -106,7 +106,7 @@ iptables -A FORWARD -i lxcbr0 -s ${braddr}/24 -m conntrack --ctstate NEW -j ACCE
 iptables -A FORWARD -m conntrack --ctstate ESTABLISHED,RELATED -j ACCEPT
 iptables -A POSTROUTING -t nat -j MASQUERADE
 dnsmasq --bind-interfaces --conf-file= --listen-address $braddr --except-interface lo --dhcp-range $brrange --dhcp-lease-max=253 --dhcp-no-override
-{% endcodeblock %}
+```
 
 Wenn man das ohne DHCP möchte geht das auch einfach so - ohne Umkonfiguration :)
 
@@ -115,9 +115,9 @@ Wenn man das ohne DHCP möchte geht das auch einfach so - ohne Umkonfiguration :
 Ich möchte meine Linux Container nun immer in einem `screen` starten. Ein Start
 sieht daher ungefähr immer so aus:
 
-{% codeblock %}
+```
 $ screen -d -m -S vm0 lxc-start -n vm0 -f /var/lib/lxc/vm0/config
-{% endcodeblock %}
+```
 
 Aus erst einem Alias wurden dann Mehrere und dann ein Wrapper Script
 mit dem ich Infos und Start/Stops für alle VMs auslesen/anweisen kann.
@@ -125,7 +125,7 @@ Ich muss zugeben es ist etwas ausgeartet.
 Das Script ist wie immer auf [Github](https://gist.github.com/2693967) zu haben. Unter Umständen kann
 nochjemand etwas damit anfangen.
 
-{% codeblock %}
+```
 $ mlxc info
 Screens:
 No Sockets found in /var/run/screen/S-root.
@@ -163,7 +163,7 @@ Proto Recv-Q Send-Q Local Address           Foreign Address         State       
 tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      10815/sshd
 tcp        0      0 127.0.0.1:25            0.0.0.0:*               LISTEN      10728/master
 [...]
-{% endcodeblock %}
+```
 
 Auf Ideen, Anmerkungen, Kritik und Beleidigungen freu ich mich natürlich immer.
 

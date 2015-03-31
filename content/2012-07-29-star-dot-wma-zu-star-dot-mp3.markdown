@@ -30,19 +30,19 @@ finde ich daüber keine Blogposts?
 Naja. Dann eben selbst. Der Plan ist einfach. Verzeichnisse herausfinden, die
 *.wma Dateien enthalten und in eine Liste schreiben.
 
-{% codeblock lang:bash %}
+``` bash 
 OIFS=$IFS
 IFS=$'\n'
 for i in $(find . -type f -iname '*.wma'); do
   dirname $i
 done | sort | uniq > list.txt
-{% endcodeblock %}
+```
 
 Diese Liste mit Verzeichnissen abarbeiten, sodass ich die Lösung
 die ich im [UbuntuUsers-Wiki](http://wiki.ubuntuusers.de/Audiodateien_umwandeln#WMA)
 gefunden habe einbetten kann:
 
-{% codeblock lang:bash %}
+``` bash 
 for x in $(cat list.txt) ; do
   cd $x
   for i in *.wma ; do
@@ -54,7 +54,7 @@ for x in $(cat list.txt) ; do
   cd - &>/dev/null
 done
 IFS=$OIFS
-{% endcodeblock %}
+```
 
 Das wurde gerade im Basis Verzeichnis meiner Biblio gestartet und rödelt jetzt
 erstmal vor sich hin.

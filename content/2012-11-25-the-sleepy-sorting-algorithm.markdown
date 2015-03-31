@@ -17,7 +17,7 @@ Gerade aus Grunden&reg; herum gegoogelt und das gefunden:
 Man, am I a genius. Check out this sorting algorithm I just invented.
 {% endblockquote %}
 
-{% codeblock lang:bash %}
+``` bash 
 #!/bin/bash
 function f() {
     sleep "$1"
@@ -28,7 +28,7 @@ do
     f "$1" &
     shift
 done
-{% endcodeblock %}
+```
 
 Das fand ich so gut, dass ich das jetzt posten musste. Prozess- und Performanceoptimierung
 ist natürlich was anderes.

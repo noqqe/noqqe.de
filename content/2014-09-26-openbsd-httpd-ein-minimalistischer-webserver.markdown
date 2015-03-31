@@ -36,7 +36,7 @@ Nach etwas herumprobieren: grinsen. Comic Sans in den default Error Messages.
 Bin mir nicht sicher ob das so bleibt. Die Config Parameter sind wie bei OpenBSD Software
 zu erwarten gut dokumentiert und eingängig.
 
-{% codeblock %}
+```
 prefork 5
 
 server "default" {
@@ -62,7 +62,7 @@ server "httpd2.noqqe.de" {
         directory auto index
         connection timeout 3600
 }
-{% endcodeblock %}
+```
 
 Noch ist das gute Stück nicht Feautre-Complete bzw. Production-Ready.
 Dinge die noch fehlen, aber kommen werden ist zum Beispiel Basic HTTP Auth.

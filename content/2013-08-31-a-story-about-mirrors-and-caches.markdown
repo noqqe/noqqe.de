@@ -52,10 +52,10 @@ möchte man [apt-cacher-ng](https://www.unix-ag.uni-kl.de/~bloch/acng/) nutzen.
 `apt-cacher-ng` agiert jetzt quasi als Proxy zwischen den Containern und dem
 konfigurierten Debian Mirror.
 
-{% codeblock %}
+```
 $ sudo aptitude install apt-cacher-ng
 $ sudo /etc/init.d/apt-cacher-ng start
-{% endcodeblock %}
+```
 
 Möchte ein Client Updates herunterladen, bemüht sich apt-cacher-ng nach
 Möglichkeit bereits heruntergeladene Pakete aus
@@ -81,7 +81,7 @@ begründen, fühlt sich aber besser an.
 Ausgerollen konnte ich die Konfiguration gegen apt-cacher-ng einfach über das
 Puppetlabs [apt](https://forge.puppetlabs.com/puppetlabs/apt) Modul.
 
-{% codeblock %}
+```
 class { 'apt':
   always_apt_update    => false,
   proxy_host           => '10.10.0.10',
@@ -94,7 +94,7 @@ apt::source { 'wheezy-mirror':
   include_src => false,
   repos       => 'main contrib non-free',
 }
-{% endcodeblock %}
+```
 
 Außerdem war dies der erste Post den ich mit der [Cherry G80-3000LSCDE-2](http://www.cherry.de/cid/b2b_keyboards_G80-3000.htm?rdeLocaleAttr=en&cpssessionid=SID-837EAC29-341CE33E&WT.mc_id=)
 verfasste. Es ist schöner als vorher.

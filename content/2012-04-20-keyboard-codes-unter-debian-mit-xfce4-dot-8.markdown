@@ -62,7 +62,7 @@ stehen:
 
     $ vim .config/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml
 
-``` xml xfce4-keyboard-shortcuts.xml
+``` xml
 <property name="custom" type="empty">
   <property name="&lt;Alt&gt;F2" type="string" value="xfrun4"/>
   <property name="&lt;Control&gt;&lt;Alt&gt;Delete" type="string" value="xflock4"/>

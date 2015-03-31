@@ -25,12 +25,12 @@ Vor kurzem habe ich (als ich auf der Suche nach einem Hostnamen war) mal
 für Fantasy Namen die man mit ein bisschen `curl` schoen maschinell auslesen
 kann.
 
-{% codeblock lang:bash %}
+``` bash
 for x in {1..5} ; do
   curl --silent -d "neuerversuch=Start&menge_eingabe=30" http://www.larisweb.de/tools/namen_gen_zwerg.php \
   | grep "^<tr>" | sed -e 's#<tr><td>##g' -e 's#</td></tr>##g' -e 's#</td><td>#\n#'
 done | sed -e 's#&szlig;#ss#g' -e 's#&uuml;#ue#g' -e 's#&auml;#ae#g' -e 's#&ouml;#oe#g' > /tmp/XPEFZKL.txt
-{% endcodeblock %}
+```
 
 Leider sind auf der Site keinerlei Informationen zur Lizenz oder ähnlichem
 angegeben. .oO(Auch wenn ich somit keinerlei Recht hätte die Namen für irgendwas zu benutzen sollte es
@@ -39,20 +39,20 @@ für private Zwecke wohl ok sein, für was gäbs die Seite sonst?).
 Als erstes brauche ich aber eine Gruppe `ou=zwerge,dc=noqqe,dc=de` für die neuen User in meinem
 Verzeichnis.
 
-{% codeblock lang:bash %}
+``` bash
 ./ldapmodify -a -xWD "cn=admin,dc=noqqe,dc=de" << EOF
 dn: ou=zwerge,dc=noqqe,dc=de
 objectClass: top
 objectClass: organizationalUnit
 ou: zwerge
 EOF
-{% endcodeblock %}
+```
 
 Der Einfachheit halber habe ich mich bei den erzeugten Usern für die
 `STRUCTURAL` Objektklasse `inetOrgPerson` gepaart mit der `AUXILIARY` Klasse
 `posixAccount` entschieden.
 
-{% codeblock lang:bash fantasy-ldif-generator.sh %}
+``` bash
 # GID & UID
 LDIFUID=10000
 LDIFGID=10000
@@ -84,14 +84,14 @@ EOF
 while read name ; do
    ldif "$name"
 done < $NAMEFILE
-{% endcodeblock %}
+```
 
 Den Output des Skripts am Besten in ein File umleiten und dann mit ldapmodify
 zum Directory hinzufügen.
 
-{% codeblock lang:bash %}
+``` bash
 ./ldapmodify -ac -xWD "cn=admin,dc=noqqe,dc=de" -f zwerge.ldif
-{% endcodeblock %}
+```
 
 Wichtig ist dabei das `-c` da ich innerhalb des Scripts keine Prüfung auf
 duplicates durchführe. Im Continuous Operation Mode macht OpenLDAP bei Fehlern einfach weiter mit dem LDIF File.

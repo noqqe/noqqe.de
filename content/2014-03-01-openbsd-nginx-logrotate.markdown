@@ -26,20 +26,20 @@ Unter OpenBSD ist [newsyslog](http://www.weird.com/~woods/projects/newsyslog.htm
 für die Logrotation verantwortlich. Das gut abgehangene Stück Software ist wie
 immer toll dokumentiert und funktioniert. Nur leider ignoriert es Wildcards
 
-{% codeblock %}
+```
 # logfile_name      owner:group     mode count size when  flags
 /var/cron/log       root:wheel  600  3     10   *     Z
 /var/www/logs/*.log             644  7     *    *     Z "kill -s USR1 `cat /var/run/nginx.pid`"
 /var/www/logs/error.log         644  7     *    24    Z "kill -s USR1 `cat /var/run/nginx.pid`"
-{% endcodeblock %}
+```
 
 Einen Testlauf mit dry-run lässt sich starten mit
 
-{% codeblock %}
+```
 $ newsyslog -nv
 /var/cron/log <3Z>: size (KB): 2.28 [10] --> skipping
 /var/www/logs/error.log <7Z>: age (hr): 1 [24] --> skipping
-{% endcodeblock %}
+```
 
 Unter [FreeBSD](http://www.freebsd.org/cgi/man.cgi?query=newsyslog.conf&sektion=5)
 enthält die newsyslog Version das Flag `G`.
@@ -56,13 +56,13 @@ Unter oBSD ist dieser Modus leider nicht verfügbar. Was für Lösungen sind als
 vorerst dafür entschieden die Liste der Entries mit einem Einzeiler zu
 generieren.
 
-{% codeblock lang:bash %}
+``` bash 
 $ for x in $(ls -1 /var/www/logs/*.log) ; do echo -e "$x\t\t" '644  7     *    24    Z' ; done
-{% endcodeblock %}
+```
 
 und beim letzten Eintrag den entsprechenden nginx reload Command anfügen.
 
-{% codeblock lang:bash %}
+``` bash 
 # logfile_name           owner:group mode count size when  flags
 /var/cron/log            root:wheel  600  3     10   *     Z
 /var/www/logs/vhost1_access.log      644  7     *    24    Z
@@ -71,7 +71,7 @@ und beim letzten Eintrag den entsprechenden nginx reload Command anfügen.
 /var/www/logs/vhost4_access.log      644  7     *    24    Z
 /var/www/logs/vhost5_access.log      644  7     *    24    Z
 /var/www/logs/vhost6_access.log      644  7     *    24    Z "kill -s USR1 `cat /var/run/nginx.pid`"
-{% endcodeblock %}
+```
 
 Ich kann mir nicht vorstellen, dass ich der Einzige mit diesem Problem bin,
 daher bin ich auf alternative Vorschläge gespannt. Selber ein Skript schreiben

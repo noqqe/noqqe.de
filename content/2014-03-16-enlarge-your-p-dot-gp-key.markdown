@@ -55,7 +55,7 @@ Generierung führen.
 Beim Revoken des alten Keys, ist es sinnvoll die korrekte Begründung
 auszuwählen. In meinem Fall Ersetzung durch einen neuen Key, also superseded.
 
-{% codeblock %}
+```
 $ gpg --gen-revoke oldkeyid
 
 Create a revocation certificate for this key? (y/N) y
@@ -72,7 +72,7 @@ Enter an optional description; end it with an empty line:
 >
 Reason for revocation: Key is superseded
 replaced by newkeyid
-{% endcodeblock %}
+```
 
 Heraus fällt ein Public-Key Block, der in einer Datei importiert werden kann.
 
@@ -110,11 +110,11 @@ Genauso der neue Publickey.
   signing-party die entsprechende key2ps Tools. Diese kann dann zum PDF
   umgewandelt und ausgedruckt werden.
 
-{% codeblock %}
+```
 $ aptitude install signing-party ghostscript
 $ gpg-key2ps -p a4 CDA4B775 > key.ps
 $ ps2pdf key.ps
-{% endcodeblock %}
+```
 
 * Signatur im Mailclient updaten
 * Informationen auf der Website updaten

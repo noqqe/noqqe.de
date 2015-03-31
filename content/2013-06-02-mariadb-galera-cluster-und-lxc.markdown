@@ -30,17 +30,17 @@ Ich habe zwei Maschinen nach
 aufgesetzt. Die restlichen Maschinen hab ich mit
 [mlxc](https://gist.github.com/noqqe/2693967) geklont.
 
-{% codeblock lang:bash %}
+``` bash 
 $ C=36
 $ for x in {3..7} ; do
 >  mlxc clone vm35-mariadb2 vm${C}-mariadb$x
 >  C=$(($C+1))
 > done
-{% endcodeblock %}
+```
 
 Die Maschinen leben in einem eigenen kleinen Netz. IPs von 10.10.0.34 bis 10.10.0.40.
 
-{% codeblock %}
+```
 /home/lxc/
 ├── vm10-core
 ├── vm11-stable
@@ -53,7 +53,7 @@ Die Maschinen leben in einem eigenen kleinen Netz. IPs von 10.10.0.34 bis 10.10.
 ├── vm38-mariadb5
 ├── vm39-mariadb6
 └── vm40-mariadb7
-{% endcodeblock %}
+```
 
 In mariadb3 bis 7 war ich nebenbei gesagt nichtmal eingeloggt. Nur
 geklont, hochgefahren und selbstständig ins Cluster integriert.
@@ -64,10 +64,10 @@ Active-Active Multi-Master. Gibts für einen Sysadmin eigentlich
 eine schönere Kombination von 4 Wörtern? Für die Tests brauchte ich eine
 Database.
 
-{% codeblock lang:sql %}
+``` sql 
 CREATE DATABASE test ;
 CREATE TABLE test1 (id INT, data VARCHAR(100) );
-{% endcodeblock %}
+```
 
 Jetzt nur noch einen Testcase, mit dem ich auf zufällige Nodes
 verteilt Daten schreibe. Dass `$RANDOM` nach der
@@ -78,7 +78,7 @@ gute Ergebnisse liefert hatten wir ja
 Im Endeffekt wird nur ein zufälliger Host ausgewählt, `INSERT`/`SELECT`
 ausgeführt und Output generiert.
 
-{% codeblock lang:bash %}
+``` bash 
 $ for x in {1..1000} ; do
 >  H="10.10.0.$((RANDOM % 7 + 34))"
 >  echo -n "Write ID $x on $H: "
@@ -94,7 +94,7 @@ Write ID 519 on 10.10.0.38: 519
 Write ID 520 on 10.10.0.37: 520
 Write ID 521 on 10.10.0.35: 521
 [...]
-{% endcodeblock %}
+```
 
 Ich war überrascht, wie flüssig das geht ohne jegliches "verschlucken". Anfangs
 hatte ich `sleep` Commands eingebaut. Ich war misstrauisch, dass es
@@ -104,7 +104,7 @@ im Millisekundentakt mit `INSERT` Statements.
 Auch deswegen hab ich es mir nicht nehmen lassen das Ergebnis erstmal zu
 verifizieren.
 
-{% codeblock lang:bash %}
+``` bash 
 $ for x in {34..40} ; do
 >   echo -n "No. of Entries on 10.10.0.$x: "
 >   mysql -BNe 'SELECT COUNT(id) from test.test1;' -h 10.10.0.$x -u root -ppassword
@@ -117,7 +117,7 @@ No. of Entries on 10.10.0.37: 1000
 No. of Entries on 10.10.0.38: 1000
 No. of Entries on 10.10.0.39: 1000
 No. of Entries on 10.10.0.40: 1000
-{% endcodeblock %}
+```
 
 Alles komplett. Spannend.
 
@@ -128,16 +128,16 @@ das null representativ, weil weder richtiges Netzwerk dazwischen ist,
 noch verschiedene Platten. Um ein bisschen Gefühl für die Angelegenheit zu
 bekommen wars aber hilfreich.
 
-{% codeblock lang:bash %}
+``` bash 
 for x in {1..10000} ; do
   H="10.10.0.$((RANDOM % 7 + 34))"
   (time mysql -BN -u root -ppassword -h $H -e "INSERT INTO test.test1 (id,data) VALUES ($x , 'foo');" ) 2>&1 | grep real
 done > latency.txt
-{% endcodeblock %}
+```
 
 Die Zahlen hab ich dann noch in `R` geschmissen.
 
-{% codeblock lang:bash %}
+``` bash 
      seconds
  Min.   :0.00600
  1st Qu.:0.01100
@@ -146,7 +146,7 @@ Die Zahlen hab ich dann noch in `R` geschmissen.
  3rd Qu.:0.01400
  Max.   :0.32300
  Std Dev:0.00508
-{% endcodeblock %}
+```
 
 Die Zahlen wirken sehr stabil. Wenig schwankend, alle im erträglichen Bereich.
 Verteilung sieht auch in Ordnung aus.

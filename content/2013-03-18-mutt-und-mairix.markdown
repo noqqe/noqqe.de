@@ -46,9 +46,9 @@ habe ich mir dann die folgende Lösung überlegt.
 offlineimap täglich (reicht mir) synce, und gibt dir Ergebnisse in eine
 separate mbox `Search`.
 
-{% codeblock %}
+```
 $ sudo aptitude install mairix offlineimap
-{% endcodeblock %}
+```
 
 Meine mairix-Config:
 
@@ -65,13 +65,13 @@ maildir=Archives*
 # Drop search results here:
 mfolder=Search
 mformat=mbox
-{% endcodeblock %}
+```
 
 Die Konfiguration für `offlineimap` ist auch kein Kunststück, deshalb lass ich
 das hier weg. Mailindex durch mairix auf das bestehende Maildir initial aufbauen.
 Auch gleich ein schöner Überblick über das eigene Postfach.
 
-{% codeblock %}
+```
 $ mairix -v
 Wrote 126633 messages
 Wrote 0 mbox headers
@@ -83,15 +83,15 @@ Subject: Wrote 36705 tokens
 Body: Wrote 620414 tokens
 Attachment Name: Wrote 3313 tokens
 (Threading): Wrote 133934 tokens
-{% endcodeblock %}
+```
 
 Angenommen man möchte alle Mails von Amazon finden, die im Subject "Linux"
 enthalten kann man
 
-{% codeblock %}
+```
 $ mairix f:Amazon s:Linux
 Matched 3 messages
-{% endcodeblock %}
+```
 
 benutzen. Der springende Punkt ist allerdings: Wie kann ich das jetzt sinnvoll
 in meinen Client integrieren? Mein Mutt verbindet sich mit einem IMAP Account
@@ -99,10 +99,10 @@ und die Suchergebnisse liegen irgendwo lokal auf der Platte.
 
 Dafür habe ich einen Macro in meiner `.muttrc` definiert.
 
-{% codeblock %}
+```
 macro index,pager L "<change-folder-readonly>/home/noqqe/Maildir/Search<enter><shell-escape>mairix " "search via mairix"
 unset wait_key # do not require additional enter for shell commands
-{% endcodeblock %}
+```
 
 Noch 2 Cronjobs für regelmäßiges mairix und offlineimap sync und alles ist entspannt.
 Für Verbesserungsvorschläge und Inspirationen aus euren Mail-Setups bin ich wie immer gerne zu haben! :)

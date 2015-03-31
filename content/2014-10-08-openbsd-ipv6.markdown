@@ -36,7 +36,7 @@ Um den IP Stack auf IPv6 Advertisements antworten zu lassen muss nur
 
 Einmal rebooten oder per Hand `sysctl net.inet6.ip6.accept_rtadv=1` ausfuehren.
 
-{% codeblock %}
+```
 $ ifconfig
 em0: flags=8843<UP,BROADCAST,RUNNING,SIMPLEX,MULTICAST> mtu 1500
         lladdr 00:16:3e:2c:4a:41
@@ -48,7 +48,7 @@ em0: flags=8843<UP,BROADCAST,RUNNING,SIMPLEX,MULTICAST> mtu 1500
         inet 12.34.56.78 netmask 0xffffff80 broadcast 185.34.0.255
         inet6 2a00:d1e0:1000:3100:dead:beef:4a41 prefixlen 64 autoconf pltime 604729 vltime 2591929
         inet6 2a00:d1e0:1000:3100:dead:beef:df24 prefixlen 64 autoconf autoconfprivacy pltime 18185 vltime 537125
-{% endcodeblock %}
+```
 
 ### IPv6 mit statischer IP
 
@@ -57,21 +57,21 @@ ein eigenens Netz für einen routet.
 
 Konfigurieren der Adressen:
 
-{% codeblock %}
+```
 $ vi /etc/hostname.em0
 inet 213.95.21.200 255.255.255.0 NONE
 inet6 alias 2001:780:3:5::122 64   # Transit IP
 inet6 alias 2001:780:132::1 48     # IP aus eigenem Netz
 inet6 alias 2001:780:132::2 48     # IP aus eigenem Netz
 inet6 alias 2001:780:132::3 48     # IP aus eigenem Netz
-{% endcodeblock %}
+```
 
 Konfiguration des Gateways
 
-{% codeblock %}
+```
 vi /etc/mygate
 213.95.21.1
 2001:780:3:5::1
-{% endcodeblock %}
+```
 
 Und danach Interface reloaden mit `sh /etc/netstart em0`.

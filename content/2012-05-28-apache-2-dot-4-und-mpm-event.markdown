@@ -45,9 +45,9 @@ mit dem Paket `apache2-utils` ausgeliefert.
 
 Ein typischer Apache Bench mit `ab` sieht ungefähr so aus:
 
-{% codeblock %}
+```
 $ ab -c 200 -n 2500 http://host.example.org/
-{% endcodeblock %}
+```
 
 * `-c` gibt die Anzahl der gleichzeitigen Verbindungen an
 * `-n` Die Anzahl der Connections insgesamt
@@ -55,14 +55,14 @@ $ ab -c 200 -n 2500 http://host.example.org/
 Jedem Apache habe ich nun stufenweise Connections hingeschossen
 und mir die Dauer jedes Benchmarks weggegreppt:
 
-{% codeblock lang:bash %}
+``` bash 
 C=0
 while [ $C -lt 100000 ]; do
   C=$((C + 10000))
   echo -n "$C:"
   ab -c 500 -n $C http://10.10.0.16/ 2>/dev/null | grep "Time taken for tests:" | awk '{print $5}'
 done
-{% endcodeblock %}
+```
 
 Das hab ich für jeden Host einzelnd durchgeführt und anschliessend alles durch
 Gnuplot gejagt. Dabei kam einmal mehr zum Vorschein, dass man Prefork einfach
@@ -77,14 +77,14 @@ sie für bestimmte Aufgaben tauglicher macht als andere. Deshalb hab ich auch no
 von 100-1000 gleichzeitigen Requests geprüft. Der Einzeiler ist dafür nur
 geringfügig modifiziert:
 
-{% codeblock lang:bash %}
+``` bash 
 C=0
 while [ $C -lt 1000 ]; do
   C=$((C + 100))
   echo -n "$C:"
   ab -c $C -n $C http://10.10.0.16/ 2>/dev/null | grep "Time taken for tests:" | awk '{print $5}'
 done
-{% endcodeblock %}
+```
 
 Das Ergebnis von MPM Event kann sich sehen lassen, wie ich finde.
 

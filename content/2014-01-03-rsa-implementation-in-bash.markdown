@@ -34,7 +34,7 @@ mal gemacht.
 Der Code ist so einfach wie nur irgendwie möglich gestaltet, um ihn verständlich
 zu halten. Ich habe deshalb bewusst auf Funktionen und Sanity Checks verzichtet.
 
-{% codeblock lang:bash %}
+``` bash 
 p=37    # prime 1
 q=89    # prime 2
 e=25    # public key
@@ -60,18 +60,18 @@ for x in $(seq 2 $d); do
     msg=$((msg%max))    # flatten
 done
 echo "decr msg: $msg"
-{% endcodeblock %}
+```
 
 Manchem mag auffallen, wie im [Debian-Stil](http://www.debian.org/security/2008/dsa-1571)
 ziemlich statischer "Zufall" im Header kodiert ist. Für den Anfang ist das okay um zu verstehen
 wie RSA so tickt.
 
-{% codeblock %}
+```
 $ ./rsa.bash 999
 orig msg: 999
 encr msg: 2146
 decr msg: 999
-{% endcodeblock %}
+```
 
 ### RSA + Privkey Generierung
 
@@ -79,7 +79,7 @@ Was im obigen Beispiel passiert ist, ist natürlich sehr trivial, da die Keys
 vordefiniert sind und hinten hinaus die allerwenigste Magie passiert.
 Der interessante Teil ist eher die Schlüsselgenerierung.
 
-{% codeblock lang:bash %}
+``` bash 
 p=$1    # prime
 q=$2    # prime
 msg=$3  # the message
@@ -131,7 +131,7 @@ echo "phi: $phi"
 [...]
 letzter Teil wie oben
 [...]
-{% endcodeblock %}
+```
 
 Worauf ich außerdem verzichtet habe ist die Auswahl einer richtigen/anständigen Primzahl für den Publickey,
 da das Problem weder logisch noch programmatisch besonders reizvoll ist. Zumindest was den RSA Scope angeht.
@@ -139,7 +139,7 @@ Im RNG Scope natürlich eine ganz andere Geschichte.
 
 Usage des Skripts hat sich nun auch von nur der Message hin zu Primzahl1, Primzahl2, Message erweitert.
 
-{% codeblock lang:bash %}
+``` bash 
 $ ./rsa.bash 911 43 8234
 pub: 1913
 priv: 21977
@@ -147,7 +147,7 @@ phi: 38220
 orig msg: 8234
 encr msg: 33207
 decr msg: 8234
-{% endcodeblock %}
+```
 
 Das gesamte Skript gibts nochmal auf
 [Github](https://gist.github.com/noqqe/8245645). Bei Fehlern in der

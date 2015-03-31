@@ -30,14 +30,14 @@ Was er tut ? Ich gebe meinem Helfer einfach das File "in die Hand". Alles andere
 
 File hinzufügen
 
-{% codeblock %}
+```
 $ roborobo /etc/postfix/main.cf`
-{% endcodeblock %}
+```
 
 Alle bekannten Files updaten:
-{% codeblock %}
+```
 $ roborobo
-{% endcodeblock %}
+```
 
 Er nimmt das File an, ordnet es ein und sichert es in seinem Verzeichnis mit dem kompletten Verzeichnispfad nach Baumstruktur-Art. Außerdem prüft roborobo jetzt jede Stunde anhand der sha1sum ob sich in dem File seit der letzten Prüfung etwas getan hat. Falls Veränderungen da sind, wird das File mit neuem Datum wieder abgespeichert. Das sieht ungefähr so aus:
 

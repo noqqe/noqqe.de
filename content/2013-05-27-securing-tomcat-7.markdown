@@ -30,7 +30,7 @@ Vorher aber mit Software/Kunden eurer Wahl abklären.
 Per Default ist bei Tomcat nur `TRACE` deaktiviert.
 In der `webapps/$APP/WEB-INF/web.xml` definieren:
 
-{% codeblock %}
+```
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <web-app>
   [...]
@@ -46,11 +46,11 @@ In der `webapps/$APP/WEB-INF/web.xml` definieren:
      <auth-constraint/>
   </security-constraint>
 </web-app>
-{% endcodeblock %}
+```
 
 Ergebnis verfizieren:
 
-{% codeblock %}
+```
 $ for x in PATCH CONNECT GET TRACE POST PUT OPTIONS HEAD ; do
 >   echo -ne "$x:    \t"
 >   curl -v -X $x http://localhost:8080/ 2>&1 | grep '< HTTP'
@@ -64,7 +64,7 @@ POST:           < HTTP/1.1 200 OK
 PUT:            < HTTP/1.1 200 OK
 OPTIONS:        < HTTP/1.1 403 Forbidden
 HEAD:           < HTTP/1.1 200 OK
-{% endcodeblock %}
+```
 
 Ich kann übrigens jedem mal empfehlen sich [Know your HTTP](https://github.com/bigcompany/know-your-http)
 anzuschauen.
@@ -75,7 +75,7 @@ Gerade bei Auditoren ein beliebtes Thema. Man kennt das von Apache httpd mod_ssl
 nebenan will man heute nicht mehr umbedingt Serverseitig offerieren.
 Das Pendant zum Apache Tomcat, indem der Parameter `ciphers` im HTTP Connector her muss.
 
-{% codeblock %}
+```
 <Connector port="8443"
   executor="Catalina-Threads"
   protocol="org.apache.coyote.http11.Http11Protocol"
@@ -87,11 +87,11 @@ Das Pendant zum Apache Tomcat, indem der Parameter `ciphers` im HTTP Connector h
   SSLCertificateKeyFile="${catalina.base}/conf/host.key"
   ciphers="SSL_RSA_WITH_RC4_128_MD5, SSL_RSA_WITH_RC4_128_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, SSL_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA"
 />
-{% endcodeblock %}
+```
 
 Gut überprüfen lässt sich das übrigens mit dem Tool `sslscan`
 
-{% codeblock %}
+```
 $ sslscan localhost:8443 | grep Accepted
     Accepted  SSLv3  128 bits  DHE-RSA-AES128-SHA
     Accepted  SSLv3  128 bits  AES128-SHA
@@ -105,7 +105,7 @@ $ sslscan localhost:8443 | grep Accepted
     Accepted  TLSv1  168 bits  DES-CBC3-SHA
     Accepted  TLSv1  128 bits  RC4-SHA
     Accepted  TLSv1  128 bits  RC4-MD5
-{% endcodeblock %}
+```
 
 Weitere Punkte sind zum Beispiel `Directory Indexing` und Plain
 Passwords in `tomcat-users.xml` abschalten. Aber natürlich auch noch viel

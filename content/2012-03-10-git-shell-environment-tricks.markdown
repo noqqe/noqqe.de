@@ -30,7 +30,7 @@ einfällt mit Quelle :)
 
 Teilweise selber gebastelt, teilweise aus [bash-it](https://github.com/revans/bash-it) geklaut.
 
-``` bash Aliases
+``` bash
 ## git Aliases
 alias gcl='git clone'
 alias ga='git add'
@@ -60,7 +60,7 @@ Hervorheben will ich hier besonders `gll`:
 Wer viel in verschiedenen git Repos unterwegs ist hilft vielleicht (wie mir)
 diese Funktion. Selbst geschrieben.
 
-``` bash git_info function
+``` bash
 function git_info() {
 
     if [ -n "$(git symbolic-ref HEAD 2> /dev/null)" ]; then
@@ -98,7 +98,7 @@ function git_info() {
 ```
 
 
-``` bash Gitinfo Output
+``` bash
 $ git_info
 git repo overview
 -----------------
@@ -131,7 +131,7 @@ Eines der nützlichsten Dinge. Wenn das aktuellen Working Directory ein git Repo
 Es zeigt falls das der Fall ist den aktuell ausgecheckten Branch an und eine Asterisk (*) wenn das
 PWD sich in einem uncommitteten Zustand befindet.
 
-``` bash git Prompt
+``` bash
 GIT_THEME_PROMPT_DIRTY='*'
 
 function git_prompt_info() {
@@ -150,7 +150,7 @@ function parse_git_dirty {
 PS1="\u@\h:\w\[\$(git_prompt_info)\]$ "
 ```
 
-``` bash Prompt Example
+``` bash
 noqqe@deathstar:~/Code$ cd octopress
 noqqe@deathstar:~/Code/octopress (master)$ touch foobar
 noqqe@deathstar:~/Code/octopress (master*)$
@@ -162,7 +162,7 @@ Zwei Funktionen an die ich mich ziemlich gewöhnt habe, weil ich für meine git
 repos meistens sowieso den selben Remote benutze. Ebenfalls veruntreut vom
 bash-it Framework.
 
-``` bash Remote functions
+``` bash
 function git_remote {
   echo "Running: git remote add origin git@n0q.org:$1"
   git remote add origin git@n0q.org:$1
@@ -178,7 +178,7 @@ function git_first_push {
 
 Hier noch ein Stück für die Statistik Liebhaber. Ich mags.
 
-``` bash git stats https://github.com/esc/git-stats git-stats
+``` bash
 function git_stats {
 if [ -n "$(git symbolic-ref HEAD 2> /dev/null)" ]; then
     echo "Number of commits per author:"
@@ -258,7 +258,7 @@ Number of merges: 3
 
 ## git fehlende Files entfernen ##
 
-``` bash git fehlende Files entfernen
+``` bash
 function git_remove_missing_files() {
   git ls-files -d -z | xargs -0 git update-index --remove
 }
@@ -266,7 +266,7 @@ function git_remove_missing_files() {
 
 ## git lokales ignore ##
 
-``` bash git lokales Ignore
+``` bash
 function local-ignore() {
   echo "$1" >> .git/info/exclude
 }

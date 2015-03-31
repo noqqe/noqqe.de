@@ -29,7 +29,7 @@ einfache `print()` Methode für Daten nicht so gut, dafür gibts das Plugin [xta
 Man muss ja zum Glück kein TeX Gott sein um ein kleines Template zu ergoogeln.
 Wichtig ist nur der Teil am Ende. Das Einbetten von R Code in das Dokument.
 
-{% codeblock lang:tex Stats.Rnw %}
+``` tex
 \documentclass[a4paper]{article}
 \usepackage[british]{babel}
 \begin{document}
@@ -45,7 +45,7 @@ xtable(tail(a))
 @
 
 \end{document}
-{% endcodeblock %}
+```
 
 Das Plugin `xtable` versteht so ziemlich alle Datentypen
 und generiert natives TeX.
@@ -53,7 +53,7 @@ und generiert natives TeX.
 Um den R Teil im Dokument auszuführen wird das so-called `.Rnw` File durch R gejagt.
 Es ensteht pures TeX. Für die komplette Verarbeitung nutze ich ein R Script.
 
-{% codeblock lang:r create.R %}
+``` r
 #!/usr/bin/Rscript
 
 # loading libraries
@@ -65,7 +65,7 @@ knit("Stats.Rnw", out="tmp/Stats.tex" )
 
 # create and open pdf via system call
 system("pdflatex -output-directory tmp/ Stats.tex && evince tmp/Stats.pdf")
-{% endcodeblock %}
+```
 
 Der Output:
 

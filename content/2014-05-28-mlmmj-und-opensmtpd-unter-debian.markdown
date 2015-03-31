@@ -24,17 +24,17 @@ netten Eindruck. Einfach gestrickt, wenig Overhead, Plaintext Files ohne viel
 TamTam.
 Bei der Konfiguration kann man sich ohne Bedenken von `mlmmj-make-ml` leiten lassen.
 
-{% codeblock lang:bash %}
+``` bash
 $ sudo aptitude install mlmmj
 $ mlmmj-make-ml
-{% endcodeblock %}
+```
 
 Nachdem die selbsterklärende Installation abgeschlossen ist, noch in `/etc/aliases`
 eine Pipe einfügen für den entsprechenden User.
 
-{% codeblock lang:bash %}
+``` bash
 k4cg:     "|/usr/bin/mlmmj-receive -L /var/spool/mlmmj/k4cg"
-{% endcodeblock %}
+```
 
 
 ### OpenSMTPD
@@ -45,13 +45,13 @@ Den aus dem OpenBSD Umfeld entstandenen [OpenSMTPD](http://opensmtpd.org) wollte
 Für Postfix läge die mlmmj Konfigurationsanleitung zwar bei, aber hat ja irgendwie auch jeder und ist
 für unsere Zwecke viel zu bloated.
 
-{% codeblock lang:bash %}
+``` bash
 $ sudo aptitude install opensmtpd
-{% endcodeblock %}
+```
 
 Die einzige Config, die es bei OpenSMTPD gibt, `/etc/smtpd.conf` liesst sich schön im Stil von `pf`.
 
-{% codeblock lang:bash /etc/smtpd.conf %}
+``` bash
 # interfaces to listen
 listen on localhost
 listen on eth0
@@ -67,7 +67,7 @@ accept from local for local alias <aliases> deliver to mbox
 
 # allow to sent out mails to subscribed users
 accept from local for any relay
-{% endcodeblock %}
+```
 
 Habe etwas mit dem smtpd herumgespielt, gefällt mir richtig gut.
 Minimal gehalten und selbsterklärend. Danach noch das newaliases Pendant `smtpctl update table
@@ -79,7 +79,7 @@ Gerade bei Mailsetups sind die Testszenarien etwas unschön abzuarbeiten. Das
 Swiss-Army-Knife-for-SMTP `swaks` hilft einem, das Zeug nicht jedesmal
 selbst über `telnet` eintippern zu müssen.
 
-{% codeblock lang:bash %}
+``` bash
 $ swaks --server 56.78.90.46 --to k4cg+subscribe@k4cg.org --from noqqe@example.org
 === Connected to 56.78.90.46.
  -> MAIL FROM:<noqqe@example.org>
@@ -100,16 +100,16 @@ $ swaks --server 56.78.90.46 --to k4cg+subscribe@k4cg.org --from noqqe@example.o
 <-  250 2.0.0: ac3d1ccf Message accepted for delivery
  -> QUIT
 <-  221 2.0.0: Bye
-{% endcodeblock %}
+```
 
 Nach Test für subscribe/unsubscribe sollte man ebenfalls überprüfen, ob man nicht unter Umständen ein OpenRelay konfiguriert hat.
 
-{% codeblock lang:bash %}
+``` bash
 $ swaks --server 56.78.90.46 --to irgendwer@gmail.com --from noqqe@example.org
 [...]
  -> RCPT TO:<irgendwer@gmail.com>
 <** 550 Invalid recipient
  -> QUIT
 <-  221 2.0.0: Bye
-{% endcodeblock %}
+```
 

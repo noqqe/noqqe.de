@@ -19,9 +19,9 @@ Damit ändern sich auch die Modulpfade, sofern nicht global definiert.
 
 Paketmigration einfach und pragmatisch
 
-{% codeblock lang:r %}
+``` r 
 R> x <- list.files("~/R/x86_64-pc-linux-gnu-library/3.0/")
 R> sapply(x, install.packages)
-{% endcodeblock %}
+```
 
 Macht mehr R.

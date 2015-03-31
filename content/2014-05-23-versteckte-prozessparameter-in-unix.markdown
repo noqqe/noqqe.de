@@ -19,14 +19,14 @@ categories:
 Passwörter für Datenbanken beispielsweise sind Optionen die sich als Commandline Argument direkt im Aufruf mitgeben lassen.
 Bei MySQL oder MongoDB ist das angegebene Passwort aber in der Prozessliste durch `xxxx` ersetzt.
 
-{% codeblock %}
+```
 $ mysql -u noqqe -ppassw0rd -h localhost
 $ ps auxfww
 sshd: noqqe@pts/0
  \_ -bash
      \_ mysql -u noqqe -px xxxxx -h localhost
      \_ ps auxfww
-{% endcodeblock %}
+```
 
 Irgendwie blieb ich die Woche an dieser Tatsache hängen. Verstand ich nicht.
 Das OS bekommt doch den Aufruf des Programms und das Binary parst die bereits
@@ -39,7 +39,7 @@ Wer filtert hier?
 Nachdem MySQL ja OpenSource ist, kann man ja mal etwas `grep`en im [Source](http://bazaar.launchpad.net/~mysql/mysql-server/5.5/view/head:/client/mysql.cc#L1734).
 Wurde schliesslich auch fündig.
 
-{% codeblock lang:cpp %}
+``` cpp 
 case 'p':
   if (argument == disabled_my_option)
     argument= (char*) "";     // Don't require password
@@ -56,7 +56,7 @@ case 'p':
   else
     tty_password= 1;
   break;
-{% endcodeblock %}
+```
 
 Das MySQL Client Binary wird also gestartet, initialisiert und die Variable `argument`, die aus dem Parameter-Parser von MySQL fällt, kopiert und
 direkt an der entsprechenden Speicheraddresse mit `x`en überschrieben.
@@ -80,7 +80,7 @@ The parameters argc and argv and the strings pointed to by the argv array shall 
 Ausprobieren lässt sich das eigentlich mit einfach ein bisschen C, welches ich mir
 via StackOverflow-Driven-Development zusammen geklaut habe.
 
-{% codeblock lang:c %}
+``` c 
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -105,12 +105,12 @@ int main(int argc, char **argv) {
 
     return 0;
 }
-{% endcodeblock %}
+```
 
 Dabei kann auch der eigentliche Name des Programms überschrieben werden. Total
 evil-haxx0r.
 
-{% codeblock %}
+```
 $ gcc hide.c -o hide
 $ ./hide tolorlerolero
   PID TTY      STAT   TIME COMMAND
@@ -118,6 +118,6 @@ $ ./hide tolorlerolero
 23512 pts/1    S+     0:00  \_ yyyyyy xxxxxxxxxxxxx
 23513 pts/1    S+     0:00      \_ sh -c ps f
 23514 pts/1    R+     0:00          \_ ps f
-{% endcodeblock %}
+```
 
 Again what learned.

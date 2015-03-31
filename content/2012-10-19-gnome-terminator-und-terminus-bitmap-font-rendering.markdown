@@ -23,11 +23,11 @@ meines (mir ans Herz gewachsenen) [Gnome Terminator](http://www.tenshu.net/p/ter
 Habe dann jeweils mit dem alten Font und mit Terminus die selbe Datei ausgegeben
 und micht etwas gewundert:
 
-{% codeblock %}
+```
 $ wc -l /var/log/syslog
 946 syslog
 $ cat /var/log/syslog
-{% endcodeblock %}
+```
 
 Terminus:
 {% img /uploads/2012/10/terminus.png %}

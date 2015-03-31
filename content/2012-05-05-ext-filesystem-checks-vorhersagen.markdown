@@ -31,23 +31,23 @@ maximalen Mounts oder die zyklischen Checks anstehen. [ext-verify.sh](https://gi
 
 Das sieht dann unter Umständen so aus:
 
-{% codeblock %}
+```
 WARNING: Max mount count on /dev/sda1 has been reached. (29/29)
 WARNING: /dev/sda1 has reached the next periodically filesystemcheck. (Sa Apr 7 13:37:58 2012)
 RESULT: A fsck will be executed at the next reboot for /dev/sda1.
-{% endcodeblock %}
+```
 
 Natürlich für jede gefundene Partition. Um das jetzt noch am besten irgendwie zu
 automatisieren hab ich mich entschieden das in `apt` zu integrieren.
 
-{% codeblock %}
+```
 $ vim /etc/apt/apt.conf.d/09extverfiy
 DPkg::Pre-Install-Pkgs   { "if [ -x /usr/local/bin/ext-verify.sh ]; then echo 'Verifying ext Filesystems' ; /usr/local/bin/ext-verify.sh ; fi"; };
-{% endcodeblock %}
+```
 
 Bei jedem apt-get/aptitude wird das nun ausgeführt.
 
-{% codeblock %}
+```
 $ aptitude install whois
 Die folgenden NEUEN Pakete werden zusätzlich installiert:
   whois
@@ -60,6 +60,6 @@ Vormals abgewähltes Paket whois wird gewählt.
 Entpacken von whois (aus .../whois_5.0.10_amd64.deb) ...
 Trigger für man-db werden verarbeitet ...
 whois (5.0.10) wird eingerichtet ...
-{% endcodeblock %}
+```
 
 

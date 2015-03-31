@@ -33,9 +33,9 @@ Alles dabei. Fand ich witzig. Bis ich mir die "Overall Statistics" ansah. Wer
 zur Hölle säuft um 3 Uhr nachts Kaffee... und bucht das auch noch auf
 coffeestats.org? Erstmal etwas rumdebuggt.
 
-{% codeblock lang:sql %}
+``` sql 
 INSERT INTO cs_coffees VALUES ('', '$userid' , NOW() );
-{% endcodeblock %}
+```
 
 Tjo. Problem gefunden. Wann immer jemand (egal wo) auf "Ich hab gerade ne
 leckere Tasse Kaffee vor mir stehen" drückte, hab ich diese unter der aktuell
@@ -57,7 +57,7 @@ Nach etwas herumgoogeln stellte sich heraus, dass man die Client Zeit wohl mit
 JavaScript feststellen möchte. Und das Date Formatting mit JS unglaublich
 hässlich ist.
 
-{% codeblock lang:javascript  %}
+``` javascript  
 function coffeetime(d){
   function pad(n){return n<10 ? '0'+n : n}
   return d.getFullYear()+'-'
@@ -73,7 +73,7 @@ function AddPostData() {
   document.getElementById('coffeetime').value = coffeetime(d);
   document.getElementById('form').submit();
 }
-{% endcodeblock %}
+```
 
 Resultiert in dem tollen Stamp `2013-02-15 12:47:41` den ich an die gewünschte HTML Form bastle.
 Mit viel Handliebe Nullen padden müssen, 6 Funktionen callen und getMonth Index Workaround. Pfui.

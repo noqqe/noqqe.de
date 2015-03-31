@@ -29,7 +29,7 @@ auf seinen Server verbunden hat weiss aber, dass bei vorhandenem Public Key
 alle für diesen User verfügbaren Repositories ausgespuckt werden.
 Mit diesem Feature kann man sich den Slave einfach selber bauen.
 
-{% codeblock lang:bash %}
+``` bash 
 #!/bin/bash
 
 MASTER="git@git.example.com"
@@ -47,7 +47,7 @@ for repo in $(ssh $MASTER | grep '^ R' | awk '{print $3}') ; do
     git clone $MASTER:$repo $BASEDIR/$repo
   fi
 done  &>/dev/null
-{% endcodeblock %}
+```
 
 Das Skript clont eigenständig alle Remote Branches und neue Repositories. Relativ pragmatischer Ansatz.
 Der Übersichtlichkeit halber, habe ich die `logger` Commands jetzt weggelassen.
