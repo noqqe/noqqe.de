@@ -5,7 +5,8 @@ slug: intreprid-ibex-810-counter
 status: publish
 comments: true
 title: Intreprid Ibex 8.10 - Counter
-alias: /archives/82
+aliases:
+- /archives/82
 categories:
 - Linux
 tags:

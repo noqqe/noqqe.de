@@ -5,7 +5,8 @@ slug: bash-minimal-bash-debug
 status: publish
 comments: true
 title: Bash | minimal-bash-debug
-alias: /archives/1332
+aliases:
+- /archives/1332
 categories:
 - Coding
 - Debian

@@ -5,7 +5,8 @@ slug: hardy-und-widescreen-jetzt-doch
 status: publish
 comments: true
 title: Hardy und Widescreen - jetzt doch ?
-alias: /archives/73
+aliases:
+- /archives/73
 categories:
 - Linux
 tags:

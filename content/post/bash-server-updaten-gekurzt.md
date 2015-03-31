@@ -5,7 +5,8 @@ slug: bash-server-updaten-gekurzt
 status: publish
 comments: true
 title: bash | Server updaten gekürzt
-alias: /archives/709
+aliases:
+- /archives/709
 categories:
 - Coding
 - Linux

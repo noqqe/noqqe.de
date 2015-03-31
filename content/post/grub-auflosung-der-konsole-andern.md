@@ -5,7 +5,8 @@ slug: grub-auflosung-der-konsole-andern
 status: publish
 comments: true
 title: Grub | Auflösung der Konsole ändern
-alias: /archives/1098
+aliases:
+- /archives/1098
 categories:
 - Coding
 - Debian

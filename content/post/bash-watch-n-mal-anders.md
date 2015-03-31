@@ -5,7 +5,8 @@ slug: bash-watch-n-mal-anders
 status: publish
 comments: true
 title: Bash | watch -n mal anders
-alias: /archives/1230
+aliases:
+- /archives/1230
 categories:
 - Coding
 - Linux

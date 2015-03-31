@@ -5,7 +5,8 @@ slug: gnome-224
 status: publish
 comments: true
 title: Gnome 2.24
-alias: /archives/279
+aliases:
+- /archives/279
 categories:
 - General
 - Hardware

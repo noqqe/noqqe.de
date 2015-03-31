@@ -5,7 +5,8 @@ slug: linux-befehle-buch
 status: publish
 comments: true
 title: Linux Befehle Buch!
-alias: /archives/21
+aliases:
+- /archives/21
 categories:
 - Hardware
 - Linux

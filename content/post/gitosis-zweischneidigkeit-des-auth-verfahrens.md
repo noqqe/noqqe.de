@@ -5,7 +5,8 @@ slug: gitosis-zweischneidigkeit-des-auth-verfahrens
 status: publish
 comments: true
 title: Gitosis | Zweischneidigkeit des Auth-Verfahrens
-alias: /archives/1208
+aliases:
+- /archives/1208
 categories:
 - Coding
 - Debian

@@ -5,7 +5,8 @@ slug: blogpost-nr-100
 status: publish
 comments: true
 title: Blogpost Nr. 100
-alias: /archives/276
+aliases:
+- /archives/276
 categories:
 - General
 ---

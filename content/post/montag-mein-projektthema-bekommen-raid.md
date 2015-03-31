@@ -5,7 +5,8 @@ slug: montag-mein-projektthema-bekommen-raid
 status: publish
 comments: true
 title: Montag mein Projektthema bekommen, RAID.
-alias: /archives/260
+aliases:
+- /archives/260
 categories:
 - Linux
 tags:

@@ -5,7 +5,8 @@ slug: git-repositories-auf-server-anlegen
 status: publish
 comments: true
 title: Git | Repositories auf Server anlegen
-alias: /archives/867
+aliases:
+- /archives/867
 categories:
 - Coding
 - Linux

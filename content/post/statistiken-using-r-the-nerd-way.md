@@ -5,7 +5,8 @@ slug: statistiken-using-r-the-nerd-way
 status: publish
 comments: true
 title: Statistiken | Using R - The Nerd Way
-alias: /archives/1458
+aliases:
+- /archives/1458
 categories:
 - Bash
 - Coding

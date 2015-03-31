@@ -5,7 +5,8 @@ slug: theme-nerd-clouds
 status: publish
 comments: true
 title: Theme | nerd-clouds
-alias: /archives/1071
+aliases:
+- /archives/1071
 categories:
 - Coding
 - General

@@ -5,7 +5,8 @@ slug: mail-evolution-und-sein-k-o-kriterium
 status: publish
 comments: true
 title: Mail | Evolution und sein K.O.-Kriterium
-alias: /archives/1018
+aliases:
+- /archives/1018
 categories:
 - General
 - Linux

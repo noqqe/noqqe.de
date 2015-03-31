@@ -5,7 +5,8 @@ slug: shell-vollstandiger-file-path
 status: publish
 comments: true
 title: Shell | Vollständiger File-Path
-alias: /archives/663
+aliases:
+- /archives/663
 categories:
 - Coding
 - Linux

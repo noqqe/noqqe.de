@@ -5,7 +5,8 @@ slug: offtopic-reaktion-teeworlds-setup
 status: publish
 comments: true
 title: Offtopic | Reaktion Teeworlds-Setup
-alias: /archives/857
+aliases:
+- /archives/857
 categories:
 - General
 - Linux

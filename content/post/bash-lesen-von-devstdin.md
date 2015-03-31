@@ -5,7 +5,8 @@ slug: bash-lesen-von-devstdin
 status: publish
 comments: true
 title: Bash | Lesen von /dev/stdin
-alias: /archives/1402
+aliases:
+- /archives/1402
 categories:
 - Bash
 - Coding

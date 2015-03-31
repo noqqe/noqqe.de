@@ -5,7 +5,8 @@ slug: verquirrlte-sch
 status: publish
 comments: true
 title: Verquirrlte Sch****
-alias: /archives/254
+aliases:
+- /archives/254
 categories:
 - Hardware
 tags:

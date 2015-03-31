@@ -5,7 +5,8 @@ slug: favicon-in-wordpress
 status: publish
 comments: true
 title: html | Favicon in Wordpress
-alias: /archives/514
+aliases:
+- /archives/514
 categories:
 - General
 - Linux

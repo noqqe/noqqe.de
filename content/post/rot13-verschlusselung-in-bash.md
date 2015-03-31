@@ -5,7 +5,8 @@ slug: rot13-verschlusselung-in-bash
 status: publish
 comments: true
 title: ROT13 Verschlüsselung in Bash
-alias: /archives/1732
+aliases:
+- /archives/1732
 categories:
 - Bash
 - Coding

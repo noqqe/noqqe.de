@@ -5,7 +5,8 @@ slug: perl-ich-hatte-doch-das-kamelbuch-nehmen-sollen
 status: publish
 comments: true
 title: Perl | Ich hätte doch das Kamelbuch nehmen sollen
-alias: /archives/1087
+aliases:
+- /archives/1087
 categories:
 - Coding
 - git

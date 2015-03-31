@@ -5,7 +5,8 @@ slug: comic-wtfs-pro-minute
 status: publish
 comments: true
 title: Comic | WTFs pro Minute
-alias: /archives/524
+aliases:
+- /archives/524
 categories:
 - Coding
 - General

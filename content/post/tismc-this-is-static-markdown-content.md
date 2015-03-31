@@ -5,7 +5,8 @@ slug: tismc-this-is-static-markdown-content
 status: publish
 comments: true
 title: tismc | This is static markdown content!
-alias: /archives/1243
+aliases:
+- /archives/1243
 categories:
 - Coding
 - Debian

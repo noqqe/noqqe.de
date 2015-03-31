@@ -5,7 +5,8 @@ slug: hcht-handmade-commandline-history-tool
 status: publish
 comments: true
 title: hcht | Handmade Commandline History Tool
-alias: /archives/1407
+aliases:
+- /archives/1407
 categories:
 - Bash
 - Coding

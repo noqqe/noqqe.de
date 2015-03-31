@@ -5,7 +5,8 @@ slug: 3dsupply-wie-man-kunden-kauft
 status: publish
 comments: true
 title: 3dsupply | Wie man Kunden kauft.
-alias: /archives/1142
+aliases:
+- /archives/1142
 categories:
 - General
 - Web

@@ -5,7 +5,8 @@ slug: eeepc-urlaubstuchtig-media-tauglich-machen
 status: publish
 comments: true
 title: EeePC urlaubstüchtig / Media tauglich machen!
-alias: /archives/55
+aliases:
+- /archives/55
 categories:
 - EEE-PC
 - Hardware

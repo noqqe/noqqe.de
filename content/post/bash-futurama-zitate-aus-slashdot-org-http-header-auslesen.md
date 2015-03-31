@@ -5,7 +5,8 @@ slug: bash-futurama-zitate-aus-slashdot-org-http-header-auslesen
 status: publish
 comments: true
 title: Bash | Futurama Zitate aus slashdot.org HTTP-Header auslesen
-alias: /archives/1255
+aliases:
+- /archives/1255
 categories:
 - Coding
 - Debian

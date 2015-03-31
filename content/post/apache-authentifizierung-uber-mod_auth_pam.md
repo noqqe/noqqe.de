@@ -5,7 +5,8 @@ slug: apache-authentifizierung-uber-mod_auth_pam
 status: publish
 comments: true
 title: Apache | Authentifizierung über mod_auth_pam
-alias: /archives/1494
+aliases:
+- /archives/1494
 categories:
 - Bash
 - Coding

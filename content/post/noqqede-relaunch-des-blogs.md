@@ -5,7 +5,8 @@ slug: noqqede-relaunch-des-blogs
 status: publish
 comments: true
 title: noqqe.de - relaunch des blogs
-alias: /archives/502
+aliases:
+- /archives/502
 categories:
 - General
 - Linux

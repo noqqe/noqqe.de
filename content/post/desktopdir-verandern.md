@@ -5,7 +5,8 @@ slug: desktopdir-verandern
 status: publish
 comments: true
 title: $DesktopDir verändern
-alias: /archives/355
+aliases:
+- /archives/355
 categories:
 - Linux
 tags:

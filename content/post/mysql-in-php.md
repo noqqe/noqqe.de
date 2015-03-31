@@ -5,7 +5,8 @@ slug: mysql-in-php
 status: publish
 comments: true
 title: MySQL in PHP
-alias: /archives/496
+aliases:
+- /archives/496
 categories:
 - Coding
 - Hardware

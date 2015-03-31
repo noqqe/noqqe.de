@@ -5,7 +5,8 @@ slug: bash-scripting-aufgabe-school
 status: publish
 comments: true
 title: Bash | Scripting-Aufgabe @ School
-alias: /archives/1011
+aliases:
+- /archives/1011
 categories:
 - Coding
 - Linux

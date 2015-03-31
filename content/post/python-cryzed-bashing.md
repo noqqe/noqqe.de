@@ -5,7 +5,8 @@ slug: python-cryzed-bashing
 status: publish
 comments: true
 title: Python | cryzed bashing
-alias: /archives/665
+aliases:
+- /archives/665
 categories:
 - Coding
 tags:

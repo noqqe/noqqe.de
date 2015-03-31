@@ -5,7 +5,8 @@ slug: privat-stille
 status: publish
 comments: true
 title: Privat | Stille
-alias: /archives/584
+aliases:
+- /archives/584
 categories:
 - General
 - Hardware

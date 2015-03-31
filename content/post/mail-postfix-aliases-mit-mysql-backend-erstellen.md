@@ -5,7 +5,8 @@ slug: mail-postfix-aliases-mit-mysql-backend-erstellen
 status: publish
 comments: true
 title: Mail | Postfix-Aliases mit MySQL-Backend erstellen
-alias: /archives/839
+aliases:
+- /archives/839
 categories:
 - Coding
 - Linux

@@ -5,7 +5,8 @@ slug: iphone-lieferung
 status: publish
 comments: true
 title: iPhone | Lieferung
-alias: /archives/658
+aliases:
+- /archives/658
 categories:
 - General
 - iPhone

@@ -5,7 +5,8 @@ slug: jabber-sendxmpp
 status: publish
 comments: true
 title: Jabber | sendXMPP
-alias: /archives/606
+aliases:
+- /archives/606
 categories:
 - Coding
 - Hardware

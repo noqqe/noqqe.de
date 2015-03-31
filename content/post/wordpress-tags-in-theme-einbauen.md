@@ -5,7 +5,8 @@ slug: wordpress-tags-in-theme-einbauen
 status: publish
 comments: true
 title: Wordpress | Tags in Theme einbauen
-alias: /archives/886
+aliases:
+- /archives/886
 categories:
 - Coding
 - General

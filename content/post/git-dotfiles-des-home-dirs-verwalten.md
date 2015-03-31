@@ -5,7 +5,8 @@ slug: git-dotfiles-des-home-dirs-verwalten
 status: publish
 comments: true
 title: Git | Dotfiles des Home-Dirs verwalten
-alias: /archives/1192
+aliases:
+- /archives/1192
 categories:
 - Coding
 - Debian

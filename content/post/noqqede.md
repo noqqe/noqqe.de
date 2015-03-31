@@ -5,7 +5,8 @@ slug: noqqede
 status: publish
 comments: true
 title: noqqe.de
-alias: /archives/102
+aliases:
+- /archives/102
 categories:
 - General
 ---

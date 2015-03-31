@@ -5,7 +5,8 @@ slug: fur-die-geeks-unter-uns-die-google-shell
 status: publish
 comments: true
 title: Für die Geeks unter uns - Die Google-Shell
-alias: /archives/262
+aliases:
+- /archives/262
 categories:
 - Coding
 - Linux

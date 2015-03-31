@@ -5,7 +5,8 @@ slug: mail-via-telnet-persohnlich-abliefern
 status: publish
 comments: true
 title: Mail | via Telnet persöhnlich abliefern
-alias: /archives/521
+aliases:
+- /archives/521
 categories:
 - EEE-PC
 - General

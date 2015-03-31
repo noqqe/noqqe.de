@@ -5,7 +5,8 @@ slug: linux-hardware-erkennung-in-ubuntu
 status: publish
 comments: true
 title: Linux | Hardware Erkennung in Ubuntu
-alias: /archives/610
+aliases:
+- /archives/610
 categories:
 - General
 - Hardware

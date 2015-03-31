@@ -5,7 +5,8 @@ slug: grub-und-die-anderen-komplikationen-mal-wieder
 status: publish
 comments: true
 title: Grub und andere Komplikationen...
-alias: /archives/6
+aliases:
+- /archives/6
 categories:
 - Hardware
 - Linux

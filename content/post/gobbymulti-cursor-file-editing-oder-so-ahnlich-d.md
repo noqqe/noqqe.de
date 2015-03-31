@@ -5,7 +5,8 @@ slug: gobbymulti-cursor-file-editing-oder-so-ahnlich-d
 status: publish
 comments: true
 title: Gobby | Multi Cursor File Editing
-alias: /archives/118
+aliases:
+- /archives/118
 categories:
 - Coding
 - Linux

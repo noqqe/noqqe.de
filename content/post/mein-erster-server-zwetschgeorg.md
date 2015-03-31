@@ -5,7 +5,8 @@ slug: zwetschgeorg
 status: publish
 comments: true
 title: zwetschge.org
-alias: /archives/235
+aliases:
+- /archives/235
 categories:
 - Hardware
 - Linux

@@ -5,7 +5,8 @@ slug: git-dateien-wiederherstellen
 status: publish
 comments: true
 title: 'Git | Dateien wiederherstellen '
-alias: /archives/1201
+aliases:
+- /archives/1201
 categories:
 - Coding
 - git

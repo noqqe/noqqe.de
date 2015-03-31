@@ -5,7 +5,8 @@ slug: hack-the-unix-forkbomb
 status: publish
 comments: true
 title: Hack | The Unix Forkbomb
-alias: /archives/740
+aliases:
+- /archives/740
 categories:
 - Coding
 - Linux

@@ -5,7 +5,8 @@ slug: und-was-machst-du-so
 status: publish
 comments: true
 title: und was machst du so?
-alias: /archives/448
+aliases:
+- /archives/448
 categories:
 - Coding
 - General

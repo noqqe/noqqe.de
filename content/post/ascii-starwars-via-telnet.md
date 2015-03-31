@@ -5,7 +5,8 @@ slug: ascii-starwars-via-telnet
 status: publish
 comments: true
 title: ASCII | StarWars via Telnet
-alias: /archives/1351
+aliases:
+- /archives/1351
 categories:
 - Coding
 - General

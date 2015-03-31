@@ -5,7 +5,8 @@ slug: git-workflow-und-branching
 status: publish
 comments: true
 title: Git | Workflow und Branching
-alias: /archives/998
+aliases:
+- /archives/998
 ---
 
 ![git-logo](/uploads/2010/02/git-logo.png)

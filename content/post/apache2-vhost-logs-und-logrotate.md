@@ -5,7 +5,8 @@ slug: apache2-vhost-logs-und-logrotate
 status: publish
 comments: true
 title: Apache2 | vhost-Logs und logrotate
-alias: /archives/946
+aliases:
+- /archives/946
 categories:
 - Coding
 - Linux

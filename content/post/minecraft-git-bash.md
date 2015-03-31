@@ -5,7 +5,8 @@ slug: minecraft-git-bash
 status: publish
 comments: true
 title: 'Minecraft + Git + Bash = '
-alias: /archives/1693
+aliases:
+- /archives/1693
 categories:
 - Bash
 - Coding

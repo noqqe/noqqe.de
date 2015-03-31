@@ -5,7 +5,8 @@ slug: zwetschgeorg-monitoring
 status: publish
 comments: true
 title: zwetschge.org monitoring
-alias: /archives/246
+aliases:
+- /archives/246
 categories:
 - Hardware
 - Linux

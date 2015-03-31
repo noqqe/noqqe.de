@@ -5,7 +5,8 @@ slug: flashspeicher-ist-auch-nichtmehr-das-was-er-mal-war
 status: publish
 comments: true
 title: FlashSpeicher ist auch nichtmehr das was er mal war.
-alias: /archives/359
+aliases:
+- /archives/359
 categories:
 - Hardware
 - Linux

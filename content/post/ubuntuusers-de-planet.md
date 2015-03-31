@@ -5,7 +5,8 @@ slug: ubuntuusers-de-planet
 status: publish
 comments: true
 title: Ubuntuusers.de-Planet
-alias: /archives/802
+aliases:
+- /archives/802
 categories:
 - General
 - Linux

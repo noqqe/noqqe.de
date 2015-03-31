@@ -5,7 +5,8 @@ slug: fbcmd-nie-wieder-geburtstage-vergessen-via-shell
 status: publish
 comments: true
 title: 'fbcmd | Nie wieder Geburtstage vergessen via Shell. '
-alias: /archives/1827
+aliases:
+- /archives/1827
 categories:
 - Bash
 - Coding

@@ -5,7 +5,8 @@ slug: eeexubuntu-oder-ubuntueee
 status: publish
 comments: true
 title: eeexubuntu oder ubuntueee ?!
-alias: /archives/108
+aliases:
+- /archives/108
 categories:
 - EEE-PC
 - Hardware

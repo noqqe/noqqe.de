@@ -5,7 +5,8 @@ slug: cisco-ccna-1
 status: publish
 comments: true
 title: Cisco CCNA 1
-alias: /archives/103
+aliases:
+- /archives/103
 categories:
 - General
 - Hardware

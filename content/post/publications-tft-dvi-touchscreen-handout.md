@@ -5,7 +5,8 @@ slug: publications-tft-dvi-touchscreen-handout
 status: publish
 comments: true
 title: Publications | TFT - DVI - TouchScreen Handout
-alias: /archives/590
+aliases:
+- /archives/590
 categories:
 - General
 - Hardware

@@ -5,7 +5,8 @@ slug: projektarbeit-raid-handout
 status: publish
 comments: true
 title: 'Projektarbeit: RAID-Handout'
-alias: /archives/317
+aliases:
+- /archives/317
 tags:
 - Berufsschule
 - Projektarbeit

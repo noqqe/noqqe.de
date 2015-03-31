@@ -5,7 +5,8 @@ slug: deaddrop-sharing-in-baiersdorf
 status: publish
 comments: true
 title: 'DeadDrop | Sharing mit Alice and Bob in Baiersdorf '
-alias: /archives/1792
+aliases:
+- /archives/1792
 categories:
 - Hardware
 - Linux

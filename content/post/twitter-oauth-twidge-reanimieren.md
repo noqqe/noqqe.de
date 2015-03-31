@@ -5,7 +5,8 @@ slug: twitter-oauth-twidge-reanimieren
 status: publish
 comments: true
 title: Twitter OAuth | Twidge reanimieren
-alias: /archives/1262
+aliases:
+- /archives/1262
 categories:
 - Debian
 - General

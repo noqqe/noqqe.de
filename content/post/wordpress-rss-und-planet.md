@@ -5,7 +5,8 @@ slug: wordpress-rss-und-planet
 status: publish
 comments: true
 title: Wordpress | RSS und Planet
-alias: /archives/805
+aliases:
+- /archives/805
 categories:
 - Linux
 - PHP

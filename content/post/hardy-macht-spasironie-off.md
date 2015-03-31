@@ -5,7 +5,8 @@ slug: hardy-macht-spasironie-off
 status: publish
 comments: true
 title: Hardy macht Spaß!Ironie off.
-alias: /archives/41
+aliases:
+- /archives/41
 categories:
 - Hardware
 - Linux

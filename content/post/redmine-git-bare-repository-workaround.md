@@ -5,7 +5,8 @@ slug: redmine-git-bare-repository-workaround
 status: publish
 comments: true
 title: Redmine | Git Bare Repository Workaround
-alias: /archives/1396
+aliases:
+- /archives/1396
 categories:
 - Coding
 - git

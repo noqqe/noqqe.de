@@ -5,7 +5,8 @@ slug: rt-requesttracker-stats
 status: publish
 comments: true
 title: RT | RequestTracker-Stats
-alias: /archives/1649
+aliases:
+- /archives/1649
 categories:
 - Bash
 - Coding

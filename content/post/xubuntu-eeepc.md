@@ -5,7 +5,8 @@ slug: xubuntu-eeepc
 status: publish
 comments: true
 title: Xubuntu / EeePC
-alias: /archives/50
+aliases:
+- /archives/50
 categories:
 - Hardware
 - Linux

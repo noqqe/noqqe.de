@@ -5,7 +5,8 @@ slug: theme-clouds-edited
 status: publish
 comments: true
 title: 'Theme | Clouds edited '
-alias: /archives/724
+aliases:
+- /archives/724
 categories:
 - Coding
 - General

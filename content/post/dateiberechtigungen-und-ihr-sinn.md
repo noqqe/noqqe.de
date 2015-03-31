@@ -5,7 +5,8 @@ slug: dateiberechtigungen-und-ihr-sinn
 status: publish
 comments: true
 title: Dateiberechtigungen und ihr Sinn
-alias: /archives/63
+aliases:
+- /archives/63
 categories:
 - Hardware
 - Linux

@@ -5,7 +5,8 @@ slug: event-chemnitzer-linux-tage
 status: publish
 comments: true
 title: Event | Chemnitzer Linux-Tage
-alias: /archives/939
+aliases:
+- /archives/939
 categories:
 - General
 - Linux

@@ -5,7 +5,8 @@ slug: hardy-heron-und-die-auflosung
 status: publish
 comments: true
 title: Hardy Heron und die Auflösung
-alias: /archives/72
+aliases:
+- /archives/72
 categories:
 - Hardware
 - Linux

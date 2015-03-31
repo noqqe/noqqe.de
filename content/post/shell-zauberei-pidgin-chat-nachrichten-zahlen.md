@@ -5,7 +5,8 @@ slug: pidgin-chat-nachrichten-zahlen
 status: publish
 comments: true
 title: Pidgin Chat-Nachrichten zählen
-alias: /archives/1672
+aliases:
+- /archives/1672
 categories:
 - Bash
 - Coding

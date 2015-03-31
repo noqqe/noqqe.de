@@ -5,7 +5,8 @@ slug: cisco-ccna1-bestanden-941
 status: publish
 comments: true
 title: Cisco CCNA1 bestanden ! 94,1%
-alias: /archives/106
+aliases:
+- /archives/106
 tags:
 - CCNA 1
 - Cisco

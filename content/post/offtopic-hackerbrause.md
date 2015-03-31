@@ -5,7 +5,8 @@ slug: offtopic-hackerbrause
 status: publish
 comments: true
 title: Offtopic | Hackerbrause
-alias: /archives/1431
+aliases:
+- /archives/1431
 categories:
 - General
 - Linux

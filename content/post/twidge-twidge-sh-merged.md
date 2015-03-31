@@ -5,7 +5,8 @@ slug: twidge-twidge-sh-merged
 status: publish
 comments: true
 title: Twidge | twidge-sh merged!
-alias: /archives/1308
+aliases:
+- /archives/1308
 categories:
 - Coding
 - Debian

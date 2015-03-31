@@ -5,7 +5,8 @@ slug: unpack-200
 status: publish
 comments: true
 title: unpack 2.0.0
-alias: /archives/396
+aliases:
+- /archives/396
 categories:
 - Coding
 - General

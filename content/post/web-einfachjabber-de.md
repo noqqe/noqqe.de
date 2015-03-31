@@ -5,7 +5,8 @@ slug: web-einfachjabber-de
 status: publish
 comments: true
 title: Web | einfachJabber.de
-alias: /archives/1104
+aliases:
+- /archives/1104
 categories:
 - Coding
 - General

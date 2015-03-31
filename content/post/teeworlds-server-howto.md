@@ -5,7 +5,8 @@ slug: teeworlds-server-howto
 status: publish
 comments: true
 title: Teeworlds - Server How To
-alias: /archives/459
+aliases:
+- /archives/459
 categories:
 - General
 - Linux

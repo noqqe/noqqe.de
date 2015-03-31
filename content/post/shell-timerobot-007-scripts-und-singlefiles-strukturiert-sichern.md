@@ -5,7 +5,8 @@ slug: shell-timerobot-007-scripts-und-singlefiles-strukturiert-sichern
 status: publish
 comments: true
 title: Shell | TimeRobot 0.0.7 Scripts und SingleFiles strukturiert sichern
-alias: /archives/620
+aliases:
+- /archives/620
 categories:
 - Coding
 - General

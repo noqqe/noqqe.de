@@ -5,7 +5,8 @@ slug: ubuntu-904-heist-jaunty-jackalope
 status: publish
 comments: true
 title: Ubuntu 9.04 heißt "Jaunty Jackalope"
-alias: /archives/227
+aliases:
+- /archives/227
 categories:
 - General
 - Hardware

@@ -5,7 +5,8 @@ slug: zre-visualisiert
 status: publish
 comments: true
 title: ZRE | Visualisiert.
-alias: /archives/1513
+aliases:
+- /archives/1513
 categories:
 - Bash
 - Coding

@@ -5,7 +5,8 @@ slug: 2-weitere-probleme-vista-abschied-sicher
 status: publish
 comments: true
 title: 2 weitere Probleme. Bye Bye Vista.
-alias: /archives/66
+aliases:
+- /archives/66
 categories:
 - Hardware
 - Linux

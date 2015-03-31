@@ -5,7 +5,8 @@ slug: postgresql-1000-und-1-query
 status: publish
 comments: true
 title: PostgreSQL | 1000 und 1 Query
-alias: /archives/1742
+aliases:
+- /archives/1742
 categories:
 - Bash
 - Coding

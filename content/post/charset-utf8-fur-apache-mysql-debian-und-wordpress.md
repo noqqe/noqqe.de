@@ -5,7 +5,8 @@ slug: charset-utf8-fur-apache-mysql-debian-und-wordpress
 status: publish
 comments: true
 title: 'Charset | UTF8 für Apache, PHP, MySQL, Debian und Wordpress '
-alias: /archives/1487
+aliases:
+- /archives/1487
 categories:
 - Bash
 - Coding

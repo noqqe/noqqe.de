@@ -5,7 +5,8 @@ slug: backup-bash-vs-python
 status: publish
 comments: true
 title: Backup | Bash vs. Python
-alias: /archives/568
+aliases:
+- /archives/568
 categories:
 - Coding
 - Linux

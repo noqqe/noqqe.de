@@ -5,7 +5,8 @@ slug: loading-eine-bash-progress-bar
 status: publish
 comments: true
 title: Loading | Eine Bash-Progress-Bar
-alias: /archives/1819
+aliases:
+- /archives/1819
 categories:
 - Bash
 - Coding

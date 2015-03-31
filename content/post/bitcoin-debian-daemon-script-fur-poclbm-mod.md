@@ -5,7 +5,8 @@ slug: bitcoin-debian-daemon-script-fur-poclbm-mod
 status: publish
 comments: true
 title: BitCoin | Debian Daemon Script für poclbm-mod
-alias: /archives/1689
+aliases:
+- /archives/1689
 categories:
 - Bash
 - Coding

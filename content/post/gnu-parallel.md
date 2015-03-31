@@ -5,7 +5,8 @@ slug: gnu-parallel
 status: publish
 comments: true
 title: 'GNU Parallel'
-alias: /archives/1846
+aliases:
+- /archives/1846
 categories:
 - Bash
 - Linux

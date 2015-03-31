@@ -5,7 +5,8 @@ slug: ssh-app-leid-oder-elend-its-your-choice
 status: publish
 comments: true
 title: 'SSH-App | Leid oder Elend. It''s your choice. '
-alias: /archives/1164
+aliases:
+- /archives/1164
 categories:
 - General
 - iPhone

@@ -5,7 +5,8 @@ slug: debian-rsyslogd
 status: publish
 comments: true
 title: Debian | rsyslogd
-alias: /archives/686
+aliases:
+- /archives/686
 categories:
 - Coding
 - General

@@ -5,7 +5,8 @@ slug: shell-timerobot-006
 status: publish
 comments: true
 title: 'Shell | timeRobot 0.0.6 '
-alias: /archives/561
+aliases:
+- /archives/561
 categories:
 - Coding
 - Linux

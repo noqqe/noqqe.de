@@ -5,7 +5,8 @@ slug: bash-linux-und-scripting-an-meiner-schule
 status: publish
 comments: true
 title: Bash | Linux und Scripting an meiner Schule
-alias: /archives/1005
+aliases:
+- /archives/1005
 categories:
 - Coding
 - Linux

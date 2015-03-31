@@ -5,7 +5,8 @@ slug: my-new-desktop
 status: publish
 comments: true
 title: My new Desktop
-alias: /archives/93
+aliases:
+- /archives/93
 categories:
 - General
 - Linux

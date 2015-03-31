@@ -5,7 +5,8 @@ slug: bash-zre-und-random
 status: publish
 comments: true
 title: Bash | ZRE und $RANDOM
-alias: /archives/1321
+aliases:
+- /archives/1321
 categories:
 - Coding
 - General

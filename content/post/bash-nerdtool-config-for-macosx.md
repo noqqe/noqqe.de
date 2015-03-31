@@ -5,7 +5,8 @@ slug: bash-nerdtool-config-for-macosx
 status: publish
 comments: true
 title: Bash | NerdTool Config for MacOSX
-alias: /archives/1182
+aliases:
+- /archives/1182
 categories:
 - Coding
 - Mac

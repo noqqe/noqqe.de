@@ -5,7 +5,8 @@ slug: blog-random-text-pool
 status: publish
 comments: true
 title: Blog | Random-Text-Pool
-alias: /archives/538
+aliases:
+- /archives/538
 categories:
 - Coding
 - General

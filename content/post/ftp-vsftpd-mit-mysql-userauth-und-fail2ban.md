@@ -5,7 +5,8 @@ slug: ftp-vsftpd-mit-mysql-userauth-und-fail2ban
 status: publish
 comments: true
 title: FTP | vsftpd mit MySQL-Userauth und fail2ban
-alias: /archives/904
+aliases:
+- /archives/904
 categories:
 - Coding
 - Hardware

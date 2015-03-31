@@ -5,7 +5,8 @@ slug: ubuntu-the-future-jaunty-jackalope-karmic-koala
 status: publish
 comments: true
 title: 'Ubuntu | The Future: Jaunty Jackalope & Karmic Koala'
-alias: /archives/540
+aliases:
+- /archives/540
 categories:
 - General
 - Linux

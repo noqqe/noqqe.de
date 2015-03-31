@@ -5,7 +5,8 @@ slug: the-geek-code
 status: publish
 comments: true
 title: The Geek Code
-alias: /archives/80
+aliases:
+- /archives/80
 categories:
 - General
 ---

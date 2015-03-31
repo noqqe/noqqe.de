@@ -5,7 +5,8 @@ slug: syncn-110
 status: publish
 comments: true
 title: syncN 1.1.0
-alias: /archives/450
+aliases:
+- /archives/450
 categories:
 - Coding
 - Linux

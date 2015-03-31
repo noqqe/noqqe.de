@@ -5,7 +5,8 @@ slug: offtopic-deskshot
 status: publish
 comments: true
 title: Offtopic | Deskshot.
-alias: /archives/1442
+aliases:
+- /archives/1442
 categories:
 - Bash
 - General

@@ -5,7 +5,8 @@ slug: supertux
 status: publish
 comments: true
 title: SuperTux!
-alias: /archives/87
+aliases:
+- /archives/87
 categories:
 - EEE-PC
 - Linux

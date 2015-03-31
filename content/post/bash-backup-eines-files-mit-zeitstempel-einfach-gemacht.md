@@ -5,7 +5,8 @@ slug: bash-backup-eines-files-mit-zeitstempel-einfach-gemacht
 status: publish
 comments: true
 title: 'Bash | Backup eines Files mit Zeitstempel in unkompliziert. '
-alias: /archives/1425
+aliases:
+- /archives/1425
 categories:
 - Bash
 - Coding

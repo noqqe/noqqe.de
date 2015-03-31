@@ -5,7 +5,8 @@ slug: bash-inkrement-methoden-und-effizienz
 status: publish
 comments: true
 title: Bash | Inkrement-Methoden und Effizienz
-alias: /archives/1014
+aliases:
+- /archives/1014
 categories:
 - Coding
 - Linux

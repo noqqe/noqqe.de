@@ -5,7 +5,8 @@ slug: publications-projektdokumentation
 status: publish
 comments: true
 title: Publications | Projektdokumentation
-alias: /archives/675
+aliases:
+- /archives/675
 categories:
 - General
 ---

@@ -5,7 +5,8 @@ slug: wordpress-archive-page-erstellen
 status: publish
 comments: true
 title: Wordpress | Archive Page erstellen
-alias: /archives/970
+aliases:
+- /archives/970
 categories:
 - Coding
 - PHP

@@ -5,7 +5,8 @@ slug: python-backup-skript
 status: publish
 comments: true
 title: Python Backup Skript
-alias: /archives/111
+aliases:
+- /archives/111
 categories:
 - Coding
 - Linux

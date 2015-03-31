@@ -5,7 +5,8 @@ slug: github-sinn-unsinn-interfaces-und-schon-wieder-zombies
 status: publish
 comments: true
 title: github | Sinn, Unsinn, Interfaces und schon wieder Zombies
-alias: /archives/1383
+aliases:
+- /archives/1383
 categories:
 - Coding
 - git

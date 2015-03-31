@@ -5,7 +5,8 @@ slug: ipv6
 status: publish
 comments: true
 title: IPv6
-alias: /archives/363
+aliases:
+- /archives/363
 categories:
 - Hardware
 - Linux

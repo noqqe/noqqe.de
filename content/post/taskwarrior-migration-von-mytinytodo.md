@@ -5,7 +5,8 @@ slug: taskwarrior-migration-von-mytinytodo
 status: publish
 comments: true
 title: 'Taskwarrior | Migration von MyTinyTodo '
-alias: /archives/1766
+aliases:
+- /archives/1766
 categories:
 - Bash
 - Coding

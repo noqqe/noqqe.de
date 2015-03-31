@@ -5,7 +5,8 @@ slug: mein-erster-apache2
 status: publish
 comments: true
 title: Mein erster Apache2
-alias: /archives/224
+aliases:
+- /archives/224
 categories:
 - Linux
 tags:

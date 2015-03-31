@@ -6,7 +6,8 @@ status: publish
 comments: true
 title: Shell | TimeRobot - Strukturiertes/Zyklisches Backuppen ausgewählter Configs
   und Skripts
-alias: /archives/548
+aliases:
+- /archives/548
 categories:
 - Coding
 - Linux

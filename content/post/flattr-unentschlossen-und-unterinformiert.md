@@ -5,7 +5,8 @@ slug: flattr-unentschlossen-und-unterinformiert
 status: publish
 comments: true
 title: 'Flattr | Unentschlossen und unterinformiert. '
-alias: /archives/1024
+aliases:
+- /archives/1024
 categories:
 - General
 - PlanetenBlogger

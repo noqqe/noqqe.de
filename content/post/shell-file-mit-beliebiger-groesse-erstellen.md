@@ -5,7 +5,8 @@ slug: shell-file-mit-beliebiger-groesse-erstellen
 status: publish
 comments: true
 title: Shell | File mit beliebiger Groesse erstellen
-alias: /archives/627
+aliases:
+- /archives/627
 categories:
 - Coding
 - General

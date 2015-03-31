@@ -5,7 +5,8 @@ slug: statistiken-einfache-graphen-mit-r-und-mysql-anbindung
 status: publish
 comments: true
 title: Statistiken | Einfache Graphen mit R und MySQL Anbindung
-alias: /archives/1780
+aliases:
+- /archives/1780
 categories:
 - Bash
 - Coding

@@ -5,7 +5,8 @@ slug: bash-it-zitronen-thema
 status: publish
 comments: true
 title: bash-it | Zitronen-Thema
-alias: /archives/1342
+aliases:
+- /archives/1342
 categories:
 - Coding
 - git

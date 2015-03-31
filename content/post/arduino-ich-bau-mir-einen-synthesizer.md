@@ -5,7 +5,8 @@ slug: arduino-ich-bau-mir-einen-synthesizer
 status: publish
 comments: true
 title: Arduino | Ich bau mir einen Synthesizer
-alias: /archives/1833
+aliases:
+- /archives/1833
 categories:
 - Coding
 - General

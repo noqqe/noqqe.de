@@ -5,7 +5,8 @@ slug: mac-fraise-app-fur-latex-konfigurieren
 status: publish
 comments: true
 title: Mac | Fraise App für LaTeX konfigurieren
-alias: /archives/1437
+aliases:
+- /archives/1437
 categories:
 - Bash
 - Coding

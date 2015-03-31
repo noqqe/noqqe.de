@@ -5,7 +5,8 @@ slug: namensliste-in-mysql-datenbank-einspeisen
 status: publish
 comments: true
 title: Namensliste in MySQL Datenbank einspeisen
-alias: /archives/1645
+aliases:
+- /archives/1645
 categories:
 - Bash
 - Coding

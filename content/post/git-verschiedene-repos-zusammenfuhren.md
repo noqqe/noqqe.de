@@ -5,7 +5,8 @@ slug: git-verschiedene-repos-zusammenfuhren
 status: publish
 comments: true
 title: 'Git | Verschiedene Repos zusammenführen '
-alias: /archives/1302
+aliases:
+- /archives/1302
 categories:
 - Coding
 - Debian

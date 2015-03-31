@@ -5,7 +5,8 @@ slug: jabber-eleganter-client-synapse
 status: publish
 comments: true
 title: 'Jabber | Eleganter Client - Synapse '
-alias: /archives/570
+aliases:
+- /archives/570
 categories:
 - General
 - Hardware

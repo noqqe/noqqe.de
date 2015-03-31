@@ -5,7 +5,8 @@ slug: bash-timerobot-0-0-8
 status: publish
 comments: true
 title: bash | timeRobot 0.0.8
-alias: /archives/769
+aliases:
+- /archives/769
 categories:
 - Coding
 - Linux

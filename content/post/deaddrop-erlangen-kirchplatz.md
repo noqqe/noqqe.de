@@ -5,7 +5,8 @@ slug: deaddrop-erlangen-kirchplatz
 status: publish
 comments: true
 title: DeadDrop | Erlangen Kirchplatz
-alias: /archives/1747
+aliases:
+- /archives/1747
 categories:
 - General
 - Hardware

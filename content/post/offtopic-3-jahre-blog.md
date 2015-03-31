@@ -5,7 +5,8 @@ slug: offtopic-3-jahre-blog
 status: publish
 comments: true
 title: Offtopic | 3 Jahre Blog
-alias: /archives/1536
+aliases:
+- /archives/1536
 ---
 
 Vor 3 Jahren hab ich hier [den ersten Blog](/archives/421) post verfasst.

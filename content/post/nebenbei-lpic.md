@@ -5,7 +5,8 @@ slug: nebenbei-lpic
 status: publish
 comments: true
 title: Nebenbei | LPIC
-alias: /archives/638
+aliases:
+- /archives/638
 ---
 
 habe am 20.8.09 meine pruefung fuer lpic abgelegt. gestern kam das zertifikat.

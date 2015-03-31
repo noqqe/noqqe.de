@@ -5,7 +5,8 @@ slug: community-planetenblogger-de
 status: publish
 comments: true
 title: Community | Planetenblogger.de
-alias: /archives/920
+aliases:
+- /archives/920
 categories:
 - General
 tags:

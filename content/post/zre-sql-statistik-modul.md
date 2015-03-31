@@ -5,7 +5,8 @@ slug: zre-sql-statistik-modul
 status: publish
 comments: true
 title: 'ZRE | SQL Statistik Modul '
-alias: /archives/1566
+aliases:
+- /archives/1566
 categories:
 - Bash
 - Coding

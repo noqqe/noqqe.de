@@ -5,7 +5,8 @@ slug: personlicher-eindruck-chemnitzer-linux-tage-2011
 status: publish
 comments: true
 title: Persönlicher Eindruck | Chemnitzer Linux Tage 2011
-alias: /archives/1538
+aliases:
+- /archives/1538
 categories:
 - Bash
 - Coding

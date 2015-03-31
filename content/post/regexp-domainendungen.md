@@ -5,7 +5,8 @@ slug: regexp-domainendungen
 status: publish
 comments: true
 title: RegExp | Domainendungen
-alias: /archives/983
+aliases:
+- /archives/983
 categories:
 - Coding
 - Linux

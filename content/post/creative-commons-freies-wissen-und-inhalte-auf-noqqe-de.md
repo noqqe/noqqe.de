@@ -5,7 +5,8 @@ slug: creative-commons-freies-wissen-und-inhalte
 status: publish
 comments: true
 title: Creative Commons | Freies Wissen und Inhalte
-alias: /archives/1049
+aliases:
+- /archives/1049
 categories:
 - Coding
 - General

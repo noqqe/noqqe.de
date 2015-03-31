@@ -5,7 +5,8 @@ slug: gitosis-debugging-undokumentiertes-und-konfiguration
 status: publish
 comments: true
 title: Gitosis | Debugging, Undokumentiertes und Konfiguration
-alias: /archives/1175
+aliases:
+- /archives/1175
 categories:
 - Coding
 - Debian

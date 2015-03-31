@@ -5,7 +5,8 @@ slug: awk-und-syncn
 status: publish
 comments: true
 title: awk und syncN
-alias: /archives/446
+aliases:
+- /archives/446
 categories:
 - Coding
 - Linux

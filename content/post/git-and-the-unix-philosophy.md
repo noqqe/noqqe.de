@@ -5,7 +5,8 @@ slug: git-and-the-unix-philosophy
 status: publish
 comments: true
 title: Git and the Unix philosophy
-alias: /archives/1805
+aliases:
+- /archives/1805
 categories:
 - General
 - git

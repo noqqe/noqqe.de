@@ -5,7 +5,8 @@ slug: bash-it-n0qorg-theme-und-git_info
 status: publish
 comments: true
 title: bash-it | n0qorg theme und git_info
-alias: /archives/1389
+aliases:
+- /archives/1389
 categories:
 - Coding
 - General

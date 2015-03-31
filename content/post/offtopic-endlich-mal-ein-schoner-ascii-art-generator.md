@@ -5,7 +5,8 @@ slug: offtopic-endlich-mal-ein-schoner-ascii-art-generator
 status: publish
 comments: true
 title: Offtopic | Endlich mal ein schöner ASCII-Art-Generator
-alias: /archives/884
+aliases:
+- /archives/884
 categories:
 - Coding
 - PHP

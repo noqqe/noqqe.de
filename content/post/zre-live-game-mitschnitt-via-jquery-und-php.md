@@ -5,7 +5,8 @@ slug: zre-live-game-mitschnitt-via-jquery-und-php
 status: publish
 comments: true
 title: ZRE | Live Game Mitschnitt via jQuery und PHP
-alias: /archives/1520
+aliases:
+- /archives/1520
 categories:
 - Bash
 - Coding

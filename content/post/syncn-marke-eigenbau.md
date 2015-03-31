@@ -5,7 +5,8 @@ slug: syncn-marke-eigenbau
 status: publish
 comments: true
 title: syncN - Marke Eigenbau
-alias: /archives/416
+aliases:
+- /archives/416
 categories:
 - Coding
 - Linux

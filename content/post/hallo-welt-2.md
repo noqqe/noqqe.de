@@ -5,7 +5,8 @@ slug: hallo-welt-2
 status: publish
 comments: true
 title: Blog Eröffnung!
-alias: /archives/421
+aliases:
+- /archives/421
 categories:
 - General
 ---

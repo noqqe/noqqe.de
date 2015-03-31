@@ -5,7 +5,8 @@ slug: ide-festplatten-backups-und-skripte
 status: publish
 comments: true
 title: IDE Festplatten, Backups und Skripte
-alias: /archives/315
+aliases:
+- /archives/315
 categories:
 - Coding
 - Linux

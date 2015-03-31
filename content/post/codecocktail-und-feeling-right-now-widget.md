@@ -5,7 +5,8 @@ slug: codecocktail-und-feeling-right-now-widget
 status: publish
 comments: true
 title: CodeCocktail und "feeling right now" Widget
-alias: /archives/455
+aliases:
+- /archives/455
 categories:
 - Coding
 - Linux

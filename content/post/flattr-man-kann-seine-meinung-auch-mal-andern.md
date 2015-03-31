@@ -5,7 +5,8 @@ slug: flattr-man-kann-seine-meinung-auch-mal-andern
 status: publish
 comments: true
 title: 'Flattr | Man kann seine Meinung auch mal ändern. '
-alias: /archives/1774
+aliases:
+- /archives/1774
 categories:
 - General
 - Linux

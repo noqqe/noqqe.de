@@ -5,7 +5,8 @@ slug: bash-the-zombie-revolution-environment
 status: publish
 comments: true
 title: Bash | the zombie-revolution-environment
-alias: /archives/1314
+aliases:
+- /archives/1314
 categories:
 - Coding
 - Debian

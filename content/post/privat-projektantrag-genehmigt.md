@@ -5,7 +5,8 @@ slug: privat-projektantrag-genehmigt
 status: publish
 comments: true
 title: Privat | Projektantrag genehmigt
-alias: /archives/574
+aliases:
+- /archives/574
 categories:
 - General
 tags:

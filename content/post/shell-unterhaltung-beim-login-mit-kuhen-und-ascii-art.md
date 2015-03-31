@@ -5,7 +5,8 @@ slug: shell-unterhaltung-beim-login-mit-kuhen-und-ascii-art
 status: publish
 comments: true
 title: Shell | Unterhaltung beim Login mit Kühen und Ascii-ART
-alias: /archives/545
+aliases:
+- /archives/545
 categories:
 - Coding
 - Linux

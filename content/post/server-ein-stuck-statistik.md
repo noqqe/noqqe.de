@@ -5,7 +5,8 @@ slug: server-ein-stuck-statistik
 status: publish
 comments: true
 title: Server | Ein Stück Statistik
-alias: /archives/595
+aliases:
+- /archives/595
 categories:
 - General
 - Linux

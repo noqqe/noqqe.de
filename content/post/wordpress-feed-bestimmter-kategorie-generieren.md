@@ -5,7 +5,8 @@ slug: wordpress-feed-bestimmter-kategorie-generieren
 status: publish
 comments: true
 title: Wordpress | Feed bestimmter Kategorie generieren
-alias: /archives/752
+aliases:
+- /archives/752
 categories:
 - Coding
 - Linux

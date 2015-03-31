@@ -5,7 +5,8 @@ slug: zwetschgeorg-monitoring-mal-wieder
 status: publish
 comments: true
 title: Zwetschge.org Monitoring - mal wieder
-alias: /archives/311
+aliases:
+- /archives/311
 categories:
 - Hardware
 - Linux

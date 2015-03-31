@@ -5,7 +5,8 @@ slug: mysql-table-migration-zu-innodb
 status: publish
 comments: true
 title: MySQL | Table Migration zu InnoDB
-alias: /archives/1850
+aliases:
+- /archives/1850
 categories:
 - Bash
 - Debian

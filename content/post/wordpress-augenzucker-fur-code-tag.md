@@ -5,7 +5,8 @@ slug: wordpress-augenzucker-fur-code-tag
 status: publish
 comments: true
 title: Wordpress | Augenzucker für Code-Tag.
-alias: /archives/881
+aliases:
+- /archives/881
 categories:
 - Coding
 tags:

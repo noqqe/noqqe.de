@@ -5,7 +5,8 @@ slug: shell-zauberei-benutzer-emailadressen-in-mysql-datenbank-anonymisieren
 status: publish
 comments: true
 title: Emailadressen in MySQL Datenbank anonymisieren
-alias: /archives/1635
+aliases:
+- /archives/1635
 categories:
 - Bash
 - Coding

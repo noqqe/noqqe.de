@@ -5,7 +5,8 @@ slug: unpack-entpackt-sie-alle-marke-eigenbau
 status: publish
 comments: true
 title: unpack - Entpackt sie alle - Marke Eigenbau
-alias: /archives/346
+aliases:
+- /archives/346
 categories:
 - Coding
 - General

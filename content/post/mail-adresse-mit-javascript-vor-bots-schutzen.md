@@ -5,7 +5,8 @@ slug: mail-adresse-mit-javascript-vor-bots-schutzen
 status: publish
 comments: true
 title: 'Mail | Adresse mit JavaScript vor Bots schützen. '
-alias: /archives/1367
+aliases:
+- /archives/1367
 categories:
 - Coding
 - Linux

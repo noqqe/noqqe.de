@@ -5,7 +5,8 @@ slug: mysql-datenbanken-einzeln-sichern
 status: publish
 comments: true
 title: MySQL | Datenbanken einzeln sichern
-alias: /archives/1156
+aliases:
+- /archives/1156
 categories:
 - Coding
 - Debian

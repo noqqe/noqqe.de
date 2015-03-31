@@ -5,7 +5,8 @@ slug: feed-rss-im-directors-cut
 status: publish
 comments: true
 title: Feed | RSS im Directors-Cut
-alias: /archives/542
+aliases:
+- /archives/542
 categories:
 - General
 tags:

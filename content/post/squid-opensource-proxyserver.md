@@ -5,7 +5,8 @@ slug: squid-opensource-proxyserver
 status: publish
 comments: true
 title: Squid - OpenSource ProxyServer
-alias: /archives/207
+aliases:
+- /archives/207
 categories:
 - Hardware
 - Linux

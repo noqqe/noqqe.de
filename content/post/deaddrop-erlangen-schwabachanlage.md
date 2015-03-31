@@ -5,7 +5,8 @@ slug: deaddrop-erlangen-schwabachanlage
 status: publish
 comments: true
 title: DeadDrop | Erlangen - Schwabachanlage
-alias: /archives/1759
+aliases:
+- /archives/1759
 categories:
 - Debian
 - General

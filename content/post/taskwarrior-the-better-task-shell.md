@@ -5,7 +5,8 @@ slug: taskwarrior-the-better-task-shell
 status: publish
 comments: true
 title: Taskwarrior | The better-task-shell
-alias: /archives/1810
+aliases:
+- /archives/1810
 categories:
 - Bash
 - Coding

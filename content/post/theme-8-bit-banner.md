@@ -5,7 +5,8 @@ slug: theme-8-bit-banner
 status: publish
 comments: true
 title: Theme | 8-Bit Banner
-alias: /archives/1076
+aliases:
+- /archives/1076
 categories:
 - General
 - Linux

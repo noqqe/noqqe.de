@@ -5,7 +5,8 @@ slug: web-paste-service-via-commandline-sprunge-us
 status: publish
 comments: true
 title: Web | Paste-Service via CommandLine (Sprunge.us)
-alias: /archives/854
+aliases:
+- /archives/854
 categories:
 - Coding
 - Linux

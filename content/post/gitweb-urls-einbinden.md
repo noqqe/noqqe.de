@@ -5,7 +5,8 @@ slug: gitweb-urls-einbinden
 status: publish
 comments: true
 title: Gitweb | URLs einbinden
-alias: /archives/987
+aliases:
+- /archives/987
 categories:
 - Coding
 - git

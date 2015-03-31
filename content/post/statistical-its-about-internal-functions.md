@@ -5,7 +5,8 @@ slug: statistical-its-about-internal-functions
 status: publish
 comments: true
 title: 'statistical | It''s about internal functions. '
-alias: /archives/1611
+aliases:
+- /archives/1611
 categories:
 - Bash
 - Coding

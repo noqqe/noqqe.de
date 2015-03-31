@@ -5,7 +5,8 @@ slug: apt-aktualisierungen-anzeigen-lassen
 status: publish
 comments: true
 title: Apt | Aktualisierungen anzeigen lassen
-alias: /archives/894
+aliases:
+- /archives/894
 categories:
 - Coding
 - Linux

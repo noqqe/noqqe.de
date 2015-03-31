@@ -5,7 +5,8 @@ slug: arduino-ich-baute-ein-megabitmeter
 status: publish
 comments: true
 title: Arduino | Ich baute ein Megabitmeter
-alias: /archives/1751
+aliases:
+- /archives/1751
 categories:
 - Bash
 - Coding

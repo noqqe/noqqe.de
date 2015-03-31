@@ -5,7 +5,8 @@ slug: teeworlds-mehrere-server-betreiben-unter-linux
 status: publish
 comments: true
 title: Teeworlds | Mehrere Server betreiben unter Linux
-alias: /archives/800
+aliases:
+- /archives/800
 categories:
 - Coding
 - Linux

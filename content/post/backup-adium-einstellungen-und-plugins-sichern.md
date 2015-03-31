@@ -5,7 +5,8 @@ slug: backup-adium-einstellungen-und-plugins-sichern
 status: publish
 comments: true
 title: Backup | Adium Einstellungen und Plugins sichern
-alias: /archives/944
+aliases:
+- /archives/944
 categories:
 - Coding
 - Mac

@@ -5,7 +5,8 @@ slug: web-statistik-video
 status: publish
 comments: true
 title: Web | Statistik Video
-alias: /archives/933
+aliases:
+- /archives/933
 categories:
 - General
 - PlanetenBlogger

@@ -5,7 +5,8 @@ slug: roborobo-selfmade-robot
 status: publish
 comments: true
 title: roborobo | selfmade robot
-alias: /archives/977
+aliases:
+- /archives/977
 categories:
 - Coding
 - Linux

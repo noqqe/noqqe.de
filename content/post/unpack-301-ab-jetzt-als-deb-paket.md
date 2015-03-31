@@ -5,7 +5,8 @@ slug: unpack-301-ab-jetzt-als-deb-paket
 status: publish
 comments: true
 title: unpack-3.0.1 ab jetzt als .deb Paket
-alias: /archives/422
+aliases:
+- /archives/422
 categories:
 - Coding
 - Linux

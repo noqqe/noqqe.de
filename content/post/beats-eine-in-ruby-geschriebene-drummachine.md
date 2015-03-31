@@ -5,7 +5,8 @@ slug: beats-eine-in-ruby-geschriebene-drummachine
 status: publish
 comments: true
 title: Beats | Eine in Ruby geschriebene Drummachine
-alias: /archives/1680
+aliases:
+- /archives/1680
 categories:
 - Bash
 - Coding

@@ -5,7 +5,8 @@ slug: offtopic-das-verlorene-kind-ahm-passwort
 status: publish
 comments: true
 title: Offtopic | Das verlorene Kind...ahm, Passwort
-alias: /archives/849
+aliases:
+- /archives/849
 categories:
 - General
 - Linux

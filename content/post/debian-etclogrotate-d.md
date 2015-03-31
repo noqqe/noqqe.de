@@ -5,7 +5,8 @@ slug: debian-etclogrotate-d
 status: publish
 comments: true
 title: Debian | /etc/logrotate.d/*
-alias: /archives/684
+aliases:
+- /archives/684
 ---
 
 Eigene Logs rotieren zu lassen ist mit logrotate eigentlich ziemlich entspannt.

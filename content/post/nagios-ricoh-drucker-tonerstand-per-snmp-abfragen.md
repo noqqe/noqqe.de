@@ -5,7 +5,8 @@ slug: nagios-ricoh-drucker-tonerstand-per-snmp-abfragen
 status: publish
 comments: true
 title: Nagios | Ricoh-Drucker Tonerstand per SNMP abfragen
-alias: /archives/1066
+aliases:
+- /archives/1066
 categories:
 - General
 - Linux

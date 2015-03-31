@@ -5,7 +5,8 @@ slug: teeworlds-version-0-5-2
 status: publish
 comments: true
 title: Teeworlds | Version 0.5.2
-alias: /archives/721
+aliases:
+- /archives/721
 categories:
 - Linux
 tags:

@@ -5,7 +5,8 @@ slug: web-anlaufstelle-fur-geekstuff-3dsupply
 status: publish
 comments: true
 title: Web | Anlaufstelle für Geekstuff? 3dsupply
-alias: /archives/995
+aliases:
+- /archives/995
 categories:
 - Linux
 - PlanetenBlogger

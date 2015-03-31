@@ -5,7 +5,8 @@ slug: nagios-von-sprechenden-druckern-verpflichtungen-und-snmp
 status: publish
 comments: true
 title: Nagios | Von sprechenden Druckern, Verpflichtungen und SNMP
-alias: /archives/954
+aliases:
+- /archives/954
 categories:
 - Coding
 - Linux

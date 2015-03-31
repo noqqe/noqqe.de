@@ -5,7 +5,8 @@ slug: rip-zwetschgeorg-30092008
 status: publish
 comments: true
 title: R.I.P zwetschge.org 30.09.2008
-alias: /archives/282
+aliases:
+- /archives/282
 categories:
 - Hardware
 - Linux

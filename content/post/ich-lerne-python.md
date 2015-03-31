@@ -5,7 +5,8 @@ slug: ich-lerne-python
 status: publish
 comments: true
 title: Ich lerne Python
-alias: /archives/104
+aliases:
+- /archives/104
 categories:
 - Coding
 - Linux

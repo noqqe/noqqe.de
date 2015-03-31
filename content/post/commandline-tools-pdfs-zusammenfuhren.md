@@ -5,7 +5,8 @@ slug: commandline-tools-pdfs-zusammenfuhren
 status: publish
 comments: true
 title: Commandline Tools | PDFs zusammenführen
-alias: /archives/1622
+aliases:
+- /archives/1622
 categories:
 - Bash
 - Coding

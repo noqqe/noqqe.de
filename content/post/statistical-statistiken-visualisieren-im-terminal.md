@@ -5,7 +5,8 @@ slug: statistical-statistiken-visualisieren-im-terminal
 status: publish
 comments: true
 title: statistical | Statistiken visualisieren im Terminal
-alias: /archives/1603
+aliases:
+- /archives/1603
 categories:
 - Bash
 - Coding

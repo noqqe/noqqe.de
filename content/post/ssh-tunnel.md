@@ -5,7 +5,8 @@ slug: ssh-tunnel
 status: publish
 comments: true
 title: ssh-Tunnel
-alias: /archives/297
+aliases:
+- /archives/297
 categories:
 - Linux
 tags:

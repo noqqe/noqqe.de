@@ -5,7 +5,8 @@ slug: explain-shell-kommandos-visualisiert-erklaren
 status: publish
 comments: true
 title: Explain | Shell-Kommandos visualisiert erklären
-alias: /archives/1224
+aliases:
+- /archives/1224
 categories:
 - Coding
 - Ubuntu

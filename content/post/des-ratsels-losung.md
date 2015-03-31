@@ -5,7 +5,8 @@ slug: des-ratsels-losung
 status: publish
 comments: true
 title: Des Rätsels Lösung?
-alias: /archives/8
+aliases:
+- /archives/8
 categories:
 - Hardware
 - Linux

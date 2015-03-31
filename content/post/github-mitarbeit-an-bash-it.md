@@ -5,7 +5,8 @@ slug: github-mitarbeit-an-bash-it
 status: publish
 comments: true
 title: 'github | Mitarbeit an bash-it '
-alias: /archives/1420
+aliases:
+- /archives/1420
 categories:
 - Bash
 - Coding

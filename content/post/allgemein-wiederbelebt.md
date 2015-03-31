@@ -5,7 +5,8 @@ slug: allgemein-wiederbelebt
 status: publish
 comments: true
 title: Allgemein | Wiederbelebt
-alias: /archives/652
+aliases:
+- /archives/652
 categories:
 - General
 - Linux

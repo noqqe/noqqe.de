@@ -5,7 +5,8 @@ slug: twitter-on-cli-twidge-interactive-shell
 status: publish
 comments: true
 title: Twitter on CLI | Twidge Interactive Shell
-alias: /archives/1285
+aliases:
+- /archives/1285
 categories:
 - Coding
 - Debian
