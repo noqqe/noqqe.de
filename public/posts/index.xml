@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on my new hugo site</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on my new hugo site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+    
+    
+    <lastBuildDate>Mon, 30 Mar 2015 15:53:20 CEST</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>yolo</title>
+      <link>http://localhost:1313/posts/yolo/</link>
+      <pubDate>Mon, 30 Mar 2015 15:53:20 CEST</pubDate>
+      
+      <guid>http://localhost:1313/posts/yolo/</guid>
+      <description>
+
+&lt;h3 id=&#34;test1:6846e205d4acbde74878c8b2ccf1cdab&#34;&gt;Test1&lt;/h3&gt;
+
+&lt;p&gt;adsfadfasdf&lt;/p&gt;
+
+&lt;p&gt;asdfadsfasdfasdfasdfö#adjsfälkadjsf&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>OpenBL in pf</title>
+      <link>http://localhost:1313/posts/2015-02-04-openbl-in-pf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UT</pubDate>
+      
+      <guid>http://localhost:1313/posts/2015-02-04-openbl-in-pf/</guid>
+      <description>&lt;p&gt;Das Projekt &lt;a href=&#34;https://openbl.org&#34;&gt;OpenBL&lt;/a&gt;, dass ursprünglich die OpenSSH
+Blacklist war, hat auf der ganzen Welt verteilte Honeypots rumstehen und
+publiziert regelmäßig Blacklisten sortiert nach Zeitraum und Protokoll des
+Angriffs.&lt;/p&gt;
+
+&lt;p&gt;{% img center /uploads/&lt;sup&gt;2015&lt;/sup&gt;&amp;frasl;&lt;sub&gt;02&lt;/sub&gt;/assholes.jpg %}&lt;/p&gt;
+
+&lt;p&gt;Das Resultat daraus kann jeder frei benutzen und zum Beispiel in seine
+Firewall einbauen. Realisiert hab ich das über einen &lt;code&gt;pf&lt;/code&gt; Table.&lt;/p&gt;
+
+&lt;p&gt;{% codeblock %}
+table &lt;blacklist&gt; persist
+pass in quick from &lt;admins&gt;
+block quick from &lt;blacklist&gt;
+{% endcodeblock %}&lt;/p&gt;
+
+&lt;p&gt;Die Regel ist relativ unspektakulär, abgesehen davon, dass die pass-Regel
+für die Admin IPs vor der Blacklist-Block Regel matchen sollte. Nur für den
+Fall dass man mal selbst auf so einer Liste landen sollte.
+Ein kleines Bash Script, dass mit Cron einmal die Woche die IPs updated.&lt;/p&gt;
+
+&lt;p&gt;{% codeblock lang:bash %}
+#!/usr/local/bin/bash
+STORE=&amp;ldquo;/tmp/&amp;rdquo;
+RULES=&amp;ldquo;base.txt.gz&amp;rdquo;
+TABLE=&amp;ldquo;blacklist&amp;rdquo;
+/usr/local/bin/wget -q &lt;a href=&#34;https://www.openbl.org/lists/$RULES&#34;&gt;https://www.openbl.org/lists/$RULES&lt;/a&gt; -P $STORE
+gunzip $STORE/$RULES
+pfctl -t $TABLE -T flush
+pfctl -t $TABLE -T add -f $STORE/${RULES%.&lt;em&gt;}
+rm $STORE/${RULES%.&lt;/em&gt;}
+{% endcodeblock %}&lt;/p&gt;
+
+&lt;p&gt;Es gibt natürlich auch 10.000 andere Listen, die sowas bewerkstelligen.
+Darunter auch ganze
+&lt;a href=&#34;https://github.com/khainebot/Blocklist-Downloader/blob/master/blocklistdownloader.py&#34;&gt;Wrapper&lt;/a&gt;
+die solche Listen parsen. War mir aber dann etwas zu hart overengineert.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

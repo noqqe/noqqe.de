@@ -1,0 +1,14 @@
+baseurl = "http://localhost:1313"
+languageCode = "en-us"
+title = "noqqe.de"
+publishdir = "public"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[params]
+  description = "No advertising, no support, no bug fixes, payment in advance. — AT&T Unix Policy (1984)"
+  author = "Florian Baumann"
+  githubuser = "noqqe"
+

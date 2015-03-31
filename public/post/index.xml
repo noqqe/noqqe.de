@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on noqqe.de</title>
+    <link>http://localhost:1313/post/</link>
+    <description>Recent content in Posts on noqqe.de</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+    
+    
+    <lastBuildDate>Mon, 30 Mar 2015 15:53:20 CEST</lastBuildDate>
+    <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>OpenBL in pf</title>
+      <link>http://localhost:1313/post/2015-02-04-openbl-in-pf/</link>
+      <pubDate>Mon, 30 Mar 2015 15:53:20 CEST</pubDate>
+      
+      <guid>http://localhost:1313/post/2015-02-04-openbl-in-pf/</guid>
+      <description>&lt;p&gt;Das Projekt &lt;a href=&#34;https://openbl.org&#34;&gt;OpenBL&lt;/a&gt;, dass ursprünglich die OpenSSH
+Blacklist war, hat auf der ganzen Welt verteilte Honeypots rumstehen und
+publiziert regelmäßig Blacklisten sortiert nach Zeitraum und Protokoll des
+Angriffs.&lt;/p&gt;
+
+&lt;p&gt;{% img center /uploads/&lt;sup&gt;2015&lt;/sup&gt;&amp;frasl;&lt;sub&gt;02&lt;/sub&gt;/assholes.jpg %}&lt;/p&gt;
+
+&lt;p&gt;Das Resultat daraus kann jeder frei benutzen und zum Beispiel in seine
+Firewall einbauen. Realisiert hab ich das über einen &lt;code&gt;pf&lt;/code&gt; Table.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;table &amp;lt;blacklist&amp;gt; persist
+pass in quick from &amp;lt;admins&amp;gt;
+block quick from &amp;lt;blacklist&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Die Regel ist relativ unspektakulär, abgesehen davon, dass die pass-Regel
+für die Admin IPs vor der Blacklist-Block Regel matchen sollte. Nur für den
+Fall dass man mal selbst auf so einer Liste landen sollte.
+Ein kleines Bash Script, dass mit Cron einmal die Woche die IPs updated.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;#!/usr/local/bin/bash
+STORE=&amp;quot;/tmp/&amp;quot;
+RULES=&amp;quot;base.txt.gz&amp;quot;
+TABLE=&amp;quot;blacklist&amp;quot;
+/usr/local/bin/wget -q https://www.openbl.org/lists/$RULES -P $STORE
+gunzip $STORE/$RULES
+pfctl -t $TABLE -T flush
+pfctl -t $TABLE -T add -f $STORE/${RULES%.*}
+rm $STORE/${RULES%.*}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Es gibt natürlich auch 10.000 andere Listen, die sowas bewerkstelligen.
+Darunter auch ganze
+&lt;a href=&#34;https://github.com/khainebot/Blocklist-Downloader/blob/master/blocklistdownloader.py&#34;&gt;Wrapper&lt;/a&gt;
+die solche Listen parsen. War mir aber dann etwas zu hart overengineert.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>yolo</title>
+      <link>http://localhost:1313/post/yolo/</link>
+      <pubDate>Mon, 30 Mar 2015 15:53:20 CEST</pubDate>
+      
+      <guid>http://localhost:1313/post/yolo/</guid>
+      <description>
+
+&lt;h3 id=&#34;test1:6846e205d4acbde74878c8b2ccf1cdab&#34;&gt;Test1&lt;/h3&gt;
+
+&lt;p&gt;adsfadfasdf&lt;/p&gt;
+
+&lt;p&gt;asdfadsfasdfasdfasdfö#adjsfälkadjsf&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

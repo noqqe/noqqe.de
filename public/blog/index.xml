@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>my new hugo site </title>
+    <link>http://localhost:1313/blog/</link>
+    <language>en-us</language>
+    <author></author>
+    <rights>(C) 2015</rights>
+    <updated>2015-03-30 15:45:24 &#43;0200 CEST</updated>
+
+    
+      
+    
+
+  </channel>
+</rss>
