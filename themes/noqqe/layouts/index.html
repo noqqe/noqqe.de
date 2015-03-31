@@ -19,10 +19,9 @@
     {{ .Content }}
   </div>
   {{ end }}
-  {{ template "_internal/pagination.html" . }}
 </div>
+  {{ partial "pagination.html" $paginator }}
 </div>
 
   </body>
-  {{ .Paginator.Pages }}
 </html>
