@@ -1,9 +1,14 @@
 {{ partial "head.html" . }}
-sdfsdf
 <body class="theme-base-0b">
-asdfasfd
 {{ partial "sidebar.html" . }}
-
-aadsf
+  <div class="content container">
+    <ul class="posts">
+        {{ range .Data.Pages }}
+        <li>
+          <span><a href="{{ .Permalink }}">{{ .Title }}</a> <time class="pull-right post-list">{{ .Date.Format "Mon, Jan 2, 2006" }}</time></span>
+        </li>
+        {{ end }}
+    </ul>
+  </div>
   </body>
 </html>
