@@ -25,7 +25,7 @@ Blogpost über das Projekt zu schreiben. In [planet.debian.org](http://planet.de
 Klar die Hits würden ein bisschen hochgehen. Aber so wirklich an Registrierungen hab ich
 nicht geglaubt.
 
-{% img center /uploads/2013/02/ohgod.gif %}
+{{< figure src="/uploads/2013/02/ohgod.gif" >}}
 
 Tatsächlich haben sich aber wirklich Menschen angemeldet. 40 Stück in am
 ersten Tag. Von London, Montreal, Zürich, Schweden über Griechenland zu Madrid.

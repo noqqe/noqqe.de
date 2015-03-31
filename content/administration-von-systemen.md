@@ -44,7 +44,7 @@ Kategorien einordnen. Ähnlich wie beim [CAP-Theorem](https://en.wikipedia.org/w
 Man hat keine Ahnung vom Thema. Die Lösung entspringt Google, einem Unix-Forum Post von 1997
 oder im besten Fall einem Server Fault Thread mit 1,5 Upvotes.
 
-{% img center /uploads/2014/04/dirtyworkaround.gif %}
+{{< figure src="/uploads/2014/04/dirtyworkaround.gif" >}}
 
 Diese Praktik erzeugt meistens wenig Aufwand, geht schnell. Hinterlässt aber
 einen Gewissen Nachgeschmack. Fühlt sich dreckig an und sieht manchmal auch so
@@ -55,7 +55,7 @@ Größtmögliche Korrektheit. Dieser Ansatz entspringt meistens entweder
 persönlichem Interesse des Admins an der Software oder entsprechende Schulung+Einarbeitung in
 das Thema.
 
-{% img center /uploads/2014/04/correct2.gif %}
+{{< figure src="/uploads/2014/04/correct2.gif" >}}
 
 Was in Erweiterbarkeit, leichter Administration und Stabilität endet muss mit dem
 Eingehen von Risken und Zeit bezahlt werden. Man ändert nicht einfach mal so die
@@ -68,7 +68,7 @@ Wenn auch das kleinste Ein-Server-Homepage-Setup
 von der Metzgerei um die Ecke bis zum Anschlag puppetisiert, hoch-skalierbar
 und für alle Erweiterungen bereit eingerichtet ist.
 
-{% img center /uploads/2014/04/witchcraft.gif %}
+{{< figure src="/uploads/2014/04/witchcraft.gif" >}}
 
 Der overengineerte Ansatz ist stabil. Allerdings schwierig im Team zu
 maintainen und beansprucht zu viel Zeit. Was in hohen Einmalkosten, verlorener

@@ -24,7 +24,7 @@ Man stelle sich folgendes Szenario vor. Eine große CSV Datei enthält Datensät
 Eine weitere Datei enthält ~1,5mio IDs die ein Subset der Datensätze darstellen.
 Gewünscht ist ein File das alle Datensätze des Subsets enthält.
 
-{% img center /uploads/2014/03/stallman.jpg %}
+{{< figure src="/uploads/2014/03/stallman.jpg" >}}
 
 ### for-loop grep
 

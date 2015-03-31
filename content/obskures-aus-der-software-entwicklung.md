@@ -20,7 +20,7 @@ categories:
 
 ### Heisenbug
 
-{% img right /uploads/2014/02/heisenberg.jpg %}
+{{< figure src="/uploads/2014/02/heisenberg.jpg" >}}
 
 Aus der aktuellen Situation heraus suggerierte mir "[Heisenbug](https://en.wikipedia.org/wiki/Heisenbug)" eher
 einen Methamphetamin kochenden Walter White. Bei näherer Betrachtung geht es aber
@@ -49,7 +49,7 @@ unmissverständlich.
 
 Dieses Motto wird folgender guten Dame zugeschrieben.
 
-{% img center /uploads/2014/02/gracehopper.jpg %}
+{{< figure src="/uploads/2014/02/gracehopper.jpg" >}}
 
 [Grace Hopper](https://en.wikipedia.org/wiki/Grace_Hopper), die auch den Spitznamen "Grandma COBOL" trägt. Exception-Handling:
 
@@ -98,7 +98,7 @@ Ein typischer Kandidat aus dem fast schon esoterischen Umfeld von
 [Scrum](https://en.wikipedia.org/wiki/Scrum_\(development\)) und
 anderen bewusstseinserweiterden Optimierungsmethoden im Software Development.
 
-{% img center /uploads/2014/02/planningpoker.jpg %}
+{{< figure src="/uploads/2014/02/planningpoker.jpg" >}}
 
 Kurz zusammengefasst, geht es darum Tasks mit Karten (von 1-100) nach eigenem Ermessen auf ihre
 Schwierigkeit zu bewerten. So entstehen Working-Slots und Arbeitsverteilung, da

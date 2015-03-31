@@ -16,7 +16,7 @@ categories:
 
 Yay. Thanks to John Goerzen.
 
-{% img center /uploads/2010/10/twidge-pull.png %}
+{{< figure src="/uploads/2010/10/twidge-pull.png" >}}
 
 [http://github.com/jgoerzen/twidge/pull/19](http://github.com/jgoerzen/twidge/pull/19)
 

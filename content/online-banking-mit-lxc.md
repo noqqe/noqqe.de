@@ -21,7 +21,7 @@ Bekannten/Verwandten aneinander geraten könnte. Bzw. es mittlerweile einfach se
 mich zu Diskussionen hinreissen zu lassen. Um halbwegs sicher zu sein, muss
 man dabei garnicht so viel beachten.
 
-{% img center /uploads/2013/11/birdienumnum.gif %}
+{{< figure src="/uploads/2013/11/birdienumnum.gif" >}}
 
 Online-Banking möchte man wohl möglichst nicht auf einer Maschine betreiben,
 die auch zum Surfen/Arbeiten/Sonstigem benutzt wird, da die Gefahr hoch ist
@@ -77,8 +77,8 @@ das alles aber schon ein kleinwenig dauert möchte wenn möglich schon
 etwas Progress sehen. [Zenity](https://help.gnome.org/users/zenity/stable/)
 baut sehr leicht parameterisierbare GTK Oberflächen.
 
-{% img /uploads/2013/11/update.png %}
-{% img /uploads/2013/11/start.png %}
+{{< figure src="/uploads/2013/11/update.png" >}}
+{{< figure src="/uploads/2013/11/start.png" >}}
 
 Gerade für den Traditionellen Ladebalken gibt es ein sehr schönes
 [Beispiel](https://help.gnome.org/users/zenity/stable/progress.html.en)

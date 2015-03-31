@@ -23,7 +23,7 @@ auf. Es wurde von Microsoft mit dem Internet Explorer 5 eingeführt.
 
 Genauer gesagt sieht meine Lesezeichenleiste jetzt so aus
 
-{% img center /uploads/2012/11/bookmarks.png %}
+{{< figure src="/uploads/2012/11/bookmarks.png" >}}
 
 Gleich danach hab ich mich gefragt warum ich die Descriptions nicht schon viel früher entfernt habe.
 Ich hab bisher nicht viel auf Favicons gegeben, aber das hat schon was.
@@ -32,7 +32,7 @@ Jedenfalls fiel mir auch auf, dass ich noch das Default Favicon von Octopress ha
 Also musste kurzerhand was mit Gimp gezaubert werden. Gimp ist auch ganz
 schön... anders seitdem ich es das letzte Mal angefasst hab.
 
-{% img center /uploads/2012/11/browserbar.png %}
+{{< figure src="/uploads/2012/11/browserbar.png" >}}
 
 h00ray!
 

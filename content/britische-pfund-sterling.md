@@ -21,7 +21,7 @@ Im Juli werde ich wohl etwas Sightseeing auf den britischen Inseln betreiben.
 Es ist anscheinend eine gute Idee etwas lokales Bargeld zu besitzen.
 Ich fragte Siri ob ich morgen Euro gegen Pfund tauschen solle.
 
-{% img center /uploads/2013/06/kurs.png %}
+{{< figure src="/uploads/2013/06/kurs.png" >}}
 
 Wechselkurse sind Dinge für die ich mich noch nie interessiert hab. Wann geh ich zur Bank. Wann ists teuer, wann nicht?
 Eigentlich wollte ich das schon ewig gemacht haben da man munkelte, der Kurs

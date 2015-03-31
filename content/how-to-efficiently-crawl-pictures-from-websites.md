@@ -18,7 +18,7 @@ categories:
 Im Rahmen von [nichtparasoup](http://github.com/k4cg/nichtparasoup) ergab es sich,
 dass wir uns Gedanken über crawling machen mussten.
 
-{% img center /uploads/2014/09/papers.gif %}
+{{< figure src="/uploads/2014/09/papers.gif" >}}
 
 Bei nichtparasoup sollen zufällig Bilder aus dem Netz wiedergegeben werden um wenn möglich den
 optimalen Unterhaltungswert für den "Zuschauer" darzustellen. Dabei galt es vier Probleme zu lösen:
@@ -67,7 +67,7 @@ Um auch neuen Content gecrawlt zu bekommen, wird das Lesezeichen, welches wir be
 3 Stunden "vergessen". Alles fängt wieder von vorne an. Wir müssen nicht zu viel Bookkeeping betreiben und verballern auch nicht
 unendlich viele Requests. Die Implementation war relativ einfach.
 
-{% img center /uploads/2014/09/notimpressed.gif %}
+{{< figure src="/uploads/2014/09/notimpressed.gif" >}}
 
 Ich bin mir ziemlich sicher, dass es hier akademische Beleuchtungen noch und nöcher gibt, schlaue Menschen bei allen
 Möglichen Suchmaschinen sich Köpfe zerbrochen haben und entsprechende Papers veröffentlicht haben. Für unsere Zwecke

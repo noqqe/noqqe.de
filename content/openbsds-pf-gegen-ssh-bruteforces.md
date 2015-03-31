@@ -23,7 +23,7 @@ Bruteforce Attacken zu sichern. Für OpenBSD hatte ich bisher zu
 gegriffen, was aber Overkill ist. Ich muss nicht erst Logs parsen um zu wissen
 wer zu häufig am ssh Port anklopft.
 
-{% img center /uploads/2013/06/itsyouagain.gif %}
+{{< figure src="/uploads/2013/06/itsyouagain.gif" >}}
 
 
 ## Block

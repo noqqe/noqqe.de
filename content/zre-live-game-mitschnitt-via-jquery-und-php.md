@@ -30,7 +30,7 @@ tags:
 
 Eine der Aufgaben, von denen ich wirklich wenig bis keine Ahnung habe, war die Umsetzung der Live Gamebox für ZRE. Die Anforderung hat mich ehrlich gesagt mal in die Nähe des Web2.0 Wahns getrieben, von dem ich mich sonst fernzuhalten versuche. Zumindest von Entwicklerseiten her.
 
-{% img center /uploads/2011/03/4625_7f89_390.jpeg %}
+{{< figure src="/uploads/2011/03/4625_7f89_390.jpeg" >}}
 
 ZRE als Daemon (ja, der Teil kommt auch noch) hat die Eigenschaft im zufällig wiederkehrendem Rhythmus Output in ein Textfile zu produzieren. Dieses Textfile (game.txt) hat einen Platz im DocumentRoot des Webauftritts zombies.n0q.org (Ist das eigentilch das erste Mal, dass ich die URL erwähne? Ich glaube ja.). Diese möchte ich parsen und über asynchrone Aktualisierung in den Browser des Heimanwenders bringen.
 

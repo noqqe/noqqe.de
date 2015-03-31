@@ -40,7 +40,7 @@ nur mir die Statistiken daraus zu bauen die gerne hätte. Ich habe mir dann ein
 Shell Script gebaut, welches gnuplot mit Daten füttert, die in einem CSV File
 spezifiziert sind.
 
-{% img center /uploads/2012/07/calories-activity.png %}
+{{< figure src="/uploads/2012/07/calories-activity.png" >}}
 
 Zuerst schreibe ich alle meine Daten in die activity.dat. Ziemlich im CSV Stil,
 aber mir fiel nicht blöderes ein ohne SQL sprechen zu müssen.

@@ -28,7 +28,7 @@ für bash-it, in dem der Name des Code-Schnippsels schon so tief sitzt, das sich
 der Aufwand nicht mehr lohnt ihn zu ändern. Aber mal weg von Oberflächlichkeiten
 hin zum Code.
 
-{% img center /uploads/2010/12/4094723007_34388e39d8.jpg %}
+{{< figure src="/uploads/2010/12/4094723007_34388e39d8.jpg" >}}
 
 Creative Commons by [Iwan Gabovitch](http://www.flickr.com/photos/qubodup/) "Notizen"
 

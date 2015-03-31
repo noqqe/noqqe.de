@@ -75,7 +75,7 @@ benutzen soll kam nur folgendes auf meinem Webserver an:
 
 Herzlichen Glückwunsch. Woher kommt dieses ":0(null)" ? Ich habe den Serverport angegeben:
 
-{% img center /uploads/2012/04/addressbook.png %}
+{{< figure src="/uploads/2012/04/addressbook.png" >}}
 
 Ich habe mehr als 10 mal versucht das Interface korrekt auszufüllen, aber hatte
 keine Chance. Nach einmaligem Anlegen konnte ich den Serverpath nicht mehr

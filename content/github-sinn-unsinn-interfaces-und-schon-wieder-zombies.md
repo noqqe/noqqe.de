@@ -24,7 +24,7 @@ tags:
 
 [github](http://github.com/noqqe) ist da wo ich mich momentan sehr gerne rumtreibe.
 
-{% img center /uploads/2010/11/5145916501_d9b36ec12f.jpg %}
+{{< figure src="/uploads/2010/11/5145916501_d9b36ec12f.jpg" >}}
 
 creative commons @ jeremy kendall on [flickr](http://www.flickr.com/photos/jeremykendall/5145916501/sizes/m/in/photostream/)
 

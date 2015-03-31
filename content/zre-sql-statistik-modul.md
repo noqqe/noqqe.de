@@ -32,7 +32,7 @@ tags:
 
 Ich möchte kurz ein Wort über das SQL Modul verlieren, welches die Statistiken des permanent laufenden [Zombie Environments](http://zombies.n0q.org) aufzeichnet. Wie mit Sicherheit schon überall auf dem Planeten Erde bekannt ist, passieren in ZRE Events. Diese Hand voll Events lösen (wie der Name vielleicht schon suggeriert) Geschehnisse in innerhalb des Environments aus, welche es gilt statistisch auszuwerten und darzustellen.
 
-{% img center /uploads/2011/03/0744_a999_450.gif %}
+{{< figure src="/uploads/2011/03/0744_a999_450.gif" >}}
 
 Wie aber erfasse ich solche Informationen am Besten. Ich hatte ehrlich gesagt keine große Lust, in jedes der Events einzeln eine SQL-Verbindung aufzubauen und den gewünschten Query abzusetzen. Ganz zu schweigen von der Problemfallbehandlung (MySQL nicht installiert, Modul in Config nicht aktiviert, MySQL nicht erreichbar usw.) die ich in jedem Event hätte extra behandeln müssen.
 

@@ -28,7 +28,7 @@ In den meisten Cases möchte ich wohl eher feststellen, dass das Netz
 funktioniert. Nicht umgekehrt. Vielleicht eine Art Null-Hypothese-Protokoll für
 den TCP/IP Stack.
 
-{% img center /uploads/2013/05/whaaat.gif %}
+{{< figure src="/uploads/2013/05/whaaat.gif" >}}
 
 Wie die meisten der nachfolgenden Protokolle ist [Discard](http://tools.ietf.org/html/rfc863) in (openbsd-)inetd enthalten
 und können durch einen einfachen Eintrag aktiviert und zum Spielen benutzt
@@ -53,7 +53,7 @@ Wie bei so vielen RFCs hängt auch hier [Jon Postel](http://en.wikipedia.org/wik
 mit drin. Das [CharGen](http://tools.ietf.org/html/rfc864) Protokoll gibt Zeichenketten zurück.
 Interessant ist aber das Verhalten bei TCP und UDP.
 
-{% img center /uploads/2013/05/batman.gif %}
+{{< figure src="/uploads/2013/05/batman.gif" >}}
 
 Bei TCP schickt einem der Dienst so lange Zeichen bis die Session beendet wird.
 Damals muss das ziemlich viel Sinn gemacht haben. Da die Zeichenketten

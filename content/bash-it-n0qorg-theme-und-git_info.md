@@ -31,7 +31,7 @@ Schema: host directory (git-status dirty)>
 Bis jetzt noch nicht gemerged. Denke aber das kommt noch. [Theme @ Github](https://github.com/noqqe/bash-it/blob/92b8d6d9cfade500e4d514163b5c18a1df71113d/themes/n0qorg/n0qorg.theme.bash)
 
 
-{% img center /uploads/2010/11/Screenshot.png %}
+{{< figure src="/uploads/2010/11/Screenshot.png" >}}
 
 
 

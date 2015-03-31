@@ -18,7 +18,7 @@ tags:
 - freie inhalte
 ---
 
-{% img center http://i.creativecommons.net/p/noqqe/ %}
+{{< figure src="http://i.creativecommons.net/p/noqqe/" >}}
 
 Vor kurzem habe ich aufgrund der [Catalysts Grant](http://wiki.creativecommons.org/Grants) Aktion an die [Creative Commons Organisation](http://creativecommons.org/about/) etwas Geld gespendet. 100.000 $ sollen an Ersteller freier Inhalte gehen. Ich fand das in Ordnung.[Video](http://a44.video2.blip.tv/5840001990950/Commonscreative-WannaWorkTogether315.ogv?bri=3.2&brs=1369).
 

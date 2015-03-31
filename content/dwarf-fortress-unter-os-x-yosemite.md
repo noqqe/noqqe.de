@@ -17,7 +17,7 @@ Laufen zu bekommen ist garnichtmal so einfach. Bisher hab ich immer direkt
 die Version von DF von den Entwicklern heruntergeladen. Diesmal die OS X
 Homebrew Version heruntergeladen. Die Probleme sind aber die gleichen.
 
-{% img center /uploads/2015/02/df.png %}
+{{< figure src="/uploads/2015/02/df.png" >}}
 
 ### Installation
 

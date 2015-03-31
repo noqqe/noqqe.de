@@ -20,7 +20,7 @@ Teil 2 der Serie Crypto in Bash implementieren, heute:
 Längerem hatte ich mal [ROT13 in purem Bash geschreiben](/blog/2011/08/13/rot13-verschlusselung-in-bash/), einfach um zu
 sehen wies funktioniert.
 
-{% img center /uploads/2014/01/cryptography.jpg %}
+{{< figure src="/uploads/2014/01/cryptography.jpg" >}}
 
 Auf dem #30c3, den ich letzte Woche besuchen durfte, ging es natürlich auch viel, viel um Crypto.
 Die Do's and Dont's sozusagen. Ein

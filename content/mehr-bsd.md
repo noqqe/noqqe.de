@@ -20,7 +20,7 @@ Ab und an passiert es, dass Dinge die einfach funktionieren anfangen mich zu lan
 So geschehen mit [Uberspace](http://uberspace.de). Das [CentOS](http://centos.org),
 der [Apache2.2](http://httpd.apache.org/), die [Sache mit den Domains](https://wiki.uberspace.de/philosophy:domains).
 
-{% img center /uploads/2014/06/dagobert.jpg %}
+{{< figure src="/uploads/2014/06/dagobert.jpg" >}}
 
 Im Grunde habe ich die 3 Dienste, die ich bei Uberspace nutze (Webserver für Blog,
 Mail, Domains) nun zu anderen Dienstleistern migriert.
@@ -42,7 +42,7 @@ Firmensitz auf den Seychellen, Server in der Schweiz und setzt ebenfalls auf Ope
 Nicht weil ich ernsthaft glaube, das ich das bräuchte, sondern weils mir
 gefällt.
 
-{% img center /uploads/2014/06/underwood.jpg %}
+{{< figure src="/uploads/2014/06/underwood.jpg" >}}
 
 Mit dem Wechsel ändert sich aber die Architektur meines Setups. Statt direkt am
 IMAP Server arbeiten zu können bin ich nun nur noch Konsument des IMAP Services.

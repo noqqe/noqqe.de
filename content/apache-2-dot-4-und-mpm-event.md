@@ -68,7 +68,7 @@ Das hab ich für jeden Host einzelnd durchgeführt und anschliessend alles durch
 Gnuplot gejagt. Dabei kam einmal mehr zum Vorschein, dass man Prefork einfach
 nicht haben möchte :)
 
-{% img center /uploads/2012/05/max-requests.png %}
+{{< figure src="/uploads/2012/05/max-requests.png" >}}
 
 ## Max Concurrency
 
@@ -88,7 +88,7 @@ done
 
 Das Ergebnis von MPM Event kann sich sehen lassen, wie ich finde.
 
-{% img center /uploads/2012/05/concurrency.png %}
+{{< figure src="/uploads/2012/05/concurrency.png" >}}
 
 Warum MPM Prefork bei 1000 gleichzeitigen Connections immer so "abhaut" kann ich
 nicht sagen. Habs mehrmals versucht mit immer dem gleichen Ergebnis.

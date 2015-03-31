@@ -26,7 +26,7 @@ Eigentlich wollte ich das Projekt task-shell-ng nennen. Aber so gut ist es dann 
 
 Als ich vor ca. einem Monat Taskwarrior für mich entdeckt habe, war eigentlich alles gut. Ich hab mich über den integrierten interactive Mode wirklich gefreut. Anfangs. Mit der Zeit habe ich aber festgestellt, dass mich dieses "Ding" fast in den Wahnsinn treibt. Mir persönlich fehlen einfach elementare Features wie einfaches Cursor bewegen nach vorne und zurück. Überhaupt eine History zu haben wäre schon ein enormer Vorteil.
 
-{% img center /uploads/2011/10/1733_f644.gif %}
+{{< figure src="/uploads/2011/10/1733_f644.gif" >}}
 
 Ich hab mir dann kurzer Hand selber eine Taskwarrior Shell Variante gebaut, die im großen und ganzen auf einer Bash basiert.
 

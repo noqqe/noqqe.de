@@ -28,7 +28,7 @@ tags:
 
 Zur Zeit spiele und bastle ich nebenher mit PostgreSQL rum. Überlege ob ich mal eine alternative DB für das [Zombie-Revolution-Environment](http://zombies.n0q.org) an den Start bringe...
 
-{% img center /uploads/2011/08/5384_c4d1.jpeg %}
+{{< figure src="/uploads/2011/08/5384_c4d1.jpeg" >}}
 
 Für meinen Use-Case scheint das allerdings nur begrenzt von Nutzen zu sein. Ich mache vielleicht etwas falsch, aber wenn ich 1000 Queries in MySQL kippe, dauert nur einen Bruchteil so lange wie in postgreSQL. Um das zu veranschaulichen:
 

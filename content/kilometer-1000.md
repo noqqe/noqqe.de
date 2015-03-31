@@ -16,7 +16,7 @@ categories:
 
 Die Saison ist eigentlich so gut wie gelaufen und ich hab mein Ziel erreicht.
 
-{% img center /uploads/2012/10/1000km.png %}
+{{< figure src="/uploads/2012/10/1000km.png" >}}
 
 Auch Runkeeper hat das anscheinend zu würdigen gewusst. Das dieser Dienst immer
 mein Begleiter ist habe ich ja schon [hier](/blog/2012/07/02/paying-5-bucks-a-month-for-stupid-statistics/)
@@ -68,7 +68,7 @@ Als letztes den ganzen Spass noch mit `</gpx>` abschliessen. Auf
 [http://gpx2kml.com](http://gpx2kml.com) kann man dann alles zu KML konverten
 und Google vorschmeissen.
 
-{% img center /uploads/2012/10/maps.png %}
+{{< figure src="/uploads/2012/10/maps.png" >}}
 
 Natürlich kann man sich da über den Datenschutz jetzt Gedanken machen, aber
 schlussendlich ist es doch egal, ob Google meinen GPX Daten gleich (unverknödelt mit

@@ -55,7 +55,7 @@ $ R
 > pie(twittertimeline$Tweets, label=twittertimeline$User)
 ```
 
-{% img center /uploads/2011/02/timeline-500.png %}
+{{< figure src="/uploads/2011/02/timeline-500.png" >}}
 
 An dieser Stelle kann es passieren, dass es bei zu vielen Daten wirklich sehr unübersichtlich wird. Was genau ich da falsch mache ist mir allerdings etwas schleierhaft. An der Skalierung lässt sich sicher noch arbeiten. Aber mit einem kleineren Satz von Daten, sieht es schon besser aus.
 ```
@@ -74,7 +74,7 @@ Und damit das ganze auch was aussagt, kann man sogar eine kleine Legende anfüge
 ```
 
 
-{% img center /uploads/2011/02/timeline-legend-500.png %}
+{{< figure src="/uploads/2011/02/timeline-legend-500.png" >}}
 
 **History der Bash visualisieren**
 Wer auf Kuchen steht, kann auch eifnach mal seine Bash History einlesen.
@@ -102,7 +102,7 @@ $ history | awk '{print $4}' | sort | uniq -c | sort -rn | head > sys/history
  
 ```
 
-{% img center /uploads/2011/02/commands-500.png %}
+{{< figure src="/uploads/2011/02/commands-500.png" >}}
 
 **Mailadressen aus mail.log**
 Um noch ein 3. mal den Anwendungsbereich zu wechseln, kann man damit auch wunderbar das mail.log seines Mailservers unter die Lupe nehmen.
@@ -112,6 +112,6 @@ Um noch ein 3. mal den Anwendungsbereich zu wechseln, kann man damit auch wunder
     > pie(mailaddresses$Mails, main="Mail Adressen", col=rainbow(length(mailaddresses$Address) ), label=mailaddresses$Address)
 
 
-{% img center /uploads/2011/02/addresses-advanced2-500.png %}
+{{< figure src="/uploads/2011/02/addresses-advanced2-500.png" >}}
 
 Egal, mein BWL Lehrer sagte immer: Traue nie einer Statistik, die du nicht selbst gefälscht hast.

@@ -7,5 +7,5 @@ categories:
 - ronno
 ---
 
-{% img center /uploads/2015/01/ronno.jpg %}
+{{< figure src="/uploads/2015/01/ronno.jpg" >}}
 

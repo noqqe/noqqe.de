@@ -95,7 +95,7 @@ par(col="white", bg="transparent", col.axis="white", col.lab="white", col.main="
 barplot(as.matrix(zre_wins$sum), main="Game Summary", names.arg=c(zre_wins$side), beside=TRUE, col=zre_mint)
 ```
 
-{% img center /uploads/2011/10/gamesummary.png %}
+{{< figure src="/uploads/2011/10/gamesummary.png" >}}
 
 Selbes Spiel wieder, nur mit mehr Balken und anderem Use-Case. Diesmal werden
 die 25 Konflikte mit den meisten Opfern visualisiert.
@@ -109,7 +109,7 @@ par(col="white", bg="transparent", col.axis="white", col.lab="white", col.main="
 barplot(zre_matches_highest$kills, zre_matches_highest$id, main="25 Highest Kills", beside = TRUE, ylab="Kills", col=zre_colors)
 ```
 
-{% img center /uploads/2011/10/50highest.png %}
+{{< figure src="/uploads/2011/10/50highest.png" >}}
 
 Aber da Balkendiagramme auch irgendwann Langweilig werden geht das natürlich auch anders. Die 25 letzten Konflikte werden im "Opferverlauf" wie folgt dargestellt:
 
@@ -125,7 +125,7 @@ plot(zre_kills$kills, xlab="Games", type="b", ylab="Kills", main="Kills from las
 ```
 
 
-{% img center /uploads/2011/10/25kills.png %}
+{{< figure src="/uploads/2011/10/25kills.png" >}}
 
 Damit es nicht immer nur um Tote geht, auch mal was erfreuliches. Die Geburtenrate in ZRE steigt! :)
 
@@ -139,7 +139,7 @@ barplot(zre_birthrate$born, xlab="Month", ylab="Born Humans/Zombies", names.arg=
 ```
 
 
-{% img center /uploads/2011/10/birthrate.png %}
+{{< figure src="/uploads/2011/10/birthrate.png" >}}
 
 Und auch das Wetter soll bei der ganzen Sache nicht zu kurz kommen. Hierbei
 bitte besonderes Augenmerk auf die Legende rechts oben. Eine direkte Zuordnung
@@ -158,7 +158,7 @@ legend( 5, 40000, zre_weather$weather, cex=0.9, fill=zre_colors, col="white")
 ```
 
 
-{% img center /uploads/2011/10/weather.png %}
+{{< figure src="/uploads/2011/10/weather.png" >}}
 
 Das volle zre.R Skript befindet sich wie das meiste auf Github: [https://gist.github.com/1031260](https://gist.github.com/noqqe/1031260)
 

@@ -20,7 +20,7 @@ Es war ein heißer Dienstag Nachmittag. Genauer gesagt gestern. Ich könnte fast
 
 Ich bemühte Google nach freien Schriftarten. Wurde auf eine japanische Seite weitergeleit. 8-Bit-Fonts. [http://mfs.sub.jp/](http://mfs.sub.jp/). Vanilla Ice gefiel mir wunderbar. Genial einfach und C64-Kompatibel.
 
-{% img center /uploads/2010/06/m50.gif %}
+{{< figure src="/uploads/2010/06/m50.gif" >}}
 
 Die Terms of Use waren mir aber irgendwie ein Rätsel. [http://mfs.sub.jp/info.html](http://mfs.sub.jp/info.html) war das einzige, was auf japanisch dort stand.
 

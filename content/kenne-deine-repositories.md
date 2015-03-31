@@ -21,7 +21,7 @@ Aber wie viele Objekte halte ich in meinen Repos? Und wie viele Commits
 eigentlich? Da ich momentan wieder vermehrt Bücher über Statistik lese,
 brauchte ich Daten zum Spielen. git Repos bieten sich für sowas an.
 
-{% img center /uploads/2012/11/git.jpg %}
+{{< figure src="/uploads/2012/11/git.jpg" >}}
 
 ### Wie viele Objects?
 

@@ -20,7 +20,7 @@ Laptops die extrem klein, leicht und trotzdem leistungsfähig sind. Das Spiele w
 Crysis oder ähnlich aufwendige Anwendungen laufen sollte man natürlich nicht erwarten.
 Das wäre jetzt beispielsweise mein Wunschmodell: Asus EeePC:
 
-{% img center /uploads/2008/04/eeepc.jpg %}
+{{< figure src="/uploads/2008/04/eeepc.jpg" >}}
 
 Xubuntu für den EeePC deswegen weil es Ressourcen spart und es auch noch eine speziell
 angepasste Version für den Eee gibt. Das ganze nennt sich "eeeXubuntu". Zu finden unter folgendem Link:

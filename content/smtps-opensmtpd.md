@@ -17,7 +17,7 @@ Mein Mailprovider ist mittlerweile ein halbes Jahr
 Probleme beim Einliefern von Mails zum SMTP Server. Mutt resettet beim SMTP mit
 CRAM-MD5 über SSL immer wieder die Verbindung. Kein Einliefern möglich.
 
-{% img center /uploads/2014/11/tgvfu.gif %}
+{{< figure src="/uploads/2014/11/tgvfu.gif" >}}
 
 Eigentlich ist die `.muttrc` ziemlich straight-forward was das betrifft
 

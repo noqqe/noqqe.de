@@ -23,7 +23,7 @@ tags:
 
 Neulich habe ich voller Begeisterung das [Drummachine](http://beatsdrummachine.com/) Projekt [Beats](https://github.com/jstrait/beats/) entdeckt. Beats stellt so in etwa die Musicbox für Nerds dar. In einem Verzeichnis mit einem Set an *.wav Dateien (wohl der Standard) legt man eine Art Konfigurationsdatei, welche durch Beats interpretiert wird. In einer gewissen Syntax beschreibt man dieses Lied und dessen Abfolge.
 
-{% img center /uploads/2011/05/6459_d5e4.jpeg %}
+{{< figure src="/uploads/2011/05/6459_d5e4.jpeg" >}}
 
 Das Traurige an der Sache ist eigentlich lediglich, dass ich mir bewusst geworden bin, wie wenig Kreativität/Können ich im musikalischen Bereich vorzuweisen habe. Teilweise sind beim Herumexperimentieren zwar Interessante Ergebnisse entstanden, aber nichts wofür ich mich nicht schämen müsste ;)
 

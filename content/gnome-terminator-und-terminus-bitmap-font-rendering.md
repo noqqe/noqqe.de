@@ -30,10 +30,10 @@ $ cat /var/log/syslog
 ```
 
 Terminus:
-{% img /uploads/2012/10/terminus.png %}
+{{< figure src="/uploads/2012/10/terminus.png" >}}
 
 Monospace:
-{% img /uploads/2012/10/monospace.png %}
+{{< figure src="/uploads/2012/10/monospace.png" >}}
 
 Irgendwie scheint die Ausgabe wesentlich länger zu dauern, wenn der Font
 Terminus ist. Das ist auch beliebig oft reproduzierbar. Es "ruckelt" regelrecht.

@@ -23,7 +23,7 @@ schrieb wurde mir [bogofilter](http://bogofilter.sourceforge.net/)
 empfohlen. Die Software setzt die Idee [Paul Grahams](http://paulgraham.com/) des [Better Bayesian Filtering](http://paulgraham.com/better.html) um. Im Endeffekt geht es
 um statistische Auswertung des Contents.
 
-{% img center /uploads/2013/10/warumnur.gif %}
+{{< figure src="/uploads/2013/10/warumnur.gif" >}}
 
 ## Setup
 
@@ -127,7 +127,7 @@ haben macht hier mehr Spass.  Würde ich die Files nochmal auspacken
 müssen, würde ich wohl eine Variante a la `make -j 4` oder gleich
 [GNU Parallel](/blog/2012/01/08/gnu-parallel/) wählen.
 
-{% img center /uploads/2013/10/wakeup.gif %}
+{{< figure src="/uploads/2013/10/wakeup.gif" >}}
 
 Nach dem Training der ausgepackten Daten ist meine wordlist.db von 12MB
 auf eine größe von 1,4GB gewachsen. Ordentlich. Natürlich gehört

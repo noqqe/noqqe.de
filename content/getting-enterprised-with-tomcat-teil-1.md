@@ -15,7 +15,7 @@ dem onboard-WLan. Im Moment (erste Stunde) schwanke ich noch zwischen "Es
 funktioniert gerade nicht" und "Ich bin zu doof dafür". Update: Nach Frankfurt
 hats funktioniert ;)
 
-{% img left /uploads/2012/09/linuxhotel3.jpg %}
+{{< figure src="/uploads/2012/09/linuxhotel3.jpg" >}}
 
 However. Habe länger überlegt ob ich darüber bloggen soll oder nicht. Und wenn ja wie
 ich es verpacke. Einzelne Tage? Mehrere Teile? Überhaupt nicht? Einen Blogpost am Ende? Ich weiss
@@ -32,7 +32,7 @@ Oh ein Tunnel.
 
 ### ...etwas später...
 
-{% img left /uploads/2012/09/linuxhotel1.jpg %}
+{{< figure src="/uploads/2012/09/linuxhotel1.jpg" >}}
 
 Mittlerweile bin ich angekommen. Nach den paar Stunden ICE mit der S3 nach
 Essen-Horst getingelt und eingewiesen worden. Außerdem war eine Geburtstagsfeier
@@ -45,5 +45,5 @@ ich im ICE angefangen habe.
 Man merkt vielleicht non-tech Posts sind ungewohnt für mich. Bisher aber ja
 eigentlich ganz in Ordnung :)
 
-{% img center /uploads/2012/09/linuxhotel2.jpg %}
+{{< figure src="/uploads/2012/09/linuxhotel2.jpg" >}}
 

@@ -17,7 +17,7 @@ categories:
 
 Eines der Dinge die `R` wirklich gut kann ist Daten darstellen. Gerade im Interactive Mode.
 
-{% img center /uploads/2013/08/termdata.png %}
+{{< figure src="/uploads/2013/08/termdata.png" >}}
 
 Konkret migriere ich gerade meine Graphen/Statistiken in ein PDF.
 Um mit `R` portablen Output zu generieren ist [knitr](http://yihui.name/knitr/)
@@ -69,4 +69,4 @@ system("pdflatex -output-directory tmp/ Stats.tex && evince tmp/Stats.pdf")
 
 Der Output:
 
-{% img center /uploads/2013/08/texdata.png %}
+{{< figure src="/uploads/2013/08/texdata.png" >}}

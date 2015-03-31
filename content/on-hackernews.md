@@ -24,7 +24,7 @@ categories:
 Eigentlich wollte ich nur Acrylamid ausprobieren. Ich evaluierte
 neue Software wegen des ständigen Fuckups mit Octopress und RVM.
 
-{% img center /uploads/2013/12/daas.png %}
+{{< figure src="/uploads/2013/12/daas.png" >}}
 
 Ich lud also Acrylamid herunter, spielte damit herum, bastelte eine Demo Site
 mit etwas Layout Änderungen. Content bestand anfangs aus ein paar random Texten und "/dev/null"
@@ -52,12 +52,12 @@ etwas verrückt; was folgt ist eine stichpunktartige Zusammenfassung.
 * 1.249.375 GET Requests (4.385 MB)
 * 97.318 POST Requests
 
-{% img center /uploads/2013/12/HTTP_Requests.png %}
+{{< figure src="/uploads/2013/12/HTTP_Requests.png" >}}
 
 * ~2 Stunden #1 auf HackerNews ([Ranking](http://hnrankings.info/6637480/))
 * Zugriffe aus 118 verschiedenen Ländern
 
-{% img center /uploads/2013/12/locations.png %}
+{{< figure src="/uploads/2013/12/locations.png" >}}
 
 ### Reaktionen
 
@@ -73,7 +73,7 @@ Als Response zu der Site bekam ich insgesamt ~40 Emails unter anderem:
   Enterprise Appliance, Sharding Support, "is it webscale?")
 * anderer related Content via Mail wie
 
-{% img center /uploads/2013/12/devnullnummernschild.jpg %}
+{{< figure src="/uploads/2013/12/devnullnummernschild.jpg" >}}
 
 * paar Dankes und/oder "LOL" Mails
 * *.gif bei [SecurityReactions](http://securityreactions.tumblr.com/post/66371497808/when-a-client-asks-if-they-should-consider-using)
@@ -100,11 +100,11 @@ vergraphen hätte viel Aufwand bedeutet.
 
 * Top Referrer als Graph
 
-{% img center /uploads/2013/12/Top_Referrers.png %}
+{{< figure src="/uploads/2013/12/Top_Referrers.png" >}}
 
 ### Schlechte Entscheidungen die ich traf
 
-{% img center /uploads/2013/12/shocked.gif %}
+{{< figure src="/uploads/2013/12/shocked.gif" >}}
 
 Es ist eine grundsätzliche Frage wie sehr man ein neues Projekt over-engineert.
 Hielt die Aufwand/Nutzen Relation für angemessen, über ein paar Dinge ärgere ich
@@ -119,7 +119,7 @@ mich aber trotzdem.
 
 ### Gute Entscheidungen die ich traf
 
-{% img center /uploads/2013/12/schneewittchen.gif %}
+{{< figure src="/uploads/2013/12/schneewittchen.gif" >}}
 
 * Plain Files bzw. Static Content deployed. In PHP oder etwas ähnlichem
   serverseitig Generiertem wäre ich viel früher hart hingeflogen, als durch die

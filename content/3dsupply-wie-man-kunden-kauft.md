@@ -17,7 +17,7 @@ tags:
 
 Shirt bei 3dsupply.de gesehen. Für awesome befunden. Weil Futurama.
 
-{% img center /uploads/2010/07/783_1279937407.0_180_180.png %}
+{{< figure src="/uploads/2010/07/783_1279937407.0_180_180.png" >}}
 [http://www.3dsupply.de/products/783-planet-express/](http://www.3dsupply.de/products/783-planet-express/)
 
 Mein Kaufbedürfnis ohne Absichten bei Twitter [gepostet](http://twitter.com/noqqe/status/18464736775) und wurde komischerweise mit Gutscheincode beantwortet O_o

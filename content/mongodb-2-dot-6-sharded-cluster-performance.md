@@ -21,7 +21,7 @@ Performance, Konsistenz bei vielen Writes, usw. Gerade bei Sharding und Indexing
 über mehrere Knoten verteilt möchte man das schon ausprobieren. Sind die Documents
 wirklich gleichmässig verteilt?
 
-{% img center /uploads/2014/06/sharded-cluster.png %}
+{{< figure src="/uploads/2014/06/sharded-cluster.png" >}}
 
 Alle Zeiten der Auswertung und Interpretation der Ergebnisse spar ich mir jetzt. Der Fokus liegt
 ersteinmal auf dem "wie messen".
@@ -133,7 +133,7 @@ und selbes natürlich auch für die Write Tests
 Nachdem ich in `write.py` noch ein paar Zeitstempel eingebaut habe, kann ich
 leicht die Schreibzeiten von den Clients visualisieren.
 
-{% img center /uploads/2014/06/8miowrites.png %}
+{{< figure src="/uploads/2014/06/8miowrites.png" >}}
 
 Die regelmäßigen Ausreißer beunruhigen etwas. Im Histogram visualisiert sieht
 das aber alles viel unproblematischer aus als im Dotchart. Es sind ja immerhin

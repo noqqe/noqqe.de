@@ -34,7 +34,7 @@ Aber mal im Ernst. Es ging die letzte Hälfte noch u.a. um folgende Dinge:
 Überall Tuxe und Geek Spielzeug wie die ARDrone2.0 haben jedenfalls was für
 sich :)
 
-{% img center /uploads/2012/09/tux.JPG %}
+{{< figure src="/uploads/2012/09/tux.JPG" >}}
 
 Zusammenfassend wars eine sehr schöne horizont-erweiternde Schulung mit netten
 Menschen. Das alles aber nochmal zu verarbeiten und auch anzuwenden wird nochmal

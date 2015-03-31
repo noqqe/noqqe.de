@@ -32,7 +32,7 @@ tags:
 
 Für ein kleines Projekt, an dem ich so nebenher immer etwas schreibe habe ich eine Art Ladebalken gebraucht. Habe ein paar wirklich coole Lösungsansätze gefunden, aber es läuft meistens auf Depencies raus (pv z.B.) oder nicht wirklich mein Anwendungsfall.
 
-{% img center /uploads/2011/11/not-sure-if-loading.png %}
+{{< figure src="/uploads/2011/11/not-sure-if-loading.png" >}}
 
 Ich hab mir dann kurzerhand was selber gebastelt. Ich gebe zu ich hätte es auch so gestaltet können das es einfach nur für meinen Use-Case gereicht hätte, aber das erschien mir unsinnig. Wenn ich mich schon einen halben Abend hinsetze, dann können ja evtl. auch mehr Menschen was davon haben. So entstand dann die [bash-progress-bar](https://github.com/noqqe/bash-progress-bar).
 

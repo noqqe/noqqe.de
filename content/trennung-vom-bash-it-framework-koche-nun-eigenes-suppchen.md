@@ -24,7 +24,7 @@ Funktionen und kleinen Skripten bedienen die man gut fand. Und das war super.
 Man konnte Dinge lernen, Schnippsel von anderen adaptieren und hatte immer
 Trickreiche Funktionen am Start.
 
-{% img center /uploads/2012/08/frameworks.jpg %}
+{{< figure src="/uploads/2012/08/frameworks.jpg" >}}
 
 Der Rip-Off von [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) hat sich
 aber mit der Zeit (und Dank der großen Aktivität der Community) m.E. zu einem

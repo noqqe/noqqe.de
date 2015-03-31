@@ -17,7 +17,7 @@ categories:
 ---
 "Ich habe mein eigenes Wiki programmiert. So einfach ist das."
 
-{% img center /uploads/2015/01/disturbing.jpg %}
+{{< figure src="/uploads/2015/01/disturbing.jpg" >}}
 
 In letzter Zeit hab ich damit den ein oder anderen seltsamen Blick
 kassiert. Tatsächlich ist aber alles etwas anders.

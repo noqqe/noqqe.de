@@ -26,7 +26,7 @@ tags:
 13 Jahre arbeitet anscheinend jemand bereits an einen Remake von StarWars Episode 4 in ASCII mit mehr als 15.000 Einzelbildern.
 
 
-{% img center /uploads/2010/11/ascii-starwars.png %}
+{{< figure src="/uploads/2010/11/ascii-starwars.png" >}}
 
 
 Selbst anschauen:

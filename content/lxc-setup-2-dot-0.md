@@ -17,7 +17,7 @@ Container (ja ich weiss, das ist wie HIV Virus sagen) [gebloggt](/blog/2012/05/1
 Jedenfalls hat sich mein Setup, wie die Tools mittlerweile weiterentwickelt und
 Dinge haben sich geändert.
 
-{% img center /uploads/2012/10/lxcsetup.png %}
+{{< figure src="/uploads/2012/10/lxcsetup.png" >}}
 
 ## LXC Directory
 

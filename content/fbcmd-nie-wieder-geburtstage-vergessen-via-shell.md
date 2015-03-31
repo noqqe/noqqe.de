@@ -29,7 +29,7 @@ tags:
 
 Die nachfolgende Beschreibung eines technischen Vorgangs würde die Mehrheit der Gesellschaft wahrscheinlich als soziologisch fragwürdig abstempeln. Jedoch beschreibe ich den Hergang trotzdem und gerade deswegen.
 
-{% img center /uploads/2011/12/112817814_facebook-birthday1.jpg %}
+{{< figure src="/uploads/2011/12/112817814_facebook-birthday1.jpg" >}}
 
 Ich weiß gar nicht mehr wie genau ich auf [fbcmd](http://fbcmd.dtompkins.com/) gekommen bin.  Im Zweifel über einen XML basierten Medienkanal. Jedenfalls ist fbcmd ein äußerst schönes Tool um die gängigen Informationen zum eigenen Facebook Account auf der Kommandozeile abzufragen. Dazu bietet es wahnsinnig trickreiche Queries und "Vergruppungen" der Facebook Bekanntschaften. Alles dazu [hier](http://fbcmd.dtompkins.com/syntax) und besonders [hier](http://fbcmd.dtompkins.com/parameters/flist).
 

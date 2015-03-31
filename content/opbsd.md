@@ -16,7 +16,7 @@ Blacklist war, hat auf der ganzen Welt verteilte Honeypots rumstehen und
 publiziert regelmäßig Blacklisten sortiert nach Zeitraum und Protokoll des
 Angriffs.
 
-{% img center /uploads/2015/02/assholes.jpg %}
+{{< figure src="/uploads/2015/02/assholes.jpg" >}}
 
 Das Resultat daraus kann jeder frei benutzen und zum Beispiel in seine
 Firewall einbauen. Realisiert hab ich das über einen `pf` Table.

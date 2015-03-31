@@ -17,7 +17,7 @@ categories:
 Eingestaubt, Zukunft ungewiss. Weg von MySQL. Zeit sich endlich mal
 MariaDB anzusehen.
 
-{% img center /uploads/2013/06/stats.gif %}
+{{< figure src="/uploads/2013/06/stats.gif" >}}
 
 Am ehesten hat mich daran die Replikation interessiert. Einzele Bonus-Features
 habe ich mir dagegen nicht wirklich angesehen.
@@ -151,6 +151,6 @@ Die Zahlen hab ich dann noch in `R` geschmissen.
 Die Zahlen wirken sehr stabil. Wenig schwankend, alle im erträglichen Bereich.
 Verteilung sieht auch in Ordnung aus.
 
-{% img center /uploads/2013/06/hist.png %}
+{{< figure src="/uploads/2013/06/hist.png" >}}
 
 Jetzt will ich nur noch, dass Kunden das auch haben wollen.

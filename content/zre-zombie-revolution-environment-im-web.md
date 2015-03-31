@@ -37,7 +37,7 @@ Demnächst könnte es unter Umständen zu einer Vielzahl von Posts kommen, die s
 
 Vor ca. 2 Wochen bekamen wir @ School einen Flyer für den [JOY-Dortmund Wettbewerb](http://www.joy-dortmund.de/de/home/) für Informatik Projekte von IT Auszubildenden. Was unter anderem zu dem hier erwähnten Projekt führte. [Holger](http://savier.n0q.org/) und ich kamen auf die Idee im Grunde ZRE für das Web umzusetzen. Aber nicht nur um die Welt auf unterhaltende Art und Weise anzeigen zu lassen, sondern viel mehr eine Analyse des Spielverlaufs mit Hilfe von Statistiken zu erstellen.
 
-{% img center /uploads/2011/03/2251_16ea_4801.png %}
+{{< figure src="/uploads/2011/03/2251_16ea_4801.png" >}}
 
 Da das "Spiel" ausschließlich aus zufällig generierten Umständen besteht, wäre die Auswertung der Entwicklungen der simulierten Welt evtl. interessant. Grade wenn man so auf Statistiken steht. :/
 

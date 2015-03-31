@@ -13,7 +13,7 @@ categories:
 - octopress
 ---
 
-{% img right /uploads/2013/11/machines.jpg %}
+{{< figure src="/uploads/2013/11/machines.jpg" >}}
 
 [posativ](http://blog.posativ.org) hat neben seinem in Python geschriebenen
 Static Site Generator [acrylamid](http://github.com/posativ/acrylamid) seit

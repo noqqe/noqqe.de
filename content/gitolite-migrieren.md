@@ -14,7 +14,7 @@ categories:
 Eine der "Challenges" beim Umziehen auf die OpenBSD Kiste war auch, meine
 gitolite Installation samt aller `git` Repositories zu migrieren.
 
-{% img center /uploads/2012/11/ghostbusters.jpg %}
+{{< figure src="/uploads/2012/11/ghostbusters.jpg" >}}
 
 Das Einrichten auf dem neuen Server ($newServer) kann eigentlich genau so ablaufen,
 wie in der [Anleitung](https://github.com/sitaramc/gitolite/blob/master/README.txt)

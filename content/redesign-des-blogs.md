@@ -17,7 +17,7 @@ imho sehr überladen und außerdem sieht ja irgendwie jeder Octopress Blog gleic
 aus. Als dann noch [dieser Guide](http://kaikkonendesign.fi/typography/section)
 kam war ich wieder motiviert an meinem Branch weiter zu basteln :)
 
-{% img center /uploads/2012/12/forece-squirrel-meme.jpg %}
+{{< figure src="/uploads/2012/12/forece-squirrel-meme.jpg" >}}
 
 Folgende Dinge haben sich geändert:
 

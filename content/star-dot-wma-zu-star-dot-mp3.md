@@ -17,7 +17,7 @@ Formatierungsblogposts kann mein Reader eigentlich vertragen".
 Das denkt man zumindest so lange, bis man mal in die Verlegenheit gerät sowas zu
 brauchen.
 
-{% img center /uploads/2012/07/koala.jpg %}
+{{< figure src="/uploads/2012/07/koala.jpg" >}}
 
 Tatsächlich ist das alles andere als einfach. In 90% der Szenarien werden 0815
 Probleme gelöst wie:

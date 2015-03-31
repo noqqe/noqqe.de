@@ -37,7 +37,7 @@ Wie dem auch sei. Vor kurzem saß ich nachts vor meiner Shell und suchte irgende
 
 Ich habe dann (auch wenn es schon spät war) versucht, das nochmal in Bash abzubilden. Nur ein bisschen interessanter. Eine kleine Welt kam dabei heraus, wie schon damals ausgedacht. In dieser Welt passieren Dinge, die durch Zufall ausgewählt und gewichtet werden, was sich auf die Bewohner dieser "Welt" auswirkt. In meiner jetzigen Version sollte allerdings bisschen was passieren. Irgendwer musste da kämpfen oder sowas. Ich ließ also Zombies und Humans auf dieser Welt gemeinsam leben. Es werden neue Lebewesen geboren, sie sterben wieder, greifen einander an und so weiter.
 
-{% img center /uploads/2010/10/ice-cream-zombie.jpg %}
+{{< figure src="/uploads/2010/10/ice-cream-zombie.jpg" >}}
 
 [](/uploads/2010/10/ice-cream-zombie.jpg)Im Klartext habe ich nichts anderes in dieses Bash-Script gepackt als die Anzahl der Menschen/Zombies auf der Welt und eine Hand voll Funktionen definiert, die "Events" darstellen, die von einer Schleife und einem Case bei jeder Runde zufällig ausgewählt werden. Das war's auch schon. Eigentlich hat mich mehr der Grad an Zufälligkeit interessiert, der den Verlauf der erstellten Welt beeinflusst, wie viele Zombies greifen wie viele Menschen auf einer imaginären Farm an, können sich die Menschen wehren oder werden Sie von der Übermacht der Zombies einfach überrannt? Wie viele Opfer gibt es? Wer rottet wen zuerst aus?
 

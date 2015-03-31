@@ -17,7 +17,7 @@ Ich wollte mich noch nie selber um meine Mails kümmern. Rumkonfigurieren,
 Spam Listen und Erkennungschemen pflegen. Wuah. Außerdem sind mir meine
 Mails viel zu wichtig, als das ich Sie auf meinen Frickelkisten hosten möchte.
 
-{% img center /uploads/2012/12/Nigerian-Prince-400x400.jpg %}
+{{< figure src="/uploads/2012/12/Nigerian-Prince-400x400.jpg" >}}
 
 [Seit August](/blog/2012/08/17/ich-wechselte-zu-uberspace-dot-de/)
 liegen meine Mails bei [Uberspace](https://uberspace.de)
@@ -111,7 +111,7 @@ Tatsächlich sieht es aber genau anders aus. Faktisch bekomme ich insgesamt mehr
 Mails als früher und die Erkennungsrate &#40;in meinem Postfach markiert durch
 &#91;SPAM&#93;&#41; ist höher als.. ever.
 
-{% img center /uploads/2012/12/yea-fuck-yea.gif %}
+{{< figure src="/uploads/2012/12/yea-fuck-yea.gif" >}}
 
 Das beantwortet natürlich nicht die Fragen, ob ich in letzter Zeit zu leichtfertig
 mit meiner Adresse umgehe oder aktuell härter gespammed wird. Aber den

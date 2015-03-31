@@ -27,7 +27,7 @@ Abteilungen in einen Roman. Eine nerdige, lustige und teils schockierende
 Story, in der Bill die völlig marode IT im Trial and Error Verfahren trotz
 immer neuer Rückschläge wieder auf Kurs bringt.
 
-{% img center /uploads/2014/07/phoenix.jpg %}
+{{< figure src="/uploads/2014/07/phoenix.jpg" >}}
 
 Ich denke es ist großartige Alternative den ganzen trockenen Content obiger
 Konzepte zu ersparen und trotzdem vermittelt zu bekommen um was es im Dev/Ops

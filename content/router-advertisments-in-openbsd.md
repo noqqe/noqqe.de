@@ -14,7 +14,7 @@ categories:
 Seit OpenBSD 5.6 hat sich die Konfiguration für IPv6 Router Advertisements
 geändert.
 
-{% img center /uploads/2014/12/suprise.gif %}
+{{< figure src="/uploads/2014/12/suprise.gif" >}}
 
 Bisher hat man über `sysctl` ein globales Flag eingeschaltet, das die
 automatische Konfiguration von IPv6 Adressen erlaubt. Das Flag enabled die

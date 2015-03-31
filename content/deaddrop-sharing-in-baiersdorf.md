@@ -27,17 +27,17 @@ Als ich durch den Park in Baiersdorf lief und diese alte Mauer einer (vermutlich
 
 Wie es begann:
 
-{% img center /uploads/2011/10/500-DSC01279.jpg %}
+{{< figure src="/uploads/2011/10/500-DSC01279.jpg" >}}
 
 Vorbereitung:
 
-{% img center /uploads/2011/10/500-DSC01278.jpg %}
+{{< figure src="/uploads/2011/10/500-DSC01278.jpg" >}}
 
 Abschluss:
 
-{% img center /uploads/2011/10/500overview.jpg %}
+{{< figure src="/uploads/2011/10/500overview.jpg" >}}
 
-{% img center /uploads/2011/10/501-DSC01281.jpg %}
+{{< figure src="/uploads/2011/10/501-DSC01281.jpg" >}}
 
 Ende:
 

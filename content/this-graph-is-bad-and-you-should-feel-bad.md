@@ -21,7 +21,7 @@ Es ist nicht so das ich mit der Message des Graphs nicht einverstanden wäre :P 
 aber da ich mir zur Zeit ein paar Bücher über Statistik reinziehe bin ich was Graphen angeht etwas
 aufmerksam.
 
-{% img center /uploads/2013/01/original.jpg %}
+{{< figure src="/uploads/2013/01/original.jpg" >}}
 
 Warum also die Zoidberg'sche Headline für diesen Post?
 

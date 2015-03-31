@@ -36,9 +36,9 @@ tags:
 
 Nachdem mich die Vorträge letztes Jahr so beeindruckt haben, hab ich mich auch dieses Jahr wieder entschieden die Linux Tage in Chemnitz zu besuchen. Durch einen Ausfall im Debian Team, hatte mir mein Kollege angeboten anstelle des ausgefallenen Mitglieds bei Debian mitzufahren. Was sich im Endeffekt als sehr nice herausstellte.
 
-{% img center /uploads/2011/03/logo.png %}
+{{< figure src="/uploads/2011/03/logo.png" >}}
 
-{% img center /uploads/2011/03/IMG_0519-300x225.jpg %}
+{{< figure src="/uploads/2011/03/IMG_0519-300x225.jpg" >}}
 
 
 
@@ -46,7 +46,7 @@ Nachdem mich die Vorträge letztes Jahr so beeindruckt haben, hab ich mich auch 
 
 Freitag war relativ entspannt. Ankunft und Aufbau des Debian Standes, mexikanisches Essen und danach Treffen mit [Ben](http://zeroathome.de/) und Bier auf der Opening Party in der Mensa. Die Turnmatten in der Turnhalle waren auch kuschlig :)
 
-{% img center /uploads/2011/03/IMG_0514_2-300x225.jpg %}
+{{< figure src="/uploads/2011/03/IMG_0514_2-300x225.jpg" >}}
 
 **Samstag**
 
@@ -83,7 +83,7 @@ Freitag war relativ entspannt. Ankunft und Aufbau des Debian Standes, mexikanisc
 
 
 
-{% img center /uploads/2011/03/IMG_0515-225x300.jpg %}
+{{< figure src="/uploads/2011/03/IMG_0515-225x300.jpg" >}}
 
 **Sonntag**
 

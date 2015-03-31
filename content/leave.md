@@ -26,11 +26,11 @@ leave waits until the specified time, then reminds you that you have to leave. Y
 Auch heute noch ist es in NetBSD und OpenBSD per default enthalten. Unter Debian
 nachinstallierbar.
 
-{% img center /uploads/2015/01/leave2.png %}
+{{< figure src="/uploads/2015/01/leave2.png" >}}
 
 Es kann auch etwas penetrant werden, jetzt endlich heim zu gehen.
 
-{% img center /uploads/2015/01/leave1.png %}
+{{< figure src="/uploads/2015/01/leave1.png" >}}
 
 In Zeiten in denen man mit am Retina Display mit 4 Splitwindows, &gt;15
 Terminaltabs und multiplen Ebenen von `tmux`-Sessions sitzt aber leider eher

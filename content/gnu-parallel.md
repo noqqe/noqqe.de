@@ -22,7 +22,7 @@ tags:
 
 Vom [GNU Parallel Projekt](http://www.gnu.org/software/parallel/) habe ich vor einiger Zeit in der Arbeit so am Rande etwas mitbekommen. Nachdem ich mir die gute [Dokumentation](http://www.gnu.org/software/parallel/man.html) etwas angeschaut habe, hab ich Lust bekommen das mal selbst auszuprobieren.
 
-{% img center /uploads/2012/01/logo-gray+black300.png %}
+{{< figure src="/uploads/2012/01/logo-gray+black300.png" >}}
 
 Ich dachte es wäre eine gute Idee einfach ein paar md5 Summen zu bilden.
 

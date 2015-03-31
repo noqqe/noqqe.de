@@ -35,7 +35,7 @@ aber die OS Updates der Maschinen. Dazu nutze ich alle Monat
 gleichzeitig Updates ziehen macht das weder meiner Internetanbindung noch dem
 Mirror-Betreiber Spaß.
 
-{% img center /uploads/2013/08/w00t.jpg %}
+{{< figure src="/uploads/2013/08/w00t.jpg" >}}
 
 Ich rechnete etwas hin und her, ob es sich wirklich lohnt einen eigenen lokalen Mirror zu betreiben.
 Für die richtige Architektur von main/non-free/contrib braucht wohl ~150GB. Letztendlich rentiert sich das von

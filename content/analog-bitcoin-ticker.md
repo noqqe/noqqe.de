@@ -25,12 +25,12 @@ Der Kurs zeigt sich trotzdem relativ unbeeindruckt, was mich irgendwie
 verblüfft. Egal. Es macht momentan Spass BitCoin zu verfolgen. Gerade die "Suche" nach
 [Satoshi Nakamoto](http://www.manager-magazin.de/finanzen/boerse/phantomsuche-um-bitcoin-erfinder-satoshi-nakamoto-a-957484.html).
 
-{% img center /uploads/2014/03/nakamoto.jpg %}
+{{< figure src="/uploads/2014/03/nakamoto.jpg" >}}
 
 2011 bastelte ich einen [Megabitmeter](/blog/2011/08/27/arduino-ich-baute-ein-megabitmeter/) und als er mir letztens wieder
 in die Hände fiel, dachte ich mir hey, BitCoins&lt;-&gt;Dollar anzeigen lassen!
 
-{% img center /uploads/2014/03/bitcoinmeter.png %}
+{{< figure src="/uploads/2014/03/bitcoinmeter.png" >}}
 
 Im Endeffekt hole ich mir nur mit etwas Python (schlechtes Python, btw) den
 aktuellen Kurs vom letzten halbwegs stabilen BitCoin Trader

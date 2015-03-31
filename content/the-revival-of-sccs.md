@@ -24,7 +24,7 @@ Ich durfte wie bereits [erwähnt](/blog/2012/03/22/chemnitzer-linux-tage-2012/)
 auf den Chemnitzer LinuxTagen einem Vortrag zur Geschichte von Versionskontrollsystemen und dem Revival von SCCS lauschen.
 Diesen fand ich unter anderem (besonders beim Historischen) informativ und unterhaltsam.
 
-{% img center /uploads/2012/03/git-header.gif %}
+{{< figure src="/uploads/2012/03/git-header.gif" >}}
 
 Nicht übereinstimmen kann ich aber in den angebrachten "Vergleichen" von SCCS zu
 (unter anderem) git. Die Vortragsfolien können [hier](http://chemnitzer.linux-tage.de/2012/vortraege/folien/941_SCCS.pdf)
@@ -119,7 +119,7 @@ Was mich sehr interessiert sind die Wiederherstellzeiten. Klar git hat
 einen spezifischen Commit welcher auf ein Objekt im Hash Store zeigt. Dieser
 wird ausgelesen und fertig ist die Wiederherstellung.
 
-{% img center /uploads/2012/03/gitobjects.png %}
+{{< figure src="/uploads/2012/03/gitobjects.png" >}}
 (Bild von progit.org - Creative Commons Attribution Non Commercial Share Alike 3.0
 license)
 

@@ -15,7 +15,7 @@ Das CAP Theorem ist mir das erste mal wirklich begegnet im Podcast
 NoSQL](http://www.radiotux.de/index.php?/archives/5497-Binaergewitter-1-NoSQL.html)
 in dem es kurz und knackig an einfachen Beispielen gut erklärt wurde.
 
-{% img /uploads/2012/04/cap-theorem.png %}
+{{< figure src="/uploads/2012/04/cap-theorem.png" >}}
 
 Im Grunde hat sich schon kurz nach der Jahrtausendwende ein Professor in
 Berkeley Gedanken gemacht was man von einem Datenbank System erwarten kann.

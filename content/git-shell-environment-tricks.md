@@ -53,7 +53,7 @@ alias gsdiff='git diff --staged'
 
 Hervorheben will ich hier besonders `gll`:
 
-{% img center /uploads/2012/03/gitlog-graph.png %}
+{{< figure src="/uploads/2012/03/gitlog-graph.png" >}}
 
 ## git Informationen ##
 

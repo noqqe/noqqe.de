@@ -24,11 +24,11 @@ tags:
 
 Ich war dann schliesslich doch noch bei einem funktionierenden DeadDrop in Erlangen. [Dem in der Schwabachanlage](http://www.deaddrops.com/db/?page=view&id=682). Quasi also mein erster "Check-In" an einem funktionierendem DeadDrop.
 
-{% img center /uploads/2011/09/IMG_0566.jpg %}
+{{< figure src="/uploads/2011/09/IMG_0566.jpg" >}}
 
-{% img center /uploads/2011/09/IMG_05651.jpg %}
+{{< figure src="/uploads/2011/09/IMG_05651.jpg" >}}
 
-{% img center /uploads/2011/09/IMG_0562.jpg %}
+{{< figure src="/uploads/2011/09/IMG_0562.jpg" >}}
 
 Ich muss sagen der Inhalt war wenig bis gar nicht interessant. Allerdings muss das Bild, wie ich da mit Fahrrad, Laptop auf dem Lenker und Kabel in eine tote Mauer stehe ziemlich skurril ausgesehen haben.
 

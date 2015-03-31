@@ -21,7 +21,7 @@ tags:
 Hatte von [Octopress](http://octopress.org) gelesen. Dann nochmal im [k4cg](http://k4cg.org) drüber
 gesprochen. Irgendwie. So halb und anschliessend für super befunden.
 
-{% img center /uploads/2012/03/05/zoidberg.png %}
+{{< figure src="/uploads/2012/03/05/zoidberg.png" >}}
 
 Ich weiss nicht warum, aber irgendwie hat mich das Thema dann einfach nicht mehr
 los gelassen. Hier probiert, da gemacht. Das Ende vom Lied war dann, dass ich

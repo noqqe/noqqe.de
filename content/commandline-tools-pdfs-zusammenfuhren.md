@@ -25,7 +25,7 @@ tags:
 
 Aufgrund meiner aktuell vorherrschenden Bewerbungsphase wollte ich ein paar PDF Dateien (hauptsächlich Zertifikate und Zeugnisse) in **eine** PDF Datei zusammenführen. Auf der Suche nach einem derartigen Programm liefen mir natürlich allerlei (dem anschein nach) hübsche Windows Tools für diese Aufgabe über den Weg. Wie schon oft, fand ich dann aber [im Unixboard meine Antwort](http://www.unixboard.de/vb3/showthread.php?31512-PDF-Dateien-%28mehrere%29-zusammenf%FChren-in-ein-PDF).
 
-{% img center /uploads/2011/04/Adobe_PDF.png %}
+{{< figure src="/uploads/2011/04/Adobe_PDF.png" >}}
 
 Das Commandline Tool **[pdftk](http://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/)**. Wunderbar für [Debian](http://packages.debian.org/squeeze/pdftk) und [Ubuntu](http://packages.ubuntu.com/natty/pdftk) paketiert.
 

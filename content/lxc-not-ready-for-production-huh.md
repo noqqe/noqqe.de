@@ -22,7 +22,7 @@ Kurz gesagt ist LXC größtenteils eine Sammlung von Skripten welche in
 soetwas wie einem `chroot` einen neuen init-Prozess spawnen. Das bietet mit
 cgroups in eigenen Namespaces auch eine Art dynamische Ressourcen Zuweisung.
 
-{% img center /uploads/2012/05/xzibit-virtualisierung.jpg %}
+{{< figure src="/uploads/2012/05/xzibit-virtualisierung.jpg" >}}
 
 Dafür gibts jetzt verschiedene Use-Cases. Bei mir ist das sowas wie eine Art
 Sandboxing für Spielereien auf meinem Thinkpad.

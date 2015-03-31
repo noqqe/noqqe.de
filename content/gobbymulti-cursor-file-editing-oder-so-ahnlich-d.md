@@ -25,7 +25,7 @@ Hier mal der Link zu Gobby: [http://gobby.0x539.de/trac/](http://gobby.0x539.de/
 
 
 
-{% img center /uploads/2008/04/250px-Gobby-0.4.0-dev-linux.png %}
+{{< figure src="/uploads/2008/04/250px-Gobby-0.4.0-dev-linux.png" >}}
 
 Mithilfe eines Passworts lässt sich dann die Session betreten und mehrere Dokumente bearbeiten/anlegen. Dadurch sind wir dann auf die Idee gekommen uns unsere eigene kleine Welt zusammenzubasteln.
 

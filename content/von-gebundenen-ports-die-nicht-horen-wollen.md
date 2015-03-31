@@ -70,7 +70,7 @@ bereitsteht.
 Das war auch so dieser Moment, in dem ich mir dachte dass mir ein paar
 Uni-Vorträge in Betriebssystem-Lehre wohl nicht geschadet hätten.
 
-{% img center /uploads/2014/11/ohlol.gif %}
+{{< figure src="/uploads/2014/11/ohlol.gif" >}}
 
 Die einzige Weise mit der ich den Prozess finden konnte war mit einem Hinweis
 aus dem Netz. Bei nicht erkennbarem Protokoll werden in `lsof` mit `can't

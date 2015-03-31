@@ -31,7 +31,7 @@ tags:
 
 Früher oder später zeigt ja doch jeder mal seinen Desktop her. Hier ist meiner.
 
-{% img center /uploads/2010/12/DSC01272-500.jpg %}
+{{< figure src="/uploads/2010/12/DSC01272-500.jpg" >}}
 
 Von oben nach unten:
 

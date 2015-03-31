@@ -18,7 +18,7 @@ categories:
 Zum Thema Application-Server absichern gibts unzählige Posts mit den
 obskursten Vorschlägen. Hier meiner.
 
-{% img center /uploads/2013/05/beer.gif %}
+{{< figure src="/uploads/2013/05/beer.gif" >}}
 
 ## HTTP Methods
 

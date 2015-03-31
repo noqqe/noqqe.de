@@ -17,7 +17,7 @@ categories:
 Was ich ja schon immer komisch fand ist, dass die Dokumentation oder auch uch How-Tos im Netz was das Thema OpenBSD und IPv6
 angeht echt ultra duerftig ist.
 
-{% img center /uploads/2014/10/tcpip.jpg %}
+{{< figure src="/uploads/2014/10/tcpip.jpg" >}}
 
 Da ich meine Debian VM auf der ich
 weechat, mutt, jabber usw laufen habe vor nem Monat ebenfalls auf OpenBSD

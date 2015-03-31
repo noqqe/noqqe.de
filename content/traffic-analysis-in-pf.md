@@ -28,7 +28,7 @@ extra Augenmerk. Einfach um abwägen zu können wie viel Bandwith ich Tor zuweis
 kann und wo ich Limits setzen muss. Zum Vergleich, Rechnung meines Providers vor
 und nach Tor Installation:
 
-{% img center /uploads/2015/03/invoice.png %}
+{{< figure src="/uploads/2015/03/invoice.png" >}}
 
 `pf` bietet viele verschiedene Möglichkeiten Traffic zu
 analysieren. Drei davon habe ich mir mal angesehen.
@@ -39,7 +39,7 @@ Das erste worauf man stößt ist `pflog`. Das Pseudo-Interface, von dem per
 default eines unter /dev/pflog0 existiert aber beliebig viele pflogX nachgeladen
 werden können.
 
-{% img center /uploads/2015/03/logging.jpg %}
+{{< figure src="/uploads/2015/03/logging.jpg" >}}
 
 Logging wird einfach in die spezielle Regel eingebettet.
 
@@ -67,7 +67,7 @@ ziemlich advancedes Setup entstehen.
 overengineert an für eine einzelne Kiste. NetFlow wollt ich aber auch schon
 immer mal ausprobieren.
 
-{% img center /uploads/2015/03/netflow.jpg %}
+{{< figure src="/uploads/2015/03/netflow.jpg" >}}
 
 Kurz gesagt braucht man nur einen NetFlow Sensor und einen NetFlow Collector
 Zuerst installiert man einen Collector Dienst. Am einfachsten und
@@ -129,7 +129,7 @@ ausgelesen werden. Ziemlich nice.
 
 Die letzte (und mir sympathischste) Variante sind `label`s.
 
-{% img center /uploads/2015/03/labels.png %}
+{{< figure src="/uploads/2015/03/labels.png" >}}
 
 Hinter einer bestimmten Rule in der `pf.conf` kann entsprechendes Label
 angebracht werden.

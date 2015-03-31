@@ -23,7 +23,7 @@ categories:
 Ich habe das so lange nicht in getan, weil weder Logins vorhanden sind noch geheimer Content publiziert wird.
 Wer möchte kann aber jetzt [https://noqqe.de](https://noqqe.de) benutzten.
 
-{% img center /uploads/2014/03/wedontsell.jpg %}
+{{< figure src="/uploads/2014/03/wedontsell.jpg" >}}
 
 Folgende Dinge haben sich geändert:
 

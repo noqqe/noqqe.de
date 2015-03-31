@@ -36,7 +36,7 @@ wird es wahrscheinlich spannend, wer dann noch mined. Warum sollte man auch?
 
 ## Help me out, lost my wallet
 
-{% img center /uploads/2013/04/wouah.png %}
+{{< figure src="/uploads/2013/04/wouah.png" >}}
 
 Genau wie echtes Geld werden wohl auch Bitcoin Wallets verloren gehen. Völlig
 egal ob durch Festplatten Crashs oder sonst irgendwelchen Gründen. Da aber

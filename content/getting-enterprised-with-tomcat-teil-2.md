@@ -16,7 +16,7 @@ Die Schulung ist bis auf ein paar Details mit denen ich
 <strike>wahrscheinlich</strike> hoffentlich nie was zu tun
 haben werde sehr interessant.
 
-{% img center /uploads/2012/09/whatdoyoumean.jpg %}
+{{< figure src="/uploads/2012/09/whatdoyoumean.jpg" >}}
 
 Die Erkenntnis wie wahnsinnig komplex und umfangreich die Middleware eigentlich
 ist, kam ehrlichgesagt relativ schnell. Auch das bei Tomcat nicht alles im

@@ -23,7 +23,7 @@ tags:
 
 ...denn das wäre mir jetzt viel lieber, als das ["Programmieren in Perl" von Rainer Krienke vom Hanser Verlag](http://www.amazon.de/Programmieren-Perl-Rainer-Krienke/dp/3446220135/ref=pd_sim_b_17). Fehler in den gedruckten Skripten wie fehlende Klammernpaare oder ähnliches können einen Perl-Anfänger leicht zum verzweifeln bringen. Ganz abgesehen von den irgendwie distanziert klingenden Erklärungen des Buchs. Ich sollte aber vom Anfang anfangen. Nicht mittendrin. Hab gehört das macht man so in Blogs.
 
-{% img center /uploads/2010/07/perl_logo.gif %}
+{{< figure src="/uploads/2010/07/perl_logo.gif" >}}
 
 Perl hat angefangen mich zu interessieren. Oder anders rum? Vor ... ca. einem viertel Jahr. Ich las teilweise kurz How-To's und auch mal längere Beschreibungen, weil mir manchmal die Schwerfälligkeit und nicht vorhandene Flexibilität von Bash auf den Keks ging.
 

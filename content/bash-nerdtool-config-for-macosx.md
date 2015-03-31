@@ -34,7 +34,7 @@ tags:
 [GeekTool](http://projects.tynsoe.org/en/geektool/) und [NerdTool](http://www.macupdate.com/info.php/id/31909/nerdtool) für MacOSX sind schöne Programme, welche Ausgaben von Bash-Scripten auf den Desktop ausgeben und ständig aktualiseren. Kein Geheimnis und nichts Neues.
 Das Netz ist voll von schönen Spielereien für diese Tools. Hier mein Setup. (Benutze Nerdtool, Script ist aber unabhängig von der Software)
 
-{% img center /uploads/2010/08/Bildschirmfoto-2010-08-15-um-13.19.43-300x187.png %}
+{{< figure src="/uploads/2010/08/Bildschirmfoto-2010-08-15-um-13.19.43-300x187.png" >}}
 
 Bash-Script: [http://gist.github.com/525385](http://gist.github.com/525385)
 

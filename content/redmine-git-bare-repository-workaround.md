@@ -28,7 +28,7 @@ Macke. Zumindest ist das mein Verständnis des Umstands.
 
 Git-Repositories sind in Redmine nur über Working Copies einzulesen. Der gute Stil (und gitolite) stellt serverseitige Git-Repositories als Bare Repos dar. Bare Repos sind im Grunde nur das, was das .git/ Verzeichnis in jeder Working Copy darstellt. Es befinden sich also keine Klartext Files darin.
 
-{% img center /uploads/2010/11/2431284305_9c4952e7f6.jpg %}
+{{< figure src="/uploads/2010/11/2431284305_9c4952e7f6.jpg" >}}
 Creative Commons by [Impact Tarmac](http://www.flickr.com/photos/bbcolin/)
 
 Diese Bare Repos lassen sich in Redmine aber nicht hinzufügen. Ob es einfach technisch

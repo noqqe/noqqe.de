@@ -20,7 +20,7 @@ Seit mittlerweile fast 3 Releases setze ich [OpenBSD](http://openbsd.org) auf
 meinem Housing-Server ein. Ich mag das OS immernoch sehr gerne. Die WTF-Rate bei
 Software ist hier denkbar niedrig. Ganz ohne gehts aber leider auch nicht.
 
-{% img center /uploads/2014/03/uhm.gif %}
+{{< figure src="/uploads/2014/03/uhm.gif" >}}
 
 Unter OpenBSD ist [newsyslog](http://www.weird.com/~woods/projects/newsyslog.html)
 für die Logrotation verantwortlich. Das gut abgehangene Stück Software ist wie

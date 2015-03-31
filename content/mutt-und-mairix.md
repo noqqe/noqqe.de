@@ -40,7 +40,7 @@ leicht verständlich.
 Einziges Problem: IMAP sprechen ist nicht drin. Local maildir'n'stuff. Deshalb
 habe ich mir dann die folgende Lösung überlegt.
 
-{% img center /uploads/2013/03/mairix-mutt.png %}
+{{< figure src="/uploads/2013/03/mairix-mutt.png" >}}
 
 `mairix` durchsucht also ausschliesslich das lokale Maildir, welches ich mit
 offlineimap täglich (reicht mir) synce, und gibt dir Ergebnisse in eine

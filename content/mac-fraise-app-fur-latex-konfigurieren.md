@@ -31,7 +31,7 @@ Allerdings hab ich keine 50$ auf der hohen Kante um dir TextMate zu kaufen. Aber
 
 [Fraise](https://github.com/jfmoy/Fraise/) ist OpenSource und eigentlich ein schöner schmaler Editor für Mac OS X.  Meine vermisste Funktion des Apfel+R lässt sich auch hier "nachbilden". Mit Apfel+B werden alle Kommandos angezeigt die mit Apfel+R verfügbar sind. Standardmäßig gibt es dort auch einen Satz von Dummies und sonstigem Nützlichem.
 
-{% img center /uploads/2010/12/Screen-shot-2010-12-23-at-15.09.171.png %}
+{{< figure src="/uploads/2010/12/Screen-shot-2010-12-23-at-15.09.171.png" >}}
 
 Neue Collection namens LaTeX angelegt und das Command-Set "Build LaTeX" eingerichtet. Alles weitere ist im Endeffekt nur ein Shell-Skript, welches das PDF erstellt, die überflüssigen Dateien aufräumt und das generierte pdf mittels "open" öffnet.
 

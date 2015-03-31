@@ -43,7 +43,7 @@ Im Source etwas umgeschaut findet man aber schnell das was man sucht.
 Mit etwas Bitwise XOR Spass einen Seed auf Zeit- und PID-Basis erstellt, durch den
 minimalen Standard aus dem Paper gejagt und schon wars das eigentlich.
 
-``` c 
+``` c
 sbrand (tv.tv_sec ^ tv.tv_usec ^ getpid ());
 ```
 
@@ -51,7 +51,7 @@ sbrand (tv.tv_sec ^ tv.tv_usec ^ getpid ());
 
 Ich wollts dann schon noch etwas genauer wissen. Mit einem Einzeiler
 
-``` bash 
+``` bash
 S=100000000 ; time while [ $S -gt 0 ]; do echo $RANDOM >> random.txt ; ((S--)) ; done
 ```
 
@@ -73,7 +73,7 @@ Die Null-Hypothese dabei: Einer der Werte ist statistisch signifikant höher als
 alle anderen. Weil für Google Charts 32k Values wohl etwas zu viel ist, ein
 Graph mit `gnuplot`
 
-{% img center /uploads/2012/12/random_values_chart.png Chart %}
+{{< figure src="/uploads/2012/12/random_values_chart.png" >}}
 
 Den vielen Values gedankt sei auch die Unübersichtlichkeit des Graphen. Deshalb
 noch ein kleinwenig mehr Statistikpr0n. Im Durchschnitt wird jede der Zahlen bei 100 Mio. Durchgängen ca. 3050 mal
@@ -81,7 +81,7 @@ genannt. Wesentlich interessanter dabei ist aber die Abweichung vom
 Durchschnitt (siehe auch [Standard Deviation](http://en.wikipedia.org/wiki/Standard_deviation)).
 Bei der Bestimmung derer hilft eine kleine `awk` Zeile.
 
-``` awk 
+``` awk
 awk '{sum+=$1; sumsq+=$1*$1} END {print sqrt(sumsq/NR - (sum/NR)**2)}' sorted.txt
 ```
 

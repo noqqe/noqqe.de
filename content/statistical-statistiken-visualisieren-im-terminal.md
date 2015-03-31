@@ -32,7 +32,7 @@ tags:
 
 Mir erschien es einen kurzen Moment lang für sinnvoll ein kleines Shell Tool zu haben, welches mir aus einer Liste von Key:Value Paaren eine Balkenstatistik baut und visualisiert. Wie in etwa **$ statistical john:12 alice:5 linus:7 bob:1**. Mir gefiel die Idee einfach alles mögliche in meinem Terminal ansehen zu können.
 
-{% img center /uploads/2011/04/1923_a9bc.jpeg %}
+{{< figure src="/uploads/2011/04/1923_a9bc.jpeg" >}}
 
 Relativ schnell stieß ich aber an eine Grenze. Diese hieß "Windowsize". Ich konnte nicht ohne bedenken eine Schleife die die Value Werte zählt bauen, die dementsprechend viele Zeichen anhängt. Denn bei Zahlen >10000 wird das ziemlich unlesbar :)
 

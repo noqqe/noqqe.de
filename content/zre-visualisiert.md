@@ -18,6 +18,6 @@ tags:
 - zre
 ---
 
-{% img center /uploads/2011/03/web-zre500.png %}
+{{< figure src="/uploads/2011/03/web-zre500.png" >}}
 
 Ja -.- Ich weiss, ich hab Google Docs benutzt. Soweit jedenfalls zur Planung.

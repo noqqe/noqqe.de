@@ -32,7 +32,7 @@ tags:
 
 Im [Programm der Ubucon](http://ikhaya.ubuntuusers.de/2011/09/06/das-programm-der-ubucon-2011-steht/) habe ich einen [Vortrag](http://www.ubucon.de/programm/taskwarrior) von [Dirk](http://www.deimeke.net/dirk/blog/) über [Taskwarrior](http://taskwarrior.org) gefunden. Aus Gründen hat mich das Tool interessiert. Ich habe zwar bereits eine Todo-Verwaltung (nämlich [MyTinytodo](http://mytinytodo.net/)) aber trotzdem.
 
-{% img center /uploads/2011/09/patrick.jpg %}
+{{< figure src="/uploads/2011/09/patrick.jpg" >}}
 
 Nach zwei Tagen herumspielen und einem wirklich hervorragendem [How-To](http://taskwarrior.org/projects/taskwarrior/wiki/Tutorial) hat mir Taskwarrior allerdings so gefallen, dass ich mich entschlossen habe MyTinyTodo aufzugeben und zu Taskwarrior zu wechseln. Da ich meine TodoListe aber auch gerne als eine Art "Log" verwende musste ich die Aufgaben erst aus MyTinyTodo migrieren.
 

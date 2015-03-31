@@ -13,6 +13,6 @@ categories:
 
 Um mal meine Grundkenntnisse etwas zu erhöhn  hab ich mir bei Amazon "Das Linux-Befehle-Buch" gekauft :)
 
-{% img center /uploads/2008/04/linux-befehle-buch.jpg %}
+{{< figure src="/uploads/2008/04/linux-befehle-buch.jpg" >}}
 
 Stehn wirklich  tolle Sachen drin und man lernt schnell.  Ein Buch alá "Nimm meine Hand und führ mich durch den Dschungel" :) Nur zu empfehlen!

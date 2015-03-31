@@ -28,7 +28,7 @@ tags:
 
 Oft  angesprochen und trotzdem bisher nicht die Zeit gefunden drüber zu bloggen: [RequestTracker-Stats](http://github.com/noqqe/RequestTracker-Stats). Vor kurzem habe ich mir das [Balkendiagramm-Shellskript](/archives/1611) [statistical](http://github.com/noqqe/statistical) gebastelt. Nachdem es so gut funktionierte hatte, hatte ich mir überlegt, was ich damit jetzt anfangen könnte. Ich brauchte einen großem Umfang an Datenmengen, den ich visualisieren konnte (abgesehen von zufällig erzeugten Daten). Am Besten noch etwas, dass Sinn macht :)
 
-{% img center /uploads/2011/04/3927_ede8_550.jpeg %}
+{{< figure src="/uploads/2011/04/3927_ede8_550.jpeg" >}}
 
 At Work war "Ticket-Squashing" immer wieder ein gutes Stichwort in unserem Ticketsystem. Wir benutzen den [RequestTracker](http://bestpractical.com/rt/) von [BestPractical](http://bestpractical.com) und ich hatte mir überlegt ein kleines Skript zu basteln, welches die Anzahl der erledigten Tickets pro User aus der MySQL Datenbank ausliesst und dann im Key:Value Format an statistical übergibt. Das hat auch ganz gut funktioniert.
 

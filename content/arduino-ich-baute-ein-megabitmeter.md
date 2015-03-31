@@ -39,9 +39,9 @@ Zunächstmal hab ich mich ausgiebig mit dem [HowTo](http://megabitmeter.de/2010/
 
 Ich muss dazu sagen, dass ich in der glücklichen Situation war und jemanden kannte, der in einer Firma tätig ist, die solche Messgeräte anfertigt wodurch ich keinen Kit kaufen musste. Das ist auch der Grund warum das Messgerät etwas anders aussieht.
 
-{% img center /uploads/2011/08/IMG_0547.jpg %}
+{{< figure src="/uploads/2011/08/IMG_0547.jpg" >}}
 
-{% img center /uploads/2011/08/IMG_0546.jpg %}
+{{< figure src="/uploads/2011/08/IMG_0546.jpg" >}}
 
 Ich denke auch das der Sinn des Projekts eher das "do-it-yourself" ist und der wirtschaftliche Erfolg nur eine positiver Nebeneffekt der Betreiber ist... (Zumindest hoffe ich, dass ich das nicht falsch interpretiert habe). Außerdem schwierig war, dass der Kit 2 (incl. dem Arduino) nicht verfügbar war, da laut Twitter gerade keine Arduinio Nano in rauen Mengen billig einzukaufen sind. Den Arduino Prozessor habe ich deswegen von [TinkerSoup.de](http://tinkersoup.de) geordert.
 

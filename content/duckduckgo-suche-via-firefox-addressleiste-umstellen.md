@@ -29,7 +29,7 @@ tags:
 
 Seit einiger Zeit benutze ich die Suchmaschine [duckduckgo.com ](http://duckduckgo.com ). Wenn man von dem völlig bescheuerten Namen und dem Logo mal absieht, versteckt sich dahinter eine wunderbare Suchmaschine. Dazu gehört alles was der typische Paranoia Geek [so braucht](http://duckduckgo.com/goodies.html).
 
-{% img center /uploads/2011/02/nduck.v105-300x52.png %}
+{{< figure src="/uploads/2011/02/nduck.v105-300x52.png" >}}
 
 Um jetzt zum Punkt zu kommen: Meine Standardsuchleiste habe ich via Plugin schon auf Duckduckgo umgestellt. Ich habe aber die blöde Angewohnheit meine Suchanfrage einfach direkt in die Suchleiste des Firefox zu schreiben. Bisher wurde mir das immer brav von Google beantwortet. Ich dachte mit der Installation des Plugins von DuckDuckGo wäre das auch umgestellt. Dem ist aber nicht so. Leider.
 

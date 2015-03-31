@@ -32,7 +32,7 @@ tags:
 
 Als dieses Micro-Payment System [Flattr](http://flattr.com) vor mehr als einem Jahr raus kam habe ich [hier im Blog über Sinn und Unsinn des Dienstes sinniert](/archives/1024). Ich konnte mich damals nicht wirklich entscheiden, ob mir das System gefällt oder nicht. In der Tat ist es eigentlich eher so, dass mir das [Projekt Kulturwertmark vom CCC](http://www.ccc.de/de/updates/2011/kulturwertmark) viel eher zusagt.
 
-{% img center /uploads/2011/10/1265654972.jpg %}
+{{< figure src="/uploads/2011/10/1265654972.jpg" >}}
 
 Im Moment ist es abe so, dass es keinen anderen verbreiteten Weg gibt Content bzw. Software von Privat-Menschen zu belohnen, weil er/sie mir geholfen hat. Deshalb (und auch weil mich die Oberfläche interessiert hat) habe ich mich dort angemeldet und verteile seit 2 Monaten etwas Geld hier und da. Vorwiegend an Podcasts, Taskwarrior und Blogs von Leuten die ich kenne. Ich habe initial 8 Euro überwiesen mit denen ich jetzt erstmal 4 Monate rumflattern werde. Das das nicht die Welt ist, ist mir klar.
 

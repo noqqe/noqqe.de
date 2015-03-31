@@ -31,7 +31,7 @@ Was in den Replies alles auftaucht sollte jetzt keine Überraschung mehr sein.
 Mich beschleicht das Gefühl, dass mittlerweile mehr aus Gewohnheit drauf los
 getrollt wird. Dabei gibt es so viele Vorteile.
 
-{% img center /uploads/2013/09/ahm.gif %}
+{{< figure src="/uploads/2013/09/ahm.gif" >}}
 
 ### Lesbarkeit
 

@@ -27,7 +27,7 @@ tags:
 
 Seit ich meinen neuen Arbeitsweg antrete und täglich ca eine Stunde im Zug verbringe, höre ich umso mehr Podcasts. Besonders gut finde ich [http://ulm.ccc.de/dev/radio/](http://ulm.ccc.de/dev/radio/). Es ging unter anderem um Algorithmen und Kryptologie im Allgemeinen. Unter anderem eben auch die ROT13 Verschlüsselung.
 
-{% img center /uploads/2011/08/475px-ROT13_table_with_example.svg_.png %}
+{{< figure src="/uploads/2011/08/475px-ROT13_table_with_example.svg_.png" >}}
 
  Ich habe mir überlegt wie schwierig es wohl sein kann, diesen in Bash zu implementieren. Nach kurzem googlen findet man immer wieder eine kleine wirklich ausgefuchste, trickreiche Zeile:
 

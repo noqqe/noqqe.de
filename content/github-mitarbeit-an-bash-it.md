@@ -17,4 +17,4 @@ tags:
 - github
 ---
 
-{% img center /uploads/2010/12/bash-it-noqqe.png %}
+{{< figure src="/uploads/2010/12/bash-it-noqqe.png" >}}

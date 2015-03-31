@@ -61,7 +61,7 @@ case 'p':
 Das MySQL Client Binary wird also gestartet, initialisiert und die Variable `argument`, die aus dem Parameter-Parser von MySQL fällt, kopiert und
 direkt an der entsprechenden Speicheraddresse mit `x`en überschrieben.
 
-{% img center /uploads/2014/05/memoryloss.jpg %}
+{{< figure src="/uploads/2014/05/memoryloss.jpg" >}}
 
 Im Endeffekt eine coole Lösung, aha-Effekt war da. Bedeutet aber auch, dass beim
 Start des Programms für eine gewisse Zeit das Passwort in der Prozessliste

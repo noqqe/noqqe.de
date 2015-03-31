@@ -19,7 +19,7 @@ Blogposts unter Zuhilfenahme regulärer Ausdrücke damit besagte Eintraege nache
 genauso aussehen wie vorher. Das hilft keinem. Nur mir, wenn ich mir die Markdown
 Sourcen des Octopress Repos anschaue.
 
-{% img center /uploads/2012/11/bale.jpg %}
+{{< figure src="/uploads/2012/11/bale.jpg" >}}
 
 ## Umbrüche
 

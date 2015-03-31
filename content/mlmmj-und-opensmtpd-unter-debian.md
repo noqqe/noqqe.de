@@ -39,7 +39,7 @@ k4cg:     "|/usr/bin/mlmmj-receive -L /var/spool/mlmmj/k4cg"
 
 ### OpenSMTPD
 
-{% img center /uploads/2014/05/opensmtpd.png %}
+{{< figure src="/uploads/2014/05/opensmtpd.png" >}}
 
 Den aus dem OpenBSD Umfeld entstandenen [OpenSMTPD](http://opensmtpd.org) wollte ich mir schon länger ansehen.
 Für Postfix läge die mlmmj Konfigurationsanleitung zwar bei, aber hat ja irgendwie auch jeder und ist

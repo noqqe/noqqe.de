@@ -10,7 +10,7 @@ categories:
 - osbn
 ---
 
-{% img left /uploads/2012/10/df.png %}
+{{< figure src="/uploads/2012/10/df.png" >}}
 Meine ersten Anläufe mit [Dwarf Fortress](http://www.bay12games.com/dwarves/) sind schon ein paar Monate her.
 Wie Viele im Moment, verbringe ich wieder einige Zeit damit.
 

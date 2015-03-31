@@ -44,7 +44,7 @@ $ git commit -a -m "Initialer Commit"
 
 Einer der gravierendsten Vorteile. Wer wie ich oft an Klippen hinunter stürzt oder an einem (oder auch mehreren :P ) Creeper(n) scheitert wird das bestätigen können. Einmal gefallen/gestorben gibt es kein zurück mehr. Bis jetzt.
 
-{% img center /uploads/2011/07/minecraft-hill-500.png %}
+{{< figure src="/uploads/2011/07/minecraft-hill-500.png" >}}
 
 Die hypothetische "Herausforderung" scheint sich gerade aufzutun. Ob jetzt Creeper, Berg oder sonst was ist erstmal egal. Könnte auf jeden Fall kritisch für meinen Minecraft Character enden.
 
@@ -55,7 +55,7 @@ $ git commit -a -m "Ob man den Sprung ueberlebt?"
 
 Nach einem kurzen Tab in die Konsole, sollte das Spiel erstmal gesichert sein und ich kann den Sprung wagen.
 
-{% img center /uploads/2011/07/minecraft-gameover-500.png %}
+{{< figure src="/uploads/2011/07/minecraft-gameover-500.png" >}}
 
 Anscheinend überlebt man nicht, aber genau das war auch der kritische Punkt. Genau jetzt bin ich in der Lage meinen alten Spielstand wiederherzustellen. Mit nachfolgendem Kommando verwerfe ich alle seit dem letzten Commit entstandenen Änderungen an meinem Spielstand. Vorher dringend aufs Minecraft Titelmenü zurückkehren!
 
@@ -67,7 +67,7 @@ $ git checkout -f
 ```
 
 
-{% img center /uploads/2011/07/minecraft-hill-again-500.png %}
+{{< figure src="/uploads/2011/07/minecraft-hill-again-500.png" >}}
 
 Dieses Szenario lässt sich nicht nur auf gerade geschehene Ereignisse abbilden sondern auch zwischen Commits die längere Zeit her sind. Wenn nach einer halben Stunde/einem Monat klar wird, das der Minecraft Char gerade nur Müll verzapft hat, kann auch zwischen mehrere Commits hin und her gesprungen werden. Mit welchen git Kommandos das bewerkstelligt wird, bleibt jedem selbst überlassen.
 

@@ -27,7 +27,7 @@ tags:
 
 Als ich [statistical](http://github.com/noqqe/statistical) auf GitHub hochgepushed habe, fing ich an mir Gedanken über die Leistungsfähigkeit des Scripts zu machen. Ich meine es verhielt sich in Anbetracht der Daten (in meinen Augen) wunderbar. Die Key Länge wird bis zu 4 Tab-Längen mit skaliert, genauso wie die Values, in Form der Bars. Aber wie verhält sich es mit größeren Datenmengen?
 
-{% img center /uploads/2011/04/3913_12dd_450.jpeg %}
+{{< figure src="/uploads/2011/04/3913_12dd_450.jpeg" >}}
 
 Diesbezüglich wollte ich eine kleine For-Schleife benutzen um mehrere zufällige Werte zu generieren und in statistical  zu pipen.
 

@@ -20,7 +20,7 @@ musste ich die Kiste durchbooten.
 Nachdem ich das Discard Protokoll über den OpenBSD inetd auf Port 9 aktiviert
 habe, haben ein paar Leute dort dauerhaft Connections geöffnet.
 
-{% img center /uploads/2014/11/daas-inetd.png %}
+{{< figure src="/uploads/2014/11/daas-inetd.png" >}}
 
 Ich dachte, mal sehen wer längern kann. Client oder Server. Stellte sich heraus:
 die Clients.

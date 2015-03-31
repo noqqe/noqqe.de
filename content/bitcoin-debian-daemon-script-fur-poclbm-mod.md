@@ -22,7 +22,7 @@ tags:
 
 Man muss Dinge über Hirnschäden von Menschen lesen die [Nachts guten Gewissens neben einem 4 Grafikarten im SLI-Verbund schlafen](http://www.bitcoinminingaccidents.com/?p=196) und zugleich die [Bedenken von sinnierenden Typen](http://tav.espians.com/why-bitcoin-will-fail-as-a-currency.html) die an den Limitierungen von 21 Billionen maximal möglichen BitCoins zweifeln. Umweltverschmutzung ist natürlich auch ein Thema. Klar. Gerechtfertigter Weise.
 
-{% img center /uploads/2011/06/Tux-G2_bitcoin.png %}
+{{< figure src="/uploads/2011/06/Tux-G2_bitcoin.png" >}}
 
 Wenn Ihr mich fragt, schiesst die BitCoin Mining Gesellschaft am Ziel vorbei. Separate Rechner betreiben schiesst am Ziel vorbei. Hunderte von Euros für neue Grafikkarten ausgeben um 5 MegaHashes/s mehr rechnen zu können schiesst am Ziel vorbei. Euro's für BitCoins bezahlen schiesst sowieso am Ziel vorbei. Man kann BitCoins meines Erachtens auch benutzen ohne Kopfstände zu machen. Immer wenn der Rechner sowieso gerade läuft, mit der Hardware die man zur Verfügung hat.
 

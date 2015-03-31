@@ -19,7 +19,7 @@ Migrationsbedarf. Nach allem was ich gehört und gelesen habe soll die Figur
 auch ganz...seltsam...sein. Aber das ist [Linus](http://en.wikipedia.org/wiki/Linus_Torvalds)
 auch, also keine Umgewöhnung nötig.
 
-{% img center /uploads/2012/11/taskwarrior.png %}
+{{< figure src="/uploads/2012/11/taskwarrior.png" >}}
 So sieht es übrigens aus wenn ich mit [taskwarrior](http://taskwarrior.org) ein
 Projekt abwickle. Ich liebe diese Software, aber dazu vielleicht wann anders
 mal.

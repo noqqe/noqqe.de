@@ -27,7 +27,7 @@ Zugegeben, dieser ganze [Zombie-Sh!t](/archives/1314) unterhält mich länger, a
 In den meisten Durchläufen des ZRE beendet es ganz von alleine die Simulation, weil entweder keine Humans oder Zombies mehr am Leben sind. Auf Letzteres trifft das natürlich immer irgendwie zu. Aber das ignoriere ich jetzt einfach mal. Wenn eine der beiden Seiten als Sieger hervor geht eben.
 
 
-{% img center /uploads/2010/10/243104896_eb10db6e1d.jpg %}
+{{< figure src="/uploads/2010/10/243104896_eb10db6e1d.jpg" >}}
 
 
 In wenigen Fällen® kommt es allerdings vor, das beide Seiten gleichmäßig stark an Mitgliedern gewinnen. Und zwar mehr als 150.000 ca. Die Chance diesen Case zu treffen würde ich jetzt auf 1:50 schätzen. Habe ihn heute 3 mal getroffen. Wie oft habe ich wohl ca. gespielt? Traurig.

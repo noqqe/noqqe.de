@@ -31,13 +31,13 @@ Nachdem ich letzten Donnerstag erfolgreich meine Ausbildung zum Fachinformatiker
 
 **Dokumentation**
 
-{% img center /uploads/2011/07/Bildschirmfoto.png %}
+{{< figure src="/uploads/2011/07/Bildschirmfoto.png" >}}
 
 [Dokumentation](/uploads/2011/07/documentation.pdf)
 
 **Präsentation**
 
-{% img center /uploads/2011/07/Bildschirmfoto-1.png %}
+{{< figure src="/uploads/2011/07/Bildschirmfoto-1.png" >}}
 
 [Präsentation](/uploads/2011/07/slide.html)
 

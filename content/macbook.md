@@ -17,7 +17,7 @@ Nachdem ich die letzte Zeit viele Betriebssysteme auf dem Thinkpad ausprobiert
 haben (FreeBSD, ArchLinux, ElementaryOS, OpenBSD) und nichts mich wirklich
 befriedigt hat, bin ich wieder zu Debian zurück.
 
-{% img center /uploads/2014/09/moe.gif %}
+{{< figure src="/uploads/2014/09/moe.gif" >}}
 
 Einige Zeit später bekam ich in der Arbeit in MacBook. Fand wieder gefallen
 daran. Kaufte MacBook Pro (14. Generation).
