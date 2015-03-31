@@ -1,12 +1,12 @@
 baseurl = "http://localhost:1313"
-languageCode = "en-us"
+languageCode = "de-de"
 title = "noqqe.de"
 publishdir = "public"
 paginate = 10
 paginatePath = "page"
 
 [permalinks]
-  post = "/:year/:month/:day/:title/"
+  post = "blog/:year/:month/:day/:title/"
 
 [[menu.main]]
   name = "About"
