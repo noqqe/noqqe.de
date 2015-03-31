@@ -1,6 +1,6 @@
 ---
 date: 2011-11-26T14:53:21+02:00
-layout: post
+type: post
 slug: loading-eine-bash-progress-bar
 status: publish
 comments: true

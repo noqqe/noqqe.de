@@ -1,6 +1,6 @@
 ---
 date: 2009-12-01T11:57:37+02:00
-layout: post
+type: post
 slug: wordpress-feed-bestimmter-kategorie-generieren
 status: publish
 comments: true

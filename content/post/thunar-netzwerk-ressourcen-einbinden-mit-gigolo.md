@@ -1,6 +1,6 @@
 ---
 date: 2010-07-16T16:39:16+02:00
-layout: post
+type: post
 slug: thunar-netzwerk-ressourcen-einbinden-mit-gigolo
 status: publish
 comments: true

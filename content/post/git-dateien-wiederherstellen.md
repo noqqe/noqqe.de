@@ -1,6 +1,6 @@
 ---
 date: 2010-08-18T21:53:13+02:00
-layout: post
+type: post
 slug: git-dateien-wiederherstellen
 status: publish
 comments: true

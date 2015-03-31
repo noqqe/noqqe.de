@@ -1,6 +1,6 @@
 ---
 date: 2009-04-26T12:20:30+02:00
-layout: post
+type: post
 slug: server-ein-stuck-statistik
 status: publish
 comments: true

@@ -1,6 +1,6 @@
 ---
 date: 2010-06-17T19:43:32+02:00
-layout: post
+type: post
 slug: creative-commons-freies-wissen-und-inhalte
 status: publish
 comments: true

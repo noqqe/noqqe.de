@@ -1,6 +1,6 @@
 ---
 date: 2008-03-24T18:23:03+02:00
-layout: post
+type: post
 slug: hallo-welt-2
 status: publish
 comments: true

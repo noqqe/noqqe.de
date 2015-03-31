@@ -1,6 +1,6 @@
 ---
 date: 2008-07-18T10:38:15+02:00
-layout: post
+type: post
 slug: gobbymulti-cursor-file-editing-oder-so-ahnlich-d
 status: publish
 comments: true

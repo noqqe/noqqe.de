@@ -1,6 +1,6 @@
 ---
 date: 2008-09-30T10:15:48+02:00
-layout: post
+type: post
 slug: rip-zwetschgeorg-30092008
 status: publish
 comments: true

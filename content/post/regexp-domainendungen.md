@@ -1,6 +1,6 @@
 ---
 date: 2010-04-13T20:07:32+02:00
-layout: post
+type: post
 slug: regexp-domainendungen
 status: publish
 comments: true

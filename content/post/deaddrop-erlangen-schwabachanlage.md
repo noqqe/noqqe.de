@@ -1,6 +1,6 @@
 ---
 date: 2011-09-21T21:16:31+02:00
-layout: post
+type: post
 slug: deaddrop-erlangen-schwabachanlage
 status: publish
 comments: true

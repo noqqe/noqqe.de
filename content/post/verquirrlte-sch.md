@@ -1,6 +1,6 @@
 ---
 date: 2008-09-21T22:59:27+02:00
-layout: post
+type: post
 slug: verquirrlte-sch
 status: publish
 comments: true

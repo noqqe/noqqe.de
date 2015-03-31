@@ -1,5 +1,5 @@
 ---
-layout: post
+type: post
 title: "mlmmj und OpenSMTPD unter Debian"
 date: 2014-05-29T11:24:00+02:00
 comments: true

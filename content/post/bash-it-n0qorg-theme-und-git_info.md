@@ -1,6 +1,6 @@
 ---
 date: 2010-11-24T18:14:57+02:00
-layout: post
+type: post
 slug: bash-it-n0qorg-theme-und-git_info
 status: publish
 comments: true

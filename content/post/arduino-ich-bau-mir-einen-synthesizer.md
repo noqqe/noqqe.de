@@ -1,6 +1,6 @@
 ---
 date: 2011-12-21T17:30:58+02:00
-layout: post
+type: post
 slug: arduino-ich-bau-mir-einen-synthesizer
 status: publish
 comments: true

@@ -1,6 +1,6 @@
 ---
 date: 2010-12-21T18:48:42+02:00
-layout: post
+type: post
 slug: offtopic-hackerbrause
 status: publish
 comments: true

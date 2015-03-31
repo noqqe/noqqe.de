@@ -1,6 +1,6 @@
 ---
 date: 2010-06-24T21:32:29+02:00
-layout: post
+type: post
 slug: nagios-ricoh-drucker-tonerstand-per-snmp-abfragen
 status: publish
 comments: true

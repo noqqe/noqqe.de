@@ -1,5 +1,5 @@
 ---
-layout: post
+type: post
 title: "Online Banking mit LXC"
 date: 2013-11-08T18:00:00+02:00
 comments: true

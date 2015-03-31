@@ -1,6 +1,6 @@
 ---
 date: 2010-12-26T14:08:48+02:00
-layout: post
+type: post
 slug: offtopic-deskshot
 status: publish
 comments: true

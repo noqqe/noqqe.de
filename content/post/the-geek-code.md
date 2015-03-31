@@ -1,6 +1,6 @@
 ---
 date: 2008-06-18T13:07:52+02:00
-layout: post
+type: post
 slug: the-geek-code
 status: publish
 comments: true

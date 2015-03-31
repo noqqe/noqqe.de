@@ -1,5 +1,5 @@
 ---
-layout: post
+type: post
 title: "Ich wechselte zu Uberspace.de"
 date: 2012-08-17T20:07:00+02:00
 comments: true

@@ -1,6 +1,6 @@
 ---
 date: 2010-10-05T14:47:10+02:00
-layout: post
+type: post
 slug: twitter-on-cli-twidge-interactive-shell
 status: publish
 comments: true

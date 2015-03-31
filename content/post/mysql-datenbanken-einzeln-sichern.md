@@ -1,6 +1,6 @@
 ---
 date: 2010-07-24T15:07:54+02:00
-layout: post
+type: post
 slug: mysql-datenbanken-einzeln-sichern
 status: publish
 comments: true

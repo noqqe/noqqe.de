@@ -1,6 +1,6 @@
 ---
 date: 2011-06-12T13:09:28+02:00
-layout: post
+type: post
 slug: bitcoin-debian-daemon-script-fur-poclbm-mod
 status: publish
 comments: true

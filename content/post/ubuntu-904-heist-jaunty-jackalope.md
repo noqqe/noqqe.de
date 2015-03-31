@@ -1,6 +1,6 @@
 ---
 date: 2008-09-10T09:38:14+02:00
-layout: post
+type: post
 slug: ubuntu-904-heist-jaunty-jackalope
 status: publish
 comments: true

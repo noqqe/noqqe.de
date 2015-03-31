@@ -1,6 +1,6 @@
 ---
 date: 2010-05-26T20:22:56+02:00
-layout: post
+type: post
 slug: bash-inkrement-methoden-und-effizienz
 status: publish
 comments: true

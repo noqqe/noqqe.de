@@ -1,6 +1,6 @@
 ---
 date: 2009-05-10T11:31:37+02:00
-layout: post
+type: post
 slug: linux-hardware-erkennung-in-ubuntu
 status: publish
 comments: true

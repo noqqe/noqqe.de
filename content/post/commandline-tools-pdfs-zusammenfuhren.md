@@ -1,6 +1,6 @@
 ---
 date: 2011-04-20T12:14:50+02:00
-layout: post
+type: post
 slug: commandline-tools-pdfs-zusammenfuhren
 status: publish
 comments: true

@@ -1,6 +1,6 @@
 ---
 date: 2009-11-29T18:20:03+02:00
-layout: post
+type: post
 slug: theme-clouds-edited
 status: publish
 comments: true

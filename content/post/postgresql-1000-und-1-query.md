@@ -1,6 +1,6 @@
 ---
 date: 2011-08-23T18:39:15+02:00
-layout: post
+type: post
 slug: postgresql-1000-und-1-query
 status: publish
 comments: true

@@ -1,6 +1,6 @@
 ---
 date: 2011-10-01T13:12:03+02:00
-layout: post
+type: post
 slug: flattr-man-kann-seine-meinung-auch-mal-andern
 status: publish
 comments: true

@@ -1,6 +1,6 @@
 ---
 date: 2010-10-09T17:28:58+02:00
-layout: post
+type: post
 slug: git-verschiedene-repos-zusammenfuhren
 status: publish
 comments: true

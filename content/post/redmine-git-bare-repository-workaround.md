@@ -1,6 +1,6 @@
 ---
 date: 2010-11-27T13:49:42+02:00
-layout: post
+type: post
 slug: redmine-git-bare-repository-workaround
 status: publish
 comments: true

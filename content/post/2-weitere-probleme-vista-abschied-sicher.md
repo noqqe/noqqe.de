@@ -1,6 +1,6 @@
 ---
 date: 2008-05-31T12:06:30+02:00
-layout: post
+type: post
 slug: 2-weitere-probleme-vista-abschied-sicher
 status: publish
 comments: true

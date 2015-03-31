@@ -1,6 +1,6 @@
 ---
 date: 2010-12-01T20:27:18+02:00
-layout: post
+type: post
 slug: bash-lesen-von-devstdin
 status: publish
 comments: true

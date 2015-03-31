@@ -1,6 +1,6 @@
 ---
 date: 2010-09-07T19:19:26+02:00
-layout: post
+type: post
 slug: google-dank-der-us-army-ist-mir-street-view-egal
 status: publish
 comments: true

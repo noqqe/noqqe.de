@@ -1,5 +1,5 @@
 ---
-layout: post
+type: post
 title: "MariaDB, Galera Cluster und LXC"
 date: 2013-06-02T19:45:00+02:00
 comments: true

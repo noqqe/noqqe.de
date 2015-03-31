@@ -1,6 +1,6 @@
 ---
 date: 2009-04-16T09:59:27+02:00
-layout: post
+type: post
 slug: publications-tft-dvi-touchscreen-handout
 status: publish
 comments: true

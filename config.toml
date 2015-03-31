@@ -4,6 +4,17 @@ title = "noqqe.de"
 publishdir = "public"
 paginate = 10
 paginatePath = "page"
+path = "blog"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[params]
+  Description = "No advertising, no support, no bug fixes, payment inadvance."
+  Copyright = " 2015 Florian Baumann. Some rights reserved." 
+  author = "Florian Baumann"
+  githubuser = "noqqe"
 
 [permalinks]
   post = "blog/:year/:month/:day/:title/"
@@ -28,14 +39,3 @@ paginatePath = "page"
   weight = -100
   identifier = "Impressum"
   url = "/impressum/"
-
-[taxonomies]
-  category = "categories"
-  tag = "tags"
-
-[params]
-  Description = "No advertising, no support, no bug fixes, payment inadvance."
-  Copyright = " 2015 Florian Baumann. Some rights reserved." 
-  author = "Florian Baumann"
-  githubuser = "noqqe"
-

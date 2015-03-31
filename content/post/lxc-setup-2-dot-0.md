@@ -1,5 +1,5 @@
 ---
-layout: post
+type: post
 title: "LXC Setup 2.0"
 date: 2012-10-07T20:00:00+02:00
 comments: true

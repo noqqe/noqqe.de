@@ -1,5 +1,5 @@
 ---
-layout: post
+type: post
 title: "Stromverbrauch für Nerds mit Google Charts"
 date: 2012-06-16T12:31:00+02:00
 comments: true

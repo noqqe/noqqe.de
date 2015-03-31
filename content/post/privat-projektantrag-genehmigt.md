@@ -1,6 +1,6 @@
 ---
 date: 2009-03-27T14:15:35+02:00
-layout: post
+type: post
 slug: privat-projektantrag-genehmigt
 status: publish
 comments: true

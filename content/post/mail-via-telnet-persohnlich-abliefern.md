@@ -1,6 +1,6 @@
 ---
 date: 2009-02-24T21:32:32+02:00
-layout: post
+type: post
 slug: mail-via-telnet-persohnlich-abliefern
 status: publish
 comments: true

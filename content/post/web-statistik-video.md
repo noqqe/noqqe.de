@@ -1,6 +1,6 @@
 ---
 date: 2010-03-12T14:27:35+02:00
-layout: post
+type: post
 slug: web-statistik-video
 status: publish
 comments: true

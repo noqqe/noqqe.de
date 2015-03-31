@@ -1,5 +1,5 @@
 ---
-layout: post
+type: post
 title: "Dwarf Fortress unter OS X Yosemite"
 date: 2015-02-07T17:16:00+02:00
 comments: true

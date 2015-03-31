@@ -1,6 +1,6 @@
 ---
 date: 2010-12-23T16:16:03+02:00
-layout: post
+type: post
 slug: mac-fraise-app-fur-latex-konfigurieren
 status: publish
 comments: true

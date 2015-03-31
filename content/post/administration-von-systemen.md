@@ -1,5 +1,5 @@
 ---
-layout: post
+type: post
 title: "Administration von Systemen"
 date: 2014-04-19T18:52:00+02:00
 comments: true

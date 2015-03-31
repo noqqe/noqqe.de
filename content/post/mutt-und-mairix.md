@@ -1,5 +1,5 @@
 ---
-layout: post
+type: post
 title: "mutt und mairix"
 date: 2013-03-18T22:00:00+02:00
 comments: true

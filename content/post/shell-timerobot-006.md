@@ -1,6 +1,6 @@
 ---
 date: 2009-03-18T12:02:12+02:00
-layout: post
+type: post
 slug: shell-timerobot-006
 status: publish
 comments: true

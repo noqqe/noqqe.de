@@ -1,6 +1,6 @@
 ---
 date: 2010-07-16T10:59:59+02:00
-layout: post
+type: post
 slug: web-einfachjabber-de
 status: publish
 comments: true

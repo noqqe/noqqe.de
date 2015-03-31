@@ -1,6 +1,6 @@
 ---
 date: 2010-11-22T21:30:35+02:00
-layout: post
+type: post
 slug: github-sinn-unsinn-interfaces-und-schon-wieder-zombies
 status: publish
 comments: true

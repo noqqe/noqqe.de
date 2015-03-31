@@ -1,6 +1,6 @@
 ---
 date: 2010-09-19T16:09:00+02:00
-layout: post
+type: post
 slug: tismc-this-is-static-markdown-content
 status: publish
 comments: true

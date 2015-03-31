@@ -1,6 +1,6 @@
 ---
 date: 2010-09-26T14:56:42+02:00
-layout: post
+type: post
 slug: bash-futurama-zitate-aus-slashdot-org-http-header-auslesen
 status: publish
 comments: true

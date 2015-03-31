@@ -1,5 +1,5 @@
 ---
-layout: post
+type: post
 title: "OpenBSD httpd"
 date: 2014-09-27T14:30:00+02:00
 comments: true

@@ -1,6 +1,6 @@
 ---
 date: 2008-07-04T09:02:39+02:00
-layout: post
+type: post
 slug: noqqede
 status: publish
 comments: true

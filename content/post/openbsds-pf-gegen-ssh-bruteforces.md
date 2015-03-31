@@ -1,5 +1,5 @@
 ---
-layout: post
+type: post
 title: "OpenBSD pf gegen ssh Bruteforces"
 date: 2013-06-09T16:55:00+02:00
 comments: true

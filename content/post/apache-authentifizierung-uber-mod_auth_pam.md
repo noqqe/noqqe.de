@@ -1,6 +1,6 @@
 ---
 date: 2011-03-04T19:53:19+02:00
-layout: post
+type: post
 slug: apache-authentifizierung-uber-mod_auth_pam
 status: publish
 comments: true

@@ -1,6 +1,6 @@
 ---
 date: 2011-03-06T16:06:38+02:00
-layout: post
+type: post
 slug: zre-zombie-revolution-environment-im-web
 status: publish
 comments: true

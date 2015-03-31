@@ -1,6 +1,6 @@
 ---
 date: 2009-04-13T15:30:47+02:00
-layout: post
+type: post
 slug: privat-stille
 status: publish
 comments: true

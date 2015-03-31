@@ -1,6 +1,6 @@
 ---
 date: 2008-12-23T14:51:04+02:00
-layout: post
+type: post
 slug: unpack-200
 status: publish
 comments: true

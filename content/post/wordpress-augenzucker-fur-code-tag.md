@@ -1,6 +1,6 @@
 ---
 date: 2010-02-11T22:09:42+02:00
-layout: post
+type: post
 slug: wordpress-augenzucker-fur-code-tag
 status: publish
 comments: true

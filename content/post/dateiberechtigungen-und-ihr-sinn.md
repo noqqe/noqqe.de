@@ -1,6 +1,6 @@
 ---
 date: 2008-05-23T11:55:05+02:00
-layout: post
+type: post
 slug: dateiberechtigungen-und-ihr-sinn
 status: publish
 comments: true

@@ -1,6 +1,6 @@
 ---
 date: 2008-04-04T11:56:52+02:00
-layout: post
+type: post
 slug: linux-befehle-buch
 status: publish
 comments: true

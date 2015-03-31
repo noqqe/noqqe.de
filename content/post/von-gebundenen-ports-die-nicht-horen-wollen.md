@@ -1,5 +1,5 @@
 ---
-layout: post
+type: post
 title: "Von gebundenen Ports die nicht hören wollen"
 date: 2014-11-27T21:45:00+02:00
 comments: true

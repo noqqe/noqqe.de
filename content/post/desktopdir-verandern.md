@@ -1,6 +1,6 @@
 ---
 date: 2008-12-09T10:18:33+02:00
-layout: post
+type: post
 slug: desktopdir-verandern
 status: publish
 comments: true

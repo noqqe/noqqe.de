@@ -1,6 +1,6 @@
 ---
 date: 2011-07-04T20:42:09+02:00
-layout: post
+type: post
 slug: minecraft-git-bash
 status: publish
 comments: true

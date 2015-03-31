@@ -1,6 +1,6 @@
 ---
 date: 2010-08-12T19:46:44+02:00
-layout: post
+type: post
 slug: gitosis-debugging-undokumentiertes-und-konfiguration
 status: publish
 comments: true

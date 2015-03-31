@@ -1,6 +1,6 @@
 ---
 date: 2009-11-30T22:24:46+02:00
-layout: post
+type: post
 slug: hack-the-unix-forkbomb
 status: publish
 comments: true

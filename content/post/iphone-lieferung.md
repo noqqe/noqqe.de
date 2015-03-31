@@ -1,6 +1,6 @@
 ---
 date: 2009-09-24T19:34:18+02:00
-layout: post
+type: post
 slug: iphone-lieferung
 status: publish
 comments: true

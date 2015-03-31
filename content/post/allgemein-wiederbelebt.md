@@ -1,6 +1,6 @@
 ---
 date: 2009-09-20T12:57:54+02:00
-layout: post
+type: post
 slug: allgemein-wiederbelebt
 status: publish
 comments: true

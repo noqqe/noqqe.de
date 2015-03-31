@@ -1,6 +1,6 @@
 ---
 date: 2009-02-23T17:06:57+02:00
-layout: post
+type: post
 slug: noqqede-relaunch-des-blogs
 status: publish
 comments: true

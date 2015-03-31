@@ -1,6 +1,6 @@
 ---
 date: 2010-10-19T20:35:18+02:00
-layout: post
+type: post
 slug: bash-zre-und-random
 status: publish
 comments: true

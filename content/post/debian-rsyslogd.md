@@ -1,6 +1,6 @@
 ---
 date: 2009-10-12T19:23:22+02:00
-layout: post
+type: post
 slug: debian-rsyslogd
 status: publish
 comments: true

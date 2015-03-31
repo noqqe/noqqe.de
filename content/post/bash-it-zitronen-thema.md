@@ -1,6 +1,6 @@
 ---
 date: 2010-11-01T15:00:47+02:00
-layout: post
+type: post
 slug: bash-it-zitronen-thema
 status: publish
 comments: true

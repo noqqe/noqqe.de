@@ -1,6 +1,6 @@
 ---
 date: 2008-05-13T11:12:06+02:00
-layout: post
+type: post
 slug: eeepc-urlaubstuchtig-media-tauglich-machen
 status: publish
 comments: true

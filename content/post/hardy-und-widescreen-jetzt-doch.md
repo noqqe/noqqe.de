@@ -1,6 +1,6 @@
 ---
 date: 2008-06-14T12:18:19+02:00
-layout: post
+type: post
 slug: hardy-und-widescreen-jetzt-doch
 status: publish
 comments: true

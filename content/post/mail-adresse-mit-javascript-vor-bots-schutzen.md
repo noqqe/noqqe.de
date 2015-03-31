@@ -1,6 +1,6 @@
 ---
 date: 2010-11-13T14:29:59+02:00
-layout: post
+type: post
 slug: mail-adresse-mit-javascript-vor-bots-schutzen
 status: publish
 comments: true

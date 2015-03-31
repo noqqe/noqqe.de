@@ -1,6 +1,6 @@
 ---
 date: 2010-12-07T20:39:24+02:00
-layout: post
+type: post
 slug: github-mitarbeit-an-bash-it
 status: publish
 comments: true

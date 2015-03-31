@@ -1,5 +1,5 @@
 ---
-layout: post
+type: post
 title: "Das CAP Theorem"
 date: 2012-04-29T12:22:00+02:00
 comments: true

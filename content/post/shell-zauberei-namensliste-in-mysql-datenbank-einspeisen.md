@@ -1,6 +1,6 @@
 ---
 date: 2011-04-29T10:30:52+02:00
-layout: post
+type: post
 slug: namensliste-in-mysql-datenbank-einspeisen
 status: publish
 comments: true

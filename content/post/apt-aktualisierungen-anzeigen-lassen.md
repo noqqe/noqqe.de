@@ -1,6 +1,6 @@
 ---
 date: 2010-02-20T18:27:38+02:00
-layout: post
+type: post
 slug: apt-aktualisierungen-anzeigen-lassen
 status: publish
 comments: true

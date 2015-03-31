@@ -1,6 +1,6 @@
 ---
 date: 2011-03-21T18:07:05+02:00
-layout: post
+type: post
 slug: personlicher-eindruck-chemnitzer-linux-tage-2011
 status: publish
 comments: true

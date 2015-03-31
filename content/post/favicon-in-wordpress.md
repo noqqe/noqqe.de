@@ -1,6 +1,6 @@
 ---
 date: 2009-02-24T18:29:20+02:00
-layout: post
+type: post
 slug: favicon-in-wordpress
 status: publish
 comments: true

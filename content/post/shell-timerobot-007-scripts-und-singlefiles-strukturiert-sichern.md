@@ -1,6 +1,6 @@
 ---
 date: 2009-05-26T18:43:25+02:00
-layout: post
+type: post
 slug: shell-timerobot-007-scripts-und-singlefiles-strukturiert-sichern
 status: publish
 comments: true

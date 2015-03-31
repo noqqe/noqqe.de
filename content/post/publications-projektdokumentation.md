@@ -1,6 +1,6 @@
 ---
 date: 2009-10-07T08:07:24+02:00
-layout: post
+type: post
 slug: publications-projektdokumentation
 status: publish
 comments: true

@@ -1,6 +1,6 @@
 ---
 date: 2008-10-28T18:33:26+02:00
-layout: post
+type: post
 slug: zwetschgeorg-monitoring-mal-wieder
 status: publish
 comments: true

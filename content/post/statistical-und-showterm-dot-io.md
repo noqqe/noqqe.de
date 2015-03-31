@@ -1,5 +1,5 @@
 ---
-layout: post
+type: post
 title: "statistical und showterm.io"
 date: 2013-09-03T21:20:00+02:00
 comments: true

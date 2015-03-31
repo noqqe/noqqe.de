@@ -1,5 +1,5 @@
 ---
-layout: post
+type: post
 title: "Über gefixte Syntax und Stunden mit RegEx"
 date: 2012-11-22T22:27:00+02:00
 comments: true

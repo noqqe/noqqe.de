@@ -1,6 +1,6 @@
 ---
 date: 2010-07-14T19:17:18+02:00
-layout: post
+type: post
 slug: grub-auflosung-der-konsole-andern
 status: publish
 comments: true

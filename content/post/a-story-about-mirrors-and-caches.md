@@ -1,5 +1,5 @@
 ---
-layout: post
+type: post
 title: "A Story about Mirrors and Caches"
 date: 2013-08-31T19:01:00+02:00
 comments: true

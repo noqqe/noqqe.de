@@ -1,6 +1,6 @@
 ---
 date: 2011-04-29T11:55:33+02:00
-layout: post
+type: post
 slug: rt-requesttracker-stats
 status: publish
 comments: true

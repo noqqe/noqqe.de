@@ -1,6 +1,6 @@
 ---
 date: 2012-01-22T15:09:07+02:00
-layout: post
+type: post
 slug: mysql-table-migration-zu-innodb
 status: publish
 comments: true

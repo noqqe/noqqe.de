@@ -1,6 +1,6 @@
 ---
 date: 2009-03-07T11:34:58+02:00
-layout: post
+type: post
 slug: blog-random-text-pool
 status: publish
 comments: true

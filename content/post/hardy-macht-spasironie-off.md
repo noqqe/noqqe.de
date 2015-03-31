@@ -1,6 +1,6 @@
 ---
 date: 2008-04-26T01:16:03+02:00
-layout: post
+type: post
 slug: hardy-macht-spasironie-off
 status: publish
 comments: true

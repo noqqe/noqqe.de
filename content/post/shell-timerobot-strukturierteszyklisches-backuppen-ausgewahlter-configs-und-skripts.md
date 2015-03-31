@@ -1,6 +1,6 @@
 ---
 date: 2009-03-16T12:06:41+02:00
-layout: post
+type: post
 slug: shell-timerobot-strukturierteszyklisches-backuppen-ausgewahlter-configs-und-skripts
 status: publish
 comments: true

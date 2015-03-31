@@ -1,6 +1,6 @@
 ---
 date: 2008-08-30T20:02:26+02:00
-layout: post
+type: post
 slug: squid-opensource-proxyserver
 status: publish
 comments: true

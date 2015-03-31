@@ -1,6 +1,6 @@
 ---
 date: 2009-01-20T01:00:29+02:00
-layout: post
+type: post
 slug: und-was-machst-du-so
 status: publish
 comments: true

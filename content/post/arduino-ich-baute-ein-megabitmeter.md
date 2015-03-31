@@ -1,6 +1,6 @@
 ---
 date: 2011-08-27T13:10:02+02:00
-layout: post
+type: post
 slug: arduino-ich-baute-ein-megabitmeter
 status: publish
 comments: true

@@ -1,6 +1,6 @@
 ---
 date: 2009-11-28T17:02:43+02:00
-layout: post
+type: post
 slug: teeworlds-version-0-5-2
 status: publish
 comments: true

@@ -1,6 +1,6 @@
 ---
 date: 2008-07-11T14:00:06+02:00
-layout: post
+type: post
 slug: cisco-ccna1-bestanden-941
 status: publish
 comments: true

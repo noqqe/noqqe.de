@@ -1,6 +1,6 @@
 ---
 date: 2010-09-05T20:58:33+02:00
-layout: post
+type: post
 slug: bash-watch-n-mal-anders
 status: publish
 comments: true

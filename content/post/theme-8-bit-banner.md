@@ -1,6 +1,6 @@
 ---
 date: 2010-06-30T10:25:46+02:00
-layout: post
+type: post
 slug: theme-8-bit-banner
 status: publish
 comments: true

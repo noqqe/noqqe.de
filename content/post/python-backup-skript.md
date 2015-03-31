@@ -1,6 +1,6 @@
 ---
 date: 2008-07-16T14:03:12+02:00
-layout: post
+type: post
 slug: python-backup-skript
 status: publish
 comments: true

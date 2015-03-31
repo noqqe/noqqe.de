@@ -1,6 +1,6 @@
 ---
 date: 2010-08-25T20:06:47+02:00
-layout: post
+type: post
 slug: gitosis-zweischneidigkeit-des-auth-verfahrens
 status: publish
 comments: true

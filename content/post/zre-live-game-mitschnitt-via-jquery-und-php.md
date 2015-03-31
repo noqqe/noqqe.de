@@ -1,6 +1,6 @@
 ---
 date: 2011-03-14T21:37:05+02:00
-layout: post
+type: post
 slug: zre-live-game-mitschnitt-via-jquery-und-php
 status: publish
 comments: true

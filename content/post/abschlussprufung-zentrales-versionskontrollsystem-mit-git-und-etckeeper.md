@@ -1,6 +1,6 @@
 ---
 date: 2011-07-24T18:56:32+02:00
-layout: post
+type: post
 slug: abschlussprufung-zentrales-versionskontrollsystem-mit-git-und-etckeeper
 status: publish
 comments: true

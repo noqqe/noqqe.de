@@ -1,6 +1,6 @@
 ---
 date: 2009-01-10T19:43:22+02:00
-layout: post
+type: post
 slug: unpack-301-ab-jetzt-als-deb-paket
 status: publish
 comments: true

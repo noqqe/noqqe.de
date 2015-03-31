@@ -1,6 +1,6 @@
 ---
 date: 2008-06-12T14:38:24+02:00
-layout: post
+type: post
 slug: hardy-heron-und-die-auflosung
 status: publish
 comments: true

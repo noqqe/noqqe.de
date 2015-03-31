@@ -1,6 +1,6 @@
 ---
 date: 2008-09-12T16:22:15+02:00
-layout: post
+type: post
 slug: zwetschgeorg
 status: publish
 comments: true

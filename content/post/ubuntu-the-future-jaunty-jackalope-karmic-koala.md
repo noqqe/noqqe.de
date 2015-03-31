@@ -1,6 +1,6 @@
 ---
 date: 2009-03-07T14:15:44+02:00
-layout: post
+type: post
 slug: ubuntu-the-future-jaunty-jackalope-karmic-koala
 status: publish
 comments: true

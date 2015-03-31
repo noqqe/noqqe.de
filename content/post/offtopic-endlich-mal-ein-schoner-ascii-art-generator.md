@@ -1,6 +1,6 @@
 ---
 date: 2010-02-15T08:39:42+02:00
-layout: post
+type: post
 slug: offtopic-endlich-mal-ein-schoner-ascii-art-generator
 status: publish
 comments: true

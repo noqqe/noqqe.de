@@ -1,6 +1,6 @@
 ---
 date: 2008-07-08T19:37:41+02:00
-layout: post
+type: post
 slug: cisco-ccna-1
 status: publish
 comments: true

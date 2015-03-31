@@ -1,5 +1,5 @@
 ---
-layout: post
+type: post
 title: "Thinkpad X201"
 date: 2012-04-15T11:16:00+02:00
 comments: true

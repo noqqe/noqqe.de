@@ -1,6 +1,6 @@
 ---
 date: 2009-09-24T19:59:58+02:00
-layout: post
+type: post
 slug: shell-vollstandiger-file-path
 status: publish
 comments: true

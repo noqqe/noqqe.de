@@ -1,6 +1,6 @@
 ---
 date: 2009-01-29T17:33:06+02:00
-layout: post
+type: post
 slug: syncn-110
 status: publish
 comments: true

@@ -1,6 +1,6 @@
 ---
 date: 2009-03-22T21:41:09+02:00
-layout: post
+type: post
 slug: jabber-eleganter-client-synapse
 status: publish
 comments: true

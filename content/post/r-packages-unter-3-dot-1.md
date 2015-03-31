@@ -1,5 +1,5 @@
 ---
-layout: post
+type: post
 title: "Packages zu R 3.1 migrieren"
 date: 2014-05-11T19:05:00+02:00
 comments: true

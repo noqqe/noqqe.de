@@ -1,5 +1,5 @@
 ---
-layout: post
+type: post
 title: "Useful use of cat"
 date: 2013-09-08T20:28:00+02:00
 comments: true

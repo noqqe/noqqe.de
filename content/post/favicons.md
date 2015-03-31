@@ -1,5 +1,5 @@
 ---
-layout: post
+type: post
 title: "Favicons"
 date: 2012-11-04T11:40:00+02:00
 comments: true

@@ -1,6 +1,6 @@
 ---
 date: 2008-07-14T13:18:52+02:00
-layout: post
+type: post
 slug: eeexubuntu-oder-ubuntueee
 status: publish
 comments: true

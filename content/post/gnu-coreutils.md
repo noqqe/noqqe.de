@@ -1,5 +1,5 @@
 ---
-layout: post
+type: post
 title: "GNU Coreutils"
 date: 2014-03-25T19:18:00+02:00
 comments: true

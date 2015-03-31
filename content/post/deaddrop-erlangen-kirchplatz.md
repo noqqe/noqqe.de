@@ -1,6 +1,6 @@
 ---
 date: 2011-08-25T19:00:33+02:00
-layout: post
+type: post
 slug: deaddrop-erlangen-kirchplatz
 status: publish
 comments: true

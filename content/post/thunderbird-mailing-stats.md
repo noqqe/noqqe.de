@@ -1,5 +1,5 @@
 ---
-layout: post
+type: post
 title: "Thunderbird Mailing Stats"
 date: 2012-08-25T11:25:00+02:00
 comments: true

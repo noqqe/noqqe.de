@@ -1,6 +1,6 @@
 ---
 date: 2008-11-09T20:54:14+02:00
-layout: post
+type: post
 slug: projektarbeit-raid-handout
 status: publish
 comments: true

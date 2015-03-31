@@ -1,6 +1,6 @@
 ---
 date: 2010-04-21T10:35:43+02:00
-layout: post
+type: post
 slug: gitweb-urls-einbinden
 status: publish
 comments: true

@@ -1,6 +1,6 @@
 ---
 date: 2009-10-12T18:57:37+02:00
-layout: post
+type: post
 slug: debian-etclogrotate-d
 status: publish
 comments: true

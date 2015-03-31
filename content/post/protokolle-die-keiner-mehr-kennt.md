@@ -1,5 +1,5 @@
 ---
-layout: post
+type: post
 title: "Ports low as fuck"
 date: 2013-05-06T20:11:00+02:00
 comments: true

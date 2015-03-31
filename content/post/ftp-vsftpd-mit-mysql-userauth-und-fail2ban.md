@@ -1,6 +1,6 @@
 ---
 date: 2010-02-24T19:40:51+02:00
-layout: post
+type: post
 slug: ftp-vsftpd-mit-mysql-userauth-und-fail2ban
 status: publish
 comments: true

@@ -1,5 +1,5 @@
 ---
-layout: post
+type: post
 title: "OpenBSD nginx Logrotate"
 date: 2014-03-02T12:09:00+02:00
 comments: true

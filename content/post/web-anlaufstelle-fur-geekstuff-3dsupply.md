@@ -1,6 +1,6 @@
 ---
 date: 2010-04-22T20:18:54+02:00
-layout: post
+type: post
 slug: web-anlaufstelle-fur-geekstuff-3dsupply
 status: publish
 comments: true

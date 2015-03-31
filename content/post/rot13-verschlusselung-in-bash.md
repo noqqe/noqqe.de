@@ -1,6 +1,6 @@
 ---
 date: 2011-08-13T14:03:20+02:00
-layout: post
+type: post
 slug: rot13-verschlusselung-in-bash
 status: publish
 comments: true

@@ -1,6 +1,6 @@
 ---
 date: 2008-06-20T08:41:08+02:00
-layout: post
+type: post
 slug: intreprid-ibex-810-counter
 status: publish
 comments: true

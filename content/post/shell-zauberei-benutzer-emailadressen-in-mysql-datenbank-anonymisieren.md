@@ -1,6 +1,6 @@
 ---
 date: 2011-04-23T18:53:04+02:00
-layout: post
+type: post
 slug: shell-zauberei-benutzer-emailadressen-in-mysql-datenbank-anonymisieren
 status: publish
 comments: true

@@ -1,6 +1,6 @@
 ---
 date: 2009-02-03T22:32:47+02:00
-layout: post
+type: post
 slug: teeworlds-server-howto
 status: publish
 comments: true

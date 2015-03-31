@@ -1,6 +1,6 @@
 ---
 date: 2008-07-09T22:09:40+02:00
-layout: post
+type: post
 slug: ich-lerne-python
 status: publish
 comments: true

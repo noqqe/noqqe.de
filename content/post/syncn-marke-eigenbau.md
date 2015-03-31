@@ -1,6 +1,6 @@
 ---
 date: 2009-01-09T00:16:13+02:00
-layout: post
+type: post
 slug: syncn-marke-eigenbau
 status: publish
 comments: true

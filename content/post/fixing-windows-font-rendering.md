@@ -1,5 +1,5 @@
 ---
-layout: post
+type: post
 title: "Fixing Windows Font Rendering"
 date: 2013-12-05T20:28:00+02:00
 comments: true

@@ -1,6 +1,6 @@
 ---
 date: 2009-09-24T22:21:22+02:00
-layout: post
+type: post
 slug: python-cryzed-bashing
 status: publish
 comments: true

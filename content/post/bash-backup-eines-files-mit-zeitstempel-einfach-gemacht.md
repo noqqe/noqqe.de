@@ -1,6 +1,6 @@
 ---
 date: 2010-12-14T16:33:45+02:00
-layout: post
+type: post
 slug: bash-backup-eines-files-mit-zeitstempel-einfach-gemacht
 status: publish
 comments: true

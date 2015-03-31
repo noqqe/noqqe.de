@@ -1,5 +1,5 @@
 ---
-layout: post
+type: post
 title: "Getting enterprised with Tomcat - Teil 1"
 date: 2012-09-09T20:45:00+02:00
 comments: true

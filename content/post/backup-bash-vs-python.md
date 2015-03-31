@@ -1,6 +1,6 @@
 ---
 date: 2009-03-18T15:10:49+02:00
-layout: post
+type: post
 slug: backup-bash-vs-python
 status: publish
 comments: true

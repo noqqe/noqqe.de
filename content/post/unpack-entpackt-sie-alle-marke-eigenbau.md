@@ -1,6 +1,6 @@
 ---
 date: 2008-12-05T15:37:56+02:00
-layout: post
+type: post
 slug: unpack-entpackt-sie-alle-marke-eigenbau
 status: publish
 comments: true

@@ -1,5 +1,5 @@
 ---
-layout: post
+type: post
 title: "Digital Ocean FreeBSD"
 date: 2015-01-26T21:06:00+02:00
 comments: true

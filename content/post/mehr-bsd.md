@@ -1,5 +1,5 @@
 ---
-layout: post
+type: post
 title: "Mehr BSD, Bye Uberspace"
 date: 2014-06-19T17:20:00+02:00
 comments: true

@@ -1,6 +1,6 @@
 ---
 date: 2009-02-18T22:12:43+02:00
-layout: post
+type: post
 slug: mysql-in-php
 status: publish
 comments: true

@@ -1,6 +1,6 @@
 ---
 date: 2010-05-20T20:03:32+02:00
-layout: post
+type: post
 slug: bash-linux-und-scripting-an-meiner-schule
 status: publish
 comments: true

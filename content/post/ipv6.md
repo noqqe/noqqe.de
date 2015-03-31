@@ -1,6 +1,6 @@
 ---
 date: 2008-12-17T23:54:39+02:00
-layout: post
+type: post
 slug: ipv6
 status: publish
 comments: true

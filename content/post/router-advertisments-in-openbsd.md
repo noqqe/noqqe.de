@@ -1,5 +1,5 @@
 ---
-layout: post
+type: post
 title: "Router Advertisments in OpenBSD"
 date: 2014-12-18T11:14:00+02:00
 comments: true

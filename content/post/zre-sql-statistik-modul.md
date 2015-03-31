@@ -1,6 +1,6 @@
 ---
 date: 2011-03-26T14:45:37+02:00
-layout: post
+type: post
 slug: zre-sql-statistik-modul
 status: publish
 comments: true

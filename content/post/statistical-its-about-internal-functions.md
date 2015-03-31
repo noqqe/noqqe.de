@@ -1,6 +1,6 @@
 ---
 date: 2011-04-16T16:48:23+02:00
-layout: post
+type: post
 slug: statistical-its-about-internal-functions
 status: publish
 comments: true

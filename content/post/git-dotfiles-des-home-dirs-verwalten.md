@@ -1,6 +1,6 @@
 ---
 date: 2010-08-16T18:42:48+02:00
-layout: post
+type: post
 slug: git-dotfiles-des-home-dirs-verwalten
 status: publish
 comments: true
