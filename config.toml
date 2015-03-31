@@ -3,12 +3,33 @@ languageCode = "en-us"
 title = "noqqe.de"
 publishdir = "public"
 
+[[menu.main]]
+    name = "About"
+    weight = -110
+    identifier = "About"
+    url = "/about/"
+[[menu.main]]
+    name = "Projects"
+    weight = -120
+    identifier = "Projects"
+    url = "/Projects/"
+[[menu.main]]
+    name = "Archives"
+    weight = -130
+    identifier = "Archives"
+    url = "/archives/"
+[[menu.main]]
+    name = "Impressum"
+    weight = -100
+    identifier = "Impressum"
+    url = "/impressum/"
+
 [taxonomies]
   category = "categories"
   tag = "tags"
 
 [params]
-  description = "No advertising, no support, no bug fixes, payment in advance. — AT&T Unix Policy (1984)"
+  Description = "No advertising, no support, no bug fixes, payment inadvance."
   author = "Florian Baumann"
   githubuser = "noqqe"
 
