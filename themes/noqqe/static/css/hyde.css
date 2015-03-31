@@ -65,7 +65,7 @@ html {
     top: 0;
     left: 0;
     bottom: 0;
-    width: 18rem;
+    width: 16rem;
     text-align: left;
   }
 }
@@ -75,6 +75,10 @@ html {
   color: #fff;
 }
 
+.sidebar p {
+  color: rgba(255,255,255,.7);
+  font-size: 17px;
+}
 /* About section */
 .sidebar-about h1 {
   color: rgba(255,255,255,.7);
@@ -130,7 +134,7 @@ a.sidebar-nav-item:focus {
 @media (min-width: 48rem) {
   .content {
     max-width: 38rem;
-    margin-left: 20rem;
+    margin-left: 18rem;
     margin-right: 2rem;
   }
 }
