@@ -1,0 +1,12 @@
+{{ partial "head.html" . }}
+<body class="theme-base-0b">
+
+{{ partial "sidebar.html" . }}
+
+{{ range .Data.Pages.ByDate }}
+    <li>
+        <a href="{{ .Permalink }}">{{ .Title }}</a> {{ .Date.Format "2 January, 2006" }}
+    </li>
+{{ end }}
+  </body>
+</html>
