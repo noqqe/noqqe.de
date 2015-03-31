@@ -5,6 +5,7 @@ publishdir = "public"
 paginate = 10
 paginatePath = "page"
 path = "blog"
+metaDataFormat = "yaml"
 
 [taxonomies]
   category = "categories"
