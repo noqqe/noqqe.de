@@ -91,7 +91,9 @@ html {
   font-size: 17px;
   font-weight: normal;
 }
-
+nav {
+  font-size: 15px;
+}
 /* Sidebar nav */
 .sidebar-nav {
   padding-left: 0;
@@ -137,7 +139,7 @@ a.sidebar-nav-item:focus {
 
 @media (min-width: 48rem) {
   .content {
-    max-width: 39rem;
+    max-width: 34rem;
     margin-left: 17rem;
     margin-right: 2rem;
   }
@@ -146,7 +148,7 @@ a.sidebar-nav-item:focus {
 @media (min-width: 64rem) {
   .content {
     margin-left: 22rem;
-    margin-right: 4rem;
+    margin-right: 2rem;
   }
 }
 
