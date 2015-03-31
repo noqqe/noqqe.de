@@ -1,0 +1,65 @@
+---
+date: '2009-02-18 22:12:43'
+layout: post
+slug: mysql-in-php
+status: publish
+comments: true
+title: MySQL in PHP
+alias: /archives/496
+categories:
+- Coding
+- Hardware
+- Linux
+tags:
+- abfrage
+- apache2
+- mysql
+- PHP
+- zufall
+---
+
+Zuerstmal, lief [mein Test über MySQL](http://seufz.wordpress.com/2009/02/12/a-byte-of-mysql-eine-kurzreferenz/) in der Schule super :) Nachdem ich jetzt sowohl in PHP als auch MySQL unterrichtet wurde, hat mich dann doch intressiert wie sich die beiden in Kombination verhalten :) Die Datenbank die ich für "[A-byte-of-MySQL](http://zwetschge.org/publications/A-byte-of-MySQL.pdf)" erstellt habe diente als Test-Objekt:
+
+**Wie fange ich an? **
+mysql_connect('server','user','passwort');
+# Verbinde zu mysql auf Server mit Benutzer und folgendem Passwort
+
+**Wie wähle ich die zu verwendende Datenbank aus?**
+mysql_select_db("arbeit");
+
+**Wie definiere ich den Befehl der auszführen ist?**
+$sql="SELECT * FROM kollegen order by rand();";
+
+**Wie führe ich ihn aus?**
+$result = mysql_query($sql) OR die(mysql_error());
+
+**Wie gebe ich das Ergebnis aus?**
+while ($row = mysql_fetch_assoc($result))
+{
+echo $row['ID']." ".$row['Name']." ".$row['Gehalt']." ".$row['Bereich']."
+";
+}
+# Schleife: Für jeden Eintrag in der Datenbank eine Zeile erzeugen.
+
+**Verbindung schliessen.**
+mysql_close();
+?>
+
+**Komplett:**
+
+```
+<html>
+<?php
+mysql_connect('server','user','passwort');
+mysql_select_db("arbeit"); //Auswahl der DB
+$sql="SELECT * FROM kollegen order by rand();";
+$result = mysql_query($sql) OR die(mysql_error());
+while ($row = mysql_fetch_assoc($result))
+{
+echo $row['ID']." ".$row['Name']." ".$row['Gehalt']." ".$row['Bereich']."<br>";
+}
+?>
+</html>
+```
+
+Ergebnis:  [http://zwetschge.org/stuff/sql.php](http://zwetschge.org/stuff/sql.php)

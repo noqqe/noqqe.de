@@ -1,0 +1,66 @@
+---
+layout: post
+title: "Dwarf Fortress unter OS X Yosemite"
+date: 2015-02-07 17:16
+comments: true
+categories:
+- DwarfFortress
+- Dwarf
+- OSX
+- Yosemite
+- Mac
+- Homebrew
+---
+
+[Dwarf Fortress](http://www.bay12games.com/dwarves/) unter OSX Yosemite zum
+Laufen zu bekommen ist garnichtmal so einfach. Bisher hab ich immer direkt
+die Version von DF von den Entwicklern heruntergeladen. Diesmal die OS X
+Homebrew Version heruntergeladen. Die Probleme sind aber die gleichen.
+
+{% img center /uploads/2015/02/df.png %}
+
+### Installation
+
+Viel mehr als die Sources herunterladen und an eine bestimmte Stelle
+auspacken, wird bei der Brew Version auch nicht gemacht.
+
+{% codeblock %}
+brew tap homebrew/games
+brew install dwarf-fortress
+{% endcodeblock %}
+
+Da Dwarf Fortress auf viel X11 und deren Libraries aufbaut,
+[Xquartz](http://xquartz.macosforge.org/landing/) installieren.
+
+### Fehlerbehebung
+
+{% codeblock %}
+$ ./df
+dyld: Library not loaded: /usr/X11R6/lib/libfreetype.6.dylib
+  Referenced from:
+    /usr/local/Cellar/dwarf-fortress/0.40.23/libexec/libs/SDL_ttf.framework/Versions/A/SDL_ttf
+  Reason: no suitable image found.  Did find:
+    /usr/local/lib/libfreetype.6.dylib: mach-o, but wrong architecture
+{% endcodeblock %}
+
+Der obige Fehler entsteht, da die default Location der Libraries nicht mit
+Xquartz kommt. Daher diese umkopieren.
+
+{% codeblock %}
+sudo mkdir /usr/X11R6
+sudo cp -a /usr/X11/* /usr/X11R6/
+{% endcodeblock %}
+
+Ein weiteres Problem gibt es allerdings mit Retina Displays. Die
+Standardauflösung bzw. der Darstellungsmodus ist dafür nicht gemacht.
+
+Dafür noch den `PRINT_MODE` von `2D` auf `STANDARD` umstellen.
+
+{% codeblock %}
+$ vim /usr/local/Cellar/dwarf-fortress/0.40.23/libexec/data/init/init.txt
+[...]
+[PRINT_MODE:STANDARD]
+[...]
+{% endcodeblock %}
+
+Schon läufts.

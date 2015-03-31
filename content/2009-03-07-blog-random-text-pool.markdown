@@ -1,0 +1,22 @@
+---
+date: '2009-03-07 11:34:58'
+layout: post
+slug: blog-random-text-pool
+status: publish
+comments: true
+title: Blog | Random-Text-Pool
+alias: /archives/538
+categories:
+- Coding
+- General
+- Hardware
+tags:
+- mysql
+- PHP
+- random
+- spruch
+- text
+- zufall
+---
+
+Seit gestern gibts neben dem Zufalls-GIF auch noch das Widget Random-Text-Pool. Darin sind im Moment zirka 100 nette Sprüchlein... zum Teil von Fortune zum Teil privat gesammelte Sachen und auch ein paar Sachen die einfach mal gesagt werden müssen. Diese Sprüche werden aus einer MySQL-Datenbank bei jedem Zugriff per Zufall ausgewählt und erneuert :) Wenn ich mehr Sachen finde die da rein passen könnten Pflege ich diese natürlich ein :)  Das ganze wird also ständig wachsen :) Viel Spaß beim Lesen! =)

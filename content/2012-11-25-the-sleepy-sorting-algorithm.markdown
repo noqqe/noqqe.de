@@ -1,0 +1,39 @@
+---
+layout: post
+title: "The sleepy sorting algorithm"
+date: 2012-11-25 14:53
+comments: true
+categories:
+- osbn
+- bash
+- algorithm
+- shell
+- 4chan
+---
+
+Gerade aus Grunden&reg; herum gegoogelt und das gefunden:
+
+{% blockquote Anonymous http://dis.4chan.org/read/prog/1295544154 4chan.org %}
+Man, am I a genius. Check out this sorting algorithm I just invented.
+{% endblockquote %}
+
+{% codeblock lang:bash %}
+#!/bin/bash
+function f() {
+    sleep "$1"
+    echo "$1"
+}
+while [ -n "$1" ]
+do
+    f "$1" &
+    shift
+done
+{% endcodeblock %}
+
+Das fand ich so gut, dass ich das jetzt posten musste. Prozess- und Performanceoptimierung
+ist natürlich was anderes.
+
+`./sleepsort.bash 5 3 6 3 6 3 1 4 7`
+
+Bzw. der Thread an sich ist auch lesenswert :P
+
