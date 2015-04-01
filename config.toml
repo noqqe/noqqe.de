@@ -21,11 +21,6 @@ metaDataFormat = "yaml"
   post = "blog/:year/:month/:day/:title/"
 
 [[menu.main]]
-  name = "About"
-  weight = -110
-  identifier = "About"
-  url = "/about/"
-[[menu.main]]
   name = "Projects"
   weight = -120
   identifier = "Projects"
