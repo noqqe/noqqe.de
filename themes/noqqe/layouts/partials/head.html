@@ -21,4 +21,9 @@
 
   <!-- RSS -->
   <link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+
+  <!-- Syntax Highlightning -->
+  <link rel="stylesheet" href="{{ .Site.BaseUrl }}/css/monokai_sublime.min.css">
+  <script src="{{ .Site.BaseUrl }}/js/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
 </head>

@@ -98,13 +98,23 @@ nav {
   font-size: 15px;
 }
 
-/* scroll bars in codeblocks */
+pre {
+  padding: 0em;
+}
+/* scroll bars in codeblocks
 pre {
   overflow-x:scroll;
   overflow: auto;
   word-wrap: normal;
   white-space: pre;
 }
+
+code {
+  overflow: auto;
+  word-wrap: normal;
+  white-space: pre;
+}
+*/
 
 /* Sidebar nav */
 .sidebar-nav {
