@@ -4,5 +4,6 @@ draft: false
 title: "archives"
 status: publish
 type: archives
+url: "/blog/archives/"
 ---
 HELLO
