@@ -18,9 +18,12 @@ tags:
 - zwetschge
 ---
 
-Habe mich heute mal mit [collectd](http://collectd.org/) und[ rrdtool](http://oss.oetiker.ch/rrdtool/) befasst und eine art Monitoring für meine [zwetschge eingerichtet](http://zwetschge.org).
+Habe mich heute mal mit [collectd](http://collectd.org/) und [rrdtool](http://oss.oetiker.ch/rrdtool/) befasst und eine art Monitoring
+für meine [zwetschge eingerichtet](http://zwetschge.org).
 
-Dank eines [kleinen Tutorials von Trinec](http://trinec.de/index.php/2008/08/17/einfaches-monitoring-statistiken-wie-mrtg/) war das aber ganz einfach ;)
+Dank eines [kleinen Tutorials von
+Trinec](http://trinec.de/index.php/2008/08/17/einfaches-monitoring-statistiken-wie-mrtg/)
+war das aber ganz einfach ;)
 
 Im groben kurz nochmal:
 
