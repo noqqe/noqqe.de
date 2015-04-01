@@ -1,14 +1,22 @@
 {{ partial "head.html" . }}
 <body class="theme-base-0b">
+
 {{ partial "sidebar.html" . }}
+
   <div class="content container">
     <ul class="posts">
-        {{ range .Data.Pages }}
-        <li>
-          <span><a href="{{ .Permalink }}">{{ .Title }}</a> <time class="pull-right post-list">{{ .Date.Format "Mon, Jan 2, 2006" }}</time></span>
-        </li>
-        {{ end }}
+      {{ range (where .Site.Pages "Type" "post").GroupByDate "2006"  }}
+        <h2>{{ .Key }}</h2>
+        <ul>
+          {{ range .Pages }}
+          <li>
+              <span>{{ .Date.Format "02.01" }}</span>
+              <a href="{{ .Permalink }}">{{ .Title }}</a>
+          </li>
+            {{ end }}
+        </ul>
+      {{ end }}
     </ul>
   </div>
-  </body>
+</body>
 </html>
