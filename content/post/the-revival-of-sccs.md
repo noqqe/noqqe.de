@@ -35,10 +35,8 @@ angesehen werden.
 
 Initalisierung aller OpenSolaris Source Files:
 
-{% blockquote Schnelle Massenübernahme in SCCS, http://chemnitzer.linux-tage.de/2012/vortraege/folien/941_SCCS.pdf SCCS Seite 29 %}
-SCCS: 8 Sekunden
-git: 100 Sekunden
-{% endblockquote %}
+> SCCS: 8 Sekunden
+> git: 100 Sekunden
 
 Aus dem Hörsaal kam die berechtigte Frage:
 
@@ -50,14 +48,14 @@ SCCS nur Diffs vom letzten zum neuen Commit speichert.
 
 Das hab ich mal nachgebaut, kommt schon hin:
 
-``` bash 
+``` bash
 $ time git add .
 real  0m38.405s
 user  0m17.121s
 sys 0m2.620s
 ```
 
-``` bash 
+``` bash
 $ time git commit -a -m "init"
 real  0m26.078s
 user  0m6.132s
@@ -73,14 +71,12 @@ Die angesprochenen Werte auf Seite 36 der Präsentation beziehen sich auf simple
 Timestamps. Jörg Schilling hat hier 2 Mio. Timestamps erstellt und mit git und sccs
 jeden davon mit jeweils einem Commit abgeschlossen.
 
-{% blockquote Dauertest mit SCCS &gt;2 Millionen Deltas, http://chemnitzer.linux-tage.de/2012/vortraege/folien/941_SCCS.pdf SCCS Seite 36 %}
-Platzbedarf mit SCCS ca. 300 MB (komprimiert 160 MB)
-Platzbedarf mit GIT geschätzt: ca. 15 TB
-{% endblockquote %}
+> Platzbedarf mit SCCS ca. 300 MB (komprimiert 160 MB)
+> Platzbedarf mit GIT geschätzt: ca. 15 TB
 
 Ich war so frei das einfach mal (aus zeitlichen Gründen mit 1 Mio. Files) nachzustellen:
 
-``` bash 
+``` bash
 #!/bin/bash
 touch test
 git add test
@@ -94,7 +90,7 @@ done
 
 Größe nach dem Command:
 
-``` bash 
+``` bash
 $ du -sh /tmp/1miocommits/
 12G .
 ```

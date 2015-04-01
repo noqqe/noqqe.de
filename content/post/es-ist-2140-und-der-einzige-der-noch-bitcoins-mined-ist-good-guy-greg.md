@@ -24,9 +24,7 @@ noch 25 BTC. Mit stetiger Verringerung der Mining Rewards sollen die 21M Bitcoin
 Die Frage ist, wer mined noch wenn es keine neuen Bitcoins gibt? Achja -
 [Transaction Fees](https://en.bitcoin.it/wiki/Transaction_fees)!
 
-{% blockquote BitCoin Wiki, https://en.bitcoin.it/wiki/FAQ#How_much_will_the_transaction_fee_be.3F bitcoin.it %}
-If a fee is required it will most commonly be 0.0005 BTC.
-{% endblockquote %}
+> If a fee is required it will most commonly be 0.0005 BTC.
 
 Total gut. Klingt nach 'ner cleveren Lösung. Allerdings sind das beim _aktuellen_
 Bitcoin Preis schon fast 10 Cent. Wenn der Kurs weiterhin so steigt (was bei
@@ -47,10 +45,8 @@ Potentiell werden die Coins also auch noch weniger.
 
 Strom/Kosten für die letzten 24 Stunden:
 
-{% blockquote BlockChain http://blockchain.info/stats BlockChain.info %}
-Electricity Consumption: 1,011.54 megawatt hours
-Electricity Cost:  $151,731.62
-{% endblockquote %}
+> Electricity Consumption: 1,011.54 megawatt hours
+> Electricity Cost:  $151,731.62
 
 Zum Vergleich: 1 Dollar kostet in der Herstellung [ganze 0.05 Dollar](http://www.wisegeek.com/how-much-does-it-cost-to-make-a-dollar.htm)
 

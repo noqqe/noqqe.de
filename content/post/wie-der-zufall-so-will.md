@@ -27,10 +27,9 @@ laß erstmal etwas. Sollte man eigentlich öfters mal tun, weil man auch über
 andere unbekannte Dinge wie z.B. `$LINENO` stößt. Außerdem interessante
 Comments:
 
-{% blockquote %}
-/* From "Random number generators: good ones are hard to find", Park and Miller, Communications of the ACM, vol. 31, no. 10,
-October 1988, p. 1195. filtered through FreeBSD */
-{% endblockquote %}
+> /* From "Random number generators: good ones are hard to find", Park and
+> Miller, Communications of the ACM, vol. 31, no. 10, October 1988, p.
+> 1195. filtered through FreeBSD */
 
 [Das Paper](http://www.cems.uwe.ac.uk/~irjohnso/coursenotes/ufeen8-15-m/p1192-parkmiller.pdf)
 (das nebenbei gesagt älter ist als ich) lässt schon bisschen erahnen wohin die Reise

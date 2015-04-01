@@ -13,11 +13,9 @@ categories:
 
 Gerade aus Grunden&reg; herum gegoogelt und das gefunden:
 
-{% blockquote Anonymous http://dis.4chan.org/read/prog/1295544154 4chan.org %}
-Man, am I a genius. Check out this sorting algorithm I just invented.
-{% endblockquote %}
+> Man, am I a genius. Check out this sorting algorithm I just invented.
 
-``` bash 
+``` bash
 #!/bin/bash
 function f() {
     sleep "$1"

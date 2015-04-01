@@ -47,13 +47,11 @@ und ergreifend keine neuen Einträge hinzugefügt werden.
 
 Längeres wälzen von Dokumentation lässt sich nicht vermeiden.
 
-{% blockquote Ext4 Disk Layout, https://ext4.wiki.kernel.org/articles/e/x/t/Ext4_Disk_Layout_aecb.html ext4.wiki.kernel.org %}
-A linear array of directory entries isn't great for performance, so a new
-feature was added to ext3 to provide a faster (but peculiar) balanced tree keyed
-off a hash of the directory entry name. If the EXT4_INDEX_FL (0x1000) flag is
-set in the inode, this directory uses a hashed btree (htree) to organize and
-find directory entries.
-{% endblockquote %}
+> A linear array of directory entries isn't great for performance, so a new
+> feature was added to ext3 to provide a faster (but peculiar) balanced tree keyed
+> off a hash of the directory entry name. If the EXT4_INDEX_FL (0x1000) flag is
+> set in the inode, this directory uses a hashed btree (htree) to organize and
+> find directory entries.
 
 Oder auch andere schaurige Threads aus Mailinglisten:
 

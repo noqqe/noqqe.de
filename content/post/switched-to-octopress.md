@@ -46,10 +46,8 @@ Jetzt ist schön und auch schon umgezogen. Mir gefällts.
 
 Was mir bei der Recherche noch aufgefallen ist:
 
-{% blockquote BalusC, http://stackoverflow.com/questions/3912694/using-markdown-how-do-i-center-an-image-and-its-caption stackoverflow  %}
-The &lt;center&gt; element is deprecated in HTML4 since 1998. Just use CSS to make it
-or its wrapper a block element with a fixed width and margin: 0 auto
-{% endblockquote %}
+> The &lt;center&gt; element is deprecated in HTML4 since 1998. Just use CSS to make it
+> or its wrapper a block element with a fixed width and margin: 0 auto
 
 WTF. Ich habe ca. 7 Jahre danach das erste mal ein Buch gelesen, dass sich mit
 HTML beschäftigt und es war dort schon deprecated. Das war mir nicht klar.

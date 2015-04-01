@@ -13,13 +13,22 @@ categories:
 
 Kommentar eines Users zum Launch von FreeBSD bei DigitalOcean. Einfach nur w0rd.
 
-{% blockquote Henrik.Nordstrand https://www.digitalocean.com/company/blog/presenting-freebsd-how-we-made-it-happen/#comment-1792531953 digitalocean.com %}
-Should have gone with OpenBSD instead to be honest. Half the requests on your UserVoice are for OpenBSD. All the coolest stuff in FreeBSD comes from OpenBSD.
-
-OpenBSD -- the world's simplest and most secure Unix-like OS. Creator of the world's most used SSH implementation OpenSSH, the world's most elegant firewall PF, the world's most elegant mail server OpenSMTPD, the OpenSSL rewrite LibreSSL, and the NTP rewrite OpenNTPD. OpenBSD -- the cleanest kernel, the cleanest userland, the cleanest configuration syntax and some of the world's best documentation.
-
-FreeBSD, on the other hand, is becoming more of a testbed for experimental, some would even say unnecessary technologies: https://news.ycombinator.com/item?id=8546756 ... It's also having a hard time catching up to OpenBSD: http://itwire.com/business-it-news/open-source/62641-crypto-freebsd-playing-catch-up-says-de-raadt
-{% endblockquote %}
+> Should have gone with OpenBSD instead to be honest. Half the requests on
+> your UserVoice are for OpenBSD. All the coolest stuff in FreeBSD comes from
+> OpenBSD.
+>
+> OpenBSD -- the world's simplest and most secure Unix-like OS. Creator of
+> the world's most used SSH implementation OpenSSH, the world's most elegant
+> firewall PF, the world's most elegant mail server OpenSMTPD, the OpenSSL
+> rewrite LibreSSL, and the NTP rewrite OpenNTPD. OpenBSD -- the cleanest
+> kernel, the cleanest userland, the cleanest configuration syntax and some
+> of the world's best documentation.
+>
+> FreeBSD, on the other hand, is becoming more of a testbed for experimental,
+> some would even say unnecessary technologies:
+> https://news.ycombinator.com/item?id=8546756 ... It's also having a hard
+> time catching up to OpenBSD:
+> http://itwire.com/business-it-news/open-source/62641-crypto-freebsd-playing-catch-up-says-de-raadt
 
 Ziemlich interessante Diskussion in der Kommentarsektion. Weiterlesen lohnt.
 

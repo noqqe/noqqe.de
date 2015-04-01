@@ -37,12 +37,9 @@ gefühlte 5-10 Minuten später hat er mich dann abgewiesen. Im Apache Log ist
 davon nichts
 aufgetaucht. Nach bisschen wälzen in der Dokumentation hier und da:
 
-
-{% blockquote Carddav Clients, http://wiki.davical.org/w/CardDAV/Clients wiki.davical.org %}
-CardDav-Accounts only could set up via iPhone configuration utility. It had to
-set up a principal url (e.g. https://domain.tld/caldav.php/username/contacts)
-for a working account.
-{% endblockquote %}
+> CardDav-Accounts only could set up via iPhone configuration utility. It had to
+> set up a principal url (e.g. https://domain.tld/caldav.php/username/contacts)
+> for a working account.
 
 Das [iPhone configuration utility](http://www.apple.com/support/iphone/enterprise/) also.
 So ganz leicht fand ich das damit nicht... Ich hab aber gelernt das man super

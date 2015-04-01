@@ -22,11 +22,10 @@ Berkeley Gedanken gemacht was man von einem Datenbank System erwarten kann.
 Im wesentlichen gehts um 3 Faktoren, die aber niemals alle zugleich erfüllt
 werden können.
 
-{% blockquote wikipedia %}
-Konsistenz (C): Alle Knoten sehen zur selben Zeit dieselben Daten.
-Verfügbarkeit (A): Alle Anfragen an das System werden stets beantwortet.
-Partitionstoleranz (P): Das System arbeitet auch bei Verlust von Nachrichten, einzelner Netzknoten oder Partition des Netzes weiter.
-{% endblockquote %}
+> Konsistenz (C): Alle Knoten sehen zur selben Zeit dieselben Daten.
+> Verfügbarkeit (A): Alle Anfragen an das System werden stets beantwortet.
+> Partitionstoleranz (P): Das System arbeitet auch bei Verlust von
+> Nachrichten, einzelner Netzknoten oder Partition des Netzes weiter.
 
 Will man sich mal anschauen, wenn man Datenbanken betreut.
 

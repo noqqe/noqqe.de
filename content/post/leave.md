@@ -19,9 +19,10 @@ in NetBSD hat. `leave` ist klein, simpel und nützlich.  Tools die aus
 Jahrzehnten stammen, wo man als Admin noch Multi-User Großrechner administirert
 hat und CLI Programme um das Arbeitsleben herum programmiert hat.
 
-{% blockquote %}
-leave waits until the specified time, then reminds you that you have to leave. You are reminded 5 minutes and 1 minute before the actual time, at the time, and every minute thereafter. When you log off, leave exits just before it would have printed the next message.
-{% endblockquote %}
+> leave waits until the specified time, then reminds you
+> that you have to leave. You are reminded 5 minutes and 1 minute before the
+> actual time, at the time, and every minute thereafter. When you log off,
+> leave exits just before it would have printed the next message.
 
 Auch heute noch ist es in NetBSD und OpenBSD per default enthalten. Unter Debian
 nachinstallierbar.

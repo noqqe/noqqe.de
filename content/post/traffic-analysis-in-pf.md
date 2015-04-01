@@ -153,16 +153,14 @@ Da die meisten Rulesets mit Tables für die Ports versehen sind, ist die Lösung
 mit dem statischen String als Label aber ungeeignet. Dafür gibts auch eine
 Lösung, da im Labelstring auch ein Set aus Variablen verwendet werden kann.
 
-{% blockquote %}
-The following macros can be used in labels:
-$dstaddr     The destination IP address.
-$dstport     The destination port specification.
-$if          The interface.
-$nr          The rule number.
-$proto       The protocol name.
-$srcaddr     The source IP address.
-$srcport     The source port specification.
-{% endblockquote %}
+> The following macros can be used in labels:
+> $dstaddr     The destination IP address.
+> $dstport     The destination port specification.
+> $if          The interface.
+> $nr          The rule number.
+> $proto       The protocol name.
+> $srcaddr     The source IP address.
+> $srcport     The source port specification.
 
 Die `pf.conf` könnte dann wie folgt aussehen.
 

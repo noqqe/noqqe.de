@@ -37,9 +37,7 @@ Auch andere Wissenschaftler bekommen ihre Referenzen. Siehe [Bohrbug](http://www
 [STONITH](https://en.wikipedia.org/wiki/STONITH) hatte ich bereits
 [vertwittert](https://twitter.com/noqqe/status/421178550012874752).
 
-{% blockquote %}
-Shoot The Other Node In The Head
-{% endblockquote %}
+> Shoot The Other Node In The Head
 
 Ein Konzept das bei hochverfügbaren
 Setups das Verhalten anderer Nodes im Fehlerfall eines Nachbarn beschreibt. Und das sehr
@@ -53,7 +51,7 @@ Dieses Motto wird folgender guten Dame zugeschrieben.
 
 [Grace Hopper](https://en.wikipedia.org/wiki/Grace_Hopper), die auch den Spitznamen "Grandma COBOL" trägt. Exception-Handling:
 
-``` python 
+``` python
 try:
     ham = spam.eggs
 except AttributeError:
@@ -62,7 +60,7 @@ except AttributeError:
 
 ...anstelle von if-Conditions:
 
-``` python 
+``` python
 if hasattr(spam, 'eggs'):
     ham = spam.eggs
 else:
@@ -85,9 +83,7 @@ Wer in der IT sein Geld verdient, wird das kennen. Verzögerungen bei einem Proj
 sind nicht selten. Zusätzliche Entwickler zum richtigen
 Zeitpunkt zum Projekt holen dagegen sehr.
 
-{% blockquote %}
-Adding manpower to a late software project makes it later.
-{% endblockquote %}
+> Adding manpower to a late software project makes it later.
 
 Darum gehts in dem Buch [The Mythical Man-Month](https://en.wikipedia.org/wiki/The_Mythical_Man-Month).
 
@@ -111,9 +107,7 @@ Prinzip.
 Die [Flugzeug Regel](http://www.catb.org/jargon/html/A/airplane-rule.html)
 ist eine Versinnbildlichung für das [KISS Prinzip](https://en.wikipedia.org/wiki/KISS_principle)
 
-{% blockquote %}
-A twin-engine airplane has twice as many engine problems as a single-engine airplane
-{% endblockquote %}
+> A twin-engine airplane has twice as many engine problems as a single-engine airplane
 
 
 Quellen:

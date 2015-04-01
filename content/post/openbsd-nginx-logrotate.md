@@ -44,25 +44,23 @@ $ newsyslog -nv
 Unter [FreeBSD](http://www.freebsd.org/cgi/man.cgi?query=newsyslog.conf&sektion=5)
 enthält die newsyslog Version das Flag `G`.
 
-{% blockquote %}
-G   indicates that the specified logfile_name is a shell pat-
-    tern, and that newsyslog(8) should archive all filenames
-    matching that pattern using the other options on this
-    line.  See glob(3) for details on syntax and matching
-    rules.
-{% endblockquote manpage http://www.freebsd.org/cgi/man.cgi?query=newsyslog.conf&sektion=5 %}
+> G   indicates that the specified logfile_name is a shell pat-
+>     tern, and that newsyslog(8) should archive all filenames
+>     matching that pattern using the other options on this
+>     line.  See glob(3) for details on syntax and matching
+>     rules.
 
 Unter oBSD ist dieser Modus leider nicht verfügbar. Was für Lösungen sind also möglich? Ich hab mich
 vorerst dafür entschieden die Liste der Entries mit einem Einzeiler zu
 generieren.
 
-``` bash 
+``` bash
 $ for x in $(ls -1 /var/www/logs/*.log) ; do echo -e "$x\t\t" '644  7     *    24    Z' ; done
 ```
 
 und beim letzten Eintrag den entsprechenden nginx reload Command anfügen.
 
-``` bash 
+``` bash
 # logfile_name           owner:group mode count size when  flags
 /var/cron/log            root:wheel  600  3     10   *     Z
 /var/www/logs/vhost1_access.log      644  7     *    24    Z

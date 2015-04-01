@@ -39,7 +39,7 @@ Wer filtert hier?
 Nachdem MySQL ja OpenSource ist, kann man ja mal etwas `grep`en im [Source](http://bazaar.launchpad.net/~mysql/mysql-server/5.5/view/head:/client/mysql.cc#L1734).
 Wurde schliesslich auch fündig.
 
-``` cpp 
+``` cpp
 case 'p':
   if (argument == disabled_my_option)
     argument= (char*) "";     // Don't require password
@@ -73,14 +73,14 @@ den Memory überschreibt. Ab jetzt also immer `-p` Parameter ganz am Anfang hins
 Hört sich etwas nach zurecht gehackt an, fand ich. Dabei ist die Anpassbarkeit
 durchaus im C99 Standard vorgesehen.
 
-{% blockquote C99 Standard %}
-The parameters argc and argv and the strings pointed to by the argv array shall be modifiable by the program, and retain their last-stored values between program startup and program termination.
-{% endblockquote %}
+> The parameters argc and argv and the strings pointed to by the argv array
+> shall be modifiable by the program, and retain their last-stored values
+> between program startup and program termination.
 
 Ausprobieren lässt sich das eigentlich mit einfach ein bisschen C, welches ich mir
 via StackOverflow-Driven-Development zusammen geklaut habe.
 
-``` c 
+``` c
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

@@ -27,12 +27,10 @@ cgroups in eigenen Namespaces auch eine Art dynamische Ressourcen Zuweisung.
 Dafür gibts jetzt verschiedene Use-Cases. Bei mir ist das sowas wie eine Art
 Sandboxing für Spielereien auf meinem Thinkpad.
 
-{% blockquote Diego Elio “Flameeyes” Pettenò, http://blog.flameeyes.eu/2010/06/lxc-and-why-it-s-not-prime-time-yet blog.flameeyes.eu %}
-I said before that in my opinion LXC is not ready yet for production use, and I
-maintain that opinion today. I would also rephrase it in something that might
-make it easier to understand what I think: I would never trust root on a
-container to somebody I wouldn’t trust root with on the host.
-{% endblockquote %}
+> I said before that in my opinion LXC is not ready yet for production use, and I
+> maintain that opinion today. I would also rephrase it in something that might
+> make it easier to understand what I think: I would never trust root on a
+> container to somebody I wouldn’t trust root with on the host.
 
 Das Zitat triffts eigentlich recht gut auf den Punkt. Besonders gefährlich ist
 das gemeinsam genutzte /dev und /proc Verzeichnis, wobei es unter Umständen auch

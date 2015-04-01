@@ -16,10 +16,8 @@ Favicons. Wer trotz der Überschrift beschlossen hat sich den Post durchzulesen
 ist selbst schuld. Zugegebenermaßen sind Favicons jetzt nicht so der heiße
 Scheiss, aber da meine Lesezeichenleiste im Browser voll war musste ich umbauen.
 
-{% blockquote Wikipedia, http://de.wikipedia.org/wiki/Favicon %}
-Das Favicon taucht auch in der Lesezeichenleiste (Favoriten), &#091;...&#093;
-auf. Es wurde von Microsoft mit dem Internet Explorer 5 eingeführt.
-{% endblockquote %}
+> Das Favicon taucht auch in der Lesezeichenleiste (Favoriten), &#091;...&#093;
+> auf. Es wurde von Microsoft mit dem Internet Explorer 5 eingeführt.
 
 Genauer gesagt sieht meine Lesezeichenleiste jetzt so aus
 

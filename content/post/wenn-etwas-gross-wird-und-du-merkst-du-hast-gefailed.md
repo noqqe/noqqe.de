@@ -33,7 +33,7 @@ Alles dabei. Fand ich witzig. Bis ich mir die "Overall Statistics" ansah. Wer
 zur Hölle säuft um 3 Uhr nachts Kaffee... und bucht das auch noch auf
 coffeestats.org? Erstmal etwas rumdebuggt.
 
-``` sql 
+``` sql
 INSERT INTO cs_coffees VALUES ('', '$userid' , NOW() );
 ```
 
@@ -44,9 +44,8 @@ funktioniert. Wir hätten damals nicht gedacht das sich dort überhaupt jemand
 anmeldet. Schon garnicht jemand der nicht in unserer Zeitzone wohnt (und kein Bot
 ist).
 
-{% blockquote Koushik Nandy, http://blog.codez.in/php5-time-zone-solution/web-development/2010/07/09 blog.codez.in %}
-Time zone settings are normally not the first thing you think of when working on a web project with PHP
-{% endblockquote %}
+> Time zone settings are normally not the first thing you think of when
+> working on a web project with PHP
 
 Was tun? Auch wenn ich mir sicher bin dass die registrierten User da nicht auf
 Dauer aktiv sein werden, hatt mich das trotzdem genervt. Was ist wenn ich mal in
@@ -57,7 +56,7 @@ Nach etwas herumgoogeln stellte sich heraus, dass man die Client Zeit wohl mit
 JavaScript feststellen möchte. Und das Date Formatting mit JS unglaublich
 hässlich ist.
 
-``` javascript  
+``` javascript
 function coffeetime(d){
   function pad(n){return n<10 ? '0'+n : n}
   return d.getFullYear()+'-'
