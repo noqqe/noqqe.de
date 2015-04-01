@@ -75,11 +75,12 @@ html {
   color: #fff;
 }
 
+
 .sidebar p {
   color: rgba(255,255,255,.7);
   font-size: 17px;
-  position: absolute; 
-  bottom: 0; 
+  position: absolute;
+  bottom: 0;
   right:  2rem;
   left:  2rem;
 }
@@ -91,9 +92,20 @@ html {
   font-size: 17px;
   font-weight: normal;
 }
+
+/* newer - older slider font size */
 nav {
   font-size: 15px;
 }
+
+/* scroll bars in codeblocks */
+pre {
+  overflow-x:scroll;
+  overflow: auto;
+  word-wrap: normal;
+  white-space: pre;
+}
+
 /* Sidebar nav */
 .sidebar-nav {
   padding-left: 0;
