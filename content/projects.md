@@ -9,9 +9,18 @@ title: Projects
 alias: 'archives/434'
 ---
 
+## 2015
+
+  * [bm](https://github.com/noqqe/bm) - CLI Boomkarks Manager
+  * [cmddocs](https://github.com/noqqe/cmddocs) - CLI Wiki
+
 ## 2014
 
-  * [nichtparasoup](https://github.com/k4cg/nichtparasoup)
+  * [maildirstats](https://github.com/noqqe/maildirstats) - Statistiken für
+    das eigene Maildir Verzeichnis
+  * [nichtparasoup](https://github.com/k4cg/nichtparasoup) - Nerds Home
+    Entertainment System
+
 
 ## 2013
 

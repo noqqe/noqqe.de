@@ -13,7 +13,7 @@ metaDataFormat = "yaml"
 
 [params]
   Description = "No advertising, no support, no bug fixes, payment inadvance."
-  Copyright = " 2015 Florian Baumann. Some rights reserved." 
+  Copyright = " 2015 Florian Baumann. Some rights reserved."
   author = "Florian Baumann"
   githubuser = "noqqe"
 
