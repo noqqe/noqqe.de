@@ -2,7 +2,7 @@
 date: "2015-03-31T21:38:03+02:00"
 type: page
 draft: false
-title: "projects"
+title: "Projects"
 slug: projects
 status: publish
 title: Projects

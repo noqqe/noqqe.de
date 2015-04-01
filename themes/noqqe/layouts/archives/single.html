@@ -4,7 +4,8 @@
 {{ partial "sidebar.html" . }}
 
   <div class="content container">
-    <ul class="posts">
+  <div class="post">
+  <h1>{{ .Title }}</h1>
       {{ range (where .Site.Pages "Type" "post").GroupByDate "2006"  }}
         <h2>{{ .Key }}</h2>
         <ul>
@@ -16,7 +17,7 @@
             {{ end }}
         </ul>
       {{ end }}
-    </ul>
+  </div>
   </div>
 </body>
 </html>
