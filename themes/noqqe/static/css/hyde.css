@@ -46,6 +46,35 @@ html {
 }
 
 
+/* make images center */
+img {
+  margin: 0 auto;
+}
+
+/* newer - older slider font size */
+nav {
+  font-size: 15px;
+}
+
+pre {
+  padding: 0em;
+}
+
+/* scroll bars in codeblocks
+pre {
+  overflow-x:scroll;
+  overflow: auto;
+  word-wrap: normal;
+  white-space: pre;
+}
+
+code {
+  overflow: auto;
+  word-wrap: normal;
+  white-space: pre;
+}
+*/
+
 /*
  * Sidebar
  *
@@ -75,7 +104,6 @@ html {
   color: #fff;
 }
 
-
 .sidebar p {
   color: rgba(255,255,255,.7);
   font-size: 17px;
@@ -93,28 +121,6 @@ html {
   font-weight: normal;
 }
 
-/* newer - older slider font size */
-nav {
-  font-size: 15px;
-}
-
-pre {
-  padding: 0em;
-}
-/* scroll bars in codeblocks
-pre {
-  overflow-x:scroll;
-  overflow: auto;
-  word-wrap: normal;
-  white-space: pre;
-}
-
-code {
-  overflow: auto;
-  word-wrap: normal;
-  white-space: pre;
-}
-*/
 
 /* Sidebar nav */
 .sidebar-nav {
@@ -155,13 +161,13 @@ a.sidebar-nav-item:focus {
  */
 
 .content {
-  padding-top:    4rem;
-  padding-bottom: 4rem;
+  padding-top:    3rem;
+  padding-bottom: 3rem;
 }
 
 @media (min-width: 48rem) {
   .content {
-    max-width: 34rem;
+    max-width: 40rem;
     margin-left: 17rem;
     margin-right: 2rem;
   }
@@ -169,7 +175,7 @@ a.sidebar-nav-item:focus {
 
 @media (min-width: 64rem) {
   .content {
-    margin-left: 22rem;
+    margin-left: 17rem;
     margin-right: 2rem;
   }
 }
