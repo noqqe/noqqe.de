@@ -6,6 +6,7 @@ paginate = 10
 paginatePath = "page"
 path = "blog"
 metaDataFormat = "yaml"
+theme = "noqqe"
 
 [taxonomies]
   category = "categories"
