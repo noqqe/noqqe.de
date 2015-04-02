@@ -4,7 +4,7 @@ type: post
 slug: desktopdir-verandern
 status: publish
 comments: true
-title: $DesktopDir verändern
+title: DesktopDir verändern
 aliases:
 - /archives/355
 categories:
