@@ -7,7 +7,7 @@ title: github | Sinn, Unsinn, Interfaces und schon wieder Zombies
 aliases:
 - /archives/1383
 categories:
-- Coding
+- Development
 - git
 - PlanetenBlogger
 tags:

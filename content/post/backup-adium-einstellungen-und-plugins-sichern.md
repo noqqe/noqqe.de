@@ -7,7 +7,7 @@ title: Backup | Adium Einstellungen und Plugins sichern
 aliases:
 - /archives/944
 categories:
-- Coding
+- Development
 - Mac
 - PlanetenBlogger
 tags:

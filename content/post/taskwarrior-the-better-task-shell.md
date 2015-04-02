@@ -8,7 +8,7 @@ aliases:
 - /archives/1810
 categories:
 - Bash
-- Coding
+- Development
 - Debian
 - PlanetenBlogger
 - Ubuntu

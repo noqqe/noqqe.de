@@ -8,7 +8,7 @@ aliases:
 - /archives/1538
 categories:
 - Bash
-- Coding
+- Development
 - Debian
 - General
 - Jabber

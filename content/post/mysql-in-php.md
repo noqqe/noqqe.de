@@ -7,7 +7,7 @@ title: MySQL in PHP
 aliases:
 - /archives/496
 categories:
-- Coding
+- Development
 - Hardware
 - Linux
 tags:

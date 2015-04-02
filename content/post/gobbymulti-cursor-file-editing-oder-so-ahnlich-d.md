@@ -7,7 +7,7 @@ title: Gobby | Multi Cursor File Editing
 aliases:
 - /archives/118
 categories:
-- Coding
+- Development
 - Linux
 tags:
 - gobby

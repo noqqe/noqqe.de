@@ -8,7 +8,7 @@ aliases:
 - /archives/1420
 categories:
 - Bash
-- Coding
+- Development
 - git
 tags:
 - bash

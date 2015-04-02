@@ -7,7 +7,7 @@ title: Web | einfachJabber.de
 aliases:
 - /archives/1104
 categories:
-- Coding
+- Development
 - General
 - Jabber
 - Linux

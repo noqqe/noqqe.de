@@ -7,7 +7,7 @@ title: Bash | NerdTool Config for MacOSX
 aliases:
 - /archives/1182
 categories:
-- Coding
+- Development
 - Mac
 - PlanetenBlogger
 tags:

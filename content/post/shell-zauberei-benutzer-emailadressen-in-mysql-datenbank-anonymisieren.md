@@ -8,7 +8,7 @@ aliases:
 - /archives/1635
 categories:
 - Bash
-- Coding
+- Development
 - Shell-Zauberei
 - SQL
 tags:

@@ -7,7 +7,7 @@ title: Nagios | Von sprechenden Druckern, Verpflichtungen und SNMP
 aliases:
 - /archives/954
 categories:
-- Coding
+- Development
 - Linux
 - ubuntuusers
 tags:

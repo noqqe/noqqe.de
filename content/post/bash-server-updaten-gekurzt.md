@@ -7,7 +7,7 @@ title: bash | Server updaten gekürzt
 aliases:
 - /archives/709
 categories:
-- Coding
+- Development
 - Linux
 ---
 

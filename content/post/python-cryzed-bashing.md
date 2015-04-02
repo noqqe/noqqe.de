@@ -7,7 +7,7 @@ title: Python | cryzed bashing
 aliases:
 - /archives/665
 categories:
-- Coding
+- Development
 tags:
 - cryzed
 - python

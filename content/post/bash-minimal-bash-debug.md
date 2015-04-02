@@ -7,7 +7,7 @@ title: Bash | minimal-bash-debug
 aliases:
 - /archives/1332
 categories:
-- Coding
+- Development
 - Debian
 - git
 - Linux

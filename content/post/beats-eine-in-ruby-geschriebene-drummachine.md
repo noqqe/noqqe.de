@@ -8,7 +8,7 @@ aliases:
 - /archives/1680
 categories:
 - Bash
-- Coding
+- Development
 - General
 - PlanetenBlogger
 tags:

@@ -7,7 +7,7 @@ title: und was machst du so?
 aliases:
 - /archives/448
 categories:
-- Coding
+- Development
 - General
 - Linux
 tags:

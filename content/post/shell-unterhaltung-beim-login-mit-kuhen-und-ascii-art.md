@@ -7,7 +7,7 @@ title: Shell | Unterhaltung beim Login mit Kühen und Ascii-ART
 aliases:
 - /archives/545
 categories:
-- Coding
+- Development
 - Linux
 tags:
 - bash

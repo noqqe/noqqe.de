@@ -8,7 +8,7 @@ aliases:
 - /archives/1649
 categories:
 - Bash
-- Coding
+- Development
 - Debian
 - git
 - PlanetenBlogger

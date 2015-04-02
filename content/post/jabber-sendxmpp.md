@@ -7,7 +7,7 @@ title: Jabber | sendXMPP
 aliases:
 - /archives/606
 categories:
-- Coding
+- Development
 - Hardware
 - Linux
 tags:

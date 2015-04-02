@@ -7,7 +7,7 @@ title: Gitosis | Debugging, Undokumentiertes und Konfiguration
 aliases:
 - /archives/1175
 categories:
-- Coding
+- Development
 - Debian
 - git
 - PlanetenBlogger

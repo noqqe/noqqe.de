@@ -8,7 +8,7 @@ aliases:
 - /archives/346
 - /blog/2008/12/05/unpack-entpackt-sie-alle-marke-eigenbau/
 categories:
-- Coding
+- Development
 - General
 - Linux
 tags:

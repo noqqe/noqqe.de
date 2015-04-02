@@ -8,7 +8,7 @@ aliases:
 - /archives/1611
 categories:
 - Bash
-- Coding
+- Development
 - General
 - git
 - PlanetenBlogger

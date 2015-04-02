@@ -7,7 +7,7 @@ title: Wordpress | Augenzucker für Code-Tag.
 aliases:
 - /archives/881
 categories:
-- Coding
+- Development
 tags:
 - ändern
 - block

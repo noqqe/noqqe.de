@@ -4,12 +4,13 @@ title: "Isso - Ich schrei sonst"
 date: 2013-11-10T15:50:00+02:00
 comments: true
 categories:
+- osbn
+- Blog
+tags:
 - isso
 - disqus
-- osbn
 - kommentare
 - comments
-- blog
 - octopress
 aliases:
 - /blog/2013/11/10/isso-ich-schrei-sonst/

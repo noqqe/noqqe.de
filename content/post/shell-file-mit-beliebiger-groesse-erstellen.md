@@ -7,7 +7,7 @@ title: Shell | File mit beliebiger Groesse erstellen
 aliases:
 - /archives/627
 categories:
-- Coding
+- Development
 - General
 - Linux
 tags:

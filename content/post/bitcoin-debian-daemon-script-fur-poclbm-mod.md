@@ -8,7 +8,7 @@ aliases:
 - /archives/1689
 categories:
 - Bash
-- Coding
+- Development
 - Debian
 - Ubuntu
 - ubuntuusers

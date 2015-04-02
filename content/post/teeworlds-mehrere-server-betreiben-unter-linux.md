@@ -7,7 +7,7 @@ title: Teeworlds | Mehrere Server betreiben unter Linux
 aliases:
 - /archives/800
 categories:
-- Coding
+- Development
 - Linux
 tags:
 - 0.5.2

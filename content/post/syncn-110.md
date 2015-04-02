@@ -7,7 +7,7 @@ title: syncN 1.1.0
 aliases:
 - /archives/450
 categories:
-- Coding
+- Development
 - Linux
 tags:
 - automatische synchronisation

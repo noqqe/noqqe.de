@@ -7,7 +7,7 @@ title: Web | Paste-Service via CommandLine (Sprunge.us)
 aliases:
 - /archives/854
 categories:
-- Coding
+- Development
 - Linux
 - PHP
 - ubuntuusers

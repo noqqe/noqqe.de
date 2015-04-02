@@ -7,7 +7,7 @@ title: Apt | Aktualisierungen anzeigen lassen
 aliases:
 - /archives/894
 categories:
-- Coding
+- Development
 - Linux
 - ubuntuusers
 tags:

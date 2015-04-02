@@ -8,7 +8,7 @@ aliases:
 - /archives/1520
 categories:
 - Bash
-- Coding
+- Development
 - Debian
 - General
 - Linux

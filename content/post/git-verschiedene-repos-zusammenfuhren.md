@@ -7,7 +7,7 @@ title: 'Git | Verschiedene Repos zusammenführen '
 aliases:
 - /archives/1302
 categories:
-- Coding
+- Development
 - Debian
 - git
 - PlanetenBlogger

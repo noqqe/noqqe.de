@@ -7,7 +7,7 @@ title: Blog | Random-Text-Pool
 aliases:
 - /archives/538
 categories:
-- Coding
+- Development
 - General
 - Hardware
 tags:

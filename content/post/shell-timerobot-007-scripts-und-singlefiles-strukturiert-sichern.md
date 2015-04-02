@@ -7,7 +7,7 @@ title: Shell | TimeRobot 0.0.7 Scripts und SingleFiles strukturiert sichern
 aliases:
 - /archives/620
 categories:
-- Coding
+- Development
 - General
 - Linux
 tags:

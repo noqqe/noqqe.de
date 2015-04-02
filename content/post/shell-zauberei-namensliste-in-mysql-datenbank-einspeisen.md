@@ -8,7 +8,7 @@ aliases:
 - /archives/1645
 categories:
 - Bash
-- Coding
+- Development
 - Debian
 - PlanetenBlogger
 - Shell-Zauberei

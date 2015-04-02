@@ -7,7 +7,7 @@ title: Backup | Bash vs. Python
 aliases:
 - /archives/568
 categories:
-- Coding
+- Development
 - Linux
 tags:
 - backup

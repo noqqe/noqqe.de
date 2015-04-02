@@ -7,7 +7,7 @@ title: Hack | The Unix Forkbomb
 aliases:
 - /archives/740
 categories:
-- Coding
+- Development
 - Linux
 - PlanetenBlogger
 tags:

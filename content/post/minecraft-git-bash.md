@@ -8,7 +8,7 @@ aliases:
 - /archives/1693
 categories:
 - Bash
-- Coding
+- Development
 - Debian
 - General
 - git

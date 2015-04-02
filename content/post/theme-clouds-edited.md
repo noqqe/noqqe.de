@@ -7,7 +7,7 @@ title: 'Theme | Clouds edited '
 aliases:
 - /archives/724
 categories:
-- Coding
+- Development
 - General
 - PHP
 tags:

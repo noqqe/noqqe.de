@@ -8,7 +8,7 @@ aliases:
 - /archives/1732
 categories:
 - Bash
-- Coding
+- Development
 - Debian
 - git
 - Linux

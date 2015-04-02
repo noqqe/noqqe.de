@@ -7,7 +7,7 @@ title: Mail | Postfix-Aliases mit MySQL-Backend erstellen
 aliases:
 - /archives/839
 categories:
-- Coding
+- Development
 - Linux
 - ubuntuusers
 tags:

@@ -7,7 +7,7 @@ title: bash | timeRobot 0.0.8
 aliases:
 - /archives/769
 categories:
-- Coding
+- Development
 - Linux
 tags:
 - backup

@@ -7,7 +7,7 @@ title: Bash | the zombie-revolution-environment
 aliases:
 - /archives/1314
 categories:
-- Coding
+- Development
 - Debian
 - git
 - PlanetenBlogger

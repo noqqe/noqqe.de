@@ -7,7 +7,7 @@ title: Wordpress | Feed bestimmter Kategorie generieren
 aliases:
 - /archives/752
 categories:
-- Coding
+- Development
 - Linux
 - PHP
 tags:

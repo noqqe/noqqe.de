@@ -7,7 +7,7 @@ title: Python Backup Skript
 aliases:
 - /archives/111
 categories:
-- Coding
+- Development
 - Linux
 tags:
 - python

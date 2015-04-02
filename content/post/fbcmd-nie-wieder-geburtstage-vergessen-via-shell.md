@@ -8,7 +8,7 @@ aliases:
 - /archives/1827
 categories:
 - Bash
-- Coding
+- Development
 - Debian
 - ubuntuusers
 - Web

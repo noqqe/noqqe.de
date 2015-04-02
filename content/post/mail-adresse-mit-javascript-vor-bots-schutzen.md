@@ -7,7 +7,7 @@ title: 'Mail | Adresse mit JavaScript vor Bots schützen. '
 aliases:
 - /archives/1367
 categories:
-- Coding
+- Development
 - Linux
 - PlanetenBlogger
 - Spam

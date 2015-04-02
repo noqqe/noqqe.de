@@ -5,7 +5,7 @@ date: 2012-08-12T20:12:00+02:00
 comments: true
 categories:
 - Bash
-- Coding
+- Development
 - Debian
 - ubuntuusers
 tags:

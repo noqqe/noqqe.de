@@ -8,7 +8,7 @@ aliases:
 - /archives/1742
 categories:
 - Bash
-- Coding
+- Development
 - Debian
 - PlanetenBlogger
 - SQL

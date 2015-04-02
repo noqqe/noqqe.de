@@ -8,7 +8,7 @@ aliases:
 - /archives/1751
 categories:
 - Bash
-- Coding
+- Development
 - Debian
 - General
 - Hardware

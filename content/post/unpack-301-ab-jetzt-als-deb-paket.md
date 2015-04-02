@@ -7,11 +7,11 @@ title: unpack-3.0.1 ab jetzt als .deb Paket
 aliases:
 - /archives/422
 categories:
-- Coding
+- Development
 - Linux
 tags:
 - bash
-- Coding
+- Development
 - deb
 - debian
 - debian Paket

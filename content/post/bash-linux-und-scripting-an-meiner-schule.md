@@ -7,7 +7,7 @@ title: Bash | Linux und Scripting an meiner Schule
 aliases:
 - /archives/1005
 categories:
-- Coding
+- Development
 - Linux
 - PlanetenBlogger
 tags:

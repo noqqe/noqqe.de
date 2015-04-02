@@ -8,7 +8,7 @@ aliases:
 - /archives/1672
 categories:
 - Bash
-- Coding
+- Development
 - Jabber
 - Linux
 - PlanetenBlogger

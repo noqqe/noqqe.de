@@ -7,7 +7,7 @@ title: ASCII | StarWars via Telnet
 aliases:
 - /archives/1351
 categories:
-- Coding
+- Development
 - General
 - PlanetenBlogger
 - Ubuntu

@@ -7,7 +7,7 @@ title: roborobo | selfmade robot
 aliases:
 - /archives/977
 categories:
-- Coding
+- Development
 - Linux
 - PlanetenBlogger
 tags:

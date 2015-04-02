@@ -8,7 +8,7 @@ categories:
 - Linux
 - Debian
 - Web
-- Coding
+- Development
 - Virtualisierung
 keywords: "LXC, lxc, linux, linux container, container, thinkpad, wireless,
 bridge, wlan, lan, eth, vm, virtualisierung"

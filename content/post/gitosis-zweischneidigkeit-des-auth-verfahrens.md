@@ -7,7 +7,7 @@ title: Gitosis | Zweischneidigkeit des Auth-Verfahrens
 aliases:
 - /archives/1208
 categories:
-- Coding
+- Development
 - Debian
 - git
 - Linux

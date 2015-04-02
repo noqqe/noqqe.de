@@ -7,7 +7,7 @@ title: Git | Repositories auf Server anlegen
 aliases:
 - /archives/867
 categories:
-- Coding
+- Development
 - Linux
 tags:
 - git

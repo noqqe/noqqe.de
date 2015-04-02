@@ -7,7 +7,7 @@ title: Twidge | twidge-sh merged!
 aliases:
 - /archives/1308
 categories:
-- Coding
+- Development
 - Debian
 - git
 - Linux

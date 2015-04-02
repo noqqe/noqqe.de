@@ -7,7 +7,7 @@ title: Theme | nerd-clouds
 aliases:
 - /archives/1071
 categories:
-- Coding
+- Development
 - General
 - Linux
 - PlanetenBlogger

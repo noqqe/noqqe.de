@@ -7,11 +7,11 @@ title: Comic | WTFs pro Minute
 aliases:
 - /archives/524
 categories:
-- Coding
+- Development
 - General
 tags:
 - code
-- Coding
+- Development
 - comic
 - wtf
 ---

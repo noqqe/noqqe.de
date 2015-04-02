@@ -7,7 +7,7 @@ title: tismc | This is static markdown content!
 aliases:
 - /archives/1243
 categories:
-- Coding
+- Development
 - Debian
 - PlanetenBlogger
 - Web

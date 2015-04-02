@@ -8,7 +8,7 @@ aliases:
 - /archives/1475
 categories:
 - Bash
-- Coding
+- Development
 - Jabber
 - ubuntuusers
 - Web

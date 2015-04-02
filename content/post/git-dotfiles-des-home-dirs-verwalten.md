@@ -7,7 +7,7 @@ title: Git | Dotfiles des Home-Dirs verwalten
 aliases:
 - /archives/1192
 categories:
-- Coding
+- Development
 - Debian
 - git
 - Mac

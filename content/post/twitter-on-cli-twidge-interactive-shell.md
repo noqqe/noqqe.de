@@ -7,7 +7,7 @@ title: Twitter on CLI | Twidge Interactive Shell
 aliases:
 - /archives/1285
 categories:
-- Coding
+- Development
 - Debian
 - General
 - Linux

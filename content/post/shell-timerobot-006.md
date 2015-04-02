@@ -7,7 +7,7 @@ title: 'Shell | timeRobot 0.0.6 '
 aliases:
 - /archives/561
 categories:
-- Coding
+- Development
 - Linux
 tags:
 - archivierung

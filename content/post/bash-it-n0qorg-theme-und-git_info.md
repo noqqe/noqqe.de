@@ -7,7 +7,7 @@ title: bash-it | n0qorg theme und git_info
 aliases:
 - /archives/1389
 categories:
-- Coding
+- Development
 - General
 - git
 - PlanetenBlogger

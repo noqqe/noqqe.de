@@ -10,7 +10,7 @@ aliases:
 - /blog/2009/03/16/shell-timerobot-strukturiertes/zyklisches-backuppen-ausgew%C3%A4hlter-configs-und-skripts/
 - /blog/2009/03/16/shell--timerobot-strukturiertes/zyklisches-backuppen-ausgew%C3%A4hlter-configs-und-skripts/
 categories:
-- Coding
+- Development
 - Linux
 tags:
 - .conf

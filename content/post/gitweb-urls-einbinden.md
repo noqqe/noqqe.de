@@ -7,7 +7,7 @@ title: Gitweb | URLs einbinden
 aliases:
 - /archives/987
 categories:
-- Coding
+- Development
 - git
 - Linux
 - PlanetenBlogger

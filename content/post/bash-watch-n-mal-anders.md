@@ -7,7 +7,7 @@ title: Bash | watch -n mal anders
 aliases:
 - /archives/1230
 categories:
-- Coding
+- Development
 - Linux
 ---
 

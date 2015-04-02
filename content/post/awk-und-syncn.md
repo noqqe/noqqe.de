@@ -7,7 +7,7 @@ title: awk und syncN
 aliases:
 - /archives/446
 categories:
-- Coding
+- Development
 - Linux
 tags:
 - awk

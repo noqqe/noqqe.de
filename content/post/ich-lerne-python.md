@@ -7,10 +7,10 @@ title: Ich lerne Python
 aliases:
 - /archives/104
 categories:
-- Coding
+- Development
 - Linux
 tags:
-- Coding
+- Development
 - Linux
 - python
 ---

@@ -7,7 +7,7 @@ title: FTP | vsftpd mit MySQL-Userauth und fail2ban
 aliases:
 - /archives/904
 categories:
-- Coding
+- Development
 - Hardware
 - Linux
 - ubuntuusers

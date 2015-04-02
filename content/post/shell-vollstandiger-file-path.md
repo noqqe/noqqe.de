@@ -7,7 +7,7 @@ title: Shell | Vollständiger File-Path
 aliases:
 - /archives/663
 categories:
-- Coding
+- Development
 - Linux
 ---
 

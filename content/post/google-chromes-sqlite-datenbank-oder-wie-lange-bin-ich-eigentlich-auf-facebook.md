@@ -6,7 +6,7 @@ comments: true
 categories:
 - ubuntuusers
 - Web
-- Coding
+- Development
 - Debian
 - Bash
 - Shell

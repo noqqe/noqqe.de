@@ -7,7 +7,7 @@ title: Apache2 | vhost-Logs und logrotate
 aliases:
 - /archives/946
 categories:
-- Coding
+- Development
 - Linux
 - ubuntuusers
 tags:

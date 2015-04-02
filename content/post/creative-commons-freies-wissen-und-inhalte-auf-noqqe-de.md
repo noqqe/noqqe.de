@@ -7,7 +7,7 @@ title: Creative Commons | Freies Wissen und Inhalte
 aliases:
 - /archives/1049
 categories:
-- Coding
+- Development
 - General
 - PlanetenBlogger
 tags:

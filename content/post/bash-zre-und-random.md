@@ -7,7 +7,7 @@ title: Bash | ZRE und $RANDOM
 aliases:
 - /archives/1321
 categories:
-- Coding
+- Development
 - General
 - git
 - PlanetenBlogger

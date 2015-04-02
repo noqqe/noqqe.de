@@ -7,7 +7,7 @@ title: Wordpress | Archive Page erstellen
 aliases:
 - /archives/970
 categories:
-- Coding
+- Development
 - PHP
 - PlanetenBlogger
 tags:

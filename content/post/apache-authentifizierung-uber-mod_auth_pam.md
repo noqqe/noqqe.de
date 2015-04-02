@@ -8,7 +8,7 @@ aliases:
 - /archives/1494
 categories:
 - Bash
-- Coding
+- Development
 - Debian
 - Linux
 - PlanetenBlogger

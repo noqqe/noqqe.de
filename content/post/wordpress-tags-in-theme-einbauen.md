@@ -7,7 +7,7 @@ title: Wordpress | Tags in Theme einbauen
 aliases:
 - /archives/886
 categories:
-- Coding
+- Development
 - General
 - PHP
 tags:

@@ -8,7 +8,7 @@ aliases:
 - /archives/416
 - /blog/2009/01/09/syncn-marke-eigenbau/
 categories:
-- Coding
+- Development
 - Linux
 tags:
 - bash

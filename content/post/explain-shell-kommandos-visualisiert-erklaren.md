@@ -7,7 +7,7 @@ title: Explain | Shell-Kommandos visualisiert erklären
 aliases:
 - /archives/1224
 categories:
-- Coding
+- Development
 - Ubuntu
 - ubuntuusers
 tags:

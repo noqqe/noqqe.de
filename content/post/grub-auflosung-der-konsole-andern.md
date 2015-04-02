@@ -7,7 +7,7 @@ title: Grub | Auflösung der Konsole ändern
 aliases:
 - /archives/1098
 categories:
-- Coding
+- Development
 - Debian
 - Linux
 - Ubuntu

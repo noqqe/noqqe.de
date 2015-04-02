@@ -7,7 +7,7 @@ title: Redmine | Git Bare Repository Workaround
 aliases:
 - /archives/1396
 categories:
-- Coding
+- Development
 - git
 - PlanetenBlogger
 tags:

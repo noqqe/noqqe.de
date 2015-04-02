@@ -7,7 +7,7 @@ title: IDE Festplatten, Backups und Skripte
 aliases:
 - /archives/315
 categories:
-- Coding
+- Development
 - Linux
 tags:
 - backup

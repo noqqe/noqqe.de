@@ -8,7 +8,7 @@ aliases:
 - /archives/1819
 categories:
 - Bash
-- Coding
+- Development
 - Debian
 - General
 - Linux

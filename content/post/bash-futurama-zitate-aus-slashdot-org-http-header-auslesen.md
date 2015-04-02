@@ -7,7 +7,7 @@ title: Bash | Futurama Zitate aus slashdot.org HTTP-Header auslesen
 aliases:
 - /archives/1255
 categories:
-- Coding
+- Development
 - Debian
 - General
 - ubuntuusers

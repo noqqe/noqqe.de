@@ -7,7 +7,7 @@ title: Debian | rsyslogd
 aliases:
 - /archives/686
 categories:
-- Coding
+- Development
 - General
 - Linux
 ---

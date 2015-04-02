@@ -7,7 +7,7 @@ title: CodeCocktail und "feeling right now" Widget
 aliases:
 - /archives/455
 categories:
-- Coding
+- Development
 - Linux
 tags:
 - bash

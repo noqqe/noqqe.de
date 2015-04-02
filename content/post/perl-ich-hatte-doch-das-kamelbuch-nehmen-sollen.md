@@ -7,14 +7,14 @@ title: Perl | Ich hätte doch das Kamelbuch nehmen sollen
 aliases:
 - /archives/1087
 categories:
-- Coding
+- Development
 - git
 - Linux
 - Perl
 - PlanetenBlogger
 tags:
 - coden
-- Coding
+- Development
 - oreilly
 - perl
 - programmieren

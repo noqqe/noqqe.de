@@ -5,9 +5,10 @@ date: 2012-11-25T14:53:00+02:00
 comments: true
 categories:
 - osbn
-- bash
+- Shell
+tags:
 - algorithm
-- shell
+- Bash
 - 4chan
 ---
 

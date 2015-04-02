@@ -7,7 +7,7 @@ title: Bash | Scripting-Aufgabe @ School
 aliases:
 - /archives/1011
 categories:
-- Coding
+- Development
 - Linux
 ---
 

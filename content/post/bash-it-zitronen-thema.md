@@ -7,7 +7,7 @@ title: bash-it | Zitronen-Thema
 aliases:
 - /archives/1342
 categories:
-- Coding
+- Development
 - git
 - Linux
 - PlanetenBlogger

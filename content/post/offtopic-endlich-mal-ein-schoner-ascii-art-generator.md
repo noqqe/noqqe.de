@@ -7,7 +7,7 @@ title: Offtopic | Endlich mal ein schöner ASCII-Art-Generator
 aliases:
 - /archives/884
 categories:
-- Coding
+- Development
 - PHP
 - PlanetenBlogger
 tags:

@@ -17,7 +17,8 @@ tags:
 - zwetschge
 ---
 
-Habe mich heute mal mit [collectd](http://collectd.org/) und [rrdtool](http://oss.oetiker.ch/rrdtool/) befasst und eine art Monitoring
+Habe mich heute mal mit [collectd](http://collectd.org/) und
+[rrdtool](http://oss.oetiker.ch/rrdtool/) befasst und eine art Monitoring
 für meine [zwetschge eingerichtet](http://zwetschge.org).
 
 Dank eines [kleinen Tutorials von
@@ -54,8 +55,7 @@ rrdtool graph ${GPATH}traffic-eth0-d.png -w 300 -h 100 -t "Tagesstatistik Eth0" 
 
 befüllen.
 
-* in die /etc/cron.d/monitoring und */5 * * * * root sh /etc/monitoring eintragen
+* in die /etc/cron.d/monitoring und */5 * * * * root sh /etc/monitoring
+  eintragen
 
 Schon aktualisiert sich alle 5 min der Ticker.
-
-Danke Trinec! und ab jetzt auch in Blogroll zu finden ;)

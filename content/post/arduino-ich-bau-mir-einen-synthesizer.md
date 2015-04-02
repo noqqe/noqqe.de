@@ -7,7 +7,7 @@ title: Arduino | Ich bau mir einen Synthesizer
 aliases:
 - /archives/1833
 categories:
-- Coding
+- Development
 - General
 - Hardware
 - PlanetenBlogger

@@ -4,6 +4,9 @@ title: "On Hackernews"
 date: 2013-12-29T13:50:00+02:00
 comments: true
 categories:
+- OpenBSD
+- osbn
+tags:
 - acrylamid
 - hackernews
 - reddit
@@ -14,11 +17,9 @@ categories:
 - GET
 - POST
 - DAAS
-- devnull-as-a-service
 - mail
 - stats
 - statistik
-- osbn
 ---
 
 Eigentlich wollte ich nur Acrylamid ausprobieren. Ich evaluierte

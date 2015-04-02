@@ -7,7 +7,7 @@ title: RegExp | Domainendungen
 aliases:
 - /archives/983
 categories:
-- Coding
+- Development
 - Linux
 - PlanetenBlogger
 tags:

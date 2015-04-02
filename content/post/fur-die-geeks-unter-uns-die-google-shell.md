@@ -8,7 +8,7 @@ aliases:
 - /archives/262
 - /blog/2008/09/24/f%C3%BCr-die-geeks-unter-uns-die-google-shell/
 categories:
-- Coding
+- Development
 - Linux
 tags:
 - bash

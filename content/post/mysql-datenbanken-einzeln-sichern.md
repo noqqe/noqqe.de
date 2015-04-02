@@ -7,7 +7,7 @@ title: MySQL | Datenbanken einzeln sichern
 aliases:
 - /archives/1156
 categories:
-- Coding
+- Development
 - Debian
 - Linux
 - PlanetenBlogger

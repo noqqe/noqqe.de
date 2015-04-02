@@ -8,7 +8,7 @@ aliases:
 - /archives/1766
 categories:
 - Bash
-- Coding
+- Development
 - Debian
 - General
 - PlanetenBlogger

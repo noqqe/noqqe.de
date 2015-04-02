@@ -7,12 +7,12 @@ title: Bash | Inkrement-Methoden und Effizienz
 aliases:
 - /archives/1014
 categories:
-- Coding
+- Development
 - Linux
 - ubuntuusers
 tags:
 - bash
-- Coding
+- Development
 - decrement
 - increment
 - inkrementieren

@@ -10,7 +10,7 @@ aliases:
 - /blog/2011/02/04/statistiken--using-r-the-nerd-way/
 categories:
 - Bash
-- Coding
+- Development
 - General
 - git
 - Linux

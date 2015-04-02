@@ -7,7 +7,7 @@ title: 'Git | Dateien wiederherstellen '
 aliases:
 - /archives/1201
 categories:
-- Coding
+- Development
 - git
 - PlanetenBlogger
 tags:

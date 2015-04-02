@@ -9,7 +9,7 @@ categories:
 - Debian
 - Ubuntu
 - CentOS
-- Coding
+- Development
 ---
 
 Eigentlich sollte im Titel eher "Tipps und Tricks" stehen, aber mit Hacks im
