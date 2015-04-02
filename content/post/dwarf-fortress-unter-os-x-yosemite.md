@@ -4,9 +4,10 @@ title: "Dwarf Fortress unter OS X Yosemite"
 date: 2015-02-07T17:16:00+02:00
 comments: true
 categories:
+- OSX
+tags:
 - DwarfFortress
 - Dwarf
-- OSX
 - Yosemite
 - Mac
 - Homebrew

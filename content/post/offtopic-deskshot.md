@@ -7,11 +7,10 @@ title: Offtopic | Deskshot.
 aliases:
 - /archives/1442
 categories:
-- Bash
+- Shell
 - Blog
 - Hardware
 - Linux
-- Mac
 - Web
 tags:
 - camel active

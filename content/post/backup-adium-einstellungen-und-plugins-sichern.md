@@ -8,8 +8,6 @@ aliases:
 - /archives/944
 categories:
 - Development
-- Mac
-- PlanetenBlogger
 tags:
 - adium
 - backup
@@ -20,12 +18,15 @@ tags:
 - sichern
 ---
 
-Ein gegebener Anlass brachte mich dazu mein Adium neu installieren zu müssen. Um es mir auch längerfristig merken zu können, paste ich wie immer alles in meinen Blog.
+Ein gegebener Anlass brachte mich dazu mein Adium neu installieren zu
+müssen. Um es mir auch längerfristig merken zu können, paste ich wie immer
+alles in meinen Blog.
 
 ```
 ~/Library/Application Support/Adium 2.0/
 ~/Library/Preferences/com.adiumX.adiumX.plist
 ```
 
-
-weg kopieren und nach der neuen Installation wieder einspielen. Und die Pfade für solche Späße bei Mac OS X gefallen mir immernoch nicht. Was soll man machen.
+weg kopieren und nach der neuen Installation wieder einspielen. Und die
+Pfade für solche Späße bei Mac OS X gefallen mir immernoch nicht. Was soll
+man machen.
