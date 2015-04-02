@@ -52,7 +52,7 @@ $ sudo aptitude install mairix offlineimap
 
 Meine mairix-Config:
 
-{% codeblock $HOME/.mairixrc %}
+``` bash
 # local Maildir
 base=/home/noqqe/Maildir/
 database=/home/noqqe/Maildir/.mairixdb

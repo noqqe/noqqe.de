@@ -22,6 +22,7 @@ auch ganz...seltsam...sein. Aber das ist [Linus](http://en.wikipedia.org/wiki/Li
 auch, also keine Umgewöhnung nötig.
 
 {{< figure src="/uploads/2012/11/taskwarrior.png" >}}
+
 So sieht es übrigens aus wenn ich mit [taskwarrior](http://taskwarrior.org) ein
 Projekt abwickle. Ich liebe diese Software, aber dazu vielleicht wann anders
 mal.
@@ -40,15 +41,13 @@ Dinge an die ich mich erst gewöhnen muss:
 * Die (sich echt sau komisch verhaltende) Version von Vi
 * Das fehlende `free`
 
-{% pullquote %}
 Öfters habe ich mich beim hantieren mit OpenBSD dabei erwischt Änderungen
-am System zu machen bei denen ich mich gefragt habe {" "Mache ich das jetzt weil
-ich das gut finde, oder weil ich es von Debian so gewohnt bin?""}. Diese Frage
+am System zu machen bei denen ich mich gefragt habe "Mache ich das jetzt weil
+ich das gut finde, oder weil ich es von Debian so gewohnt bin?". Diese Frage
 abzuwägen tat ich mich bei manchen Dingen extrem schwer. Ob nun die fehlende
 `bash` oder `tmux` statt `screen`. Ich habe versucht ausschliesslich Software zu
 verwenden die bereits im OpenBSD Base enthalten ist. Frei nach dem Motto "Die
 wissen schon was sie tun". Und dabei habe ich viel neues gelernt.
-{% endpullquote %}
 
 Jetzt noch warten bis die Second Edition "Absolute OpenBSD" von
 [Michael W. Lucas](http://blather.michaelwlucas.com) herauskommt. Laut seinem

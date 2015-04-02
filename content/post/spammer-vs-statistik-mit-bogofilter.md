@@ -18,10 +18,11 @@ categories:
 - bogo
 ---
 
-Als ich [das letzte Mal](/blog/2012/12/08/spam/) über Spam
-schrieb wurde mir [bogofilter](http://bogofilter.sourceforge.net/)
-empfohlen. Die Software setzt die Idee [Paul Grahams](http://paulgraham.com/) des [Better Bayesian Filtering](http://paulgraham.com/better.html) um. Im Endeffekt geht es
-um statistische Auswertung des Contents.
+Als ich [das letzte Mal](/blog/2012/12/08/spam/) über Spam schrieb wurde
+mir [bogofilter](http://bogofilter.sourceforge.net/) empfohlen. Die
+Software setzt die Idee [Paul Grahams](http://paulgraham.com/) des [Better
+Bayesian Filtering](http://paulgraham.com/better.html) um. Im Endeffekt
+geht es um statistische Auswertung des Contents.
 
 {{< figure src="/uploads/2013/10/warumnur.gif" >}}
 
@@ -39,8 +40,7 @@ erlernten Wörter mit Good/Bad Scores abgelegt werden.  In meinem Fall
 habe ich Anbindung Serverseitig über maildrop, dass ich sowieso schon
 verwende, realisiert. Ja maildrop und ja die 90er sind vorbei.  Sorry.
 
-{% codeblock "integration in maildrop" %}
-
+```
 xfilter "bogofilter -u -e -p -R -c /home/noqqe/.bogofilter.cf"
 
 # Filter with bogofilter Spam or Unsure
@@ -108,8 +108,7 @@ die Jahre zusammengekommene Spam wird in `7z` Archiven zur Verfügung
 gestellt. Diesen habe ich mir dann heruntergeladen. Herzliches Dankeschön
 an dieser Stelle btw.
 
-```
-
+``` bash
 $ mkdir archives ; cd archives
 $ wget http://untroubled.org/spam/{1998..2012}.7z
 $ wget http://untroubled.org/spam/2013-{01..12}.7z
