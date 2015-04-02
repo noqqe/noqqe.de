@@ -9,8 +9,7 @@ aliases:
 categories:
 - Blog
 - Linux
-- Mac
-- PlanetenBlogger
+- OSX
 tags:
 - '2010'
 - adium

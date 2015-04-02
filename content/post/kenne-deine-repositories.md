@@ -6,14 +6,18 @@ comments: true
 categories:
 - osbn
 - bash
-- git
 - stats
+tags:
+- bash
+- regex
+- git
+- commits
 ---
 
 Um einen Überblick der git Repositories zu bekommen,
 kann man zuerst mal `locate` benutzen und diese zu finden.
 
-``` bash 
+``` bash
 locate --regex '.*\.git$'
 ```
 
@@ -25,7 +29,7 @@ brauchte ich Daten zum Spielen. git Repos bieten sich für sowas an.
 
 ### Wie viele Objects?
 
-``` bash 
+``` bash
 for x in $(locate --regex '.*\.git$'); do
     echo -e "$(locate "$x/objects" | wc -l)\t$(echo $x | sed 's/.git$//') "
 done | sort -rn
@@ -45,7 +49,7 @@ Dabei heraus kommt eine nette Übersicht über die Anzahl der git Objects
 
 ### Wie viele Commits?
 
-``` bash 
+``` bash
 for x in $(locate --regex '.*\.git$'); do
     echo -e "$(git --git-dir="$x" log --oneline | wc -l)\t$(echo $x | sed 's/.git$//')"
 done | sort -rn
@@ -70,7 +74,7 @@ Innerhalb eines Repos sieht man auch oft interessante Werte über seine Commits.
 Daran kann ich dann lauter andere lustige statistische Kennzahlen festmachen wie
 die Standartabweichung usw. Aber darauf geh ich jetzt hier nicht näher ein.
 
-``` bash 
+``` bash
 for y in $(git log --format="%h");
   do git show $y | egrep '^(\+|\-)' | wc -l
 done

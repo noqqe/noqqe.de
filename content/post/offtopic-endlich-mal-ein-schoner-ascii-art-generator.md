@@ -8,8 +8,7 @@ aliases:
 - /archives/884
 categories:
 - Development
-- PHP
-- PlanetenBlogger
+- Web
 tags:
 - art
 - ascii
@@ -18,5 +17,7 @@ tags:
 - web
 ---
 
-Ich befand [das](/uploads/2009/09/9) für cool. Alles weitere hier: [http://www.network-science.de/ascii/](http://www.network-science.de/ascii/) Im Gegensatz zu manchen anderen die sich ASCII-Web-Dienst nennen wollen :)
+Ich befand [das](/uploads/2009/09/9) für cool. Alles weitere hier:
+[http://www.network-science.de/ascii/](http://www.network-science.de/ascii/)
+Im Gegensatz zu manchen anderen die sich ASCII-Web-Dienst nennen wollen :)
 

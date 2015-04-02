@@ -5,9 +5,11 @@ date: 2012-10-10T20:55:00+02:00
 comments: true
 categories:
 - osbn
-- bash
-- Debian
 - Web
+- Debian
+- Shell
+tags:
+- bash
 - Google
 - Runkeeper
 - GPX

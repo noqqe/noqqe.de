@@ -6,6 +6,8 @@ comments: true
 categories:
 - osbn
 - OpenBSD
+- Network
+tags:
 - pf
 - OpenBL
 - Firewall
@@ -32,7 +34,7 @@ für die Admin IPs vor der Blacklist-Block Regel matchen sollte. Nur für den
 Fall dass man mal selbst auf so einer Liste landen sollte.
 Ein kleines Bash Script, dass mit Cron einmal die Woche die IPs updated.
 
-``` bash 
+``` bash
 #!/usr/local/bin/bash
 STORE="/tmp/"
 RULES="base.txt.gz"

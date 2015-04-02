@@ -4,6 +4,11 @@ title: "MongoDB 2.6 Sharded Cluster Performance"
 date: 2014-06-18T21:02:00+02:00
 comments: true
 categories:
+- Databases
+- Development
+- DevOps
+- osbn
+tags:
 - MongoDB
 - pymongo
 - Performance
@@ -13,25 +18,24 @@ categories:
 - Documents
 - Read
 - Write
-- osbn
 ---
 
-MongoDB Cluster wollen nach der Installation wie jede andere DB getestet werden.
-Performance, Konsistenz bei vielen Writes, usw. Gerade bei Sharding und Indexing
-über mehrere Knoten verteilt möchte man das schon ausprobieren. Sind die Documents
-wirklich gleichmässig verteilt?
+MongoDB Cluster wollen nach der Installation wie jede andere DB getestet
+werden.  Performance, Konsistenz bei vielen Writes, usw. Gerade bei
+Sharding und Indexing über mehrere Knoten verteilt möchte man das schon
+ausprobieren. Sind die Documents wirklich gleichmässig verteilt?
 
 {{< figure src="/uploads/2014/06/sharded-cluster.png" >}}
 
-Alle Zeiten der Auswertung und Interpretation der Ergebnisse spar ich mir jetzt. Der Fokus liegt
-ersteinmal auf dem "wie messen".
+Alle Zeiten der Auswertung und Interpretation der Ergebnisse spar ich mir
+jetzt. Der Fokus liegt ersteinmal auf dem "wie messen".
 
 ### Write
 
-Der einfachste Weg war das Python Modul `pymongo` zu benutzen, welches über `pip`
-nachinstalliert werden kann.
+Der einfachste Weg war das Python Modul `pymongo` zu benutzen, welches über
+`pip` nachinstalliert werden kann.
 
-``` python 
+``` python
 import pymongo
 m = pymongo.MongoClient('mongodb://user:password@localhost:27017/Database')
 i = 0
@@ -42,15 +46,16 @@ while (i < 5000000):
         i = i + 1
 ```
 
-Aufruf im Idealfall mit `time python write.py`, um auch wirklich die Zeit zu messen.
-Die 5 Mio erstellten Documents in der Collection `testcollection`, lassen sich nachher auch
-für Read-Tests weiterverwenden.
+Aufruf im Idealfall mit `time python write.py`, um auch wirklich die Zeit
+zu messen.  Die 5 Mio erstellten Documents in der Collection
+`testcollection`, lassen sich nachher auch für Read-Tests weiterverwenden.
 
 ### Read
 
-Wie lange es dauert, alle 5 Mio Objekte aus der MongoDB auszulesen ist wahrscheinlich klar. Lange.
+Wie lange es dauert, alle 5 Mio Objekte aus der MongoDB auszulesen ist
+wahrscheinlich klar. Lange.
 
-``` python 
+``` python
 import pymongo
 m = pymongo.MongoClient('mongodb://user:password@localhost:27017/Database')
 r = m.Database.testcollection.find()
@@ -63,14 +68,17 @@ Um das komplette Datenset auszugeben: `time python readall.py > allids.txt`
 ### Read Random Documents
 
 Alle Objekte sequenziell in einem Query ausgeben ist aber ein ziemlich
-exotischer Use-Case. Näher an der Realität sind kleine Queries die zufällige Dokumente abrufen (gerade wegen des Shardings).
-Da sowieso schon eine Liste aller ObjectIds existiert `allids.txt` hab ich dazu einfach ein Python Skript umgebaut dass ich schon hatte.
+exotischer Use-Case. Näher an der Realität sind kleine Queries die
+zufällige Dokumente abrufen (gerade wegen des Shardings).  Da sowieso schon
+eine Liste aller ObjectIds existiert `allids.txt` hab ich dazu einfach ein
+Python Skript umgebaut dass ich schon hatte.
 
-[randompopulation.py](https://gist.github.com/noqqe/9955833) wird eine Datei mit Input und die Anzahl der gewünschten Samples übergeben. Mithilfe von `linecache`
-ist das auch noch sehr effizient. Die nachfolgende modifizierte Version setzt
-auch gleich den MongoDB Query ab:
+[randompopulation.py](https://gist.github.com/noqqe/9955833) wird eine
+Datei mit Input und die Anzahl der gewünschten Samples übergeben. Mithilfe
+von `linecache` ist das auch noch sehr effizient. Die nachfolgende
+modifizierte Version setzt auch gleich den MongoDB Query ab:
 
-``` python 
+``` python
 import random
 import sys
 import linecache
@@ -121,8 +129,8 @@ sys     0m0.512s
 
 ### Distributed Read / Write
 
-Ein Host mit Queries ist natürlich auch witzlos. Schreiben und Lesen von mehreren Hosts!
-Für derartige Tasks packe ich gerne mal `pssh` aus.
+Ein Host mit Queries ist natürlich auch witzlos. Schreiben und Lesen von
+mehreren Hosts!  Für derartige Tasks packe ich gerne mal `pssh` aus.
 
 `$ pssh -h hostlist.txt -t 360 -l user -i 'python choose-random-documents.py allids.txt 25'`
 
@@ -141,10 +149,10 @@ das aber alles viel unproblematischer aus als im Dotchart. Es sind ja immerhin
 
 ### Dataset Distribution
 
-Nachdem alles geschrieben und gelesen ist, kann man sich auch mal anschauen wies in MongoDB aussieht.
-Status der Chunks anzeigen:
+Nachdem alles geschrieben und gelesen ist, kann man sich auch mal anschauen
+wies in MongoDB aussieht.  Status der Chunks anzeigen:
 
-``` json 
+``` json
 mongos> sh.status()
 {  "_id" : "Database",  "partitioned" : true,  "primary" : "rs0" }
  Database.testcollection
@@ -173,7 +181,7 @@ mongos> sh.status()
 
 Und auch wie es um die Verteilung der einzelnen Objekte steht (etwas gekürzt):
 
-``` json 
+``` json
 mongos> db.stats()
 {
    "raw" : {

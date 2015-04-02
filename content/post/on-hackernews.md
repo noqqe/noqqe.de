@@ -6,6 +6,7 @@ comments: true
 categories:
 - OpenBSD
 - osbn
+- Stats
 tags:
 - acrylamid
 - hackernews

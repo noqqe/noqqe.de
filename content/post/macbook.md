@@ -5,14 +5,17 @@ date: 2014-09-25T18:34:00+02:00
 comments: true
 categories:
 - osbn
+- OpenBSD
+- OSX
+tags:
 - macbook
 - apple
 - locate
 - german
 - keyboard
 - layout
-- OpenBSD
 ---
+
 Nachdem ich die letzte Zeit viele Betriebssysteme auf dem Thinkpad ausprobiert
 haben (FreeBSD, ArchLinux, ElementaryOS, OpenBSD) und nichts mich wirklich
 befriedigt hat, bin ich wieder zu Debian zurück.

@@ -27,7 +27,7 @@ mir mehr oder weniger in den Weg stellen:
 
   * Und wo wir gerade bei **Neustart** sind: Bei jedem reboot muss ich jedesmal das Standard Bootbild 4-5 mal ertragen bevor ich dann
   endlich in mein 800x600 System darf. Grund? Keine Ahnung! Ich hoff ich finds raus!
-	
+
   * **3D-Effekte**: Auch die sind leider weg und ich muss mich erst wieder Schlaulesen
   wie der Manager hies mit dem ich diese wieder "enabeln" kann :P
 

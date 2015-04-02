@@ -5,12 +5,14 @@ date: 2013-03-18T22:00:00+02:00
 comments: true
 categories:
 - Mail
+- ubuntuusers
+- osbn
+- Stats
+tags:
 - mutt
 - mairix
 - suche
 - index
-- ubuntuusers
-- osbn
 ---
 
 Ich war auf der Suche nach einem neuen Mailclient. Thunderbird
@@ -28,14 +30,16 @@ mich auf folgende Punkte festgelegt:
 * GPG/PGP-Fähigkeit
 * Schnelle und bedienbare Suche
 
-Das dürfte eigentlich ja nicht so schwer sein. `mutt` bietet mir zwei dieser 3
-Punkte. Die Suche funktioniert zwar über `l` auch ganz gut, aber nicht wirklich
-schnell und auch nicht in meinem ganzen IMAP Account.
+Das dürfte eigentlich ja nicht so schwer sein. `mutt` bietet mir zwei
+dieser 3 Punkte. Die Suche funktioniert zwar über `l` auch ganz gut, aber
+nicht wirklich schnell und auch nicht in meinem ganzen IMAP Account.
 
-Was her musste war ein Mailindexer. Textbasiert gibt es da verschiedene Lösungen. Unter
-anderem [Sup](http://sup.rubyforge.org/), [notmuch](http://notmuchmail.org/) und [mairix](http://www.rpcurnow.force9.co.uk/mairix/).
-Habe alle Tools angetestet und mich für `mairix` entschieden. Eingängige Syntax,
-leicht verständlich.
+Was her musste war ein Mailindexer. Textbasiert gibt es da verschiedene
+Lösungen. Unter anderem [Sup](http://sup.rubyforge.org/),
+[notmuch](http://notmuchmail.org/) und
+[mairix](http://www.rpcurnow.force9.co.uk/mairix/).  Habe alle Tools
+angetestet und mich für `mairix` entschieden. Eingängige Syntax, leicht
+verständlich.
 
 Einziges Problem: IMAP sprechen ist nicht drin. Local maildir'n'stuff. Deshalb
 habe ich mir dann die folgende Lösung überlegt.
@@ -104,6 +108,7 @@ macro index,pager L "<change-folder-readonly>/home/noqqe/Maildir/Search<enter><s
 unset wait_key # do not require additional enter for shell commands
 ```
 
-Noch 2 Cronjobs für regelmäßiges mairix und offlineimap sync und alles ist entspannt.
-Für Verbesserungsvorschläge und Inspirationen aus euren Mail-Setups bin ich wie immer gerne zu haben! :)
+Noch 2 Cronjobs für regelmäßiges mairix und offlineimap sync und alles ist
+entspannt.  Für Verbesserungsvorschläge und Inspirationen aus euren
+Mail-Setups bin ich wie immer gerne zu haben! :)
 

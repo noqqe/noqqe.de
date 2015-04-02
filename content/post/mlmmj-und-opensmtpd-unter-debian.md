@@ -4,13 +4,17 @@ title: "mlmmj und OpenSMTPD unter Debian"
 date: 2014-05-29T11:24:00+02:00
 comments: true
 categories:
+- Debian
+- Mail
+- Administration
+- ubuntuusers
+- osbn
+tags:
 - OpenSMTPD
 - Mailingliste
 - Debian
 - mlmmj
 - jessie
-- ubuntuusers
-- osbn
 ---
 
 Für die Mailingliste der [k4cg](http://k4cg.org) zieht demnächst um. Weswegen
@@ -41,15 +45,17 @@ k4cg:     "|/usr/bin/mlmmj-receive -L /var/spool/mlmmj/k4cg"
 
 {{< figure src="/uploads/2014/05/opensmtpd.png" >}}
 
-Den aus dem OpenBSD Umfeld entstandenen [OpenSMTPD](http://opensmtpd.org) wollte ich mir schon länger ansehen.
-Für Postfix läge die mlmmj Konfigurationsanleitung zwar bei, aber hat ja irgendwie auch jeder und ist
+Den aus dem OpenBSD Umfeld entstandenen [OpenSMTPD](http://opensmtpd.org)
+wollte ich mir schon länger ansehen.  Für Postfix läge die mlmmj
+Konfigurationsanleitung zwar bei, aber hat ja irgendwie auch jeder und ist
 für unsere Zwecke viel zu bloated.
 
 ``` bash
 $ sudo aptitude install opensmtpd
 ```
 
-Die einzige Config, die es bei OpenSMTPD gibt, `/etc/smtpd.conf` liesst sich schön im Stil von `pf`.
+Die einzige Config, die es bei OpenSMTPD gibt, `/etc/smtpd.conf` liesst
+sich schön im Stil von `pf`.
 
 ``` bash
 # interfaces to listen
@@ -69,14 +75,15 @@ accept from local for local alias <aliases> deliver to mbox
 accept from local for any relay
 ```
 
-Habe etwas mit dem smtpd herumgespielt, gefällt mir richtig gut.
-Minimal gehalten und selbsterklärend. Danach noch das newaliases Pendant `smtpctl update table
-aliases` ausführen. Ansehen will man sich auch mal `smtpctl monitor` &lt;3
+Habe etwas mit dem smtpd herumgespielt, gefällt mir richtig gut.  Minimal
+gehalten und selbsterklärend. Danach noch das newaliases Pendant `smtpctl
+update table aliases` ausführen. Ansehen will man sich auch mal `smtpctl
+monitor` &lt;3
 
 ### Tests mit Swaks
 
-Gerade bei Mailsetups sind die Testszenarien etwas unschön abzuarbeiten. Das
-Swiss-Army-Knife-for-SMTP `swaks` hilft einem, das Zeug nicht jedesmal
+Gerade bei Mailsetups sind die Testszenarien etwas unschön abzuarbeiten.
+Das Swiss-Army-Knife-for-SMTP `swaks` hilft einem, das Zeug nicht jedesmal
 selbst über `telnet` eintippern zu müssen.
 
 ``` bash
@@ -102,7 +109,8 @@ $ swaks --server 56.78.90.46 --to k4cg+subscribe@k4cg.org --from noqqe@example.o
 <-  221 2.0.0: Bye
 ```
 
-Nach Test für subscribe/unsubscribe sollte man ebenfalls überprüfen, ob man nicht unter Umständen ein OpenRelay konfiguriert hat.
+Nach Test für subscribe/unsubscribe sollte man ebenfalls überprüfen, ob man
+nicht unter Umständen ein OpenRelay konfiguriert hat.
 
 ``` bash
 $ swaks --server 56.78.90.46 --to irgendwer@gmail.com --from noqqe@example.org

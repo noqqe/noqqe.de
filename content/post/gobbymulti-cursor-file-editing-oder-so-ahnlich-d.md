@@ -16,18 +16,22 @@ tags:
 - ubuntu
 ---
 
-Seit einigen Tagen spielen [CrackPod](http://crackpod.bplaced.net) und ich gleichzeitig zusammen an PythonDateien herum. Ich hab auch noch nicht verstanden wie das genau funktioniert.
+Seit einigen Tagen spielen [CrackPod](http://crackpod.bplaced.net) und ich
+gleichzeitig zusammen an PythonDateien herum. Ich hab auch noch nicht
+verstanden wie das genau funktioniert.
 
-Hier mal der Link zu Gobby: [http://gobby.0x539.de/trac/](http://gobby.0x539.de/trac/)
+Hier mal der Link zu Gobby:
+[http://gobby.0x539.de/trac/](http://gobby.0x539.de/trac/)
 
-
-> Gobby is a free collaborative editor supporting multiple documents in one session and a multi-user chat. It runs on Microsoft Windows, Mac OS X, Linux and other Unix-like platforms.
-
-
+> Gobby is a free collaborative editor supporting multiple documents in one
+> session and a multi-user chat. It runs on Microsoft Windows, Mac OS X,
+> Linux and other Unix-like platforms.
 
 {{< figure src="/uploads/2008/04/250px-Gobby-0.4.0-dev-linux.png" >}}
 
-Mithilfe eines Passworts lässt sich dann die Session betreten und mehrere Dokumente bearbeiten/anlegen. Dadurch sind wir dann auf die Idee gekommen uns unsere eigene kleine Welt zusammenzubasteln.
+Mithilfe eines Passworts lässt sich dann die Session betreten und mehrere
+Dokumente bearbeiten/anlegen. Dadurch sind wir dann auf die Idee gekommen
+uns unsere eigene kleine Welt zusammenzubasteln.
 
 
 ``` python
@@ -78,11 +82,11 @@ noqqe.__del__()
 noqqe.wieViele()
 ```
 
-
-
-oder wie immer hier : [http://paste.pocoo.org/show/79759/](http://paste.pocoo.org/show/79759/)
+oder wie immer hier :
+[http://paste.pocoo.org/show/79759/](http://paste.pocoo.org/show/79759/)
 
 Ausgabe sieht dann ungefähr wie folgt aus:
+
 ```
 noqqe Wird geboren
 Visit me on noqqe.de
@@ -105,4 +109,3 @@ Es gibt noch 1 Leute.
 ich bin der letzte
 crackpod ist tot!
 ```
-

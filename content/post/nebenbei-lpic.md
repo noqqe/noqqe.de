@@ -6,12 +6,22 @@ comments: true
 title: Nebenbei | LPIC
 aliases:
 - /archives/638
+categories:
+- Linux
+- Debian
+tags:
+- LPIC
+- Zertifikat
+- Certificate
 ---
 
-habe am 20.8.09 meine pruefung fuer lpic abgelegt. gestern kam das zertifikat.
+Habe am 20.8.09 meine Prüfung für LPIC abgelegt. Gestern kam das
+Zertifikat.
 
-> florian baumann has fulfilled the qulifications and achieved all requirements of the institutes program lpic 1 certification and is entitled to all honours and privileges associated with this achievment.
+> florian baumann has fulfilled the qulifications and achieved all
+> requirements of the institutes program lpic 1 certification and is
+> entitled to all honours and privileges associated with this achievment.
 
-hoert sich das gut an. desweiteren gabs noch eine art ausweis in ec-karten groesse. ausserdem hat ubuntu und das linux magazin mir noch zum bestehen gratuliert.  ich bedanke mich an dieser stelle ganz herzlich.
-
-greez, flo
+hört sich das gut an. desweiteren gabs noch eine art ausweis in ec-karten
+groesse. ausserdem hat ubuntu und das linux magazin mir noch zum bestehen
+gratuliert.

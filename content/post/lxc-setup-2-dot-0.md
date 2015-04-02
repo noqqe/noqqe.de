@@ -8,14 +8,16 @@ categories:
 - osbn
 - Debian
 - Linux
-- Bash
+- Shell
+tags:
 - LXC
 ---
 
-Es ist ja nun schon etwas her... da hab ich über mein initales Setup der LXC
-Container (ja ich weiss, das ist wie HIV Virus sagen) [gebloggt](/blog/2012/05/14/lxc-not-ready-for-production-huh/).
-Jedenfalls hat sich mein Setup, wie die Tools mittlerweile weiterentwickelt und
-Dinge haben sich geändert.
+Es ist ja nun schon etwas her... da hab ich über mein initales Setup der
+LXC Container (ja ich weiss, das ist wie HIV Virus sagen)
+[gebloggt](/blog/2012/05/14/lxc-not-ready-for-production-huh/).  Jedenfalls
+hat sich mein Setup, wie die Tools mittlerweile weiterentwickelt und Dinge
+haben sich geändert.
 
 {{< figure src="/uploads/2012/10/lxcsetup.png" >}}
 
@@ -24,7 +26,7 @@ Dinge haben sich geändert.
 Will man einen anderen Platz für seine LinuxContainer, dann kann man diesen
 in `/etc/default/lxc` definieren
 
-```
+``` bash
 # Directory containing the container configurations
 CONF_DIR=/etc/lxc
 # Start /etc/lxc/example.conf, /etc/lxc/autostart.conf, etc.
@@ -114,7 +116,7 @@ Das Default Config File scheint hier keine Rolle zu spielen. Deshalb hab ich
 mir hier auch meine eigene Clone Komponente geschrieben, da kann ich auch gleich
 das richtige Netzwerk konfigurieren.
 
-``` bash 
+``` bash
 function vm_clone () {
     if [ -z "$1" -o -z "$2" ] || [ ! -d "$LXC_DIRECTORY/$1" ]; then
         echo "ERROR: non-correct usage - see help"

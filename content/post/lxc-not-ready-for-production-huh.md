@@ -7,11 +7,19 @@ categories:
 - ubuntuusers
 - Linux
 - Debian
-- Web
 - Development
-- Virtualisierung
-keywords: "LXC, lxc, linux, linux container, container, thinkpad, wireless,
-bridge, wlan, lan, eth, vm, virtualisierung"
+tags:
+- LXC
+- linux
+- container
+- thinkpad
+- wireless
+- bridge
+- wlan
+- lan
+- eth
+- vm
+- virtualisierung
 ---
 
 Von [LinuX Containern](http://lxc.sourceforge.net) hab ich zum ersten Mal auf den

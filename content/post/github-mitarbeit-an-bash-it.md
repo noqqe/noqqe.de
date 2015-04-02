@@ -7,10 +7,10 @@ title: 'github | Mitarbeit an bash-it '
 aliases:
 - /archives/1420
 categories:
-- Bash
+- Shell
 - Development
-- git
 tags:
+- git
 - bash
 - bash-it
 - code

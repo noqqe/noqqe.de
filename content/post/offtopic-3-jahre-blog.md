@@ -6,6 +6,11 @@ comments: true
 title: Offtopic | 3 Jahre Blog
 aliases:
 - /archives/1536
+categories:
+- Blog
+tags:
+- Geburtstag
+- Wordpress
 ---
 
 Vor 3 Jahren hab ich hier [den ersten Blog](/archives/421) post verfasst.

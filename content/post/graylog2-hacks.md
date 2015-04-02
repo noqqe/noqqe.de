@@ -4,10 +4,10 @@ title: "graylog2 Hacks"
 date: 2012-08-28T20:24:00+02:00
 comments: true
 categories:
-- planetenblogger
-- Web
 - Debian
+- Web
 - Ubuntu
+tags:
 - CentOS
 - Development
 ---
@@ -60,23 +60,27 @@ Die Analytics Shell imho das Überfeature an graylog2. Die Queries finde ich abe
 etwas... dürftig dokumentiert.
 
 Zähle alle Logs die "Permission" beinhalten
+
 ```
 all.count(message = "Permission")
 20:57:29 - Completed in 8.57ms - Count result: 137
 ```
 
 Zeige die letzten 500
+
 ```
 all.find(message = "Permission denied")
 ```
 
 Zähle alle Logs eines Hosts die PHP Fehler "undefined variable" enthält
+
 ```
 all.count(host = "web01.example.org", message = "Undefined variable" )
 20:57:29 - Completed in 58.57ms - Count result: 13657
 ```
 
 Suche z.B. nach "CPU17: Core power limit notification (total events = 487717)"
+
 ```
 stream(503cd70cc029b530ef000015).find(message = "power")
 16:22:13 - Completed in 339.36ms
