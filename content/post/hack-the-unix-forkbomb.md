@@ -2,7 +2,6 @@
 date: 2009-11-30T22:24:46+02:00
 type: post
 slug: hack-the-unix-forkbomb
-status: publish
 comments: true
 title: Hack | The Unix Forkbomb
 aliases:

@@ -2,7 +2,6 @@
 date: 2010-02-24T19:40:51+02:00
 type: post
 slug: ftp-vsftpd-mit-mysql-userauth-und-fail2ban
-status: publish
 comments: true
 title: FTP | vsftpd mit MySQL-Userauth und fail2ban
 aliases:

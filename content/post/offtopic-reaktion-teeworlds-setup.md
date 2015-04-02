@@ -2,7 +2,6 @@
 date: 2010-01-30T16:53:04+02:00
 type: post
 slug: offtopic-reaktion-teeworlds-setup
-status: publish
 comments: true
 title: Offtopic | Reaktion Teeworlds-Setup
 aliases:

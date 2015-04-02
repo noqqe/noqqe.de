@@ -2,7 +2,6 @@
 date: 2010-07-16T16:39:16+02:00
 type: post
 slug: thunar-netzwerk-ressourcen-einbinden-mit-gigolo
-status: publish
 comments: true
 title: Thunar | Netzwerk-Ressourcen einbinden mit Gigolo
 aliases:

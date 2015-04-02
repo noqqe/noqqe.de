@@ -2,7 +2,6 @@
 date: 2009-01-14T21:40:24+02:00
 type: post
 slug: awk-und-syncn
-status: publish
 comments: true
 title: awk und syncN
 aliases:

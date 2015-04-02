@@ -2,7 +2,6 @@
 date: 2010-02-20T18:27:38+02:00
 type: post
 slug: apt-aktualisierungen-anzeigen-lassen
-status: publish
 comments: true
 title: Apt | Aktualisierungen anzeigen lassen
 aliases:

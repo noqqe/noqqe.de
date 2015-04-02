@@ -2,7 +2,6 @@
 date: 2009-03-07T11:34:58+02:00
 type: post
 slug: blog-random-text-pool
-status: publish
 comments: true
 title: Blog | Random-Text-Pool
 aliases:

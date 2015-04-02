@@ -2,7 +2,6 @@
 date: 2011-10-04T20:50:34+02:00
 type: post
 slug: deaddrop-sharing-in-baiersdorf
-status: publish
 comments: true
 title: 'DeadDrop | Sharing mit Alice and Bob in Baiersdorf '
 aliases:

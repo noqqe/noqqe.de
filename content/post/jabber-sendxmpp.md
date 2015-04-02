@@ -2,7 +2,6 @@
 date: 2009-05-09T19:28:30+02:00
 type: post
 slug: jabber-sendxmpp
-status: publish
 comments: true
 title: Jabber | sendXMPP
 aliases:

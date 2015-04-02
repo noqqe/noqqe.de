@@ -2,7 +2,6 @@
 date: 2008-07-04T09:02:39+02:00
 type: post
 slug: noqqede
-status: publish
 comments: true
 title: noqqe.de
 aliases:

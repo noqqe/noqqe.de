@@ -2,7 +2,6 @@
 date: 2009-03-07T14:15:44+02:00
 type: post
 slug: ubuntu-the-future-jaunty-jackalope-karmic-koala
-status: publish
 comments: true
 title: 'Ubuntu | The Future: Jaunty Jackalope & Karmic Koala'
 aliases:

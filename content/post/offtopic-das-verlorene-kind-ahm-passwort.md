@@ -2,7 +2,6 @@
 date: 2010-01-15T17:40:04+02:00
 type: post
 slug: offtopic-das-verlorene-kind-ahm-passwort
-status: publish
 comments: true
 title: Offtopic | Das verlorene Kind...ahm, Passwort
 aliases:

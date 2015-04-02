@@ -2,7 +2,6 @@
 date: 2009-04-16T09:59:27+02:00
 type: post
 slug: publications-tft-dvi-touchscreen-handout
-status: publish
 comments: true
 title: Publications | TFT - DVI - TouchScreen Handout
 aliases:

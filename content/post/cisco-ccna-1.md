@@ -2,7 +2,6 @@
 date: 2008-07-08T19:37:41+02:00
 type: post
 slug: cisco-ccna-1
-status: publish
 comments: true
 title: Cisco CCNA 1
 aliases:

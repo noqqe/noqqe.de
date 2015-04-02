@@ -2,7 +2,6 @@
 date: 2011-09-25T13:58:52+02:00
 type: post
 slug: taskwarrior-migration-von-mytinytodo
-status: publish
 comments: true
 title: 'Taskwarrior | Migration von MyTinyTodo '
 aliases:

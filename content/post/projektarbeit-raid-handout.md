@@ -2,7 +2,6 @@
 date: 2008-11-09T20:54:14+02:00
 type: post
 slug: projektarbeit-raid-handout
-status: publish
 comments: true
 title: 'Projektarbeit: RAID-Handout'
 aliases:

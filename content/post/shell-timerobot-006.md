@@ -2,7 +2,6 @@
 date: 2009-03-18T12:02:12+02:00
 type: post
 slug: shell-timerobot-006
-status: publish
 comments: true
 title: 'Shell | timeRobot 0.0.6 '
 aliases:

@@ -2,7 +2,6 @@
 date: 2010-03-16T19:19:58+02:00
 type: post
 slug: event-chemnitzer-linux-tage
-status: publish
 comments: true
 title: Event | Chemnitzer Linux-Tage
 aliases:

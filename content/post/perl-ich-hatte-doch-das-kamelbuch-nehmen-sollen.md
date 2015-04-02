@@ -2,7 +2,6 @@
 date: 2010-07-04T09:17:00+02:00
 type: post
 slug: perl-ich-hatte-doch-das-kamelbuch-nehmen-sollen
-status: publish
 comments: true
 title: Perl | Ich hätte doch das Kamelbuch nehmen sollen
 aliases:

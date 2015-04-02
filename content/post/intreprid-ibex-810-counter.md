@@ -2,7 +2,6 @@
 date: 2008-06-20T08:41:08+02:00
 type: post
 slug: intreprid-ibex-810-counter
-status: publish
 comments: true
 title: Intreprid Ibex 8.10 - Counter
 aliases:

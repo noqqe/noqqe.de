@@ -2,7 +2,6 @@
 date: 2010-04-24T10:44:11+02:00
 type: post
 slug: git-workflow-und-branching
-status: publish
 comments: true
 title: Git | Workflow und Branching
 aliases:

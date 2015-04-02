@@ -2,7 +2,6 @@
 date: 2010-02-10T19:37:53+02:00
 type: post
 slug: git-repositories-auf-server-anlegen
-status: publish
 comments: true
 title: Git | Repositories auf Server anlegen
 aliases:

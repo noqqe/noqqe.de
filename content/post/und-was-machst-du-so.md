@@ -2,7 +2,6 @@
 date: 2009-01-20T01:00:29+02:00
 type: post
 slug: und-was-machst-du-so
-status: publish
 comments: true
 title: und was machst du so?
 aliases:

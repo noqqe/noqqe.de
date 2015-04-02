@@ -2,7 +2,6 @@
 date: 2009-05-10T11:31:37+02:00
 type: post
 slug: linux-hardware-erkennung-in-ubuntu
-status: publish
 comments: true
 title: Linux | Hardware Erkennung in Ubuntu
 aliases:

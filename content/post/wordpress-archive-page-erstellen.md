@@ -2,7 +2,6 @@
 date: 2010-04-05T20:01:16+02:00
 type: post
 slug: wordpress-archive-page-erstellen
-status: publish
 comments: true
 title: Wordpress | Archive Page erstellen
 aliases:

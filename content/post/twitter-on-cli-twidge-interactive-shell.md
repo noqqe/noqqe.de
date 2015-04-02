@@ -2,7 +2,6 @@
 date: 2010-10-05T14:47:10+02:00
 type: post
 slug: twitter-on-cli-twidge-interactive-shell
-status: publish
 comments: true
 title: Twitter on CLI | Twidge Interactive Shell
 aliases:

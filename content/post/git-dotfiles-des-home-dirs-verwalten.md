@@ -2,7 +2,6 @@
 date: 2010-08-16T18:42:48+02:00
 type: post
 slug: git-dotfiles-des-home-dirs-verwalten
-status: publish
 comments: true
 title: Git | Dotfiles des Home-Dirs verwalten
 aliases:

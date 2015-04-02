@@ -2,7 +2,6 @@
 date: 2008-10-28T18:33:26+02:00
 type: post
 slug: zwetschgeorg-monitoring-mal-wieder
-status: publish
 comments: true
 title: Zwetschge.org Monitoring - mal wieder
 aliases:

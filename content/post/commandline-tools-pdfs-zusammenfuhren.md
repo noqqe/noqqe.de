@@ -2,7 +2,6 @@
 date: 2011-04-20T12:14:50+02:00
 type: post
 slug: commandline-tools-pdfs-zusammenfuhren
-status: publish
 comments: true
 title: Commandline Tools | PDFs zusammenführen
 aliases:

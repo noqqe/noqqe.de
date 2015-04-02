@@ -2,7 +2,6 @@
 date: 2010-10-19T20:35:18+02:00
 type: post
 slug: bash-zre-und-random
-status: publish
 comments: true
 title: Bash | ZRE und $RANDOM
 aliases:

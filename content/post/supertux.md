@@ -2,7 +2,6 @@
 date: 2008-06-27T17:09:24+02:00
 type: post
 slug: supertux
-status: publish
 comments: true
 title: SuperTux!
 aliases:

@@ -2,7 +2,6 @@
 date: 2011-03-26T14:45:37+02:00
 type: post
 slug: zre-sql-statistik-modul
-status: publish
 comments: true
 title: 'ZRE | SQL Statistik Modul '
 aliases:

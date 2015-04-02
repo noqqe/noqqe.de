@@ -2,7 +2,6 @@
 date: 2010-08-25T20:06:47+02:00
 type: post
 slug: gitosis-zweischneidigkeit-des-auth-verfahrens
-status: publish
 comments: true
 title: Gitosis | Zweischneidigkeit des Auth-Verfahrens
 aliases:

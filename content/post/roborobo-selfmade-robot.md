@@ -2,7 +2,6 @@
 date: 2010-04-11T10:40:28+02:00
 type: post
 slug: roborobo-selfmade-robot
-status: publish
 comments: true
 title: roborobo | selfmade robot
 aliases:

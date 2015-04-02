@@ -2,7 +2,6 @@
 date: 2010-04-02T19:24:51+02:00
 type: post
 slug: nagios-von-sprechenden-druckern-verpflichtungen-und-snmp
-status: publish
 comments: true
 title: Nagios | Von sprechenden Druckern, Verpflichtungen und SNMP
 aliases:

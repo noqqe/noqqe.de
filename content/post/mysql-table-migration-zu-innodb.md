@@ -2,7 +2,6 @@
 date: 2012-01-22T15:09:07+02:00
 type: post
 slug: mysql-table-migration-zu-innodb
-status: publish
 comments: true
 title: MySQL | Table Migration zu InnoDB
 aliases:

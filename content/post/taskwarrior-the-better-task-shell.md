@@ -2,7 +2,6 @@
 date: 2011-10-22T14:05:57+02:00
 type: post
 slug: taskwarrior-the-better-task-shell
-status: publish
 comments: true
 title: Taskwarrior | The better-task-shell
 aliases:

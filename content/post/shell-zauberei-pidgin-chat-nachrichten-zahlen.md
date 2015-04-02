@@ -2,7 +2,6 @@
 date: 2011-05-03T12:04:34+02:00
 type: post
 slug: pidgin-chat-nachrichten-zahlen
-status: publish
 comments: true
 title: Pidgin Chat-Nachrichten zählen
 aliases:

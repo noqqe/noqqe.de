@@ -2,7 +2,6 @@
 date: 2011-02-04T12:18:35+02:00
 type: post
 slug: statistiken-using-r-the-nerd-way
-status: publish
 comments: true
 title: Statistiken | Using R - The Nerd Way
 aliases:

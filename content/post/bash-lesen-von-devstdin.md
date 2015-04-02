@@ -2,7 +2,6 @@
 date: 2010-12-01T20:27:18+02:00
 type: post
 slug: bash-lesen-von-devstdin
-status: publish
 comments: true
 title: Bash | Lesen von /dev/stdin
 aliases:

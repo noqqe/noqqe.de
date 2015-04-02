@@ -2,7 +2,6 @@
 date: 2008-09-21T22:59:27+02:00
 type: post
 slug: verquirrlte-sch
-status: publish
 comments: true
 title: Verquirrlte Sch****
 aliases:

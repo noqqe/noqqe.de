@@ -2,7 +2,6 @@
 date: 2009-01-09T00:16:13+02:00
 type: post
 slug: syncn-marke-eigenbau
-status: publish
 comments: true
 title: syncN - Marke Eigenbau
 aliases:

@@ -2,7 +2,6 @@
 date: 2010-01-26T18:28:38+02:00
 type: post
 slug: web-paste-service-via-commandline-sprunge-us
-status: publish
 comments: true
 title: Web | Paste-Service via CommandLine (Sprunge.us)
 aliases:

@@ -2,7 +2,6 @@
 date: 2010-05-26T20:22:56+02:00
 type: post
 slug: bash-inkrement-methoden-und-effizienz
-status: publish
 comments: true
 title: Bash | Inkrement-Methoden und Effizienz
 aliases:

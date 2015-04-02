@@ -2,7 +2,6 @@
 date: 2009-10-07T08:07:24+02:00
 type: post
 slug: publications-projektdokumentation
-status: publish
 comments: true
 title: Publications | Projektdokumentation
 aliases:

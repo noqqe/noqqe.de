@@ -2,7 +2,6 @@
 date: 2008-06-14T12:18:19+02:00
 type: post
 slug: hardy-und-widescreen-jetzt-doch
-status: publish
 comments: true
 title: Hardy und Widescreen - jetzt doch ?
 aliases:

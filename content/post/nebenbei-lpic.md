@@ -2,7 +2,6 @@
 date: 2009-09-18T09:13:25+02:00
 type: post
 slug: nebenbei-lpic
-status: publish
 comments: true
 title: Nebenbei | LPIC
 aliases:

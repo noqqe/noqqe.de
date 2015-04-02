@@ -2,7 +2,6 @@
 date: 2010-04-21T10:35:43+02:00
 type: post
 slug: gitweb-urls-einbinden
-status: publish
 comments: true
 title: Gitweb | URLs einbinden
 aliases:

@@ -2,7 +2,6 @@
 date: 2010-09-07T19:19:26+02:00
 type: post
 slug: google-dank-der-us-army-ist-mir-street-view-egal
-status: publish
 comments: true
 title: Google | Dank der US-Army ist mir Street-View egal.
 aliases:

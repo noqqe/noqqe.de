@@ -2,7 +2,6 @@
 date: 2010-01-09T12:16:10+02:00
 type: post
 slug: mail-postfix-aliases-mit-mysql-backend-erstellen
-status: publish
 comments: true
 title: Mail | Postfix-Aliases mit MySQL-Backend erstellen
 aliases:

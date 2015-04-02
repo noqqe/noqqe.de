@@ -2,7 +2,6 @@
 date: 2010-02-15T08:39:42+02:00
 type: post
 slug: offtopic-endlich-mal-ein-schoner-ascii-art-generator
-status: publish
 comments: true
 title: Offtopic | Endlich mal ein schöner ASCII-Art-Generator
 aliases:

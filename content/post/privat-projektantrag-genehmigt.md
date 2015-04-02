@@ -2,7 +2,6 @@
 date: 2009-03-27T14:15:35+02:00
 type: post
 slug: privat-projektantrag-genehmigt
-status: publish
 comments: true
 title: Privat | Projektantrag genehmigt
 aliases:

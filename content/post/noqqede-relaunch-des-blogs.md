@@ -2,7 +2,6 @@
 date: 2009-02-23T17:06:57+02:00
 type: post
 slug: noqqede-relaunch-des-blogs
-status: publish
 comments: true
 title: noqqe.de - relaunch des blogs
 aliases:

@@ -2,7 +2,6 @@
 date: 2009-04-26T12:20:30+02:00
 type: post
 slug: server-ein-stuck-statistik
-status: publish
 comments: true
 title: Server | Ein Stück Statistik
 aliases:

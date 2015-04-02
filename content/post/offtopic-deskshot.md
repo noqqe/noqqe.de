@@ -2,7 +2,6 @@
 date: 2010-12-26T14:08:48+02:00
 type: post
 slug: offtopic-deskshot
-status: publish
 comments: true
 title: Offtopic | Deskshot.
 aliases:

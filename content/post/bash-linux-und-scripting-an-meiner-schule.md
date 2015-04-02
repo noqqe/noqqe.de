@@ -2,7 +2,6 @@
 date: 2010-05-20T20:03:32+02:00
 type: post
 slug: bash-linux-und-scripting-an-meiner-schule
-status: publish
 comments: true
 title: Bash | Linux und Scripting an meiner Schule
 aliases:

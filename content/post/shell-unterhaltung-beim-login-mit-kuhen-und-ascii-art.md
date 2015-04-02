@@ -2,7 +2,6 @@
 date: 2009-03-09T21:00:27+02:00
 type: post
 slug: shell-unterhaltung-beim-login-mit-kuhen-und-ascii-art
-status: publish
 comments: true
 title: Shell | Unterhaltung beim Login mit Kühen und Ascii-ART
 aliases:

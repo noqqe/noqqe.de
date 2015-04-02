@@ -2,7 +2,6 @@
 date: 2009-01-10T19:43:22+02:00
 type: post
 slug: unpack-301-ab-jetzt-als-deb-paket
-status: publish
 comments: true
 title: unpack-3.0.1 ab jetzt als .deb Paket
 aliases:

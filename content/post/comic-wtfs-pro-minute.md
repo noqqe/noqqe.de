@@ -2,7 +2,6 @@
 date: 2009-03-02T09:17:20+02:00
 type: post
 slug: comic-wtfs-pro-minute
-status: publish
 comments: true
 title: Comic | WTFs pro Minute
 aliases:

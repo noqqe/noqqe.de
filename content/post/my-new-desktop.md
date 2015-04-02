@@ -2,7 +2,6 @@
 date: 2008-06-30T21:58:57+02:00
 type: post
 slug: my-new-desktop
-status: publish
 comments: true
 title: My new Desktop
 aliases:

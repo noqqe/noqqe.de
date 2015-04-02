@@ -2,7 +2,6 @@
 date: 2010-11-22T21:30:35+02:00
 type: post
 slug: github-sinn-unsinn-interfaces-und-schon-wieder-zombies
-status: publish
 comments: true
 title: github | Sinn, Unsinn, Interfaces und schon wieder Zombies
 aliases:

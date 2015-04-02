@@ -2,7 +2,6 @@
 date: 2009-02-24T21:32:32+02:00
 type: post
 slug: mail-via-telnet-persohnlich-abliefern
-status: publish
 comments: true
 title: Mail | via Telnet persöhnlich abliefern
 aliases:

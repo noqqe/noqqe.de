@@ -2,7 +2,6 @@
 date: 2011-10-15T16:02:46+02:00
 type: post
 slug: git-and-the-unix-philosophy
-status: publish
 comments: true
 title: Git and the Unix philosophy
 aliases:

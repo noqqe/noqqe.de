@@ -2,7 +2,6 @@
 date: 2009-11-28T17:02:43+02:00
 type: post
 slug: teeworlds-version-0-5-2
-status: publish
 comments: true
 title: Teeworlds | Version 0.5.2
 aliases:

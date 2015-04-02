@@ -2,7 +2,6 @@
 date: 2010-10-09T17:28:58+02:00
 type: post
 slug: git-verschiedene-repos-zusammenfuhren
-status: publish
 comments: true
 title: 'Git | Verschiedene Repos zusammenführen '
 aliases:

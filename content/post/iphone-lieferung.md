@@ -2,7 +2,6 @@
 date: 2009-09-24T19:34:18+02:00
 type: post
 slug: iphone-lieferung
-status: publish
 comments: true
 title: iPhone | Lieferung
 aliases:

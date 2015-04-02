@@ -2,7 +2,6 @@
 date: 2010-08-29T22:31:32+02:00
 type: post
 slug: explain-shell-kommandos-visualisiert-erklaren
-status: publish
 comments: true
 title: Explain | Shell-Kommandos visualisiert erklären
 aliases:

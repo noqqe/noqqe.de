@@ -2,7 +2,6 @@
 date: 2008-09-29T09:22:13+02:00
 type: post
 slug: gnome-224
-status: publish
 comments: true
 title: Gnome 2.24
 aliases:

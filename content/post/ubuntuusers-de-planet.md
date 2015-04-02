@@ -2,7 +2,6 @@
 date: 2009-12-15T22:20:44+02:00
 type: post
 slug: ubuntuusers-de-planet
-status: publish
 comments: true
 title: Ubuntuusers.de-Planet
 aliases:

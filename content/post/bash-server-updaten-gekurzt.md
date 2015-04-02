@@ -2,7 +2,6 @@
 date: 2009-11-12T16:01:29+02:00
 type: post
 slug: bash-server-updaten-gekurzt
-status: publish
 comments: true
 title: bash | Server updaten gekürzt
 aliases:

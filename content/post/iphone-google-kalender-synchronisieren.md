@@ -2,7 +2,6 @@
 date: 2009-10-06T21:45:01+02:00
 type: post
 slug: iphone-google-kalender-synchronisieren
-status: publish
 comments: true
 title: iPhone | Google Kalender synchronisieren
 aliases:

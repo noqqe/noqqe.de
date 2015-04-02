@@ -2,7 +2,6 @@
 date: 2010-10-17T12:14:05+02:00
 type: post
 slug: bash-the-zombie-revolution-environment
-status: publish
 comments: true
 title: Bash | the zombie-revolution-environment
 aliases:
