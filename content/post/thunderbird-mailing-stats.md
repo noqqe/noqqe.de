@@ -6,34 +6,38 @@ comments: true
 categories:
 - Web
 - Statistik
+- Mail
+- Debian
+- ubuntuusers
+tags:
 - Thunderbird
 - Stats
 - Debian
 - Bash
 - Shell
-- ubuntuusers
 ---
 
-Ich habe schon öfter nach einem Thunderbird Plugin gesucht, dass mir ein paar
-kleine Statistiken aus meiner Mailbox bastelt. Zum Beispiel das
-[tbstats](http://tbstats.sourceforge.net/) Plugin welches aber leider (wie so ziemlich alles
-auf Sourceforge...) tot ist. Ich wurde durch [diesen Lifehacker Post](http://www.lifehacker.com.au/2012/03/what-lessons-could-you-learn-if-you-had-analytics-for-your-life/)
+Ich habe schon öfter nach einem Thunderbird Plugin gesucht, dass mir ein
+paar kleine Statistiken aus meiner Mailbox bastelt. Zum Beispiel das
+[tbstats](http://tbstats.sourceforge.net/) Plugin welches aber leider (wie
+so ziemlich alles auf Sourceforge...) tot ist. Ich wurde durch
+[diesen Lifehacker Post](http://www.lifehacker.com.au/2012/03/what-lessons-could-you-learn-if-you-had-analytics-for-your-life/)
 vor kurzem nochmal motiviert mir soetwas doch zu bauen, wenn es schon keine
 fertige Lösung für Thunderbird dafür gibt.
 
 ## Inbox
 
-Wie viele Mails bekommt man eigentlich so. Dieses Monat hat sichs extrem viel
-angefühlt. Aber aufs Gefühl verlassen? Wo kommen wir denn da hin.
+Wie viele Mails bekommt man eigentlich so. Dieses Monat hat sichs extrem
+viel angefühlt. Aber aufs Gefühl verlassen? Wo kommen wir denn da hin.
 
 Thunderbird hält seine Daten in
 
 > /home/&lt;user&gt;/.thunderbird/&lt;generisch&gt;.default/ImapMail/&lt;imapserver&gt;/Inbox
 
-Ab hier ist dann ein klein bisschen Shell Zauberei nötig, damit die Daten in
-gewünschter Form herausspringen:
+Ab hier ist dann ein klein bisschen Shell Zauberei nötig, damit die Daten
+in gewünschter Form herausspringen:
 
-``` bash 
+``` bash
 MAILDIR="/home/<user>/.thunderbird/<generisch>.default/ImapMail/<imapserver>/Inbox"
 PROJECT="../data/Mail/"
 $ echo "data.addColumn('string', 'Month');" > $PROJECT/Mails-per-Month-2012.csv
@@ -58,9 +62,9 @@ $ egrep "\s*id\ \S*\ for <yourmailaddress>;" $MAILDIR/INBOX | awk '{print $8"-"$
 
 Ich muss hier dazu sagen, dass sich der String des egrep von Provider zu
 Provider (oder SMTP Daemon) unterscheiden kann, genau wie das Format des
-Zeitstempels. Das musste
-ich auch beim Wechsel von 1und1 zu Uberspace feststellen. Den Output muss man dann
-nur noch zwischen ein Google Charts Template pasten und dann kann das ungefähr so aussehen:
+Zeitstempels. Das musste ich auch beim Wechsel von 1und1 zu Uberspace
+feststellen. Den Output muss man dann nur noch zwischen ein Google Charts
+Template pasten und dann kann das ungefähr so aussehen:
 
 <script type="text/javascript" src="https://www.google.com/jsapi"></script>
 <script type="text/javascript">
@@ -112,11 +116,12 @@ Archives/
     └── Inbox
 ```
 
-für jede dieser Inbox Verzeichnisse hab ich bis jetzt eine CSV Datei erstellt,
-die ich nun weiter verwenden kann.
+für jede dieser Inbox Verzeichnisse hab ich bis jetzt eine CSV Datei
+erstellt, die ich nun weiter verwenden kann.
 
 
-Eine modifizierte Version der Inbox Line baut mir die Daten in das folgende Format:
+Eine modifizierte Version der Inbox Line baut mir die Daten in das folgende
+Format:
 
 ```
 '2010-01', 155
@@ -129,7 +134,7 @@ Eine modifizierte Version der Inbox Line baut mir die Daten in das folgende Form
 Um diese Werte nun alle in eine Zeile zu bekommen schrob ich
 die folgenden Zeilen:
 
-``` bash 
+``` bash
 echo "['Month',  '2008',  '2009',  '2010',  '2011',  '2012'],"  > $PROJECT/Mails-per-Year.csv
 for y in {1..12}; do
     if [ ${#y} -eq 1 ]; then
@@ -183,13 +188,15 @@ chart.draw(data, options);
 
 ## Spam
 
-Das Thema Spam ist gerade aktuell für mich interessant, da ich meine [Provider gewechselt](/blog/2012/08/17/ich-wechselte-zu-uberspace-dot-de/)
+Das Thema Spam ist gerade aktuell für mich interessant, da ich meine
+[Provider gewechselt](/blog/2012/08/17/ich-wechselte-zu-uberspace-dot-de/)
 habe.
 
-Soetwas auszuwerten erfordert natürlich etwas... Motiviation und Separation.
-Motiviation weil man Spam nicht einfach löscht sondern in einen Ordner
-verschiebt, den man nachher auswerten kann und Separation (gibts das Wort
-eigentlich?) weil man klar unterscheiden muss was Spam ist und was nicht.
+Soetwas auszuwerten erfordert natürlich etwas... Motiviation und
+Separation.  Motiviation weil man Spam nicht einfach löscht sondern in
+einen Ordner verschiebt, den man nachher auswerten kann und Separation
+(gibts das Wort eigentlich?) weil man klar unterscheiden muss was Spam ist
+und was nicht.
 
 Klar die Werbemail von Paypal/Ebay  ist Spam. Aber Eigenverschuldeter. Ich
 unterscheide also zwischen Mails von denke zu wissen woher Sie kommen und

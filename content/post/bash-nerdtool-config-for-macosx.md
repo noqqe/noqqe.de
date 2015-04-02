@@ -2,13 +2,12 @@
 date: 2010-08-15T12:44:27+02:00
 type: post
 slug: bash-nerdtool-config-for-macosx
-status: publish
 comments: true
 title: Bash | NerdTool Config for MacOSX
 aliases:
 - /archives/1182
 categories:
-- Coding
+- Development
 - Mac
 - PlanetenBlogger
 tags:

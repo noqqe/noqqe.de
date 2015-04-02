@@ -2,14 +2,12 @@
 date: 2009-06-04T23:11:54+02:00
 type: post
 slug: shell-file-mit-beliebiger-groesse-erstellen
-status: publish
 comments: true
 title: Shell | File mit beliebiger Groesse erstellen
 aliases:
 - /archives/627
 categories:
-- Coding
-- General
+- Development
 - Linux
 tags:
 - bash
@@ -18,15 +16,14 @@ tags:
 - shell
 ---
 
-Manchmal kommt man nicht drum rum. Ich brauche ein File um etwas zu testen. Das File sollte ca 30 MB Gross sein. Aber wo bekomm ich sowas jetzt her?
+Manchmal kommt man nicht drum rum. Ich brauche ein File um etwas zu testen.
+Das File sollte ca 30 MB Gross sein. Aber wo bekomm ich sowas jetzt her?
 
-```
+``` bash
 dd if=/dev/zero of=testfile.dat bs=1M count=30
 ```
 
-bs=einheit
-
-count=zähler der Einheit
-
-1M x 30 = 30 MB
+* bs=einheit
+* count=zähler der Einheit
+* 1M x 30 = 30 MB
 

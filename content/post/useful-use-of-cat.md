@@ -5,6 +5,11 @@ date: 2013-09-08T20:28:00+02:00
 comments: true
 categories:
 - osbn
+- ubuntuusers
+- Development
+- Shell
+- Linux
+tags:
 - cat
 - useless
 - useful
@@ -13,14 +18,14 @@ categories:
 - unix
 - shell
 - usability
-- ubuntuusers
 ---
 
 Eine dieser langen Traditionen unter Unix Usern ist es über
-[useless-use-of-cat](https://en.wikipedia.org/wiki/Cat_\(Unix\)#Useless_use_of_cat) zu ragen. Unbegründet finde ich.
+[useless-use-of-cat](https://en.wikipedia.org/wiki/Cat_\(Unix\)#Useless_use_of_cat)
+zu ragen. Unbegründet finde ich.
 
-Auf Twitter erklärt jemand Map-Reduce mithilfe einer Versinnbildlichung unter
-Unix.
+Auf Twitter erklärt jemand Map-Reduce mithilfe einer Versinnbildlichung
+unter Unix.
 
 <blockquote class="twitter-tweet"><p>Explaining map/reduce to Unix folks <a
 href="http://t.co/mtF3SvFMaC">pic.twitter.com/mtF3SvFMaC</a></p>&mdash; Todor Genov (@tgenov) <a
@@ -61,7 +66,7 @@ der passenden Regex, wobei ich nicht jedes verdammte mal von `sed` die vollen
 10GB durchwühlen lassen möchte. Stattdessen arbeite ich eher nach folgendem
 Prinzip:
 
-``` bash 
+``` bash
 head access.log | sed 's/foo/bar/g' | [...]
 tail access.log | sed 's/foo/bar/g' | [...]
 # wenn ok

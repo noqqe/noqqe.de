@@ -4,18 +4,19 @@ title: "Orks und Zwerge im OpenLDAP"
 date: 2013-02-23T12:25:00+02:00
 comments: true
 categories:
-- OpenLDAP
-- LDAP
-- Verzeichnisdienste
 - Debian
 - Bash
 - ubuntuusers
 - osbn
+tags:
+- OpenLDAP
+- LDAP
+- Verzeichnisdienste
 ---
 
 Ich setzte mich gerade wegen [LPIC 301](http://www.lpi.org/linux-certifications/programs/lpic-3/exam-301)
-etwas mit [OpenLDAP](http://www.openldap.org/) auseinander. Um Dinge
-zu testen wie Replikation über syncrepl, Index Aufbau oder Accesslists für
+etwas mit [OpenLDAP](http://www.openldap.org/) auseinander. Um Dinge zu
+testen wie Replikation über syncrepl, Index Aufbau oder Accesslists für
 Gruppenadmins brauche ich Datensätze.
 
 Um diese Daten nicht alle von Hand schreiben zu müssen, hatte ich mir überlegt
@@ -33,11 +34,12 @@ done | sed -e 's#&szlig;#ss#g' -e 's#&uuml;#ue#g' -e 's#&auml;#ae#g' -e 's#&ouml
 ```
 
 Leider sind auf der Site keinerlei Informationen zur Lizenz oder ähnlichem
-angegeben. .oO(Auch wenn ich somit keinerlei Recht hätte die Namen für irgendwas zu benutzen sollte es
-für private Zwecke wohl ok sein, für was gäbs die Seite sonst?).
+angegeben. .oO(Auch wenn ich somit keinerlei Recht hätte die Namen für
+irgendwas zu benutzen sollte es für private Zwecke wohl ok sein, für was
+gäbs die Seite sonst?).
 
-Als erstes brauche ich aber eine Gruppe `ou=zwerge,dc=noqqe,dc=de` für die neuen User in meinem
-Verzeichnis.
+Als erstes brauche ich aber eine Gruppe `ou=zwerge,dc=noqqe,dc=de` für die
+neuen User in meinem Verzeichnis.
 
 ``` bash
 ./ldapmodify -a -xWD "cn=admin,dc=noqqe,dc=de" << EOF
@@ -86,12 +88,13 @@ while read name ; do
 done < $NAMEFILE
 ```
 
-Den Output des Skripts am Besten in ein File umleiten und dann mit ldapmodify
-zum Directory hinzufügen.
+Den Output des Skripts am Besten in ein File umleiten und dann mit
+ldapmodify zum Directory hinzufügen.
 
 ``` bash
 ./ldapmodify -ac -xWD "cn=admin,dc=noqqe,dc=de" -f zwerge.ldif
 ```
 
 Wichtig ist dabei das `-c` da ich innerhalb des Scripts keine Prüfung auf
-duplicates durchführe. Im Continuous Operation Mode macht OpenLDAP bei Fehlern einfach weiter mit dem LDIF File.
+duplicates durchführe. Im Continuous Operation Mode macht OpenLDAP bei
+Fehlern einfach weiter mit dem LDIF File.

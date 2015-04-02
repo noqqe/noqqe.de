@@ -4,22 +4,26 @@ title: "statistical und showterm.io"
 date: 2013-09-03T21:20:00+02:00
 comments: true
 categories:
+- Stats
+- osbn
+- Shell
+tags:
 - showterm
+- bash
 - ascii
 - terminal
 - recording
 - statistical
-- stats
 - graph
 - barchart
 - bar
 - github
-- osbn
 ---
 
-Glaubt man dem `git log` wars wohl irgendwann 2011 als ich [meinte](/blog/2011/04/14/statistical-statistiken-visualisieren-im-terminal/)
-, ich bräuchte jetzt umbedingt eine Möglichkeit Barcharts in meinem Terminal darstellen zu
-können.
+Glaubt man dem `git log` wars wohl irgendwann 2011 als ich
+[meinte](/blog/2011/04/14/statistical-statistiken-visualisieren-im-terminal/)
+, ich bräuchte jetzt umbedingt eine Möglichkeit Barcharts in meinem
+Terminal darstellen zu können.
 
 Ich bastelte in `bash` die beiden kleinen Skripte die im GitHub Repository
 [statistical](https://github.com/noqqe/statistical) sind.
@@ -29,11 +33,11 @@ konnte um schön darzustellen wie das Ergebnis aussieht. Abgesehen vom Pasten de
 Ausgabe in das readme.markdown File, was wie man sieht total hart gescheitert
 ist.
 
-Im fancy Internet denken sich aber Leute ziemlich coole Dinge wie [showterm.io](http://showterm.io)
-aus, mit denen man
-nicht den bloated Weg des "Video aufzeichnens" gehen oder gar total kaputte
-animierte Bildformate ausliefern muss. Was generiert und übertragen wird sind
-einfache Characters. Das erzeugt fast keinen Overhead und funktioniert auch noch
+Im fancy Internet denken sich aber Leute ziemlich coole Dinge wie
+[showterm.io](http://showterm.io) aus, mit denen man nicht den bloated Weg
+des "Video aufzeichnens" gehen oder gar total kaputte animierte Bildformate
+ausliefern muss. Was generiert und übertragen wird sind einfache
+Characters. Das erzeugt fast keinen Overhead und funktioniert auch noch
 ohne langes herumrechnen.
 
 <iframe src="http://showterm.io/0d0f510cb43b206350679#fast" width="670" height="510"></iframe>

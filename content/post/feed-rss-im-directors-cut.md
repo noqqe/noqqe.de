@@ -2,13 +2,12 @@
 date: 2009-03-07T15:10:56+02:00
 type: post
 slug: feed-rss-im-directors-cut
-status: publish
 comments: true
 title: Feed | RSS im Directors-Cut
 aliases:
 - /archives/542
 categories:
-- General
+- Blog
 tags:
 - atom
 - feed

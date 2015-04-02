@@ -2,14 +2,13 @@
 date: 2009-10-12T19:23:22+02:00
 type: post
 slug: debian-rsyslogd
-status: publish
 comments: true
 title: Debian | rsyslogd
 aliases:
 - /archives/686
 categories:
-- Coding
-- General
+- Development
+- Blog
 - Linux
 ---
 

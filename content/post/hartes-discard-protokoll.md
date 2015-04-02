@@ -5,12 +5,14 @@ date: 2014-11-04T19:30:00+02:00
 comments: true
 categories:
 - OpenBSD
+- osbn
+- Network
+tags:
 - inetd
 - discard
 - devnull-as-a-service
 - port
 - connection
-- osbn
 ---
 
 Ich habe verloren. Als ich gestern das OpenBSD unter

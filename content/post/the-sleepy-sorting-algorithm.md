@@ -5,9 +5,12 @@ date: 2012-11-25T14:53:00+02:00
 comments: true
 categories:
 - osbn
-- bash
+- Shell
+- Development
+- Web
+tags:
 - algorithm
-- shell
+- Bash
 - 4chan
 ---
 
@@ -34,4 +37,3 @@ ist natürlich was anderes.
 `./sleepsort.bash 5 3 6 3 6 3 1 4 7`
 
 Bzw. der Thread an sich ist auch lesenswert :P
-

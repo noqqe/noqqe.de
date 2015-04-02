@@ -2,13 +2,12 @@
 date: 2010-09-19T16:09:00+02:00
 type: post
 slug: tismc-this-is-static-markdown-content
-status: publish
 comments: true
 title: tismc | This is static markdown content!
 aliases:
 - /archives/1243
 categories:
-- Coding
+- Development
 - Debian
 - PlanetenBlogger
 - Web
@@ -25,13 +24,28 @@ tags:
 
 Vorher noch nie gehört? Kann auch gar nicht sein.
 
-Das sich gerade formierende Hobby-Eishockey-Team, dem ich angehöre, war bisher ohne großartige HomePage ausgekommen. Es bestanden kleine Basteleien unseren Captains, aber so wirklich vollständig war das dann auch nicht. Ich machte mich auf die Suche nach einem minimalen CMS. Irgendwas kleines Schönes, in dem wir unseren minimalen Content unterbringen können. Ausmaße wie etwa [Mytinytodo](http://mytinytodo.net) für Todo-Listen (von dem ich sehr begeistert bin ;) ). Ich wurde nicht wirklich fündig. Alle Tipps die ich bekam waren zu umfangreich und somit einfach Overkill.
+Das sich gerade formierende Hobby-Eishockey-Team, dem ich angehöre, war
+bisher ohne großartige HomePage ausgekommen. Es bestanden kleine Basteleien
+unseren Captains, aber so wirklich vollständig war das dann auch nicht. Ich
+machte mich auf die Suche nach einem minimalen CMS. Irgendwas kleines
+Schönes, in dem wir unseren minimalen Content unterbringen können. Ausmaße
+wie etwa [Mytinytodo](http://mytinytodo.net) für Todo-Listen (von dem ich
+sehr begeistert bin ;) ). Ich wurde nicht wirklich fündig. Alle Tipps die
+ich bekam waren zu umfangreich und somit einfach Overkill.
 
-Die Sache schlief irgendwie 1-2 Monate ein, bis ich von der [Markdown](http://daringfireball.net/projects/markdown/)-Language gehört habe. Diese Mischung aus .txt-File Syntax und HTML-Generator gefiel mir und ich dachte wieder an die Hockey-Page. Muss es immer PHP und SQL sein? Eigentlich nicht.
+Die Sache schlief irgendwie 1-2 Monate ein, bis ich von der
+[Markdown](http://daringfireball.net/projects/markdown/)-Language gehört
+habe. Diese Mischung aus .txt-File Syntax und HTML-Generator gefiel mir und
+ich dachte wieder an die Hockey-Page. Muss es immer PHP und SQL sein?
+Eigentlich nicht.
 
-Der Plan war: In einen Unterordner content/ für jede Seite ein *.markdown-File zu laden, aus welchem generisch die .html Files gebaut werden. Umgeben Natürlich von header.tmpl und footer.tmpl. Auf dem Filesystem sieht das in etwa so aus:
+Der Plan war: In einen Unterordner content/ für jede Seite ein
+*.markdown-File zu laden, aus welchem generisch die .html Files gebaut
+werden. Umgeben Natürlich von header.tmpl und footer.tmpl. Auf dem
+Filesystem sieht das in etwa so aus:
 
 
+```
     |-- content
     |   |-- 001.impressum.markdown
     |   |-- 001.index.markdown
@@ -42,14 +56,13 @@ Der Plan war: In einen Unterordner content/ für jede Seite ein *.markdown-File 
     |-- impressum.html
     |-- index.html
     |-- tismc.bash
+    |-- tmpl
+          |-- header.tmpl
+          `-- footer.tmpl
 ```
--- tmpl
-          |-- footer.tmpl
-```
--- header.tmpl
 
-
-Ein kleines Bashscript durchsucht den content/-Ordner und baut für jedes gefundene .markdown-File die HTML-Page.
+Ein kleines Bashscript durchsucht den content/-Ordner und baut für jedes
+gefundene .markdown-File die HTML-Page.
 
 ```
 $ ./tismc.bash
@@ -65,8 +78,17 @@ parsing content/001.index.markdown
 adding footer
 ```
 
-
-So kann auch mein Captain oder andere Dritte, neue Inhalte in die Page hochladen. Denn Markdown-Syntax ist nicht wirklich [kompliziert](http://markdown.de/syntax/). Allerdings gab es da noch ein Problem. Eigentlich drei. Die hießen header.tmpl, footer.tmpl und style.css. Ich bin in solchen Design-Dingen sehr schlecht, aber mein Berufsschulkollege [Holger](http://savier.zwetschge.org), der öfters mal wunderschöne Templates aus dem Ärmel schüttelt, sagte natürlich nicht nein und erstellte mir die nötigen Files <3. Unter [http://ice-bullocks.zwetschge.org](http://ice-bullocks.zwetschge.org) kann man das Ergebnis begutachten. Sind Leberkäse-Brötchen eigentlich anerkannte Währung unter Designern ?
+So kann auch mein Captain oder andere Dritte, neue Inhalte in die Page
+hochladen. Denn Markdown-Syntax ist nicht wirklich
+[kompliziert](http://markdown.de/syntax/). Allerdings gab es da noch ein
+Problem. Eigentlich drei. Die hießen header.tmpl, footer.tmpl und
+style.css. Ich bin in solchen Design-Dingen sehr schlecht, aber mein
+Berufsschulkollege [Holger](http://savier.zwetschge.org), der öfters mal
+wunderschöne Templates aus dem Ärmel schüttelt, sagte natürlich nicht nein
+und erstellte mir die nötigen Files <3. Unter
+[http://ice-bullocks.zwetschge.org](http://ice-bullocks.zwetschge.org) kann
+man das Ergebnis begutachten. Sind Leberkäse-Brötchen eigentlich anerkannte
+Währung unter Designern ?
 
 Den Source zum Anschauen gibts unter:
 [bash-script](http://git.zwetschge.org/?p=this-is-static-markdown-content.git;a=blob;f=tismc.bash)

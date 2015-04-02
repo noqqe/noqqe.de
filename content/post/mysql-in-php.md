@@ -2,15 +2,15 @@
 date: 2009-02-18T22:12:43+02:00
 type: post
 slug: mysql-in-php
-status: publish
 comments: true
 title: MySQL in PHP
 aliases:
 - /archives/496
 categories:
-- Coding
+- Development
 - Hardware
 - Linux
+- Databases
 tags:
 - abfrage
 - apache2
@@ -19,36 +19,41 @@ tags:
 - zufall
 ---
 
-Zuerstmal, lief [mein Test über MySQL](http://seufz.wordpress.com/2009/02/12/a-byte-of-mysql-eine-kurzreferenz/) in der Schule super :) Nachdem ich jetzt sowohl in PHP als auch MySQL unterrichtet wurde, hat mich dann doch intressiert wie sich die beiden in Kombination verhalten :) Die Datenbank die ich für "[A-byte-of-MySQL](http://zwetschge.org/publications/A-byte-of-MySQL.pdf)" erstellt habe diente als Test-Objekt:
+Zuerstmal, lief [mein Test über MySQL](http://seufz.wordpress.com/2009/02/12/a-byte-of-mysql-eine-kurzreferenz/)
+in der Schule super :) Nachdem ich jetzt sowohl in PHP als auch MySQL
+unterrichtet wurde, hat mich dann doch intressiert wie sich die beiden in
+Kombination verhalten :) Die Datenbank die ich für
+"[A-byte-of-MySQL](http://zwetschge.org/publications/A-byte-of-MySQL.pdf)"
+erstellt habe diente als Test-Objekt:
 
-**Wie fange ich an? **
+``` php
 mysql_connect('server','user','passwort');
 # Verbinde zu mysql auf Server mit Benutzer und folgendem Passwort
 
-**Wie wähle ich die zu verwendende Datenbank aus?**
+# Wie wähle ich die zu verwendende Datenbank aus?
 mysql_select_db("arbeit");
 
-**Wie definiere ich den Befehl der auszführen ist?**
+# Wie definiere ich den Befehl der auszführen ist?
 $sql="SELECT * FROM kollegen order by rand();";
 
-**Wie führe ich ihn aus?**
+# Wie führe ich ihn aus?
 $result = mysql_query($sql) OR die(mysql_error());
 
-**Wie gebe ich das Ergebnis aus?**
+# Wie gebe ich das Ergebnis aus?
 while ($row = mysql_fetch_assoc($result))
 {
 echo $row['ID']." ".$row['Name']." ".$row['Gehalt']." ".$row['Bereich']."
 ";
 }
 # Schleife: Für jeden Eintrag in der Datenbank eine Zeile erzeugen.
-
-**Verbindung schliessen.**
+# Verbindung schliessen.
 mysql_close();
 ?>
-
-**Komplett:**
-
 ```
+
+Komplett:
+
+``` php
 <html>
 <?php
 mysql_connect('server','user','passwort');

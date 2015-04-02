@@ -2,13 +2,12 @@
 date: 2009-12-02T18:37:16+02:00
 type: post
 slug: bash-timerobot-0-0-8
-status: publish
 comments: true
 title: bash | timeRobot 0.0.8
 aliases:
 - /archives/769
 categories:
-- Coding
+- Development
 - Linux
 tags:
 - backup

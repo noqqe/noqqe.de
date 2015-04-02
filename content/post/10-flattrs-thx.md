@@ -7,6 +7,8 @@ categories:
 - Flattr
 - Blog
 - Misc
+aliases:
+- /blog/2012/11/18/10-flattrs-thx/
 ---
 
 Woa! 10? Really? Hätte beim einbinden des Buttons ehrlich gesagt

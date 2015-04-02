@@ -2,13 +2,12 @@
 date: 2010-07-24T12:53:10+02:00
 type: post
 slug: 3dsupply-wie-man-kunden-kauft
-status: publish
 comments: true
 title: 3dsupply | Wie man Kunden kauft.
 aliases:
 - /archives/1142
 categories:
-- General
+- Blog
 - Web
 tags:
 - 3dsupply

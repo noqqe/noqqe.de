@@ -8,9 +8,16 @@ categories:
 - Debian
 - Shell
 - Web
+- Stats
+tags:
 - Sport
-keywords: "runkeeper, gnuplot, barchart, linechart, plot, bars, stats,
-statistics, Statistik, Geo, GPS, Calories, Shell, Bash, Script, HTML"
+- runkeeper
+- gnuplot
+- barchart
+- linechart
+- plot
+- bars
+- stats
 ---
 
 Seit ich angefangen habe Ausflüge durch Wälder und anderem grobem Gelände mit
@@ -45,7 +52,7 @@ spezifiziert sind.
 Zuerst schreibe ich alle meine Daten in die activity.dat. Ziemlich im CSV Stil,
 aber mir fiel nicht blöderes ein ohne SQL sprechen zu müssen.
 
-```
+``` csv
 # Add your data here to generate awesome graphs ;)
 # ID, Date,      Distance, Duration, Pace, Speed, Burned, Climb
   1,  2012-06-23, 14.07,    0.54,     3.54, 15.38, 458,    156

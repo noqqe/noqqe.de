@@ -5,12 +5,13 @@ date: 2012-04-20T08:52:00+02:00
 comments: true
 categories:
 - ubuntuusers
-- Web
 - Hardware
 - Debian
 - Linux
-keywords: "keyboard, tastatur, shortcuts, Tastenkombinationen, fn, f2, xfce,
-xev, sed, keycode, xmodmap"
+tags:
+- xfce
+- xorg
+- keyboard
 ---
 
 Zuerstmal sei gesagt, dass ich sowieso schon sehr begeistert bin wie viele von

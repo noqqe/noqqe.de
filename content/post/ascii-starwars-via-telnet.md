@@ -2,14 +2,13 @@
 date: 2010-11-08T19:22:13+02:00
 type: post
 slug: ascii-starwars-via-telnet
-status: publish
 comments: true
 title: ASCII | StarWars via Telnet
 aliases:
 - /archives/1351
 categories:
-- Coding
-- General
+- Development
+- Blog
 - PlanetenBlogger
 - Ubuntu
 - Web

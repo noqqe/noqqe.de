@@ -2,14 +2,13 @@
 date: 2011-12-11T20:45:18+02:00
 type: post
 slug: fbcmd-nie-wieder-geburtstage-vergessen-via-shell
-status: publish
 comments: true
 title: 'fbcmd | Nie wieder Geburtstage vergessen via Shell. '
 aliases:
 - /archives/1827
 categories:
 - Bash
-- Coding
+- Development
 - Debian
 - ubuntuusers
 - Web

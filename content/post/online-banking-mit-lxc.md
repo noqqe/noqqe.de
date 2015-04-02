@@ -6,8 +6,10 @@ comments: true
 categories:
 - osbn
 - ubuntuusers
+- Debian
+- crypto
+tags:
 - lxc
-- debian
 - chromium
 - onlinebanking
 - bank
@@ -17,9 +19,9 @@ categories:
 ---
 
 Das Thema Online Banking ist eines bei dem ich regelmäßig mit
-Bekannten/Verwandten aneinander geraten könnte. Bzw. es mittlerweile einfach sein lasse
-mich zu Diskussionen hinreissen zu lassen. Um halbwegs sicher zu sein, muss
-man dabei garnicht so viel beachten.
+Bekannten/Verwandten aneinander geraten könnte. Bzw. es mittlerweile
+einfach sein lasse mich zu Diskussionen hinreissen zu lassen. Um halbwegs
+sicher zu sein, muss man dabei garnicht so viel beachten.
 
 {{< figure src="/uploads/2013/11/birdienumnum.gif" >}}
 

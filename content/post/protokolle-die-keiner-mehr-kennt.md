@@ -4,6 +4,12 @@ title: "Ports low as fuck"
 date: 2013-05-06T20:11:00+02:00
 comments: true
 categories:
+- ubuntuusers
+- osbn
+- BSD
+- OpenBSD
+- Network
+tags:
 - Protokolle
 - inetd
 - Protokoll
@@ -12,25 +18,23 @@ categories:
 - TCP
 - UDP
 - IP
-- ubuntuusers
-- osbn
 ---
 
 Wenn ich Urlaub habe spiele ich [Dwarf Fortress](http://www.bay12games.com/dwarves/), bastle an
-<a href="http://coffeestats.org">coffeestats.org</a> und schaue mir Protokolle
-an, die kein Arsch mehr kennt.
+[coffeestats.org](coffeestats.org) und schaue mir Protokolle an, die kein
+Arsch mehr kennt.
 
 ### Port 9: Discard Protocol
 
-Erster Kandidat. Wow. Ein Protokoll das deine
-Message nimmt und wegwirft. Eingeführt wurde es aus Debugging Gründen.
-In den meisten Cases möchte ich wohl eher feststellen, dass das Netz
-funktioniert. Nicht umgekehrt. Vielleicht eine Art Null-Hypothese-Protokoll für
-den TCP/IP Stack.
+Erster Kandidat. Wow. Ein Protokoll das deine Message nimmt und wegwirft.
+Eingeführt wurde es aus Debugging Gründen.  In den meisten Cases möchte ich
+wohl eher feststellen, dass das Netz funktioniert. Nicht umgekehrt.
+Vielleicht eine Art Null-Hypothese-Protokoll für den TCP/IP Stack.
 
 {{< figure src="/uploads/2013/05/whaaat.gif" >}}
 
-Wie die meisten der nachfolgenden Protokolle ist [Discard](http://tools.ietf.org/html/rfc863) in (openbsd-)inetd enthalten
+Wie die meisten der nachfolgenden Protokolle ist
+[Discard](http://tools.ietf.org/html/rfc863) in (openbsd-)inetd enthalten
 und können durch einen einfachen Eintrag aktiviert und zum Spielen benutzt
 werden.
 

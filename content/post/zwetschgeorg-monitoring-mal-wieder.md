@@ -2,11 +2,11 @@
 date: 2008-10-28T18:33:26+02:00
 type: post
 slug: zwetschgeorg-monitoring-mal-wieder
-status: publish
 comments: true
 title: Zwetschge.org Monitoring - mal wieder
 aliases:
 - /archives/311
+- /blog/2008/10/28/zwetschge.org-monitoring-mal-wieder/
 categories:
 - Hardware
 - Linux
@@ -19,8 +19,6 @@ tags:
 - server
 - zwetschge.org
 ---
-
-[http://zwetschge.org/monitoring.php](http://zwetschge.org/monitoring.php)
 
 Weder sauber geschrieben noch schön formatiert - aber tut seinen Zweck.
 

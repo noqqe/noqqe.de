@@ -2,13 +2,12 @@
 date: 2009-02-24T18:29:20+02:00
 type: post
 slug: favicon-in-wordpress
-status: publish
 comments: true
 title: html | Favicon in Wordpress
 aliases:
 - /archives/514
 categories:
-- General
+- Blog
 - Linux
 tags:
 - favicon

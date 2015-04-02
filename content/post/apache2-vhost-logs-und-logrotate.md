@@ -2,13 +2,12 @@
 date: 2010-03-31T20:12:03+02:00
 type: post
 slug: apache2-vhost-logs-und-logrotate
-status: publish
 comments: true
 title: Apache2 | vhost-Logs und logrotate
 aliases:
 - /archives/946
 categories:
-- Coding
+- Development
 - Linux
 - ubuntuusers
 tags:

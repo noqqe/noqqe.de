@@ -2,14 +2,13 @@
 date: 2011-12-21T17:30:58+02:00
 type: post
 slug: arduino-ich-bau-mir-einen-synthesizer
-status: publish
 comments: true
 title: Arduino | Ich bau mir einen Synthesizer
 aliases:
 - /archives/1833
 categories:
-- Coding
-- General
+- Development
+- Blog
 - Hardware
 - PlanetenBlogger
 - Web

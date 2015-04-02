@@ -2,13 +2,12 @@
 date: 2010-05-22T09:09:35+02:00
 type: post
 slug: bash-scripting-aufgabe-school
-status: publish
 comments: true
 title: Bash | Scripting-Aufgabe @ School
 aliases:
 - /archives/1011
 categories:
-- Coding
+- Development
 - Linux
 ---
 

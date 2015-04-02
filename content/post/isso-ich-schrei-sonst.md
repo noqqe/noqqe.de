@@ -4,13 +4,16 @@ title: "Isso - Ich schrei sonst"
 date: 2013-11-10T15:50:00+02:00
 comments: true
 categories:
+- osbn
+- Blog
+tags:
 - isso
 - disqus
-- osbn
 - kommentare
 - comments
-- blog
 - octopress
+aliases:
+- /blog/2013/11/10/isso-ich-schrei-sonst/
 ---
 
 {{< figure src="/uploads/2013/11/machines.jpg" >}}
@@ -27,7 +30,7 @@ Abweichend von der Anleitung die auf Debian/Ubuntu Systeme abziehlt ist die
 Installation dank guter Python Packages unter [OpenBSD](http://openbsd.org)
 easy.
 
-``` bash 
+``` bash
 $ sudo pkg_add py-pip
 $ sudo pip install isso
 ```

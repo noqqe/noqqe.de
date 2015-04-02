@@ -5,11 +5,15 @@ date: 2012-08-26T12:30:00+02:00
 comments: true
 categories:
 - ubuntuusers
-- Web
-- Coding
+- Development
 - Debian
 - Bash
 - Shell
+tags:
+- Google
+- Chrome
+- Browser
+- Browsing
 ---
 
 Im O'reilly Blog habe ich letztens einen [interessanten Ausschnitt](http://community.oreilly.de/blog/2012/08/10/auszug-aus-computer-forensik-hacks-teil-3/) aus
@@ -25,7 +29,7 @@ In der SQLite Datenbank unter
 speichert Chrome seine History Daten. Einen der Queries die ich als erstes probiert habe, war herauszufinden welche
 Seiten ich eigentlich am meisten Besuche
 
-``` sql 
+``` sql
 SELECT urls.title, urls.visit_count
   FROM urls
   ORDER BY urls.visit_count DESC
@@ -50,7 +54,7 @@ GitHub|280
 Für Searches pflegt Chrome hier in einer eigenen Table. Simpler
 Inner Join, alles klar.
 
-``` sql 
+``` sql
 SELECT SUM(keyword_search_terms.keyword_id)
   FROM keyword_search_terms, urls, visits
   WHERE urls.id = keyword_search_terms.url_id
@@ -60,7 +64,7 @@ SELECT SUM(keyword_search_terms.keyword_id)
 13154 Google Searches. Mich würde aber noch interessieren wie sich das verteilt
 pro Monat oder so vielleicht.
 
-``` bash 
+``` bash
 DEST=/home/noqqe/.config/google-chrome/Default/History
 for x in {1..12}; do
     if [ ${#x} -eq 1 ]; then x="0$x"; fi
@@ -89,7 +93,7 @@ So sieht das schon besser aus :) Zu dem seltsam aussehenden Date String gleich m
 
 ## Wie lange surfe ich eigentlich so im Monat?
 
-``` sql 
+``` sql
 SELECT SUM((strftime('%s',datetime(visits.visit_duration/1000000-11644473600,'unixepoch', 'localtime')) - strftime('%s','1601-01-01 00:00:00')))
   FROM urls, visits
   WHERE urls.id = visits.url
@@ -100,7 +104,7 @@ Seien wir ehrlich, das sieht schlimm aus. Warum? Weil Chrome seine Zeitstempel
 nicht im Default Epoch abspeichert sondern in Mikrosekunden seit
 dem 1.1.1601, 00:00:00. Das ist ziemlich doof und aufwändig.
 
-``` bash 
+``` bash
 _hms() {
  local S=${1}
  ((h=S/3600))
@@ -149,7 +153,7 @@ Trotzdem halte ich die Kennzahl für aussagefähig.
 Aber nun zur Eingangs erwähnten Frage. Ein bisschen kombinierte Queries von oben
 hier und da und schon kommt das raus was man möchte:
 
-``` bash 
+``` bash
 for x in {1..12}; do
     if [ ${#x} -eq 1 ]; then x="0$x"; fi
     echo -n "2012-$x - "
@@ -173,7 +177,7 @@ done
 
 Jetzt kenn ich meine Visits..aber wie siehts mit der Dauer aus?
 
-``` bash 
+``` bash
 for x in {1..12}; do
     if [ ${#x} -eq 1 ]; then x="0$x"; fi
     echo -n "2012-$x - "

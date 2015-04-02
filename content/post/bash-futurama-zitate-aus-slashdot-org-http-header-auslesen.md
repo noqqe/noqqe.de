@@ -2,15 +2,14 @@
 date: 2010-09-26T14:56:42+02:00
 type: post
 slug: bash-futurama-zitate-aus-slashdot-org-http-header-auslesen
-status: publish
 comments: true
 title: Bash | Futurama Zitate aus slashdot.org HTTP-Header auslesen
 aliases:
 - /archives/1255
 categories:
-- Coding
+- Development
 - Debian
-- General
+- Blog
 - ubuntuusers
 - Web
 tags:

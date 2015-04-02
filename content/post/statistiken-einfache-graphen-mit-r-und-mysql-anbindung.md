@@ -2,24 +2,21 @@
 date: 2011-10-02T23:58:50+02:00
 type: post
 slug: statistiken-einfache-graphen-mit-r-und-mysql-anbindung
-status: publish
 comments: true
 title: Statistiken | Einfache Graphen mit R und MySQL Anbindung
 aliases:
 - /archives/1780
 categories:
 - Bash
-- Coding
+- Development
 - Debian
-- General
-- git
+- Blog
 - Linux
-- SQL
+- Databases
 - Ubuntu
 - ubuntuusers
-- Web
-- R
 tags:
+- Web
 - analyse
 - anbindung
 - einfach
@@ -86,8 +83,6 @@ werden hierbei jetzt als Matrix an ein Balkendiagram übergeben. Weitere
 Informationen wie die Überschrift (main) und die Beschreibung der Balken
 (names.arg) werden einfach angefügt.
 
-
-
 ``` r
 sql <- paste("SELECT COUNT(id) AS sum, side FROM zombies.zre_wins GROUP BY side;")
 zre_wins <- dbGetQuery(con, sql)
@@ -101,7 +96,6 @@ barplot(as.matrix(zre_wins$sum), main="Game Summary", names.arg=c(zre_wins$side)
 Selbes Spiel wieder, nur mit mehr Balken und anderem Use-Case. Diesmal werden
 die 25 Konflikte mit den meisten Opfern visualisiert.
 
-
 ``` r
 sql <- paste("SELECT id, kills FROM zombies.zre_kills ORDER BY kills DESC LIMIT 25;")
 zre_matches_highest <- dbGetQuery(con,sql)
@@ -112,8 +106,9 @@ barplot(zre_matches_highest$kills, zre_matches_highest$id, main="25 Highest Kill
 
 {{< figure src="/uploads/2011/10/50highest.png" >}}
 
-Aber da Balkendiagramme auch irgendwann Langweilig werden geht das natürlich auch anders. Die 25 letzten Konflikte werden im "Opferverlauf" wie folgt dargestellt:
-
+Aber da Balkendiagramme auch irgendwann Langweilig werden geht das
+natürlich auch anders. Die 25 letzten Konflikte werden im "Opferverlauf"
+wie folgt dargestellt:
 
 ``` r
 sql <- paste("SELECT kills FROM zombies.zre_kills ORDER BY id DESC limit 25;")
@@ -130,7 +125,6 @@ plot(zre_kills$kills, xlab="Games", type="b", ylab="Kills", main="Kills from las
 
 Damit es nicht immer nur um Tote geht, auch mal was erfreuliches. Die Geburtenrate in ZRE steigt! :)
 
-
 ``` r
 sql <- paste("SELECT Month(date) AS month, count(id) AS born FROM (SELECT *, Month(date) AS M FROM zombies.zre_born) t Group by M; ")
 zre_birthrate <- dbGetQuery(con,sql)
@@ -139,7 +133,6 @@ par(col="white", bg="transparent", col.axis="white", col.lab="white", col.main="
 barplot(zre_birthrate$born, xlab="Month", ylab="Born Humans/Zombies", names.arg=c(zre_birthrate$month),main="BirthRate per Month", col=zre_colors)
 ```
 
-
 {{< figure src="/uploads/2011/10/birthrate.png" >}}
 
 Und auch das Wetter soll bei der ganzen Sache nicht zu kurz kommen. Hierbei
@@ -147,7 +140,6 @@ bitte besonderes Augenmerk auf die Legende rechts oben. Eine direkte Zuordnung
 der Werte und Farben ist nicht nötig, da die Farben in der selben Reihenfolge
 von zre_colors befüllt werden wie die Balken. Die erschreckend hohe Zahl an
 Naturkatastrophen erklärt das aber trotzdem nicht :)
-
 
 ``` r
 sql <- paste("SELECT COUNT(id) AS count, weather FROM zombies.zre_weather GROUP BY weather ORDER BY count DESC;")
@@ -158,8 +150,7 @@ barplot(zre_weather[,1], main="Weather in ZRE", beside = TRUE, col=zre_colors)
 legend( 5, 40000, zre_weather$weather, cex=0.9, fill=zre_colors, col="white")
 ```
 
-
 {{< figure src="/uploads/2011/10/weather.png" >}}
 
-Das volle zre.R Skript befindet sich wie das meiste auf Github: [https://gist.github.com/1031260](https://gist.github.com/noqqe/1031260)
-
+Das volle zre.R Skript befindet sich wie das meiste auf Github:
+[https://gist.github.com/1031260](https://gist.github.com/noqqe/1031260)

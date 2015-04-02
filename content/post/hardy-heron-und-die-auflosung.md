@@ -2,7 +2,6 @@
 date: 2008-06-12T14:38:24+02:00
 type: post
 slug: hardy-heron-und-die-auflosung
-status: publish
 comments: true
 title: Hardy Heron und die Auflösung
 aliases:
@@ -15,13 +14,23 @@ tags:
 - ubuntu
 ---
 
-Never Ending Story möchte ich fast schon sagen. Kann an der aktuellen Beruffschulwoche und dem Lernstress liegen aber ich bekomm es einfach nicht hin!!!
+Never Ending Story möchte ich fast schon sagen. Kann an der aktuellen
+Beruffschulwoche und dem Lernstress liegen aber ich bekomm es einfach nicht
+hin!!!
 
-Die Einstellungen wollen einfach nicht so wie ich mir das vorstelle! Breitbildauflösüng = Fehlanzeige.Ich sitz hier allen Ernstes mit 1280x1024 und Tippe diesen Eintrag. Ich schaff es einfach nicht und ich hab auch nicht genug Zeit mich wirklich darum zu kümmern.
+Die Einstellungen wollen einfach nicht so wie ich mir das vorstelle!
+Breitbildauflösüng = Fehlanzeige.Ich sitz hier allen Ernstes mit 1280x1024
+und Tippe diesen Eintrag. Ich schaff es einfach nicht und ich hab auch
+nicht genug Zeit mich wirklich darum zu kümmern.
 
-Jedesmal wenn ich eine falsche Einstellung wähle muss ich sowieso erst neu booten im recoverymodus, xserver fixen und dann normal wieder mit 640x400 neustarten.
+Jedesmal wenn ich eine falsche Einstellung wähle muss ich sowieso erst neu
+booten im recoverymodus, xserver fixen und dann normal wieder mit 640x400
+neustarten.
 
-Ich geh dran kaputt, ich sags euch. Im allgemeinen läufts aber auch nich umbedingt besser. Der Kartenleser für SD funktioniert auch hier nicht. Also steht schonmal ein Hardware problem fest. Die MS geht wunderbar. Aber mein Gott.
+Ich geh dran kaputt, ich sags euch. Im allgemeinen läufts aber auch nich
+umbedingt besser. Der Kartenleser für SD funktioniert auch hier nicht. Also
+steht schonmal ein Hardware problem fest. Die MS geht wunderbar. Aber mein
+Gott.
 
 Ich werds noch etwas versuchen.
 
@@ -32,6 +41,7 @@ Plug and Play Monitor: Nur 640x400 auswählbar!? (Danke video7 Bildschirm)
 LCD 1680x1050 : Auch nicht mehr auswählbar.
 
 Haken bei "widescreen" gesetzt: folgende Fehlermeldung:
+
 ```
 $ npx@kiwi:~$ sudo gksu displayconfig-gtk
 [sudo] password for npx:
@@ -48,8 +58,6 @@ IndexError: list index out of range
 ```
 
 
-Absolut Klasse. Im moment verbring ich meine Zeit damit entwerder Herrauszufinden wo das problem liegt bei GKSU oder ich probiere Wahllos irgendwelche 22" WideScreens aus ob es klappen könnte!
-
-sehr frustriert,
-
-Flo
+Absolut Klasse. Im moment verbring ich meine Zeit damit entwerder
+Herrauszufinden wo das problem liegt bei GKSU oder ich probiere Wahllos
+irgendwelche 22" WideScreens aus ob es klappen könnte!

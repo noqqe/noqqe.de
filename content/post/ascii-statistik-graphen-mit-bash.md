@@ -7,7 +7,7 @@ categories:
 - ubuntuusers
 - Bash
 - Web
-- Coding
+- Development
 tags:
 - ascii
 - statistics

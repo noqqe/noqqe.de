@@ -5,6 +5,9 @@ date: 2014-03-02T12:09:00+02:00
 comments: true
 categories:
 - OpenBSD
+- osbn
+- BSD
+tags:
 - Log
 - Nginx
 - Logrotate
@@ -13,7 +16,6 @@ categories:
 - rotation
 - FreeBSD
 - oBSD
-- osbn
 ---
 
 Seit mittlerweile fast 3 Releases setze ich [OpenBSD](http://openbsd.org) auf

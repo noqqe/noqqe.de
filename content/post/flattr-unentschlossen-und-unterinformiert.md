@@ -2,13 +2,12 @@
 date: 2010-06-04T18:00:22+02:00
 type: post
 slug: flattr-unentschlossen-und-unterinformiert
-status: publish
 comments: true
 title: 'Flattr | Unentschlossen und unterinformiert. '
 aliases:
 - /archives/1024
 categories:
-- General
+- Blog
 - PlanetenBlogger
 tags:
 - $$$

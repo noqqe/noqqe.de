@@ -4,14 +4,17 @@ title: "MariaDB, Galera Cluster und LXC"
 date: 2013-06-02T19:45:00+02:00
 comments: true
 categories:
+- Debian
+- Stats
+- Administration
+- osbn
+- ubuntuusers
+tags:
 - MariaDB
 - Galera
 - LXC
-- Debian
 - Container
 - Statistik
-- osbn
-- ubuntuusers
 ---
 
 Eingestaubt, Zukunft ungewiss. Weg von MySQL. Zeit sich endlich mal
@@ -30,7 +33,7 @@ Ich habe zwei Maschinen nach
 aufgesetzt. Die restlichen Maschinen hab ich mit
 [mlxc](https://gist.github.com/noqqe/2693967) geklont.
 
-``` bash 
+``` bash
 $ C=36
 $ for x in {3..7} ; do
 >  mlxc clone vm35-mariadb2 vm${C}-mariadb$x
@@ -64,7 +67,7 @@ Active-Active Multi-Master. Gibts für einen Sysadmin eigentlich
 eine schönere Kombination von 4 Wörtern? Für die Tests brauchte ich eine
 Database.
 
-``` sql 
+``` sql
 CREATE DATABASE test ;
 CREATE TABLE test1 (id INT, data VARCHAR(100) );
 ```
@@ -78,7 +81,7 @@ gute Ergebnisse liefert hatten wir ja
 Im Endeffekt wird nur ein zufälliger Host ausgewählt, `INSERT`/`SELECT`
 ausgeführt und Output generiert.
 
-``` bash 
+``` bash
 $ for x in {1..1000} ; do
 >  H="10.10.0.$((RANDOM % 7 + 34))"
 >  echo -n "Write ID $x on $H: "
@@ -104,7 +107,7 @@ im Millisekundentakt mit `INSERT` Statements.
 Auch deswegen hab ich es mir nicht nehmen lassen das Ergebnis erstmal zu
 verifizieren.
 
-``` bash 
+``` bash
 $ for x in {34..40} ; do
 >   echo -n "No. of Entries on 10.10.0.$x: "
 >   mysql -BNe 'SELECT COUNT(id) from test.test1;' -h 10.10.0.$x -u root -ppassword
@@ -128,7 +131,7 @@ das null representativ, weil weder richtiges Netzwerk dazwischen ist,
 noch verschiedene Platten. Um ein bisschen Gefühl für die Angelegenheit zu
 bekommen wars aber hilfreich.
 
-``` bash 
+``` bash
 for x in {1..10000} ; do
   H="10.10.0.$((RANDOM % 7 + 34))"
   (time mysql -BN -u root -ppassword -h $H -e "INSERT INTO test.test1 (id,data) VALUES ($x , 'foo');" ) 2>&1 | grep real
@@ -137,7 +140,7 @@ done > latency.txt
 
 Die Zahlen hab ich dann noch in `R` geschmissen.
 
-``` bash 
+``` bash
      seconds
  Min.   :0.00600
  1st Qu.:0.01100

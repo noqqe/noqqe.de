@@ -5,9 +5,11 @@ date: 2012-10-10T20:55:00+02:00
 comments: true
 categories:
 - osbn
-- bash
-- Debian
 - Web
+- Debian
+- Shell
+tags:
+- bash
 - Google
 - Runkeeper
 - GPX
@@ -22,19 +24,15 @@ Auch Runkeeper hat das anscheinend zu würdigen gewusst. Das dieser Dienst immer
 mein Begleiter ist habe ich ja schon [hier](/blog/2012/07/02/paying-5-bucks-a-month-for-stupid-statistics/)
 erwähnt.
 
-
-{% pullquote %}
 Das Ende der Saison ist auch mal eine Möglichkeit ein Resümee zu ziehen. Kurz
 hier ein paar Graphen gebaut und dort ein paar Dinge getan. Nicht
 erwähnenswertes innerhalb meines runkeeper-statistics Projekts. Aber irgendwie fehlte was.
 Eine Karte oder so. Wo war ich eigentlich überall?
 Zum Glück bietet Runkeeper eine Export Funktion für GPX Dateien an.
-{"Eine Google Maps Karte mit allen Trails? Yay!"}
 Das Ziel ist alle Trails in ein GPX Datei zusammen zu
 mergen und das dann in eine KML Datei zu converten. KML Dateien kann ich bei
 Google Maps einfach per HTTP Pfad in das Suchfeld einkippen und diese werden
 gleich interpretiert.
-{% endpullquote %}
 
 Ich hatte schon kurz gedacht
 ich muss nun doch zum Geldbeutel greifen, aber Export ist auch kostenlos verfügbar.
@@ -46,7 +44,7 @@ das wohl nicht sein :)
 
 Erster Schritt: Header in eine Textdatei `combined.gpx` einfügen
 
-``` xml 
+``` xml
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx
   version="1.1"
@@ -60,7 +58,7 @@ Erster Schritt: Header in eine Textdatei `combined.gpx` einfügen
 Jetzt eine kleine Parsing Party in der ich alles von &lt;trk&gt; bis &lt;/trk&gt; heraus schneide und an die Datei
 `combined.gpx` zusammenfüge.
 
-``` bash 
+``` bash
 sed -ne '/^<trk>/,/<\/trk>/p' *.gpx >> combined.gpx
 ```
 

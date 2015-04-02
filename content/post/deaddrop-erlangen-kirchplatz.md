@@ -2,13 +2,12 @@
 date: 2011-08-25T19:00:33+02:00
 type: post
 slug: deaddrop-erlangen-kirchplatz
-status: publish
 comments: true
 title: DeadDrop | Erlangen Kirchplatz
 aliases:
 - /archives/1747
 categories:
-- General
+- Blog
 - Hardware
 - PlanetenBlogger
 tags:

@@ -2,14 +2,13 @@
 date: 2010-11-24T18:14:57+02:00
 type: post
 slug: bash-it-n0qorg-theme-und-git_info
-status: publish
 comments: true
 title: bash-it | n0qorg theme und git_info
 aliases:
 - /archives/1389
 categories:
-- Coding
-- General
+- Development
+- Blog
 - git
 - PlanetenBlogger
 tags:

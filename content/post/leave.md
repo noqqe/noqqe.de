@@ -4,13 +4,14 @@ title: "leave"
 date: 2015-01-24T10:34:00+02:00
 comments: true
 categories:
-- NetBSD
 - OpenBSD
-- leave
-- CLI
-- Commandline
 - osbn
 - ubuntuusers
+tags:
+- leave
+- CLI
+- NetBSD
+- Commandline
 ---
 Die Tage bin ich auf ein über 30 Jahre altes Stück Software gestoßen, dass
 seinen

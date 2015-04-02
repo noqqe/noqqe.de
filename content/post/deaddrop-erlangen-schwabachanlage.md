@@ -2,14 +2,14 @@
 date: 2011-09-21T21:16:31+02:00
 type: post
 slug: deaddrop-erlangen-schwabachanlage
-status: publish
 comments: true
 title: DeadDrop | Erlangen - Schwabachanlage
 aliases:
 - /archives/1759
+- /blog/2011/09/21/deaddrop-erlangen-schwabachanlage/
 categories:
 - Debian
-- General
+- Blog
 - Hardware
 - PlanetenBlogger
 tags:

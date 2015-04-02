@@ -5,10 +5,11 @@ date: 2012-11-30T20:25:00+02:00
 comments: true
 categories:
 - osbn
-- git
-- gitolite
 - Debian
 - OpenBSD
+tags:
+- git
+- gitolite
 ---
 
 Eine der "Challenges" beim Umziehen auf die OpenBSD Kiste war auch, meine
@@ -106,7 +107,6 @@ nachziehen.
 rsync -av root@$oldServer:/home/git/repositories/* repositories/
 ```
 
-
 ## Testen
 
 Um zu testen ob die Migration erfolgreich wahr, hab ich ein Repo in `tmp/`
@@ -121,8 +121,8 @@ $ git log -1
 
 ## Repos umarbeiten
 
-Da meine Repos alle im selben Verzeichnis liegen, fiel es mir sehr leicht alle .git/config Files zu finden
-und diese umzuschreiben
+Da meine Repos alle im selben Verzeichnis liegen, fiel es mir sehr leicht
+alle .git/config Files zu finden und diese umzuschreiben
 
 Evaluieren:
 

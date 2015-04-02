@@ -4,11 +4,12 @@ title: "Obskures aus der Software Entwicklung"
 date: 2014-02-01T17:50:00+02:00
 comments: true
 categories:
-- Software Development
-- Software
-- Entwicklung
+- Development
 - osbn
 - ubuntuusers
+tags:
+- Software
+- Entwicklung
 - heisenbug
 - stonith
 - planning poker

@@ -2,16 +2,15 @@
 date: 2011-03-14T21:37:05+02:00
 type: post
 slug: zre-live-game-mitschnitt-via-jquery-und-php
-status: publish
 comments: true
 title: ZRE | Live Game Mitschnitt via jQuery und PHP
 aliases:
 - /archives/1520
 categories:
 - Bash
-- Coding
+- Development
 - Debian
-- General
+- Blog
 - Linux
 - PHP
 - PlanetenBlogger

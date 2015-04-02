@@ -2,16 +2,15 @@
 date: 2011-07-24T18:56:32+02:00
 type: post
 slug: abschlussprufung-zentrales-versionskontrollsystem-mit-git-und-etckeeper
-status: publish
 comments: true
 title: Abschlussprüfung | Zentrales Versionskontrollsystem mit git und etckeeper
 aliases:
 - /archives/1714
 categories:
 - Bash
-- Coding
+- Development
 - Debian
-- General
+- Blog
 - git
 - Hardware
 - PlanetenBlogger

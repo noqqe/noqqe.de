@@ -4,13 +4,15 @@ title: "Wenn etwas groß wird und du merkst du hast gefailed."
 date: 2013-02-15T13:15:00+02:00
 comments: true
 categories:
+- ubuntuusers
+- osbn
+- Debian
+- Development
+tags:
 - php
 - google charts
 - mysql
 - fail
-- Debian
-- ubuntuusers
-- osbn
 ---
 
 Zugegeben, ein Projekt über das ich im Blog noch nie gesprochen habe ist

@@ -2,13 +2,12 @@
 date: 2010-10-24T21:06:33+02:00
 type: post
 slug: bash-minimal-bash-debug
-status: publish
 comments: true
 title: Bash | minimal-bash-debug
 aliases:
 - /archives/1332
 categories:
-- Coding
+- Development
 - Debian
 - git
 - Linux

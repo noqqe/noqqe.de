@@ -2,13 +2,12 @@
 date: 2010-03-01T19:23:26+02:00
 type: post
 slug: community-planetenblogger-de
-status: publish
 comments: true
 title: Community | Planetenblogger.de
 aliases:
 - /archives/920
 categories:
-- General
+- Blog
 tags:
 - planet
 - PlanetenBlogger

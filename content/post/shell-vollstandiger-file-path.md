@@ -2,14 +2,17 @@
 date: 2009-09-24T19:59:58+02:00
 type: post
 slug: shell-vollstandiger-file-path
-status: publish
 comments: true
 title: Shell | Vollständiger File-Path
 aliases:
 - /archives/663
 categories:
-- Coding
+- Development
 - Linux
+tags:
+- file
+- path
+- filesystem
 ---
 
 Sonst vergess ich es sowieso wieder:
@@ -18,7 +21,6 @@ Sonst vergess ich es sowieso wieder:
 find . -exec ls -d {} ;
 ```
 
-
-gibt den vollständigen Datei-Pfad aus.
-Sollte ausser mir nochjemand mal seinen shoutcast trans mit einer Playlist befüllen müssen und aus Gründen der total Pfusch-Config soetwas brauchen.
-
+gibt den vollständigen Datei-Pfad aus.  Sollte ausser mir nochjemand mal
+seinen shoutcast trans mit einer Playlist befüllen müssen und aus Gründen
+der total Pfusch-Config soetwas brauchen.

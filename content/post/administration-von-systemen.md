@@ -4,7 +4,10 @@ title: "Administration von Systemen"
 date: 2014-04-19T18:52:00+02:00
 comments: true
 categories:
-- administraton
+- osbn
+- ubuntuusers
+tags:
+- administration
 - unix
 - devops
 - sysops
@@ -15,8 +18,6 @@ categories:
 - dienstleister
 - it
 - provider
-- osbn
-- ubuntuusers
 - IT
 ---
 Admins. In der Systemadministration treffen Einstellungen aufeinander.

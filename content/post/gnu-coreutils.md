@@ -6,6 +6,8 @@ comments: true
 categories:
 - osbn
 - ubuntuusers
+- Shell
+tags:
 - coreutils
 - gnu
 - join
@@ -30,7 +32,7 @@ Gewünscht ist ein File das alle Datensätze des Subsets enthält.
 
 Die gewohnte Pauschallösung für derartige Probleme. Ganz im Bash-Admin-Stil
 
-``` bash 
+``` bash
 $ time for x in $(cat idsubset.txt) ; do
 >  grep ^$x dataset.csv
 > done > result.csv
@@ -44,7 +46,7 @@ in über 2 Wochen Rechenzeit endet. `IOwait` enstand dabei nicht.
 16 Core-Maschine. Einfach härter parallel greppen. [GNU parallel](https://www.gnu.org/software/parallel/)
 hatte ich 2012 einmal [ausprobiert](https://noqqe.de/blog/2012/01/08/gnu-parallel/).
 
-``` bash 
+``` bash
 $ cat idsubset.txt | time parallel 'grep -m 1 ^{} dataset.csv' > result.csv
 [...]
 Command terminated by signal 2
@@ -59,7 +61,7 @@ waren.
 
 Das effizienteste war allerdings `join` aus den [GNU core utilities](https://www.gnu.org/software/coreutils/)
 
-``` bash 
+``` bash
 $ sort idsubset.txt > sidsubset.txt
 $ sort dataset.csv > sdataset.csv
 $ time join sidsubset.txt sdataset.csv > result.txt

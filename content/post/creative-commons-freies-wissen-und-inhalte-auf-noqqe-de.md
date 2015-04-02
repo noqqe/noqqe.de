@@ -2,14 +2,13 @@
 date: 2010-06-17T19:43:32+02:00
 type: post
 slug: creative-commons-freies-wissen-und-inhalte
-status: publish
 comments: true
 title: Creative Commons | Freies Wissen und Inhalte
 aliases:
 - /archives/1049
 categories:
-- Coding
-- General
+- Development
+- Blog
 - PlanetenBlogger
 tags:
 - cc

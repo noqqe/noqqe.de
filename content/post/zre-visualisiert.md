@@ -2,16 +2,15 @@
 date: 2011-03-08T20:51:13+02:00
 type: post
 slug: zre-visualisiert
-status: publish
 comments: true
 title: ZRE | Visualisiert.
 aliases:
 - /archives/1513
 categories:
 - Bash
-- Coding
+- Development
 - Debian
-- General
+- Blog
 - Ubuntu
 tags:
 - docs

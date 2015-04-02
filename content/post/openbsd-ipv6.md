@@ -5,17 +5,20 @@ date: 2014-10-09T19:15:00+02:00
 comments: true
 categories:
 - OpenBSD
+- Network
+- ubuntuusers
+- osbn
+tags:
 - IPv6
 - netstart
 - hostname
 - ip
 - ping6
-- ubuntuusers
-- osbn
 ---
 
-Was ich ja schon immer komisch fand ist, dass die Dokumentation oder auch uch How-Tos im Netz was das Thema OpenBSD und IPv6
-angeht echt ultra duerftig ist.
+Was ich ja schon immer komisch fand ist, dass die Dokumentation oder auch
+uch How-Tos im Netz was das Thema OpenBSD und IPv6 angeht echt ultra
+duerftig ist.
 
 {{< figure src="/uploads/2014/10/tcpip.jpg" >}}
 

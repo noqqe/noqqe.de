@@ -30,7 +30,7 @@ Expect poor performance for suffix "dc=noqqe,dc=de".
 Um die Files der Berkely DB zu finden und auswerten zu können werden extra Tools
 benötigt.
 
-``` bash 
+``` bash
 $ aptitude install db-util
 $ db_stat -h /usr/local/var/openldap-data/ -m
 ```
@@ -45,7 +45,7 @@ Zuerst wird man etwas erschlagen von Werten. Wenn man weiss nach was
 man suchen muss, ist aber nur noch wenig Aufwand nötig um die richtigen
 Werte rauzusuchen.
 
-```
+``` bash
 $ db_stat -h /usr/local/var/openldap-data/ -d dn2id.bdb
 
 Fri Mar  8 09:11:16 2013  Local time
@@ -86,7 +86,7 @@ ein Stück weit generisch. Anders bei id2entry.
 
 Dort ist die Page Size nämlich konstant 16kb. Egal welches Filesystem
 
-{% codeblock  %}
+``` bash
 $ db_stat -h /usr/local/var/openldap-data/ -d id2entry.bdb
 16384 Underlying database page size
 1 Number of tree internal pages

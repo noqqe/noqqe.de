@@ -7,6 +7,8 @@ categories:
 - osbn
 - ubuntuusers
 - OpenBSD
+- Network
+tags:
 - pf
 - ssh
 - bruteforce
@@ -25,7 +27,6 @@ wer zu häufig am ssh Port anklopft.
 
 {{< figure src="/uploads/2013/06/itsyouagain.gif" >}}
 
-
 ## Block
 
 Wenn ich an `pf` rumspiele, aktiviere ich einen Cronjob
@@ -36,7 +37,7 @@ geht.
 Die nachfolgende Regel bedeutet im Grunde, dass bei mehr als 5 Connections
 in 50 Sekunden die Source-IP in den Table `<bruteforce>` eingepflegt wird.
 
-``` bash 
+``` bash
 # Allow and track ssh brute force
 pass in on $extif proto tcp from any to any port ssh \
   flags S/SA keep state \
@@ -47,7 +48,7 @@ pass in on $extif proto tcp from any to any port ssh \
 Den aufgebauten Table `<bruteforce>` muss man aber auch noch verarbeiten.
 Alle Einträge darin werden geblockt.
 
-``` bash 
+``` bash
 table <bruteforce> persist
 block quick from <bruteforce>
 ```
@@ -73,7 +74,7 @@ Minute haben wollte, ist das noch kein Grund ihn für immer auszusperren.
 
 Seit OpenBSD 4.1 gibt es das native `expire` Feature für Tables.
 
-``` bash 
+``` bash
 $ pfctl -t bruteforce -T show
    69.110.96.21
 
