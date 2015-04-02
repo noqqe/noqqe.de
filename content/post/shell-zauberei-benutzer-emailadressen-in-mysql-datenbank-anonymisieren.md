@@ -9,8 +9,8 @@ aliases:
 categories:
 - Bash
 - Development
-- Shell-Zauberei
-- SQL
+- Shell
+- Databases
 tags:
 - bash
 - einzeiler
@@ -21,18 +21,24 @@ tags:
 - shell
 ---
 
+### Code
 
-
-**Code**
 ```
 for x in $(mysql -u root --password=passw0rd --batch -e "use rtdb; select id from Users" | grep -v ^id); do mysql -u root --password=passw0rd -e "use rtdb; UPDATE Users SET EmailAddress="$x@mail.com" WHERE id="$x"; "; done
 ```
 
-**Hintergrund**
-Ich arbeite seit kurzem an einem kleinen Statistik Tool für den [RequestTracker](http://bestpractical.com/rt/) von Bestpractical. Einem Ticket-System. Um Beispiele für dieses Tool generieren zu können, brauchte ich eine manipulierte Datenbank. Datenschutz. EmailAdressen mit anderem Inhalt überschreiben.
+### Hintergrund**
 
+Ich arbeite seit kurzem an einem kleinen Statistik Tool für den
+[RequestTracker](http://bestpractical.com/rt/) von Bestpractical. Einem
+Ticket-System. Um Beispiele für dieses Tool generieren zu können, brauchte
+ich eine manipulierte Datenbank. Datenschutz. EmailAdressen mit anderem
+Inhalt überschreiben.
 
+### Funktion
 
-**Funktion**
-Im Endeffekt ist es nur eine For-Schleife, die alle User ID's aus der RequestTracker Datenbank (Table: Users) ausliesst und für jeden gefundenen Eintrag die EmailAdresse auf "ID@mail.com" setzt. So bleiben die Daten auswertbar, sind aber "anonym".
+Im Endeffekt ist es nur eine For-Schleife, die alle User ID's aus der
+RequestTracker Datenbank (Table: Users) ausliesst und für jeden gefundenen
+Eintrag die EmailAdresse auf "ID@mail.com" setzt. So bleiben die Daten
+auswertbar, sind aber "anonym".
 

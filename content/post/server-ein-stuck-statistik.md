@@ -9,6 +9,7 @@ aliases:
 categories:
 - Blog
 - Linux
+- Stats
 tags:
 - emote
 - fun
@@ -23,25 +24,31 @@ tags:
 
 Hab mir mal die Zeit genommen ein paar Logfiles zu analysieren :)
 
-Teeworlds-Server
+### Teeworlds-Server
 
-Der Teeworldsserver der auf Zwetschge läuft wird zur Zeit immer mehr bespielt :) Logfile ist mittlerweile 15 MB gross :)
-Mit dem Befehl:
+Der Teeworldsserver der auf Zwetschge läuft wird zur Zeit immer mehr
+bespielt :) Logfile ist mittlerweile 15 MB gross :) Mit dem Befehl:
 
-```
+``` bash
 for x in `cat /var/log/screen.log | grep "joined the game" | awk '{print $3 }' |
   sort | uniq`; do grep $x /var/log/screen.log | wc -l | tr -d 'n'; echo " :
   $x"; done | sort -rn
 ```
-hab ich ein bisschen durch die Gegend gegreppt und die Spieler Rausgegreppt die am öftesten auf den Server gekommen sind :) Hier die Liste bei einem der schönsten Paste-Services:
+
+hab ich ein bisschen durch die Gegend gegreppt und die Spieler
+Rausgegreppt die am öftesten auf den Server gekommen sind :) Hier die Liste
+bei einem der schönsten Paste-Services:
 [http://paste.pocoo.org/show/114322/](http://paste.pocoo.org/show/114322/)
 
-Random-Animations-Pool
+### Random-Animations-Pool
 
-Zum Teil auch aus Langeweile lass ich mir alle Heilige Zeit mal per CronJob die Statistik für die zufällig ausgewählten Bilder per Mail zuschicken. Das Skript dazu hab ich bei [CodeCocktail gepostet](http://codecocktail.wordpress.com/2009/02/01/zufallszahlen-mit-der-shell-bash/) Der Zufall ist dabei sehr ... parteiisch find ich:
-Daily Emote Score for 26-04-2009-04:01:01
+Zum Teil auch aus Langeweile lass ich mir alle Heilige Zeit mal per CronJob
+die Statistik für die zufällig ausgewählten Bilder per Mail zuschicken. Das
+Skript dazu hab ich bei [CodeCocktail gepostet](http://codecocktail.wordpress.com/2009/02/01/zufallszahlen-mit-der-shell-bash/)
+Der Zufall ist dabei sehr ... parteiisch find ich:
 
 ```
+Daily Emote Score: 26-04-2009-04:01:01
 200 : http://zwetschge.org/emotes/emote32.gif
 216 : http://zwetschge.org/emotes/emote20.gif
 216 : http://zwetschge.org/emotes/emote5.gif
@@ -125,17 +132,23 @@ Daily Emote Score for 26-04-2009-04:01:01
 324 : http://zwetschge.org/emotes/emote47.gif
 ```
 
-Spam-Kommentare
+### Spam-Kommentare
 
-Zur Zeit explodiert (trotz Askimet) mein Spam-Kommentar Counter... und zwar immer nur bei dem Post zum[Thema Teeworlds-Server](/?p=459) Fragt mich bitte nicht an was das liegt... aber nun Gut... der Counter zählt mittlerweile rund 1200 Spams auf diesen Beitrag O_o. Wenn jemand vorschläge hat wie das zu vermeiden ist... immer her damit!
+Zur Zeit explodiert (trotz Askimet) mein Spam-Kommentar Counter... und zwar
+immer nur bei dem Post zum[Thema Teeworlds-Server](/?p=459) Fragt mich
+bitte nicht an was das liegt... aber nun Gut... der Counter zählt
+mittlerweile rund 1200 Spams auf diesen Beitrag O_o. Wenn jemand vorschläge
+hat wie das zu vermeiden ist... immer her damit!
 
-Blog
+### Blog
 
-Auch der Blog selbst hat nach dem Relaunch (damals 15.000) schon wieder 3.500 Zugriffe und ganze 8 Feed-Reader :D. Find ich eigentlich ganz in Ordnung wenn man bedenkt das mir spontan nur 4 Leute einfallen die ich persöhnlich kenne die ihn lesen, und zum anderen ich hier nicht wirklich Intressantes Zeugs Blogge :)
+Auch der Blog selbst hat nach dem Relaunch (damals 15.000) schon wieder
+3.500 Zugriffe und ganze 8 Feed-Reader :D. Find ich eigentlich ganz in
+Ordnung wenn man bedenkt das mir spontan nur 4 Leute einfallen die ich
+persöhnlich kenne die ihn lesen, und zum anderen ich hier nicht wirklich
+Intressantes Zeugs Blogge :)
 
-Teamspeak-Server
+### Teamspeak-Server
 
-Mittlerweile 15 GB Traffic sent by Server und ca 5 GB recieved by Server :) Auch viel mehr als ich anfangs dachte.
-
-Greez, Flo
-
+Mittlerweile 15 GB Traffic sent by Server und ca 5 GB recieved by Server :)
+Auch viel mehr als ich anfangs dachte.

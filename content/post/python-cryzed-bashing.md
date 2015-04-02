@@ -20,17 +20,12 @@ disziplin: pythonjamsession
 #!/usr/bin/python
 def omgwtfbbq():
 while True:
-s = raw_input('cryzeds mom is ')
-if s == 'the end of the world':
-break
-else:
-print 'this ones for you chris: '
-print 'your mom is', s
-continue
+  s = raw_input('cryzeds mom is ')
+  if s == 'the end of the world':
+    break
+  else:
+    print 'this ones for you chris: '
+    print 'your mom is', s
+  continue
 omgwtfbbq()
 ```
-
-
-
-Mit Highlightning und Tabs: [http://dpaste.com/97809/](http://dpaste.com/97809/)
-siehe auch [cryzed.de](http://cryzed.de)

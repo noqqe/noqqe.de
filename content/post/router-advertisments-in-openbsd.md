@@ -5,6 +5,9 @@ date: 2014-12-18T11:14:00+02:00
 comments: true
 categories:
 - OpenBSD
+- Network
+- BSD
+tags:
 - IPv6
 - Routeradvertisement
 - rtadv

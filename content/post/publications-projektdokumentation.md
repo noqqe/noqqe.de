@@ -8,6 +8,10 @@ aliases:
 - /archives/675
 categories:
 - Blog
+tags:
+- fisi
+- projektarbeit
+- dokumentation
 ---
 
 Planung und Integration einer Firewall-Lösung (auf Basis von Shorewall, mit VPN).

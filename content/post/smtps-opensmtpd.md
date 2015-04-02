@@ -6,6 +6,10 @@ comments: true
 categories:
 - osbn
 - ubuntuusers
+- OpenBSD
+- BSD
+- Mail
+tags:
 - openbsd
 - neomailbox
 - mutt
@@ -85,7 +89,7 @@ Authentifizierung weiterzuleiten.
 
 Das `secrets` File erstellen
 
-```
+``` bash
 $ echo "neo user:pw" > /etc/mail/secrets
 $ chown root:_smtpd /etc/mail/secrets
 $ chmod 640 /etc/mail/secrets

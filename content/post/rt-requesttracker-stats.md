@@ -7,15 +7,15 @@ title: RT | RequestTracker-Stats
 aliases:
 - /archives/1649
 categories:
-- Bash
+- Shell
 - Development
 - Debian
-- git
 - PlanetenBlogger
-- SQL
+- Databases
 - Ubuntu
 - Web
 tags:
+- Bash
 - Addon
 - BestPractical
 - modul
@@ -26,12 +26,25 @@ tags:
 - tool
 ---
 
-Oft  angesprochen und trotzdem bisher nicht die Zeit gefunden drüber zu bloggen: [RequestTracker-Stats](http://github.com/noqqe/RequestTracker-Stats). Vor kurzem habe ich mir das [Balkendiagramm-Shellskript](/archives/1611) [statistical](http://github.com/noqqe/statistical) gebastelt. Nachdem es so gut funktionierte hatte, hatte ich mir überlegt, was ich damit jetzt anfangen könnte. Ich brauchte einen großem Umfang an Datenmengen, den ich visualisieren konnte (abgesehen von zufällig erzeugten Daten). Am Besten noch etwas, dass Sinn macht :)
+Oft angesprochen und trotzdem bisher nicht die Zeit gefunden drüber zu
+bloggen:
+[RequestTracker-Stats](http://github.com/noqqe/RequestTracker-Stats). Vor
+kurzem habe ich mir das [Balkendiagramm-Shellskript](/archives/1611)
+[statistical](http://github.com/noqqe/statistical) gebastelt. Nachdem es so
+gut funktionierte hatte, hatte ich mir überlegt, was ich damit jetzt
+anfangen könnte. Ich brauchte einen großem Umfang an Datenmengen, den ich
+visualisieren konnte (abgesehen von zufällig erzeugten Daten). Am Besten
+noch etwas, dass Sinn macht :)
 
 {{< figure src="/uploads/2011/04/3927_ede8_550.jpeg" >}}
 
-At Work war "Ticket-Squashing" immer wieder ein gutes Stichwort in unserem Ticketsystem. Wir benutzen den [RequestTracker](http://bestpractical.com/rt/) von [BestPractical](http://bestpractical.com) und ich hatte mir überlegt ein kleines Skript zu basteln, welches die Anzahl der erledigten Tickets pro User aus der MySQL Datenbank ausliesst und dann im Key:Value Format an statistical übergibt. Das hat auch ganz gut funktioniert.
-
+At Work war "Ticket-Squashing" immer wieder ein gutes Stichwort in unserem
+Ticketsystem. Wir benutzen den
+[RequestTracker](http://bestpractical.com/rt/) von
+[BestPractical](http://bestpractical.com) und ich hatte mir überlegt ein
+kleines Skript zu basteln, welches die Anzahl der erledigten Tickets pro
+User aus der MySQL Datenbank ausliesst und dann im Key:Value Format an
+statistical übergibt. Das hat auch ganz gut funktioniert.
 
 
     Resolved ticket statistic for this month (April)
@@ -51,11 +64,9 @@ At Work war "Ticket-Squashing" immer wieder ein gutes Stichwort in unserem Ticke
     Estella		| (1)
     Marj		| (1)
 
-
-
-Allerdings haben sich dann im Laufe des Tages immer mehr (ich nenne es mal statistische-) Anwendungsmöglichkeiten ergeben. Zum Beispiel die Anzahl der erstellten Tickets pro Benutzer:
-
-
+Allerdings haben sich dann im Laufe des Tages immer mehr (ich nenne es mal
+statistische-) Anwendungsmöglichkeiten ergeben. Zum Beispiel die Anzahl der
+erstellten Tickets pro Benutzer:
 
     Most active creators for this month (April)
     ---------------------------------------------------
@@ -72,16 +83,12 @@ Allerdings haben sich dann im Laufe des Tages immer mehr (ich nenne es mal stati
     Ethel@company.com	|## (3)
     [...]
 
-
-
 Oder die Anzahl der Tickets pro Kategorie:
-
-
 
     Queues for this month (April)
     ---------------------------------------------------
     General		|##################### (22)
-    Web		|##################### (22)
+    Web		    |##################### (22)
     Management	|#################### (21)
     WebContent	|################### (20)
     IT-Interal	|################ (17)
@@ -91,21 +98,23 @@ Oder die Anzahl der Tickets pro Kategorie:
     SWAN		|########### (12)
     Domain-Service	|########## (11)
     Junk		|########## (11)
-    DSL		|## (3)
+    DSL		    |## (3)
     Other		|# (2)
     Hotspot-Service	|# (2)
     Buchhaltung	| (1)
 
+Um nur ein paar Beispiele zu nennen. Leider waren es zu diesem Zeitpunkt
+noch etliche separate Skripte, was mir eigentlich nicht gefiel. Darum habe
+ich es in ein modular aufgebautes Statistik Umgebungstool umgewandelt.
+Module sind (de-)aktivierbar und lassen sich leicht in das Rahmenprogramm
+einfügen. Letztendlich gibt es jetzt einen ganzen Satz von Modulen der
+unter [Github](http://github.com/noqqe/RequestTracker-Stats) zur Verfügung
+steht.
 
+    git clone git://github.com/noqqe/RequestTracker-Stats.git
 
-Um nur ein paar Beispiele zu nennen. Leider waren es zu diesem Zeitpunkt noch etliche separate Skripte, was mir eigentlich nicht gefiel. Darum habe ich es in ein modular aufgebautes Statistik Umgebungstool umgewandelt. Module sind (de-)aktivierbar und lassen sich leicht in das Rahmenprogramm einfügen. Letztendlich gibt es jetzt einen ganzen Satz von Modulen der unter [Github](http://github.com/noqqe/RequestTracker-Stats) zur Verfügung steht.
-
-```
-git clone git://github.com/noqqe/RequestTracker-Stats.git
-```
-
-
-Sollte außer uns noch jemand RequestTracker Stats verwenden und Interesse daran haben, ist er herzlich eingeladen die Stats Umgebung zu benutzen ggf. auch Module hinzuzufügen oder zu verbessern :) Eine (ich hoffe doch) ausreichende Anleitung zur Benutzung befindet sich im README des Github Repos.
-
-
-
+Sollte außer uns noch jemand RequestTracker Stats verwenden und Interesse
+daran haben, ist er herzlich eingeladen die Stats Umgebung zu benutzen ggf.
+auch Module hinzuzufügen oder zu verbessern :) Eine (ich hoffe doch)
+ausreichende Anleitung zur Benutzung befindet sich im README des Github
+Repos.

@@ -16,7 +16,13 @@ tags:
 - Projektarbeit
 ---
 
-Eigentlich hatte ich mich ja schon aufgrund fehlender kaufmännischer Inhalte auf eine Ablehung eingestellt. Heute morgen kam dann trotz allem die Genehmigung des Projektantrages! Thema "Planung und Integration einer Firewall-Lösung auf Basis von Shorewall mit VPN-Verbindung". Shorewall ist genau genommen ein ip-tables Front-End Debian Paket mit dem sich sehr leicht eine Firewall aufbauen lässt. Läuft übrigens auch auf noqqe.de :)
+Eigentlich hatte ich mich ja schon aufgrund fehlender kaufmännischer
+Inhalte auf eine Ablehung eingestellt. Heute morgen kam dann trotz allem
+die Genehmigung des Projektantrages! Thema "Planung und Integration einer
+Firewall-Lösung auf Basis von Shorewall mit VPN-Verbindung". Shorewall ist
+genau genommen ein ip-tables Front-End Debian Paket mit dem sich sehr
+leicht eine Firewall aufbauen lässt. Läuft übrigens auch auf noqqe.de :)
 
-Wenn ich die Präsentation gehalten habe wird die 10-15 seitige Dokumentation hier im Blog unter Publications anzusehen sein :) Drückt mir die Daumen... Ich habs nötig :) Am 29. Mai ist Abgabe.
-Greez, Flo
+Wenn ich die Präsentation gehalten habe wird die 10-15 seitige
+Dokumentation hier im Blog unter Publications anzusehen sein :) Drückt mir
+die Daumen... Ich habs nötig :) Am 29. Mai ist Abgabe.  Greez, Flo

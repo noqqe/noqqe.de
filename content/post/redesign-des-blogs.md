@@ -5,7 +5,9 @@ date: 2012-12-22T18:27:00+02:00
 comments: true
 categories:
 - osbn
-- Octopress
+- Blog
+tags:
+- octopress
 - Blog
 - HTML
 - sass
@@ -32,7 +34,6 @@ Insgesamt wirkt der Blog auf mich jetzt ruhiger und der Fokus auf den Content
 ist größer als vorher. Allgemein wars aber recht stressfrei. Bisschen mit
 [SASS](http://sass-lang.com) herumgebaut und an den Page Views rumeditiert.
 Voila.
-
 
 Meinungen höre ich wie immer gerne. Ich wäre auch bei zu vielen "IHGITT!"
 Kommentaren gewillt es wieder zurück zu rollen ;)

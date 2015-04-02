@@ -19,12 +19,10 @@ tags:
 
 Mehreren Ext3 Errors zum Opfergefallen :(
 
-sämtliche Reanimationsversuche (fsck) der virtuellen Maschine sind gescheitert. System nicht mehr zu retten.
+sämtliche Reanimationsversuche (fsck) der virtuellen Maschine sind
+gescheitert. System nicht mehr zu retten.
 
 Ist jetzt warscheinlich in einer besseren Welt.. äh Hostmaschine.
 
 In diesem Sinne,
-
-*SEUFZ*
-
-*schweige Minute einleg*
+*schweige Minute*

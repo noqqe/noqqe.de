@@ -4,9 +4,12 @@ title: "RSA Implementation in Bash"
 date: 2014-01-03T21:14:00+02:00
 comments: true
 categories:
+- Crypto
+- Shell
+- Development
+tags:
 - RSA
 - Cryptography
-- Crypto
 - Bash
 - Reference
 - Pubkey
@@ -16,14 +19,14 @@ categories:
 ---
 
 Teil 2 der Serie Crypto in Bash implementieren, heute:
-[RSA](https://en.wikipedia.org/wiki/RSA_\(algorithm\)). Schon vor
-Längerem hatte ich mal [ROT13 in purem Bash geschreiben](/blog/2011/08/13/rot13-verschlusselung-in-bash/), einfach um zu
-sehen wies funktioniert.
+[RSA](https://en.wikipedia.org/wiki/RSA_\(algorithm\)). Schon vor Längerem
+hatte ich mal [ROT13 in purem Bash geschreiben](/blog/2011/08/13/rot13-verschlusselung-in-bash/), einfach um
+zu sehen wies funktioniert.
 
 {{< figure src="/uploads/2014/01/cryptography.jpg" >}}
 
-Auf dem #30c3, den ich letzte Woche besuchen durfte, ging es natürlich auch viel, viel um Crypto.
-Die Do's and Dont's sozusagen. Ein
+Auf dem #30c3, den ich letzte Woche besuchen durfte, ging es natürlich auch
+viel, viel um Crypto.  Die Do's and Dont's sozusagen. Ein
 [Vortrag](http://events.ccc.de/congress/2013/Fahrplan/events/5502.html) war dabei besonders nett,
 da er als eine Art Leitfaden zu verstehen war, wie man es nicht machen sollte.
 Unter anderem RSA/AES selbst implementieren. Das hab ich dann aber einfach
@@ -34,7 +37,7 @@ mal gemacht.
 Der Code ist so einfach wie nur irgendwie möglich gestaltet, um ihn verständlich
 zu halten. Ich habe deshalb bewusst auf Funktionen und Sanity Checks verzichtet.
 
-``` bash 
+``` bash
 p=37    # prime 1
 q=89    # prime 2
 e=25    # public key
@@ -62,9 +65,10 @@ done
 echo "decr msg: $msg"
 ```
 
-Manchem mag auffallen, wie im [Debian-Stil](http://www.debian.org/security/2008/dsa-1571)
-ziemlich statischer "Zufall" im Header kodiert ist. Für den Anfang ist das okay um zu verstehen
-wie RSA so tickt.
+Manchem mag auffallen, wie im
+[Debian-Stil](http://www.debian.org/security/2008/dsa-1571) ziemlich
+statischer "Zufall" im Header kodiert ist. Für den Anfang ist das okay um
+zu verstehen wie RSA so tickt.
 
 ```
 $ ./rsa.bash 999
@@ -79,7 +83,7 @@ Was im obigen Beispiel passiert ist, ist natürlich sehr trivial, da die Keys
 vordefiniert sind und hinten hinaus die allerwenigste Magie passiert.
 Der interessante Teil ist eher die Schlüsselgenerierung.
 
-``` bash 
+``` bash
 p=$1    # prime
 q=$2    # prime
 msg=$3  # the message
@@ -133,13 +137,15 @@ letzter Teil wie oben
 [...]
 ```
 
-Worauf ich außerdem verzichtet habe ist die Auswahl einer richtigen/anständigen Primzahl für den Publickey,
-da das Problem weder logisch noch programmatisch besonders reizvoll ist. Zumindest was den RSA Scope angeht.
-Im RNG Scope natürlich eine ganz andere Geschichte.
+Worauf ich außerdem verzichtet habe ist die Auswahl einer
+richtigen/anständigen Primzahl für den Publickey, da das Problem weder
+logisch noch programmatisch besonders reizvoll ist. Zumindest was den RSA
+Scope angeht.  Im RNG Scope natürlich eine ganz andere Geschichte.
 
-Usage des Skripts hat sich nun auch von nur der Message hin zu Primzahl1, Primzahl2, Message erweitert.
+Usage des Skripts hat sich nun auch von nur der Message hin zu Primzahl1,
+Primzahl2, Message erweitert.
 
-``` bash 
+``` bash
 $ ./rsa.bash 911 43 8234
 pub: 1913
 priv: 21977

@@ -6,6 +6,8 @@ comments: true
 title: 'Projektarbeit: RAID-Handout'
 aliases:
 - /archives/317
+categories:
+- Hardware
 tags:
 - Berufsschule
 - Projektarbeit
@@ -14,7 +16,8 @@ tags:
 ---
 
 Nächste Woche ist schon Abgabe: Hier mal der Release Candidate :P
+Wenn Fehler oder ähnliches auffallen bitte Bescheid sagen :) Wirkt sich ja
+alles auf meine Note aus :P
 
-Wenn Fehler oder ähnliches auffallen bitte Bescheid sagen :) Wirkt sich ja alles auf meine Note aus :P
-
-Anzuschauen unter: [http://zwetschge.org/publications/RAID-Handout.pdf](http://zwetschge.org/publications/RAID-Handout.pdf)
+Anzuschauen unter:
+[http://zwetschge.org/publications/RAID-Handout.pdf](http://zwetschge.org/publications/RAID-Handout.pdf)

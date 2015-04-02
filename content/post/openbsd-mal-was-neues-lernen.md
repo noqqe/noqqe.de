@@ -6,6 +6,13 @@ comments: true
 categories:
 - OpenBSD
 - osbn
+- BSD
+tags:
+- Theo
+- Linux
+- BSD
+- OpenBSD
+- noris
 aliases:
 - /blog/2012/11/30/openbsd-mal-was-neues-lernen/
 ---

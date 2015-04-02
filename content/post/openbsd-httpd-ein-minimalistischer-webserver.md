@@ -5,11 +5,13 @@ date: 2014-09-27T14:30:00+02:00
 comments: true
 categories:
 - OpenBSD
+- ubuntuusers
+- osbn
+- Administration
+tags:
 - httpd
 - Base
 - webserver
-- ubuntuusers
-- osbn
 ---
 [Reyk Floeter](https://twitter.com/reykfloeter) hat zuletzt begonnen seinen
 [relayd](http://bsd.plumbing) zu forken und einen minimalistischen Webserver

@@ -4,6 +4,10 @@ title: "Securing Tomcat 7"
 date: 2013-05-27T19:52:00+02:00
 comments: true
 categories:
+- Web
+- Linux
+- Administration
+tags:
 - Tomcat
 - Tomcat7
 - Java
@@ -30,7 +34,7 @@ Vorher aber mit Software/Kunden eurer Wahl abklären.
 Per Default ist bei Tomcat nur `TRACE` deaktiviert.
 In der `webapps/$APP/WEB-INF/web.xml` definieren:
 
-```
+``` xml
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <web-app>
   [...]
@@ -50,7 +54,7 @@ In der `webapps/$APP/WEB-INF/web.xml` definieren:
 
 Ergebnis verfizieren:
 
-```
+``` bash
 $ for x in PATCH CONNECT GET TRACE POST PUT OPTIONS HEAD ; do
 >   echo -ne "$x:    \t"
 >   curl -v -X $x http://localhost:8080/ 2>&1 | grep '< HTTP'
@@ -75,7 +79,7 @@ Gerade bei Auditoren ein beliebtes Thema. Man kennt das von Apache httpd mod_ssl
 nebenan will man heute nicht mehr umbedingt Serverseitig offerieren.
 Das Pendant zum Apache Tomcat, indem der Parameter `ciphers` im HTTP Connector her muss.
 
-```
+``` xml
 <Connector port="8443"
   executor="Catalina-Threads"
   protocol="org.apache.coyote.http11.Http11Protocol"
