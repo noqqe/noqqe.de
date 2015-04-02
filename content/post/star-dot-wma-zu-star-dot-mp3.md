@@ -8,8 +8,13 @@ categories:
 - Web
 - Debian
 - Bash
-keyworkds: "lame, mp3, wma, convert, konvertieren, konvertierung, linux, cmd,
-komplette Verzeichnisse"
+tags:
+- lame
+- mp3
+- wma
+- convert
+- konvertieren
+- konvertierung
 ---
 
 Man denkt ja immer "Gott, wie viele von diesen $MUSIKFORMAT_A zu $MUSIKFORMAT_B
@@ -30,7 +35,7 @@ finde ich daüber keine Blogposts?
 Naja. Dann eben selbst. Der Plan ist einfach. Verzeichnisse herausfinden, die
 *.wma Dateien enthalten und in eine Liste schreiben.
 
-``` bash 
+``` bash
 OIFS=$IFS
 IFS=$'\n'
 for i in $(find . -type f -iname '*.wma'); do
@@ -42,7 +47,7 @@ Diese Liste mit Verzeichnissen abarbeiten, sodass ich die Lösung
 die ich im [UbuntuUsers-Wiki](http://wiki.ubuntuusers.de/Audiodateien_umwandeln#WMA)
 gefunden habe einbetten kann:
 
-``` bash 
+``` bash
 for x in $(cat list.txt) ; do
   cd $x
   for i in *.wma ; do
@@ -56,9 +61,10 @@ done
 IFS=$OIFS
 ```
 
-Das wurde gerade im Basis Verzeichnis meiner Biblio gestartet und rödelt jetzt
-erstmal vor sich hin.
-Obacht, gerade die [IFS](http://stackoverflow.com/questions/4128235/bash-shell-scripting-what-is-the-exact-meaning-of-ifs-n) Umgebungsvariable ist bei dieser Variante extrem wichtig.
+Das wurde gerade im Basis Verzeichnis meiner Biblio gestartet und rödelt
+jetzt erstmal vor sich hin.  Obacht, gerade die
+[IFS](http://stackoverflow.com/questions/4128235/bash-shell-scripting-what-is-the-exact-meaning-of-ifs-n)
+Umgebungsvariable ist bei dieser Variante extrem wichtig.
 
 Eigentlich will man eher *.ogg. Würd ich auch echt gern. Aber mein mobiles
 Abspielgerät will nicht.

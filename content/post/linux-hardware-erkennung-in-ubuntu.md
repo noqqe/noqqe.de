@@ -7,7 +7,7 @@ title: Linux | Hardware Erkennung in Ubuntu
 aliases:
 - /archives/610
 categories:
-- General
+- Blog
 - Hardware
 - Linux
 tags:

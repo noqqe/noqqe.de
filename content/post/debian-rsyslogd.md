@@ -8,7 +8,7 @@ aliases:
 - /archives/686
 categories:
 - Development
-- General
+- Blog
 - Linux
 ---
 

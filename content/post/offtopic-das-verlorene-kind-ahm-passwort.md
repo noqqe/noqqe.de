@@ -7,7 +7,7 @@ title: Offtopic | Das verlorene Kind...ahm, Passwort
 aliases:
 - /archives/849
 categories:
-- General
+- Blog
 - Linux
 - Mac
 - PlanetenBlogger

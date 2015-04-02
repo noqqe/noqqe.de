@@ -7,7 +7,7 @@ title: Nagios | Ricoh-Drucker Tonerstand per SNMP abfragen
 aliases:
 - /archives/1066
 categories:
-- General
+- Blog
 - Linux
 - PlanetenBlogger
 tags:

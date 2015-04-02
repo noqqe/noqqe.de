@@ -9,7 +9,7 @@ aliases:
 - /blog/2011/09/21/deaddrop-erlangen-schwabachanlage/
 categories:
 - Debian
-- General
+- Blog
 - Hardware
 - PlanetenBlogger
 tags:

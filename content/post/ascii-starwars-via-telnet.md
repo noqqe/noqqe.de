@@ -8,7 +8,7 @@ aliases:
 - /archives/1351
 categories:
 - Development
-- General
+- Blog
 - PlanetenBlogger
 - Ubuntu
 - Web

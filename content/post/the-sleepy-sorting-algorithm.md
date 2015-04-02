@@ -6,6 +6,8 @@ comments: true
 categories:
 - osbn
 - Shell
+- Development
+- Web
 tags:
 - algorithm
 - Bash
@@ -35,4 +37,3 @@ ist natürlich was anderes.
 `./sleepsort.bash 5 3 6 3 6 3 1 4 7`
 
 Bzw. der Thread an sich ist auch lesenswert :P
-

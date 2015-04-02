@@ -8,7 +8,7 @@ aliases:
 - /archives/1389
 categories:
 - Development
-- General
+- Blog
 - git
 - PlanetenBlogger
 tags:

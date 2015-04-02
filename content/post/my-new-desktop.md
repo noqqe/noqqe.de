@@ -7,7 +7,7 @@ title: My new Desktop
 aliases:
 - /archives/93
 categories:
-- General
+- Blog
 - Linux
 tags:
 - debian

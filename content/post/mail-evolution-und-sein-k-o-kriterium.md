@@ -7,7 +7,7 @@ title: Mail | Evolution und sein K.O.-Kriterium
 aliases:
 - /archives/1018
 categories:
-- General
+- Blog
 - Linux
 - ubuntuusers
 tags:

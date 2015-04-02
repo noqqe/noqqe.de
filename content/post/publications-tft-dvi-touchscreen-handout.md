@@ -9,7 +9,7 @@ aliases:
 - /blog/2009/04/16/publications--tft-dvi-touchscreen-handout/
 - /blog/2009/04/16/publications-tft-dvi-touchscreen-handout/
 categories:
-- General
+- Blog
 - Hardware
 tags:
 - dvi

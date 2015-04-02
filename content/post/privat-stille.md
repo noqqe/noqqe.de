@@ -7,7 +7,7 @@ title: Privat | Stille
 aliases:
 - /archives/584
 categories:
-- General
+- Blog
 - Hardware
 tags:
 - anno1602

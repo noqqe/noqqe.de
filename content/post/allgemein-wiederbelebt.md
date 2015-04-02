@@ -7,7 +7,7 @@ title: Allgemein | Wiederbelebt
 aliases:
 - /archives/652
 categories:
-- General
+- Blog
 - Linux
 ---
 

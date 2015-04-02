@@ -7,7 +7,7 @@ title: Offtopic | Reaktion Teeworlds-Setup
 aliases:
 - /archives/857
 categories:
-- General
+- Blog
 - Linux
 - PlanetenBlogger
 tags:

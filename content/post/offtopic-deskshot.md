@@ -8,7 +8,7 @@ aliases:
 - /archives/1442
 categories:
 - Bash
-- General
+- Blog
 - Hardware
 - Linux
 - Mac

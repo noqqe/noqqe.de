@@ -9,7 +9,6 @@ aliases:
 - /blog/2008/12/05/unpack-entpackt-sie-alle-marke-eigenbau/
 categories:
 - Development
-- General
 - Linux
 tags:
 - .tar.gz

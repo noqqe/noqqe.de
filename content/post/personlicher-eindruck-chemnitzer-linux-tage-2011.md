@@ -10,7 +10,7 @@ categories:
 - Bash
 - Development
 - Debian
-- General
+- Blog
 - Jabber
 - Linux
 - PlanetenBlogger

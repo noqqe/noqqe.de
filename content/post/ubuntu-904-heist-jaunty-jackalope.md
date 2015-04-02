@@ -7,7 +7,6 @@ title: Ubuntu 9.04 heißt "Jaunty Jackalope"
 aliases:
 - /archives/227
 categories:
-- General
 - Hardware
 - Linux
 tags:
@@ -19,6 +18,5 @@ tags:
 
 [http://ikhaya.ubuntuusers.de/2008/09/09/ubuntu-9.04-heisst-jaunty-jackalope/](http://ikhaya.ubuntuusers.de/2008/09/09/ubuntu-9.04-heisst-jaunty-jackalope/)
 
-Schöner Name ;)
-
-und heute genau sinds noch 50 Tage bis Ubuntu8.10 Ibex-Release!
+Schöner Name ;) und heute genau sinds noch 50 Tage bis Ubuntu8.10
+Ibex-Release!

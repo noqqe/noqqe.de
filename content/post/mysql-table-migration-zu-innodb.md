@@ -9,7 +9,7 @@ aliases:
 categories:
 - Bash
 - Debian
-- General
+- Blog
 - Linux
 - ubuntuusers
 tags:

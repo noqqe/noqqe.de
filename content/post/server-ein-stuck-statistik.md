@@ -7,7 +7,7 @@ title: Server | Ein Stück Statistik
 aliases:
 - /archives/595
 categories:
-- General
+- Blog
 - Linux
 tags:
 - emote

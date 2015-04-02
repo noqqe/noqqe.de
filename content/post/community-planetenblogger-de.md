@@ -7,7 +7,7 @@ title: Community | Planetenblogger.de
 aliases:
 - /archives/920
 categories:
-- General
+- Blog
 tags:
 - planet
 - PlanetenBlogger

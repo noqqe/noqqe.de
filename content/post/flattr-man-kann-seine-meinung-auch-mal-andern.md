@@ -7,7 +7,7 @@ title: 'Flattr | Man kann seine Meinung auch mal ändern. '
 aliases:
 - /archives/1774
 categories:
-- General
+- Blog
 - Linux
 - PlanetenBlogger
 - Web

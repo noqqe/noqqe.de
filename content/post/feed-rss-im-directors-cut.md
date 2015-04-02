@@ -7,7 +7,7 @@ title: Feed | RSS im Directors-Cut
 aliases:
 - /archives/542
 categories:
-- General
+- Blog
 tags:
 - atom
 - feed

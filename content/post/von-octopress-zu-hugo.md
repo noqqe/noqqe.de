@@ -3,6 +3,18 @@ date: 2015-04-01T20:55:43+02:00
 draft: false
 title: Von Octopress zu Hugo
 type: post
+categories:
+- Development
+- Blog
+- Web
+tags:
+- hugo
+- octopress
+- go
+- ruby
+- gem
+- pygments
+- python
 ---
 
 Ich war genervt. Oh mein Gott, wie war ich genervt. Von diesem ständigem

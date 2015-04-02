@@ -7,7 +7,7 @@ title: Blog Eröffnung!
 aliases:
 - /archives/421
 categories:
-- General
+- Blog
 ---
 
 Hallo,

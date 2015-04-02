@@ -7,7 +7,7 @@ title: Offtopic | Hackerbrause
 aliases:
 - /archives/1431
 categories:
-- General
+- Blog
 - Linux
 - PlanetenBlogger
 tags:

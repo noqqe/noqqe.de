@@ -8,7 +8,7 @@ aliases:
 - /archives/524
 categories:
 - Development
-- General
+- Blog
 tags:
 - code
 - Development

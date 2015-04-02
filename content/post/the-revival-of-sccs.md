@@ -5,9 +5,8 @@ date: 2012-03-23T15:11:00+02:00
 comments: true
 categories:
 - ubuntuusers
-- git
 - Code
-- Bash
+- Shell
 tags:
 - bash
 - shell
@@ -20,14 +19,17 @@ tags:
 - opensource
 ---
 
-Ich durfte wie bereits [erwähnt](/blog/2012/03/22/chemnitzer-linux-tage-2012/)
-auf den Chemnitzer LinuxTagen einem Vortrag zur Geschichte von Versionskontrollsystemen und dem Revival von SCCS lauschen.
-Diesen fand ich unter anderem (besonders beim Historischen) informativ und unterhaltsam.
+Ich durfte wie bereits
+[erwähnt](/blog/2012/03/22/chemnitzer-linux-tage-2012/) auf den Chemnitzer
+LinuxTagen einem Vortrag zur Geschichte von Versionskontrollsystemen und
+dem Revival von SCCS lauschen.  Diesen fand ich unter anderem (besonders
+beim Historischen) informativ und unterhaltsam.
 
 {{< figure src="/uploads/2012/03/git-header.gif" >}}
 
-Nicht übereinstimmen kann ich aber in den angebrachten "Vergleichen" von SCCS zu
-(unter anderem) git. Die Vortragsfolien können [hier](http://chemnitzer.linux-tage.de/2012/vortraege/folien/941_SCCS.pdf)
+Nicht übereinstimmen kann ich aber in den angebrachten "Vergleichen" von
+SCCS zu (unter anderem) git. Die Vortragsfolien können
+[hier](http://chemnitzer.linux-tage.de/2012/vortraege/folien/941_SCCS.pdf)
 angesehen werden.
 
 
@@ -42,9 +44,9 @@ Aus dem Hörsaal kam die berechtigte Frage:
 
 > Wie oft mache ich das?
 
-Ich denke das spricht schonmal für sich, aber das eigentliche Feature hierbei
-ist, dass git von allen Files im Repo einen Binärblob in .git/ ablegt. Während
-SCCS nur Diffs vom letzten zum neuen Commit speichert.
+Ich denke das spricht schonmal für sich, aber das eigentliche Feature
+hierbei ist, dass git von allen Files im Repo einen Binärblob in .git/
+ablegt. Während SCCS nur Diffs vom letzten zum neuen Commit speichert.
 
 Das hab ich mal nachgebaut, kommt schon hin:
 
@@ -108,31 +110,32 @@ statt 15 TB raus.
 
 ## Die Zeit
 
-Ein weiterer Punkt der meines Erachtens beim Vergleich von git zu SCCS außer
-acht gelassen wurde. Die Zeit.
+Ein weiterer Punkt der meines Erachtens beim Vergleich von git zu SCCS
+außer acht gelassen wurde. Die Zeit.
 
 Was mich sehr interessiert sind die Wiederherstellzeiten. Klar git hat
-einen spezifischen Commit welcher auf ein Objekt im Hash Store zeigt. Dieser
-wird ausgelesen und fertig ist die Wiederherstellung.
+einen spezifischen Commit welcher auf ein Objekt im Hash Store zeigt.
+Dieser wird ausgelesen und fertig ist die Wiederherstellung.
 
 {{< figure src="/uploads/2012/03/gitobjects.png" >}}
-(Bild von progit.org - Creative Commons Attribution Non Commercial Share Alike 3.0
-license)
+(Bild von progit.org -
+Creative Commons Attribution Non Commercial Share Alike 3.0 license)
 
-Aber bei SCCS? Angenommen ich möchte vom 1.000.000 Commit zum 1. zurück. Alle
-Diffs werden dazu auf das aktuelle File angewandt und zurückgerechnet bis
-das File wieder am Ursprungszustand angekommen ist. Ob das Spass macht?
+Aber bei SCCS? Angenommen ich möchte vom 1.000.000 Commit zum 1. zurück.
+Alle Diffs werden dazu auf das aktuelle File angewandt und zurückgerechnet
+bis das File wieder am Ursprungszustand angekommen ist. Ob das Spass macht?
 
 ## Die Konsistenz
 
-Selbes Szenario hier. Ich weiss nicht was passiert wenn das Diff File von SCCS
-unterwegs mal kaputt geht. Aus welchen Gründen auch immer. HDD Block kaputt oder
-versehentlich editiert. Faktisch sollte das File dann nicht mehr herstellbar sein.
+Selbes Szenario hier. Ich weiss nicht was passiert wenn das Diff File von
+SCCS unterwegs mal kaputt geht. Aus welchen Gründen auch immer. HDD Block
+kaputt oder versehentlich editiert. Faktisch sollte das File dann nicht
+mehr herstellbar sein.
 
 Bei git bleibt weiterhin der mit zlib komprimierte Binary Blob bestehen und
 alles ist gut weil wie oben der Commit auf einen binär Blob referenziert.
-Selbst wenn dazwischen mal ein Block eines Blobs kaputt sein
-sollte (oder was auch immer).
+Selbst wenn dazwischen mal ein Block eines Blobs kaputt sein sollte (oder
+was auch immer).
 
 ## Ende
 

@@ -6,6 +6,9 @@ comments: true
 categories:
 - ubuntuusers
 - osbn
+- Databases
+- Administration
+tags:
 - mongodb
 - mysql
 - c

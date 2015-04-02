@@ -8,7 +8,7 @@ aliases:
 - /archives/627
 categories:
 - Development
-- General
+- Blog
 - Linux
 tags:
 - bash

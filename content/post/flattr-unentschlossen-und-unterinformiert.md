@@ -7,7 +7,7 @@ title: 'Flattr | Unentschlossen und unterinformiert. '
 aliases:
 - /archives/1024
 categories:
-- General
+- Blog
 - PlanetenBlogger
 tags:
 - $$$

@@ -8,7 +8,7 @@ aliases:
 - /archives/1321
 categories:
 - Development
-- General
+- Blog
 - git
 - PlanetenBlogger
 - Web

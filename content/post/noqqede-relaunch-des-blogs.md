@@ -8,7 +8,7 @@ aliases:
 - /archives/502
 - /blog/2009/02/23/noqqe.de-relaunch-des-blogs/
 categories:
-- General
+- Blog
 - Linux
 tags:
 - wordpress

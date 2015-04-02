@@ -7,7 +7,7 @@ title: Cisco CCNA 1
 aliases:
 - /archives/103
 categories:
-- General
+- Blog
 - Hardware
 tags:
 - CCNA 1

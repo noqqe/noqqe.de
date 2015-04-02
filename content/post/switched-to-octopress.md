@@ -6,9 +6,9 @@ comments: true
 categories:
 - Web
 - Blog
-- Ruby
-- Python
 tags:
+- Python
+- Ruby
 - Blogging
 - Posts
 - Framework
@@ -18,8 +18,9 @@ tags:
 - Wordpress
 ---
 
-Hatte von [Octopress](http://octopress.org) gelesen. Dann nochmal im [k4cg](http://k4cg.org) drüber
-gesprochen. Irgendwie. So halb und anschliessend für super befunden.
+Hatte von [Octopress](http://octopress.org) gelesen. Dann nochmal im
+[k4cg](http://k4cg.org) drüber gesprochen. Irgendwie. So halb und
+anschliessend für super befunden.
 
 {{< figure src="/uploads/2012/03/05/zoidberg.png" >}}
 
@@ -31,13 +32,15 @@ auch schon egal und ich hab mein Wordpress eingestampft.
 Eigentlich ging alles ganz fix.
 
 * Ruby 1.9.2 via rvm installiert
-* Die Anleitung auf [octopress.org](http://octopress.org/docs/setup/) befolgt
+* Die Anleitung auf [octopress.org](http://octopress.org/docs/setup/)
+  befolgt
 * In Wordpress Inhalte in wordpress.xml exportiert
-* Dem Konvertierungstool [exitwp](https://github.com/thomasf/exitwp) vorgeworfen
+* Dem Konvertierungstool [exitwp](https://github.com/thomasf/exitwp)
+  vorgeworfen
 * Alles in `source/_posts` platziert
 * wordpress.xml nach [Disqus.com](http://disqus.com) hochgeladen
 * Viele sed/awk Spielchen für die richtigen ImagePfade und Code Block
-Formattierung betireben
+  Formattierung betireben
 * Deployed auf Webserver
 * Apache Redirects für alte Posts eingerichtet
 

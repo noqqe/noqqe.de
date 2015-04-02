@@ -9,7 +9,7 @@ aliases:
 categories:
 - Development
 - Debian
-- General
+- Blog
 - ubuntuusers
 - Web
 tags:

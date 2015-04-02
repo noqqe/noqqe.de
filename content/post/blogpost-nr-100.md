@@ -7,7 +7,7 @@ title: Blogpost Nr. 100
 aliases:
 - /archives/276
 categories:
-- General
+- Blog
 ---
 
 Das ist Blogpost Nr.100 und .. vielleicht werdens auch noch weitere 100 :)

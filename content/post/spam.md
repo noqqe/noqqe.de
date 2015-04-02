@@ -4,13 +4,15 @@ title: "Spam"
 date: 2012-12-08T13:12:00+02:00
 comments: true
 categories:
+- Mail
+- Stats
+- osbn
+tags:
 - Uberspace
 - Spam
-- Mail
 - Statistik
 - bash
 - grep
-- osbn
 ---
 
 Ich wollte mich noch nie selber um meine Mails kümmern. Rumkonfigurieren,

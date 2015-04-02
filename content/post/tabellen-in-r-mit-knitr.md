@@ -4,8 +4,11 @@ title: "Tabellen aus R mit knitr und TeX"
 date: 2013-08-03T13:21:00+02:00
 comments: true
 categories:
+- Stats
 - ubuntuusers
 - osbn
+- Development
+tags:
 - R
 - Stats
 - Statistik
@@ -15,12 +18,13 @@ categories:
 - Markdown
 ---
 
-Eines der Dinge die `R` wirklich gut kann ist Daten darstellen. Gerade im Interactive Mode.
+Eines der Dinge die `R` wirklich gut kann ist Daten darstellen. Gerade im
+Interactive Mode.
 
 {{< figure src="/uploads/2013/08/termdata.png" >}}
 
-Konkret migriere ich gerade meine Graphen/Statistiken in ein PDF.
-Um mit `R` portablen Output zu generieren ist [knitr](http://yihui.name/knitr/)
+Konkret migriere ich gerade meine Graphen/Statistiken in ein PDF.  Um mit
+`R` portablen Output zu generieren ist [knitr](http://yihui.name/knitr/)
 zum DeFacto Standard geworden. Möglich sind zum Beispiel
 [Markdown](http://daringfireball.net/projects/markdown/) und
 [TeX](https://en.wikipedia.org/wiki/TeX). Allerdings funktioniert dort die

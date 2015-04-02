@@ -7,7 +7,7 @@ title: Gnome 2.24
 aliases:
 - /archives/279
 categories:
-- General
+- Blog
 - Hardware
 - Linux
 tags:

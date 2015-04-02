@@ -8,7 +8,7 @@ aliases:
 - /archives/521
 categories:
 - EEE-PC
-- General
+- Blog
 - Hardware
 - Linux
 tags:

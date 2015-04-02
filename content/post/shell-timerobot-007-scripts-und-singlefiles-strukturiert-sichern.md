@@ -8,7 +8,7 @@ aliases:
 - /archives/620
 categories:
 - Development
-- General
+- Blog
 - Linux
 tags:
 - backup

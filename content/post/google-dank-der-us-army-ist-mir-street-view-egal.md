@@ -7,7 +7,7 @@ title: Google | Dank der US-Army ist mir Street-View egal.
 aliases:
 - /archives/1238
 categories:
-- General
+- Blog
 - PlanetenBlogger
 - Web
 tags:

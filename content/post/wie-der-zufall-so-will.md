@@ -5,8 +5,10 @@ date: 2012-12-28T20:15:00+02:00
 comments: true
 categories:
 - ubuntuusers
+- Shell
+- Stats
+tags:
 - Bash
-- Statistik
 - Random
 - Zufall
 ---
@@ -74,10 +76,11 @@ Graph mit `gnuplot`
 
 {{< figure src="/uploads/2012/12/random_values_chart.png" >}}
 
-Den vielen Values gedankt sei auch die Unübersichtlichkeit des Graphen. Deshalb
-noch ein kleinwenig mehr Statistikpr0n. Im Durchschnitt wird jede der Zahlen bei 100 Mio. Durchgängen ca. 3050 mal
-genannt. Wesentlich interessanter dabei ist aber die Abweichung vom
-Durchschnitt (siehe auch [Standard Deviation](http://en.wikipedia.org/wiki/Standard_deviation)).
+Den vielen Values gedankt sei auch die Unübersichtlichkeit des Graphen.
+Deshalb noch ein kleinwenig mehr Statistikpr0n. Im Durchschnitt wird jede
+der Zahlen bei 100 Mio. Durchgängen ca. 3050 mal genannt. Wesentlich
+interessanter dabei ist aber die Abweichung vom Durchschnitt (siehe auch
+[Standard Deviation](http://en.wikipedia.org/wiki/Standard_deviation)).
 Bei der Bestimmung derer hilft eine kleine `awk` Zeile.
 
 ``` awk
@@ -85,9 +88,9 @@ awk '{sum+=$1; sumsq+=$1*$1} END {print sqrt(sumsq/NR - (sum/NR)**2)}' sorted.tx
 ```
 
 Bei meinen File wich also jeder der Werte durchschnittlich 53.6643 von der
-Durchschnittshäufigkeit ab. Wenn man das weiß, hat man schonmal ein ziemlich
-gutes Gefühl für das Auftreten der Integers.
+Durchschnittshäufigkeit ab. Wenn man das weiß, hat man schonmal ein
+ziemlich gutes Gefühl für das Auftreten der Integers.
 
-Unterm Strich empfinde ich `$RANDOM` als eine mehr als zufriedenstellende Variante eines Random Number
-Generators. Vielleicht war aber auch einfach nur ein guter Tag (wörtlich!) für das
-zufällige generieren von Zahlen.
+Unterm Strich empfinde ich `$RANDOM` als eine mehr als zufriedenstellende
+Variante eines Random Number Generators. Vielleicht war aber auch einfach
+nur ein guter Tag (wörtlich!) für das zufällige generieren von Zahlen.

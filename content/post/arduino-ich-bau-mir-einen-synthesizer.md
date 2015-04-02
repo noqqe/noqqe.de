@@ -8,7 +8,7 @@ aliases:
 - /archives/1833
 categories:
 - Development
-- General
+- Blog
 - Hardware
 - PlanetenBlogger
 - Web

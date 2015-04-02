@@ -9,7 +9,7 @@ aliases:
 categories:
 - Bash
 - Development
-- General
+- Blog
 - PlanetenBlogger
 tags:
 - bash

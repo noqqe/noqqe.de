@@ -7,7 +7,7 @@ title: Event | Chemnitzer Linux-Tage
 aliases:
 - /archives/939
 categories:
-- General
+- Blog
 - Linux
 - PlanetenBlogger
 tags:

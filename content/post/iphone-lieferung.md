@@ -7,7 +7,7 @@ title: iPhone | Lieferung
 aliases:
 - /archives/658
 categories:
-- General
+- Blog
 - iPhone
 ---
 

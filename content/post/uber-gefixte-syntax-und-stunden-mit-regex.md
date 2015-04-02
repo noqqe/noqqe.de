@@ -4,6 +4,10 @@ title: "Über gefixte Syntax und Stunden mit RegEx"
 date: 2012-11-22T22:27:00+02:00
 comments: true
 categories:
+- Blog
+- Web
+- Development
+tags:
 - octopress
 - osbn
 - bash
@@ -12,29 +16,30 @@ categories:
 - html
 ---
 
-Manchmal sitze ich abends einfach so herum und repariere kaputte/unschöne Syntax
-alter (via [exitwp](https://github.com/thomasf/exitwp)
-[importierter](/blog/2012/03/05/switched-to-octopress/))
-Blogposts unter Zuhilfenahme regulärer Ausdrücke damit besagte Eintraege nacher
-genauso aussehen wie vorher. Das hilft keinem. Nur mir, wenn ich mir die Markdown
+Manchmal sitze ich abends einfach so herum und repariere kaputte/unschöne
+Syntax alter (via [exitwp](https://github.com/thomasf/exitwp)
+[importierter](/blog/2012/03/05/switched-to-octopress/)) Blogposts unter
+Zuhilfenahme regulärer Ausdrücke damit besagte Eintraege nacher genauso
+aussehen wie vorher. Das hilft keinem. Nur mir, wenn ich mir die Markdown
 Sourcen des Octopress Repos anschaue.
 
 {{< figure src="/uploads/2012/11/bale.jpg" >}}
 
 ## Umbrüche
 
-Einen Großteil der Zeit habe ich mir überlegt wie ich es schaffe nach 80 Zeichen
-einen automatischen Umbruch mit `sed` zu machen ohne dabei ein Wort zu
-zerhacken. Lösung:
+Einen Großteil der Zeit habe ich mir überlegt wie ich es schaffe nach 80
+Zeichen einen automatischen Umbruch mit `sed` zu machen ohne dabei ein Wort
+zu zerhacken. Lösung:
 
-```
+``` bash
 sed -i -e 's#\(.\{80\}\S*\s\)#\1\n#g' *
 ```
 
 ## Ugly syntax is ugly
 
-Folgendes ist eine sehr schlimme Variante von Bildeinbettung in Markdown (imho). Exitwp ist
-da aber anscheinend anderer Meinung und hat damals alle Bilder so eingebunden:
+Folgendes ist eine sehr schlimme Variante von Bildeinbettung in Markdown
+(imho). Exitwp ist da aber anscheinend anderer Meinung und hat damals alle
+Bilder so eingebunden:
 
 ```
 Original:

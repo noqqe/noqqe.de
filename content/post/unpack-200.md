@@ -8,7 +8,7 @@ aliases:
 - /archives/396
 categories:
 - Development
-- General
+- Blog
 - Linux
 ---
 

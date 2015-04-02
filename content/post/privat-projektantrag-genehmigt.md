@@ -7,7 +7,7 @@ title: Privat | Projektantrag genehmigt
 aliases:
 - /archives/574
 categories:
-- General
+- Blog
 tags:
 - fachinformatiker
 - it

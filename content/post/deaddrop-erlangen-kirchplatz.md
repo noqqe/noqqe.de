@@ -7,7 +7,7 @@ title: DeadDrop | Erlangen Kirchplatz
 aliases:
 - /archives/1747
 categories:
-- General
+- Blog
 - Hardware
 - PlanetenBlogger
 tags:

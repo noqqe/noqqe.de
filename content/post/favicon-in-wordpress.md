@@ -7,7 +7,7 @@ title: html | Favicon in Wordpress
 aliases:
 - /archives/514
 categories:
-- General
+- Blog
 - Linux
 tags:
 - favicon

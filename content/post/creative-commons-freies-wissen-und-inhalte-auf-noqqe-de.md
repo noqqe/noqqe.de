@@ -8,7 +8,7 @@ aliases:
 - /archives/1049
 categories:
 - Development
-- General
+- Blog
 - PlanetenBlogger
 tags:
 - cc

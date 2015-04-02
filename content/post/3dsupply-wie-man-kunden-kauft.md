@@ -7,7 +7,7 @@ title: 3dsupply | Wie man Kunden kauft.
 aliases:
 - /archives/1142
 categories:
-- General
+- Blog
 - Web
 tags:
 - 3dsupply

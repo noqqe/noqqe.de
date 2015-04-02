@@ -4,6 +4,11 @@ title: "Spammer vs. Statistik mit bogofilter"
 date: 2013-10-26T17:40:00+02:00
 comments: true
 categories:
+- Mail
+- Development
+- Administration
+- Stats
+tags:
 - Spam
 - Bogofilter
 - Statistik
@@ -48,7 +53,6 @@ if ( /^X-Bogosity: Spam, tests=bogofilter/:h ) {
   to "$VUSERMAILDIR/.$SPAMDIR/"
 }
 ```
-
 
 ## Spam, aber warum?
 

@@ -5,13 +5,19 @@ date: 2012-06-16T12:31:00+02:00
 comments: true
 categories:
 - Web
-- Statistik
+- Stats
 - Debian
-- OpenSource
 - ubuntuusers
-keyworkds: "google, charts, stats, statistik, html, javascript, api, js, strom,
-stromverbrauch"
+tags:
+- OpenSource
+- Google
+- Charts
+- JSON
+- API
+- JS
+- html
 ---
+
 <script type="text/javascript" src="https://www.google.com/jsapi"></script>
 <script type="text/javascript">
 var g31082011 = 131079;
@@ -157,19 +163,22 @@ chart.draw(data, options);
 }
 </script>
 
-Seit nun ca. 8 Monaten wohne ich nicht mehr bei meinen Eltern. Wenn man Zuhause
-auszieht kommen immer ein Haufen neuer Aufgaben auf einen zu. Unter anderem auch
-den Verbrauch des Stroms regelmäßig abzulesen und zu notieren.
+Seit nun ca. 8 Monaten wohne ich nicht mehr bei meinen Eltern. Wenn man
+Zuhause auszieht kommen immer ein Haufen neuer Aufgaben auf einen zu. Unter
+anderem auch den Verbrauch des Stroms regelmäßig abzulesen und zu notieren.
 
 Ich wollte wenn's irgendwie geht vermeiden irgendein Excel File zu pflegen
-oder das einfach nur auf Papier zu schreiben. Also
-habe ich den Weg für Statistik Nerds via [Google Charts](https://developers.google.com/chart/) gewählt.
+oder das einfach nur auf Papier zu schreiben. Also habe ich den Weg für
+Statistik Nerds via [Google Charts](https://developers.google.com/chart/)
+gewählt.
 
-Konkret schick ich per JavaScript meine Daten zu einer Google API und daraus werden
-dann wunderschöne(!), interaktive(!) Graphen in den Browser gezaubert.
+Konkret schick ich per JavaScript meine Daten zu einer Google API und
+daraus werden dann wunderschöne(!), interaktive(!) Graphen in den Browser
+gezaubert.
 
-Am Anfang gibts erstmal einen Konfigurationsabschnitt. Dort trage ich die Werte
-ein definiere Variablen. Ich habe hier zu Demonstrationszwecken relativ zufällige Zahlen eingefügt.
+Am Anfang gibts erstmal einen Konfigurationsabschnitt. Dort trage ich die
+Werte ein definiere Variablen. Ich habe hier zu Demonstrationszwecken
+relativ zufällige Zahlen eingefügt.
 
 ``` js
 <script type="text/javascript" src="https://www.google.com/jsapi"></script>
@@ -233,16 +242,17 @@ definiere eine `div id` und beschrifte die Spalten und den Graphen an sich.
 </script>
 ```
 
-Wenn alles fertig befüllt ist wird die .js Funktion clientseitig ausgeführt und
-somit eine Anfrage an die Google Charts API gestellt. Was diese dann antwortet
-sieht man hier:
+Wenn alles fertig befüllt ist wird die .js Funktion clientseitig ausgeführt
+und somit eine Anfrage an die Google Charts API gestellt. Was diese dann
+antwortet sieht man hier:
 
 <div id="barchart_div"></div>
 
-So oder so ähnlich befülle ich dann auch alle anderen Funktionen die nötig sind
-um mir andere Graphen bauen zu lassen. Im Grunde ist es jedesmal nur das
-Einfügen von Variablen in ein Array. Die eigentliche Google Magie in den
-Funktionen kann man sich sehr einfach auf der [Google Page](https://google-developers.appspot.com/chart/interactive/docs/quick_start) zusammen klicken.
+So oder so ähnlich befülle ich dann auch alle anderen Funktionen die nötig
+sind um mir andere Graphen bauen zu lassen. Im Grunde ist es jedesmal nur
+das Einfügen von Variablen in ein Array. Die eigentliche Google Magie in
+den Funktionen kann man sich sehr einfach auf der [Google Page](https://google-developers.appspot.com/chart/interactive/docs/quick_start)
+zusammen klicken.
 
 <div id="flowchart_div"></div>
 
@@ -250,12 +260,13 @@ Ein wunderbar nichts sagendes Tortendiagramm darf natürlich nicht fehlen.
 
 <div id="piechart_div"></div>
 
-Ich hab mir auch noch einen Graphen gebaut der mir gleich noch die vorraussichtlichen
-Preise pro Monat errechnet.
+Ich hab mir auch noch einen Graphen gebaut der mir gleich noch die
+vorraussichtlichen Preise pro Monat errechnet.
 
 <div id="colchart_div"></div>
 
-[Hier gibts das File](/uploads/2012/06/strom.html), so wie ich es bei mir lokal Pflege. Da kann man auch
-nochmal genau den Source ansehen, wie welche Funktion befüllt werden muss.
-Und gerade weil das so schön .js ist, kann man das auch wunderbar in seinen Blog einbinden, cool mh?
+[Hier gibts das File](/uploads/2012/06/strom.html), so wie ich es bei mir
+lokal Pflege. Da kann man auch nochmal genau den Source ansehen, wie welche
+Funktion befüllt werden muss.  Und gerade weil das so schön .js ist, kann
+man das auch wunderbar in seinen Blog einbinden, cool mh?
 

@@ -7,7 +7,7 @@ title: Git and the Unix philosophy
 aliases:
 - /archives/1805
 categories:
-- General
+- Blog
 - git
 - PlanetenBlogger
 - Web

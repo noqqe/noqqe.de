@@ -7,9 +7,9 @@ title: Ubuntuusers.de-Planet
 aliases:
 - /archives/802
 categories:
-- General
 - Linux
 - ubuntuusers
+- Web
 tags:
 - community
 - planet
@@ -18,10 +18,7 @@ tags:
 - ubuntuusers
 ---
 
-Gestern ist mein Blog in den Ubuntuusers-Planet aufgenommen worden! Ich wollte mich mit diesem Post ganz kurz vorstellen(auch wenns ein wenig Offtopic ist^^):
-Flo - 20 - Fachinformatiker - LPIC 1 - CiscoCNA Modul 1 - Ubuntuuser seit 3 Jahren
-
-Werde mein möglichstes tun um auch einen Beitrag zur Community zu leisten :)
-
-Freut sich hier sein zu dürfen,
-Flo
+Gestern ist mein Blog in den Ubuntuusers-Planet aufgenommen worden. Ich
+wollte mich mit diesem Post ganz kurz vorstellen(auch wenns ein wenig
+Offtopic ist^^): Flo - 20 - Fachinformatiker - LPIC 1 - CiscoCNA Modul 1 -
+Ubuntuuser seit 3 Jahren.

@@ -7,7 +7,7 @@ title: Publications | Projektdokumentation
 aliases:
 - /archives/675
 categories:
-- General
+- Blog
 ---
 
 Planung und Integration einer Firewall-Lösung (auf Basis von Shorewall, mit VPN).

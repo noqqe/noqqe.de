@@ -8,7 +8,7 @@ aliases:
 - /archives/538
 categories:
 - Development
-- General
+- Blog
 - Hardware
 tags:
 - mysql

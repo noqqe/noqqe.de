@@ -7,7 +7,7 @@ title: noqqe.de
 aliases:
 - /archives/102
 categories:
-- General
+- Blog
 ---
 
 Anstatt mir immer irgendwelche Abänderungen von Flo (flooohooo, Flooo, Fl0, ELM) oder sowas als Nickname zu geben hab ich mir die letzten Tage einen ausgedacht der jetzt vereinheitlicht wird und zugleich Name meiner Domain ist.

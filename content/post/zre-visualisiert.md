@@ -10,7 +10,7 @@ categories:
 - Bash
 - Development
 - Debian
-- General
+- Blog
 - Ubuntu
 tags:
 - docs
