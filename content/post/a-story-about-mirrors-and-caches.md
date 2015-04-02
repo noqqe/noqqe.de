@@ -5,6 +5,9 @@ date: 2013-08-31T19:01:00+02:00
 comments: true
 categories:
 - Debian
+- DevOps
+- Administration
+tags:
 - apt
 - apt-cacher-ng
 - Updates
@@ -20,10 +23,11 @@ categories:
 - ubuntuusers
 ---
 
-[LinuxContainer](http://lxc.sourceforge.net/) sind für mich Wegwerfartikel. Benutze sie als Sandboxes um
-neue Software auszuprobieren, bestimmte Software zu Betreiben und um der
-[Dependency-Hölle](https://en.wikipedia.org/wiki/Dependency_hell) zu entkommen.
-Auch dieser Blogpost wurde in so einer LXC-VM gebaut.
+[LinuxContainer](http://lxc.sourceforge.net/) sind für mich Wegwerfartikel.
+Benutze sie als Sandboxes um neue Software auszuprobieren, bestimmte
+Software zu Betreiben und um der
+[Dependency-Hölle](https://en.wikipedia.org/wiki/Dependency_hell) zu
+entkommen.  Auch dieser Blogpost wurde in so einer LXC-VM gebaut.
 
 
 ### Mirroring
@@ -37,10 +41,12 @@ Mirror-Betreiber Spaß.
 
 {{< figure src="/uploads/2013/08/w00t.jpg" >}}
 
-Ich rechnete etwas hin und her, ob es sich wirklich lohnt einen eigenen lokalen Mirror zu betreiben.
-Für die richtige Architektur von main/non-free/contrib braucht wohl ~150GB. Letztendlich rentiert sich das von
-der Masse und Update-Synchronisierung erst hart spät. Ich tat es aber dann doch,
-was mit dem [apt-mirror](http://apt-mirror.github.io/) einfach und schnell ging.
+Ich rechnete etwas hin und her, ob es sich wirklich lohnt einen eigenen
+lokalen Mirror zu betreiben.  Für die richtige Architektur von
+main/non-free/contrib braucht wohl ~150GB. Letztendlich rentiert sich das
+von der Masse und Update-Synchronisierung erst hart spät. Ich tat es aber
+dann doch, was mit dem [apt-mirror](http://apt-mirror.github.io/) einfach
+und schnell ging.
 
 ### Caching
 
@@ -59,11 +65,9 @@ $ sudo /etc/init.d/apt-cacher-ng start
 
 Möchte ein Client Updates herunterladen, bemüht sich apt-cacher-ng nach
 Möglichkeit bereits heruntergeladene Pakete aus
-`/var/cache/apt-cacher-ng/$mirror/debian` auszuliefern. Das spart Bandbreite und
-Speicherplatz.
-
-Clientseitig lässt sich die Nutzung des Proxys auf zweierlei Varianten
-konfigurieren.
+`/var/cache/apt-cacher-ng/$mirror/debian` auszuliefern. Das spart
+Bandbreite und Speicherplatz.  Clientseitig lässt sich die Nutzung des
+Proxys auf zweierlei Varianten konfigurieren.
 
 Entweder durch das `apt` HTTP Proxy Feature
 

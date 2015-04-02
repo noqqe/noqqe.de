@@ -5,7 +5,7 @@ date: 2012-03-10T12:00:00+02:00
 comments: true
 categories:
 - ubuntuusers
-- shell
+- Shell
 - linux
 tags:
 - tricks

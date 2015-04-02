@@ -5,17 +5,34 @@ date: 2012-05-28T14:41:00+02:00
 comments: true
 categories:
 - Debian
-- Software
+- Administration
 - Web
 - ubuntuusers
-keywords: "apache, apache2, apache 2.4, 2.4, eventbased, eventbasiert, mpm
-event, mpm, mpm_event, worker, benchmark, apachebench, ab, prefork"
+tags:
+- apache
+- apache2
+- apache 2.4
+- 2.4
+- eventbased
+- eventbasiert
+- mpm
+- event mpm
+- mpm_event
+- worker
+- benchmark
+- apachebench
+- ab
+- prefork"
 ---
 
-[Apache 2.4](http://httpd.apache.org/docs/2.4/) ist seit einiger Zeit in [Debian Experimental](http://www.debian.org/releases/experimental/) paktiert. Yeah!
+[Apache 2.4](http://httpd.apache.org/docs/2.4/) ist seit einiger Zeit in
+[Debian Experimental](http://www.debian.org/releases/experimental/)
+paktiert. Yeah!
 
-Grade das eventbasierte MPM [mpm_event](http://httpd.apache.org/docs/2.4/mod/event.html), dass in 2.4 stable wird hat mich daran
-interessiert. Zeit mal wieder Graphen zu bauen und Benchmarks anzustoßen.
+Grade das eventbasierte MPM
+[mpm_event](http://httpd.apache.org/docs/2.4/mod/event.html), dass in 2.4
+stable wird hat mich daran interessiert. Zeit mal wieder Graphen zu bauen
+und Benchmarks anzustoßen.
 
 ## Das Setup
 
@@ -55,7 +72,7 @@ $ ab -c 200 -n 2500 http://host.example.org/
 Jedem Apache habe ich nun stufenweise Connections hingeschossen
 und mir die Dauer jedes Benchmarks weggegreppt:
 
-``` bash 
+``` bash
 C=0
 while [ $C -lt 100000 ]; do
   C=$((C + 10000))
@@ -77,7 +94,7 @@ sie für bestimmte Aufgaben tauglicher macht als andere. Deshalb hab ich auch no
 von 100-1000 gleichzeitigen Requests geprüft. Der Einzeiler ist dafür nur
 geringfügig modifiziert:
 
-``` bash 
+``` bash
 C=0
 while [ $C -lt 1000 ]; do
   C=$((C + 100))
@@ -95,13 +112,14 @@ nicht sagen. Habs mehrmals versucht mit immer dem gleichen Ergebnis.
 
 ## Fazit
 
-Die Daten zu deuten ist jedem selber überlassen. Was hier auch
-überhaupt nicht zur Sprache kam ist die Administrierbarkeit der Module
-oder Stabilität. Ob man Prefork mag weil es nativ mit mod_php kann oder man sich wegen der Performance mpm_worker mit
-fcgid antut... Geschmäcker gehen hier außeinander aber allein wegen der
-Verträglichkeit des mpm_event gegenüber [Slowloris](http://de.wikipedia.org/wiki/Slowloris) Attacken
-sollten man sich den "neuen" mpm_event jedenfalls mal ansehen.
-Performacetechnisch sieht es jedenfalls nicht schlecht aus ;)
+Die Daten zu deuten ist jedem selber überlassen. Was hier auch überhaupt
+nicht zur Sprache kam ist die Administrierbarkeit der Module oder
+Stabilität. Ob man Prefork mag weil es nativ mit mod_php kann oder man sich
+wegen der Performance mpm_worker mit fcgid antut... Geschmäcker gehen hier
+außeinander aber allein wegen der Verträglichkeit des mpm_event gegenüber
+[Slowloris](http://de.wikipedia.org/wiki/Slowloris) Attacken sollten man
+sich den "neuen" mpm_event jedenfalls mal ansehen.  Performacetechnisch
+sieht es jedenfalls nicht schlecht aus ;)
 
 Wer möchte kann sich die [Rohdaten](https://gist.github.com/2764231) der Tests
 bei Github abholen.

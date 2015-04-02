@@ -7,7 +7,6 @@ title: EeePC urlaubstüchtig / Media tauglich machen!
 aliases:
 - /archives/55
 categories:
-- EEE-PC
 - Hardware
 - Linux
 tags:
@@ -28,9 +27,9 @@ Gefiel mir natürlich nicht so wirklich. Aber gut. Zuerstmal den Codec installie
 apt-get install libxine1-plugins
 ```
 
-Wollte aber nicht so recht. Genau wie andere Pakete. Aber hat nicht lang gedauert
-bis ich geschnallt hab das eeeXubuntu aus irgendeinem Grund Paketquellen "aus dem
-Internet herunterladbar" kein einziges Häkchen hatte.
+Wollte aber nicht so recht. Genau wie andere Pakete. Aber hat nicht lang
+gedauert bis ich geschnallt hab das eeeXubuntu aus irgendeinem Grund
+Paketquellen "aus dem Internet herunterladbar" kein einziges Häkchen hatte.
 
   * Von Canoncial unterstützte OpenSourceSoftware
   * Von der Gemeinschaft betreute OpenSourceSoftware
@@ -38,19 +37,22 @@ Internet herunterladbar" kein einziges Häkchen hatte.
   * Urheberrechtlich eingeschränkte Software
   * Quelltext
 
-Nichts von alle Dem war angekreuzt. Also gut. MP3s liefen und um nicht Totem verwenden zu
-müssen hab ich mich dann für xmms entschieden. Hab ich noch nicht probiert,
-soll Platz sparen und handlicher sein. Musik läuft schonmal.
+Nichts von alle Dem war angekreuzt. Also gut. MP3s liefen und um nicht
+Totem verwenden zu müssen hab ich mich dann für xmms entschieden. Hab ich
+noch nicht probiert, soll Platz sparen und handlicher sein. Musik läuft
+schonmal.
 
 ### Flash Player
 
-Das ganze ging auch recht einfach von der Bühne. Zuerst den Adobe-Flash-Player mit
-Hilfe der Browser Plugin Bar installiert und dann noch den Gnash SWF Viewer.
-Erst nach dem 2. ging dann alles. Warum ? KA. Aber es geht.
+Das ganze ging auch recht einfach von der Bühne. Zuerst den
+Adobe-Flash-Player mit Hilfe der Browser Plugin Bar installiert und dann
+noch den Gnash SWF Viewer.  Erst nach dem 2. ging dann alles. Warum ? KA.
+Aber es geht.
 
 ### Externe Festplatte
 
-_"_Cannot mount volume"_ Invalid mount option when attempting to mount the volume "Externe"._
+_"_Cannot mount volume"_ Invalid mount option when attempting to mount the
+volume "Externe"._
 
 Warum nicht? Darum muss ich mich umbedingt noch kümmern.
 

@@ -6,6 +6,11 @@ comments: true
 title: Git | Workflow und Branching
 aliases:
 - /archives/998
+tags:
+- git 
+- workflow
+categories:
+- Development
 ---
 
 ![git-logo](/uploads/2010/02/git-logo.png)

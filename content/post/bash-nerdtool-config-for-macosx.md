@@ -8,7 +8,7 @@ aliases:
 - /archives/1182
 categories:
 - Development
-- Mac
+- OSX
 - PlanetenBlogger
 tags:
 - bash
@@ -31,8 +31,12 @@ tags:
 - uptime
 ---
 
-[GeekTool](http://projects.tynsoe.org/en/geektool/) und [NerdTool](http://www.macupdate.com/info.php/id/31909/nerdtool) für MacOSX sind schöne Programme, welche Ausgaben von Bash-Scripten auf den Desktop ausgeben und ständig aktualiseren. Kein Geheimnis und nichts Neues.
-Das Netz ist voll von schönen Spielereien für diese Tools. Hier mein Setup. (Benutze Nerdtool, Script ist aber unabhängig von der Software)
+[GeekTool](http://projects.tynsoe.org/en/geektool/) und
+[NerdTool](http://www.macupdate.com/info.php/id/31909/nerdtool) für MacOSX
+sind schöne Programme, welche Ausgaben von Bash-Scripten auf den Desktop
+ausgeben und ständig aktualiseren. Kein Geheimnis und nichts Neues.  Das
+Netz ist voll von schönen Spielereien für diese Tools. Hier mein Setup.
+(Benutze Nerdtool, Script ist aber unabhängig von der Software)
 
 {{< figure src="/uploads/2010/08/Bildschirmfoto-2010-08-15-um-13.19.43-300x187.png" >}}
 
@@ -57,6 +61,7 @@ echo "$ESC[34;47mListen$ESC[0m"
 lsof -i -n | grep -i listen | awk '{print $1" "$8" "$9 }' | head -n 18
 ```
 
-
-
-Besonderheit hierbei: Der Escape-Character muss so _zwingend_ wie beschrieben eingesetzt werden. Normale Ausgabe wird nicht entsprechend wahrgenommen. Er ist nötig um die Farbtöne innerhalb des Scripts zu managen ;)
+Besonderheit hierbei: Der Escape-Character muss so _zwingend_ wie
+beschrieben eingesetzt werden. Normale Ausgabe wird nicht entsprechend
+wahrgenommen. Er ist nötig um die Farbtöne innerhalb des Scripts zu managen
+;)

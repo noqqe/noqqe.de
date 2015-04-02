@@ -7,9 +7,13 @@ categories:
 - OpenSource
 - Web
 - Debian
-- Favicons
-- Browser
 - osbn
+tags:
+- favicons
+- Browser
+- Blog
+- Site
+- WWW
 ---
 
 Favicons. Wer trotz der Überschrift beschlossen hat sich den Post durchzulesen

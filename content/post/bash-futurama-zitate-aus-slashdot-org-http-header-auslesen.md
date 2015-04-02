@@ -11,7 +11,6 @@ categories:
 - Debian
 - Blog
 - ubuntuusers
-- Web
 tags:
 - bash
 - debian
@@ -26,7 +25,9 @@ tags:
 - welcome
 ---
 
-Bin heute morgen über ein Easter-Egg von Slashdot.org [gestolpert](http://www.eastereggs.svensoltmann.de/content/view/686/26/). HTTP-Header:
+Bin heute morgen über ein Easter-Egg von Slashdot.org
+[gestolpert](http://www.eastereggs.svensoltmann.de/content/view/686/26/).
+HTTP-Header:
 
 ```
 $ curl -Is slashdot.org
@@ -40,8 +41,9 @@ Cache-Control: no-cache
 [...]
 ```
 
-
-Bei so ziemlich jeder Anfrage steht an der Stelle ein neues Zitat. Da ich sowieso total [auf Futurama stehe](/archives/995), dachte ich mir ich baue die Zitate als Welcome-Message in meine Rechner ein:
+Bei so ziemlich jeder Anfrage steht an der Stelle ein neues Zitat. Da ich
+sowieso total [auf Futurama stehe](/archives/995), dachte ich mir ich baue
+die Zitate als Welcome-Message in meine Rechner ein:
 
 ```
 $ curl -Is slashdot.org | sed -n '5p' | sed 's/^X-//'
@@ -50,22 +52,19 @@ $ curl -Is slashdot.org | sed -n '5p' | sed 's/^X-//'
 Fry: I can burp the alphabet. A, B, D ... no, wait ...
 ```
 
-
-Wenn ich aber bei allen meinen Rechnern die Zeile einbinde, hat das irgendwie ein bisschen was von DOS-Attacke. Muss ja nicht sein. Mit einem Einzeiler hab ich mir die Quotes erstmal alle besorgt:
-
-
+Wenn ich aber bei allen meinen Rechnern die Zeile einbinde, hat das
+irgendwie ein bisschen was von DOS-Attacke. Muss ja nicht sein. Mit einem
+Einzeiler hab ich mir die Quotes erstmal alle besorgt:
 
 
     target="/path/to/file/018" ; while true ; do quote="$(curl -Is slashdot.org |sed -n '5p' |sed 's/^X-//')" ; if [ $(grep "$quote" $target |wc -l) -lt 1 ]; then echo $quote >> $target ; echo $quote ; sleep 1 ; fi ; done
 
-
-
-
-Hier gibt's alle Quotes die der Einzeiler bis jetzt gesammelt hat: [/uploads/2009/09/018](/uploads/2009/09/018)
+Hier gibt's alle Quotes die der Einzeiler bis jetzt gesammelt hat:
+[/uploads/2009/09/018](/uploads/2009/09/018)
 
 Futurama Quotes beim Login unter Ubuntu:
 
-```
+``` bash
 $ wget /uploads/2009/09/018 -O  ~/.futurama
 $ vi ~/.bashrc
 quotes="$HOME/.futurama"
@@ -74,7 +73,6 @@ echo " "
 rnd=$((RANDOM % $(cat $quotes | wc -l)+3)) ; sed -n "${rnd}p" $quotes
 fi
 ```
-
 
 Einloggen oder Shell starten sieht dann wie folgt aus:
 

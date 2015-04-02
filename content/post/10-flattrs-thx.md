@@ -11,12 +11,12 @@ aliases:
 - /blog/2012/11/18/10-flattrs-thx/
 ---
 
-Woa! 10? Really? Hätte beim einbinden des Buttons ehrlich gesagt
-nichtmal mit einem gerechnet.
+Woa! 10? Really? Hätte beim einbinden des Buttons ehrlich gesagt nichtmal
+mit einem gerechnet.
 
 {{< figure src="/uploads/2012/11/success-kid.jpg" >}}
 
-Das Geld wird übrigens nicht weiterverflattert sondern fliesst in das Hosting
-des Blogs.
+Das Geld wird übrigens nicht weiterverflattert sondern fliesst in das
+Hosting des Blogs.
 
 Danke!

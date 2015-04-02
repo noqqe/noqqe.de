@@ -11,4 +11,12 @@ categories:
 - Linux
 ---
 
-und zwar den Blog. Was wäre ich auch für ein Web2.0-Typ hätte ich meinen Blog ganz abgeschafft. In der Zwischenzeit ist eigentlich auch so gut wie nichts passiert. IT-Systemkaufmanns-Ausbildung abgeschlossen, zum Linux-Administrator im Junior Level zertifizieren lassen(LPIC), meiste Zeit mit meinem PHP-Projekt Sammelsurium verbracht ([http://sammelsurium.zwetschge.org](http://sammelsurium.zwetschge.org)), bisschen umgezogen und nächste Woche erste Blockschul-Woche in verkürzter Ausbildung zum Fachinformatiker-Systemintegration. Alles in allem gehts mir gut. Ist das nicht eh die Basis-Message in jedem Blog?
+Und zwar den Blog. Was wäre ich auch für ein Web2.0-Typ hätte ich meinen
+Blog ganz abgeschafft. In der Zwischenzeit ist eigentlich auch so gut wie
+nichts passiert. IT-Systemkaufmanns-Ausbildung abgeschlossen, zum
+Linux-Administrator im Junior Level zertifizieren lassen(LPIC), meiste Zeit
+mit meinem PHP-Projekt Sammelsurium verbracht
+([http://sammelsurium.zwetschge.org](http://sammelsurium.zwetschge.org)),
+bisschen umgezogen und nächste Woche erste Blockschul-Woche in verkürzter
+Ausbildung zum Fachinformatiker-Systemintegration. Alles in allem gehts mir
+gut. Ist das nicht eh die Basis-Message in jedem Blog?

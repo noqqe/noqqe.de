@@ -9,9 +9,17 @@ aliases:
 categories:
 - Development
 - Linux
+- Shell
+tags:
+- apt
+- upgrade
+- update
+- aptitude
 ---
 
-So faul wie ich also bin, mich bei jedem Server einzeln einzuloggen, upzugraden und cronjob auszuführen, wollt ich ein Stück weit automatisieren. Dabei raus kam:
+So faul wie ich also bin, mich bei jedem Server einzeln einzuloggen,
+upzugraden und cronjob auszuführen, wollt ich ein Stück weit
+automatisieren. Dabei raus kam:
 
 ``` bash
 #!/bin/bash

@@ -6,11 +6,13 @@ comments: true
 categories:
 - ubuntuusers
 - Linux
-- web
-- debian
-- code
-keywords: "deadly 30, deadly, zombies, linux, indie, debian, squeeze, 64bit,
-gstreamer, libgstreamer, plugins, metal slug, metal, slug, 30, game"
+- Web
+- Debian
+tags:
+- linux
+- game
+- shooter
+- 2d
 ---
 
 Gerade von [Deadly 30](http://www.deadly30.com/index.php) gelesen. Linux Version
@@ -44,7 +46,6 @@ Also die nötigen 32bit Libraries runterladen und einbauen.
 ```
 $ tar cfvz $HOME/usr-lib32.tar.gz /usr/lib32
 ```
-
 
 ## 2. libgstreamer installieren
 

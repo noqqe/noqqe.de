@@ -6,8 +6,6 @@ comments: true
 categories:
 - Linux
 - Events
-- planetenblogger
-- Web
 tags:
 - Chemnitz
 - Chemnitzer Linux Tage

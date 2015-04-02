@@ -6,12 +6,14 @@ comments: true
 categories:
 - ubuntuusers
 - osbn
+- Development
+- Stats
+tags:
 - Pfund
 - Euro
 - Kurs
 - R
 - Statistik
-- Stats
 - CSV
 - XML
 - EZB
@@ -23,9 +25,10 @@ Ich fragte Siri ob ich morgen Euro gegen Pfund tauschen solle.
 
 {{< figure src="/uploads/2013/06/kurs.png" >}}
 
-Wechselkurse sind Dinge für die ich mich noch nie interessiert hab. Wann geh ich zur Bank. Wann ists teuer, wann nicht?
-Eigentlich wollte ich das schon ewig gemacht haben da man munkelte, der Kurs
-wäre gerade gut. Irgendwie hab ich es aber nicht geschafft.
+Wechselkurse sind Dinge für die ich mich noch nie interessiert hab. Wann
+geh ich zur Bank. Wann ists teuer, wann nicht?  Eigentlich wollte ich das
+schon ewig gemacht haben da man munkelte, der Kurs wäre gerade gut.
+Irgendwie hab ich es aber nicht geschafft.
 
 Die EZB bietet auf Ihrer (maximal fragwürdig aussehenden)
 [Website](http://www.ecb.int/stats/exchange/eurofxref/html/eurofxref-graph-gbp.en.html)
@@ -37,7 +40,7 @@ sich in dem Fall leicht zu CSV konvertieren
 
 Alles in `R` geworfen. CSV importiert, Tag dazugerechnet.
 
-``` r 
+``` r
 > f <- read.csv(file="gbp.csv", header=F, as.is=T, sep=" ")
 > f$Tag <- format(as.Date(f$Datum), format="%A")
 > f
@@ -58,7 +61,7 @@ täglichen Tauschwert um 2:15 pm (C.E.T.) wider. Dass die Daten immer nachmittag
 aufgezeichnet wurden ist ein bisschen schade, vielleicht wäre es morgens
 billiger gewesen? Kann man aber nicht helfen.
 
-``` r 
+``` r
 > kursmean <- NULL
 > days <- unique(f$Tag)
 > for (n in days) kursmean <- c(kursmean,with(f, mean(Kurs[ Tag == n ])))

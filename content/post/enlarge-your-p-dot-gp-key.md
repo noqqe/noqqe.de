@@ -4,6 +4,8 @@ title: "Enlarge your P..GP Key"
 date: 2014-03-16T17:20:00+02:00
 comments: true
 categories:
+- Crypto
+tags:
 - pgp
 - gpg
 - key
@@ -120,4 +122,4 @@ $ ps2pdf key.ps
 * Informationen auf der Website updaten
 * [caff](https://wiki.debian.org/caff) Konfiguration anpassen
 
-{{< figure src="/uploads/2014/03/w0000t.gif " >}}
+{{< figure src="/uploads/2014/03/w0000t.gif" >}}

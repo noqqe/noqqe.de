@@ -5,10 +5,14 @@ date: 2012-09-09T20:45:00+02:00
 comments: true
 categories:
 - osbn
+- Web
+- Administration
 tags:
 - tomcat
 - linux
 - opensource
+- webapps
+- LinuxHotel
 aliases:
 - /blog/2012/09/09/getting-enterprised-with-tomcat-teil-1/
 ---

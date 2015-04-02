@@ -18,10 +18,12 @@ tags:
 - Sony
 ---
 
-Meine Tolle 8GB MemoryStickProDuo Magicgate Mark2 Karte (kurzer treffender Name mh?...) die mir gestern geliefert wurde sieht ziemlich im Arsch aus.
+Meine Tolle 8GB MemoryStickProDuo Magicgate Mark2 Karte (kurzer treffender
+Name mh?...) die mir gestern geliefert wurde sieht ziemlich im Arsch aus.
 
 Mounten klappt alles. Solang bis ich daten schreibe. Dann:
 
+```
 [  263.799077] sd 6:0:0:0: Attached scsi generic sg8 type 0
 [ 3648.888900] sd 4:0:0:3: [sdf] 15900672 512-byte hardware sectors (8141 MB)
 [ 3648.890024] sd 4:0:0:3: [sdf] Write Protect is off
@@ -47,6 +49,7 @@ Mounten klappt alles. Solang bis ich daten schreibe. Dann:
 [ 3941.077889] sd 4:0:0:3: [sdf] Result: hostbyte=DID_ABORT driverbyte=DRIVER_OK,SUGGEST_OK
 [ 3941.077898] end_request: I/O error, dev sdf, sector 16352
 [ 3941.083123] sd 4:0:0:4: timing out command, waited 180s
-Defekte Sektoren und Input/Output Errors...
+```
 
+Defekte Sektoren und Input/Output Errors...
 Hat jemand ne Idee? *zu Dominik schiel*

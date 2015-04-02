@@ -4,11 +4,13 @@ title: "Digital Ocean FreeBSD"
 date: 2015-01-26T21:06:00+02:00
 comments: true
 categories:
-- FreeBSD
 - OpenBSD
 - BSD
-- DigitalOcean
 - osbn
+tags:
+- FreeBSD
+- DigitalOcean
+- Zitat
 ---
 
 Kommentar eines Users zum Launch von FreeBSD bei DigitalOcean. Einfach nur w0rd.

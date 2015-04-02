@@ -9,7 +9,6 @@ aliases:
 categories:
 - Hardware
 - Linux
-- PlanetenBlogger
 - Web
 tags:
 - aram barthol
@@ -23,7 +22,8 @@ tags:
 - usbstick
 ---
 
-Als ich durch den Park in Baiersdorf lief und diese alte Mauer einer (vermutlich) verlassenen Werkstatt sah, konnte ich dann doch nicht anders.
+Als ich durch den Park in Baiersdorf lief und diese alte Mauer einer
+(vermutlich) verlassenen Werkstatt sah, konnte ich dann doch nicht anders.
 
 Wie es begann:
 

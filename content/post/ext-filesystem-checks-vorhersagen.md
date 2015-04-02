@@ -10,24 +10,32 @@ categories:
 - linux
 - debian
 - ubuntu
-keywords: "Debian, kernel, fsck, ext2, ext3, ext4, Superblock, dumpe2fs, restore, check, filesystem, fs"
+tags:
+- fs
+- check
+- fsck
 ---
 
-Kernel Updates am Server seiner Wahl einspielen und dann...warten. Warten auf die erlösenden
-ICMP Antworten. Oder bootet die Kiste doch nicht? Alles dauert verdächtig lange. Auch nach 10 Minuten noch nichts.
-Gerade wenn man die Zugangsdaten fürs DRAC/ILO rausgekramt hat zeigt sich: Filesystem Check.
+Kernel Updates am Server seiner Wahl einspielen und dann...warten. Warten
+auf die erlösenden ICMP Antworten. Oder bootet die Kiste doch nicht? Alles
+dauert verdächtig lange. Auch nach 10 Minuten noch nichts.  Gerade wenn man
+die Zugangsdaten fürs DRAC/ILO rausgekramt hat zeigt sich: Filesystem
+Check.
 
-Extended Filesystems machen an den folgenden 2 Punkten fest wann fsck's passieren:
+Extended Filesystems machen an den folgenden 2 Punkten fest wann fsck's
+passieren:
 
 * Maximale Anzahl von Mounts
 * Zeitliche Abstände zwischen den Routine Checks
 
-Die Informationen stehen im Superblock einer Parition. Das Tool dumpe2fs stellt diese zur Verfügung:
+Die Informationen stehen im Superblock einer Parition. Das Tool dumpe2fs
+stellt diese zur Verfügung:
 
     $ dumpe2fs -h /dev/sda1
 
-Das ganze hab ich dann verskriptet. Es "scanned" alle gemounteten ext Parititonen und warnt einen, falls die
-maximalen Mounts oder die zyklischen Checks anstehen. [ext-verify.sh](https://gist.github.com/noqqe/2601222)
+Das ganze hab ich dann verskriptet. Es "scanned" alle gemounteten ext
+Parititonen und warnt einen, falls die maximalen Mounts oder die zyklischen
+Checks anstehen. [ext-verify.sh](https://gist.github.com/noqqe/2601222)
 
 Das sieht dann unter Umständen so aus:
 
@@ -37,8 +45,9 @@ WARNING: /dev/sda1 has reached the next periodically filesystemcheck. (Sa Apr 7 
 RESULT: A fsck will be executed at the next reboot for /dev/sda1.
 ```
 
-Natürlich für jede gefundene Partition. Um das jetzt noch am besten irgendwie zu
-automatisieren hab ich mich entschieden das in `apt` zu integrieren.
+Natürlich für jede gefundene Partition. Um das jetzt noch am besten
+irgendwie zu automatisieren hab ich mich entschieden das in `apt` zu
+integrieren.
 
 ```
 $ vim /etc/apt/apt.conf.d/09extverfiy

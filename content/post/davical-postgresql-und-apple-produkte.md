@@ -6,8 +6,8 @@ comments: true
 categories:
 - Linux
 - Web
-- Apple
 tags:
+- Apple
 - davical
 - caldav
 - carddav
@@ -22,20 +22,20 @@ Vor ewigen Zeiten hab ich mir mal ein eGroupware installiert. Es war schrecklich
 und deshalb hab ich es durch etwas weniger Schreckliches ersetzt.
 [DaviCal](http://davical.org).
 
-Nicht das ich spontan Lust gehabt hätte sowas wie Kontakte und so mal zu Ordnen.
-Vielmehr hat mich die PostgreSQL Datenbank intressiert die dazu nötig ist.
-Installation und
-Konfiguration ist so schön dokumentiert das ich das hier nicht widerholen
-brauche. Die Integration in Thunderbird verlief ohne Probleme. Dann kamen meine
-beiden Geräte aus dem Hause Crapple mit der Synchronisation der Kontakte dran.
+Nicht das ich spontan Lust gehabt hätte sowas wie Kontakte und so mal zu
+Ordnen.  Vielmehr hat mich die PostgreSQL Datenbank intressiert die dazu
+nötig ist. Installation und Konfiguration ist so schön dokumentiert das
+ich das hier nicht widerholen brauche. Die Integration in Thunderbird
+verlief ohne Probleme. Dann kamen meine beiden Geräte aus dem Hause Crapple
+mit der Synchronisation der Kontakte dran.
 
 ## iPhone
 
 Mein iPhone wollte den hingeworfenen Remote für Contacts nicht einfach so
 hinnehmen. Ewiges "Verifying" durch den Installationsassistenten und jedesmal
 gefühlte 5-10 Minuten später hat er mich dann abgewiesen. Im Apache Log ist
-davon nichts
-aufgetaucht. Nach bisschen wälzen in der Dokumentation hier und da:
+davon nichts aufgetaucht. Nach bisschen wälzen in der Dokumentation hier
+und da:
 
 > CardDav-Accounts only could set up via iPhone configuration utility. It had to
 > set up a principal url (e.g. https://domain.tld/caldav.php/username/contacts)
@@ -87,8 +87,7 @@ Ich hab mir schliesslich die Config von Addressbuch mühsam ergrept und gefunden
 
 Dort gibt es unter anderem folgende Paramteri (bereits korrigiert):
 
-
-```
+``` xml
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
@@ -114,4 +113,5 @@ Dort gibt es unter anderem folgende Paramteri (bereits korrigiert):
 </plist>
 ```
 
-Hurra. Ohne das kaputte Interface kann mein Address Book problemlos mit meinem neuen DaviCal Server reden.
+Hurra. Ohne das kaputte Interface kann mein Address Book problemlos mit
+meinem neuen DaviCal Server reden.

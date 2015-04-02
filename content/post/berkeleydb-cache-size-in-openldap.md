@@ -5,6 +5,8 @@ date: 2013-03-08T18:40:00+02:00
 comments: true
 categories:
 - ubuntuusers
+- Administration
+tags:
 - OpenLDAP
 - LDAP
 - BDB

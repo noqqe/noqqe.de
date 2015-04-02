@@ -4,11 +4,16 @@ title: "Getting enterprised with Tomcat - Teil 2"
 date: 2012-09-11T21:40:00+02:00
 comments: true
 categories:
-- Tomcat
 - Web
 - Administration
-- Bash
+- Shell
+tags:
+- Tomcat
 - Code
+- Web
+- AJP
+- Webapp
+- LinuxHotel
 aliases:
 - /blog/2012/09/11/getting-enterprised-with-tomcat-teil-2/
 ---

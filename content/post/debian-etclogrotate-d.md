@@ -6,6 +6,15 @@ comments: true
 title: Debian | /etc/logrotate.d/*
 aliases:
 - /archives/684
+categories:
+- Administration
+- Linux
+tags:
+- logs
+- logging
+- rotate
+- filesystem
+- weekly
 ---
 
 Eigene Logs rotieren zu lassen ist mit logrotate eigentlich ziemlich entspannt.

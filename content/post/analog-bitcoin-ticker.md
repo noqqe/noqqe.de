@@ -6,6 +6,8 @@ comments: true
 categories:
 - osbn
 - ubuntuusers
+- Hardware
+tags:
 - bitcoin
 - meter
 - megabitmeter
@@ -36,7 +38,7 @@ Im Endeffekt hole ich mir nur mit etwas Python (schlechtes Python, btw) den
 aktuellen Kurs vom letzten halbwegs stabilen BitCoin Trader
 [Bitstamp](https://bitstamp.net)
 
-``` python 
+``` python
 #!/usr/bin/python
 
 import json

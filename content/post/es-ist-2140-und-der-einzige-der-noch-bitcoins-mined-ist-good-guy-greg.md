@@ -5,6 +5,8 @@ date: 2013-04-08T20:16:00+02:00
 comments: true
 categories:
 - osbn
+- Crypto
+tags:
 - bitcoin
 - gpu
 - mining

@@ -9,9 +9,9 @@ aliases:
 categories:
 - Development
 - Blog
-- git
-- PlanetenBlogger
+- Shell
 tags:
+- git
 - bash
 - bash-it
 - community
@@ -21,24 +21,18 @@ tags:
 - revans
 ---
 
-Um die Entwicklung des Bash Community Frameworks [bash-it](http://github.com/revans/bash-it) noch zusätzlich etwas vorran zu treiben, hab ich ein neues Theme und git_info  bereitgestellt.
+Um die Entwicklung des Bash Community Frameworks
+[bash-it](http://github.com/revans/bash-it) noch zusätzlich etwas vorran zu
+treiben, hab ich ein neues Theme und git_info  bereitgestellt.
 
+### n0qorg theme
 
-## n0qorg theme
-
-
-Schema: host directory (git-status dirty)>
-Bis jetzt noch nicht gemerged. Denke aber das kommt noch. [Theme @ Github](https://github.com/noqqe/bash-it/blob/92b8d6d9cfade500e4d514163b5c18a1df71113d/themes/n0qorg/n0qorg.theme.bash)
-
+Schema: host directory (git-status dirty) Bis jetzt noch nicht gemerged.
+Denke aber das kommt noch. [Theme @
+Github](https://github.com/noqqe/bash-it/blob/92b8d6d9cfade500e4d514163b5c18a1df71113d/themes/n0qorg/n0qorg.theme.bash)
 
 {{< figure src="/uploads/2010/11/Screenshot.png" >}}
 
-
-
-
-## git_info Funktion
-
+### git_info Funktion
 
 Gibt Übersicht über das aktuelle Repo. Ab jetzt im Framework vorhanden.
-
-

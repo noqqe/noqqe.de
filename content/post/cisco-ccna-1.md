@@ -16,7 +16,8 @@ tags:
 - Netzwerk
 ---
 
-Am Freitag ist es soweit. Jede Blockwoche hab ich eine Prüfung abgelegt um jetzt dann das
+Am Freitag ist es soweit. Jede Blockwoche hab ich eine Prüfung abgelegt um
+jetzt dann das
 
 CISCO CERTIFED NETWORK ADMIN
 
@@ -24,8 +25,13 @@ Zertifikat zu erwerben :)
 
 Schön das unsere Schule sowas anbietet! Ist ja super angesehen das ganze.
 
-Kurze Themenübersicht was ich jetzt alles beherrsche(n sollte) / drauf hab(en sollte):
+Kurze Themenübersicht was ich jetzt alles beherrsche(n sollte) / drauf
+hab(en sollte):
 
-IP / TCP / UDP / Routing / Routing Protokolle / OSPF / EIGRP / IGRP / Switching / STP / SNMP / IP Subnetting / Fehleranalyse LAN (NEXT FEXT usw) / ISO-OSI Modell / TCPIP Modell / Netzmasken / Broadcast / 10BASET / 100BASET / LWL / GIGABIT Ethernet  / Patchkabel (SFTP FTP UTP) / sowie die ZahlenSysteme Hexadezimal, Octal und Binär
+IP / TCP / UDP / Routing / Routing Protokolle / OSPF / EIGRP / IGRP /
+Switching / STP / SNMP / IP Subnetting / Fehleranalyse LAN (NEXT FEXT usw)
+/ ISO-OSI Modell / TCPIP Modell / Netzmasken / Broadcast / 10BASET /
+100BASET / LWL / GIGABIT Ethernet  / Patchkabel (SFTP FTP UTP) / sowie die
+ZahlenSysteme Hexadezimal, Octal und Binär
 
 also Daumendrücken.. am Freitag ist Abschlussprüfung!

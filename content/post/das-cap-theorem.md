@@ -5,10 +5,17 @@ date: 2012-04-29T12:22:00+02:00
 comments: true
 categories:
 - Web
-- Datenbanken
+- Databases
 - Code
-keywords: "Berkeley, CAP, Theory, Theorem, Databases, Datenbanken, Knoten,
-wikipedia"
+tags:
+- Berkeley
+- CAP
+- Theory
+- Theorem
+- Databases
+- Datenbanken
+- Knoten
+- wikipedia
 ---
 Das CAP Theorem ist mir das erste mal wirklich begegnet im Podcast
 [Binärgewitter #1

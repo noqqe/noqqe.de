@@ -4,12 +4,14 @@ title: "Das Ext4 Directory Indexing"
 date: 2012-03-08T19:38:00+02:00
 comments: true
 categories:
+- ubuntuusers
+- Administration
+- Debian
+tags:
 - Filesystems
 - Ext
 - Ext4
 - Index
-- ubuntuusers
-tags:
 - indexing
 - dir index
 - dir_index

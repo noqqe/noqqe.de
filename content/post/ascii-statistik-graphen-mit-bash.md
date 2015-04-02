@@ -5,7 +5,7 @@ date: 2012-04-01T11:11:00+02:00
 comments: true
 categories:
 - ubuntuusers
-- Bash
+- Shell
 - Web
 - Development
 tags:

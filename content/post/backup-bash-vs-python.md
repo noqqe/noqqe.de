@@ -19,7 +19,7 @@ tags:
 
 Mein erstes BackupScript war in Python geschrieben. Das sah dann wie folgt aus:
 
-```
+``` python
 #!/usr/bin/python
 import os
 import time
@@ -37,11 +37,12 @@ print 'Sicherung fehlgeschlagen!'
 os.system(loggingno)
 ```
 
+Aber irgendwie... wurde mir das bissl zu blöd. Alle meine Skripte laufen
+auf Bash. Warum beim Backuppen aus der Reihe tanzen?  Eigentlich wäre das
+ganze schon nach _einer_ Zeile gelaufen. Wenn ich nicht noch die
+LoggingFunktion hätte.
 
-Aber irgendwie... wurde mir das bissl zu blöd. Alle meine Skripte laufen auf Bash. Warum beim Backuppen aus der Reihe tanzen?
-Eigentlich wäre das ganze schon nach _einer_ Zeile gelaufen. Wenn ich nicht noch die LoggingFunktion hätte.
-
-```
+``` bash
 #!/bin/bash
 tar -czvf /media/backup/backup/`date +%Y-%m-%d-%H-%M`.tar.gz /home /etc /var/www /root
 return=`echo $?
@@ -59,6 +60,5 @@ echo `date +%d-%m-%Y-%H:%M:%S` --- END Action ---  >> /var/log/backup.log
 mail -s "Backup fehlgeschlagen!" root@zwetschge.org < /var/log/backup.log
 fi
 ```
-
 
 Ich weiss nicht. Mir gefällts besser.

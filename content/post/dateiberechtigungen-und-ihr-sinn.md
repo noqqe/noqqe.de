@@ -11,6 +11,8 @@ categories:
 - Linux
 tags:
 - shell
+- permissions
+- 755
 ---
 
 Neulich Abend hab ich mal wieder bisschen mit der Shell rumgespielt und mich gefragt was wohl im Detail die Ausgabe von

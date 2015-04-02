@@ -13,12 +13,13 @@ categories:
 
 Moin Moin!
 
-Dem Wiki-Lösungsweg ("Grub-Methode 3" aus ubuntuusers.de) bin ich einfach mal blind gefolgt ;)
+Dem Wiki-Lösungsweg ("Grub-Methode 3" aus ubuntuusers.de) bin ich einfach
+mal blind gefolgt ;)
 
 Ob dieser Pfad mich mein Ubuntu wieder Booten lässt weis ich noch nicht.
 
-Gut durchdacht und auf mein Problem angepasst sieht dieser mal wie folgt aus:
-
+Gut durchdacht und auf mein Problem angepasst sieht dieser mal wie folgt
+aus:
 
 ```
 knoppix@Knoppix:~$ sudo mount --bind /dev /media/sda1/dev
@@ -26,13 +27,13 @@ knoppix@Knoppix:~$ sudo mount --bind /dev /media/sda1/dev
 
 Sollte  Systeminformationen übertragen.
 
-```	
+```
 knoppix@Knoppix:~$ sudo mount -t proc /proc /media/sda1/proc
 ```
 
 Sollte "proc"s übertragen.
 
-```	
+```
 knoppix@Knoppix:~$ sudo chroot /media/sda1
 ```
 
@@ -44,11 +45,9 @@ root@Knoppix:/# cp /proc/mounts /etc/mtab
 
 Übernimmt irgendwelche Einstellungen  ^^
 
-```	
+```
 root@Knoppix:/# grub-install /dev/sda
 ```
 
-Installiert Grub auf Ubuntu Partiton
-
-
-Sollte gehen und danke enchbladexp! Super Helfer aus ubuntuusers.de.
+Installiert Grub auf Ubuntu Partiton Sollte gehen und danke enchbladexp!
+Super Helfer aus ubuntuusers.de.

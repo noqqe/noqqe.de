@@ -8,14 +8,22 @@ aliases:
 - /archives/686
 categories:
 - Development
-- Blog
 - Linux
+- Administration
 ---
 
-Man erzählt hier ja sonst nichts weiter, warum also nicht mal ein Stück weit Aufklärung. Eigentlich habe ich bei den Bash-Skripten immer eigene Logs geschrieben. Via Stout in ein File ausgegeben. Ziemlich simpel und stupide zugleich. Die zentrale Logverwaltung übernimmt in Debian Lenny ein Daemon. Der Spass heisst ziemlich Daemon untypisch (haha-.-) rsyslogd.
+Man erzählt hier ja sonst nichts weiter, warum also nicht mal ein Stück
+weit Aufklärung. Eigentlich habe ich bei den Bash-Skripten immer eigene
+Logs geschrieben. Via Stout in ein File ausgegeben. Ziemlich simpel und
+stupide zugleich. Die zentrale Logverwaltung übernimmt in Debian Lenny ein
+Daemon. Der Spass heisst ziemlich Daemon untypisch (haha-.-) rsyslogd.
 
-Es besteht also die Möglichkeit diesem Daemon mit einem Programm Meldungen zu übergeben. Das da "logger" heisst. Logger leitet (unter angabe verschiedener Handlingdaten) an den syslog Daemon Nachrichten weiter, die dieser dann anhand von Dringlichkeit und Quelle einordnet.
+Es besteht also die Möglichkeit diesem Daemon mit einem Programm Meldungen
+zu übergeben. Das da "logger" heisst. Logger leitet (unter angabe
+verschiedener Handlingdaten) an den syslog Daemon Nachrichten weiter, die
+dieser dann anhand von Dringlichkeit und Quelle einordnet.
 Dringlichkeiten wären zb.
+
 ```
 0       Emergency
 1       Alert
@@ -28,6 +36,7 @@ Dringlichkeiten wären zb.
 ```
 
 Absteigend sortiert. Ausserdem lässt sich eine Quelle definieren. Welches Programm/Dienst übermittelt diese Nachricht?
+
 ```
 0       kernel messages
 1       user-level messages
@@ -55,23 +64,26 @@ Absteigend sortiert. Ausserdem lässt sich eine Quelle definieren. Welches Progr
 23       local7
 ```
 
-
 So ergibt sich eine Schreibweise wie zb:
 
 ```
 logger -p local0.err -t FILEBACKUP Files Backup failed
 ```
 
+mit der Quelle local0 und Stufe Error wird nun das Thema FILEBACKUP mit dem
+Inhalt "Backup failed" an den Daemon.  Das wäre jetzt so eigentlich nicht
+so das phänomenale Überfeature. Allerdings lässt sich unser rsyslogd sagen
+was wer wie wann wo und warum mit welcher Meldung aus welcher Quelle und
+mit welcher Stufe er Logmeldungen in welches File verarbeiten soll.
 
-mit der Quelle local0 und Stufe Error wird nun das Thema FILEBACKUP mit dem Inhalt "Backup failed" an den Daemon.
-Das wäre jetzt so eigentlich nicht so das phänomenale Überfeature. Allerdings lässt sich unser rsyslogd sagen was wer wie wann wo und warum mit welcher Meldung aus welcher Quelle und mit welcher Stufe er Logmeldungen in welches File verarbeiten soll.
-
-rsyslog.conf
 ```
+rsyslog.conf
 *.err  /var/log/error.log
 ```
 
- gibt zb alle Fehlermeldungen mit Stufe Error oder höher in das nachher angegebene File aus.
-kernel-messages.* /var/log/kernelmessages, muss ich glaub ich nicht erläutern.
+Gibt zb alle Fehlermeldungen mit Stufe Error oder höher in das nachher
+angegebene File aus.  kernel-messages.* /var/log/kernelmessages, muss ich
+glaub ich nicht erläutern.
 
-Interagieren mit Logs gefällt mir auf die Weise aufjedenfall besser als echo "ERROR" >> /tmp/schauichniewiederan
+Interagieren mit Logs gefällt mir auf die Weise aufjedenfall besser als
+echo "ERROR" >> /tmp/schauichniewiederan

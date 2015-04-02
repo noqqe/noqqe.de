@@ -7,10 +7,6 @@ title: ASCII | StarWars via Telnet
 aliases:
 - /archives/1351
 categories:
-- Development
-- Blog
-- PlanetenBlogger
-- Ubuntu
 - Web
 tags:
 - art
@@ -23,15 +19,13 @@ tags:
 - wars
 ---
 
-13 Jahre arbeitet anscheinend jemand bereits an einen Remake von StarWars Episode 4 in ASCII mit mehr als 15.000 Einzelbildern.
-
+13 Jahre arbeitet anscheinend jemand bereits an einen Remake von StarWars
+Episode 4 in ASCII mit mehr als 15.000 Einzelbildern.
 
 {{< figure src="/uploads/2010/11/ascii-starwars.png" >}}
-
 
 Selbst anschauen:
 
 ```
 $ telnet towel.blinkenlights.nl
 ```
-

@@ -23,14 +23,20 @@ tags:
 - vain
 ---
 
-Neulich bin ich über das [github Profil](http://github.com/vain) von [Peter Hofmann](http://uninformativ.de) gestolpert. Darin befand sich ein Projekt, welches ich sehr interessant fand.
+Neulich bin ich über das [github Profil](http://github.com/vain) von [Peter Hofmann](http://uninformativ.de)
+gestolpert. Darin befand sich ein Projekt,
+welches ich sehr interessant fand.
 
-[Explain](http://github.com/vain/explain) versucht Shell Kommandos zu erklären und zu visualisieren. Gerade für Blogs oder andere Dokumentationen finde ich das mehr als sinnvoll. Es erstellt aus einem simpel gestricktem Markdown File eine ASCII-Art ähnliche Erläuterung des Kommandos. Beispielsweise:
+[Explain](http://github.com/vain/explain) versucht Shell Kommandos zu
+erklären und zu visualisieren. Gerade für Blogs oder andere Dokumentationen
+finde ich das mehr als sinnvoll. Es erstellt aus einem simpel gestricktem
+Markdown File eine ASCII-Art ähnliche Erläuterung des Kommandos.
+Beispielsweise:
 
 
     $ ./explain.py command.markdown
     find . -iname '*.png' -exec echo '<br><img src="{}">' ; > gallery.html
-    __/ | ___________/  ________/ ___________________/ |  ___________/
+    \_/ | ___________/  ________/ ___________________/ |  ___________/
       |  |       |             |               |           |        |
       |  |       |             |               |           |        - Ausgeben nach
       |  |       |             |               |           |           gallery.html
@@ -70,8 +76,10 @@ Die Syntax des Files das zur Deklaration der Ausgabe dient:
 
     Ausgeben nach gallery.html
 
-
-Die Trennzeichen  sind via Parameter austauschbar und auch ansonsten tut das kleine Python Script seinen Job hervorragend. Sollte demnächst mal wieder ein Kommando erläutert werden müssen, werde ich definitiv darauf zurückgreifen. Weitere Beispiele auch unter:
+Die Trennzeichen  sind via Parameter austauschbar und auch ansonsten tut
+das kleine Python Script seinen Job hervorragend. Sollte demnächst mal
+wieder ein Kommando erläutert werden müssen, werde ich definitiv darauf
+zurückgreifen. Weitere Beispiele auch unter:
 
 [1] [http://www.uninformativ.de/?section=news&ndo=single&newsid=118](http://www.uninformativ.de/?section=news&ndo=single&newsid=118)
 [2] [http://github.com/vain/explain](http://github.com/vain/explain)
