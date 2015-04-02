@@ -1,0 +1,37 @@
+baseurl:  "https://noqqe.de"
+languageCode: "de-de"
+title: "noqqe.de"
+publishdir: "public"
+paginate: 10
+paginatePath: "page"
+path: "blog"
+metaDataFormat: "yaml"
+theme: "noqqe"
+
+taxonomies:
+  category: "categories"
+  tag: "tags"
+
+params:
+  Description: "No advertising, no support, no bug fixes, payment inadvance."
+  Copyright: " 2015 Florian Baumann. Some rights reserved."
+  author: "Florian Baumann"
+  githubuser: "noqqe"
+
+permalinks:
+  post: "blog/:year/:month/:day/:title/"
+
+menu:
+  main:
+  - name: "Projects"
+    weight: 80
+    identifier: "Projects"
+    url: "/Projects/"
+  - name: "Archives"
+    weight: 90
+    identifier: "Archives"
+    url: "/archives/"
+  - name: "Impressum"
+    weight: 100
+    identifier: "Impressum"
+    url: "/impressum/"
