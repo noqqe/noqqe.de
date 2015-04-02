@@ -4,6 +4,13 @@ title: "Getting enterprised with Tomcat - Teil 1"
 date: 2012-09-09T20:45:00+02:00
 comments: true
 categories:
+- osbn
+tags:
+- tomcat
+- linux
+- opensource
+aliases:
+- /blog/2012/09/09/getting-enterprised-with-tomcat-teil-1/
 ---
 
 Da sitz ich nun. Im ICE von Nürnberg nach Essen. 13:10 bis 17:05. Genug Zeit

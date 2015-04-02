@@ -7,6 +7,7 @@ comments: true
 title: DeadDrop | Erlangen - Schwabachanlage
 aliases:
 - /archives/1759
+- /blog/2011/09/21/deaddrop-erlangen-schwabachanlage/
 categories:
 - Debian
 - General

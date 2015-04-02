@@ -7,6 +7,8 @@ comments: true
 title: Publications | TFT - DVI - TouchScreen Handout
 aliases:
 - /archives/590
+- /blog/2009/04/16/publications--tft-dvi-touchscreen-handout/
+- /blog/2009/04/16/publications-tft-dvi-touchscreen-handout/
 categories:
 - General
 - Hardware

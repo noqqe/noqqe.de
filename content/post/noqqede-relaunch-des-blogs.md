@@ -7,6 +7,7 @@ comments: true
 title: noqqe.de - relaunch des blogs
 aliases:
 - /archives/502
+- /blog/2009/02/23/noqqe.de-relaunch-des-blogs/
 categories:
 - General
 - Linux

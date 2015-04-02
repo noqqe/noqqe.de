@@ -6,6 +6,8 @@ comments: true
 categories:
 - OpenBSD
 - osbn
+aliases:
+- /blog/2012/11/30/openbsd-mal-was-neues-lernen/
 ---
 
 Schon seit Längerem liegt unter meinem Sofa noch ein 1HE Dell Server, mit dem

@@ -8,8 +8,20 @@ categories:
 - Coding
 - Debian
 - ubuntuusers
-keywords: "bash-it, bash, framework, nano-bash, nano, bashrc, config, tricks,
-tipps, oh-my-zsh, zsh, github, startup"
+tags:
+- bash-it
+- bash
+- framework
+- nano-bash
+- nano
+- bashrc
+- config
+- tricks
+- oh-my-zsh
+- zsh
+- github
+aliases:
+- /blog/2012/08/12/trennung-vom-bash-it-framework-koche-nun-eigenes-s%C3%BCppchen/
 ---
 
 Manchmal muss man das auch. [Einige](/blog/2010/11/24/bash-it-n0qorg-theme-und-git_info/)

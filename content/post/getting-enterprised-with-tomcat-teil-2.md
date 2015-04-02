@@ -9,6 +9,8 @@ categories:
 - Administration
 - Bash
 - Code
+aliases:
+- /blog/2012/09/11/getting-enterprised-with-tomcat-teil-2/
 ---
 
 2 Tage der Schulung bzw. 14 Stunden die volle Java Object Klassen Dröhnung sind rum.

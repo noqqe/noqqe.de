@@ -8,6 +8,8 @@ title: Shell | TimeRobot - Strukturiertes/Zyklisches Backuppen ausgewählter Con
   und Skripts
 aliases:
 - /archives/548
+- /blog/2009/03/16/shell-timerobot-strukturiertes/zyklisches-backuppen-ausgew%C3%A4hlter-configs-und-skripts/
+- /blog/2009/03/16/shell--timerobot-strukturiertes/zyklisches-backuppen-ausgew%C3%A4hlter-configs-und-skripts/
 categories:
 - Coding
 - Linux

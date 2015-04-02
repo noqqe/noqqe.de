@@ -7,6 +7,8 @@ comments: true
 title: Statistiken | Using R - The Nerd Way
 aliases:
 - /archives/1458
+- /blog/2011/02/04/statistiken-using-r-the-nerd-way/
+- /blog/2011/02/04/statistiken--using-r-the-nerd-way/
 categories:
 - Bash
 - Coding
