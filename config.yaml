@@ -1,22 +1,22 @@
+title: "noqqe.de"
 baseurl:  "https://noqqe.de"
 languageCode: "de-de"
-title: "noqqe.de"
-publishdir: "public"
+theme: "noqqe"
+path: "blog"
 paginate: 10
 paginatePath: "page"
-path: "blog"
+publishdir: "public"
 metaDataFormat: "yaml"
-theme: "noqqe"
-
-taxonomies:
-  category: "categories"
-  tag: "tags"
 
 params:
   Description: "No advertising, no support, no bug fixes, payment inadvance."
   Copyright: " 2015 Florian Baumann. Some rights reserved."
-  author: "Florian Baumann"
+  Author: "Florian Baumann"
   githubuser: "noqqe"
+
+taxonomies:
+  category: "categories"
+  tag: "tags"
 
 permalinks:
   post: "blog/:year/:month/:day/:title/"
