@@ -1,4 +1,4 @@
-baseurl = "http://localhost:1313"
+baseurl = "https://noqqe.de"
 languageCode = "de-de"
 title = "noqqe.de"
 publishdir = "public"
