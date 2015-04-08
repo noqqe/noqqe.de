@@ -10,7 +10,7 @@ tags:
 - github
 - markdown
 - rechtschreibfehler
-title: noqqe.de auf github
+title: noqqe.de auf GitHub
 ---
 
 Wie bereits auf Twitter gesagt, wer möchte darf gerne meine falschen
