@@ -1,13 +1,15 @@
 ---
-type: post
+layout: post
 title: "OpenBSD httpd"
-date: 2014-09-27T14:30:00+02:00
+date: 2014-09-27 14:30
 comments: true
+aliases:
+- /blog/2014/09/27/openbsd-httpd-ein-minimalistischer-webserver
+- /blog/2014/09/27/openbsd-httpd
 categories:
 - OpenBSD
 - ubuntuusers
 - osbn
-- Administration
 tags:
 - httpd
 - Base
@@ -25,7 +27,7 @@ aber genau das werden (und vor allem bleiben) wie nginx angefangen hat. Plain,
 Free, minimalistisch, einfach. So wurden auch schon mehrere Diffs/Features vom Entwickler
 abgelehnt.
 
-{{< figure src="/uploads/2014/09/httpdps.png" >}}
+{% img center /uploads/2014/09/httpdps.png %}
 
 Konfiguration OpenBSD gemäß sehr straight forward. `pf`/`relayd` like.
 Hab mir nen 5.6 Snapshot vom Mirror meiner Wahl besorgt und das Teil mal
@@ -33,12 +35,12 @@ ausprobiert.
 
 Nach etwas herumprobieren: grinsen. Comic Sans in den default Error Messages.
 
-{{< figure src="/uploads/2014/09/httpderror.png" >}}
+{% img center /uploads/2014/09/httpderror.png %}
 
 Bin mir nicht sicher ob das so bleibt. Die Config Parameter sind wie bei OpenBSD Software
 zu erwarten gut dokumentiert und eingängig.
 
-```
+{% codeblock %}
 prefork 5
 
 server "default" {
@@ -64,7 +66,7 @@ server "httpd2.noqqe.de" {
         directory auto index
         connection timeout 3600
 }
-```
+{% endcodeblock %}
 
 Noch ist das gute Stück nicht Feautre-Complete bzw. Production-Ready.
 Dinge die noch fehlen, aber kommen werden ist zum Beispiel Basic HTTP Auth.
