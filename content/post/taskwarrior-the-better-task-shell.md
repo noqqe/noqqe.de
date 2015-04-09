@@ -1,11 +1,11 @@
 ---
 date: 2011-10-22T14:05:57+02:00
 type: post
-slug: taskwarrior-the-better-task-shell
 comments: true
 title: Taskwarrior | The better-task-shell
 aliases:
 - /archives/1810
+- /blog/2011/10/22/taskwarrior-the-better-task-shell
 categories:
 - Shell
 - Development

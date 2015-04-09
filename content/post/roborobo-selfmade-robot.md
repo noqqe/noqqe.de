@@ -1,10 +1,10 @@
 ---
 date: 2010-04-11T10:40:28+02:00
 type: post
-slug: roborobo-selfmade-robot
 comments: true
 title: roborobo | selfmade robot
 aliases:
+- /blog/2010/04/11/roborobo-selfmade-robot
 - /archives/977
 categories:
 - Development

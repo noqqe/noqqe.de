@@ -1,11 +1,11 @@
 ---
 date: 2010-06-26T15:52:33+02:00
 type: post
-slug: theme-nerd-clouds
 comments: true
 title: Theme | nerd-clouds
 aliases:
 - /archives/1071
+- /blog/2010/06/26/theme-nerd-clouds
 categories:
 - Development
 - Linux

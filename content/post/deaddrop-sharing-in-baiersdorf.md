@@ -1,10 +1,10 @@
 ---
 date: 2011-10-04T20:50:34+02:00
 type: post
-slug: deaddrop-sharing-in-baiersdorf
 comments: true
 title: 'DeadDrop | Sharing mit Alice and Bob in Baiersdorf '
 aliases:
+- /blog/2011/10/04/deaddrop-sharing-in-baiersdorf
 - /archives/1792
 categories:
 - Hardware

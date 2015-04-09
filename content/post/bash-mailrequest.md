@@ -1,10 +1,10 @@
 ---
 date: 2010-06-13T14:23:20+02:00
 type: post
-slug: '1042'
 comments: true
 title: 'Bash | mailrequest '
 aliases:
+- /blog/2010/06/13/bash-mailrequest
 - /archives/1042
 categories:
 - Development

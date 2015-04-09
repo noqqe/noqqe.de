@@ -1,11 +1,11 @@
 ---
 date: 2009-03-18T15:10:49+02:00
 type: post
-slug: backup-bash-vs-python
 comments: true
 title: Backup | Bash vs. Python
 aliases:
 - /archives/568
+- /blog/2009/03/18/backup-bash-vs-python
 categories:
 - Development
 - Linux

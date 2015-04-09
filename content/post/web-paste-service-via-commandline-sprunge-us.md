@@ -1,11 +1,11 @@
 ---
 date: 2010-01-26T18:28:38+02:00
 type: post
-slug: web-paste-service-via-commandline-sprunge-us
 comments: true
 title: Web | Paste-Service via CommandLine (Sprunge.us)
 aliases:
 - /archives/854
+- /blog/2010/01/26/web-paste-service-via-commandline-sprunge-us
 categories:
 - Development
 - Linux

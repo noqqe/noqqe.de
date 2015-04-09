@@ -1,11 +1,12 @@
 ---
 date: 2009-10-12T18:57:37+02:00
 type: post
-slug: debian-etclogrotate-d
 comments: true
 title: Debian | /etc/logrotate.d/*
 aliases:
 - /archives/684
+- /blog/2009/10/12/debian-etclogrotate-d
+- /blog/2009/10/12/debian-etclogrotate-dot-d-star
 categories:
 - Administration
 - Linux

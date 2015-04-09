@@ -1,11 +1,11 @@
 ---
 date: 2010-10-05T14:47:10+02:00
 type: post
-slug: twitter-on-cli-twidge-interactive-shell
 comments: true
 title: Twitter on CLI | Twidge Interactive Shell
 aliases:
 - /archives/1285
+- /blog/2010/10/05/twitter-on-cli-twidge-interactive-shell
 categories:
 - Development
 - Debian

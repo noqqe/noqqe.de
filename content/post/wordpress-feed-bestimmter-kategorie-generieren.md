@@ -1,11 +1,11 @@
 ---
 date: 2009-12-01T11:57:37+02:00
 type: post
-slug: wordpress-feed-bestimmter-kategorie-generieren
 comments: true
 title: Wordpress | Feed bestimmter Kategorie generieren
 aliases:
 - /archives/752
+- /blog/2009/12/01/wordpress-feed-bestimmter-kategorie-generieren
 categories:
 - Development
 - Linux

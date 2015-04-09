@@ -1,10 +1,10 @@
 ---
 date: 2008-07-18T10:38:15+02:00
 type: post
-slug: gobbymulti-cursor-file-editing-oder-so-ahnlich-d
 comments: true
 title: Gobby | Multi Cursor File Editing
 aliases:
+- /blog/2008/07/18/gobbymulti-cursor-file-editing-oder-so-ahnlich-d
 - /archives/118
 categories:
 - Development

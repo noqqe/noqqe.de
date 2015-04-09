@@ -1,10 +1,10 @@
 ---
 date: 2011-04-16T16:48:23+02:00
 type: post
-slug: statistical-its-about-internal-functions
 comments: true
 title: 'statistical | It''s about internal functions. '
 aliases:
+- /blog/2011/04/16/statistical-its-about-internal-functions
 - /archives/1611
 categories:
 - Bash

@@ -1,11 +1,11 @@
 ---
 date: 2011-03-26T14:45:37+02:00
 type: post
-slug: zre-sql-statistik-modul
 comments: true
 title: 'ZRE | SQL Statistik Modul'
 aliases:
 - /archives/1566
+- /blog/2011/03/26/zre-sql-statistik-modul
 categories:
 - Bash
 - Debian

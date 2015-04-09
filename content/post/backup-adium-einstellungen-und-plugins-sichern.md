@@ -1,11 +1,11 @@
 ---
 date: 2010-03-27T19:29:12+02:00
 type: post
-slug: backup-adium-einstellungen-und-plugins-sichern
 comments: true
 title: Backup | Adium Einstellungen und Plugins sichern
 aliases:
 - /archives/944
+- /blog/2010/03/27/backup-adium-einstellungen-und-plugins-sichern
 categories:
 - Development
 tags:

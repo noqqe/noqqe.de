@@ -1,11 +1,11 @@
 ---
 date: 2010-02-15T08:50:01+02:00
 type: post
-slug: wordpress-tags-in-theme-einbauen
 comments: true
 title: Wordpress | Tags in Theme einbauen
 aliases:
 - /archives/886
+- /blog/2010/02/15/wordpress-tags-in-theme-einbauen
 categories:
 - Development
 - Blog

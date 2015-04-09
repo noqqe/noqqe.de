@@ -1,11 +1,11 @@
 ---
 date: 2011-03-08T20:51:13+02:00
 type: post
-slug: zre-visualisiert
 comments: true
 title: ZRE | Visualisiert.
 aliases:
 - /archives/1513
+- /blog/2011/03/08/zre-visualisiert
 categories:
 - Bash
 - Development

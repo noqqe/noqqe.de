@@ -1,11 +1,11 @@
 ---
 date: 2010-06-30T10:25:46+02:00
 type: post
-slug: theme-8-bit-banner
+aliases:
+- /blog/2010/06/30/theme-8-bit-banner
+- /archives/1076
 comments: true
 title: Theme | 8-Bit Banner
-aliases:
-- /archives/1076
 categories:
 - Blog
 - Linux

@@ -1,10 +1,10 @@
 ---
 date: 2010-12-01T20:58:12+02:00
 type: post
-slug: hcht-handmade-commandline-history-tool
 comments: true
 title: hcht | Handmade Commandline History Tool
 aliases:
+- /blog/2010/12/01/hcht-handmade-commandline-history-tool
 - /archives/1407
 categories:
 - Shell

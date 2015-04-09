@@ -1,10 +1,10 @@
 ---
 date: 2009-03-07T11:34:58+02:00
 type: post
-slug: blog-random-text-pool
 comments: true
 title: Blog | Random-Text-Pool
 aliases:
+- /blog/2009/03/07/blog-random-text-pool
 - /archives/538
 categories:
 - Development

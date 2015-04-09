@@ -1,10 +1,10 @@
 ---
 date: 2010-01-15T17:40:04+02:00
 type: post
-slug: offtopic-das-verlorene-kind-ahm-passwort
 comments: true
 title: Offtopic | Das verlorene Kind...ahm, Passwort
 aliases:
+- /blog/2010/01/15/offtopic-das-verlorene-kind-ahm-passwort
 - /archives/849
 categories:
 - Blog

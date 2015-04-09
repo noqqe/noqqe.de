@@ -1,11 +1,11 @@
 ---
 date: 2010-09-19T16:09:00+02:00
 type: post
-slug: tismc-this-is-static-markdown-content
 comments: true
 title: tismc | This is static markdown content!
 aliases:
 - /archives/1243
+- /blog/2010/09/19/tismc-this-is-static-markdown-content
 categories:
 - Development
 - Debian

@@ -1,11 +1,11 @@
 ---
 date: 2009-09-20T12:57:54+02:00
 type: post
-slug: allgemein-wiederbelebt
 comments: true
 title: Allgemein | Wiederbelebt
 aliases:
 - /archives/652
+- /blog/2009/09/20/allgemein-wiederbelebt
 categories:
 - Blog
 - Linux

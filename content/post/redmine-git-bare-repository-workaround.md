@@ -1,10 +1,10 @@
 ---
 date: 2010-11-27T13:49:42+02:00
 type: post
-slug: redmine-git-bare-repository-workaround
 comments: true
 title: Redmine | Git Bare Repository Workaround
 aliases:
+- /blog/2010/11/27/redmine-git-bare-repository-workaround
 - /archives/1396
 categories:
 - Development

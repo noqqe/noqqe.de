@@ -1,11 +1,11 @@
 ---
 date: 2011-03-06T16:06:38+02:00
 type: post
-slug: zre-zombie-revolution-environment-im-web
 comments: true
 title: ZRE | Zombie Revolution Environment. Im Web!
 aliases:
 - /archives/1500
+- /blog/2011/03/06/zre-zombie-revolution-environment-im-web
 categories:
 - Shell
 - Debian

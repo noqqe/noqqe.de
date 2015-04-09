@@ -1,11 +1,11 @@
 ---
 date: 2010-12-14T16:33:45+02:00
 type: post
-slug: bash-backup-eines-files-mit-zeitstempel-einfach-gemacht
 comments: true
 title: 'Bash | Backup eines Files mit Zeitstempel in unkompliziert. '
 aliases:
 - /archives/1425
+- /blog/2010/12/14/bash-backup-eines-files-mit-zeitstempel-einfach-gemacht
 categories:
 - Shell
 - Development

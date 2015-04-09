@@ -1,10 +1,10 @@
 ---
 date: 2010-07-14T19:17:18+02:00
 type: post
-slug: grub-auflosung-der-konsole-andern
 comments: true
 title: Grub | Auflösung der Konsole ändern
 aliases:
+- /blog/2010/07/14/grub-auflosung-der-konsole-andern
 - /archives/1098
 categories:
 - Debian

@@ -1,11 +1,11 @@
 ---
 date: 2009-12-09T15:57:37+02:00
 type: post
-slug: teeworlds-mehrere-server-betreiben-unter-linux
 comments: true
 title: Teeworlds | Mehrere Server betreiben unter Linux
 aliases:
 - /archives/800
+- /blog/2009/12/09/teeworlds-mehrere-server-betreiben-unter-linux
 categories:
 - Development
 - Linux

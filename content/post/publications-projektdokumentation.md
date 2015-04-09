@@ -1,11 +1,11 @@
 ---
 date: 2009-10-07T08:07:24+02:00
 type: post
-slug: publications-projektdokumentation
 comments: true
 title: Publications | Projektdokumentation
 aliases:
 - /archives/675
+- /blog/2009/10/07/publications-projektdokumentation
 categories:
 - Blog
 tags:

@@ -1,10 +1,10 @@
 ---
 date: 2009-02-24T18:29:20+02:00
 type: post
-slug: favicon-in-wordpress
 comments: true
 title: html | Favicon in Wordpress
 aliases:
+- /blog/2009/02/24/favicon-in-wordpress
 - /archives/514
 categories:
 - Blog

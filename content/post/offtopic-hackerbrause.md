@@ -1,10 +1,10 @@
 ---
 date: 2010-12-21T18:48:42+02:00
 type: post
-slug: offtopic-hackerbrause
 comments: true
 title: Offtopic | Hackerbrause
 aliases:
+- /blog/2010/12/21/offtopic-hackerbrause
 - /archives/1431
 categories:
 - Blog

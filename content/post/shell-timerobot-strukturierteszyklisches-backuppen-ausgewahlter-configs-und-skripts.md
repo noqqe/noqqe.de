@@ -1,13 +1,13 @@
 ---
 date: 2009-03-16T12:06:41+02:00
 type: post
-slug: shell-timerobot-strukturierteszyklisches-backuppen-ausgewahlter-configs-und-skripts
 comments: true
 title: Shell | TimeRobot - Strukturiertes/Zyklisches Backuppen ausgewählter Configs
   und Skripts
 aliases:
 - /archives/548
 - /blog/2009/03/16/shell-timerobot-strukturiertes/zyklisches-backuppen-ausgew%C3%A4hlter-configs-und-skripts/
+- /blog/2009/03/16/shell-timerobot-strukturierteszyklisches-backuppen-ausgewahlter-configs-und-skripts
 - /blog/2009/03/16/shell--timerobot-strukturiertes/zyklisches-backuppen-ausgew%C3%A4hlter-configs-und-skripts/
 categories:
 - Development

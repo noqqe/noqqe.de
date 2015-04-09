@@ -1,11 +1,11 @@
 ---
 date: 2009-12-17T11:43:13+02:00
 type: post
-slug: wordpress-rss-und-planet
 comments: true
 title: Wordpress | RSS und Planet
 aliases:
 - /archives/805
+- /blog/2009/12/17/wordpress-rss-und-planet
 categories:
 - Linux
 - Development

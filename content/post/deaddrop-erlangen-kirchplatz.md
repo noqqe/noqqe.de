@@ -1,10 +1,10 @@
 ---
 date: 2011-08-25T19:00:33+02:00
 type: post
-slug: deaddrop-erlangen-kirchplatz
 comments: true
 title: DeadDrop | Erlangen Kirchplatz
 aliases:
+- /blog/2011/08/25/deaddrop-erlangen-kirchplatz
 - /archives/1747
 categories:
 - Blog

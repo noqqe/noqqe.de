@@ -1,10 +1,10 @@
 ---
 date: 2010-12-07T20:39:24+02:00
 type: post
-slug: github-mitarbeit-an-bash-it
 comments: true
 title: 'github | Mitarbeit an bash-it '
 aliases:
+- /blog/2010/12/07/github-mitarbeit-an-bash-it
 - /archives/1420
 categories:
 - Shell

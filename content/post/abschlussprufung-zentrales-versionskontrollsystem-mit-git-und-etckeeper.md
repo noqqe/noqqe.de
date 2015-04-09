@@ -1,11 +1,11 @@
 ---
 date: 2011-07-24T18:56:32+02:00
 type: post
-slug: abschlussprufung-zentrales-versionskontrollsystem-mit-git-und-etckeeper
 comments: true
 title: Abschlussprüfung | Zentrales Versionskontrollsystem mit git und etckeeper
 aliases:
 - /archives/1714
+- /blog/2011/07/24/abschlussprufung-zentrales-versionskontrollsystem-mit-git-und-etckeeper
 categories:
 - Bash
 - Debian

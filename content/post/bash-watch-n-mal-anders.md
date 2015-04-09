@@ -1,10 +1,10 @@
 ---
 date: 2010-09-05T20:58:33+02:00
 type: post
-slug: bash-watch-n-mal-anders
 comments: true
 title: Bash | watch -n mal anders
 aliases:
+- /blog/2010/09/05/bash-watch-n-mal-anders
 - /archives/1230
 categories:
 - Development

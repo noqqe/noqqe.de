@@ -1,10 +1,10 @@
 ---
 date: 2011-06-12T13:09:28+02:00
 type: post
-slug: bitcoin-debian-daemon-script-fur-poclbm-mod
 comments: true
 title: BitCoin | Debian Daemon Script für poclbm-mod
 aliases:
+- /blog/2011/06/12/bitcoin-debian-daemon-script-fur-poclbm-mod
 - /archives/1689
 categories:
 - Bash

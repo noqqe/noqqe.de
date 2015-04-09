@@ -1,10 +1,10 @@
 ---
 date: 2011-05-22T20:38:54+02:00
 type: post
-slug: beats-eine-in-ruby-geschriebene-drummachine
 comments: true
 title: Beats | Eine in Ruby geschriebene Drummachine
 aliases:
+- /blog/2011/05/22/beats-eine-in-ruby-geschriebene-drummachine
 - /archives/1680
 categories:
 - Shell

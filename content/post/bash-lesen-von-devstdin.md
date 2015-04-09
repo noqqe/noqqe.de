@@ -1,10 +1,10 @@
 ---
 date: 2010-12-01T20:27:18+02:00
 type: post
-slug: bash-lesen-von-devstdin
 comments: true
 title: Bash | Lesen von /dev/stdin
 aliases:
+- /blog/2010/12/01/bash-lesen-von-devstdin
 - /archives/1402
 categories:
 - Bash

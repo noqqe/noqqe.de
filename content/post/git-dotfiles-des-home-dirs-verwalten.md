@@ -1,10 +1,10 @@
 ---
 date: 2010-08-16T18:42:48+02:00
 type: post
-slug: git-dotfiles-des-home-dirs-verwalten
 comments: true
 title: Git | Dotfiles des Home-Dirs verwalten
 aliases:
+- /blog/2010/08/16/git-dotfiles-des-home-dirs-verwalten
 - /archives/1192
 categories:
 - Development

@@ -1,10 +1,10 @@
 ---
 date: 2009-10-12T19:23:22+02:00
 type: post
-slug: debian-rsyslogd
 comments: true
 title: Debian | rsyslogd
 aliases:
+- /blog/2009/10/12/debian-rsyslogd
 - /archives/686
 categories:
 - Development

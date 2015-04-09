@@ -1,10 +1,10 @@
 ---
 date: 2011-10-01T13:12:03+02:00
 type: post
-slug: flattr-man-kann-seine-meinung-auch-mal-andern
 comments: true
 title: 'Flattr | Man kann seine Meinung auch mal ändern. '
 aliases:
+- /blog/2011/10/01/flattr-man-kann-seine-meinung-auch-mal-andern
 - /archives/1774
 categories:
 - Blog

@@ -1,10 +1,10 @@
 ---
 date: 2009-06-04T23:11:54+02:00
 type: post
-slug: shell-file-mit-beliebiger-groesse-erstellen
 comments: true
 title: Shell | File mit beliebiger Groesse erstellen
 aliases:
+- /blog/2009/06/04/shell-file-mit-beliebiger-groesse-erstellen
 - /archives/627
 categories:
 - Development

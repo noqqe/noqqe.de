@@ -1,10 +1,10 @@
 ---
 date: 2010-01-30T16:53:04+02:00
 type: post
-slug: offtopic-reaktion-teeworlds-setup
 comments: true
 title: Offtopic | Reaktion Teeworlds-Setup
 aliases:
+- /blog/2010/01/30/offtopic-reaktion-teeworlds-setup
 - /archives/857
 categories:
 - Blog

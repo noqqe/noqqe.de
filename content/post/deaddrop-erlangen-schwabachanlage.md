@@ -1,10 +1,10 @@
 ---
 date: 2011-09-21T21:16:31+02:00
 type: post
-slug: deaddrop-erlangen-schwabachanlage
 comments: true
 title: DeadDrop | Erlangen - Schwabachanlage
 aliases:
+- /blog/2011/09/21/deaddrop-erlangen-schwabachanlage
 - /archives/1759
 - /blog/2011/09/21/deaddrop-erlangen-schwabachanlage/
 categories:

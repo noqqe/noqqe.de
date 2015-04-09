@@ -1,10 +1,10 @@
 ---
 date: 2009-04-13T15:30:47+02:00
 type: post
-slug: privat-stille
 comments: true
 title: Privat | Stille
 aliases:
+- /blog/2009/04/13/privat-stille
 - /archives/584
 categories:
 - Blog

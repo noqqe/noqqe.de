@@ -1,11 +1,11 @@
 ---
 date: 2010-03-12T14:27:35+02:00
 type: post
-slug: web-statistik-video
 comments: true
 title: Web | Statistik Video
 aliases:
 - /archives/933
+- /blog/2010/03/12/web-statistik-video
 categories:
 - Web
 - PlanetenBlogger

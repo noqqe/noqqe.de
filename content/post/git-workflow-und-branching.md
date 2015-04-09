@@ -1,13 +1,13 @@
 ---
 date: 2010-04-24T10:44:11+02:00
 type: post
-slug: git-workflow-und-branching
 comments: true
 title: Git | Workflow und Branching
 aliases:
+- /blog/2010/04/24/git-workflow-und-branching
 - /archives/998
 tags:
-- git 
+- git
 - workflow
 categories:
 - Development

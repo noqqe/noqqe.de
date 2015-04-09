@@ -1,11 +1,11 @@
 ---
 date: 2011-04-29T11:55:33+02:00
 type: post
-slug: rt-requesttracker-stats
 comments: true
 title: RT | RequestTracker-Stats
 aliases:
 - /archives/1649
+- /blog/2011/04/29/rt-requesttracker-stats
 categories:
 - Shell
 - Development

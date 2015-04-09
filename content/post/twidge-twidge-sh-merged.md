@@ -1,11 +1,11 @@
 ---
 date: 2010-10-09T18:29:37+02:00
 type: post
-slug: twidge-twidge-sh-merged
 comments: true
 title: Twidge | twidge-sh merged!
 aliases:
 - /archives/1308
+- /blog/2010/10/09/twidge-twidge-sh-merged
 categories:
 - Development
 - Debian

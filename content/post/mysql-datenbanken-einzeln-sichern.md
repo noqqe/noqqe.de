@@ -1,10 +1,10 @@
 ---
 date: 2010-07-24T15:07:54+02:00
 type: post
-slug: mysql-datenbanken-einzeln-sichern
 comments: true
 title: MySQL | Datenbanken einzeln sichern
 aliases:
+- /blog/2010/07/24/mysql-datenbanken-einzeln-sichern
 - /archives/1156
 categories:
 - Development

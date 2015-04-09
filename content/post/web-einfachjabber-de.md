@@ -1,11 +1,11 @@
 ---
 date: 2010-07-16T10:59:59+02:00
 type: post
-slug: web-einfachjabber-de
 comments: true
 title: Web | einfachJabber.de
 aliases:
 - /archives/1104
+- /blog/2010/07/16/web-einfachjabber-de
 categories:
 - Development
 - Linux

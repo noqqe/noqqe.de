@@ -1,10 +1,10 @@
 ---
 date: 2009-03-27T14:15:35+02:00
 type: post
-slug: privat-projektantrag-genehmigt
 comments: true
 title: Privat | Projektantrag genehmigt
 aliases:
+- /blog/2009/03/27/privat-projektantrag-genehmigt
 - /archives/574
 categories:
 - Blog

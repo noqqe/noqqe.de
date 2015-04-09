@@ -1,10 +1,10 @@
 ---
 date: 2010-06-17T19:43:32+02:00
 type: post
-slug: creative-commons-freies-wissen-und-inhalte
 comments: true
 title: Creative Commons | Freies Wissen und Inhalte
 aliases:
+- /blog/2010/06/17/creative-commons-freies-wissen-und-inhalte-auf-noqqe-de
 - /archives/1049
 categories:
 - Development

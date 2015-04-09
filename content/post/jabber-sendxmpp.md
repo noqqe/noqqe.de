@@ -1,11 +1,11 @@
 ---
 date: 2009-05-09T19:28:30+02:00
 type: post
-slug: jabber-sendxmpp
 comments: true
 title: Jabber | sendXMPP
 aliases:
 - /archives/606
+- /blog/2009/05/09/jabber-sendxmpp
 categories:
 - Development
 - Hardware

@@ -1,11 +1,11 @@
 ---
 date: 2011-08-27T13:10:02+02:00
 type: post
-slug: arduino-ich-baute-ein-megabitmeter
 comments: true
 title: Arduino | Ich baute ein Megabitmeter
 aliases:
 - /archives/1751
+- /blog/2011/08/27/arduino-ich-baute-ein-megabitmeter
 categories:
 - Hardware
 - ubuntuusers

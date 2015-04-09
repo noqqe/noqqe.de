@@ -1,10 +1,10 @@
 ---
 date: 2011-08-23T18:39:15+02:00
 type: post
-slug: postgresql-1000-und-1-query
 comments: true
 title: PostgreSQL | 1000 und 1 Query
 aliases:
+- /blog/2011/08/23/postgresql-1000-und-1-query
 - /archives/1742
 categories:
 - Bash

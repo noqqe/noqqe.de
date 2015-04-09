@@ -1,10 +1,10 @@
 ---
 date: 2009-03-07T15:10:56+02:00
 type: post
-slug: feed-rss-im-directors-cut
 comments: true
 title: Feed | RSS im Directors-Cut
 aliases:
+- /blog/2009/03/07/feed-rss-im-directors-cut
 - /archives/542
 categories:
 - Blog

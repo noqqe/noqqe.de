@@ -1,11 +1,11 @@
 ---
 date: 2010-11-01T15:00:47+02:00
 type: post
-slug: bash-it-zitronen-thema
 comments: true
 title: bash-it | Zitronen-Thema
 aliases:
 - /archives/1342
+- /blog/2010/11/01/bash-it-zitronen-thema
 categories:
 - Development
 - Linux

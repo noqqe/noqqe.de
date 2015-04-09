@@ -1,11 +1,11 @@
 ---
 date: 2011-04-14T18:55:10+02:00
 type: post
-slug: statistical-statistiken-visualisieren-im-terminal
 comments: true
 title: statistical | Statistiken visualisieren im Terminal
 aliases:
 - /archives/1603
+- /blog/2011/04/14/statistical-statistiken-visualisieren-im-terminal
 categories:
 - Bash
 - Development

@@ -1,10 +1,10 @@
 ---
 date: 2010-08-12T19:46:44+02:00
 type: post
-slug: gitosis-debugging-undokumentiertes-und-konfiguration
 comments: true
 title: Gitosis | Debugging, Undokumentiertes und Konfiguration
 aliases:
+- /blog/2010/08/12/gitosis-debugging-undokumentiertes-und-konfiguration
 - /archives/1175
 categories:
 - Development

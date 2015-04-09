@@ -1,10 +1,10 @@
 ---
 date: 2010-05-20T20:03:32+02:00
 type: post
-slug: bash-linux-und-scripting-an-meiner-schule
 comments: true
 title: Bash | Linux und Scripting an meiner Schule
 aliases:
+- /blog/2010/05/20/bash-linux-und-scripting-an-meiner-schule
 - /archives/1005
 categories:
 - Development

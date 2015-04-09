@@ -1,11 +1,11 @@
 ---
 date: 2009-11-29T18:20:03+02:00
 type: post
-slug: theme-clouds-edited
 comments: true
 title: 'Theme | Clouds edited'
 aliases:
 - /archives/724
+- /blog/2009/11/29/theme-clouds-edited
 categories:
 - Development
 - Blog

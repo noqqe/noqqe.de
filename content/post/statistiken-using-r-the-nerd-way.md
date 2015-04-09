@@ -1,10 +1,10 @@
 ---
 date: 2011-02-04T12:18:35+02:00
 type: post
-slug: statistiken-using-r-the-nerd-way
 comments: true
 title: Statistiken | Using R - The Nerd Way
 aliases:
+- /blog/2011/02/04/statistiken-using-r-the-nerd-way
 - /archives/1458
 - /blog/2011/02/04/statistiken-using-r-the-nerd-way/
 - /blog/2011/02/04/statistiken--using-r-the-nerd-way/

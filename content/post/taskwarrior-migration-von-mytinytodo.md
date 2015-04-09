@@ -1,11 +1,11 @@
 ---
 date: 2011-09-25T13:58:52+02:00
 type: post
-slug: taskwarrior-migration-von-mytinytodo
 comments: true
 title: 'Taskwarrior | Migration von MyTinyTodo '
 aliases:
 - /archives/1766
+- /blog/2011/09/25/taskwarrior-migration-von-mytinytodo
 categories:
 - Bash
 - Development

@@ -1,10 +1,10 @@
 ---
 date: 2009-09-24T22:21:22+02:00
 type: post
-slug: python-cryzed-bashing
 comments: true
 title: Python | cryzed bashing
 aliases:
+- /blog/2009/09/24/python-cryzed-bashing
 - /archives/665
 categories:
 - Development

@@ -1,10 +1,10 @@
 ---
 date: 2009-11-12T16:01:29+02:00
 type: post
-slug: bash-server-updaten-gekurzt
 comments: true
 title: bash | Server updaten gekürzt
 aliases:
+- /blog/2009/11/12/bash-server-updaten-gekurzt
 - /archives/709
 categories:
 - Development

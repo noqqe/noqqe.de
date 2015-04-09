@@ -1,10 +1,10 @@
 ---
 date: 2010-12-23T16:16:03+02:00
 type: post
-slug: mac-fraise-app-fur-latex-konfigurieren
 comments: true
 title: Mac | Fraise App für LaTeX konfigurieren
 aliases:
+- /blog/2010/12/23/mac-fraise-app-fur-latex-konfigurieren
 - /archives/1437
 categories:
 - Bash

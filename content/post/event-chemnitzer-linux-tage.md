@@ -1,10 +1,10 @@
 ---
 date: 2010-03-16T19:19:58+02:00
 type: post
-slug: event-chemnitzer-linux-tage
 comments: true
 title: Event | Chemnitzer Linux-Tage
 aliases:
+- /blog/2010/03/16/event-chemnitzer-linux-tage
 - /archives/939
 categories:
 - Blog

@@ -1,10 +1,10 @@
 ---
 date: 2010-10-17T12:14:05+02:00
 type: post
-slug: bash-the-zombie-revolution-environment
 comments: true
 title: Bash | the zombie-revolution-environment
 aliases:
+- /blog/2010/10/17/bash-the-zombie-revolution-environment
 - /archives/1314
 categories:
 - Development

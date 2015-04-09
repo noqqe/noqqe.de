@@ -1,10 +1,10 @@
 ---
 date: 2010-05-26T20:22:56+02:00
 type: post
-slug: bash-inkrement-methoden-und-effizienz
 comments: true
 title: Bash | Inkrement-Methoden und Effizienz
 aliases:
+- /blog/2010/05/26/bash-inkrement-methoden-und-effizienz
 - /archives/1014
 categories:
 - Development

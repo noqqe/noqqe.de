@@ -1,10 +1,10 @@
 ---
 date: 2010-02-15T08:39:42+02:00
 type: post
-slug: offtopic-endlich-mal-ein-schoner-ascii-art-generator
 comments: true
 title: Offtopic | Endlich mal ein schöner ASCII-Art-Generator
 aliases:
+- /blog/2010/02/15/offtopic-endlich-mal-ein-schoner-ascii-art-generator
 - /archives/884
 categories:
 - Development

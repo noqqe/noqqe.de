@@ -1,10 +1,10 @@
 ---
 date: 2011-10-02T23:58:50+02:00
 type: post
-slug: statistiken-einfache-graphen-mit-r-und-mysql-anbindung
 comments: true
 title: Statistiken | Einfache Graphen mit R und MySQL Anbindung
 aliases:
+- /blog/2011/10/02/statistiken-einfache-graphen-mit-r-und-mysql-anbindung
 - /archives/1780
 categories:
 - Bash

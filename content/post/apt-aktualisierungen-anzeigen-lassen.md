@@ -1,11 +1,11 @@
 ---
 date: 2010-02-20T18:27:38+02:00
 type: post
-slug: apt-aktualisierungen-anzeigen-lassen
 comments: true
 title: Apt | Aktualisierungen anzeigen lassen
 aliases:
 - /archives/894
+- /blog/2010/02/20/apt-aktualisierungen-anzeigen-lassen
 categories:
 - Development
 - Linux

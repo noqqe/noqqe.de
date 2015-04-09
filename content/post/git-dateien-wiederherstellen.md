@@ -1,10 +1,10 @@
 ---
 date: 2010-08-18T21:53:13+02:00
 type: post
-slug: git-dateien-wiederherstellen
 comments: true
 title: 'Git | Dateien wiederherstellen '
 aliases:
+- /blog/2010/08/18/git-dateien-wiederherstellen
 - /archives/1201
 categories:
 - Development

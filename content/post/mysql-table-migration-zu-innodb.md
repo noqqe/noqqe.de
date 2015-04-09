@@ -1,10 +1,10 @@
 ---
 date: 2012-01-22T15:09:07+02:00
 type: post
-slug: mysql-table-migration-zu-innodb
 comments: true
 title: MySQL | Table Migration zu InnoDB
 aliases:
+- /blog/2012/01/22/mysql-table-migration-zu-innodb
 - /archives/1850
 categories:
 - Shell

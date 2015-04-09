@@ -1,10 +1,10 @@
 ---
 date: 2010-04-21T10:35:43+02:00
 type: post
-slug: gitweb-urls-einbinden
 comments: true
 title: Gitweb | URLs einbinden
 aliases:
+- /blog/2010/04/21/gitweb-urls-einbinden
 - /archives/987
 categories:
 - Development

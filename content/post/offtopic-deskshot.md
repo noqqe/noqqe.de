@@ -1,10 +1,10 @@
 ---
 date: 2010-12-26T14:08:48+02:00
 type: post
-slug: offtopic-deskshot
 comments: true
 title: Offtopic | Deskshot.
 aliases:
+- /blog/2010/12/26/offtopic-deskshot
 - /archives/1442
 categories:
 - Shell

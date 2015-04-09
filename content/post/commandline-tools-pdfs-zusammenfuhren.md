@@ -1,10 +1,10 @@
 ---
 date: 2011-04-20T12:14:50+02:00
 type: post
-slug: commandline-tools-pdfs-zusammenfuhren
 comments: true
 title: Commandline Tools | PDFs zusammenführen
 aliases:
+- /blog/2011/04/20/commandline-tools-pdfs-zusammenfuhren
 - /archives/1622
 categories:
 - Bash

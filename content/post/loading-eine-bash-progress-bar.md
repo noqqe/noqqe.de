@@ -1,10 +1,10 @@
 ---
 date: 2011-11-26T14:53:21+02:00
 type: post
-slug: loading-eine-bash-progress-bar
 comments: true
 title: Loading | Eine Bash-Progress-Bar
 aliases:
+- /blog/2011/11/26/loading-eine-bash-progress-bar
 - /archives/1819
 categories:
 - Shell

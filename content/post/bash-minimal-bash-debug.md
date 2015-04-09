@@ -1,10 +1,10 @@
 ---
 date: 2010-10-24T21:06:33+02:00
 type: post
-slug: bash-minimal-bash-debug
 comments: true
 title: Bash | minimal-bash-debug
 aliases:
+- /blog/2010/10/24/bash-minimal-bash-debug
 - /archives/1332
 categories:
 - Development

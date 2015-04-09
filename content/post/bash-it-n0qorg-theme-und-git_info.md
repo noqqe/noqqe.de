@@ -1,11 +1,11 @@
 ---
 date: 2010-11-24T18:14:57+02:00
 type: post
-slug: bash-it-n0qorg-theme-und-git_info
 comments: true
 title: bash-it | n0qorg theme und git_info
 aliases:
 - /archives/1389
+- /blog/2010/11/24/bash-it-n0qorg-theme-und-git_info
 categories:
 - Development
 - Blog

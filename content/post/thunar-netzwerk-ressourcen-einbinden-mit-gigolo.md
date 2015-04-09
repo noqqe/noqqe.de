@@ -1,11 +1,11 @@
 ---
 date: 2010-07-16T16:39:16+02:00
 type: post
-slug: thunar-netzwerk-ressourcen-einbinden-mit-gigolo
 comments: true
 title: Thunar | Netzwerk-Ressourcen einbinden mit Gigolo
 aliases:
 - /archives/1109
+- /blog/2010/07/16/thunar-netzwerk-ressourcen-einbinden-mit-gigolo
 categories:
 - Linux
 - Ubuntu
