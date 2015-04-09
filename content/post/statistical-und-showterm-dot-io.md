@@ -18,6 +18,8 @@ tags:
 - barchart
 - bar
 - github
+aliases:
+- /blog/2013/09/03/statistical-und-showterm-dot-io
 ---
 
 Glaubt man dem `git log` wars wohl irgendwann 2011 als ich

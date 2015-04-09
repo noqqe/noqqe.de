@@ -18,6 +18,8 @@ tags:
 - Documents
 - Read
 - Write
+aliases:
+- /blog/2014/06/18/mongodb-2-dot-6-sharded-cluster-performance
 ---
 
 MongoDB Cluster wollen nach der Installation wie jede andere DB getestet

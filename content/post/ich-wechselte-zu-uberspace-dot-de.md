@@ -9,6 +9,8 @@ categories:
 tags:
 - Hosting
 - CentOS
+aliases:
+- /blog/2012/08/17/ich-wechselte-zu-uberspace-dot-de/
 ---
 
 Es ist garnicht lange her, da wurde mir im [lokalen Hackspace K4CG](http://k4cg.org) die Hosting Plattform

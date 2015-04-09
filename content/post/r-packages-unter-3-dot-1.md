@@ -15,6 +15,8 @@ tags:
 - rprojects
 - packages
 - upgrade
+aliases:
+- /blog/2014/05/11/r-packages-unter-3-dot-1/
 ---
 
 Die [R](http://r-project.org) Version 3.1.0 "Spring Dance" wurde released.

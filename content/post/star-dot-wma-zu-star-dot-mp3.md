@@ -15,6 +15,8 @@ tags:
 - convert
 - konvertieren
 - konvertierung
+aliases:
+- /blog/2012/07/29/star-dot-wma-zu-star-dot-mp3
 ---
 
 Man denkt ja immer "Gott, wie viele von diesen $MUSIKFORMAT_A zu $MUSIKFORMAT_B

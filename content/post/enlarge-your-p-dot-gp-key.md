@@ -20,6 +20,8 @@ tags:
 - publickey
 - replace
 - migrate
+aliases:
+- /blog/2014/03/16/enlarge-your-p-dot-gp-key
 ---
 
 Mittlerweile ist mein 2048bit PGP Key mit ein paar Signaturen

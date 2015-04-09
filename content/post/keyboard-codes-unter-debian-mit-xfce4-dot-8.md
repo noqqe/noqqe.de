@@ -12,6 +12,8 @@ tags:
 - xfce
 - xorg
 - keyboard
+aliases:
+- /blog/2012/04/20/keyboard-codes-unter-debian-mit-xfce4-dot-8
 ---
 
 Zuerstmal sei gesagt, dass ich sowieso schon sehr begeistert bin wie viele von

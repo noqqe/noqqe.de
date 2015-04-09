@@ -11,6 +11,8 @@ categories:
 - Shell
 tags:
 - LXC
+aliases:
+- /blog/2012/10/07/lxc-setup-2-dot-0
 ---
 
 Es ist ja nun schon etwas her... da hab ich über mein initales Setup der
