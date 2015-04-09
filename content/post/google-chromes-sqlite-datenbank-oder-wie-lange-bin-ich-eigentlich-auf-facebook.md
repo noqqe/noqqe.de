@@ -1,6 +1,6 @@
 ---
 type: post
-title: "Google Chromes SQLite Datenbank oder &quot;Wie viel Zeit verschwende ich eigentlich auf Facebook?&quot;"
+title: "Google Chromes SQLite Datenbank oder Wie viel Zeit verschwende ich eigentlich auf Facebook?"
 date: 2012-08-26T12:30:00+02:00
 comments: true
 categories:
