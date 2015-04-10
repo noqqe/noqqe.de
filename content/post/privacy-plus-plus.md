@@ -3,6 +3,8 @@ type: post
 title: "Privacy++"
 date: 2014-03-24T20:55:00+02:00
 comments: true
+aliases:
+- /blog/2014/03/24/privacy-plus-plus
 categories:
 - osbn
 - Blog

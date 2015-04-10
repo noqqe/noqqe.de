@@ -3,6 +3,8 @@ type: post
 title: "Von gebundenen Ports die nicht hören wollen"
 date: 2014-11-27T21:45:00+02:00
 comments: true
+aliases:
+- /blog/2014/11/27/von-gebundenen-ports-die-nicht-h%C3%B6ren-wollen/
 categories:
 - ubuntuusers
 - osbn
