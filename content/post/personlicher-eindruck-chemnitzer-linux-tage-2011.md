@@ -5,6 +5,7 @@ comments: true
 title: Persönlicher Eindruck | Chemnitzer Linux Tage 2011
 aliases:
 - /blog/2011/03/21/personlicher-eindruck-chemnitzer-linux-tage-2011
+- /blog/2011/03/21/pers%C3%B6nlicher-eindruck--chemnitzer-linux-tage-2011/
 - /archives/1538
 categories:
 - Web

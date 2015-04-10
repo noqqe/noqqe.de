@@ -25,6 +25,7 @@ tags:
 - prefork
 aliases:
 - /blog/2012/05/28/apache-2-dot-4-und-mpm-event
+- /blog/2012/05/28/apache-2-dot-4-und-mpm-event/
 ---
 
 [Apache 2.4](http://httpd.apache.org/docs/2.4/) ist seit einiger Zeit in

@@ -7,6 +7,7 @@ title: Teeworlds - Server How To
 aliases:
 - /archives/459
 - /blog/2009/02/03/teeworlds-server-how-to/
+- /blog/2009/02/03/teeworlds-server-howto/
 categories:
 - Linux
 - Administration

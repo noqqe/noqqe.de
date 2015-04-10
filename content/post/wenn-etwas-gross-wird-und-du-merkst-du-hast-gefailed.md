@@ -3,6 +3,8 @@ type: post
 title: "Wenn etwas groß wird und du merkst du hast gefailed."
 date: 2013-02-15T13:15:00+02:00
 comments: true
+aliases:
+- /blog/2013/02/15/wenn-etwas-gross-wird-und-du-merkst-du-hast-gefailed/
 categories:
 - ubuntuusers
 - osbn

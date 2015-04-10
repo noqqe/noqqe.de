@@ -1,11 +1,11 @@
 ---
 date: 2010-08-15T12:44:27+02:00
 type: post
-slug: bash-nerdtool-config-for-macosx
 comments: true
 title: Bash | NerdTool Config for MacOSX
 aliases:
 - /archives/1182
+- /blog/2010/08/15/bash-nerdtool-config-for-macosx/
 categories:
 - Development
 - OSX

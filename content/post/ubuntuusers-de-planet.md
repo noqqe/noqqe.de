@@ -6,6 +6,8 @@ comments: true
 title: Ubuntuusers.de-Planet
 aliases:
 - /archives/802
+- /blog/2009/12/15/ubuntuusers-de-planet/
+- /blog/2009/12/15/ubuntuusers-dot-de-planet/
 categories:
 - Linux
 - ubuntuusers

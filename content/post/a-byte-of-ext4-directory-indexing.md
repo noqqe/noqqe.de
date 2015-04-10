@@ -7,6 +7,8 @@ categories:
 - ubuntuusers
 - Administration
 - Debian
+aliases:
+- /blog/2012/03/08/a-byte-of-ext4-directory-indexing/
 tags:
 - Filesystems
 - Ext
