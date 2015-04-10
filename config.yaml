@@ -19,7 +19,7 @@ taxonomies:
   tag: "tags"
 
 permalinks:
-  post: "blog/:year/:month/:day/:title/"
+  post: "blog/:year/:month/:day/:filename/"
 
 menu:
   main:
