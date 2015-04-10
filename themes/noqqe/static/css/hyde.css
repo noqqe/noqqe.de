@@ -60,6 +60,11 @@ pre {
   padding: 0em;
 }
 
+.meta {
+  font-size: 0.9em;
+  color: #707070;
+}
+
 /* scroll bars in codeblocks
 pre {
   overflow-x:scroll;

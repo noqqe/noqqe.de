@@ -8,6 +8,17 @@
     <h1>{{ .Title }}</h1>
       <span class="post-date">{{ .Date.Format "2006-01-02" }}</span>
       {{ .Content }}
+    <span class="meta">Categories:
+    {{ range .Params.categories}}
+    <a href="/categories/{{ . | urlize }}">{{ . }}</a>
+    {{ end }}
+    </span>
+    <br/>
+    <span class="meta">Tags:
+    {{ range .Params.tags }}
+    <a href="/tags/{{ . | urlize }}">{{ . }}</a>
+    {{ end }}
+    </span>
     </div>
     {{ partial "isso.html" . }}
   </div>
