@@ -65,6 +65,12 @@ pre {
   color: #707070;
 }
 
+.social i {
+  color: #fff;
+  font-size: 24px;
+  text-decoration: none;
+  text-align: center;
+}
 /* scroll bars in codeblocks
 pre {
   overflow-x:scroll;
@@ -107,11 +113,14 @@ code {
 /* Sidebar links */
 .sidebar a {
   color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .sidebar p {
   color: rgba(255,255,255,.7);
-  font-size: 17px;
+  font-size: 16px;
   position: absolute;
   bottom: 0;
   right:  2rem;
@@ -122,7 +131,7 @@ code {
   color: rgba(255,255,255,.7);
   margin-top: 0;
   font-family: "PT Sans", sans-serif;
-  font-size: 17px;
+  font-size: 16px;
   font-weight: normal;
 }
 
@@ -137,7 +146,7 @@ code {
 }
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
-  text-decoration: underline;
+  text-decoration: none;
 }
 .sidebar-nav-item.active {
   font-weight: bold;
