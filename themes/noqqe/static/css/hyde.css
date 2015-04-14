@@ -94,7 +94,7 @@ code {
 
 .sidebar {
   text-align: center;
-  padding: 3.5rem 1rem;
+  padding: 2rem 1rem;
   color: rgba(255,255,255,.5);
   background-color: #202020;
 
@@ -110,11 +110,14 @@ code {
   }
 
   .sidebar-meta {
-    color: #fff;
-    font-size: 24px;
+    color: rgba(255,255,255,.7);
+    font-size: 16px;
     text-decoration: none;
-    text-align: center;
     display: inline;
+    position: absolute;
+    bottom: 1rem;
+    right:  2rem;
+    left:  2rem;
   }
 }
 
@@ -126,14 +129,6 @@ code {
   font-weight: bold;
 }
 
-.sidebar-meta {
-  color: rgba(255,255,255,.7);
-  font-size: 16px;
-  position: absolute;
-  bottom: 0;
-  right:  2rem;
-  left:  2rem;
-}
 /* About section */
 .sidebar-about h1 {
   color: rgba(255,255,255,.7);
