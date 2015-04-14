@@ -52,11 +52,11 @@ img {
 }
 
 /* newer - older slider font size */
-nav {
+.pagination {
   font-size: 15px;
 }
 
-pre {
+.post pre {
   padding: 0em;
 }
 
@@ -65,11 +65,8 @@ pre {
   color: #707070;
 }
 
-.social i {
-  color: #fff;
-  font-size: 24px;
-  text-decoration: none;
-  text-align: center;
+.sidebar-meta {
+  display: none;
 }
 
 
@@ -113,6 +110,10 @@ code {
   }
 
   .sidebar-meta {
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+    text-align: center;
     display: inline;
   }
 }
