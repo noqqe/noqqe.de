@@ -72,13 +72,6 @@ pre {
   text-align: center;
 }
 
-.social {
-  display: none;
-}
-
-.copyright {
-  display: none;
-}
 
 /* scroll bars in codeblocks
 pre {
@@ -104,7 +97,7 @@ code {
 
 .sidebar {
   text-align: center;
-  padding: 2rem 1rem;
+  padding: 3.5rem 1rem;
   color: rgba(255,255,255,.5);
   background-color: #202020;
 
@@ -119,15 +112,7 @@ code {
     text-align: left;
   }
 
-  /*
-   * display social and copyright
-   * if there is enough space for it
-  */
-  .social {
-    display: inline;
-  }
-
-  .copyright {
+  .sidebar-meta {
     display: inline;
   }
 }
@@ -140,7 +125,7 @@ code {
   font-weight: bold;
 }
 
-.sidebar p {
+.sidebar-meta {
   color: rgba(255,255,255,.7);
   font-size: 16px;
   position: absolute;
@@ -204,14 +189,14 @@ a.sidebar-nav-item:focus {
 @media (min-width: 48rem) {
   .content {
     max-width: 40rem;
-    margin-left: 17rem;
+    margin-left: 19rem;
     margin-right: 2rem;
   }
 }
 
 @media (min-width: 64rem) {
   .content {
-    margin-left: 17rem;
+    margin-left: 19rem;
     margin-right: 2rem;
   }
 }
