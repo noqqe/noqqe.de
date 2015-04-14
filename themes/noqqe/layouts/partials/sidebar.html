@@ -21,6 +21,9 @@
       <a href="https://news.ycombinator.com/user?id=noqqe"><i class="fa fa-hacker-news"></i></a>
       <a href="/index.xml"><i class="fa fa-rss"></i></a>
     </span><br/>
-    &copy;{{ with .Site.Params.Copyright }}{{.}}{{ else }} {{.Now.Format "2006"}}. Some rights reserved. {{end}}</p>
+    <span class="copyright">
+      &copy;{{ with .Site.Params.Copyright }}{{.}}{{ else }} {{.Now.Format "2006"}}. Some rights reserved. {{end}}
+    </span>
+    </p>
   </div>
 </div>

@@ -71,6 +71,15 @@ pre {
   text-decoration: none;
   text-align: center;
 }
+
+.social {
+  display: none;
+}
+
+.copyright {
+  display: none;
+}
+
 /* scroll bars in codeblocks
 pre {
   overflow-x:scroll;
@@ -98,6 +107,7 @@ code {
   padding: 2rem 1rem;
   color: rgba(255,255,255,.5);
   background-color: #202020;
+
 }
 @media (min-width: 48rem) {
   .sidebar {
@@ -105,8 +115,20 @@ code {
     top: 0;
     left: 0;
     bottom: 0;
-    width: 15rem;
+    width: 17rem;
     text-align: left;
+  }
+
+  /*
+   * display social and copyright
+   * if there is enough space for it
+  */
+  .social {
+    display: inline;
+  }
+
+  .copyright {
+    display: inline;
   }
 }
 
@@ -193,32 +215,6 @@ a.sidebar-nav-item:focus {
     margin-right: 2rem;
   }
 }
-
-
-/*
- * Reverse layout
- *
- * Flip the orientation of the page by placing the `.sidebar` on the right.
- */
-
-@media (min-width: 48rem) {
-  .layout-reverse .sidebar {
-    left: auto;
-    right: 0;
-  }
-  .layout-reverse .content {
-    margin-left: 2rem;
-    margin-right: 20rem;
-  }
-}
-
-@media (min-width: 64rem) {
-  .layout-reverse .content {
-    margin-left: 4rem;
-    margin-right: 22rem;
-  }
-}
-
 
 
 /*
