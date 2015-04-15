@@ -12,10 +12,11 @@ Johannisstraße 30
 
 Kontakt:
 
-E-Mail: flo @ $blogdomain
-Jabber: noqqe@jabber.ccc.de
+E-Mail: flo @ $blogdomain  
+Jabber: noqqe@jabber.ccc.de  
 
 Quelle: eRecht24, Rechtsanwalt für Internetrecht Sören Siebert
+
 Haftungsausschluss:
 
 ## Haftung für Inhalte
