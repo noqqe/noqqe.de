@@ -1,5 +1,5 @@
 ---
-categories:
+Kategorie:
 - opensource
 - osbn
 - stats

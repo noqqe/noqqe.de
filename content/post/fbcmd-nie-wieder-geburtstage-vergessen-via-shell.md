@@ -60,7 +60,7 @@ täglich um 15:00 eben diesen Query ausführt:
 ```
 
 Weil ich aber wissen möchte, wem mein Rechner alles in meinem Namen zum
-Geburtstag graturliert hab ich das noch leicht modifiziert und lasse mich
+Geburtstag gratuliert hab ich das noch leicht modifiziert und lasse mich
 via Mail darüber benachrichtigen:
 
 ```

@@ -21,7 +21,7 @@ daraus zu bauen. Langfristig soll
 [httpd](http://www.openbsd.org/cgi-bin/man.cgi/OpenBSD-current/man8/httpd.8) in
 OpenBSD den erst kürzlich in Base gewanderten nginx ersetzen.
 
-Die Hintergründe dazu kann man gut im [BSDNOW Podcast 053](http://www.bsdnow.tv/episodes/2014_09_03-its_hammer_time) nachhören.
+Die Hintergründe dazu kann man gut im [BSDNOW Podcast 053](http://www.bsdnow.tv/episodes/2014_09_03-its_hammer_time) nach hören.
 Zuerst denkt man so "Was? Noch ein HTTP Daemon?". Zusammengefasst soll der neue httpd
 aber genau das werden (und vor allem bleiben) wie nginx angefangen hat. Plain,
 Free, minimalistisch, einfach. So wurden auch schon mehrere Diffs/Features vom Entwickler
@@ -76,4 +76,4 @@ nicht gemacht. `curl`-`for-loop` mit `time` zum Ausprobieren kann man kaum Perfo
 Demnächst dann vielleicht.
 
 `httpd` wird er ab 5.6 in Base mit nginx koexistieren. Portable Version ist
-ebenfalls geplant. Freu mich drauf.
+ebenfalls geplant. Freue mich drauf.

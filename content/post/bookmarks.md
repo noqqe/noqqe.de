@@ -17,7 +17,7 @@ Seit 2013 benutze ich Pinboard. Letztens flog auf GitHub allerdings ein
 [Commandline Bookmark Manager](https://github.com/cym13/bookmark) vorbei.
 Den Gedanken fand ich eigentlich total toll. Die Syntax fand ich komisch,
 Ausgabe sah strange aus. Aber es kam auch noch erschwerend hinzu, dass es
-nichtmal gebaut werden konnte. Also hab ich weiter gesucht und einen
+nicht mal gebaut werden konnte. Also hab ich weiter gesucht und einen
 ziemlich schönen gefunden.
 
 {{< figure src="/uploads/2015/04/fork.jpg" >}}
@@ -53,7 +53,7 @@ Jetzt musste ich nur noch alle &gt;1000 Bookmarks von Pinboard umziehen.
 Pinboard bietet einen `json` Export der eigenen Bookmarks mit allen Meta
 Informationen an.
 
-Diesen hab ich mir per einfacher Download Funktionion lokal gespeichert und
+Diesen hab ich mir per einfacher Download Funktion lokal gespeichert und
 mittels dieses Python Schnipsels in das "neue" bm Format umkonvertiert.
 
 ``` python
@@ -65,8 +65,8 @@ with open('dump.json') as dataf:
       print x["href"]+"|"+x["tags"]+"|"+x["time"]+"|"+x["description"]
 ```
 
-Und wenns beim Umleiten des `STDOUT` mit Python wegen des Encodings nicht
-klaptt, `export PYTHONIOENCODING=utf-8` benutzen. Saugeil. Damit hatt ich
+Und wenn es beim Umleiten des `STDOUT` mit Python wegen des Encodings nicht
+klappt, `export PYTHONIOENCODING=utf-8` benutzen. Saugeil. Damit hatte ich
 immer Probleme.
 
 Ich weiss von ein paar Leuten, dass Sie den RSS Feed meines Pinboard

@@ -16,7 +16,7 @@ title: Hugo Templating und Themes
 ---
 
 Ein bisschen Hands-On an meine neue Blogging Engine. Bevor ich den Blog
-migrieren konnte fehlten noch einige Anpasungen am Theme.
+migrieren konnte fehlten noch einige Anpassungen am Theme.
 
 {{< figure src="/uploads/2015/04/webhipster.jpg" >}}
 
@@ -47,7 +47,7 @@ Pagination ist allerdings ziemlich gut dokumentiert.
 ```
 
 Kurz gesagt, Variable `$paginator` mit Content befüllen und mit `range`
-drüber interieren. `Paginate` greift dabei auf die Variablen aus der Config
+drüber integrieren. `Paginate` greift dabei auf die Variablen aus der Config
 zurück.
 
 ``` yaml
@@ -56,7 +56,7 @@ paginate: 10
 paginatePath: "page"
 ```
 
-Danch kann man durch die Seiten pagen.
+Danach kann man durch die Seiten pagen.
 
 {{< figure src="/uploads/2015/04/Pagination.png" >}}
 
