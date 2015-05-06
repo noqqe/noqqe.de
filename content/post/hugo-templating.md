@@ -16,7 +16,7 @@ title: Hugo Templating und Themes
 ---
 
 Ein bisschen Hands-On an meine neue Blogging Engine. Bevor ich den Blog
-migrieren konnte fehlten noch einige Anpasungen am Theme.
+migrieren konnte fehlten noch einige Anpassungen am Theme.
 
 {{< figure src="/uploads/2015/04/webhipster.jpg" >}}
 
