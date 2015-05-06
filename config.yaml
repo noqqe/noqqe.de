@@ -24,14 +24,18 @@ permalinks:
 menu:
   main:
   - name: "Projects"
-    weight: 80
+    weight: 50
     identifier: "Projects"
     url: "/Projects/"
   - name: "Archives"
-    weight: 90
+    weight: 70
     identifier: "Archives"
     url: "/archives/"
+  - name: "Books"
+    weight: 90
+    identifier: "Books"
+    url: "/books/"
   - name: "Impressum"
-    weight: 100
+    weight: 110
     identifier: "Impressum"
     url: "/impressum/"
