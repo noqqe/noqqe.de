@@ -7,7 +7,7 @@ title: Books
 alias: bücher
 ---
 
-Eine Reihe von Tech, Stats und sonstigen nerdigen Büchern die ich laß und
+Eine Reihe von Tech, Stats und sonstig nerdigen Büchern die ich laß und
 weiterempfehlen kann.
 
 {{< figure src="/uploads/2015/05/books.jpg" >}}
@@ -39,12 +39,12 @@ weiterempfehlen kann.
 ## 2011
 * 1984
 * LPIC-2
-* grep - Kurz &gt; Gut
-* Reguläre Ausdrücke - Kurz &gt; Gut
+* grep - Kurz &amp; Gut
+* Reguläre Ausdrücke - Kurz &amp; Gut
 
 ## 2010
-* vi-Editor - Kurz &gt; Gut
-* Bash - Kurz &gt; Gut
+* vi-Editor - Kurz &amp; Gut
+* Bash - Kurz &amp; Gut
 * Die Kunst des Einbruchs
 * Versionskontrolle mit Git
 
