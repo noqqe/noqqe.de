@@ -14,13 +14,13 @@ tags:
 - mysql
 - PHP
 - random
-- spruch
+- Spruch
 - text
 - zufall
 ---
 
-Seit gestern gibts neben dem Zufalls-GIF auch noch das Widget
-Random-Text-Pool. Darin sind im Moment zirka 100 nette Sprüchlein... zum
+Seit gestern gibt's neben dem Zufalls-GIF auch noch das Widget
+Random-Text-Pool. Darin sind im Moment zirka 100 nette Sprüchlein... Zum
 Teil von Fortune zum Teil privat gesammelte Sachen und auch ein paar Sachen
 die einfach mal gesagt werden müssen. Diese Sprüche werden aus einer
 MySQL-Datenbank bei jedem Zugriff per Zufall ausgewählt und erneuert :)

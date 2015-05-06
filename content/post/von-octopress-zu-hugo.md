@@ -35,7 +35,7 @@ Ruby, Octopress, Gem Fuckup, Pygments Fuckup.
   Codeblocks
 
 Aber am Meisten von der Struktur. Man muss sich das vorstellen. Man will
-einen Blog eröffnen, klont den Source des Blogginframeworks, fängt an
+einen Blog eröffnen, klont den Source des Bloggingframeworks, fängt an
 innerhalb des Repos hinein zu committen. Ändert Themes, Configs,
 fummelt Plugins mit Git-Submodulen hinein. Und versucht dabei noch Upstream
 in das Repo mit den eigentlichen Posts hineinzumergen.
@@ -51,7 +51,7 @@ Internet Explorer.
 3 Jahre hab ich mir das jetzt angetan. Und jetzt? Alles schön. So wunderschön.
 Nachdem mir [posativ](https://posativ.org) auch letztens nochmal [gohugo.io](https://gohugo.io)
 empfohlen hat, hab ich mir die in [go](http://golang.org) geschriebene
-Software mal angsehen. Und sie machen einfach alles richtig. Alles.
+Software mal angesehen. Und sie machen einfach alles richtig. Alles.
 
 {{< figure src="/uploads/2015/04/hugo.png" >}}
 
@@ -59,7 +59,7 @@ Das bauen meines ganzen Blogs dauert nur noch 400ms, eine aktive
 Community (mit [Discourse Installation](http://discuss.gohugo.io) \o/),
 [Dokumentation](http://gohugo.io/overview/introduction/) ohne Ende (im Gegensatz zu 4 Seiten Octopress Doku). Keine
 1000 Subkomponenten, im Blog-Repo ist nur das Theme, Config/Meta Daten und die
-Posts selbst. Es wirkt im moment wie ein schnelles, straight-forward,
+Posts selbst. Es wirkt im Moment wie ein schnelles, straight-forward,
 monolithisches Stück Software.
 
 Migrationsschritte:
@@ -85,7 +85,7 @@ Migrationsschritte:
 * Comments ([isso](https://posativ.org/isso)) als `partial`
 
 Gerade das gebaue der Archiv Seite und der Pagination hat mir gezeigt wie
-unfassbar geil die Templating Sprace ist. Zum Beispiel sind `GROUPS` und
+unfassbar geil die Templating Sprache ist. Zum Beispiel sind `GROUPS` und
 `WHERE` Clauses ohne Probleme möglich.
 
 ``` go
