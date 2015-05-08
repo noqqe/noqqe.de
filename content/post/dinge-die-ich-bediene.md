@@ -6,9 +6,29 @@ categories:
 - osbn
 - osx
 - ubuntuusers
-date: 2015-05-06T22:25:17+02:00
+date: 2015-05-08T18:25:17+02:00
 tags:
-- null
+- openbsd
+- safari
+- file
+- php
+- mysql
+- mongodb
+- rss
+- newsbeuter
+- jrnl
+- taskwarrior
+- macbook
+- osx
+- thinkpad
+- mail
+- imap
+- mutt
+- imapfilter
+- spam
+- bogofilter
+- weechat
+- irc
 title: Dinge die ich bediene.
 ---
 
@@ -17,7 +37,7 @@ Technik so wohl gefühlt wie bisher. Das Equipment, das OS. Macht Spaß und
 funktioniert.
 
 Ein bisschen wie bei [usesthis.com](http://usesthis.com) (wtf, wie langweilig
-ist bitte das [Setup](http://bruce.schneier.usesthis.com) von Bruce Schneier)
+ist bitte das [Setup](http://bruce.schneier.usesthis.com) von Bruce Schneier?)
 beschreibe ich mal was ich so benutze.
 
 ### MacBook Pro 13"
@@ -46,45 +66,57 @@ einfach nicht. Es fehlt mir nicht.
 
 ### OpenBSD CLI VM
 
-Im Stil eines "traditionellen" Arbeitsplatzes an der Konsole,
-hab ich es mir angewöhnt alles was ich so für den
+Ich habe es mir angewöhnt alles was ich so für den
 Alltag brauche auf einer klein dimensionierten VM irgendwo im Internet zu
 hosten.
 
 {{< figure src="/uploads/2015/05/cli.gif" >}}
 
-* ToDo: taskwarrior
-* Wiki: cmddocs
-* Bookmarks: bm
-* IRC: weechat
-* AntiSpam: bogofilter
+Das ist extrem praktisch, da ich egal wo ich bin, egal an welchem Rechner ich
+sitze immer alles da habe. Software die ich dort auf dem bei
+[rootbsd](http://rootbsd.net) gehosteten System nutze ist unter Anderem:
+
+* ToDo: [taskwarrior](http://taskwarrior.org)
+* Wiki: [cmddocs](https://github.com/noqqe/cmddocs)
+* Bookmarks: [bm](https://github.com/noqqe/bm)
+* IRC: [weechat](http://weechat.org)
 * Mail: mutt
-* Journal: jrnl
-* RSS: newsbeuter
-* Mail-Rules: imapfilter
+* AntiSpam: [bogofilter](/blog/2013/10/26/spammer-vs-statistik-mit-bogofilter/)
+* Mail-Rules: [imapfilter](https://github.com/lefcha/imapfilter)
+* Journal: [jrnl](http://maebert.github.io/jrnl/)
+* RSS: [newsbeuter](http://www.newsbeuter.org)
 
-Extrem praktisch, egal wo ich bin, ich hab meistens alles da.
-und mobil sicher weil openbsd
+Auf der Maschine befindet sich sonst nichts. Alles läuft unter meinem User,
+kein Daemon der lauscht, nichts. Gesichert wird die Kiste mittels `tarsnap`
 
-URL OPEN
 Klar hat das auch Nachteile, ich kann auf meine Todoliste nicht zugreifen wenn
 ich nur mit dem iPhone bestückt im Supermarkt stehe, aber diesen Use-Case habe
-ich auch einfach nicht. Mit
+ich auch einfach nicht. Mit `newsbeuter` Urls im Browser öffnen ist auch
+bescheiden, daher muss ich dort immer klicken. Wenn jemand hierfür eine Lösung
+hat, immer her damit.
 
 ### OpenBSD Server
 
-* git Repositories
-* Websites
-* nicht.parasoup.de
+Der Normal-Nerd hat natürlich auch Bedürfnisse Dinge zu hosten. Deshalb gibts
+eine zweite Maschine, die alle meine Dienste bereitstellt die ich so brauche,
+diverse PHP/MySQL Applikationen für den Eigengebrauch.
+
+{{< figure src="/uploads/2015/05/obsd.png" >}}
+
+OpenBSD, brauche ich jetzt nicht erwähnen, ist dafür momentan so mein liebstes
+OS. Sicher per default. Die Devs hauen immer wieder allerhand nützliche Sachen
+wie lustiges [Crypto für Ping](https://twitter.com/dlgwynne/status/589784636714143745) oder seit neuestem
+[privilege separated](http://marc.info/?l=openbsd-cvs&m=142989267412968&w=2) `file`
+
+* Meine privaten `git` Repos mit `gitolite`
+* der Blog
+* Zwei Instanzen von [nichtparasoup](http://github.com)
+* [Isso](https://posativ.org/isso) Kommentarsystem
+* [MongoDB](http://mongodb.org)
+* und diverse andere Websites
+
+Demnächst kommst vielleicht noch etwas DNS hinzu, was ich dort hoste.
 
 Dinge die mich Nerven gibt es auch hier. Nämlich die fehlende SNI Funktionalität
 bei `httpd`, `relayd` und `libTLS`. Somit muss ich bisher noch `nginx` für die
 Websites nutzen. Aber das ist nur eine Frage der Zeit.
-
-### FreeNAS
-
-Was früher dein Debian mit `mdcrypt` und &gt;25 LXC Containern war,
-ist nun nur noch ein FreeNAS.
-
-*
-* Usenet
