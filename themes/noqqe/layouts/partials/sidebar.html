@@ -2,13 +2,13 @@
   <div class="container">
     <div class="sidebar-about">
       <h1><a href="/"><img src="/images/noqqe.png"></a><h1>
-          {{ .Site.Params.Description | safeHtml }}
+          {{ .Site.Params.Description | safeHTML }}
     </div>
 
     <ul class="sidebar-nav">
       <li><a href="/">Home</a></li>
       {{ range .Site.Menus.main }}
-      <li><a href="{{.Url}}">{{ .Name }}</a></li>
+      <li><a href="{{.URL}}">{{ .Name }}</a></li>
       {{end}}
     </ul>
 
@@ -21,7 +21,7 @@
       <a href="/index.xml"><i class="fa fa-rss"></i></a>
       <a href="javascript:m41l('flo');"><i class="fa fa-envelope"></i></a>
       <br/>
-      {{ .Site.Params.Copyright|safeHtml }}
+      {{ .Site.Params.Copyright|safeHTML }}
     </div>
   </div>
 </div>
