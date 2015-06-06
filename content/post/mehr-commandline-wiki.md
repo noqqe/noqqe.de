@@ -22,7 +22,7 @@ Wenn ich nicht gerade mit [IRC-Bot](https://github.com/k4cg/Rezeptionistin)
 schreiben oder das [Wiki für k4cg.org](https://k4cg.org) schön/neu mache, bastle
 ich immer wieder an [cmddocs](https://github.com/noqqe/cmddocs).
 
-{{< figure src="/uploads/2015/06/06/search.png" >}}
+{{< figure src="/uploads/2015/06/search.png" >}}
 
 Der Code wurde umfangreicher, robuster, paar Features kamen hinzu. Tollste Sache
 ist aber, dass ich mal was auf
@@ -37,7 +37,7 @@ $ cmddocs
 
 \o/, Extrem fragwürdig finde ich aber die Downloads/Zugriffszahlen.
 
-{{< figure src="/uploads/2015/06/06/pip.png" >}}
+{{< figure src="/uploads/2015/06/pip.png" >}}
 
 So schön ich es fände wenn es so wäre, aber das kann einfach nicht sein. Wenn
 jemand nen Link hat wie diese Stats generiert werden oder eine Erklärung hat
