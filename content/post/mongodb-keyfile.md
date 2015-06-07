@@ -15,7 +15,7 @@ title: MongoDB KeyFile
 
 Hatte gerade ordentlich Spass. Spontan eine MongoDB mit KeyFile und Auth
 aufgesetzt. So ein KeyFile ist eigentlich nur Random Content, der auf jeder
-Instanz gleich sein muss, um sicherzustellen dass ich keine fremde Instanz einfach so in
+Instanz gleich sein muss, um sicherzustellen das sich keine fremde Instanz einfach so in
 das MongoDB Cluster hineinschummelt.
 
 
