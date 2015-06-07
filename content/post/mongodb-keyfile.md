@@ -10,7 +10,7 @@ tags:
 - MongoDB
 - KeyFile
 - Auth
-title: Mongodb KeyFile
+title: MongoDB KeyFile
 ---
 
 Hatte gerade ordentlich Spass. Spontan eine MongoDB mit KeyFile und Auth
