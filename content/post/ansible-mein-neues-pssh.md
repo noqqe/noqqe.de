@@ -13,7 +13,6 @@ Tags:
 - ssh
 - config
 date: 2015-07-12T20:47:14+02:00
-menu: main
 title: Ansible - Mein neues Pssh
 ---
 
