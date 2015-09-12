@@ -39,7 +39,7 @@ Stück für Stück an die Welt zu erforschen aber schnell merkt man, dass die We
 einfach zu groß ist um durch fiese Wälder zu tollen und sich alle Wege zu
 merken. Deshalb macht man einfach ein paar Skizzen und Notizen.
 
-{{< figure src="/uploads/2015/09/map2.jpg" >}}
+{{< figure src="/uploads/2015/09/map2.JPG" >}}
 
 Charm hat auch Stufenpunkte System. Statt World of Warcraft like pausenlos auf
 dem immer gleichen Mob zu kloppen um EPs zu grinden, setzt sich das Levelsystem
