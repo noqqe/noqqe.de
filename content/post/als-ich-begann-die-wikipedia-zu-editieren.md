@@ -26,7 +26,7 @@ vielleicht.
 {{< figure src="/uploads/2015/10/dumdidum.gif" >}}
 
 Es begann mit dem Einfügen der Versionstabelle in den
-[OpenBSD](https://de.wikipedia.org/OpenBSD) Artikel. Ich klaute mir eine
+[OpenBSD](https://de.wikipedia.org/wiki/OpenBSD) Artikel. Ich klaute mir eine
 Vorlage zu einer Versionstabelle aus einem Artikel, an den ich mich nicht
 mehr erinnern kann, editierte ein bisschen und am Ende kam das heraus was
 jetzt ersichtlich ist.
@@ -43,7 +43,7 @@ Einträge gab.
 
 Wie schwer konnte das wohl sein, einen neuen Artikel einzureichen?
 Schliesslich machen das auch andere Menschen. Ich kopierte also den
-Inhalt von [OpenNTPD](https://de.wikipedia.org/OpenNTPD) und schrieb ihn ein
+Inhalt von [OpenNTPD](https://de.wikipedia.org/wiki/OpenNTPD) und schrieb ihn ein
 wenig um. Drückte auf Speichern.
 
 Was dann passiert war vorerst normal. Wegen fehlender Relevanz sollte der
@@ -60,8 +60,8 @@ genannt zu werden.
 {{< figure src="/uploads/2015/10/delete.gif" >}}
 
 Zuerst bezog ich mich aber auf die Wikipedia Einträge anderer OpenBSD
-Software wie [OpenBGPD](https://de.wikipedia.org/OpenBPGD) und
-[OpenNTPD](https://de.wikipedia.org/OpenNTPD). Den Eintrag hatte ich ja
+Software wie [OpenBGPD](https://de.wikipedia.org/wiki/OpenBPGD) und
+[OpenNTPD](https://de.wikipedia.org/wiki/OpenNTPD). Den Eintrag hatte ich ja
 sogar als Vorlage benutzt. Das hatte lustiger Weise zur Folge das *auch
 diese* Artikel einen
 [Löschantrag](https://de.wikipedia.org/wiki/Wikipedia:Löschkandidaten/23._Oktober_2015)
