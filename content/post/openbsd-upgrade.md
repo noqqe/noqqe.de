@@ -13,7 +13,7 @@ tags:
 title: OpenBSD Upgrade Guidelines
 ---
 
-OpenBSD ist eine der am Besten dokumentierten Distributionen überhaupt.
+OpenBSD ist eine der am Besten dokumentierten Betriebssysteme überhaupt.
 Nichts, aber auch garnichts, führt an der offiziellen Upgrade Dokumentation
 vorbei, da diese jedes mal auch ein wenig anders ist.
 
