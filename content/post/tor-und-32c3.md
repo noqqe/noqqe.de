@@ -20,7 +20,7 @@ Man kommt sich wieder vor wie 14. Damals, als man sich in der Schule
 freute am Internet zu sitzen und nach Lycos und Yahoo nicht mehr wusste,
 wohin man eigentlich surfen soll. Zumindest hatte ich dieses Gefühl am
 32c3, als ich mich mal etwas besser umsah innerhalb der
-Darkweb^WCyber^Hidden Services mit den (jetzt per
+Darkweb^WCyber^WHidden Services mit den (jetzt per
 [RFC](https://datatracker.ietf.org/doc/rfc7686/) gesicherten) .onion
 Adressen.
 
@@ -48,11 +48,11 @@ wäre man in der Zeit zurückgereist.
 
 {{< figure src="/uploads/2016/01/torsites.png" >}}
 
-Auch im
+Im
 [Talk](https://media.ccc.de/v/32c3-7322-tor_onion_services_more_useful_than_you_think)
 am 32c3 war das Thema einfach mehr Sites in das Onion Network zu kriegen.
 
-Auch ein Blog bei dem es total Sinn befreit sie in Netzwerk anzulegen. So
+Sogar ein Blog bei dem es total Sinn befreit sie in Netzwerk anzulegen. So
 wie diese hier. Trotzdem hab ich es mal getan. Unter
 [gtn6uc5wbeavcda3.onion](http://gtn6uc5wbeavcda3.onion) kann man diesen
 Blog nun abrufen.
