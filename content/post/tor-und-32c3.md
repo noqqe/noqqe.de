@@ -53,6 +53,6 @@ Im
 am 32c3 war das Thema einfach mehr Sites in das Onion Network zu kriegen.
 
 Sogar ein Blog bei dem es total Sinn befreit sie in Netzwerk anzulegen. So
-wie diese hier. Trotzdem hab ich es mal getan. Unter
+wie diesen hier. Trotzdem hab ich es mal getan. Unter
 [gtn6uc5wbeavcda3.onion](http://gtn6uc5wbeavcda3.onion) kann man diesen
 Blog nun abrufen.
