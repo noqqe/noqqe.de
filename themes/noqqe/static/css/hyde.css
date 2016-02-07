@@ -65,6 +65,14 @@ img {
   color: #707070;
 }
 
+.meta-cc {
+  font-size: 0.7em;
+}
+
+a.meta-cc:link {
+  font-size: 1em;
+}
+
 .sidebar-meta {
   display: none;
 }

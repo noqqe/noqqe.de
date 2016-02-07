@@ -6,7 +6,7 @@
     </div>
 
     <ul class="sidebar-nav">
-      <li><a href="/">Home</a></li>
+      <li><a itemprop="mainEntityOfPage" href="/">Home</a></li>
       {{ range .Site.Menus.main }}
       <li><a href="{{.URL}}">{{ .Name }}</a></li>
       {{end}}
@@ -21,7 +21,14 @@
       <a href="/index.xml"><i class="fa fa-rss"></i></a>
       <a href="javascript:m41l('flo');"><i class="fa fa-envelope"></i></a>
       <br/>
-      {{ .Site.Params.Copyright|safeHTML }}
+    <div class="meta-cc">
+        {{ .Site.Params.Copyright|safeHTML }}
+        <span itemprop="creator" itemscope itemtype="http://schema.org/Person">
+        by <a class="meta-cc" itemprop="sameAs" href="https://twitter.com/noqqe">
+              <span itemprop="name">{{ .Site.Params.Author }}</span>
+           </a>
+    </div>
+
     </div>
   </div>
 </div>
