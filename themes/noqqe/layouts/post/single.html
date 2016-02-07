@@ -4,10 +4,12 @@
 {{ partial "sidebar.html" . }}
 
     <div class="content container">
-    <div class="post">
-    <h1>{{ .Title }}</h1>
-      <span class="post-date">{{ .Date.Format "2006-01-02" }}</span>
+    <div class="post" itemscope itemtype="http://schema.org/BlogPosting" >
+    <h1 itemprop="name headline">{{ .Title }}</h1>
+      <span class="post-date" itemprop="datePublished">{{ .Date.Format "2006-01-02" }}</span>
+      <div itemprop="articleBody">
       {{ .Content }}
+      </div>
 
       <span class="meta">Categories:
       {{ range .Params.categories}}
@@ -15,7 +17,7 @@
       {{ end }}
       </span>
       <br/>
-      <span class="meta">Tags:
+      <span class="meta" itemprop="keywords">Tags:
       {{ range .Params.tags }}
         <a href="/tags/{{ . | urlize }}">{{ . }}</a>
       {{ end }}
