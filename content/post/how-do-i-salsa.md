@@ -126,3 +126,6 @@ nicht auf meinem Mist gewachsen. Festplattenverschlüsselungssoftware macht
 ähnliches. Wie geil wäre es auch, wenn du dein Disk Encryption Passwort
 änderst und erstmal die ganze HDD neu gecrypted werden muss?
 
+Meine Klasse "Crypto" in rvo enthält nun 4 Methoden: `init_master`,
+`get_master`, `encrypt` und `decrypt`. Und funktionieren tuts auch noch.
+Irre.
