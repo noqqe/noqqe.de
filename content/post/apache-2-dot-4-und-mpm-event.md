@@ -11,8 +11,6 @@ categories:
 tags:
 - apache
 - apache2
-- apache 2.4
-- 2.4
 - eventbased
 - eventbasiert
 - mpm

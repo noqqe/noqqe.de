@@ -19,7 +19,6 @@ tags:
 - git
 - git-daemon
 - gitweb
-- jail.local
 - unban
 - verbieten
 ---

@@ -25,9 +25,7 @@ tags:
 - shell
 - skript
 - sprang
-- sprang.py
 - sprunge
-- sprunge.us
 - ubuntu
 ---
 

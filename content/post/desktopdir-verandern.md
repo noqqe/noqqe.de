@@ -14,7 +14,6 @@ tags:
 - dir
 - home
 - Linux
-- x.org
 - X11
 ---
 

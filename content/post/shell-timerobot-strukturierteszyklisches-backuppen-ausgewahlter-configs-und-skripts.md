@@ -13,7 +13,6 @@ categories:
 - Development
 - Linux
 tags:
-- .conf
 - Back-UP
 - backup
 - bash

@@ -10,10 +10,8 @@ categories:
 - Development
 - Linux
 tags:
-- 0.5.2
 - cronjob
 - debian
-- init.d
 - mehrere Server
 - multi server
 - paralell

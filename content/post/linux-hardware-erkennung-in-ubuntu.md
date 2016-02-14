@@ -18,7 +18,7 @@ tags:
 - logitech
 - ubuntu
 - v7
-- x.org
+- Xorg
 ---
 
 Ich muss echt sagen das ich richtig beeindruckt bin. Hab etwas

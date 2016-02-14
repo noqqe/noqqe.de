@@ -15,7 +15,7 @@ tags:
 - adium
 - Error
 - ICQ
-- icq.com
+- icq
 - Linux
 - login
 - Mac

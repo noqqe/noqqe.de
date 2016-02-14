@@ -16,7 +16,6 @@ tags:
 - business
 - webservice
 - cloud
-- web2.0
 ---
 
 [devnull-as-a-service.com](http://devnull-as-a-service.com)

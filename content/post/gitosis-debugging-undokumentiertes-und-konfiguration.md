@@ -18,8 +18,6 @@ tags:
 - gitdaemon
 - gitosis
 - gitosis hacking
-- gitosis-admin.git/hooks/post-update
-- gitosis.conf
 - gitserver
 - gitweb
 - hack

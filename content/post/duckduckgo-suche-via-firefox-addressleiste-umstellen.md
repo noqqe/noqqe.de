@@ -19,7 +19,6 @@ tags:
 - bang search
 - duckduckgo
 - geek
-- keyword.URL
 - nerd
 - privacy
 - searchengine

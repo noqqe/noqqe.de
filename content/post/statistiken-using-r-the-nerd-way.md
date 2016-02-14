@@ -20,7 +20,7 @@ tags:
 - bash
 - history
 - mail
-- mail.log
+- maillog
 - R
 - r-script
 - shell

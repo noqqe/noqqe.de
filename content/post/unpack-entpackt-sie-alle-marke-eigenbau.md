@@ -11,7 +11,7 @@ categories:
 - Development
 - Linux
 tags:
-- .tar.gz
+- targz
 - archive tool
 - debian
 - entpacken

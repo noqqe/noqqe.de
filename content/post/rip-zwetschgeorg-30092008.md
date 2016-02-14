@@ -14,7 +14,6 @@ tags:
 - Linux
 - RIP
 - zwetschge
-- zwetschge.org
 ---
 
 Mehreren Ext3 Errors zum Opfergefallen :(

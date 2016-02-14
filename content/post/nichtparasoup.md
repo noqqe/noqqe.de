@@ -7,7 +7,7 @@ categories:
 - Development
 - Web
 tags:
-- soup.io
+- soupio
 - parasoup
 - python
 - imagewall

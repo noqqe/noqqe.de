@@ -13,8 +13,6 @@ categories:
 tags:
 - backup
 - jabber
-- jabber.ccc.de
-- jabber.org
 - timerobot
 - unpack
 - xmpp

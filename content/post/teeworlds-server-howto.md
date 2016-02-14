@@ -14,7 +14,6 @@ categories:
 tags:
 - codecocktail
 - how to
-- noqqe.de
 - screen
 - server
 - ssh

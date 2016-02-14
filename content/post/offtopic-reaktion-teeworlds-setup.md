@@ -15,7 +15,6 @@ tags:
 - debian
 - Linux
 - Teeworlds
-- teeworlds.org
 ---
 
 Am Freitag erreichte mich eine Mail.

@@ -12,8 +12,6 @@ categories:
 - Linux
 tags:
 - wordpress
-- wp.com
-- wp.org
 - zwetschge
 ---
 
