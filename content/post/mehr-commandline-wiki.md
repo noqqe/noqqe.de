@@ -22,6 +22,8 @@ Wenn ich nicht gerade mit [IRC-Bot](https://github.com/k4cg/Rezeptionistin)
 schreiben oder das [Wiki für k4cg.org](https://k4cg.org) schön/neu mache, bastle
 ich immer wieder an [cmddocs](https://github.com/noqqe/cmddocs).
 
+<!--more-->
+
 {{< figure src="/uploads/2015/06/search.png" >}}
 
 Der Code wurde umfangreicher, robuster, paar Features kamen hinzu. Tollste Sache

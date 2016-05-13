@@ -1,0 +1,36 @@
+@font-face {
+	font-family: 'Vollkorn';
+	font-style: normal;
+	font-weight: 400;
+	src:
+		local('Vollkorn Regular'),
+		local('Vollkorn-Regular'),
+		/* from http://fonts.gstatic.com/s/vollkorn/v6/rzvoOTOZcQfVDoKuaB7mVvesZW2xOQ-xsNqO47m55DA.eot */
+		url('Vollkorn_400.eot?#iefix') format('embedded-opentype'),
+		/* from http://fonts.gstatic.com/s/vollkorn/v6/BCFBp4rt5gxxFrX6F12DKvesZW2xOQ-xsNqO47m55DA.woff */
+		url('Vollkorn_400.woff') format('woff'),
+		/* from http://fonts.gstatic.com/s/vollkorn/v6/idGKtgpe38okB6bfeHMsLPesZW2xOQ-xsNqO47m55DA.woff2 */
+		url('Vollkorn_400.woff2') format('woff2'),
+		/* from http://fonts.gstatic.com/l/font?kit=7Ikz6KCROt2STxF2hbeF0_esZW2xOQ-xsNqO47m55DA&skey=70793812edfff824&v=v6#Vollkorn */
+		url('Vollkorn_400.svg#Vollkorn') format('svg'),
+		/* from http://fonts.gstatic.com/s/vollkorn/v6/7jR1T900H5YEkd1UcZhA_fesZW2xOQ-xsNqO47m55DA.ttf */
+		url('Vollkorn_400.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Vollkorn';
+	font-style: italic;
+	font-weight: 400;
+	src:
+		local('Vollkorn Italic'),
+		local('Vollkorn-Italic'),
+		/* from http://fonts.gstatic.com/s/vollkorn/v6/Oiz0tNwvC-Nd29SBQWfWTFQlYEbsez9cZjKsNMjLOwM.eot */
+		url('Vollkorn_400italic.eot?#iefix') format('embedded-opentype'),
+		/* from http://fonts.gstatic.com/s/vollkorn/v6/Oiz0tNwvC-Nd29SBQWfWTBsxEYwM7FgeyaSgU71cLG0.woff */
+		url('Vollkorn_400italic.woff') format('woff'),
+		/* from http://fonts.gstatic.com/s/vollkorn/v6/Oiz0tNwvC-Nd29SBQWfWTPk_vArhqVIZ0nv9q090hN8.woff2 */
+		url('Vollkorn_400italic.woff2') format('woff2'),
+		/* from http://fonts.gstatic.com/l/font?kit=Oiz0tNwvC-Nd29SBQWfWTKWUboTb-jS2tyCOQMtm97g&skey=32518239f351a3af&v=v6#Vollkorn */
+		url('Vollkorn_400italic.svg#Vollkorn') format('svg'),
+		/* from http://fonts.gstatic.com/s/vollkorn/v6/Oiz0tNwvC-Nd29SBQWfWTC3USBnSvpkopQaUR-2r7iU.ttf */
+		url('Vollkorn_400italic.ttf') format('truetype');
+}

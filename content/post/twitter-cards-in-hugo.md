@@ -20,6 +20,9 @@ der Konfiguration angezogen. Die einzige interessante Zeile ist wohl der
 `twitter:title`. Damit nicht nur einzelne Blogposts sondern auch Seiten wie
 Archiv oder Home mit dem richtigen Seitentitel bestückt werden ist die
 `if`/`else` Unterscheidung nötig.
+
+<!--more-->
+
 ~~~ html
 <!-- Twitter Cards -->
 <meta name="twitter:card" content="summary">

@@ -1,0 +1,24 @@
+{{ partial "header.html" . }}
+
+   <div class="content">
+  {{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
+    <div class="main">
+      {{ range $paginator.Pages }}
+        <h1 class="non-highlight">
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+        </h1>
+        <p>
+        {{ .Summary }}
+        </p>
+         {{ if .Truncated }}
+          <div class="read-more-link">
+            <a href="{{ .RelPermalink }}">Read More…</a>
+          </div>
+        {{ end }}
+        </p>
+      {{ end }}
+    </div>
+    {{ partial "pagination.html" $paginator }}
+   </div>
+    {{ partial "footer.html" . }}
+

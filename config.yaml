@@ -1,9 +1,9 @@
 title: "noqqe.de"
 baseurl:  "https://noqqe.de"
 languageCode: "de-de"
-theme: "noqqe"
+theme: "noqqe-v2"
 path: "blog"
-paginate: 10
+paginate: 3
 paginatePath: "page"
 publishdir: "public"
 metaDataFormat: "yaml"

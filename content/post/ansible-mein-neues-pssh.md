@@ -28,6 +28,8 @@ Der Nachteil ist aber allerdings, dass bei `pssh` Listen mit
 Hostnamen in Form von Files gepflegt werden müssen. Das wird schnell
 unübersichtlich und aufwändig.
 
+<!--more-->
+
 {{< figure src="/uploads/2015/07/ssh.jpg" >}}
 
 ### Ansible Hosts

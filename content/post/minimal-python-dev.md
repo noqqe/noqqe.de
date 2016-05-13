@@ -64,17 +64,19 @@ Commits. `gitchangelog` nutzt dafür Regexes um die Commits zu kategorisieren
 und git tags um die Versionen zu kennzeichnen. Alles Dinge, die ich sowieso
 schon tue.
 
-    $ vim .gitchangelog.rc
-    section_regexps = [
-      ('Feature',
-        [ r'^[fF]eature\s*:\s*([^\n]*)$' ]
-      ),
-      ...
-    ]
-    tag_filter_regexp = r'^[0-9]+\.[0-9]+(\.[0-9]+)?$'
-    output_engine = mustache("restructuredtext")
+~~~ python
+$ vim .gitchangelog.rc
+section_regexps = [
+  ('Feature',
+    [ r'^[fF]eature\s*:\s*([^\n]*)$' ]
+  ),
+  ...
+]
+tag_filter_regexp = r'^[0-9]+\.[0-9]+(\.[0-9]+)?$'
+output_engine = mustache("restructuredtext")
 
-    $ gitchangelog > CHANGELOG.rst
+$ gitchangelog > CHANGELOG.rst
+~~~
 
 Man braucht zwar etwas Disziplin beim committen, aber das ist halbwegs erträglich.
 
@@ -118,16 +120,15 @@ wenn ich es will.
 
 ~~~ vim
 let b:syntastic_mode = "passive"
-let g:syntastic_always_populate_loc_list = 1 " populate, needed
+let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_check_on_open = 0
 let g:syntastic_check_on_wq = 0
 let g:syntastic_check_on_w = 0
-let g:syntastic_enable_signs = 0 " dont show crazy signs at left border
-let g:syntastic_auto_loc_list = 2 " dont open list automatically
-let g:syntastic_loc_list_height = 5 "windows size
+let g:syntastic_enable_signs = 0
+let g:syntastic_auto_loc_list = 2
+let g:syntastic_loc_list_height = 5
 let g:syntastic_aggregate_errors = 1
 
-" check for errors with -e
 nmap <silent> <leader>e :SyntasticCheck<CR>:Errors<CR>
 ~~~
 

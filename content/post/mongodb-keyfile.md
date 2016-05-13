@@ -18,6 +18,7 @@ aufgesetzt. So ein KeyFile ist eigentlich nur Random Content, der auf jeder
 Instanz gleich sein muss, um sicherzustellen das sich keine fremde Instanz einfach so in
 das MongoDB Cluster hineinschummelt.
 
+<!--more-->
 
 {{< figure src="/uploads/2015/06/keyfile.png" >}}
 
