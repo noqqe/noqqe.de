@@ -51,8 +51,15 @@ p
 {
 	margin: 0 0 1.5em;
   font-size: 1.1em;
-	line-height: 1.5;
+	line-height: 1.5em;
 }
+
+li
+{
+  font-size: 1em;
+	line-height: 1.5em;
+}
+
 
 blockquote
 {
@@ -63,6 +70,10 @@ blockquote
 
 a {
   word-wrap: break-word;
+}
+
+ul {
+  font-size: 1.2em;
 }
 
 hr
@@ -120,6 +131,11 @@ Layout styles
 
 .non-highlight a {
   text-decoration: none;
+}
+
+.date {
+  color: #555;
+  font-size: 70%
 }
 
 .header a {
@@ -228,4 +244,31 @@ Wide styles
     font-size: 0.9em;
     text-align: center;
   }
+}
+
+
+/* -----------------------
+Nav
+------------------------*/
+
+.nav
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.nav li
+{
+	display: inline;
+	margin: 0;
+}
+
+.nav a
+{
+	display: block;
+	padding: .7em 1.25em;
+	color: #fff;
+	text-decoration: none;
+	border-bottom: 1px solid gray;
 }

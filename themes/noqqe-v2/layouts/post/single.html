@@ -5,6 +5,7 @@
         <div class="main">
         <h1 class="non-highlight">
         <a href="{{ .Permalink }}">{{ .Title }}</a>
+        <span class="date" itemprop="datePublished dateModified">{{ .Date.Format "2006-01-02" }}</span>
         </h1>
         {{ .Content }}
     </div>

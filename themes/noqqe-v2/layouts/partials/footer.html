@@ -1,9 +1,9 @@
 			<div class="footer">
       <p>
-      <a href="{{ .Site.BaseURL }}/about/">About</a> -
-      <a href="{{ .Site.BaseURL }}/index.xml">Feed</a> -
-      <a href="https://twitter.com/{{ .Site.Params.Twitter }}">Twitter</a> -
-      <a href="{{ .Site.BaseURL }}/impressum/">Impressum</a></p>
+      {{ range .Site.Menus.main }}
+      <a href="{{.URL}}">{{ .Name }}</a>
+      {{end}}
+      </p>
       </div>
     </div>
 		<!-- Piwik -->
