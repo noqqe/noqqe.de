@@ -12,6 +12,10 @@ weiterempfehlen kann.
 
 {{< figure src="/uploads/2015/05/books.jpg" >}}
 
+## 2016
+* Das Evangelium des Fliegenden Spaghettimonsters
+* Silence on the Wire
+
 ## 2015
 * Spam Kings
 

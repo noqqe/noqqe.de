@@ -9,6 +9,12 @@ title: Projects
 alias: 'archives/434'
 ---
 
+## 2016
+
+  * [rvo](https://github.com/noqqe/rvo) - Managing textual data
+  * [entbehrlich.es](https://entbehrlich.es) - Entbehrliches Wissen aus der
+    Wikipedia
+
 ## 2015
 
   * [bm](https://github.com/noqqe/bm) - CLI Boomkarks Manager
