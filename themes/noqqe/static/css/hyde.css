@@ -223,3 +223,13 @@ a.sidebar-nav-item:focus {
 .theme-base-0b .related-posts li a:hover {
   color: #87d163;
 }
+
+/* Dark */
+
+.theme-base-1b .sidebar {
+	background-color: #292932;
+}
+.theme-base-1b .content a,
+.theme-base-1b .related-posts li a:hover {
+	color: #292932;
+}
