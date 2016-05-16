@@ -33,7 +33,7 @@ Neben viel besseren Möglichkeiten nach Inhalten zu suchen, sind auch
 [Verschlüsselung](https://noqqe.de/blog/2016/02/14/how-do-i-salsa/) und
 Text-Stats etwas, dass `rvo` kann.
 
-[rvo](https://github.com/noqqe/rvo)
+[https://github.com/noqqe/rvo](https://github.com/noqqe/rvo)
 
 Zusammengefasst würde ich nicht sagen, dass rvo nun der Nachfolger von
 cmddocs ist. Es sind unterschiedliche Arten (teils wegen Features, teils
