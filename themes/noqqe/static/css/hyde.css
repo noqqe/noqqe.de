@@ -117,6 +117,10 @@ code {
     text-align: left;
   }
 
+}
+
+/* Make meta infos vanish if screen is too small */
+@media (min-height: 400px) {
   .sidebar-meta {
     color: rgba(255,255,255,.7);
     font-size: 16px;
@@ -128,6 +132,7 @@ code {
     left:  2rem;
   }
 }
+
 
 /* Sidebar links */
 .sidebar a {
