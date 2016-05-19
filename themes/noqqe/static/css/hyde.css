@@ -73,9 +73,9 @@ a.meta-cc:link {
   font-size: 1em;
 }
 
-.sidebar-meta {
-  display: none;
-}
+/* .sidebar-meta { */
+/*   display: none; */
+/* } */
 
 
 /* scroll bars in codeblocks
@@ -107,6 +107,7 @@ code {
   background-color: #202020;
 
 }
+
 @media (min-width: 48rem) {
   .sidebar {
     position: fixed;
@@ -117,10 +118,6 @@ code {
     text-align: left;
   }
 
-}
-
-/* Make meta infos vanish if screen is too small */
-@media (min-height: 400px) {
   .sidebar-meta {
     color: rgba(255,255,255,.7);
     font-size: 16px;
@@ -133,6 +130,20 @@ code {
   }
 }
 
+/* Make meta infos vanish if screen is too small */
+@media (max-height: 400px) {
+  .sidebar-meta {
+    display: none;
+    background-color: red;
+  }
+}
+
+@media (max-width: 48rem) {
+  .sidebar-meta {
+    display: none;
+    background-color: red;
+  }
+}
 
 /* Sidebar links */
 .sidebar a {
