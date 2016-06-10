@@ -37,7 +37,7 @@ menu:
     weight: 90
     identifier: "Books"
     url: "/books/"
-  - name: "Impressum"
+  - name: "PGP"
     weight: 110
-    identifier: "Impressum"
-    url: "/impressum/"
+    identifier: "PGP"
+    url: "/pgp/"
