@@ -104,5 +104,7 @@ ist und sich zu größeren Horden zusammenschliesst und eine Sammelbestellung vo
 Custom Keycaps bei einer Plastikgießerei einwirft. Nach allem Warten und viel
 zu viel ausgegebenem Geld, kann ich nicht genau sagen ob ich das nocheinmal
 machen würde. Aber jetzt liegt die Tastatur hier und ich kann mich daran
-erfreuen.
+erfreuen. Und das tue ich sehr. Weil es immer ein gutes Gefühl ist alles
+abzuwägen, sich schlau zu lesen und dann das zusammenstellt, was man sich
+vorstellt.
 
