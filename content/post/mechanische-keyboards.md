@@ -42,7 +42,7 @@ sein? Linear, Acuation, Clicky, Non-Linear... Solls klicken und ab wie viel
 Kraftaufwand? Eine gute Zusammenfassung findet man auf
 [Reddit](https://www.reddit.com/r/pcmasterrace/comments/4feg0j/cherry_mechanical_keyboard_switch_guide/).
 Im Endeffekt wurden es bei mir wieder die Cherry MX Blue. Auch wenn ich
-kurt mit den Brown geliebäugelt habe.
+kurz mit den Brown geliebäugelt habe.
 
 Die **Tastatur** selbst. Die obigen Anforderungen reichen schonmal grob um
 sich auf eine Tastatur mit den richtigen Schaltern, Layout und Format
