@@ -44,7 +44,7 @@ Kraftaufwand? Eine gute Zusammenfassung findet man auf
 Im Endeffekt wurden es bei mir wieder die Cherry MX Blue. Auch wenn ich
 kurt mit den Brown geliebäugelt habe.
 
-Die **Tastatur** selbst. Die obigen Anforderungen reichen schonmal grob um
+Die **Tastatur** selbst. Die obigen Anforderungen reichen schonmal grob, um
 sich auf eine Tastatur mit den richtigen Schaltern, Layout und Format
 umzusehen. In Deutschland ist das Zeug alles bisschen schwer zu bekommen.
 Da bleibt fast nur [getDigital](https://getdigital.de) übrig :) Der ein
