@@ -11,6 +11,7 @@ alias: 'archives/434'
 
 ## 2016
 
+  * [Organic Entropy](https://organic-entropy.org)
   * [rvo](https://github.com/noqqe/rvo) - Managing textual data
   * [entbehrlich.es](https://entbehrlich.es) - Entbehrliches Wissen aus der
     Wikipedia
