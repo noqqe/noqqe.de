@@ -85,7 +85,7 @@ anders zu helfen, als kurz zu rebooten. Irgendwelche Ideen?
 		file size               (blocks, -f) unlimited
 		max locked memory       (kbytes, -l) 331942
 		max memory size         (kbytes, -m) 993656
-		open files                      (-n) 2048
+		open files                      (-n) 4096
 		pipe size            (512 bytes, -p) 1
 		stack size              (kbytes, -s) 4096
 		cpu time               (seconds, -t) unlimited
