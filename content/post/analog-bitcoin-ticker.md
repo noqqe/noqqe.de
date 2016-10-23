@@ -18,7 +18,7 @@ tags:
 - bitstamp
 ---
 
-[BitCoin](https://bitcoin.org). Cheffinnen von Trading-Sites werden
+[BitCoin](https://bitcoin.org). Chefinnen von Trading-Sites werden
 [tot in Wohnungen gefunden](http://www.focus.de/finanzen/news/polizei-kein-natuerlicher-tod-chefin-von-bitcoin-boerse-in-wohnung-tot-aufgefunden_id_3667398.html).
 Ein [Magic the Gathering Online Exchange](http://mtgox.com) geht [insolvent](http://www.zeit.de/digital/2014-02/bitcoin-mtgox-insolvenz).
 [FlexCoin gehackt](http://www.spiegel.de/netzwelt/web/flexcoin-bitcoin-handelsplattform-ausgeraubt-a-957103.html).
@@ -34,7 +34,7 @@ in die Hände fiel, dachte ich mir hey, BitCoins&lt;-&gt;Dollar anzeigen lassen!
 
 {{< figure src="/uploads/2014/03/bitcoinmeter.png" >}}
 
-Im Endeffekt hole ich mir nur mit etwas Python (schlechtes Python, btw) den
+Im Endeffekt hole ich mir nur mit etwas Python (schlechtes Python, btw.) den
 aktuellen Kurs vom letzten halbwegs stabilen BitCoin Trader
 [Bitstamp](https://bitstamp.net)
 

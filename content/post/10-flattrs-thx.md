@@ -16,7 +16,7 @@ mit einem gerechnet.
 
 {{< figure src="/uploads/2012/11/success-kid.jpg" >}}
 
-Das Geld wird übrigens nicht weiterverflattert sondern fliesst in das
+Das Geld wird übrigens nicht weiter verflattert sondern fliesst in das
 Hosting des Blogs.
 
 Danke!

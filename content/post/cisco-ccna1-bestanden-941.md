@@ -17,4 +17,4 @@ tags:
 
 Modul 1 ist abgehakt.
 
-Das Zertifikat als solches bekomm ich allerdings erst übernächste Woche.
+Das Zertifikat als solches bekomme ich allerdings erst übernächste Woche.

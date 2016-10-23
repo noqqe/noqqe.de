@@ -27,7 +27,7 @@ tags:
 ---
 
 FTP-User, die Dateien auch über HTTP durchsuchen wollen, werden bei vsftpd
-häufig über /etc/passwd als SystemUser authentifiziert. Um nicht noch eine
+häufig über /etc/passwd als System User authentifiziert. Um nicht noch eine
 zusätzliche htpasswd Datei pflegen zu müssen, bietet sich das Apache2 Modul
 mod_auth_pam an. Allerdings nur wenn man weiss wie.
 
@@ -55,7 +55,7 @@ anmeldet, wird automatisch definiert.
 @include common-account
 ```
 
-Nunja, auch wenn eigentlich soweit alles klar sein sollte, schmeisst
+Nun ja, auch wenn eigentlich soweit alles klar sein sollte, schmeisst
 Apache2 einen Internal Server Error.
 
 ```
@@ -63,7 +63,7 @@ Mar  1 12:37:59 host unix_chkpwd[2682]: password check failed for user (FTPUSER)
 Mar  1 12:37:59 host apache2: pam_unix(apache2:auth): authentication  failure; logname= uid=xx euid=xx tty= ruser= rhost=123.123.123.123   user=FTPUSER
 ```
 
-Was an den fehlenden LeseRechten des Users "www-data" liegt. Fügt man
+Was an den fehlenden Leserechten des Users "www-data" liegt. Fügt man
 diesen der Gruppe shadow hinzu, funktioniert die Authentifizierung
 einwandfrei.
 

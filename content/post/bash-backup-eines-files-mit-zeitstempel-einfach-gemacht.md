@@ -66,5 +66,5 @@ cp ${filename} ${filename}_${filetime}
 ```
 
 Dass [commandlinefu.com](http://commandlinefu.com) eine großartige Site
-ist, ist wahrscheinlich für die meisten nichts Neues. Teileweise regnet es
+ist, ist wahrscheinlich für die meisten nichts Neues. Teilweise regnet es
 dort wunderschöne kleine Kommandozeilen für den Alltag.

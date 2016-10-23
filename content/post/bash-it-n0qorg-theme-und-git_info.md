@@ -22,7 +22,7 @@ tags:
 ---
 
 Um die Entwicklung des Bash Community Frameworks
-[bash-it](http://github.com/revans/bash-it) noch zusätzlich etwas vorran zu
+[bash-it](http://github.com/revans/bash-it) noch zusätzlich etwas voran zu
 treiben, hab ich ein neues Theme und git_info  bereitgestellt.
 
 ### n0qorg theme

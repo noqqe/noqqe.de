@@ -40,7 +40,7 @@ folgendermaßen aus:
 {{< figure src="/uploads/2010/11/zitron.png" >}}
 
 Das Theme reagiert (als Teil von bash-it) auf git Repos. Wenn man sich in
-einem versioniertem Verzeichnis befindet, wird im Prompt automatisch der
+einem versionierten Verzeichnis befindet, wird im Prompt automatisch der
 Name des Branch (master) eingefügt und zusätzlich dazu überprüft, ob das
 Working-Directory "dirty" ist (also uncommittete Änderungen). Falls ja wird
 ein gelbes Asterisk eingefügt (*).

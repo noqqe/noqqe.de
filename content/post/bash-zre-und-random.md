@@ -58,11 +58,11 @@ zombies=$(($zombies - $victims))
 ```
 
 Die Problemstellung beläuft sich eigentlich auf $RANDOM. $RANDOM erzeugt
-einen "zufälligen" Integerwert von 0 bis 32767.
+einen "zufälligen" Integer wert von 0 bis 32767.
 
 Die Erzeugung der Unterstützung addiert sich immer wieder sofort auf den
 Wert der jeweiligen Rasse. Die Anzahl der Opfer allerdings errechnet sich
-aus einem Teil der Verteidiger, welcher wiederrum nur ein Teil der gesamten
+aus einem Teil der Verteidiger, welcher wiederum nur ein Teil der gesamten
 Rasse darstellt.
 
 Klartext: Die Wahrscheinlichkeit, dass (max.) 32767 Mitglieder Opfer werden

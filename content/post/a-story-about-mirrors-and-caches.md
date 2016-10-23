@@ -77,12 +77,12 @@ oder durch `sources.list` URLs
 
     deb http://10.10.0.10:3142/debian.cs.fau.de/debian stable main contrib non-free
 
-Mir gefiel die erste Variante allerdings wesentlich besser. Ich kanns nicht
+Mir gefiel die erste Variante allerdings wesentlich besser. Ich kann es nicht
 begründen, fühlt sich aber besser an.
 
 ### Puppet
 
-Ausgerollen konnte ich die Konfiguration gegen apt-cacher-ng einfach über das
+Ausrollen konnte ich die Konfiguration gegen apt-cacher-ng einfach über das
 Puppetlabs [apt](https://forge.puppetlabs.com/puppetlabs/apt) Modul.
 
 ```

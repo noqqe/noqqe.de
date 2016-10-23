@@ -39,10 +39,10 @@ mit strace gemacht hatte.
 
 * [Mit OpenStack zur eigenen Cloud](http://chemnitzer.linux-tage.de/2012/vortraege/974)
 Auch nett gewesen. Die verschiedenen Komponenten von OpenStack mal
-kennenzulernen die von RackSpace und der NASA entwickelt werden.
+kennenzulernen die von hinzuzufügen und der NASA entwickelt werden.
 
 * [Ursprünge der Versionsverwaltung und Revival von SCCS](http://chemnitzer.linux-tage.de/2012/vortraege/941)
-Den Folien habe ich nichts hinzuzufuegen. Ganz besonders nicht Seite 36. Aber
+Den Folien habe ich nichts hinzuzufügen. Ganz besonders nicht Seite 36. Aber
 ich habe schon wieder Schaum vorm Mund, wenn ich dran denke. Vielleicht gibts
 darüber einen separaten Blogpost.
 

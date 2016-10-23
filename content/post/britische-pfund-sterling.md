@@ -26,7 +26,7 @@ Ich fragte Siri ob ich morgen Euro gegen Pfund tauschen solle.
 {{< figure src="/uploads/2013/06/kurs.png" >}}
 
 Wechselkurse sind Dinge für die ich mich noch nie interessiert hab. Wann
-geh ich zur Bank. Wann ists teuer, wann nicht?  Eigentlich wollte ich das
+geh ich zur Bank. Wann ist es teuer, wann nicht?  Eigentlich wollte ich das
 schon ewig gemacht haben da man munkelte, der Kurs wäre gerade gut.
 Irgendwie hab ich es aber nicht geschafft.
 
@@ -38,7 +38,7 @@ sich in dem Fall leicht zu CSV konvertieren
 
     sed -e 's#.*TIME_PERIOD=\(.*\)\ OBS_VALUE=\"\(.*\)"\ OBS_STATUS.*#\1 \2#' gbp.xml > gbp.csv
 
-Alles in `R` geworfen. CSV importiert, Tag dazugerechnet.
+Alles in `R` geworfen. CSV importiert, Tag dazu gerechnet.
 
 ``` r
 > f <- read.csv(file="gbp.csv", header=F, as.is=T, sep=" ")

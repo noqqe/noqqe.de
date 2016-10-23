@@ -63,7 +63,7 @@ Diverse Zusatzfunktionskanäle sind da eigentlich überflüssig aber im
 integriert.
 
 Nach etwas Trial and Error Verfahren den weg für Doofe gewählt. Ich hab
-ehrlichgesagt einfach ein altes Klinke Stecker auf Buchse Kabel
+ehrlich gesagt einfach ein altes Klinke Stecker auf Buchse Kabel
 aufgeschnitten und mir die Belegung auf der Steckerseite angesehen.
 
 {{< figure src="/uploads/2011/12/IMG_0609.jpg" >}}

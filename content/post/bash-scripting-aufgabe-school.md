@@ -36,7 +36,7 @@ Fehler gemeldet werden.
 
 Ich muss für meinen Teil ganz ehrlich sagen, dass das wohl ein noch viel
 unsinnigeres Programm ist. Wenn ich auch glaube, dass es einfach nur um die
-Erfüllung bestimmter Umstände geht. Der Rest ist anscheinend ziemilch egal.
+Erfüllung bestimmter Umstände geht. Der Rest ist anscheinend ziemlich egal.
 
 Gelöst habe ich das ganze wie folgt:
 

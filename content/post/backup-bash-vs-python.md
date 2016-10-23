@@ -17,7 +17,7 @@ tags:
 - skript
 ---
 
-Mein erstes BackupScript war in Python geschrieben. Das sah dann wie folgt aus:
+Mein erstes Backup Script war in Python geschrieben. Das sah dann wie folgt aus:
 
 ``` python
 #!/usr/bin/python
@@ -37,10 +37,10 @@ print 'Sicherung fehlgeschlagen!'
 os.system(loggingno)
 ```
 
-Aber irgendwie... wurde mir das bissl zu blöd. Alle meine Skripte laufen
-auf Bash. Warum beim Backuppen aus der Reihe tanzen?  Eigentlich wäre das
+Aber irgendwie... wurde mir das ein bisschen zu blöd. Alle meine Skripte laufen
+auf Bash. Warum bei Backups aus der Reihe tanzen?  Eigentlich wäre das
 ganze schon nach _einer_ Zeile gelaufen. Wenn ich nicht noch die
-LoggingFunktion hätte.
+Logging Funktion hätte.
 
 ``` bash
 #!/bin/bash
@@ -61,4 +61,4 @@ mail -s "Backup fehlgeschlagen!" root@zwetschge.org < /var/log/backup.log
 fi
 ```
 
-Ich weiss nicht. Mir gefällts besser.
+Ich weiss nicht. Mir gefällt's besser.

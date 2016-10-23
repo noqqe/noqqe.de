@@ -87,4 +87,4 @@ define('WPLANG', 'de_DE.UTF-8');
 $ dpkg-reconfigure locales
 ```
 
-Sollte ich es mal wieder brauchen, les ich hier nach.
+Sollte ich es mal wieder brauchen, lese ich hier nach.

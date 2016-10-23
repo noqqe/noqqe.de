@@ -26,13 +26,13 @@ Nachdem ich letzten Donnerstag erfolgreich meine Ausbildung zum
 Fachinformatiker abgeschlossen habe, kann ich die dazugehörige
 Dokumentation / Präsentation hier veröffentlichen.
 
-**Dokumentation**
+### Dokumentation
 
 {{< figure src="/uploads/2011/07/Bildschirmfoto.png" >}}
 
 [Dokumentation](/uploads/2011/07/documentation.pdf)
 
-**Präsentation**
+### Präsentation
 
 {{< figure src="/uploads/2011/07/Bildschirmfoto-1.png" >}}
 

@@ -22,7 +22,7 @@ spreche fühlt es sich so an als wärs schon vorbei und das ist gut)
 Berufsschulwoche. Nun jedenfalls habe ich die grosse Freude dort in
 Bash-Scripting unterrichtet zu werden. Ungewöhnlich für Lehrkörper ist
 unserer relativ begeisterter Linux-Benutzer und schiebt an allen Enden
-etwas LinuxKnow-How mit ein. Das ist sehr schön weil ich Bash und Linux
+etwas Linux Know-How mit ein. Das ist sehr schön weil ich Bash und Linux
 sehr mag.
 
 # ****#!/bin/bash****

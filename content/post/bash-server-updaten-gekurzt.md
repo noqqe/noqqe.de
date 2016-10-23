@@ -18,7 +18,7 @@ tags:
 ---
 
 So faul wie ich also bin, mich bei jedem Server einzeln einzuloggen,
-upzugraden und cronjob auszuführen, wollt ich ein Stück weit
+upzugraden und Cronjob auszuführen, wollt ich ein Stück weit
 automatisieren. Dabei raus kam:
 
 ``` bash

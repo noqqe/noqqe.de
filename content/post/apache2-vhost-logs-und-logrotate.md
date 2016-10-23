@@ -25,7 +25,7 @@ tags:
 
 Nachdem mein Apache immer mehr und mehr virtuelle Hosts / eingerichtete
 Subdomains bekommt, welche alle in das /var/log/apache2/access.log
-reinloggen, fand ich es an der Zeit etwas mehr Struktur rein zu bringen.
+loggen, fand ich es an der Zeit etwas mehr Struktur rein zu bringen.
 Generell werden alle bestehenden vhosts in /etc/apache2/sites-available/*
 deklariert.  Darin befinden sich allerlei Deklarationen wie der Ort des
 Directory und ähnliches. Kurzer Head-Auszug:
@@ -57,7 +57,7 @@ CustomLog /var/log/apache2/noqqe.de-access.log common
 
 
 Mit der Syntax `[$domain]-[access|error].log` ist es im
-Apachenlogverzeichnis schön außeinander zu halten auf welchen vhost welche
+Apache Logdir schön auseinander zu halten auf welchen vhost welche
 Anfragen gingen. Erleichtert die Suche ungemein. Auch Aufgliederung in
 apache2/error/* und apache2/access/* wäre denkbar. Aber für mich gerade
 oversized.
@@ -65,7 +65,7 @@ oversized.
 Nächster Punkt auf der Liste: logrotate
 
 Ein Logfile wird _rotiert_. Diese Rotation übernimmt das Programm
-Logrotate. Jeder kennts:
+Logrotate. Jeder kennt es:
 
 ```
 -rw-r----- 1 root adm 360K 29. Mär 00:25 access.log.1
@@ -75,7 +75,7 @@ Logrotate. Jeder kennts:
 
 Ich möchte auch gerne meine vhost-Logfiles rotieren lassen. Wie in jedem
 (guten) Daemon gibt es auch hier ein Verzeichnis logrotate.d/*. Darin
-befinden sich manuell angepasste config-Files die zb bei Upgrades nicht
+befinden sich manuell angepasste config-Files die z.B. bei Upgrades nicht
 überschrieben werden. Der folgende Eintrag lässt alle Dateien die mit .log
 enden und sich im Verzeichnis /var/log/apache2/ befinden wöchentlich bis zu
 10 Wochen rotieren und komprimieren:

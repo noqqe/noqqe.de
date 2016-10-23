@@ -34,7 +34,7 @@ _DEBUG=true
 if [ "$_DEBUG" == "true" ]; then echo "some debug informations" ; fi
 ```
 
-Auch schön fand ich den eingebauten Debugmodus der Shell:
+Auch schön fand ich den eingebauten Debug Modus der Shell:
 
 ```
 $ sh -x script.sh
@@ -56,7 +56,7 @@ aussehen, damit ich es verwenden würde?
   * Sollte sehr einfach abschaltbar und skalierbar sein.
   * Minimaler Umfang des Gesamtsystems
 
-Nunja, im typischen Sonntag Nachmittag Größenwahn hab ich mich bemüht meine
+Nun ja, im typischen Sonntag Nachmittag Größenwahn hab ich mich bemüht meine
 Anforderungen an den Bash Debugger umzusetzen. Ob es mir gelungen ist lasse
 ich jetzt mal dahingestellt, denn das ist mit Sicherheit Ansichtssache.
 Aber das aus dem Bedarf heraus entstandene

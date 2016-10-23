@@ -20,8 +20,8 @@ tags:
 - tricks
 ---
 
-Desöfteren schlage ich mich in Bash-Scripting mit den Meldungen "unärer
-Operator" und ähnlichen Fehlern herum. Inkrementierungen über `i=$[$i+1]`
+Des öfteren schlage ich mich in Bash-Scripting mit den Meldungen "unärer
+Operator" und ähnlichen Fehlern herum. Inkrement über `i=$[$i+1]`
 funktionieren unter entsprechenden Umständen nicht. In Bash mit Zahlen
 umzugehen ist garnicht so leicht, finde ich. Manchmal werden die Zahlen als
 Char statt Int interpretiert und manchmal darf man zu einer Variable mit

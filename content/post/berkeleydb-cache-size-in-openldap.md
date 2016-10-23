@@ -16,7 +16,7 @@ tags:
 ---
 
 Ehrlich gesagt fühlt man sich als wäre es 1990, wenn man anfängt sich zu
-Performance Tuning für OpenLDAP schlauzulesen.
+Performance Tuning für OpenLDAP schlau zu lesen.
 
 Das Default Backend `BDB` kann eigentlich Out-of-the-Box benutzt werden. Sobald
 ein paar Objects im DIT sind begegnet einem aber schnell die Cache Size.

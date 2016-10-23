@@ -28,7 +28,7 @@ kams unter dem Namen statistical auf Github:
 {{< figure src="/uploads/2012/04/statistics-fail.jpg" >}}
 
 Hab mir überlegt wie schwierig das wohl ist, dass ganze Teil nochmal so
-umzubauen, dass vertikale Balken entstehen. Horizontal gesehen ist das ja
+um zubauen, dass vertikale Balken entstehen. Horizontal gesehen ist das ja
 relativ easy. Etwas skalieren hier und da und dann einfach die Anzahl der
 Zeichen in einer Zeile ausgeben.
 

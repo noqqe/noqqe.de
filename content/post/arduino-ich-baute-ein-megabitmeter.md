@@ -31,11 +31,11 @@ tags:
 
 Vor einiger Zeit hab ich über den Podcast von Tim Pritlove (NSFW) von dem
 Projekt [MegabitMeter]( http://megabitmeter.de) erfahren. Es hat mich
-ehrlichgesagt fasziniert. Der eigentliche (im Namen implimzierte) Zweck
-zwar weniger, aber gernerell einfach Werte über ein USB Device darstellen
+ehrlich gesagt fasziniert. Der eigentliche (im Namen implizierte) Zweck
+zwar weniger, aber generell einfach Werte über ein USB Device darstellen
 zu können. Genaue Anwendungsfälle gibts weiter unten.
 
-Zunächstmal hab ich mich ausgiebig mit dem
+Zunächst mal hab ich mich ausgiebig mit dem
 [HowTo](http://megabitmeter.de/2010/12/megabitmeter-%E2%80%93-bandwidth-meter-diy-kit-howto/)
 beschäftigt welches ich (bis auf ein paar Stellen) sehr gut finde. Die
 letzten Paar Unstimmigkeiten habe ich dann mit dem wirklich netten und
@@ -66,9 +66,9 @@ Wenn alles fertig gebastelt ist, kann man dem Gerät einfach via echo Werte
 $ echo "200" > /dev/ttyUSB0
 ```
 
-Ein paar Anwendungsbeispeile:
+Ein paar Anwendungsbeispiele:
 
-Zufällige Zahlen auf das Gerät projezieren
+Zufällige Zahlen auf das Gerät projizieren
 
 ```
 while true; do RND=$(($RANDOM % 99 * 10)); printf "$RNDn" > /dev/ttyUSB0 ;echo $RND; sleep 2 ; done

@@ -18,7 +18,7 @@ watch -n 1 "arp -a | grep 192.168.1.12"
 [watch](http://linux.about.com/library/cmd/blcmdl1_watch.htm) hat die blöde
 Angewohnheit, den aktuellen Screen immer zu leeren. Gerade beim oberen
 Beispiel ist das von Nachteil (IP-Konflikt nachvollziehen), da der
-Vergleichswert wegfällt. Quick&Dirty die Lösung:
+Vergleichswert weg fällt. Quick&Dirty die Lösung:
 
 
     while true; do arp -a | grep 192.168.1.12 ; sleep 0.2 ; done

@@ -31,7 +31,7 @@ tags:
 ---
 
 Wer kennt eigentlich noch [MUD](http://en.wikipedia.org/wiki/MUD)'s?  Diese
-textbasierten Rollenspiele über Telnet. Uralt und genau genommen dürfte mir
+Text basierten Rollenspiele über Telnet. Uralt und genau genommen dürfte mir
 das auch nichts sagen, denn das war vor meiner Zeit.
 
 Wie dem auch sei. Vor kurzem saß ich nachts vor meiner Shell und suchte
@@ -67,7 +67,7 @@ genannt) immernoch unterhält und amüsiert. Jedesmal wenn ich es starte,
 beginnt ein total neuer Verlauf dieser Welt, wer wann wo wen angreift und
 letzten Endes besiegt.
 
-Ich hab das zombie-revolution-environment auf github hochgeladen. Ich weiss
+Ich hab das zombie-revolution-environment auf github hoch geladen. Ich weiss
 nicht wirklich was es ist, aber es unterhält mich.
 
 [http://github.com/noqqe/zombie-revolution-environment](http://github.com/noqqe/zombie-revolution-environment)

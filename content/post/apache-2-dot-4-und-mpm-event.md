@@ -70,7 +70,7 @@ $ ab -c 200 -n 2500 http://host.example.org/
 * `-c` gibt die Anzahl der gleichzeitigen Verbindungen an
 * `-n` Die Anzahl der Connections insgesamt
 
-Jedem Apache habe ich nun stufenweise Connections hingeschossen
+Jedem Apache habe ich nun stufenweise Connections hin geschossen
 und mir die Dauer jedes Benchmarks weggegreppt:
 
 ``` bash
@@ -82,7 +82,7 @@ while [ $C -lt 100000 ]; do
 done
 ```
 
-Das hab ich für jeden Host einzelnd durchgeführt und anschliessend alles durch
+Das hab ich für jeden Host einzeln durchgeführt und anschliessend alles durch
 Gnuplot gejagt. Dabei kam einmal mehr zum Vorschein, dass man Prefork einfach
 nicht haben möchte :)
 
@@ -109,7 +109,7 @@ Das Ergebnis von MPM Event kann sich sehen lassen, wie ich finde.
 {{< figure src="/uploads/2012/05/concurrency.png" >}}
 
 Warum MPM Prefork bei 1000 gleichzeitigen Connections immer so "abhaut" kann ich
-nicht sagen. Habs mehrmals versucht mit immer dem gleichen Ergebnis.
+nicht sagen. Habe mehrmals versucht mit immer dem gleichen Ergebnis.
 
 ## Fazit
 
@@ -117,9 +117,9 @@ Die Daten zu deuten ist jedem selber überlassen. Was hier auch überhaupt
 nicht zur Sprache kam ist die Administrierbarkeit der Module oder
 Stabilität. Ob man Prefork mag weil es nativ mit mod_php kann oder man sich
 wegen der Performance mpm_worker mit fcgid antut... Geschmäcker gehen hier
-außeinander aber allein wegen der Verträglichkeit des mpm_event gegenüber
+auseinander aber allein wegen der Verträglichkeit des mpm_event gegenüber
 [Slowloris](http://de.wikipedia.org/wiki/Slowloris) Attacken sollten man
-sich den "neuen" mpm_event jedenfalls mal ansehen.  Performacetechnisch
+sich den "neuen" mpm_event jedenfalls mal ansehen. Performacetechnisch
 sieht es jedenfalls nicht schlecht aus ;)
 
 Wer möchte kann sich die [Rohdaten](https://gist.github.com/2764231) der Tests

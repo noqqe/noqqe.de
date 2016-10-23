@@ -23,7 +23,7 @@ Neulich habe ich voller Begeisterung das
 [Drummachine](http://beatsdrummachine.com/) Projekt
 [Beats](https://github.com/jstrait/beats/) entdeckt. Beats stellt so in
 etwa die Musicbox für Nerds dar. In einem Verzeichnis mit einem Set an
-*.wav Dateien (wohl der Standard) legt man eine Art Konfigurationsdatei,
+\*.wav Dateien (wohl der Standard) legt man eine Art Konfigurationsdatei,
 welche durch Beats interpretiert wird. In einer gewissen Syntax beschreibt
 man dieses Lied und dessen Abfolge.
 
@@ -66,9 +66,9 @@ $ open randomsong.wav
 ```
 
 Raus kommen allerlei sehr Interessante und manchmal auch schöne Rhythmen.
-Aber manchmal auch akkute Ohrenschmerzen verursachen. Ein paar davon sammle
+Aber manchmal auch akute Ohrenschmerzen verursachen. Ein paar davon sammle
 ich mittlerweile in einem separaten Branch im Git-Repo. Diesen kann ich
-aber nicht uploaden, weil die größe meines Github Accounts auf 300MB
+aber nicht uploaden, weil die Größe meines Github Accounts auf 300MB
 beschränkt ist. Aber vielleicht finde ich anderweitig Möglichkeiten die
 Ergebnisse zu publizieren.
 

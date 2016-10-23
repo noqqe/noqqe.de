@@ -30,7 +30,7 @@ kassiert. Tatsächlich ist aber alles etwas anders.
 Ich war lange ein zufriedener User von [gitit](https://gitit.net). Zugegeben,
 nur wenn es dann wirklich mal kompiliert war. Ich wollte nicht zum 3. mal nach
 neuem OpenBSD Release 4-5 Stunden verschwenden, das Stück Haskell gebaut zu
-bekommen. Außerdem war ich das Webtinterface irgendwie Leid.
+bekommen. Außerdem war ich das Webinterface irgendwie Leid.
 
 ### Übergang
 
@@ -45,7 +45,7 @@ ich sonst so verwende.
 
 Auf längere Sicht wurde es aber ziemlich Tippintensiv. Jedes mal alle `git add`,
 `git commit`, `grep`, `tree` Commands nutzen. Es hat sich irgendwie müßig
-angefühlt. Hab nicht mehr gerne damit gerarbeitet, kam zu dem Schluss das ich
+angefühlt. Hab nicht mehr gerne damit gearbeitet, kam zu dem Schluss das ich
 auf Commandline bleiben, aber mir das dokumentieren/notieren etwas erleichtern
 will.
 

@@ -22,7 +22,7 @@ tags:
 - provider
 - IT
 ---
-Admins. In der Systemadministration treffen Einstellungen aufeinander.
+Admins. In der System Administration treffen Einstellungen aufeinander.
 Geschmacksrichtungen. Unterschiedliche Wissensstände. Glaubensrichtungen.
 Interessen. Vorlieben.  Wer tut in einem Ops-Team was und warum. Was folgt
 ist ein Gedankenmodell.
@@ -42,7 +42,7 @@ nachfolgenden Kategorien einordnen. Ähnlich wie beim
   verständlich
 * Korrekt: Die Lösung kann je nach Bedarf zukünftig erweitert werden, ist
   sicher und auf Korrektheit überprüft
-* Risikofrei: Das entstehende Riskio für die Umgebung bei Anwendung der
+* Risikofrei: Das entstehende Risiko für die Umgebung bei Anwendung der
   neuen Lösung ist möglichst gering.
 
 ### Practices
@@ -68,8 +68,8 @@ entsprechende Schulung+Einarbeitung in das Thema.
 {{< figure src="/uploads/2014/04/correct2.gif" >}}
 
 Was in Erweiterbarkeit, leichter Administration und Stabilität endet muss
-mit dem Eingehen von Risken und Zeit bezahlt werden. Man ändert nicht
-einfach mal so die Templates der Standardrolle im LDAP oder die Architektur
+mit dem Eingehen von Risiken und Zeit bezahlt werden. Man ändert nicht
+einfach mal so die Templates der Default Role im LDAP oder die Architektur
 des Datenbankclusters.  Danach hat man aber allerdings erstmal Ruhe und das
 angenehme Gefühl die Welt ein Stück besser gemacht zu haben.
 
@@ -109,7 +109,7 @@ erwartet.
 
 Software wird selbst gepatched, statisch gebaut und auf Systeme verteilt.
 Meister für Problemlösungen, finden aber auch Lösungen die
-Betriebsführungstechnisch gesehen garkeine sind.
+Betriebsführungstechnisch gesehen gar keine sind.
 
 #### Der Engagierte Admin
 
@@ -119,13 +119,13 @@ Anspruch an die Correctness steht dabei an erster Stelle. Das Ergebnis will
 schliesslich hergezeigt werden können.
 
 Alles dauert recht lang, funktioniert aber. Schöne Systemkonfiguration mit
-Kommentaren in den Configs bezahlt einem aber leider keinerr. Funktionieren
+Kommentaren in den Configs bezahlt einem aber leider keiner. Funktionieren
 muss es halt.
 
 #### Der Hipster-Hacker
 
 Nur Software einsetzen, die gerade irgendwo
-Trending auf Hackernews ist.  Heisser Scheiss solls sein. Enden tut das
+Trending auf HackerNews ist.  Heisser Scheiss solls sein. Enden tut das
 alles in einer Infrastruktur aus pre-alpha Versionen die allesamt beim
 nächsten Update kaputtgehen. Ganz zu schweigen von "production-ready"
 Software.
@@ -144,8 +144,8 @@ wenig Aufwand.
 ### Abschliessend
 
 Ich mag es Dinge in Schubladen zu sortieren und erwische mich oft an diesem
-Gedankenmodell schrauben.  Ich weiss ehrlichgesagt nicht warum ich das
-verblogge. Der Sketch dazu liegt schon ewig in meinem Draftordner und über
+Gedankenmodell schrauben.  Ich weiss ehrlich gesagt nicht warum ich das
+verblogge. Der Sketch dazu liegt schon ewig in meinen Drafts und über
 die Feiertage kam ich mal dazu.
 
 Um Hinweise bei vergessenen Solutions, Roles oder Practices in den

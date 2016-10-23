@@ -41,9 +41,9 @@ klein) kommt hier das Directory Indexing ins Spiel:
 EXT4-fs warning (device /dev/sdd): ext4_dx_add_entry: Directory index full!
 ```
 
-Rsyncs bzw. Schreibende Zugriffe in das Verzeichnis brechen ab und im `dmesg`
+`rsync`s bzw. Schreibende Zugriffe in das Verzeichnis brechen ab und im `dmesg`
 findet man obige Meldung. Problem dabei: In dem Directory Index sind so viele
-Files gelistet, dass in dem (wahrscheinlich FS Designtechnisch limitierten,
+Files gelistet, dass in dem (wahrscheinlich FS designtechnisch limitierten,
 korrigiert mich bitte) Hashmap Block kein Platz mehr ist. Es können schlicht
 und ergreifend keine neuen Einträge hinzugefügt werden.
 
@@ -61,7 +61,7 @@ Oder auch andere schaurige Threads aus Mailinglisten:
 
 [http://www.mail-archive.com/cwelug@googlegroups.com/msg01937.html](http://www.mail-archive.com/cwelug@googlegroups.com/msg01937.html)
 
-Mit debugfs lassen sich die Informationen des Filesystems
+Mit `debugfs` lassen sich die Informationen des Filesystems
 auszulesen, die einen interessieren. Basic Problematik ist einfach, welches
 Verzeichnis ist betroffen, wie konnte das passieren und wie bekomme ich es wieder heile.
 

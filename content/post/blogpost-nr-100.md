@@ -10,4 +10,4 @@ categories:
 - Blog
 ---
 
-Das ist Blogpost Nr.100 und .. vielleicht werdens auch noch weitere 100 :)
+Das ist Blogpost Nr.100 und .. vielleicht werden es auch noch weitere 100 :)
