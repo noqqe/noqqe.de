@@ -23,7 +23,7 @@ interessiert sich der Daemon nicht und ist auch nicht im Scope. In Firefox
 endet das beim Anzeigen eines `.png` in einfach nur ASCII Kram auf dem
 Bildschirm des Users. In Safari und Chrome war das okay. In Firefox nicht.
 
-{{< figure src='/uploads/2016/09/wpm65xmf.jpg' >}}
+{{< figure src="/uploads/2016/09/wpm65xmf.jpg" >}}
 
 Letztens war es dann wieder soweit. Ich schaute mich nach etwas anderem um.
 Alle Services auf der
