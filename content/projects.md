@@ -18,7 +18,7 @@ alias: 'archives/434'
 
 ## 2015
 
-  * [bm](https://github.com/noqqe/bm) - CLI Boomkarks Manager
+  * [bm](https://github.com/noqqe/bm) - CLI Bookmarks Manager
   * [cmddocs](https://github.com/noqqe/cmddocs) - CLI Wiki
 
 ## 2014
