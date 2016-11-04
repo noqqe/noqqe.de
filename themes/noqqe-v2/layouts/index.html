@@ -1,24 +1,26 @@
 {{ partial "header.html" . }}
 
    <div class="content">
-  {{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
     <div class="main">
-      {{ range $paginator.Pages }}
+        <div class="main">
         <h1 class="non-highlight">
         <a href="{{ .Permalink }}">{{ .Title }}</a>
         </h1>
-        <p>
-        {{ .Summary }}
-        </p>
-         {{ if .Truncated }}
-          <div class="read-more-link">
-            <a href="{{ .RelPermalink }}">Read More…</a>
-          </div>
-        {{ end }}
-        </p>
+
+        {{ range (where .Site.Pages "Type" "post").GroupByDate "2006"  }}
+        <h2>{{ .Key }}</h2>
+        <ul>
+          {{ range .Pages }}
+          <li>
+              <span>{{ .Date.Format "02.01" }}</span>
+              <a href="{{ .Permalink }}">{{ .Title }}</a>
+          </li>
+            {{ end }}
+        </ul>
       {{ end }}
     </div>
-    {{ partial "pagination.html" $paginator }}
-   </div>
-    {{ partial "footer.html" . }}
 
+    </div>
+  </div>
+
+{{ partial "footer.html" . }}
