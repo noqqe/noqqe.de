@@ -55,7 +55,7 @@
   <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
 
   <!-- CSS -->
-  <link href="/css/styles.css" media="all" rel="stylesheet" />
+  <link href="{{ .Site.BaseURL }}/css/styles.css" media="all" rel="stylesheet" />
 </head>
 <body class="item ">
   <div id="sitewrapper">
@@ -64,17 +64,17 @@
         <a rel="author" href="/">noqqe</a>
       </h2>
       <br>
-      <a href="/">blog</a>
+      <a href="{{ .Site.BaseURL }}/blog">blog</a>
       <span class="bar">|</span>
-      <!-- <a href="/sammelsurium">sammelsurium</a> -->
+      <!-- <a href="{{ .Site.BaseURL }}/sammelsurium">sammelsurium</a> -->
       <!-- <span class="bar">|</span> -->
-      <!-- <a href="/links/">links</a> -->
+      <!-- <a href="{{ .Site.BaseURL }}/links/">links</a> -->
       <!-- <span class="bar">|</span> -->
-      <a href="/projects">projects</a>
+      <a href="{{ .Site.BaseURL }}/projects">projects</a>
       <span class="bar">|</span>
-      <a href="/pgp">pgp</a>
+      <a href="{{ .Site.BaseURL }}/pgp">pgp</a>
       <span class="bar">|</span>
-      <a href="/books">books</a>
-      <span class="bar">|</span>
-      <a href="/about">about</a>
+      <a href="{{ .Site.BaseURL }}/books">books</a>
+      <!-- <span class="bar">|</span> -->
+      <!-- <a href="/about">about</a> -->
     </header>

@@ -7,13 +7,12 @@ type: "page"
 Angaben gemäß § 5 TMG:
 
 Florian Baumann  
-Johannisstraße 30  
+Kirschgartenstr. 77  
 90419 Nürnberg  
 
 Kontakt:
 
-E-Mail: flo @ $blogdomain  
-Jabber: noqqe@jabber.ccc.de  
+E-Mail: flo und ein @ und die Domains der Site.
 
 Quelle: eRecht24, Rechtsanwalt für Internetrecht Sören Siebert
 
@@ -77,21 +76,3 @@ Informationsmaterialien wird hiermit ausdrücklich widersprochen. Die
 Betreiber der Seiten behalten sich ausdrücklich rechtliche Schritte im Falle
 der unverlangten Zusendung von Werbeinformationen, etwa durch Spam-Mails,
 vor.
-
-# Lizenzierung
-
-## Content
-
-[![Creative Commons License](http://i.creativecommons.org/l/by-nc-sa/3.0/de/88x31.png)](http://creativecommons.org/licenses/by-nc-sa/3.0/de/)
-
-Alle Inhalte des Blogs sind unter der
-[Creative Commons-Lizenz](http://creativecommons.org/licenses/by-nc-sa/3.0/de/)
-lizenziert. Sofern nicht anders angeben.
-
-## Software
-
-[![GNU](http://noqqe.de/uploads/2010/08/gnu88x31.png)](http://www.gnu.org/licenses/gpl.html)
-
-Diese hier bereitgestellte Software fällt unter den Lizenzvertrag
-[GNU GPL](http://www.gnu.org/licenses/gpl.html/) der Version 2.0 oder höher.
-
