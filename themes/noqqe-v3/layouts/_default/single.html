@@ -9,7 +9,7 @@
       <div class="itemdetails">
        <span itemprop="datePublished dateModified" class="date">{{ .Date.Format "2006-01-02" }}</span> @
           {{ range .Params.tags}}
-            <a href="/tags/{{ . | urlize }}" class="boldlink">{{ . }}</a>
+            <a href="/tags/{{ . | urlize }}" class="boldlink">{{ lower . }}</a>
           {{ end }}
       </div>
 
