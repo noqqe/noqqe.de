@@ -1,6 +1,5 @@
 ---
 date: 2008-08-30T20:02:26+02:00
-type: post
 slug: squid-opensource-proxyserver
 comments: true
 title: Squid - OpenSource ProxyServer

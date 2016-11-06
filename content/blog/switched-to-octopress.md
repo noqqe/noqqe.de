@@ -1,5 +1,4 @@
 ---
-type: post
 title: "Switched to Octopress"
 date: 2012-03-05T21:22:00+02:00
 comments: true

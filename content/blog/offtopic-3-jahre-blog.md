@@ -1,6 +1,5 @@
 ---
 date: 2011-03-24T12:58:24+02:00
-type: post
 comments: true
 title: Offtopic | 3 Jahre Blog
 aliases:

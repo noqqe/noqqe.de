@@ -1,6 +1,5 @@
 ---
 date: 2011-04-29T10:30:52+02:00
-type: post
 slug: namensliste-in-mysql-datenbank-einspeisen
 comments: true
 title: Namensliste in MySQL Datenbank einspeisen

@@ -1,6 +1,5 @@
 ---
 date: 2008-06-18T13:07:52+02:00
-type: post
 slug: the-geek-code
 comments: true
 title: The Geek Code

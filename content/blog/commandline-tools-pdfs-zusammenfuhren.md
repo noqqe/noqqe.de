@@ -1,6 +1,5 @@
 ---
 date: 2011-04-20T12:14:50+02:00
-type: post
 comments: true
 title: Commandline Tools | PDFs zusammenführen
 aliases:

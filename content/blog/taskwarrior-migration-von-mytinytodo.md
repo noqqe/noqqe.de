@@ -1,6 +1,5 @@
 ---
 date: 2011-09-25T13:58:52+02:00
-type: post
 comments: true
 title: 'Taskwarrior | Migration von MyTinyTodo '
 aliases:

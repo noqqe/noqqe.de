@@ -1,6 +1,5 @@
 ---
 date: 2008-04-26T01:16:03+02:00
-type: post
 slug: hardy-macht-spasironie-off
 comments: true
 title: Hardy macht Spaß!Ironie off.

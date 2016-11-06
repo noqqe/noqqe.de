@@ -1,5 +1,4 @@
 ---
-type: post
 title: "Securing Tomcat 7"
 date: 2013-05-27T19:52:00+02:00
 comments: true

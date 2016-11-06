@@ -1,6 +1,5 @@
 ---
 date: 2009-09-20T12:57:54+02:00
-type: post
 comments: true
 title: Allgemein | Wiederbelebt
 aliases:

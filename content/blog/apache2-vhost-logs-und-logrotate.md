@@ -1,6 +1,5 @@
 ---
 date: 2010-03-31T20:12:03+02:00
-type: post
 comments: true
 title: Apache2 | vhost-Logs und logrotate
 aliases:

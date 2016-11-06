@@ -1,6 +1,5 @@
 ---
 date: 2010-01-09T12:16:10+02:00
-type: post
 comments: true
 title: Mail | Postfix-Aliases mit MySQL-Backend erstellen
 aliases:

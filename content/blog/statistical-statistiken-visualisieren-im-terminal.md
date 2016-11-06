@@ -1,6 +1,5 @@
 ---
 date: 2011-04-14T18:55:10+02:00
-type: post
 comments: true
 title: statistical | Statistiken visualisieren im Terminal
 aliases:

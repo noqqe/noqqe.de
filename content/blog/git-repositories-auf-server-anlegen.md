@@ -1,6 +1,5 @@
 ---
 date: 2010-02-10T19:37:53+02:00
-type: post
 comments: true
 title: Git | Repositories auf Server anlegen
 aliases:

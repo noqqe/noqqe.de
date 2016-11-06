@@ -1,6 +1,5 @@
 ---
 date: 2010-12-14T16:33:45+02:00
-type: post
 comments: true
 title: 'Bash | Backup eines Files mit Zeitstempel in unkompliziert. '
 aliases:

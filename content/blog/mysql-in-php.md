@@ -1,6 +1,5 @@
 ---
 date: 2009-02-18T22:12:43+02:00
-type: post
 slug: mysql-in-php
 comments: true
 title: MySQL in PHP

@@ -1,6 +1,5 @@
 ---
 date: 2010-07-14T19:17:18+02:00
-type: post
 comments: true
 title: Grub | Auflösung der Konsole ändern
 aliases:

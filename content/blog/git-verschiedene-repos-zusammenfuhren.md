@@ -1,6 +1,5 @@
 ---
 date: 2010-10-09T17:28:58+02:00
-type: post
 comments: true
 title: 'Git | Verschiedene Repos zusammenführen '
 aliases:

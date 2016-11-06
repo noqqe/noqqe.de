@@ -1,6 +1,5 @@
 ---
 date: 2010-03-16T19:19:58+02:00
-type: post
 comments: true
 title: Event | Chemnitzer Linux-Tage
 aliases:

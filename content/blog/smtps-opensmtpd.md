@@ -1,5 +1,4 @@
 ---
-type: post
 title: "SMTPS OpenSMTPD"
 date: 2014-12-01T12:02:00+02:00
 comments: true

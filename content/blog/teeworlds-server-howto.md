@@ -1,6 +1,5 @@
 ---
 date: 2009-02-03T22:32:47+02:00
-type: post
 slug: teeworlds-server-howto
 comments: true
 title: Teeworlds - Server How To

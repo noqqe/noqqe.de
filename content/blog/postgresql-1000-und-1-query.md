@@ -1,6 +1,5 @@
 ---
 date: 2011-08-23T18:39:15+02:00
-type: post
 comments: true
 title: PostgreSQL | 1000 und 1 Query
 aliases:

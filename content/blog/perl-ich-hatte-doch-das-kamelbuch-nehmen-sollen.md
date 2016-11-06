@@ -1,6 +1,5 @@
 ---
 date: 2010-07-04T09:17:00+02:00
-type: post
 comments: true
 title: Perl | Ich hätte doch das Kamelbuch nehmen sollen
 aliases:

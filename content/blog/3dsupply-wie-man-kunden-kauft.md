@@ -1,6 +1,5 @@
 ---
 date: 2010-07-24T12:53:10+02:00
-type: post
 comments: true
 title: 3dsupply | Wie man Kunden kauft.
 aliases:

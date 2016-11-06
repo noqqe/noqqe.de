@@ -1,6 +1,5 @@
 ---
 date: 2008-12-05T15:37:56+02:00
-type: post
 slug: unpack-entpackt-sie-alle-marke-eigenbau
 comments: true
 title: unpack - Entpackt sie alle - Marke Eigenbau

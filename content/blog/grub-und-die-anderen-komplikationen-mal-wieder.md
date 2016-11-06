@@ -1,6 +1,5 @@
 ---
 date: 2008-03-24T20:46:31+02:00
-type: post
 slug: grub-und-die-anderen-komplikationen-mal-wieder
 comments: true
 title: Grub und andere Komplikationen...

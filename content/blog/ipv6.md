@@ -1,6 +1,5 @@
 ---
 date: 2008-12-17T23:54:39+02:00
-type: post
 slug: ipv6
 comments: true
 title: IPv6

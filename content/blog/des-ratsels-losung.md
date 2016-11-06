@@ -1,6 +1,5 @@
 ---
 date: 2008-03-26T11:46:52+02:00
-type: post
 slug: des-ratsels-losung
 comments: true
 title: Des Rätsels Lösung?

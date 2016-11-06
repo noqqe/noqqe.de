@@ -1,6 +1,5 @@
 ---
 date: 2009-04-16T09:59:27+02:00
-type: post
 comments: true
 title: Publications | TFT - DVI - TouchScreen Handout
 aliases:

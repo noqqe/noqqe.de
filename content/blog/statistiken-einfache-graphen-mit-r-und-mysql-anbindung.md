@@ -1,6 +1,5 @@
 ---
 date: 2011-10-02T23:58:50+02:00
-type: post
 comments: true
 title: Statistiken | Einfache Graphen mit R und MySQL Anbindung
 aliases:

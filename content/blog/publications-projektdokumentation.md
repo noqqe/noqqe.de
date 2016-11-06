@@ -1,6 +1,5 @@
 ---
 date: 2009-10-07T08:07:24+02:00
-type: post
 comments: true
 title: Publications | Projektdokumentation
 aliases:

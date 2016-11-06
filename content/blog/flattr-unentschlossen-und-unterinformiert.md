@@ -1,6 +1,5 @@
 ---
 date: 2010-06-04T18:00:22+02:00
-type: post
 comments: true
 title: 'Flattr | Unentschlossen und unterinformiert. '
 aliases:

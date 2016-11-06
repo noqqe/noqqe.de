@@ -1,6 +1,5 @@
 ---
 date: 2010-02-24T19:40:51+02:00
-type: post
 comments: true
 title: FTP | vsftpd mit MySQL-Userauth und fail2ban
 aliases:

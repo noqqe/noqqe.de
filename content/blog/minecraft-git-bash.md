@@ -1,6 +1,5 @@
 ---
 date: 2011-07-04T20:42:09+02:00
-type: post
 slug: minecraft-git-bash
 comments: true
 title: 'Minecraft + Git + Bash = <3'

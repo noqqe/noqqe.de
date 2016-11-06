@@ -1,6 +1,5 @@
 ---
 date: 2011-04-29T11:55:33+02:00
-type: post
 comments: true
 title: RT | RequestTracker-Stats
 aliases:

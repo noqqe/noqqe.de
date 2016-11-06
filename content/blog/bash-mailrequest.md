@@ -1,6 +1,5 @@
 ---
 date: 2010-06-13T14:23:20+02:00
-type: post
 comments: true
 title: 'Bash | mailrequest '
 aliases:

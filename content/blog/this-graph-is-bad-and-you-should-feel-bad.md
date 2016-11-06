@@ -1,5 +1,4 @@
 ---
-type: post
 title: "This graph is bad and you should feel bad!"
 date: 2013-01-25T22:02:00+02:00
 comments: true

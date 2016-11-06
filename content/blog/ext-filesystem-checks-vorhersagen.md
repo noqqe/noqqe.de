@@ -1,5 +1,4 @@
 ---
-type: post
 title: "Ext Filesystem Checks vorhersagen"
 date: 2012-05-05T11:33:00+02:00
 comments: true

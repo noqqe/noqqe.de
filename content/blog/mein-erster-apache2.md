@@ -1,6 +1,5 @@
 ---
 date: 2008-09-10T19:49:18+02:00
-type: post
 slug: mein-erster-apache2
 comments: true
 title: Mein erster Apache2

@@ -1,6 +1,5 @@
 ---
 date: 2008-11-05T10:38:29+02:00
-type: post
 slug: ide-festplatten-backups-und-skripte
 comments: true
 title: IDE Festplatten, Backups und Skripte

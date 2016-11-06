@@ -1,5 +1,4 @@
 ---
-type: post
 title: "Analog BitCoin Ticker"
 date: 2014-03-08T13:39:00+02:00
 comments: true

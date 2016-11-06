@@ -1,6 +1,5 @@
 ---
 date: 2008-12-09T10:18:33+02:00
-type: post
 slug: desktopdir-verandern
 comments: true
 title: DesktopDir verändern

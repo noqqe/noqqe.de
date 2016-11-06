@@ -1,6 +1,5 @@
 ---
 date: 2011-08-13T14:03:20+02:00
-type: post
 slug: rot13-verschlusselung-in-bash
 comments: true
 title: ROT13 Verschlüsselung in Bash

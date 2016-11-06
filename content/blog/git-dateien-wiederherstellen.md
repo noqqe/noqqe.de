@@ -1,6 +1,5 @@
 ---
 date: 2010-08-18T21:53:13+02:00
-type: post
 comments: true
 title: 'Git | Dateien wiederherstellen '
 aliases:

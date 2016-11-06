@@ -1,6 +1,5 @@
 ---
 date: 2008-06-12T14:38:24+02:00
-type: post
 slug: hardy-heron-und-die-auflosung
 comments: true
 title: Hardy Heron und die Auflösung

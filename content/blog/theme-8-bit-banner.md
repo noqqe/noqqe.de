@@ -1,6 +1,5 @@
 ---
 date: 2010-06-30T10:25:46+02:00
-type: post
 aliases:
 - /blog/2010/06/30/theme-8-bit-banner
 - /archives/1076

@@ -1,6 +1,5 @@
 ---
 date: 2011-05-22T20:38:54+02:00
-type: post
 comments: true
 title: Beats | Eine in Ruby geschriebene Drummachine
 aliases:

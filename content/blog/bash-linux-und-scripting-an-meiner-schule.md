@@ -1,6 +1,5 @@
 ---
 date: 2010-05-20T20:03:32+02:00
-type: post
 comments: true
 title: Bash | Linux und Scripting an meiner Schule
 aliases:

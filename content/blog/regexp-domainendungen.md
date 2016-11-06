@@ -1,6 +1,5 @@
 ---
 date: 2010-04-13T20:07:32+02:00
-type: post
 comments: true
 title: RegExp | Domainendungen
 aliases:

@@ -1,6 +1,5 @@
 ---
 date: 2009-09-24T19:34:18+02:00
-type: post
 comments: true
 title: iPhone | Lieferung
 aliases:

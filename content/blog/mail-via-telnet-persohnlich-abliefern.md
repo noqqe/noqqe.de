@@ -1,6 +1,5 @@
 ---
 date: 2009-02-24T21:32:32+02:00
-type: post
 comments: true
 title: Mail | via Telnet persöhnlich abliefern
 aliases:

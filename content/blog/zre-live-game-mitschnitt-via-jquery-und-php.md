@@ -1,6 +1,5 @@
 ---
 date: 2011-03-14T21:37:05+02:00
-type: post
 comments: true
 title: ZRE | Live Game Mitschnitt via jQuery und PHP
 aliases:

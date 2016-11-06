@@ -1,6 +1,5 @@
 ---
 date: 2011-12-21T17:30:58+02:00
-type: post
 comments: true
 title: Arduino | Ich bau mir einen Synthesizer
 aliases:

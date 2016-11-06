@@ -1,6 +1,5 @@
 ---
 date: 2011-03-26T14:45:37+02:00
-type: post
 comments: true
 title: 'ZRE | SQL Statistik Modul'
 aliases:

@@ -1,6 +1,5 @@
 ---
 date: 2010-09-26T14:56:42+02:00
-type: post
 comments: true
 title: Bash | Futurama Zitate aus slashdot.org HTTP-Header auslesen
 aliases:

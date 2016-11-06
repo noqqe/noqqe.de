@@ -1,6 +1,5 @@
 ---
 date: 2010-04-21T11:03:29+02:00
-type: post
 comments: true
 title: Git-daemon | Anti-DOS mit fail2ban
 aliases:

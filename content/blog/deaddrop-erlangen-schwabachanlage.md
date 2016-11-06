@@ -1,6 +1,5 @@
 ---
 date: 2011-09-21T21:16:31+02:00
-type: post
 comments: true
 title: DeadDrop | Erlangen - Schwabachanlage
 aliases:

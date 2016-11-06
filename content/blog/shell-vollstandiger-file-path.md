@@ -1,6 +1,5 @@
 ---
 date: 2009-09-24T19:59:58+02:00
-type: post
 comments: true
 title: Shell | Vollständiger File-Path
 aliases:

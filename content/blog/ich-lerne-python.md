@@ -1,6 +1,5 @@
 ---
 date: 2008-07-09T22:09:40+02:00
-type: post
 slug: ich-lerne-python
 comments: true
 title: Ich lerne Python

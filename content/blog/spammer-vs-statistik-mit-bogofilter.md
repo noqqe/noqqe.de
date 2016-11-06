@@ -1,5 +1,4 @@
 ---
-type: post
 title: "Spammer vs. Statistik mit bogofilter"
 date: 2013-10-26T17:40:00+02:00
 comments: true

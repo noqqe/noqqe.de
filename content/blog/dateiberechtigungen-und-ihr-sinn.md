@@ -1,6 +1,5 @@
 ---
 date: 2008-05-23T11:55:05+02:00
-type: post
 slug: dateiberechtigungen-und-ihr-sinn
 comments: true
 title: Dateiberechtigungen und ihr Sinn

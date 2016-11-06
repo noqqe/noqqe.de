@@ -1,6 +1,5 @@
 ---
 date: 2010-03-27T19:29:12+02:00
-type: post
 comments: true
 title: Backup | Adium Einstellungen und Plugins sichern
 aliases:

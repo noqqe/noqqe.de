@@ -1,6 +1,5 @@
 ---
 date: 2009-03-07T11:34:58+02:00
-type: post
 comments: true
 title: Blog | Random-Text-Pool
 aliases:

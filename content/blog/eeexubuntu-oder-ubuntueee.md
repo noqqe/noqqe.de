@@ -1,6 +1,5 @@
 ---
 date: 2008-07-14T13:18:52+02:00
-type: post
 slug: eeexubuntu-oder-ubuntueee
 comments: true
 title: eeexubuntu oder ubuntueee ?!

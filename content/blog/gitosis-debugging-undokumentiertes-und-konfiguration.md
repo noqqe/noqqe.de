@@ -1,6 +1,5 @@
 ---
 date: 2010-08-12T19:46:44+02:00
-type: post
 comments: true
 title: Gitosis | Debugging, Undokumentiertes und Konfiguration
 aliases:

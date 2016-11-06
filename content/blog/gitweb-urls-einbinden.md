@@ -1,6 +1,5 @@
 ---
 date: 2010-04-21T10:35:43+02:00
-type: post
 comments: true
 title: Gitweb | URLs einbinden
 aliases:

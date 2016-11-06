@@ -1,6 +1,5 @@
 ---
 date: 2009-03-07T14:15:44+02:00
-type: post
 comments: true
 title: 'Ubuntu | The Future: Jaunty Jackalope & Karmic Koala'
 aliases:

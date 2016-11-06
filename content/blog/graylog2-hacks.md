@@ -1,5 +1,4 @@
 ---
-type: post
 title: "graylog2 Hacks"
 date: 2012-08-28T20:24:00+02:00
 comments: true

@@ -1,6 +1,5 @@
 ---
 date: 2011-10-01T13:12:03+02:00
-type: post
 comments: true
 title: 'Flattr | Man kann seine Meinung auch mal ändern. '
 aliases:

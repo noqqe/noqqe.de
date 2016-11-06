@@ -1,6 +1,5 @@
 ---
 date: 2010-11-27T13:49:42+02:00
-type: post
 comments: true
 title: Redmine | Git Bare Repository Workaround
 aliases:

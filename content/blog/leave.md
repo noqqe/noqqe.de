@@ -1,5 +1,4 @@
 ---
-type: post
 title: "leave"
 date: 2015-01-24T10:34:00+02:00
 comments: true

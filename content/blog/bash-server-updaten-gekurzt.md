@@ -1,6 +1,5 @@
 ---
 date: 2009-11-12T16:01:29+02:00
-type: post
 comments: true
 title: bash | Server updaten gekürzt
 aliases:

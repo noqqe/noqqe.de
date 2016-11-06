@@ -1,6 +1,5 @@
 ---
 date: 2011-02-07T18:04:06+02:00
-type: post
 comments: true
 title: DuckDuckGo | Suche via Firefox Addressleiste umstellen
 aliases:

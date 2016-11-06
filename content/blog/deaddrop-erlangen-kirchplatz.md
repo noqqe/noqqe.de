@@ -1,6 +1,5 @@
 ---
 date: 2011-08-25T19:00:33+02:00
-type: post
 comments: true
 title: DeadDrop | Erlangen Kirchplatz
 aliases:

@@ -1,6 +1,5 @@
 ---
 date: 2008-03-24T18:23:03+02:00
-type: post
 slug: hallo-welt-2
 comments: true
 title: Blog Eröffnung!

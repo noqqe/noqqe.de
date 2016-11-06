@@ -1,6 +1,5 @@
 ---
 date: 2008-10-09T13:43:16+02:00
-type: post
 slug: ssh-tunnel
 comments: true
 title: ssh-Tunnel

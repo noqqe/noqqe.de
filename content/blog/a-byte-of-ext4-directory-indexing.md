@@ -1,5 +1,4 @@
 ---
-type: post
 title: "Das Ext4 Directory Indexing"
 date: 2012-03-08T19:38:00+02:00
 comments: true

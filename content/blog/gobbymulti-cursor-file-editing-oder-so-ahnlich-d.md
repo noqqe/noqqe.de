@@ -1,6 +1,5 @@
 ---
 date: 2008-07-18T10:38:15+02:00
-type: post
 comments: true
 title: Gobby | Multi Cursor File Editing
 aliases:

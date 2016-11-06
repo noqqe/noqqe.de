@@ -1,6 +1,5 @@
 ---
 date: 2011-12-11T20:45:18+02:00
-type: post
 comments: true
 title: 'fbcmd | Nie wieder Geburtstage vergessen via Shell. '
 aliases:

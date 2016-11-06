@@ -1,6 +1,5 @@
 ---
 date: 2010-02-11T22:09:42+02:00
-type: post
 comments: true
 title: Wordpress | Augenzucker für Code-Tag.
 aliases:

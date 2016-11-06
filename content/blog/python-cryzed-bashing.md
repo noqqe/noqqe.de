@@ -1,6 +1,5 @@
 ---
 date: 2009-09-24T22:21:22+02:00
-type: post
 comments: true
 title: Python | cryzed bashing
 aliases:

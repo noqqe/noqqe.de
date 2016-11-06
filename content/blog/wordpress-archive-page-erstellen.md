@@ -1,6 +1,5 @@
 ---
 date: 2010-04-05T20:01:16+02:00
-type: post
 title: Wordpress | Archive Page erstellen
 aliases:
 - /archives/970

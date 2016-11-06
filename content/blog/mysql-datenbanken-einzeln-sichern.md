@@ -1,6 +1,5 @@
 ---
 date: 2010-07-24T15:07:54+02:00
-type: post
 comments: true
 title: MySQL | Datenbanken einzeln sichern
 aliases:

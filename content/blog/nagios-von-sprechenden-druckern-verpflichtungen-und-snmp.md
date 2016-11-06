@@ -1,6 +1,5 @@
 ---
 date: 2010-04-02T19:24:51+02:00
-type: post
 comments: true
 title: Nagios | Von sprechenden Druckern, Verpflichtungen und SNMP
 aliases:

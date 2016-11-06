@@ -1,6 +1,5 @@
 ---
 date: 2009-12-09T15:57:37+02:00
-type: post
 comments: true
 title: Teeworlds | Mehrere Server betreiben unter Linux
 aliases:

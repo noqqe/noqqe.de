@@ -1,6 +1,5 @@
 ---
 date: 2009-12-17T11:43:13+02:00
-type: post
 comments: true
 title: Wordpress | RSS und Planet
 aliases:

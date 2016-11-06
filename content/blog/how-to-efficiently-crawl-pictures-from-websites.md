@@ -1,5 +1,4 @@
 ---
-type: post
 title: "How to do simple and efficient image crawling"
 date: 2014-09-17T22:41:00+02:00
 comments: true

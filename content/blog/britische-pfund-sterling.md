@@ -1,5 +1,4 @@
 ---
-type: post
 title: "Britische Pfund Sterling"
 date: 2013-06-17T20:45:00+02:00
 comments: true

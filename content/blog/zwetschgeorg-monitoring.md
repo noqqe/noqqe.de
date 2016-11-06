@@ -1,6 +1,5 @@
 ---
 date: 2008-09-15T22:24:15+02:00
-type: post
 slug: zwetschgeorg-monitoring
 comments: true
 title: zwetschge.org monitoring

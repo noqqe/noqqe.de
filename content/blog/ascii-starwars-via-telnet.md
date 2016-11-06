@@ -1,6 +1,5 @@
 ---
 date: 2010-11-08T19:22:13+02:00
-type: post
 comments: true
 title: ASCII | Star Wars via Telnet
 aliases:

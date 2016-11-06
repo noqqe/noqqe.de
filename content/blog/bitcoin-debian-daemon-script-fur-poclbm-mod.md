@@ -1,6 +1,5 @@
 ---
 date: 2011-06-12T13:09:28+02:00
-type: post
 comments: true
 title: BitCoin | Debian Daemon Script für poclbm-mod
 aliases:

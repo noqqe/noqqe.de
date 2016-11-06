@@ -1,5 +1,4 @@
 ---
-type: post
 title: "Gitolite migrieren"
 date: 2012-11-30T20:25:00+02:00
 comments: true

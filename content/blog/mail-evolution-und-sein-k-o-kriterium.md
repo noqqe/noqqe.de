@@ -1,6 +1,5 @@
 ---
 date: 2010-05-31T20:50:16+02:00
-type: post
 comments: true
 title: Mail | Evolution und sein K.O.-Kriterium
 aliases:

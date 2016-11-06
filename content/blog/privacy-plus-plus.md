@@ -1,5 +1,4 @@
 ---
-type: post
 title: "Privacy++"
 date: 2014-03-24T20:55:00+02:00
 comments: true

@@ -1,6 +1,5 @@
 ---
 date: 2009-04-26T12:20:30+02:00
-type: post
 comments: true
 title: Server | Ein Stück Statistik
 aliases:

@@ -1,6 +1,5 @@
 ---
 date: 2010-09-29T18:34:51+02:00
-type: post
 comments: true
 title: Twitter OAuth | Twidge reanimieren
 aliases:

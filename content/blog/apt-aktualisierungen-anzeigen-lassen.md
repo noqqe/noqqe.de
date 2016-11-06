@@ -1,6 +1,5 @@
 ---
 date: 2010-02-20T18:27:38+02:00
-type: post
 comments: true
 title: Apt | Aktualisierungen anzeigen lassen
 aliases:

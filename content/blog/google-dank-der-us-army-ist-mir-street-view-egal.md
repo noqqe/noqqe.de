@@ -1,6 +1,5 @@
 ---
 date: 2010-09-07T19:19:26+02:00
-type: post
 comments: true
 title: Google | Dank der US-Army ist mir Street-View egal.
 aliases:

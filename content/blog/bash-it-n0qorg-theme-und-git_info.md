@@ -1,6 +1,5 @@
 ---
 date: 2010-11-24T18:14:57+02:00
-type: post
 comments: true
 title: bash-it | n0qorg theme und git_info
 aliases:

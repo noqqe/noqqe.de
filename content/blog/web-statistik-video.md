@@ -1,6 +1,5 @@
 ---
 date: 2010-03-12T14:27:35+02:00
-type: post
 comments: true
 title: Web | Statistik Video
 aliases:

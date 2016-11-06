@@ -1,6 +1,5 @@
 ---
 date: 2011-03-04T19:53:19+02:00
-type: post
 comments: true
 title: Apache | Authentifizierung über mod_auth_pam
 aliases:

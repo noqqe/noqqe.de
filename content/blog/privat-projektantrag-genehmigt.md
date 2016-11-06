@@ -1,6 +1,5 @@
 ---
 date: 2009-03-27T14:15:35+02:00
-type: post
 comments: true
 title: Privat | Projektantrag genehmigt
 aliases:

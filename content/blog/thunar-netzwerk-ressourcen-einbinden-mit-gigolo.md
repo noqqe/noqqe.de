@@ -1,6 +1,5 @@
 ---
 date: 2010-07-16T16:39:16+02:00
-type: post
 comments: true
 title: Thunar | Netzwerk-Ressourcen einbinden mit Gigolo
 aliases:

@@ -1,6 +1,5 @@
 ---
 date: 2011-11-26T14:53:21+02:00
-type: post
 comments: true
 title: Loading | Eine Bash-Progress-Bar
 aliases:

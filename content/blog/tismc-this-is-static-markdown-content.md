@@ -1,6 +1,5 @@
 ---
 date: 2010-09-19T16:09:00+02:00
-type: post
 comments: true
 title: tismc | This is static markdown content!
 aliases:

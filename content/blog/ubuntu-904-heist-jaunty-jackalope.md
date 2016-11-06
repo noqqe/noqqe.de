@@ -1,6 +1,5 @@
 ---
 date: 2008-09-10T09:38:14+02:00
-type: post
 slug: ubuntu-904-heist-jaunty-jackalope
 comments: true
 title: Ubuntu 9.04 heißt "Jaunty Jackalope"

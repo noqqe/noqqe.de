@@ -1,5 +1,4 @@
 ---
-type: post
 title: "Spam"
 date: 2012-12-08T13:12:00+02:00
 comments: true

@@ -1,6 +1,5 @@
 ---
 date: 2009-03-16T12:06:41+02:00
-type: post
 comments: true
 title: Shell | TimeRobot - Strukturiertes/Zyklisches Backuppen ausgewählter Configs
   und Skripts

@@ -1,6 +1,5 @@
 ---
 date: 2011-04-16T16:48:23+02:00
-type: post
 comments: true
 title: 'statistical | It''s about internal functions. '
 aliases:

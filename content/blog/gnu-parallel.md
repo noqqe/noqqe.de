@@ -1,6 +1,5 @@
 ---
 date: 2012-01-08T14:47:14+02:00
-type: post
 slug: gnu-parallel
 comments: true
 title: 'GNU Parallel'

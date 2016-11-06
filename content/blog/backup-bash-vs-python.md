@@ -1,6 +1,5 @@
 ---
 date: 2009-03-18T15:10:49+02:00
-type: post
 comments: true
 title: Backup | Bash vs. Python
 aliases:

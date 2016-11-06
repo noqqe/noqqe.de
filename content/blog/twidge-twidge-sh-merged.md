@@ -1,6 +1,5 @@
 ---
 date: 2010-10-09T18:29:37+02:00
-type: post
 comments: true
 title: Twidge | twidge-sh merged!
 aliases:

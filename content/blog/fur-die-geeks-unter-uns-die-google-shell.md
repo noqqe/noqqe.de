@@ -1,6 +1,5 @@
 ---
 date: 2008-09-24T17:44:47+02:00
-type: post
 slug: fur-die-geeks-unter-uns-die-google-shell
 comments: true
 title: Für die Geeks unter uns - Die Google-Shell

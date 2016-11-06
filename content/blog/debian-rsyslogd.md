@@ -1,6 +1,5 @@
 ---
 date: 2009-10-12T19:23:22+02:00
-type: post
 comments: true
 title: Debian | rsyslogd
 aliases:

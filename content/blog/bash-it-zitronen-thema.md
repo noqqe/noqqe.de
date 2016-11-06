@@ -1,6 +1,5 @@
 ---
 date: 2010-11-01T15:00:47+02:00
-type: post
 comments: true
 title: bash-it | Zitronen-Thema
 aliases:

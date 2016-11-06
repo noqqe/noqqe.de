@@ -1,5 +1,4 @@
 ---
-type: post
 title: "nichtparasoup"
 date: 2014-04-20T10:20:00+02:00
 comments: true

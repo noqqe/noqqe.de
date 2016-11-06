@@ -1,6 +1,5 @@
 ---
 date: 2010-07-28T11:19:30+02:00
-type: post
 comments: true
 title: 'SSH-App | Leid oder Elend. It''s your choice. '
 aliases:

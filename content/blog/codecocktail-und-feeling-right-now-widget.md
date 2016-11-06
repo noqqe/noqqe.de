@@ -1,6 +1,5 @@
 ---
 date: 2009-02-01T15:28:50+02:00
-type: post
 slug: codecocktail-und-feeling-right-now-widget
 comments: true
 title: CodeCocktail und "feeling right now" Widget

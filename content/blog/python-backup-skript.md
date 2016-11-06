@@ -1,6 +1,5 @@
 ---
 date: 2008-07-16T14:03:12+02:00
-type: post
 slug: python-backup-skript
 comments: true
 title: Python Backup Skript

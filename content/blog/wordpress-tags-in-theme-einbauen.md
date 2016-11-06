@@ -1,6 +1,5 @@
 ---
 date: 2010-02-15T08:50:01+02:00
-type: post
 comments: true
 title: Wordpress | Tags in Theme einbauen
 aliases:

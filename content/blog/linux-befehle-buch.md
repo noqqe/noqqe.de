@@ -1,6 +1,5 @@
 ---
 date: 2008-04-04T11:56:52+02:00
-type: post
 slug: linux-befehle-buch
 comments: true
 title: Linux Befehle Buch!

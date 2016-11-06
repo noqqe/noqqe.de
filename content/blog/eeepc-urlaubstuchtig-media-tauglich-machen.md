@@ -1,6 +1,5 @@
 ---
 date: 2008-05-13T11:12:06+02:00
-type: post
 slug: eeepc-urlaubstuchtig-media-tauglich-machen
 comments: true
 title: EeePC urlaubstüchtig / Media tauglich machen!

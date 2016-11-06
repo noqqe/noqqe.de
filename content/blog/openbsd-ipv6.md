@@ -1,5 +1,4 @@
 ---
-type: post
 title: "OpenBSD IPv6"
 date: 2014-10-09T19:15:00+02:00
 comments: true

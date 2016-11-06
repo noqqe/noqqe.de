@@ -1,5 +1,4 @@
 ---
-type: post
 title: "The Phoenix Project"
 date: 2014-07-03T16:53:00+02:00
 comments: true

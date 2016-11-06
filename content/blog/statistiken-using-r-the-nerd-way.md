@@ -1,6 +1,5 @@
 ---
 date: 2011-02-04T12:18:35+02:00
-type: post
 comments: true
 title: Statistiken | Using R - The Nerd Way
 aliases:

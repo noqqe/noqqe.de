@@ -1,6 +1,5 @@
 ---
 date: 2008-05-04T12:02:52+02:00
-type: post
 slug: xubuntu-eeepc
 comments: true
 title: Xubuntu / EeePC

@@ -1,5 +1,4 @@
 ---
-type: post
 title: "DaviCal, PostgreSQL und Apple Produkte"
 date: 2012-04-09T20:05:00+02:00
 comments: true

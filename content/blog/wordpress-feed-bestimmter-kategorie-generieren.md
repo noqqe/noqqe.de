@@ -1,6 +1,5 @@
 ---
 date: 2009-12-01T11:57:37+02:00
-type: post
 comments: true
 title: Wordpress | Feed bestimmter Kategorie generieren
 aliases:

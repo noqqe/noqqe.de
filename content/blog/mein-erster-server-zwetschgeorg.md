@@ -1,6 +1,5 @@
 ---
 date: 2008-09-12T16:22:15+02:00
-type: post
 slug: zwetschgeorg
 comments: true
 title: zwetschge.org

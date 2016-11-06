@@ -1,6 +1,5 @@
 ---
 date: 2009-03-07T15:10:56+02:00
-type: post
 comments: true
 title: Feed | RSS im Directors-Cut
 aliases:

@@ -1,6 +1,5 @@
 ---
 date: 2009-11-30T22:24:46+02:00
-type: post
 comments: true
 title: Hack | The Unix Forkbomb
 aliases:

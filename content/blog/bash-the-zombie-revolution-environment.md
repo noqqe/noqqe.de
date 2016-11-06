@@ -1,6 +1,5 @@
 ---
 date: 2010-10-17T12:14:05+02:00
-type: post
 comments: true
 title: Bash | the zombie-revolution-environment
 aliases:

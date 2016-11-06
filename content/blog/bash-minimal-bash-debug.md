@@ -1,6 +1,5 @@
 ---
 date: 2010-10-24T21:06:33+02:00
-type: post
 comments: true
 title: Bash | minimal-bash-debug
 aliases:

@@ -1,6 +1,5 @@
 ---
 date: 2009-02-24T18:29:20+02:00
-type: post
 comments: true
 title: html | Favicon in Wordpress
 aliases:

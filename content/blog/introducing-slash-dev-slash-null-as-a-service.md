@@ -1,5 +1,4 @@
 ---
-type: post
 title: "Introducing /dev/null as a Service"
 date: 2013-10-29T19:12:00+02:00
 comments: true

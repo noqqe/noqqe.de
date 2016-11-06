@@ -1,6 +1,5 @@
 ---
 date: 2010-04-22T20:18:54+02:00
-type: post
 comments: true
 title: Web | Anlaufstelle für Geekstuff? 3dsupply
 aliases:
