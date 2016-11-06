@@ -165,4 +165,8 @@ div.itemdetails a {
   div#sitewrapper {
     max-width: auto;
   }
+
+  header {
+    max-width: 100%;
+  }
 }
