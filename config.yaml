@@ -26,19 +26,18 @@ permalinks:
 
 menu:
   main:
-  - name: "Projects"
-    weight: 50
-    identifier: "Projects"
-    url: "/Projects/"
-  - name: "Archives"
-    weight: 70
-    identifier: "Archives"
-    url: "/archives/"
-  - name: "Books"
-    weight: 90
-    identifier: "Books"
-    url: "/books/"
-  - name: "PGP"
-    weight: 110
-    identifier: "PGP"
+  - name: "blog"
+    weight: 10
+    url: "/blog/"
+  - name: "projects"
+    weight: 20
+    url: "/projects/"
+  - name: "pgp"
+    weight: 30
     url: "/pgp/"
+  - name: "books"
+    weight: 40
+    url: "/books/"
+  - name: "about"
+    weight: 40
+    url: "/about/"
