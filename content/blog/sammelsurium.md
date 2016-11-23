@@ -1,8 +1,4 @@
 ---
-categories:
-- osbn
-- planetenblogger
-- ubuntuusers
 date: 2016-11-23T21:30:31+01:00
 tags:
 - sammelsurium
