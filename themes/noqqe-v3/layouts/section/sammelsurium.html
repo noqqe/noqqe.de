@@ -4,7 +4,7 @@
     <div id="contentwrapper">
       <div class="itemwrapper">
 
-        {{ range (where .Site.Pages "Type" "sammelsurium").GroupByDate "2006"  }}
+        {{ range (where .Data.Pages "Type" "sammelsurium").GroupByDate "2006" }}
         <h2>{{ .Key }}</h2>
         <ul>
           {{ range .Pages }}
