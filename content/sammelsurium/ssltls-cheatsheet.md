@@ -3,7 +3,8 @@ title: SSL/TLS Cheatsheet
 date: 2011-11-15T14:46:15.000000
 tags: 
 - SSL
-- HowTos
+- TLS
+- Software
 ---
 
 

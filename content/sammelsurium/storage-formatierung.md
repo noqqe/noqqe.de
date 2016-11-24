@@ -2,7 +2,8 @@
 title: Storage Formatierung
 date: 2013-02-08T20:52:40.000000
 tags: 
-- HowTos
+- Filesystems
+- Disk
 ---
 
 
