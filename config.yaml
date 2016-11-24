@@ -22,6 +22,7 @@ taxonomies:
 
 permalinks:
   blog: "blog/:year/:month/:day/:filename/"
+  sammelsurium: "sammelsurium/:filename/"
   links: "links/:filename/"
 
 menu:
