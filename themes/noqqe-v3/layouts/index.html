@@ -1,9 +1,9 @@
 {{ partial "header.html" . }}
 
-
     <div id="contentwrapper">
       <div class="itemwrapper">
         <h1>Blog</h1>
+        <div class="itemcontent">
         {{ range (where .Site.Pages "Type" "blog").GroupByDate "2006"  }}
         <h2>{{ .Key }}</h2>
         <ul>
@@ -15,9 +15,5 @@
             {{ end }}
         </ul>
       {{ end }}
-    </div>
-
-    </div>
-  </div>
 
 {{ partial "footer.html" . }}

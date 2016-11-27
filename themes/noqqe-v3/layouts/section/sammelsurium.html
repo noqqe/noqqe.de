@@ -4,7 +4,7 @@
     <div id="contentwrapper">
       <div class="itemwrapper">
         <h1>Sammelsurium</h1>
-
+        <div class="itemcontent">
         <h3>Operating Systems</h3>
         <ul>
         {{ range where .Data.Pages.ByTitle "Type" "sammelsurium" }}
@@ -81,9 +81,5 @@
           {{ end }}
         {{ end }}
         </ul>
-    </div>
-
-    </div>
-  </div>
 
 {{ partial "footer.html" . }}
