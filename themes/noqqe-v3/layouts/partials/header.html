@@ -11,14 +11,8 @@
   <meta content="{{ $isHomePage := eq .Title .Site.Title }}{{ .Title }}{{ if eq $isHomePage false }} - {{ .Site.Title }}{{ end }}" property="og:title">
 
   <!-- Twitter Cards -->
-	{{ with .Params.images }}
-	<!-- Twitter summary card with large image must be at least 280x150px -->
-	<meta name="twitter:card" content="summary"/>
-	<meta name="twitter:image" content="{{ index . 0 }}"/>
-	{{ else }}
 	<meta name="twitter:card" content="summary"/>
   <meta name="twitter:image" content="{{ .Site.BaseURL }}/images/noqqe_square.png">
-	{{ end }}
   <meta name="twitter:site" content="{{ .Site.Params.Twitter }}">
   <meta name="twitter:creator" content="{{ .Site.Params.Twitter }}">
   <meta name="twitter:title" content="{{ $isHomePage := eq .Title .Site.Title }}{{ .Title }}{{ if eq $isHomePage false }} - {{ .Site.Title }}{{ end }}">
@@ -59,9 +53,9 @@
 <body class="item ">
   <div id="sitewrapper">
 
-    <header>
-      <h2>
-        <a rel="author" href="/">noqqe</a>
+    <header itemscope itemtype="author">
+      <h2 itemscope itemtype="http://schema.org/Person">
+        <a itemprop="name" rel="author" href="/">noqqe</a>
       </h2>
       <br>
       <a href="{{ .Site.BaseURL }}/blog">blog</a>

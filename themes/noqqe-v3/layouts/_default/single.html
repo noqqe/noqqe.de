@@ -1,19 +1,19 @@
 {{ partial "header.html" . }}
 
     <div id="contentwrapper">
-      <div class="itemwrapper">
-      <h1>
+      <div class="itemwrapper" itemscope itemType="http://schema.org/BlogPosting">
+      <h1 itemprop="headline">
           <a href="{{ .Permalink }}">{{ .Title }}</a>
       </h1>
 
       <div class="itemdetails">
-       <span itemprop="datePublished dateModified" class="date">{{ .Date.Format "2006-01-02" }}</span> @
+       <span class="date" itemprop="datePublished dateModified">{{ .Date.Format "2006-01-02" }}</span> @
           {{ range .Params.tags}}
             <a href="/tags/{{ . | urlize }}" class="boldlink">{{ lower . }}</a>
           {{ end }}
       </div>
 
-      <div class="itemcontent">
+      <div itemprop="articleBody" class="itemcontent">
         {{ .Content }}
 
 {{ partial "footer.html" . }}
