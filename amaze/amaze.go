@@ -5,12 +5,35 @@ import (
   "os/exec"
   "fmt"
   "log"
-  "github.com/antonholmquist/jason"
+  "encoding/json"
 )
 
-func build(home string) {
-  os.Chdir(home)
-  cmd := exec.Command("hugo")
+type Config struct {
+  hugocmd string
+  homedir string
+  rvocmd string
+}
+
+type Document struct {
+  Updated struct {
+    Date int64 `json:"$date"`
+  } `json:"updated"`
+  Created struct {
+    Date int64 `json:"$date"`
+  } `json:"created"`
+  Encrypted bool `json:"encrypted"`
+  Tags []string `json:"tags"`
+  Content string `json:"content"`
+  Title string `json:"title"`
+  ID struct {
+    Oid string `json:"$oid"`
+  } `json:"_id"`
+  Categories []string `json:"categories"`
+}
+
+func build(c Config) {
+  os.Chdir(c.homedir)
+  cmd := exec.Command(c.hugocmd)
 
   output, err := cmd.CombinedOutput()
   if err != nil {
@@ -33,22 +56,22 @@ func sammelsurium(home string, destination string) {
 
   // convert to bytes and read json
   bytes := []byte(output)
-  documents, err := jason.NewObjectFromBytes(bytes)
+  var documents []Document
+  json.Unmarshal(bytes, &documents)
 
-  for _, friend := range documents {
-    name, _ := friend.GetString("title")
-    log.Println(name)
+  for d := range documents {
+    log.Printf("title: %s, created: %d", documents[d].Title, documents[d].Created.Date)
   }
-
-  // for d := range documents {
-  //   log.Printf("title: %s, created: %s", documents[d].Title, documents[d].Created)
-  // }
 }
 
 func main() {
+  c := Config{
+    rvocmd: "rvo export -c docs",
+    hugocmd: "hugo",
+    homedir: "/home/noqqe/Code/noqqe.de"}
+
   log.Println("Amaze - Blogmanagement")
-  var home string = "/home/noqqe/Code/noqqe.de/"
-  // build(home)
-  sammelsurium(home, "lol")
+  build(c)
+  sammelsurium(c.homedir, "lol")
 }
 
