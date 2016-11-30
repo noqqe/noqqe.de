@@ -3,9 +3,10 @@ package main
 import (
   "os"
   "os/exec"
-  "fmt"
   "log"
   "encoding/json"
+  "strings"
+  "time"
 )
 
 type Config struct {
@@ -40,15 +41,23 @@ func build(c Config) {
     log.Fatal("Hugo crashed and burned.")
   }
 
-  fmt.Printf("%s\n", string(output))
+  log.Printf("%s\n", string(output))
 }
 
-func sammelsurium(home string, destination string) {
-  log.Println(destination)
+// Create posts for sammelsurium using json export
+// of rvo and persisting them into the posts
+func sammelsurium(c Config) {
 
-  os.Chdir(home)
-  cmd := exec.Command("rvo", "export", "-c", "docs", "-t", "OpenBSD")
+  // change directory
+  os.Chdir(c.homedir)
 
+  // convert cmd from string to array
+  cmdline := strings.Split(c.rvocmd, " ")
+  command := cmdline[0]
+  args := cmdline[1:]
+  cmd := exec.Command(command, args...)
+
+  // check for errors
   output, err := cmd.CombinedOutput()
   if err != nil {
     log.Fatal("rvo crashed and burned.")
@@ -59,19 +68,38 @@ func sammelsurium(home string, destination string) {
   var documents []Document
   json.Unmarshal(bytes, &documents)
 
+  // test output
   for d := range documents {
+    convert_timestamp(documents[d].Created.Date)
     log.Printf("title: %s, created: %d", documents[d].Title, documents[d].Created.Date)
   }
 }
 
+// convert unix timestamp with 13 chars
+// to human readable date
+func convert_timestamp(ts int64) {
+  corr_ts := ts / 1000
+  tm := time.Unix(corr_ts, 0)
+  log.Println(tm.Format(time0)
+  return tm
+}
+
+
 func main() {
+
+  // configuration is stored in this
+  // tiny little struct made with <3
   c := Config{
     rvocmd: "rvo export -c docs",
     hugocmd: "hugo",
     homedir: "/home/noqqe/Code/noqqe.de"}
 
-  log.Println("Amaze - Blogmanagement")
-  build(c)
-  sammelsurium(c.homedir, "lol")
+  log.Println("(Amaze. Wow)Oo.")
+
+  if os.Args[1] == "build" {
+    build(c)
+  } else if os.Args[1] == "sammelsurium" {
+    sammelsurium(c)
+  }
 }
 
