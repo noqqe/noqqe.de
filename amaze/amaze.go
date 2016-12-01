@@ -91,7 +91,7 @@ func sammelsurium(c Config) bool {
 
     // get filename
     filename := generateFilename(documents[d].Title)
-
+    path := c.sammelsuriumdir + "/" + filename
 
     // strip content
     content := generateContent(documents[d].Content)
@@ -103,20 +103,20 @@ func sammelsurium(c Config) bool {
     header := generateHeader(documents[d].Title, date, documents[d].Tags)
 
     // write sammelsurium post to hugo dir
-    createSammelsuriumFile(c, filename, header, content)
+    createSammelsuriumFile(path, header, content)
 
     // print debugging
-    log.Printf("title: %s, created: %s", documents[d].Title, date)
+    log.Printf("Post: %s (%s) written to %s", documents[d].Title, date, path)
   }
 
   return true
 }
 
 // used to write content as a post to hugo sammelsurium directory
-func createSammelsuriumFile(c Config, filename string, header string, content string) bool {
+func createSammelsuriumFile(path string, header string, content string) bool {
 
 	// create file
-  f, err := os.Create(c.sammelsuriumdir + "/" + filename)
+  f, err := os.Create(path)
   if err != nil {
       panic(err)
   }
