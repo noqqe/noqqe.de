@@ -14,6 +14,7 @@ import (
 type Config struct {
   hugocmd string
   homedir string
+  sammelsuriumdir string
   rvocmd string
 }
 
@@ -88,20 +89,60 @@ func sammelsurium(c Config) bool {
 			continue
 		}
 
-    log.Printf(generateFilename(documents[d].Title))
+    // get filename
+    filename := generateFilename(documents[d].Title)
+
+    // generate header
+
+    // strip content
+    content := removeHeaderFromString(documents[d].Content)
+
+    // generate hugo comptabile timestamp
     date := convertTimestamp(documents[d].Created.Date)
+
+    // write sammelsurium post to hugo dir
+    createSammelsuriumFile(content, filename, c)
+
+    // print debugging
     log.Printf("title: %s, created: %s", documents[d].Title, date)
   }
 
   return true
 }
 
+// used to write content as a post to hugo sammelsurium directory
+func createSammelsuriumFile(content string, filename string, c Config) bool {
+
+	// create file
+  f, err := os.Create(c.sammelsuriumdir + "/" + filename)
+  if err != nil {
+      panic(err)
+  }
+
+  // convert string to bytes and write to file opened
+  b := []byte(content)
+	f.Write(b)
+	f.Close()
+
+  return true
+}
+
+// Helper to make the filename out of the title
 func generateFilename(title string) string {
   name := strings.ToLower(title)
   name = strings.Replace(name, " ", "-", -1)
   name = strings.Replace(name, "/", "", -1)
   name = name + ".md"
   return name
+}
+
+// get rid of the first line of content because
+// it only contains the headline which is not needed
+// in the content anymore.
+func removeHeaderFromString(content string) string {
+  c := strings.Split(content,"\n")
+  c = c[1:]
+  return strings.Join(c[:],"\n")
 }
 
 // convert unix timestamp with 13 chars
@@ -130,6 +171,7 @@ func main() {
   c := Config{
     rvocmd: "rvo export -c docs",
     hugocmd: "hugo",
+    sammelsuriumdir: "/tmp/foo",
     homedir: "/home/noqqe/Code/noqqe.de"}
 
   // Some warm welcome
