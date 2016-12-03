@@ -1,11 +1,10 @@
 ---
 title: OpenBSD IPv6
-date: 2013-06-14T11:56:41.000000
+date: 2013-06-14T11:56:41
 tags: 
 - OS
 - OpenBSD
 ---
-
 
 Interfaces
 

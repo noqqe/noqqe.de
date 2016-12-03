@@ -1,11 +1,10 @@
 ---
 title: Hive
-date: 2014-05-09T11:22:05.000000
+date: 2014-05-09T11:22:05
 tags: 
 - Software
 - Hadoop
 ---
-
 
 Das Hive CLI Tool ist mittlerweile deprecated. Der Ersatz heisst irgendwas
 mit Bees

@@ -1,11 +1,10 @@
 ---
 title: OpenBSD Users
-date: 2014-03-28T16:27:12.000000
+date: 2014-03-28T16:27:12
 tags: 
 - OS
 - OpenBSD
 ---
-
 
 Switch to a user with disabled account.
 ~~~

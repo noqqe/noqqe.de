@@ -1,10 +1,9 @@
 ---
 title: yum Cheatsheet
-date: 2012-06-08T15:40:20.000000
+date: 2012-06-08T15:40:20
 tags: 
 - OS
 ---
-
 
 Installierte Pakete anzeigen
 

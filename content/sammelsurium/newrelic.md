@@ -1,11 +1,10 @@
 ---
 title: NewRelic
-date: 2014-04-03T15:20:17.000000
+date: 2014-04-03T15:20:17
 tags: 
 - Software
 - newrelic
 ---
-
 
 #### SLES
 

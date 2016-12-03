@@ -1,11 +1,10 @@
 ---
 title: tarsnap
-date: 2014-12-12T13:52:35.000000
+date: 2014-12-12T13:52:35
 tags: 
 - Software
 - tarsnap
 ---
-
 
 ### Install
 

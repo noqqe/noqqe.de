@@ -1,11 +1,10 @@
 ---
 title: Octopress
-date: 2012-03-04T14:45:37.000000
+date: 2012-03-04T14:45:37
 tags: 
 - Software
 - octopress
 ---
-
 
 In '_config.yml' einfügen:
 

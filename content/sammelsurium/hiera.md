@@ -1,11 +1,10 @@
 ---
 title: Hiera
-date: 2015-01-29T15:38:39.000000
+date: 2015-01-29T15:38:39
 tags: 
 - Puppet
 - Hiera
 ---
-
 
 Hiera Cheatsheet
 

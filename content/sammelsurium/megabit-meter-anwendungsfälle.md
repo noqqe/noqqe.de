@@ -1,11 +1,10 @@
 ---
 title: Megabit Meter Anwendungsfälle
-date: 2011-07-24T14:58:57.000000
+date: 2011-07-24T14:58:57
 tags: 
 - Programming
 - Bash
 ---
-
 
 https://noqqe.de/blog/2011/08/27/arduino-ich-baute-ein-megabitmeter/
 

@@ -1,11 +1,10 @@
 ---
 title: fcgi and mpm-worker
-date: 2012-03-06T13:54:01.000000
+date: 2012-03-06T13:54:01
 tags: 
 - Software
 - Apache
 ---
-
 
 fcgi ist die Weiterentwicklung von fastcgi.
 

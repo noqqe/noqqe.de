@@ -1,11 +1,10 @@
 ---
 title: MongoDB Shard und Replica Sets
-date: 2013-08-13T18:54:51.000000
+date: 2013-08-13T18:54:51
 tags: 
 - Databases
 - MongoDB
 ---
-
 
 * 4 shards
 * 3 configservers

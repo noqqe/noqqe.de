@@ -1,10 +1,9 @@
 ---
 title: Kernel Update Grub Problematik
-date: 2013-05-23T11:35:33.000000
+date: 2013-05-23T11:35:33
 tags: 
 - Filesystems
 ---
-
 
 Wenn beim Patchday Linux Kernel Updates vorliegen, kann es unter Umständen
 zu Problemen kommen, wenn der Grub neu installiert wird. Das Update bricht

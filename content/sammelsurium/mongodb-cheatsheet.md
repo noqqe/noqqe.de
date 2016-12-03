@@ -1,11 +1,10 @@
 ---
 title: MongoDB Cheatsheet
-date: 2014-10-11T17:59:52.000000
+date: 2014-10-11T17:59:52
 tags: 
 - Databases
 - MongoDB
 ---
-
 
 ## Query
 

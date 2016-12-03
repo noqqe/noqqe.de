@@ -1,11 +1,10 @@
 ---
 title: PHP MySQL
-date: 2012-01-21T10:56:40.000000
+date: 2012-01-21T10:56:40
 tags: 
 - Databases
 - MySQL
 ---
-
 
 Performance-wise it doesn't matter what you use. The difference is that mysql_fetch_object returns object:
 

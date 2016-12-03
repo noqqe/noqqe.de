@@ -1,11 +1,10 @@
 ---
 title: lftp
-date: 2013-09-12T12:45:49.000000
+date: 2013-09-12T12:45:49
 tags: 
 - Software
 - lftp
 ---
-
 
 ## Upload a file
 

@@ -1,12 +1,11 @@
 ---
 title: w3af
-date: 2012-01-19T13:57:15.000000
+date: 2012-01-19T13:57:15
 tags: 
 - Software
 - w3af
 - Pentesting
 ---
-
 
 Normaler aufruf mit Script
 

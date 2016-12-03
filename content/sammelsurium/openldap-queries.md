@@ -1,11 +1,10 @@
 ---
 title: OpenLDAP Queries
-date: 2013-03-06T18:52:38.000000
+date: 2013-03-06T18:52:38
 tags: 
 - Software
 - OpenLDAP
 ---
-
 
 ### Suchen
 

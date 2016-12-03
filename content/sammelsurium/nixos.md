@@ -1,11 +1,10 @@
 ---
 title: NixOS
-date: 2015-08-20T08:43:56.000000
+date: 2015-08-20T08:43:56
 tags: 
 - OS
 - NixOS
 ---
-
 
 #### System Commands
 

@@ -1,11 +1,10 @@
 ---
 title: Apache Solr
-date: 2013-04-25T17:53:44.000000
+date: 2013-04-25T17:53:44
 tags: 
 - Software
 - solr
 ---
-
 
 ## Collection API
 

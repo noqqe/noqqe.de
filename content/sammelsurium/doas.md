@@ -1,12 +1,11 @@
 ---
 title: doas
-date: 2016-06-07T18:36:00.215000
+date: 2016-06-07T18:36:00
 tags: 
 - Software
 - OpenBSD
 - doas
 ---
-
 
 #### Commandline Options
 

@@ -1,11 +1,10 @@
 ---
 title: Ansible Cheatsheet
-date: 2015-05-17T20:50:32.000000
+date: 2015-05-17T20:50:32
 tags: 
 - Software
 - ansible
 ---
-
 
 Apply a playbook
 

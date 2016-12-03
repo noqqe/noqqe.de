@@ -1,11 +1,10 @@
 ---
 title: PostgreSQL Cheatsheet
-date: 2015-07-09T15:28:29.000000
+date: 2015-07-09T15:28:29
 tags: 
 - Databases
 - PostgreSQL
 ---
-
 
 Connect
 

@@ -1,10 +1,9 @@
 ---
 title: mdadm Cheatsheet
-date: 2012-01-10T15:42:58.000000
+date: 2012-01-10T15:42:58
 tags: 
 - Software
 ---
-
 
 Wie ich das Raid auf z0idberg erstellt hab:
 

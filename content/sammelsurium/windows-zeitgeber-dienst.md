@@ -1,11 +1,10 @@
 ---
 title: Windows Zeitgeber Dienst
-date: 2012-01-05T10:37:08.000000
+date: 2012-01-05T10:37:08
 tags: 
 - OS
 - Windows
 ---
-
 
 Zum Anhalten und starten des W32Time Dienstes kann man aufrufen:
 

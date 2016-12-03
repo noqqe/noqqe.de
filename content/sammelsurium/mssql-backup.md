@@ -1,11 +1,10 @@
 ---
 title: MSSQL Backup
-date: 2012-04-18T17:17:35.000000
+date: 2012-04-18T17:17:35
 tags: 
 - Databases
 - MSSQL
 ---
-
 
 ## 1. Maintenance Set runterladen
 

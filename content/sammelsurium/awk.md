@@ -1,10 +1,9 @@
 ---
 title: awk
-date: 2011-07-26T12:38:13.000000
+date: 2011-07-26T12:38:13
 tags: 
 - Programming
 ---
-
 
 Eine kleine Sammlung von Schnippseln die hilfreich sein könnten.
 

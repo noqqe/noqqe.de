@@ -1,10 +1,9 @@
 ---
 title: update-alternatives
-date: 2012-04-15T14:10:46.000000
+date: 2012-04-15T14:10:46
 tags: 
 - Software
 ---
-
 
 from debian
 

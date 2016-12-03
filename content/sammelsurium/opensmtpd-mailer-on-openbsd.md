@@ -1,12 +1,11 @@
 ---
 title: OpenSMTPD Mailer on OpenBSD
-date: 2016-09-16T12:30:49.984000
+date: 2016-09-16T12:30:49
 tags: 
 - OpenBSD
 - Mail
 - Opensmtpd
 ---
-
 
 #### Local Forwards...
 

@@ -1,11 +1,10 @@
 ---
 title: supervisor
-date: 2015-05-24T15:46:46.000000
+date: 2015-05-24T15:46:46
 tags: 
 - Software
 - supervisor
 ---
-
 
 Automatisches Starten/Stoppen von Diensten
 Beispielconfig sieht ungefähr so aus:

@@ -1,10 +1,9 @@
 ---
 title: NetApp - Quick and Dirty Reference
-date: 2012-04-10T14:56:18.000000
+date: 2012-04-10T14:56:18
 tags: 
 - OS
 ---
-
 
 * `sysconfig -a` : shows hardware configuration with more verbose information
 * `sysconfig -d` : shows information of the disk attached to the filer

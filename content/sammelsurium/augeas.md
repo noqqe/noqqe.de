@@ -1,10 +1,9 @@
 ---
 title: Augeas
-date: 2014-01-07T13:40:15.000000
+date: 2014-01-07T13:40:15
 tags: 
 - Puppet
 ---
-
 
 Interactive
 

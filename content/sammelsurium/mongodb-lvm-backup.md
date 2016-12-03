@@ -1,11 +1,10 @@
 ---
 title: MongoDB LVM Backup
-date: 2014-12-09T17:32:00.000000
+date: 2014-12-09T17:32:00
 tags: 
 - Databases
 - MongoDB
 ---
-
 
 created some snapshots (without data and with)
 Create the Backups after configuring

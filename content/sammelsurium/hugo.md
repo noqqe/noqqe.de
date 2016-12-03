@@ -1,11 +1,10 @@
 ---
 title: hugo
-date: 2015-04-10T10:58:48.000000
+date: 2015-04-10T10:58:48
 tags: 
 - Software
 - Hugo
 ---
-
 
 #### Neuer Post
 

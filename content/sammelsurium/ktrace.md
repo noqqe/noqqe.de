@@ -1,11 +1,10 @@
 ---
 title: ktrace
-date: 2015-12-03T14:10:03.000000
+date: 2015-12-03T14:10:03
 tags: 
 - ktrace
 - Software
 ---
-
 
 Unter OpenBSD gibts kein strace
 Deswegen gibts ktrace.

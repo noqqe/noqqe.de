@@ -1,11 +1,10 @@
 ---
 title: MySQL Binlog Recovery
-date: 2013-04-02T14:38:32.000000
+date: 2013-04-02T14:38:32
 tags: 
 - Databases
 - MySQL
 ---
-
 
 ## Binlog point in Time Recovery
 

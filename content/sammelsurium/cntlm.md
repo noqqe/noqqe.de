@@ -1,11 +1,10 @@
 ---
 title: cntlm
-date: 2015-02-16T14:03:05.000000
+date: 2015-02-16T14:03:05
 tags: 
 - Software
 - cntlm
 ---
-
 
 reverse proxy for authentication
 

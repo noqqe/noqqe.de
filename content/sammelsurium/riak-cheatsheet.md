@@ -1,11 +1,10 @@
 ---
 title: Riak Cheatsheet
-date: 2016-05-30T15:14:45.674000
+date: 2016-05-30T15:14:45
 tags: 
 - Databases
 - Riak
 ---
-
 
 #### Cluster Informations
 

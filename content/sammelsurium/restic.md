@@ -1,12 +1,11 @@
 ---
 title: Restic
-date: 2016-06-16T12:18:08.070000
+date: 2016-06-16T12:18:08
 tags: 
 - restic
 - backup
 - Software
 ---
-
 
 #### Configuration
 

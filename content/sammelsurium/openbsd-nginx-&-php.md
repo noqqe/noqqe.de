@@ -1,11 +1,10 @@
 ---
 title: OpenBSD nginx & php
-date: 2012-11-04T19:40:48.000000
+date: 2012-11-04T19:40:48
 tags: 
 - OS
 - OpenBSD
 ---
-
 
 ~~~
 ## export PKG_PATH=ftp://ftp.openbsd.org/pub/OpenBSD/5.2/packages/`machine -a`/

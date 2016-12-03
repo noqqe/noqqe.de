@@ -1,11 +1,10 @@
 ---
 title: Tomcat Global Resources
-date: 2014-03-19T13:58:21.000000
+date: 2014-03-19T13:58:21
 tags: 
 - Software
 - Tomcat
 ---
-
 
 ## Globale Ressource definieren
 

@@ -1,11 +1,10 @@
 ---
 title: Markdown
-date: 2011-06-06T22:58:50.000000
+date: 2011-06-06T22:58:50
 tags: 
 - Markdown
 - Programming
 ---
-
 
 ~~~
 

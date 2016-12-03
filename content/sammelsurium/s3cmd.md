@@ -1,13 +1,12 @@
 ---
 title: s3cmd
-date: 2016-04-04T13:13:46.864000
+date: 2016-04-04T13:13:46
 tags: 
 - Software
 - S3
 - Amazon
 - s3cmd
 ---
-
 
 List all buckets
 

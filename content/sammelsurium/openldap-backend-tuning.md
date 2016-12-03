@@ -1,11 +1,10 @@
 ---
 title: OpenLDAP Backend Tuning
-date: 2013-02-23T11:47:14.000000
+date: 2013-02-23T11:47:14
 tags: 
 - Software
 - OpenLDAP
 ---
-
 
 ~~~
 ## ls -lah /usr/local/var/openldap-data

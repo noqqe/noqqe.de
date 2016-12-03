@@ -1,12 +1,11 @@
 ---
 title: Python Virtualenv
-date: 2016-04-11T17:12:03.305000
+date: 2016-04-11T17:12:03
 tags: 
 - Programming
 - Python
 - virtualenv
 ---
-
 
 #### Usage
 

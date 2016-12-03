@@ -1,11 +1,10 @@
 ---
 title: screen
-date: 2011-10-10T18:08:28.000000
+date: 2011-10-10T18:08:28
 tags: 
 - Software
 - screen
 ---
-
 
 modified dark 16-color theme (warm version)
 Screen color schema

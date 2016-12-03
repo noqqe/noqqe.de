@@ -1,11 +1,10 @@
 ---
 title: Proxytunnel
-date: 2014-12-22T10:48:56.000000
+date: 2014-12-22T10:48:56
 tags: 
 - Software
 - proxytunnel
 ---
-
 
 Um aus der Firma Jabber benutzen zu können gibts diese lustige Zeile
 

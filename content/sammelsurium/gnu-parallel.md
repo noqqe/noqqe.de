@@ -1,12 +1,11 @@
 ---
 title: gnu-parallel
-date: 2012-01-06T12:24:56.000000
+date: 2012-01-06T12:24:56
 tags: 
 - Software
 - gnu
 - parallel
 ---
-
 
 ~~~
 ## time seq 1 10000 | parallel 'echo {}| md5sum &> /dev/null '

@@ -1,10 +1,9 @@
 ---
 title: XFS
-date: 2013-03-19T18:47:59.000000
+date: 2013-03-19T18:47:59
 tags: 
 - Filesystems
 ---
-
 
 XFS Filesystem erstellen
 

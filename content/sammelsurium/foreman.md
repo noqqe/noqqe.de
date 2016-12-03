@@ -1,10 +1,9 @@
 ---
 title: Foreman
-date: 2013-11-21T13:59:09.000000
+date: 2013-11-21T13:59:09
 tags: 
 - Puppet
 ---
-
 
 ## Anleitung
 

@@ -1,11 +1,10 @@
 ---
 title: R JSON
-date: 2014-01-15T16:40:30.000000
+date: 2014-01-15T16:40:30
 tags: 
 - Programming
 - R
 ---
-
 
 ## Installing required library
 

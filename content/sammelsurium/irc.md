@@ -1,11 +1,10 @@
 ---
 title: IRC
-date: 2014-08-08T13:29:49.000000
+date: 2014-08-08T13:29:49
 tags: 
 - Software
 - irc
 ---
-
 
 channelop werden
 

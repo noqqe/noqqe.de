@@ -1,11 +1,10 @@
 ---
 title: tmux
-date: 2013-06-29T12:18:46.000000
+date: 2013-06-29T12:18:46
 tags: 
 - Software
 - tmux
 ---
-
 
 Reattach:
 

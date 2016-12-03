@@ -1,11 +1,10 @@
 ---
 title: cloudinit
-date: 2013-12-02T08:11:47.000000
+date: 2013-12-02T08:11:47
 tags: 
 - Software
 - cloudconfig
 ---
-
 
 ## Running Command
 

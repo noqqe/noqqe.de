@@ -1,11 +1,10 @@
 ---
 title: vim regex
-date: 2012-03-04T14:39:47.000000
+date: 2012-03-04T14:39:47
 tags: 
 - Software
 - Vi
 ---
-
 
 * %s Ganzes File
 * 1,5 Zeile 1 - 5

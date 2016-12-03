@@ -1,10 +1,9 @@
 ---
 title: Puppet Client
-date: 2013-06-30T16:44:25.000000
+date: 2013-06-30T16:44:25
 tags: 
 - Puppet
 ---
-
 
 ## Default Ports um zum Master zu connecten
 

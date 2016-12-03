@@ -1,11 +1,10 @@
 ---
 title: dpkg
-date: 2012-01-12T12:53:04.000000
+date: 2012-01-12T12:53:04
 tags: 
 - Software
 - dpkg
 ---
-
 
 ## Overwrite bei Konflikten
 

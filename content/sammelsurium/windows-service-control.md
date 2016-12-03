@@ -1,11 +1,10 @@
 ---
 title: Windows Service Control
-date: 2012-02-17T17:41:57.000000
+date: 2012-02-17T17:41:57
 tags: 
 - OS
 - Windows
 ---
-
 
 Status, Starten, Stoppen von Prozessen
 

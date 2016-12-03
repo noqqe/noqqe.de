@@ -1,11 +1,10 @@
 ---
 title: find
-date: 2014-02-20T17:12:57.000000
+date: 2014-02-20T17:12:57
 tags: 
 - Software
 - find
 ---
-
 
 To find directories with wrong permissions:
 

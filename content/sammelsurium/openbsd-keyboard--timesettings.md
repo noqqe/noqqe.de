@@ -1,11 +1,10 @@
 ---
 title: OpenBSD Keyboard / Timesettings
-date: 2012-11-03T17:51:55.000000
+date: 2012-11-03T17:51:55
 tags: 
 - OS
 - OpenBSD
 ---
-
 
 ## Timezone
 

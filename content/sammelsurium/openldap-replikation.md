@@ -1,11 +1,10 @@
 ---
 title: OpenLDAP Replikation
-date: 2013-02-24T14:04:05.000000
+date: 2013-02-24T14:04:05
 tags: 
 - Software
 - OpenLDAP
 ---
-
 
 ### Konfiguration am Master
 

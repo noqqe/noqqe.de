@@ -1,11 +1,10 @@
 ---
 title: LPIC 301 - Cheatsheet
-date: 2013-03-06T19:21:04.000000
+date: 2013-03-06T19:21:04
 tags: 
 - Software
 - OpenLDAP
 ---
-
 
 #### Entstehungsgeschichte LDAP
 

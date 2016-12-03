@@ -1,11 +1,10 @@
 ---
 title: R Graphs
-date: 2013-03-31T12:50:57.000000
+date: 2013-03-31T12:50:57
 tags: 
 - Programming
 - R
 ---
-
 
 ~~~
 par(las=2)

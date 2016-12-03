@@ -1,10 +1,9 @@
 ---
 title: erb Templates
-date: 2013-12-02T14:27:02.000000
+date: 2013-12-02T14:27:02
 tags: 
 - Puppet
 ---
-
 
 ## If Else Entscheidungen
 

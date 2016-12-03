@@ -1,11 +1,10 @@
 ---
 title: maildrop
-date: 2013-08-02T12:23:34.000000
+date: 2013-08-02T12:23:34
 tags: 
 - Software
 - maildrop
 ---
-
 
 Bogofilter
 

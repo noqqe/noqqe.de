@@ -1,11 +1,10 @@
 ---
 title: Tomcat Security
-date: 2013-05-27T11:46:08.000000
+date: 2013-05-27T11:46:08
 tags: 
 - Software
 - Tomcat
 ---
-
 
 ~~~
    <Connector port="8443"

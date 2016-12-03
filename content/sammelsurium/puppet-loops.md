@@ -1,10 +1,9 @@
 ---
 title: Puppet Loops
-date: 2013-10-28T10:48:35.000000
+date: 2013-10-28T10:48:35
 tags: 
 - Puppet
 ---
-
 
 If you need to simply loop through multiple iterations, simply use a definition.
 

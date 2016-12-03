@@ -1,11 +1,10 @@
 ---
 title: Apache2
-date: 2013-12-14T14:56:28.000000
+date: 2013-12-14T14:56:28
 tags: 
 - Software
 - Apache
 ---
-
 
 ## Print vHost Configuration
 

@@ -1,11 +1,10 @@
 ---
 title: wget
-date: 2015-04-17T08:34:04.000000
+date: 2015-04-17T08:34:04
 tags: 
 - Software
 - wget
 ---
-
 
 #### archive one page full to one directory
 

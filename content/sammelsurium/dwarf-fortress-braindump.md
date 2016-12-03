@@ -1,12 +1,11 @@
 ---
 title: Dwarf Fortress Braindump
-date: 2012-10-22T19:40:37.000000
+date: 2012-10-22T19:40:37
 tags: 
 - Software
 - dwarf
 - fortress
 ---
-
 
 ## Die Welt
 

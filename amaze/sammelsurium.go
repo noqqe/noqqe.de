@@ -47,7 +47,7 @@ func generateContent(content string) string {
   cs := strings.Join(c[:],"\n")
 
   // replace h1 with h2 for layouting
-  cs = strings.Replace(cs, "# ", "##", -1)
+  cs = strings.Replace(cs, "# ", "## ", -1)
   return cs
 }
 
@@ -55,7 +55,7 @@ func generateContent(content string) string {
 // to human readable date
 func generateDate(ts int64) string {
   corr_ts := ts / 1000
-  date := time.Unix(corr_ts, 0).Format("2006-01-02 15:04:05")
+  date := time.Unix(corr_ts, 0).Format("2006-01-02T15:04:05")
   return date
 }
 

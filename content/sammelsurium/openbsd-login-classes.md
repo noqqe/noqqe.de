@@ -1,13 +1,12 @@
 ---
 title: OpenBSD Login Classes
-date: 2016-05-25T15:22:49.240000
+date: 2016-05-25T15:22:49
 tags: 
 - OpenBSD
 - ulimit
 - class
 - login.conf
 ---
-
 
 Hiermit lassen sich ziemlich flexibel und schön
 einige Limitierungen pro User erledigen.

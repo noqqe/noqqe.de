@@ -1,10 +1,9 @@
 ---
 title: Filesystem ACLs
-date: 2011-11-28T14:46:45.000000
+date: 2011-11-28T14:46:45
 tags: 
 - Filesystems
 ---
-
 
 Filesystem muss mit der `acl` option gemountet sein.
 

@@ -1,11 +1,10 @@
 ---
 title: vim
-date: 2015-03-05T08:17:55.000000
+date: 2015-03-05T08:17:55
 tags: 
 - Software
 - vim
 ---
-
 
 Some of the shortcuts here may refer to my vim configuration on github.
 This is far away from being complete.

@@ -1,6 +1,6 @@
 ---
 title: Terminal Colors
-date: 2016-01-22T12:54:50.000000
+date: 2016-01-22T12:54:50
 tags: 
 - terminal
 - bash
@@ -10,7 +10,6 @@ tags:
 - colors
 - color
 ---
-
 
 16 Color ANSI
 

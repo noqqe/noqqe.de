@@ -1,10 +1,9 @@
 ---
 title: LVM
-date: 2011-11-28T14:42:21.000000
+date: 2011-11-28T14:42:21
 tags: 
 - Filesystems
 ---
-
 
 Informationen von Volume anzeigen
 

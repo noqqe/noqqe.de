@@ -1,11 +1,10 @@
 ---
 title: Semaphores
-date: 2014-03-29T12:11:52.000000
+date: 2014-03-29T12:11:52
 tags: 
 - OS
 - OpenBSD
 ---
-
 
 ~~~
 http://www.openbsd.org/cgi-bin/man.cgi?query=sem_open&apropos=0&sektion=0&manpath=OpenBSD+Current&arch=amd64&format=html

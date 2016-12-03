@@ -1,11 +1,10 @@
 ---
 title: zip
-date: 2016-03-22T16:20:21.126000
+date: 2016-03-22T16:20:21
 tags: 
 - zip
 - Software
 ---
-
 
 Heilige scheisse ist das eine gefickte Syntax!
 

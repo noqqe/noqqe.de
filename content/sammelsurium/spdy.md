@@ -1,11 +1,10 @@
 ---
 title: spdy
-date: 2012-02-01T17:44:24.000000
+date: 2012-02-01T17:44:24
 tags: 
 - Software
 - Apache
 ---
-
 
 http://code.google.com/p/mod-spdy/issues/detail?id=19
 

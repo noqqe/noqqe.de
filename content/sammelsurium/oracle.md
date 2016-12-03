@@ -1,11 +1,10 @@
 ---
 title: Oracle
-date: 2012-01-04T14:15:50.000000
+date: 2012-01-04T14:15:50
 tags: 
 - Databases
 - Oracle
 ---
-
 
 Connect:
 

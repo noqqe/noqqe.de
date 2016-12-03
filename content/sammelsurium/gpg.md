@@ -1,11 +1,10 @@
 ---
 title: gpg
-date: 2013-09-25T20:52:11.000000
+date: 2013-09-25T20:52:11
 tags: 
 - Software
 - gpg
 ---
-
 
 #### Cheatsheet
 

@@ -1,11 +1,10 @@
 ---
 title: curl
-date: 2013-11-05T20:44:06.000000
+date: 2013-11-05T20:44:06
 tags: 
 - Software
 - curl
 ---
-
 
 ## Post JSON Data with CURL
 

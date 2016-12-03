@@ -1,11 +1,10 @@
 ---
 title: pflow
-date: 2015-02-21T00:03:45.000000
+date: 2015-02-21T00:03:45
 tags: 
 - OS
 - OpenBSD
 ---
-
 
 #### Sensor installieren
 

@@ -1,11 +1,10 @@
 ---
 title: MySQL Replication
-date: 2012-03-28T15:10:59.000000
+date: 2012-03-28T15:10:59
 tags: 
 - Databases
 - MySQL
 ---
-
 
 ## Einzelne Schritte in Quick and Dirty
 

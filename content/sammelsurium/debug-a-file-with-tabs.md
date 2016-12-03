@@ -1,10 +1,9 @@
 ---
 title: Debug a File with Tabs
-date: 2014-01-21T14:40:59.000000
+date: 2014-01-21T14:40:59
 tags: 
 - HowTos
 ---
-
 
 Manchmal kann man auf Excel oder in Windows / Unix gemischten Dingen mit Tabs.
 

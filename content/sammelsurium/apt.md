@@ -1,11 +1,10 @@
 ---
 title: apt
-date: 2012-05-21T08:18:00.000000
+date: 2012-05-21T08:18:00
 tags: 
 - Software
 - apt
 ---
-
 
 Neuen Key aus untrusted Repo importieren
 

@@ -1,11 +1,10 @@
 ---
 title: Tomcat Cheatsheet
-date: 2013-01-06T13:24:55.000000
+date: 2013-01-06T13:24:55
 tags: 
 - Software
 - Tomcat
 ---
-
 
 * ApplicationServer zum Ausführen von Java Code
 * Kompletter HTTP-Server

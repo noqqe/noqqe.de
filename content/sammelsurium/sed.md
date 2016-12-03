@@ -1,11 +1,10 @@
 ---
 title: sed
-date: 2011-09-29T16:23:32.000000
+date: 2011-09-29T16:23:32
 tags: 
 - Programming
 - Bash
 ---
-
 
 ## Examples
 

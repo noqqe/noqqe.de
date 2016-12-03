@@ -1,11 +1,10 @@
 ---
 title: Redis
-date: 2015-04-09T14:45:47.000000
+date: 2015-04-09T14:45:47
 tags: 
 - Databases
 - Redis
 ---
-
 
 #### Server Details
 

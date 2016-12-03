@@ -1,13 +1,12 @@
 ---
 title: LACP und Bonding
-date: 2012-02-14T10:07:31.000000
+date: 2012-02-14T10:07:31
 tags: 
 - LACP
 - Network
 - Bonding
 - HowTos
 ---
-
 
 ## Beispielhafte Ausgabe für LACP gebondete Interfaces
 

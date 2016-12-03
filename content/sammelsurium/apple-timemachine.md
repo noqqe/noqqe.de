@@ -1,12 +1,11 @@
 ---
 title: Apple TimeMachine
-date: 2011-06-10T14:47:55.000000
+date: 2011-06-10T14:47:55
 tags: 
 - Software
 - Apple
 - Timemachine
 ---
-
 
 Das was ich zuvor erwähnt hatte, und was ab 10.6.3 nicht mehr funktioniert
 war kein Konfigurationshack, sondern einfach die Möglichkeit für die

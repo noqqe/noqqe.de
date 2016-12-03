@@ -1,10 +1,9 @@
 ---
 title: XML Entities
-date: 2013-08-01T11:43:11.000000
+date: 2013-08-01T11:43:11
 tags: 
 - Programming
 ---
-
 
 Inhalt des Files /data/x6/crawler/common/y.Timestamp.ent
 

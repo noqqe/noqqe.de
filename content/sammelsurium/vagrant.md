@@ -1,11 +1,10 @@
 ---
 title: Vagrant
-date: 2013-11-21T14:04:21.000000
+date: 2013-11-21T14:04:21
 tags: 
 - Software
 - Vagrant
 ---
-
 
 multi machine example
 

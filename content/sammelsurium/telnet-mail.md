@@ -1,10 +1,9 @@
 ---
 title: Telnet Mail
-date: 2013-07-26T09:16:50.000000
+date: 2013-07-26T09:16:50
 tags: 
 - HowTos
 ---
-
 
 Telnet whooop whooop
 

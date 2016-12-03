@@ -1,11 +1,10 @@
 ---
 title: Emacs Cheatsheet
-date: 2016-02-16T21:17:51.877000
+date: 2016-02-16T21:17:51
 tags: 
 - Software
 - emacs
 ---
-
 
 * C = CTRL
 * M = META (ALT auf OSX)

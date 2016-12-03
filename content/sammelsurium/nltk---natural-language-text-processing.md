@@ -1,6 +1,6 @@
 ---
 title: NLTK - Natural Language Text Processing
-date: 2016-04-13T17:01:08.300000
+date: 2016-04-13T17:01:08
 tags: 
 - python
 - Programming
@@ -8,7 +8,6 @@ tags:
 - text
 - analysis
 ---
-
 
 Sentiment Analysis - Ist der Text Positiv oder negativ?
 

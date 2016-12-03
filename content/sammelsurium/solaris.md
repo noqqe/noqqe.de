@@ -1,10 +1,9 @@
 ---
 title: Solaris
-date: 2012-04-27T10:23:11.000000
+date: 2012-04-27T10:23:11
 tags: 
 - OS
 ---
-
 
     svcadm restart nrpe
 

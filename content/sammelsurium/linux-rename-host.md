@@ -1,11 +1,10 @@
 ---
 title: Linux Rename Host
-date: 2012-02-24T10:08:20.000000
+date: 2012-02-24T10:08:20
 tags: 
 - Linux
 - OS
 ---
-
 
 in Debian
 

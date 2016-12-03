@@ -1,11 +1,10 @@
 ---
 title: trap
-date: 2011-06-07T15:36:08.000000
+date: 2011-06-07T15:36:08
 tags: 
 - Programming
 - Bash
 ---
-
 
 CTRL+C oder andere Signale abfangen
 

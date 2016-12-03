@@ -1,11 +1,10 @@
 ---
 title: Bash Time Conversion
-date: 2012-08-26T10:12:26.000000
+date: 2012-08-26T10:12:26
 tags: 
 - Programming
 - Bash
 ---
-
 
 Gefunden auf:
 

@@ -1,10 +1,9 @@
 ---
 title: NFS Debugging
-date: 2013-06-12T10:25:14.000000
+date: 2013-06-12T10:25:14
 tags: 
 - Filesystems
 ---
-
 
 Show all hosts that can connect to NFS
 

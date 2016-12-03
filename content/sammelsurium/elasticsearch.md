@@ -1,11 +1,10 @@
 ---
 title: Elasticsearch
-date: 2016-03-02T09:48:08.897000
+date: 2016-03-02T09:48:08
 tags: 
 - Software
 - elasticsearch
 ---
-
 
 #### Cluster
 

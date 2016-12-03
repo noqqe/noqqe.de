@@ -1,11 +1,10 @@
 ---
 title: mutt
-date: 2012-10-23T11:50:10.000000
+date: 2012-10-23T11:50:10
 tags: 
 - Software
 - mutt
 ---
-
 
 Bounce
 

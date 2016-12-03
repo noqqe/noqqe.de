@@ -1,11 +1,10 @@
 ---
 title: MySQL Dump Debugging Problem
-date: 2013-07-08T09:57:51.000000
+date: 2013-07-08T09:57:51
 tags: 
 - Databases
 - MySQL
 ---
-
 
 Beim Dump tritt Fehler auf
 

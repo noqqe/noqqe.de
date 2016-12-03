@@ -1,12 +1,11 @@
 ---
 title: SuSE Cheatsheet
-date: 2012-02-29T13:11:13.000000
+date: 2012-02-29T13:11:13
 tags: 
 - OS
 - SUSE
 - sles
 ---
-
 
 #### Quellen refreshen
 

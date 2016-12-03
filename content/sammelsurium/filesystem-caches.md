@@ -1,10 +1,9 @@
 ---
 title: Filesystem Caches
-date: 2012-10-29T15:45:22.000000
+date: 2012-10-29T15:45:22
 tags: 
 - Filesystems
 ---
-
 
 ### Drop
 

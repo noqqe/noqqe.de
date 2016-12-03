@@ -1,11 +1,10 @@
 ---
 title: znc
-date: 2015-02-26T20:51:15.000000
+date: 2015-02-26T20:51:15
 tags: 
 - Software
 - znc
 ---
-
 
 #### Start
 

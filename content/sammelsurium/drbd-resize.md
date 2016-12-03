@@ -1,10 +1,9 @@
 ---
 title: DRBD-Resize
-date: 2013-02-19T17:13:54.000000
+date: 2013-02-19T17:13:54
 tags: 
 - Filesystems
 ---
-
 
 ~~~
 $ echo "- - -" > /sys/class/scsi_host/host2/scan

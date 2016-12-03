@@ -1,11 +1,10 @@
 ---
 title: MongoDB Backup and Restore
-date: 2015-03-17T09:48:07.000000
+date: 2015-03-17T09:48:07
 tags: 
 - Databases
 - MongoDB
 ---
-
 
 because i always forget
 

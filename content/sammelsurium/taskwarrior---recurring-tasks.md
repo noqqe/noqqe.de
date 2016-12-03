@@ -1,11 +1,10 @@
 ---
 title: taskwarrior - Recurring Tasks
-date: 2013-11-04T08:46:53.000000
+date: 2013-11-04T08:46:53
 tags: 
 - Software
 - taskwarrior
 ---
-
 
 Die Kunst liegt eigentlich nur dabei, relative Datums zu wählen.
 Wurde aber alles in späteren Versionen nochmal überarbeitet.

@@ -1,11 +1,10 @@
 ---
 title: Apache2 Hardening
-date: 2012-01-17T12:46:54.000000
+date: 2012-01-17T12:46:54
 tags: 
 - Software
 - Apache
 ---
-
 
 ## Informationen sinnvoll unterdrücken
 

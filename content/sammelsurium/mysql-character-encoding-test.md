@@ -1,11 +1,10 @@
 ---
 title: MySQL Character Encoding Test
-date: 2012-02-22T13:41:55.000000
+date: 2012-02-22T13:41:55
 tags: 
 - Databases
 - MySQL
 ---
-
 
 Wichtig ist: Wie kamen die Daten in die DB. Wenn mit Latin, kamen die ANSI
 Chars rein und die UTF8 Kommands werden doppelt Encoded. Dadurch entstehen

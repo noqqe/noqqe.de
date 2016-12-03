@@ -1,11 +1,10 @@
 ---
 title: OpenBSD MySQL
-date: 2012-11-03T17:49:26.000000
+date: 2012-11-03T17:49:26
 tags: 
 - OS
 - OpenBSD
 ---
-
 
 ~~~
 ## export PKG_PATH=ftp://ftp.openbsd.org/pub/OpenBSD/5.2/packages/`machine -a`/

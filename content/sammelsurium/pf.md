@@ -1,12 +1,11 @@
 ---
 title: pf
-date: 2012-11-04T13:15:42.000000
+date: 2012-11-04T13:15:42
 tags: 
 - pf
 - OS
 - OpenBSD
 ---
-
 
 To enable basic pf on OpenBSD
 

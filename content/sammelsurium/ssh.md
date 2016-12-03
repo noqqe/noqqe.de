@@ -1,11 +1,10 @@
 ---
 title: ssh
-date: 2013-07-27T12:15:30.000000
+date: 2013-07-27T12:15:30
 tags: 
 - Software
 - ssh
 ---
-
 
 ssh commandline options
 

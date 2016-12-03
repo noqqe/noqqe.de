@@ -1,11 +1,10 @@
 ---
 title: herbstluftwm
-date: 2014-02-21T20:08:43.000000
+date: 2014-02-21T20:08:43
 tags: 
 - Software
 - herbstluftwm
 ---
-
 
 #### Resolution
 

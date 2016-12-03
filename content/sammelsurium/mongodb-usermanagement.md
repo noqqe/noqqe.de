@@ -1,11 +1,10 @@
 ---
 title: MongoDB Usermanagement
-date: 2014-03-11T14:17:07.000000
+date: 2014-03-11T14:17:07
 tags: 
 - Databases
 - MongoDB
 ---
-
 
 ## Authentication
 

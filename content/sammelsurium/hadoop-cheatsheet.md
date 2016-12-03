@@ -1,11 +1,10 @@
 ---
 title: Hadoop Cheatsheet
-date: 2014-03-19T15:59:03.000000
+date: 2014-03-19T15:59:03
 tags: 
 - Software
 - Hadoop
 ---
-
 
 #### HDFS Benutzung
 

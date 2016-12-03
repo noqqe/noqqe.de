@@ -1,11 +1,10 @@
 ---
 title: ntp
-date: 2012-11-02T11:08:51.000000
+date: 2012-11-02T11:08:51
 tags: 
 - Software
 - ntp
 ---
-
 
 Debian Quick and Dirty
 

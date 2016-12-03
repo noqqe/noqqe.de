@@ -1,10 +1,9 @@
 ---
 title: ZFS
-date: 2012-01-27T15:42:15.000000
+date: 2012-01-27T15:42:15
 tags: 
 - Filesystems
 ---
-
 
 ## Generelle Befehle #
 

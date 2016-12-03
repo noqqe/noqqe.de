@@ -1,11 +1,10 @@
 ---
 title: weechat
-date: 2015-02-23T10:33:18.000000
+date: 2015-02-23T10:33:18
 tags: 
 - Software
 - weechat
 ---
-
 
 #### Quickies
 

@@ -1,11 +1,10 @@
 ---
 title: beeswithmachineguns
-date: 2015-01-22T08:52:28.000000
+date: 2015-01-22T08:52:28
 tags: 
 - Software
 - beeswithmachineguns
 ---
-
 
 #### Usage
 

@@ -1,11 +1,10 @@
 ---
 title: InfluxDB
-date: 2016-10-20T15:46:50.383000
+date: 2016-10-20T15:46:50
 tags: 
 - InfluxDB
 - Software
 ---
-
 
 #### Databases
 

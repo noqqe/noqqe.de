@@ -1,11 +1,10 @@
 ---
 title: Swap
-date: 2011-11-22T10:08:45.000000
+date: 2011-11-22T10:08:45
 tags: 
 - Linux
 - Swap
 ---
-
 
 ## Temporäres Swapfile hinzufuegen
 

@@ -1,11 +1,10 @@
 ---
 title: Git
-date: 2012-06-18T02:00:00.000000
+date: 2012-06-18T02:00:00
 tags: 
 - Software
 - git
 ---
-
 
 Files mit bestimmten Suffix aus Git History finden
 

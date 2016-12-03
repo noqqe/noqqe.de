@@ -1,10 +1,9 @@
 ---
 title: Grub VGA Auflösung
-date: 2011-06-08T10:39:17.000000
+date: 2011-06-08T10:39:17
 tags: 
 - HowTos
 ---
-
 
 ~~~
 title Debian GNU/Linux, kernel 2.6.24-1-686

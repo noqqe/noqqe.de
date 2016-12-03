@@ -1,11 +1,10 @@
 ---
 title: Linux Networking
-date: 2011-06-07T15:42:20.000000
+date: 2011-06-07T15:42:20
 tags: 
 - OS
 - Linux
 ---
-
 
 ### Offene Verbindungen anzeigen
 

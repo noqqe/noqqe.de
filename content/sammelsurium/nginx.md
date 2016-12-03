@@ -1,11 +1,10 @@
 ---
 title: nginx
-date: 2014-01-06T13:23:49.000000
+date: 2014-01-06T13:23:49
 tags: 
 - Software
 - nginx
 ---
-
 
 #### Security Configruation
 

@@ -1,11 +1,10 @@
 ---
 title: DRBD Setup
-date: 2012-10-19T10:13:27.000000
+date: 2012-10-19T10:13:27
 tags: 
 - Filesystems
 - DRBD
 ---
-
 
 ### Netzwerk Interface  für die Konfiguration
 

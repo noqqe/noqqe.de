@@ -1,11 +1,10 @@
 ---
 title: cvs
-date: 2015-11-05T14:29:45.000000
+date: 2015-11-05T14:29:45
 tags: 
 - Software
 - cvs
 ---
-
 
 Checkout (always over ssh)
 

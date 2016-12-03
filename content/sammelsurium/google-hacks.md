@@ -1,10 +1,9 @@
 ---
 title: Google Hacks
-date: 2012-01-06T12:58:40.000000
+date: 2012-01-06T12:58:40
 tags: 
 - Software
 ---
-
 
 #### Einfache Suchausdrücke
 

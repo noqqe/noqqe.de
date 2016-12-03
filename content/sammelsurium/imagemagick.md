@@ -1,12 +1,11 @@
 ---
 title: ImageMagick
-date: 2016-05-07T22:57:15.019000
+date: 2016-05-07T22:57:15
 tags: 
 - Software
 - image
 - imagemagick
 ---
-
 
 Identifizieren von Bildmaßen
 

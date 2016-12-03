@@ -1,11 +1,10 @@
 ---
 title: MySQL Benutzerverwaltung
-date: 2012-03-06T09:07:40.000000
+date: 2012-03-06T09:07:40
 tags: 
 - Databases
 - MySQL
 ---
-
 
 ## Neuen Benutzer anlegen
 

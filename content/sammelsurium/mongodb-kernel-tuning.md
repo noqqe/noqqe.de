@@ -1,11 +1,10 @@
 ---
 title: MongoDB Kernel Tuning
-date: 2014-03-11T12:45:48.000000
+date: 2014-03-11T12:45:48
 tags: 
 - Databases
 - MongoDB
 ---
-
 
 #### overcommit
 

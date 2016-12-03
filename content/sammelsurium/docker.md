@@ -1,11 +1,10 @@
 ---
 title: Docker
-date: 2014-09-22T12:28:18.000000
+date: 2014-09-22T12:28:18
 tags: 
 - Software
 - docker
 ---
-
 
 Docker Build multiple Instances
 

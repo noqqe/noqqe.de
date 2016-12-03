@@ -1,11 +1,10 @@
 ---
 title: Teeworlds
-date: 2013-07-26T09:17:37.000000
+date: 2013-07-26T09:17:37
 tags: 
 - Software
 - teeworlds
 ---
-
 
 ### Example Config
 

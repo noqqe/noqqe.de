@@ -1,12 +1,11 @@
 ---
 title: SSL/TLS Cheatsheet
-date: 2011-11-15T14:46:15.000000
+date: 2011-11-15T14:46:15
 tags: 
 - SSL
 - TLS
 - Software
 ---
-
 
 #### HTTP vs HTTPS
 

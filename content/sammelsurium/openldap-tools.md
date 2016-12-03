@@ -1,11 +1,10 @@
 ---
 title: OpenLDAP Tools
-date: 2013-03-06T18:53:14.000000
+date: 2013-03-06T18:53:14
 tags: 
 - Software
 - OpenLDAP
 ---
-
 
 ## Offline Client Tools
 

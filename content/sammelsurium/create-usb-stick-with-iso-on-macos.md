@@ -1,6 +1,6 @@
 ---
 title: Create USB Stick with iso on macOS
-date: 2016-10-28T11:44:46.234000
+date: 2016-10-28T11:44:46
 tags: 
 - osx
 - macOS
@@ -8,7 +8,6 @@ tags:
 - dd
 - iso
 ---
-
 
 For openbsd boot in this example.
 

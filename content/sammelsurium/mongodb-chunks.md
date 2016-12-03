@@ -1,11 +1,10 @@
 ---
 title: MongoDB Chunks
-date: 2014-04-01T15:49:11.000000
+date: 2014-04-01T15:49:11
 tags: 
 - Databases
 - MongoDB
 ---
-
 
 #### Get Collection stats
 

@@ -1,11 +1,10 @@
 ---
 title: OpenBSD Network Configuration
-date: 2012-11-04T12:31:38.000000
+date: 2012-11-04T12:31:38
 tags: 
 - OS
 - OpenBSD
 ---
-
 
 ## Interfaces
 

@@ -1,11 +1,10 @@
 ---
 title: Statistical Prediction
-date: 2013-03-31T15:24:11.000000
+date: 2013-03-31T15:24:11
 tags: 
 - Programming
 - R
 ---
-
 
 ### Majority Rule
 

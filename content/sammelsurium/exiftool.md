@@ -1,12 +1,11 @@
 ---
 title: exiftool
-date: 2013-06-24T16:00:30.000000
+date: 2013-06-24T16:00:30
 tags: 
 - Software
 - exiftool
 - exif
 ---
-
 
 ## EXIF Data
 

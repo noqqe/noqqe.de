@@ -1,11 +1,10 @@
 ---
 title: OpenLDAP Setup
-date: 2013-02-15T09:37:33.000000
+date: 2013-02-15T09:37:33
 tags: 
 - Software
 - OpenLDAP
 ---
-
 
 ### Debian
 

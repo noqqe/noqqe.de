@@ -1,11 +1,10 @@
 ---
 title: MongoDB Performance Test
-date: 2014-03-31T14:38:08.000000
+date: 2014-03-31T14:38:08
 tags: 
 - Databases
 - MongoDB
 ---
-
 
 writes
 

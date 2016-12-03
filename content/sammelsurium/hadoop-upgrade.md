@@ -1,11 +1,10 @@
 ---
 title: Hadoop Upgrade
-date: 2015-07-06T08:41:52.000000
+date: 2015-07-06T08:41:52
 tags: 
 - Software
 - Hadoop
 ---
-
 
 #### Mirror
 

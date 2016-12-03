@@ -1,11 +1,10 @@
 ---
 title: Bash Email Validation
-date: 2011-06-07T15:38:56.000000
+date: 2011-06-07T15:38:56
 tags: 
 - Programming
 - RegEx
 ---
-
 
 Validieren von Email in Bash
 

@@ -118,7 +118,7 @@ func main() {
   c := Config{
     rvocmd: "rvo export -c docs",
     hugocmd: "hugo",
-    sammelsuriumdir: "/tmp/foo",
+    sammelsuriumdir: "/home/noqqe/Code/noqqe.de/content/sammelsurium/",
     homedir: "/home/noqqe/Code/noqqe.de"}
 
   // Some warm welcome

@@ -1,11 +1,10 @@
 ---
 title: MSSQL Logfiles
-date: 2012-02-01T13:33:43.000000
+date: 2012-02-01T13:33:43
 tags: 
 - Databases
 - MSSQL
 ---
-
 
 Typische Ablage fuer Log
 

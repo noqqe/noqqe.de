@@ -1,11 +1,10 @@
 ---
 title: sftp
-date: 2013-01-10T16:28:46.000000
+date: 2013-01-10T16:28:46
 tags: 
 - Software
 - sftp
 ---
-
 
 #### Chroot
 

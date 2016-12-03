@@ -1,11 +1,10 @@
 ---
 title: Python
-date: 2013-07-26T09:29:26.000000
+date: 2013-07-26T09:29:26
 tags: 
 - Programming
 - Python
 ---
-
 
 #### Crypto Example
 

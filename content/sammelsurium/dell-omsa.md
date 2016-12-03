@@ -1,12 +1,11 @@
 ---
 title: Dell OMSA
-date: 2012-06-05T13:32:53.000000
+date: 2012-06-05T13:32:53
 tags: 
 - Software
 - Dell
 - Omsa
 ---
-
 
 #### Allgemeine Hilfe
 

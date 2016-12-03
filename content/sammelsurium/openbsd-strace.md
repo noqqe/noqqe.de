@@ -1,11 +1,10 @@
 ---
 title: OpenBSD strace
-date: 2014-05-11T22:13:49.000000
+date: 2014-05-11T22:13:49
 tags: 
 - OS
 - OpenBSD
 ---
-
 
 Wie bei Strace debugging
 

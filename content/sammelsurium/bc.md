@@ -1,11 +1,10 @@
 ---
 title: bc
-date: 2014-01-07T17:25:07.000000
+date: 2014-01-07T17:25:07
 tags: 
 - Software
 - bc
 ---
-
 
 ## pure bc syntax
 

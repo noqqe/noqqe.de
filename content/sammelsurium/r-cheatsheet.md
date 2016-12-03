@@ -1,11 +1,10 @@
 ---
 title: R Cheatsheet
-date: 2013-03-27T19:37:01.000000
+date: 2013-03-27T19:37:01
 tags: 
 - Programming
 - R
 ---
-
 
 ## Statistics Functions
 

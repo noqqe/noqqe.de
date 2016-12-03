@@ -1,10 +1,9 @@
 ---
 title: Linux Kernel Schedulers
-date: 2012-02-27T15:08:27.000000
+date: 2012-02-27T15:08:27
 tags: 
 - Filesystems
 ---
-
 
 Citrix XenServer 6 als Dom0 mit Debian Squeeze in einer DomU.
 Hat keine Veraenderung gebracht. Getestet mit dd und hdparm.

@@ -1,11 +1,10 @@
 ---
 title: OpenLDAP PAM Auth
-date: 2013-03-06T07:37:48.000000
+date: 2013-03-06T07:37:48
 tags: 
 - Software
 - OpenLDAP
 ---
-
 
 Administrativer Account anlegen für Modify:
 

@@ -1,11 +1,10 @@
 ---
 title: rsync
-date: 2012-01-12T13:20:11.000000
+date: 2012-01-12T13:20:11
 tags: 
 - Software
 - rsync
 ---
-
 
 #### System migration
 
