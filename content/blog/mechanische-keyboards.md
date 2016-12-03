@@ -1,16 +1,13 @@
 ---
-date: 2016-07-01T15:28:29+02:00
+date: '2016-07-01T13:28:29'
 tags:
+- signature plastics
+- cherry
+- dolch
 - hardware
-- osbn
-- planetenblogger
-- ubuntuusers
-- Keyboard
-- Signature Plastics
-- Cherry
-- MX
-- DSA
-- Dolch
+- keyboard
+- mx
+- dsa
 title: Mechanische Tastaturen. Wenn's klick macht.
 ---
 
@@ -107,4 +104,3 @@ machen würde. Aber jetzt liegt die Tastatur hier und ich kann mich daran
 erfreuen. Und das tue ich sehr. Weil es immer ein gutes Gefühl ist alles
 abzuwägen, sich schlau zu lesen und dann das zusammenstellt, was man sich
 vorstellt.
-

@@ -1,25 +1,24 @@
 ---
-title: "Enlarge your P..GP Key"
-date: 2014-03-16T17:20:00+02:00
-comments: true
-tags:
-- Crypto
-- pgp
-- gpg
-- key
-- revoke
-- certificate
-- debian
-- aptitude
-- signing-party
-- ps
-- pdf
-- pubkey
-- publickey
-- replace
-- migrate
 aliases:
 - /blog/2014/03/16/enlarge-your-p-dot-gp-key
+date: '2014-03-16T15:20:00'
+tags:
+- ps
+- aptitude
+- revoke
+- pgp
+- certificate
+- migrate
+- gpg
+- crypto
+- replace
+- publickey
+- key
+- pdf
+- signing-party
+- pubkey
+- debian
+title: Enlarge your P..GP Key
 ---
 
 Mittlerweile ist mein 2048bit PGP Key mit ein paar Signaturen

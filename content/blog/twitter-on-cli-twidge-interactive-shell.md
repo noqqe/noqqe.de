@@ -1,28 +1,26 @@
 ---
-date: 2010-10-05T14:47:10+02:00
-comments: true
-title: Twitter on CLI | Twidge Interactive Shell
 aliases:
 - /archives/1285
 - /blog/2010/10/05/twitter-on-cli-twidge-interactive-shell
+date: '2010-10-05T12:47:10'
 tags:
-- Development
-- Debian
-- Linux
-- PlanetenBlogger
-- Web
-- alias
+- development
+- web
+- shell
 - cli
-- cli-twitter
+- john goerzen
+- twitter
+- twidge-sh
 - customized
+- twitter-shell
+- alias
+- twidge-shell
+- linux
 - follow
 - interactive
-- john goerzen
-- shell
-- twidge-sh
-- twidge-shell
-- twitter
-- twitter-shell
+- debian
+- cli-twitter
+title: Twitter on CLI | Twidge Interactive Shell
 ---
 
 Seit längerem benutze ich [John Goerzen](http://www.complete.org/JohnGoerzen)'s

@@ -1,22 +1,20 @@
 ---
-title: "Versteckte Prozessparameter in UNIX"
-date: 2014-05-23T22:14:00+02:00
-comments: true
+date: '2014-05-23T20:14:00'
 tags:
-- ubuntuusers
-- osbn
-- Databases
-- Administration
-- mongodb
-- mysql
-- c
-- posix
-- c99
-- unix
 - ps
-- process
 - prozesslisten
+- process
+- mongodb
+- c99
+- databases
+- administration
+- c
+- unix
+- posix
+- mysql
+title: Versteckte Prozessparameter in UNIX
 ---
+
 Passwörter für Datenbanken beispielsweise sind Optionen die sich als Commandline Argument direkt im Aufruf mitgeben lassen.
 Bei MySQL oder MongoDB ist das angegebene Passwort aber in der Prozessliste durch `xxxx` ersetzt.
 

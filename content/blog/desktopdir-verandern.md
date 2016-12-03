@@ -1,17 +1,16 @@
 ---
-date: 2008-12-09T10:18:33+02:00
-slug: desktopdir-verandern
-comments: true
-title: DesktopDir verändern
 aliases:
 - /archives/355
+date: '2008-12-09T08:18:33'
+slug: desktopdir-verandern
 tags:
-- config
+- linux
 - desktop
-- dir
+- x11
 - home
-- Linux
-- X11
+- config
+- dir
+title: "DesktopDir ver\xE4ndern"
 ---
 
 Sollte es jemand mal ähnlich gehen und nicht 45 min das Internet

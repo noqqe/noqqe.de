@@ -1,30 +1,28 @@
 ---
-date: 2011-09-25T13:58:52+02:00
-comments: true
-title: 'Taskwarrior | Migration von MyTinyTodo '
 aliases:
 - /archives/1766
 - /blog/2011/09/25/taskwarrior-migration-von-mytinytodo
+date: '2011-09-25T11:58:52'
 tags:
-- Bash
-- Development
-- Debian
-- PlanetenBlogger
-- Databases
-- Ubuntu
-- Web
-- GTD
-- import
-- mig
-- Migration
-- mirgration
-- MyTinyTodo
-- Task
-- Taskwarrior
-- todo
-- todolist
-- tutorial
+- development
+- web
 - ubucon
+- task
+- gtd
+- taskwarrior
+- todo
+- databases
+- mig
+- tutorial
+- todolist
+- migration
+- ubuntu
+- mirgration
+- import
+- mytinytodo
+- debian
+- bash
+title: 'Taskwarrior | Migration von MyTinyTodo '
 ---
 
 Im [Programm der Ubucon](http://ikhaya.ubuntuusers.de/2011/09/06/das-programm-der-ubucon-2011-steht/)

@@ -1,18 +1,17 @@
 ---
-date: 2009-03-18T15:10:49+02:00
-comments: true
-title: Backup | Bash vs. Python
 aliases:
 - /archives/568
 - /blog/2009/03/18/backup-bash-vs-python
+date: '2009-03-18T13:10:49'
 tags:
-- Development
-- Linux
+- development
+- shell
+- python
+- skript
+- linux
 - backup
 - bash
-- python
-- shell
-- skript
+title: Backup | Bash vs. Python
 ---
 
 Mein erstes Backup Script war in Python geschrieben. Das sah dann wie folgt aus:

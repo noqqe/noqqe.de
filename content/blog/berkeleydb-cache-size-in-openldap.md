@@ -1,16 +1,14 @@
 ---
-title: "BerkeleyDB Cache Size in OpenLDAP"
-date: 2013-03-08T18:40:00+02:00
-comments: true
+date: '2013-03-08T16:40:00'
 tags:
-- ubuntuusers
-- Administration
-- OpenLDAP
-- LDAP
-- BDB
-- BerkeleyDB
-- Cache
-- Performance
+- berkeleydb
+- bdb
+- cache
+- administration
+- openldap
+- ldap
+- performance
+title: BerkeleyDB Cache Size in OpenLDAP
 ---
 
 Ehrlich gesagt fühlt man sich als wäre es 1990, wenn man anfängt sich zu

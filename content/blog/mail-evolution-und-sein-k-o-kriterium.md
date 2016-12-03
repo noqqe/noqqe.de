@@ -1,17 +1,14 @@
 ---
-date: 2010-05-31T20:50:16+02:00
-comments: true
-title: Mail | Evolution und sein K.O.-Kriterium
 aliases:
 - /blog/2010/05/31/mail-evolution-und-sein-k-o-kriterium
 - /archives/1018
+date: '2010-05-31T18:50:16'
 tags:
-- Linux
-- ubuntuusers
-- Mail
-- evolution
 - mail
-- Thunderbird
+- evolution
+- thunderbird
+- linux
+title: Mail | Evolution und sein K.O.-Kriterium
 ---
 
 Vor längerer Zeit suchte ich mir einen neuen Mail-Client. Mein Thunderbird

@@ -1,23 +1,21 @@
 ---
-title: "MongoDB 2.6 Sharded Cluster Performance"
-date: 2014-06-18T21:02:00+02:00
-comments: true
-tags:
-- Databases
-- Development
-- DevOps
-- osbn
-- MongoDB
-- pymongo
-- Performance
-- NoSQL
-- Sharding
-- Index
-- Documents
-- Read
-- Write
 aliases:
 - /blog/2014/06/18/mongodb-2-dot-6-sharded-cluster-performance
+date: '2014-06-18T19:02:00'
+tags:
+- development
+- index
+- documents
+- nosql
+- read
+- mongodb
+- devops
+- write
+- databases
+- sharding
+- performance
+- pymongo
+title: MongoDB 2.6 Sharded Cluster Performance
 ---
 
 MongoDB Cluster wollen nach der Installation wie jede andere DB getestet

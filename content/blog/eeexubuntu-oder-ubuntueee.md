@@ -1,18 +1,16 @@
 ---
-date: 2008-07-14T13:18:52+02:00
-slug: eeexubuntu-oder-ubuntueee
-comments: true
-title: eeexubuntu oder ubuntueee ?!
 aliases:
 - /archives/108
+date: '2008-07-14T11:18:52'
+slug: eeexubuntu-oder-ubuntueee
 tags:
-- Hardware
-- Linux
-- EEE-PC
+- eee-pc
+- linux
+- hardware
 - eeexubuntu
-- Linux
 - ubuntu
 - ubuntueee
+title: eeexubuntu oder ubuntueee ?!
 ---
 
 Mein [EeePC](http://seufz.wordpress.com/meine-pcs/) ist ja seit letzter

@@ -1,31 +1,28 @@
 ---
-date: 2010-10-17T12:14:05+02:00
-comments: true
-title: Bash | the zombie-revolution-environment
 aliases:
 - /blog/2010/10/17/bash-the-zombie-revolution-environment
 - /archives/1314
+date: '2010-10-17T10:14:05'
 tags:
-- Development
-- Debian
-- Shell
+- development
+- zombie
 - git
-- 8bit
-- bash
-- battle
+- revolution
+- simulator
 - brawl
+- humans
+- zre
+- github
 - environment
 - game
-- gameplay
-- git
-- github
-- humans
-- revolution
 - shell
-- simulator
-- zombie
+- 8bit
 - zombies
-- zre
+- battle
+- gameplay
+- debian
+- bash
+title: Bash | the zombie-revolution-environment
 ---
 
 Wer kennt eigentlich noch [MUD](http://en.wikipedia.org/wiki/MUD)'s?  Diese

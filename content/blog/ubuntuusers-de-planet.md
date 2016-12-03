@@ -1,21 +1,18 @@
 ---
-date: 2009-12-15T22:20:44+02:00
-slug: ubuntuusers-de-planet
-comments: true
-title: Ubuntuusers.de-Planet
 aliases:
 - /archives/802
 - /blog/2009/12/15/ubuntuusers-de-planet/
 - /blog/2009/12/15/ubuntuusers-dot-de-planet/
+date: '2009-12-15T20:20:44'
+slug: ubuntuusers-de-planet
 tags:
-- Linux
-- ubuntuusers
-- Web
+- web
+- ubuntu
 - community
 - planet
-- RSS
-- ubuntu
-- ubuntuusers
+- linux
+- rss
+title: Ubuntuusers.de-Planet
 ---
 
 Gestern ist mein Blog in den Ubuntuusers-Planet aufgenommen worden. Ich

@@ -1,21 +1,20 @@
 ---
-date: 2010-04-05T20:01:16+02:00
-title: Wordpress | Archive Page erstellen
 aliases:
 - /archives/970
 - /blog/2010/04/05/wordpress-archive-page-erstellen
+date: '2010-04-05T18:01:16'
 tags:
-- Development
-- PlanetenBlogger
-- archiv
-- archive
+- development
 - clouds
-- contents
 - html
-- PHP
 - theme
-- wordpress
+- archiv
 - wp
+- wordpress
+- php
+- archive
+- contents
+title: Wordpress | Archive Page erstellen
 ---
 
 War 'ne schwere Geburt, was sich da jetzt unter [Archive](/?page_id=927)

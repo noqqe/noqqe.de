@@ -1,18 +1,15 @@
 ---
-title: "Thunderbird Mailing Stats"
-date: 2012-08-25T11:25:00+02:00
-comments: true
+date: '2012-08-25T09:25:00'
 tags:
-- Web
-- Statistik
-- Mail
-- Debian
-- ubuntuusers
-- Thunderbird
-- Stats
-- Debian
-- Bash
-- Shell
+- web
+- shell
+- stats
+- thunderbird
+- mail
+- debian
+- bash
+- statistik
+title: Thunderbird Mailing Stats
 ---
 
 Ich habe schon öfter nach einem Thunderbird Plugin gesucht, dass mir ein

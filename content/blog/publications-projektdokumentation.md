@@ -1,15 +1,14 @@
 ---
-date: 2009-10-07T08:07:24+02:00
-comments: true
-title: Publications | Projektdokumentation
 aliases:
 - /archives/675
 - /blog/2009/10/07/publications-projektdokumentation
+date: '2009-10-07T06:07:24'
 tags:
-- Blog
-- fisi
+- blog
 - projektarbeit
+- fisi
 - dokumentation
+title: Publications | Projektdokumentation
 ---
 
 Planung und Integration einer Firewall-Lösung (auf Basis von Shorewall, mit VPN).

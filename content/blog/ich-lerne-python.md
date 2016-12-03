@@ -1,16 +1,13 @@
 ---
-date: 2008-07-09T22:09:40+02:00
-slug: ich-lerne-python
-comments: true
-title: Ich lerne Python
 aliases:
 - /archives/104
+date: '2008-07-09T20:09:40'
+slug: ich-lerne-python
 tags:
-- Development
-- Linux
-- Development
-- Linux
+- development
 - python
+- linux
+title: Ich lerne Python
 ---
 
 Ist eigentilch Recht einfach. Aber ich glaube das liegt auch ein bisschen

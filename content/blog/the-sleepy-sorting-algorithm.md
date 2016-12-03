@@ -1,15 +1,13 @@
 ---
-title: "The sleepy sorting algorithm"
-date: 2012-11-25T14:53:00+02:00
-comments: true
+date: '2012-11-25T12:53:00'
 tags:
-- osbn
-- Shell
-- Development
-- Web
+- development
+- web
+- shell
 - algorithm
-- Bash
 - 4chan
+- bash
+title: The sleepy sorting algorithm
 ---
 
 Gerade aus Grunden&reg; herum gegoogelt und das gefunden:

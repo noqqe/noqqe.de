@@ -1,14 +1,13 @@
 ---
-date: 2009-10-12T19:23:22+02:00
-comments: true
-title: Debian | rsyslogd
 aliases:
 - /blog/2009/10/12/debian-rsyslogd
 - /archives/686
+date: '2009-10-12T17:23:22'
 tags:
-- Development
-- Linux
-- Administration
+- development
+- administration
+- linux
+title: Debian | rsyslogd
 ---
 
 Man erzählt hier ja sonst nichts weiter, warum also nicht mal ein Stück

@@ -1,28 +1,25 @@
 ---
-date: 2010-01-09T12:16:10+02:00
-comments: true
-title: Mail | Postfix-Aliases mit MySQL-Backend erstellen
 aliases:
 - /blog/2010/01/09/mail-postfix-aliases-mit-mysql-backend-erstellen
 - /archives/839
+date: '2010-01-09T10:16:10'
 tags:
-- Development
-- Linux
-- ubuntuusers
-- Mail
-- Databases
-- address
-- alias
-- aliases
-- courier
-- debian
-- mail
-- mysql
+- development
 - postfix
+- courier
 - script
+- mysql
+- address
+- linux
 - skript
+- alias
 - sql
+- databases
+- mail
+- debian
 - ubuntu
+- aliases
+title: Mail | Postfix-Aliases mit MySQL-Backend erstellen
 ---
 
 Ich registrierte mich vor kurzem wiedermal bei einem etwas zwielichtigem

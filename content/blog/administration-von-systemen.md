@@ -1,25 +1,20 @@
 ---
-title: "Administration von Systemen"
-date: 2014-04-19T18:52:00+02:00
-comments: true
+date: '2014-04-19T16:52:00'
 tags:
-- osbn
-- ubuntuusers
-- Administration
-- devops
-- administration
-- unix
-- devops
-- sysops
 - operations
+- dienstleister
+- sysops
+- provider
+- administration
+- devops
+- it
+- unix
+- systemadministration
 - team
 - systemadministrator
-- systemadministration
-- dienstleister
-- it
-- provider
-- IT
+title: Administration von Systemen
 ---
+
 Admins. In der System Administration treffen Einstellungen aufeinander.
 Geschmacksrichtungen. Unterschiedliche Wissensstände. Glaubensrichtungen.
 Interessen. Vorlieben.  Wer tut in einem Ops-Team was und warum. Was folgt

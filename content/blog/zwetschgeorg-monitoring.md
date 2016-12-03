@@ -1,18 +1,17 @@
 ---
-date: 2008-09-15T22:24:15+02:00
-slug: zwetschgeorg-monitoring
-comments: true
-title: zwetschge.org monitoring
 aliases:
 - /archives/246
+date: '2008-09-15T20:24:15'
+slug: zwetschgeorg-monitoring
 tags:
-- Hardware
-- Linux
-- debian
 - monitoring
-- Netzwerk
 - server
+- hardware
+- linux
+- netzwerk
 - zwetschge
+- debian
+title: zwetschge.org monitoring
 ---
 
 Habe mich heute mal mit [collectd](http://collectd.org/) und

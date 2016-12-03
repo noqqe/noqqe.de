@@ -1,16 +1,15 @@
 ---
-date: 2009-09-24T19:59:58+02:00
-comments: true
-title: Shell | Vollständiger File-Path
 aliases:
 - /blog/2009/09/24/shell-vollstandiger-file-path
 - /archives/663
+date: '2009-09-24T17:59:58'
 tags:
-- Development
-- Linux
-- file
+- development
 - path
 - filesystem
+- file
+- linux
+title: "Shell | Vollst\xE4ndiger File-Path"
 ---
 
 Sonst vergess ich es sowieso wieder:

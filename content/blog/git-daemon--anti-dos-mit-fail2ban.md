@@ -1,24 +1,23 @@
 ---
-date: 2010-04-21T11:03:29+02:00
-comments: true
-title: Git-daemon | Anti-DOS mit fail2ban
 aliases:
 - /archives/991
+date: '2010-04-21T09:03:29'
 tags:
-- Development
-- Linux
-- ban
+- development
 - daemon
-- dos
-- einfügen
-- Fail2ban
-- fail2ban jail
-- filter
 - git
-- git-daemon
 - gitweb
-- unban
+- fail2ban jail
+- git-daemon
 - verbieten
+- "einf\xFCgen"
+- filter
+- fail2ban
+- linux
+- ban
+- dos
+- unban
+title: Git-daemon | Anti-DOS mit fail2ban
 ---
 
 Seit gestern versuche ich mittels Fail2ban zu vermeiden, dass mein

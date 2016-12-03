@@ -1,30 +1,27 @@
 ---
-date: 2011-11-26T14:53:21+02:00
-comments: true
-title: Loading | Eine Bash-Progress-Bar
 aliases:
 - /blog/2011/11/26/loading-eine-bash-progress-bar
 - /archives/1819
+date: '2011-11-26T12:53:21'
 tags:
-- Shell
-- Development
-- Debian
-- Linux
-- ubuntuusers
-- Web
-- balken
+- development
+- web
+- shell
 - bar
-- bash
-- einfach
+- balken
 - fortschrittsbalken
+- pv
 - ladebalken
-- laden
+- simple
+- einfach
 - loading bar
+- laden
+- linux
 - progress
 - progressbar
-- pv
-- shell
-- simple
+- debian
+- bash
+title: Loading | Eine Bash-Progress-Bar
 ---
 
 Für ein kleines Projekt, an dem ich so nebenher immer etwas schreibe habe

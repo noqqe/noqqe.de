@@ -1,13 +1,11 @@
 ---
-title: "Es ist 2140 und der Einzige der noch Bitcoins mined ist Good Guy Greg"
-date: 2013-04-08T20:16:00+02:00
-comments: true
+date: '2013-04-08T18:16:00'
 tags:
-- osbn
-- Crypto
-- bitcoin
 - gpu
 - mining
+- crypto
+- bitcoin
+title: Es ist 2140 und der Einzige der noch Bitcoins mined ist Good Guy Greg
 ---
 
 Zuerstmal, Bitcoin: Toller denzentraler Shit weil alle Banken böse, harter

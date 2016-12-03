@@ -1,21 +1,18 @@
 ---
-title: "OpenBSD pf gegen ssh Bruteforces"
-date: 2013-06-09T16:55:00+02:00
-comments: true
 aliases:
 - /blog/2013/06/09/openbsds-pf-gegen-ssh-bruteforces
+date: '2013-06-09T14:55:00'
 tags:
-- osbn
-- ubuntuusers
-- OpenBSD
-- Network
+- bruteforce
+- openbsd
+- network
+- firewall
+- sshguard
 - pf
 - ssh
-- bruteforce
-- fail2ban
-- sshguard
 - block
-- firewall
+- fail2ban
+title: OpenBSD pf gegen ssh Bruteforces
 ---
 
 Unter Linux hatte ich meist

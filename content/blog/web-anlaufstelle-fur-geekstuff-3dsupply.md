@@ -1,20 +1,18 @@
 ---
-date: 2010-04-22T20:18:54+02:00
-comments: true
-title: Web | Anlaufstelle für Geekstuff? 3dsupply
 aliases:
 - /archives/995
 - /blog/2010/04/22/web-anlaufstelle-fur-geekstuff-3dsupply
+date: '2010-04-22T18:18:54'
 tags:
-- Linux
-- PlanetenBlogger
-- Web
-- 3dsupply
-- aktion
-- free
-- futurama
+- web
 - gratis
+- free
+- aktion
+- futurama
 - shirt4link
+- linux
+- 3dsupply
+title: "Web | Anlaufstelle f\xFCr Geekstuff? 3dsupply"
 ---
 
 Meine Kollegen bestellen dort ja regelmäßig. Heute hab ich aber bei

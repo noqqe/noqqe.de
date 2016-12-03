@@ -1,18 +1,17 @@
 ---
-date: 2009-03-07T15:10:56+02:00
-comments: true
-title: Feed | RSS im Directors-Cut
 aliases:
 - /blog/2009/03/07/feed-rss-im-directors-cut
 - /archives/542
+date: '2009-03-07T13:10:56'
 tags:
-- Blog
-- atom
 - feed
-- gekürzt
-- RSS
+- "ungek\xFCrzt"
+- blog
+- atom
+- "gek\xFCrzt"
 - uncut
-- ungekürzt
+- rss
+title: Feed | RSS im Directors-Cut
 ---
 
 Das Thema der Stunde ging auch an mir nicht vorbei. Angefangen mit

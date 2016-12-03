@@ -1,23 +1,20 @@
 ---
-title: "GNU Coreutils"
-date: 2014-03-25T19:18:00+02:00
-comments: true
+date: '2014-03-25T17:18:00'
 tags:
-- osbn
-- ubuntuusers
-- Shell
-- coreutils
-- gnu
+- shell
 - join
 - for
-- grep
-- time
-- bash
+- gnu
 - admin
+- iowait
+- coreutils
+- flatfile
+- time
+- grep
 - csv
 - id
-- flatfile
-- iowait
+- bash
+title: GNU Coreutils
 ---
 
 Man stelle sich folgendes Szenario vor. Eine große CSV Datei enthält Datensätze.

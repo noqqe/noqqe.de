@@ -1,21 +1,18 @@
 ---
-title: "Ports low as fuck"
-date: 2013-05-06T20:11:00+02:00
-comments: true
+date: '2013-05-06T18:11:00'
 tags:
-- ubuntuusers
-- osbn
-- BSD
-- OpenBSD
-- Network
-- Protokolle
+- openbsd
+- network
+- ip
+- udp
+- tcp
 - inetd
-- Protokoll
-- openbsd-inetd
+- bsd
 - xinetd
-- TCP
-- UDP
-- IP
+- protokoll
+- openbsd-inetd
+- protokolle
+title: Ports low as fuck
 ---
 
 Wenn ich Urlaub habe spiele ich [Dwarf Fortress](http://www.bay12games.com/dwarves/), bastle an
@@ -103,4 +100,3 @@ Die entsprechende inetd Konfiguration
 
     daytime   stream  tcp     nowait  root    internal
     daytime   dgram   udp     wait    root    internal
-

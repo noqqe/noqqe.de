@@ -1,19 +1,16 @@
 ---
-title: "SMTPS OpenSMTPD"
-date: 2014-12-01T12:02:00+02:00
-comments: true
+date: '2014-12-01T10:02:00'
 tags:
-- osbn
-- ubuntuusers
-- OpenBSD
-- BSD
-- Mail
 - openbsd
-- neomailbox
-- mutt
 - smtp
 - auth
+- bsd
+- mutt
+- mail
+- neomailbox
+title: SMTPS OpenSMTPD
 ---
+
 Mein Mailprovider ist mittlerweile ein halbes Jahr
 [neomailbox.net](https://neomailbox.net). Seit einiger Zeit hatte ich aber
 Probleme beim Einliefern von Mails zum SMTP Server. Mutt resettet beim SMTP mit

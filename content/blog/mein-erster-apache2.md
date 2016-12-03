@@ -1,15 +1,14 @@
 ---
-date: 2008-09-10T19:49:18+02:00
-slug: mein-erster-apache2
-comments: true
-title: Mein erster Apache2
 aliases:
 - /archives/224
+date: '2008-09-10T17:49:18'
+slug: mein-erster-apache2
 tags:
-- apache2
-- Linux
-- ubuntu
 - web
+- linux
+- ubuntu
+- apache2
+title: Mein erster Apache2
 ---
 
 Hier in aller Kürze und ohne großartige Comments: die apache2.conf

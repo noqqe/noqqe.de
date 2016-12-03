@@ -1,19 +1,17 @@
 ---
-date: 2008-09-24T17:44:47+02:00
-slug: fur-die-geeks-unter-uns-die-google-shell
-comments: true
-title: Für die Geeks unter uns - Die Google-Shell
 aliases:
 - /archives/262
 - /blog/2008/09/24/f%C3%BCr-die-geeks-unter-uns-die-google-shell/
+date: '2008-09-24T15:44:47'
+slug: fur-die-geeks-unter-uns-die-google-shell
 tags:
-- Development
-- Linux
-- bash
-- google
-- Google-Shell
-- Linux
+- development
 - shell
+- google-shell
+- google
+- linux
+- bash
+title: "F\xFCr die Geeks unter uns - Die Google-Shell"
 ---
 
 [http://goosh.org/](http://goosh.org/)

@@ -1,16 +1,15 @@
 ---
-date: 2010-07-24T12:53:10+02:00
-comments: true
-title: 3dsupply | Wie man Kunden kauft.
 aliases:
 - /archives/1142
 - /blog/2010/07/24/3dsupply-wie-man-kunden-kauft
+date: '2010-07-24T10:53:10'
 tags:
-- Blog
-- Web
+- blog
+- web
+- twitter
 - 3dsupply
 - gutschein
-- twitter
+title: 3dsupply | Wie man Kunden kauft.
 ---
 
 Shirt bei 3dsupply.de gesehen. Für awesome befunden. Weil Futurama.

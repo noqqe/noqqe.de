@@ -1,20 +1,18 @@
 ---
-date: 2009-02-24T21:32:32+02:00
-comments: true
-title: Mail | via Telnet persöhnlich abliefern
 aliases:
 - /blog/2009/02/24/mail-via-telnet-persohnlich-abliefern
 - /archives/521
+date: '2009-02-24T19:32:32'
 tags:
-- Hardware
-- Linux
-- Mail
-- EEE-PC
-- email
-- mail
-- mailserver
-- telnet
 - zwetschge
+- eee-pc
+- telnet
+- hardware
+- linux
+- mail
+- email
+- mailserver
+title: "Mail | via Telnet pers\xF6hnlich abliefern"
 ---
 
 Als ich vor kurzem meine Anmeldung zur Abschlussprüfung über die Post

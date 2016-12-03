@@ -1,24 +1,22 @@
 ---
-date: 2011-08-23T18:39:15+02:00
-comments: true
-title: PostgreSQL | 1000 und 1 Query
 aliases:
 - /blog/2011/08/23/postgresql-1000-und-1-query
 - /archives/1742
+date: '2011-08-23T16:39:15'
 tags:
-- Bash
-- Development
-- Debian
-- Databases
+- development
 - 1000 queries
-- 1001 query
-- bash
-- for
-- mysql
 - postgresql
-- query
+- for
+- 1001 query
 - sequel
+- mysql
 - sql
+- databases
+- query
+- debian
+- bash
+title: PostgreSQL | 1000 und 1 Query
 ---
 
 Zur Zeit spiele und bastle ich nebenher mit PostgreSQL rum. Überlege ob ich

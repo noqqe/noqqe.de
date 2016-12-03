@@ -1,23 +1,20 @@
 ---
-title: "LXC. Not ready yet for production use, huh?"
-date: 2012-05-14T15:30:00+02:00
-comments: true
+date: '2012-05-14T13:30:00'
 tags:
-- ubuntuusers
-- Linux
-- Debian
-- Development
-- LXC
-- linux
+- development
+- bridge
+- lan
 - container
 - thinkpad
-- wireless
-- bridge
-- wlan
-- lan
-- eth
 - vm
+- wireless
 - virtualisierung
+- lxc
+- linux
+- wlan
+- eth
+- debian
+title: LXC. Not ready yet for production use, huh?
 ---
 
 Von [LinuX Containern](http://lxc.sourceforge.net) hab ich zum ersten Mal auf den
@@ -170,4 +167,3 @@ tcp        0      0 127.0.0.1:25            0.0.0.0:*               LISTEN      
 ```
 
 Auf Ideen, Anmerkungen, Kritik und Beleidigungen freu ich mich natürlich immer.
-

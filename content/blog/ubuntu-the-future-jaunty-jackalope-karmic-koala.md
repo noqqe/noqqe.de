@@ -1,15 +1,14 @@
 ---
-date: 2009-03-07T14:15:44+02:00
-comments: true
-title: 'Ubuntu | The Future: Jaunty Jackalope & Karmic Koala'
 aliases:
 - /archives/540
 - /blog/2009/03/07/ubuntu-the-future-jaunty-jackalope-karmic-koala
+date: '2009-03-07T12:15:44'
 tags:
+- jaunty jackalope
 - jaunty
-- Jaunty Jackalope
-- karmic koala
 - ubuntu
+- karmic koala
+title: 'Ubuntu | The Future: Jaunty Jackalope & Karmic Koala'
 ---
 
 Das letzte mal als ich das Thema Ubuntu und Home-PC am Blog hatte sah es ja

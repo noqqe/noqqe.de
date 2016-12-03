@@ -1,33 +1,29 @@
 ---
-date: 2015-05-08T18:25:17+02:00
+date: '2015-05-08T16:25:17'
 tags:
-- blog
-- bsd
-- openbsd
-- osbn
 - osx
-- ubuntuusers
 - openbsd
-- safari
-- file
-- php
-- mysql
-- mongodb
-- rss
-- newsbeuter
-- jrnl
-- taskwarrior
-- macbook
-- osx
-- thinkpad
-- mail
-- imap
 - mutt
+- file
+- mysql
 - imapfilter
-- spam
 - bogofilter
-- weechat
+- newsbeuter
+- spam
+- macbook
+- blog
+- mail
 - irc
+- taskwarrior
+- mongodb
+- safari
+- thinkpad
+- bsd
+- php
+- imap
+- rss
+- jrnl
+- weechat
 title: Dinge die ich bediene.
 ---
 

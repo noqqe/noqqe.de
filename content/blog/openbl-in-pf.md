@@ -1,16 +1,15 @@
 ---
-title: "OpenBL in pf"
-date: 2015-02-04T20:31:00+02:00
-comments: true
+date: '2015-02-04T18:31:00'
 tags:
-- osbn
-- OpenBSD
-- Network
+- openbsd
+- network
+- blocklist
+- firewall
 - pf
-- OpenBL
-- Firewall
-- Blocklist
+- openbl
+title: OpenBL in pf
 ---
+
 Das Projekt [OpenBL](https://openbl.org), dass ursprünglich die OpenSSH
 Blacklist war, hat auf der ganzen Welt verteilte Honeypots rumstehen und
 publiziert regelmäßig Blacklisten sortiert nach Zeitraum und Protokoll des

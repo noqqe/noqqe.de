@@ -1,17 +1,14 @@
 ---
-title: "OpenBSD IPv6"
-date: 2014-10-09T19:15:00+02:00
-comments: true
+date: '2014-10-09T17:15:00'
 tags:
-- OpenBSD
-- Network
-- ubuntuusers
-- osbn
-- IPv6
-- netstart
-- hostname
-- ip
 - ping6
+- openbsd
+- network
+- ip
+- hostname
+- ipv6
+- netstart
+title: OpenBSD IPv6
 ---
 
 Was ich ja schon immer komisch fand ist, dass die Dokumentation oder auch

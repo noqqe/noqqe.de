@@ -1,19 +1,17 @@
 ---
-title: "OpenBSD nginx Logrotate"
-date: 2014-03-02T12:09:00+02:00
-comments: true
+date: '2014-03-02T10:09:00'
 tags:
-- OpenBSD
-- osbn
-- BSD
-- Log
-- Nginx
-- Logrotate
 - newsyslog
+- openbsd
+- log
 - syslog
+- nginx
+- logrotate
+- freebsd
+- bsd
 - rotation
-- FreeBSD
-- oBSD
+- obsd
+title: OpenBSD nginx Logrotate
 ---
 
 Seit mittlerweile fast 3 Releases setze ich [OpenBSD](http://openbsd.org) auf

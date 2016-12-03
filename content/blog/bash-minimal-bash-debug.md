@@ -1,21 +1,19 @@
 ---
-date: 2010-10-24T21:06:33+02:00
-comments: true
-title: Bash | minimal-bash-debug
 aliases:
 - /blog/2010/10/24/bash-minimal-bash-debug
 - /archives/1332
+date: '2010-10-24T19:06:33'
 tags:
-- Development
-- Debian
-- git
-- Linux
-- PlanetenBlogger
-- Ubuntu
-- bash
-- debug
+- development
 - debugging
+- git
 - script
+- linux
+- ubuntu
+- debug
+- debian
+- bash
+title: Bash | minimal-bash-debug
 ---
 
 Bei Bash Scripten gibt es ja genug Möglichkeiten zu debuggen. Jeder der

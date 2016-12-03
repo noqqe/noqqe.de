@@ -1,19 +1,17 @@
 ---
-title: "Stromverbrauch für Nerds mit Google Charts"
-date: 2012-06-16T12:31:00+02:00
-comments: true
+date: '2012-06-16T10:31:00'
 tags:
-- Web
-- Stats
-- Debian
-- ubuntuusers
-- OpenSource
-- Google
-- Charts
-- JSON
-- API
-- JS
+- web
+- google
+- stats
 - html
+- charts
+- js
+- json
+- api
+- opensource
+- debian
+title: "Stromverbrauch f\xFCr Nerds mit Google Charts"
 ---
 
 <script type="text/javascript" src="https://www.google.com/jsapi"></script>
@@ -267,4 +265,3 @@ vorraussichtlichen Preise pro Monat errechnet.
 lokal Pflege. Da kann man auch nochmal genau den Source ansehen, wie welche
 Funktion befüllt werden muss.  Und gerade weil das so schön .js ist, kann
 man das auch wunderbar in seinen Blog einbinden, cool mh?
-

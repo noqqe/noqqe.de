@@ -1,19 +1,16 @@
 ---
-title: "Online Banking mit LXC"
-date: 2013-11-08T18:00:00+02:00
-comments: true
+date: '2013-11-08T16:00:00'
 tags:
-- osbn
-- ubuntuusers
-- Debian
-- crypto
-- lxc
-- chromium
 - onlinebanking
-- bank
+- crypto
 - ssl
+- lxc
 - trust
+- chromium
+- debian
+- bank
 - certificates
+title: Online Banking mit LXC
 ---
 
 Das Thema Online Banking ist eines bei dem ich regelmäßig mit

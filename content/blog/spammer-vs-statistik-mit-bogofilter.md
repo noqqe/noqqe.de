@@ -1,26 +1,21 @@
 ---
-title: "Spammer vs. Statistik mit bogofilter"
-date: 2013-10-26T17:40:00+02:00
-comments: true
 aliases:
 - /blog/2013/10/26/spammer-vs-statistik-mit-bogofilter/
+date: '2013-10-26T15:40:00'
 tags:
-- Mail
-- Development
-- Administration
-- Stats
-- Spam
-- Bogofilter
-- Statistik
-- Stats
-- ubuntuusers
-- osbn
-- Bayesian
-- Filter
+- development
+- stats
+- spam
+- administration
+- filter
+- bayesian
 - maildrop
-- email
-- mail
 - bogo
+- mail
+- bogofilter
+- email
+- statistik
+title: Spammer vs. Statistik mit bogofilter
 ---
 
 Als ich [das letzte Mal](/blog/2012/12/08/spam/) über Spam schrieb wurde

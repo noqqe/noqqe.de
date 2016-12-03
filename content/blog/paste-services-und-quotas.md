@@ -1,16 +1,16 @@
 ---
-date: 2016-09-15T11:23:11+02:00
+date: '2016-09-15T09:23:11'
 tags:
-- bsd
 - openbsd
-- osbn
-- Paste
-- pastecat
-- pastebin
 - selfhosted
+- pastebin
+- pastecat
+- bsd
+- paste
 - linx-server
 title: PasteBins und Quotas
 ---
+
 Ich hatte längere Zeit einen kleinen Paste Daemon benutzt der
 [pastecat](https://github.com/mvdan/pastecat) heißt. Er war wunderbar.
 Hatte ein einfaches Interface mit Commandline Options, in Go geschrieben,

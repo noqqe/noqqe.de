@@ -1,18 +1,14 @@
 ---
-title: "mlmmj und OpenSMTPD unter Debian"
-date: 2014-05-29T11:24:00+02:00
-comments: true
+date: '2014-05-29T09:24:00'
 tags:
-- Debian
-- Mail
-- Administration
-- ubuntuusers
-- osbn
-- OpenSMTPD
-- Mailingliste
-- Debian
-- mlmmj
 - jessie
+- mailingliste
+- administration
+- opensmtpd
+- mlmmj
+- mail
+- debian
+title: mlmmj und OpenSMTPD unter Debian
 ---
 
 Für die Mailingliste der [k4cg](http://k4cg.org) zieht demnächst um. Weswegen
@@ -118,4 +114,3 @@ $ swaks --server 56.78.90.46 --to irgendwer@gmail.com --from noqqe@example.org
  -> QUIT
 <-  221 2.0.0: Bye
 ```
-

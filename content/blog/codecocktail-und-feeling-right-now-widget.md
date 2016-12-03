@@ -1,23 +1,22 @@
 ---
-date: 2009-02-01T15:28:50+02:00
-slug: codecocktail-und-feeling-right-now-widget
-comments: true
-title: CodeCocktail und "feeling right now" Widget
 aliases:
 - /archives/455
+date: '2009-02-01T13:28:50'
+slug: codecocktail-und-feeling-right-now-widget
 tags:
-- Development
-- Linux
-- bash
-- codecocktail
-- feeling
-- feeling right now
+- development
 - noqqe
-- random
 - shell
-- skript
-- variable
+- feeling right now
 - zufall
+- random
+- codecocktail
+- skript
+- linux
+- variable
+- feeling
+- bash
+title: CodeCocktail und "feeling right now" Widget
 ---
 
 Tag, ein paar ist es vielleicht schon aufgefallen, mittlerweile blogge ich

@@ -1,20 +1,18 @@
 ---
-date: 2009-11-30T22:24:46+02:00
-comments: true
-title: Hack | The Unix Forkbomb
 aliases:
 - /blog/2009/11/30/hack-the-unix-forkbomb
 - /archives/740
+date: '2009-11-30T20:24:46'
 tags:
-- Development
-- Linux
-- Shell
-- exploit
+- development
 - fork
-- forkbomb
+- shell
 - hack
-- Linux
+- forkbomb
 - unix
+- exploit
+- linux
+title: Hack | The Unix Forkbomb
 ---
 
 Eine der einfachsten Varianten ein unixoides Betriebssystem abzuschiessen

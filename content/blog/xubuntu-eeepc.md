@@ -1,16 +1,15 @@
 ---
-date: 2008-05-04T12:02:52+02:00
-slug: xubuntu-eeepc
-comments: true
-title: Xubuntu / EeePC
 aliases:
 - /archives/50
+date: '2008-05-04T10:02:52'
+slug: xubuntu-eeepc
 tags:
-- Hardware
-- Linux
-- Hardy Heron
+- hardware
+- hardy heron
 - xfce
 - xubuntu
+- linux
+title: Xubuntu / EeePC
 ---
 
 Zur Zeit überlege ich, ob ich mir ein Netbook zulege. Netbooks sind

@@ -1,27 +1,25 @@
 ---
-date: 2010-12-14T16:33:45+02:00
-comments: true
-title: 'Bash | Backup eines Files mit Zeitstempel in unkompliziert. '
 aliases:
 - /archives/1425
 - /blog/2010/12/14/bash-backup-eines-files-mit-zeitstempel-einfach-gemacht
+date: '2010-12-14T14:33:45'
 tags:
-- Shell
-- Development
-- Debian
-- Ubuntu
-- ubuntuusers
-- admins
-- backup
-- bashrc
+- development
+- function
+- shell
 - buf
 - commandline
 - commandlinefu
-- dirty
-- function
 - kommandozeile
-- quick
+- bashrc
+- admins
+- dirty
 - schnell
+- ubuntu
+- quick
+- backup
+- debian
+title: 'Bash | Backup eines Files mit Zeitstempel in unkompliziert. '
 ---
 
 [Auf eine besondere kleine Funktion](http://www.commandlinefu.com/commands/view/7292/backup-a-file-with-a-date-time-stamp)

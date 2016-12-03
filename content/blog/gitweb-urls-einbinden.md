@@ -1,21 +1,20 @@
 ---
-date: 2010-04-21T10:35:43+02:00
-comments: true
-title: Gitweb | URLs einbinden
 aliases:
 - /blog/2010/04/21/gitweb-urls-einbinden
 - /archives/987
+date: '2010-04-21T08:35:43'
 tags:
-- Development
-- Linux
-- clone
-- cloneurl
-- einbinden
-- einfügen
+- development
+- insert
 - git
 - gitweb
-- insert
 - url
+- clone
+- "einf\xFCgen"
+- cloneurl
+- linux
+- einbinden
+title: Gitweb | URLs einbinden
 ---
 
 Ich habe heute längerfristig das Web durchforsten müssen, wie ich eine URL

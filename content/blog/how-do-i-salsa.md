@@ -1,18 +1,14 @@
 ---
-date: 2016-02-14T21:19:42+01:00
+date: '2016-02-14T20:19:42'
 tags:
-- code
-- crypto
-- opensource
-- osbn
-- planetenblogger
-- ubuntuusers
-- blake2b
-- crypto
-- python
 - pynacl
-- nacl
+- code
 - salsa20
+- python
+- crypto
+- nacl
+- blake2b
+- opensource
 title: Python Crypto - How do I Stromchiffre?
 ---
 

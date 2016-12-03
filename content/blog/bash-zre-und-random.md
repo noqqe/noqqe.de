@@ -1,21 +1,19 @@
 ---
-date: 2010-10-19T20:35:18+02:00
-comments: true
-title: Bash | ZRE und $RANDOM
 aliases:
 - /blog/2010/10/19/bash-zre-und-random
 - /archives/1321
+date: '2010-10-19T18:35:18'
 tags:
-- Development
-- Shell
+- development
 - git
-- bash
-- humans
+- zufall
 - random
+- humans
+- zre
 - shell
 - zombies
-- zre
-- zufall
+- bash
+title: Bash | ZRE und $RANDOM
 ---
 
 Zugegeben, dieser ganze [Zombie-Sh!t](/archives/1314) unterhält mich

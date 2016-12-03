@@ -1,20 +1,19 @@
 ---
-date: 2009-03-07T11:34:58+02:00
-comments: true
-title: Blog | Random-Text-Pool
 aliases:
 - /blog/2009/03/07/blog-random-text-pool
 - /archives/538
+date: '2009-03-07T09:34:58'
 tags:
-- Development
-- Blog
-- Hardware
-- mysql
-- PHP
-- random
-- Spruch
+- development
+- hardware
 - text
 - zufall
+- random
+- blog
+- spruch
+- mysql
+- php
+title: Blog | Random-Text-Pool
 ---
 
 Seit gestern gibt's neben dem Zufalls-GIF auch noch das Widget

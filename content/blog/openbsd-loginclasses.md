@@ -1,14 +1,12 @@
 ---
-date: 2016-07-09T11:09:55+02:00
+date: '2016-07-09T09:09:55'
 tags:
-- administration
-- bsd
-- openbsd
-- osbn
-- ulimit
-- login
 - maxfiles
 - openbsd
+- ulimit
+- administration
+- bsd
+- login
 title: OpenBSD Login Classes
 ---
 

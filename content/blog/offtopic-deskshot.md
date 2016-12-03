@@ -1,28 +1,27 @@
 ---
-date: 2010-12-26T14:08:48+02:00
-comments: true
-title: Offtopic | Deskshot.
 aliases:
 - /blog/2010/12/26/offtopic-deskshot
 - /archives/1442
+date: '2010-12-26T12:08:48'
 tags:
-- Shell
-- Blog
-- Hardware
-- Linux
-- Web
 - camel active
-- Cherry
-- leatherman
-- Life nano
-- macbook
-- Phillips In-Ear Surround
-- regexp
+- hardware
+- shell
 - regular expressions
-- schreibtischlampe
-- skeletool CX
+- web
 - starwars
+- cherry
+- regexp
+- leatherman
+- phillips in-ear surround
+- blog
+- schreibtischlampe
+- skeletool cx
+- linux
 - zen vision m
+- life nano
+- macbook
+title: Offtopic | Deskshot.
 ---
 
 Früher oder später zeigt ja doch jeder mal seinen Desktop her. Hier ist meiner.

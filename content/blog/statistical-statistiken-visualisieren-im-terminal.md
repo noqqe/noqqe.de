@@ -1,30 +1,27 @@
 ---
-date: 2011-04-14T18:55:10+02:00
-comments: true
-title: statistical | Statistiken visualisieren im Terminal
 aliases:
 - /archives/1603
 - /blog/2011/04/14/statistical-statistiken-visualisieren-im-terminal
+date: '2011-04-14T16:55:10'
 tags:
-- Bash
-- Development
-- Debian
-- Blog
-- PlanetenBlogger
-- Mail
-- Ubuntu
-- Web
-- alice
-- bash
-- bob
+- development
+- web
 - git
-- konsole
-- linus
 - script
-- shell
-- Statistik
-- Statistiken
 - terminal
+- konsole
+- alice
+- blog
+- statistiken
+- shell
+- ubuntu
+- mail
+- bob
+- linus
+- debian
+- bash
+- statistik
+title: statistical | Statistiken visualisieren im Terminal
 ---
 
 Mir erschien es einen kurzen Moment lang für sinnvoll ein kleines Shell

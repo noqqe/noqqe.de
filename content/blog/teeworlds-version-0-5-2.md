@@ -1,14 +1,13 @@
 ---
-date: 2009-11-28T17:02:43+02:00
-comments: true
-title: Teeworlds | Version 0.5.2
 aliases:
 - /archives/721
 - /blog/2009/11/28/teeworlds-version-0-5-2
+date: '2009-11-28T15:02:43'
 tags:
-- Linux
-- Debian
-- Teeworlds
+- teeworlds
+- debian
+- linux
+title: Teeworlds | Version 0.5.2
 ---
 
 ![7](/uploads/2009/11/7.png)

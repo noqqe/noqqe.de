@@ -1,18 +1,17 @@
 ---
-date: 2010-05-20T20:03:32+02:00
-comments: true
-title: Bash | Linux und Scripting an meiner Schule
 aliases:
 - /blog/2010/05/20/bash-linux-und-scripting-an-meiner-schule
 - /archives/1005
+date: '2010-05-20T18:03:32'
 tags:
-- Development
-- Linux
-- Shell
-- bash
+- development
+- shell
 - schule
-- scripting
 - skript
+- bash
+- linux
+- scripting
+title: Bash | Linux und Scripting an meiner Schule
 ---
 
 Diese Woche war (bzw. ist immernoch, aber wenn ich in der Vergangenheit

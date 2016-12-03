@@ -1,18 +1,17 @@
 ---
-date: 2010-06-17T19:43:32+02:00
-comments: true
-title: Creative Commons | Freies Wissen und Inhalte
 aliases:
 - /blog/2010/06/17/creative-commons-freies-wissen-und-inhalte-auf-noqqe-de
 - /archives/1049
+date: '2010-06-17T17:43:32'
 tags:
-- Development
-- Blog
-- cc
-- cc-by-nc-sa
-- cc-network
+- development
 - creative commons
+- cc-by-nc-sa
+- cc
+- cc-network
 - freie inhalte
+- blog
+title: Creative Commons | Freies Wissen und Inhalte
 ---
 
 {{< figure src="http://i.creativecommons.net/p/noqqe/" >}}

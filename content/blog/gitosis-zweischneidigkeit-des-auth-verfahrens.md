@@ -1,28 +1,27 @@
 ---
-date: 2010-08-25T20:06:47+02:00
-comments: true
-title: Gitosis | Zweischneidigkeit des Auth-Verfahrens
 aliases:
 - /blog/2010/08/25/gitosis-zweischneidigkeit-des-auth-verfahrens
 - /archives/1208
+date: '2010-08-25T18:06:47'
 tags:
-- Development
-- Debian
-- Linux
-- auth
-- denied
+- development
 - deny
-- dsa
 - git
-- gitosis
-- gitosis-serve
-- problem
-- PTY allocation request failed on channel 0
-- publickey
 - pulic
-- rsa
-- ssh
 - sshlogin
+- linux
+- gitosis
+- auth
+- rsa
+- publickey
+- pty allocation request failed on channel 0
+- gitosis-serve
+- denied
+- problem
+- debian
+- ssh
+- dsa
+title: Gitosis | Zweischneidigkeit des Auth-Verfahrens
 ---
 
 Ein [Nachtrag](/archives/1175) und zugleich ein ganz besonders unschöner

@@ -1,21 +1,18 @@
 ---
-title: "cmddocs"
-date: 2015-01-24T10:23:00+02:00
-comments: true
+date: '2015-01-24T08:23:00'
 tags:
-- osbn
-- ubuntuusers
-- Development
-- OpenBSD
+- development
 - wiki
-- docs
-- python
 - git
-- markdown
+- openbsd
+- python
+- docs
 - gitit
 - haskell
-- openbsd
+- markdown
+title: cmddocs
 ---
+
 "Ich habe mein eigenes Wiki programmiert. So einfach ist das."
 
 {{< figure src="/uploads/2015/01/disturbing.jpg" >}}

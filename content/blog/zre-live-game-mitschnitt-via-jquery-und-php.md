@@ -1,29 +1,26 @@
 ---
-date: 2011-03-14T21:37:05+02:00
-comments: true
-title: ZRE | Live Game Mitschnitt via jQuery und PHP
 aliases:
 - /archives/1520
 - /blog/2011/03/14/zre-live-game-mitschnitt-via-jquery-und-php
+date: '2011-03-14T19:37:05'
 tags:
-- Bash
-- Development
-- Debian
-- Blog
-- Linux
-- PHP
-- PlanetenBlogger
-- Ubuntu
-- Web
-- environment
-- game
+- development
+- web
 - javascript
+- environment
 - jquery
-- Output
-- PHP
-- zombie
-- zombies
+- ubuntu
 - zre
+- blog
+- game
+- zombies
+- linux
+- output
+- php
+- zombie
+- debian
+- bash
+title: ZRE | Live Game Mitschnitt via jQuery und PHP
 ---
 
 Eine der Aufgaben, von denen ich wirklich wenig bis keine Ahnung habe, war die Umsetzung der Live Gamebox für ZRE. Die Anforderung hat mich ehrlich gesagt mal in die Nähe des Web2.0 Wahns getrieben, von dem ich mich sonst fernzuhalten versuche. Zumindest von Entwicklerseiten her.

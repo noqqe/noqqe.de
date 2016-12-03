@@ -1,30 +1,27 @@
 ---
-date: 2011-03-06T16:06:38+02:00
-comments: true
-title: ZRE | Zombie Revolution Environment. Im Web!
 aliases:
 - /archives/1500
 - /blog/2011/03/06/zre-zombie-revolution-environment-im-web
+date: '2011-03-06T14:06:38'
 tags:
-- Shell
-- Debian
-- Databases
-- Web
-- PlanetenBlogger
-- bash
-- brains
-- brainzz
-- commandline
-- emulator
-- html
-- PHP
-- R
-- revolution
+- web
+- r
 - shell
-- Statistik
+- revolution
+- brains
+- commandline
+- brainzz
 - zombie
-- zombies
 - zre
+- html
+- emulator
+- zombies
+- databases
+- php
+- debian
+- bash
+- statistik
+title: ZRE | Zombie Revolution Environment. Im Web!
 ---
 
 Demnächst könnte es unter Umständen zu einer Vielzahl von Posts kommen, die
@@ -73,4 +70,3 @@ git clone git://github.com/noqqe/zombie-revolution-environment.git
 cd zombie-revolution-environment
 ./zre.bash
 ```
-

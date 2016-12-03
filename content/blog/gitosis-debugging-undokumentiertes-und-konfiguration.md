@@ -1,36 +1,35 @@
 ---
-date: 2010-08-12T19:46:44+02:00
-comments: true
-title: Gitosis | Debugging, Undokumentiertes und Konfiguration
 aliases:
 - /blog/2010/08/12/gitosis-debugging-undokumentiertes-und-konfiguration
 - /archives/1175
+date: '2010-08-12T17:46:44'
 tags:
-- Development
-- Debian
-- accounting
-- debug
-- documentation
-- format
-- git
-- gitdaemon
-- gitosis
-- gitosis hacking
 - gitserver
-- gitweb
-- hack
-- hook
 - how to
-- keydir
-- loglevel
-- post-update
-- pubkey
-- public key
-- setup
-- subdirectories
+- hack
+- gitdaemon
 - subdirs
+- gitosis hacking
+- hook
+- post-update
+- accounting
+- git
+- gitosis
+- pubkey
+- development
+- subdirectories
+- gitweb
+- format
 - syntax
+- keydir
+- debian
+- loglevel
+- setup
+- documentation
 - unterordner
+- public key
+- debug
+title: Gitosis | Debugging, Undokumentiertes und Konfiguration
 ---
 
 Aktuell setze ich mich mit

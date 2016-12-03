@@ -1,17 +1,15 @@
 ---
-date: 2009-06-04T23:11:54+02:00
-comments: true
-title: Shell | File mit beliebiger Groesse erstellen
 aliases:
 - /blog/2009/06/04/shell-file-mit-beliebiger-groesse-erstellen
 - /archives/627
+date: '2009-06-04T21:11:54'
 tags:
-- Development
-- Linux
-- bash
+- development
 - dd
-- Linux
 - shell
+- bash
+- linux
+title: Shell | File mit beliebiger Groesse erstellen
 ---
 
 Manchmal kommt man nicht drum rum. Ich brauche ein File um etwas zu testen.
@@ -24,4 +22,3 @@ dd if=/dev/zero of=testfile.dat bs=1M count=30
 * bs=einheit
 * count=zähler der Einheit
 * 1M x 30 = 30 MB
-

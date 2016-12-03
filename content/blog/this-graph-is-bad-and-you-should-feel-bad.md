@@ -1,20 +1,18 @@
 ---
-title: "This graph is bad and you should feel bad!"
-date: 2013-01-25T22:02:00+02:00
-comments: true
+date: '2013-01-25T20:02:00'
 tags:
-- Stats
-- Shell
-- osbn
-- Web
-- Bash
-- Google
-- Google Charts
-- Twitter
-- Mordrate
-- USA
-- IE
-- Internet Explorer
+- web
+- shell
+- stats
+- usa
+- twitter
+- mordrate
+- google
+- internet explorer
+- ie
+- google charts
+- bash
+title: This graph is bad and you should feel bad!
 ---
 
 Vor kurzer Zeit ging ja dieser

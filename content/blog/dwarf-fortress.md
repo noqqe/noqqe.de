@@ -1,12 +1,10 @@
 ---
-title: "Dwarf Fortress"
-date: 2012-10-19T20:18:00+02:00
-comments: true
+date: '2012-10-19T18:18:00'
 tags:
-- Linux
+- book
 - games
-- Book
-- osbn
+- linux
+title: Dwarf Fortress
 ---
 
 {{< figure src="/uploads/2012/10/df.png" >}}

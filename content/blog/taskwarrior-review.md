@@ -1,13 +1,10 @@
 ---
-date: 2016-05-08T11:52:27+02:00
+date: '2016-05-08T09:52:27'
 tags:
 - openbsd
-- opensource
-- osbn
-- planetenblogger
-- ubuntuusers
 - python
 - accomplished
+- opensource
 title: Taskwarrior Review
 ---
 

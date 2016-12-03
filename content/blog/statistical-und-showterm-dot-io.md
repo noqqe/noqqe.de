@@ -1,23 +1,21 @@
 ---
-title: "statistical und showterm.io"
-date: 2013-09-03T21:20:00+02:00
-comments: true
-tags:
-- Stats
-- osbn
-- Shell
-- showterm
-- bash
-- ascii
-- terminal
-- recording
-- statistical
-- graph
-- barchart
-- bar
-- github
 aliases:
 - /blog/2013/09/03/statistical-und-showterm-dot-io
+date: '2013-09-03T19:20:00'
+tags:
+- recording
+- shell
+- stats
+- showterm
+- terminal
+- barchart
+- github
+- statistical
+- graph
+- bar
+- ascii
+- bash
+title: statistical und showterm.io
 ---
 
 Glaubt man dem `git log` wars wohl irgendwann 2011 als ich

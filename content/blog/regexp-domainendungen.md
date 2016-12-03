@@ -1,29 +1,26 @@
 ---
-date: 2010-04-13T20:07:32+02:00
-comments: true
-title: RegExp | Domainendungen
 aliases:
 - /blog/2010/04/13/regexp-domainendungen
 - /archives/983
+date: '2010-04-13T18:07:32'
 tags:
-- cat
-- Development
-- Linux
-- PlanetenBlogger
-- Shell
-- debian
-- domains
+- development
 - endungen
+- shell
 - grep
-- Linux
-- regexp
-- regular
 - regular expressions
-- sed
-- sort
 - tld
-- ubuntu
+- cat
+- sort
+- regular
+- linux
+- domains
+- regexp
+- sed
 - uniq
+- debian
+- ubuntu
+title: RegExp | Domainendungen
 ---
 
 Heute mal etwas weniger spektakulär. Das ist lustig, wenn ich sowas

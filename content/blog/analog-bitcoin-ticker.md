@@ -1,19 +1,16 @@
 ---
-title: "Analog BitCoin Ticker"
-date: 2014-03-08T13:39:00+02:00
-comments: true
+date: '2014-03-08T11:39:00'
 tags:
-- osbn
-- ubuntuusers
-- Hardware
+- arduino
 - bitcoin
 - meter
-- megabitmeter
-- arduino
+- hardware
 - currency
-- analog
 - api
+- megabitmeter
 - bitstamp
+- analog
+title: Analog BitCoin Ticker
 ---
 
 [BitCoin](https://bitcoin.org). Chefinnen von Trading-Sites werden

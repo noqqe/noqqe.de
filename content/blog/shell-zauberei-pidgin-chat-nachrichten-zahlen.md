@@ -1,24 +1,22 @@
 ---
-date: 2011-05-03T12:04:34+02:00
-slug: pidgin-chat-nachrichten-zahlen
-comments: true
-title: Pidgin Chat-Nachrichten zählen
 aliases:
 - /archives/1672
+date: '2011-05-03T10:04:34'
+slug: pidgin-chat-nachrichten-zahlen
 tags:
-- Shell
-- Development
-- Ubuntu
-- Web
-- chat
-- ICQ
-- libpurple
-- messages
-- nachrichten
-- pidgin
-- purble
+- development
+- web
 - shell
-- Shell-Zauberei
+- nachrichten
+- messages
+- pidgin
+- shell-zauberei
+- chat
+- ubuntu
+- icq
+- purble
+- libpurple
+title: "Pidgin Chat-Nachrichten z\xE4hlen"
 ---
 
 ### Code
@@ -47,4 +45,3 @@ auszugeben, nach Zeilen zu suchen die auf das Schema passen die dem einer
 "Nachricht gesendet" Zeile ähneln und sortiert, zählt und sortiert diese
 wieder. Vorrausgesetzt die Logfiles sind durch Pidgin im HTML Format
 abgespeichert.
-

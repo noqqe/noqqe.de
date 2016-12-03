@@ -1,27 +1,25 @@
 ---
-date: 2009-03-16T12:06:41+02:00
-comments: true
-title: Shell | TimeRobot - Strukturiertes/Zyklisches Backuppen ausgewählter Configs
-  und Skripts
 aliases:
 - /archives/548
 - /blog/2009/03/16/shell-timerobot-strukturiertes/zyklisches-backuppen-ausgew%C3%A4hlter-configs-und-skripts/
 - /blog/2009/03/16/shell-timerobot-strukturierteszyklisches-backuppen-ausgewahlter-configs-und-skripts
 - /blog/2009/03/16/shell--timerobot-strukturiertes/zyklisches-backuppen-ausgew%C3%A4hlter-configs-und-skripts/
+date: '2009-03-16T10:06:41'
 tags:
-- Development
-- Linux
-- backup
-- bash
-- config
-- debian
-- Linux
+- development
 - shell
+- backup
+- time
+- ubuntu
 - skript
 - structure
-- time
+- linux
 - timerobot
-- ubuntu
+- config
+- debian
+- bash
+title: "Shell | TimeRobot - Strukturiertes/Zyklisches Backuppen ausgew\xE4hlter Configs\
+  \ und Skripts"
 ---
 
 Aufgrund diverser Handling-Probleme mit RCS und anderen

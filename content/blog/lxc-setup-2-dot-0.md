@@ -1,16 +1,13 @@
 ---
-title: "LXC Setup 2.0"
-date: 2012-10-07T20:00:00+02:00
-comments: true
-tags:
-- ubuntuusers
-- osbn
-- Debian
-- Linux
-- Shell
-- LXC
 aliases:
 - /blog/2012/10/07/lxc-setup-2-dot-0
+date: '2012-10-07T18:00:00'
+tags:
+- shell
+- lxc
+- linux
+- debian
+title: LXC Setup 2.0
 ---
 
 Es ist ja nun schon etwas her... da hab ich über mein initales Setup der
@@ -153,4 +150,3 @@ Changelog
 * Cloning
 * Besseres Help
 * Einheitlicher Output
-

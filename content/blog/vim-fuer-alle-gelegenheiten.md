@@ -1,16 +1,12 @@
 ---
-date: 2015-10-09T16:29:14+02:00
+date: '2015-10-09T14:29:14'
 tags:
-- blog
 - development
 - devops
-- osbn
-- planetenblogger
-- ubuntuusers
 - vim
-- config
 - blog
-title: vim für alle Gelegenheiten
+- config
+title: "vim f\xFCr alle Gelegenheiten"
 ---
 
 Ich benutze vim für so gut wie alles. Blogposts, Mails, Notizen, Dokumentation, Skripte und Code.

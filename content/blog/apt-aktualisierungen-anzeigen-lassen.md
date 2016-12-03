@@ -1,28 +1,26 @@
 ---
-date: 2010-02-20T18:27:38+02:00
-comments: true
-title: Apt | Aktualisierungen anzeigen lassen
 aliases:
 - /archives/894
 - /blog/2010/02/20/apt-aktualisierungen-anzeigen-lassen
+date: '2010-02-20T16:27:38'
 tags:
-- Development
-- Linux
-- ubuntuusers
+- development
+- kernel
+- search
 - aktualisierungen
 - anzeigen
-- apt
-- apt-get
-- aptitude
-- debian
-- Kernel
-- list
-- search
 - show
-- ubuntu
+- list
 - update
-- updates
+- apt
 - upgrade
+- updates
+- aptitude
+- linux
+- apt-get
+- debian
+- ubuntu
+title: Apt | Aktualisierungen anzeigen lassen
 ---
 
 Für ein kleines Script, welches ich auf der Arbeit verwende, habe ich

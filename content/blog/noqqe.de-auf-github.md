@@ -1,13 +1,12 @@
 ---
-date: 2015-04-06T18:28:12+02:00
+date: '2015-04-06T16:28:12'
 tags:
-- blog
-- opensource
-- osbn
 - web
 - github
-- markdown
+- blog
 - rechtschreibfehler
+- markdown
+- opensource
 title: noqqe.de auf GitHub
 ---
 

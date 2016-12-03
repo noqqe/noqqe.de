@@ -1,17 +1,16 @@
 ---
-date: 2010-02-15T08:50:01+02:00
-comments: true
-title: Wordpress | Tags in Theme einbauen
 aliases:
 - /archives/886
 - /blog/2010/02/15/wordpress-tags-in-theme-einbauen
+date: '2010-02-15T06:50:01'
 tags:
-- Development
-- Blog
-- PHP
-- tagging
+- development
 - tags
+- blog
 - wordpress
+- php
+- tagging
+title: Wordpress | Tags in Theme einbauen
 ---
 
 Ich tagge ;). Und zwar In der Einzelansicht der (mehr oder minder) guten
@@ -23,4 +22,3 @@ Funktion von Wordpress:
 ```
 <?php the_tags('Tagging: ',' | ','<br/>'); ?>
 ```
-

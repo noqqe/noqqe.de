@@ -1,18 +1,15 @@
 ---
-date: 2010-01-30T16:53:04+02:00
-comments: true
-title: Offtopic | Reaktion Teeworlds-Setup
 aliases:
 - /blog/2010/01/30/offtopic-reaktion-teeworlds-setup
 - /archives/857
+date: '2010-01-30T14:53:04'
 tags:
-- Blog
-- Linux
-- PlanetenBlogger
 - c++
+- blog
+- linux
+- teeworlds
 - debian
-- Linux
-- Teeworlds
+title: Offtopic | Reaktion Teeworlds-Setup
 ---
 
 Am Freitag erreichte mich eine Mail.

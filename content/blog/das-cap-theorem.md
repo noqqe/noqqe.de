@@ -1,20 +1,19 @@
 ---
-title: "Das CAP Theorem"
-date: 2012-04-29T12:22:00+02:00
-comments: true
+date: '2012-04-29T10:22:00'
 tags:
-- Web
-- Databases
-- Code
-- Berkeley
-- CAP
-- Theory
-- Theorem
-- Databases
-- Datenbanken
-- Knoten
+- web
+- databases
+- code
+- theory
+- theorem
+- cap
 - wikipedia
+- knoten
+- datenbanken
+- berkeley
+title: Das CAP Theorem
 ---
+
 Das CAP Theorem ist mir das erste mal wirklich begegnet im Podcast
 [Binärgewitter #1
 NoSQL](http://www.radiotux.de/index.php?/archives/5497-Binaergewitter-1-NoSQL.html)
@@ -38,4 +37,3 @@ Links
 
 * [CAP Theorem - Wikipedia Deutsch](http://de.wikipedia.org/wiki/CAP-Theorem)
 * [CAP Theory - Wikipedia Englisch](http://en.wikipedia.org/wiki/CAP-Theory)
-

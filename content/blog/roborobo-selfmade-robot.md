@@ -1,23 +1,21 @@
 ---
-date: 2010-04-11T10:40:28+02:00
-comments: true
-title: roborobo | selfmade robot
 aliases:
 - /blog/2010/04/11/roborobo-selfmade-robot
 - /archives/977
+date: '2010-04-11T08:40:28'
 tags:
-- Development
-- Linux
-- PlanetenBlogger
-- Shell
-- backup
-- daemon
-- deb
-- debian
+- development
 - roborobo
+- daemon
+- shell
+- ubuntu
 - robot
 - sicherung
-- ubuntu
+- linux
+- deb
+- backup
+- debian
+title: roborobo | selfmade robot
 ---
 
 ![Robot-icon](/uploads/2010/04/Robot-icon.png) Auf dem Weg durch die

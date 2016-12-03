@@ -1,23 +1,19 @@
 ---
-date: 2009-12-01T11:57:37+02:00
-comments: true
-title: Wordpress | Feed bestimmter Kategorie generieren
 aliases:
 - /archives/752
 - /blog/2009/12/01/wordpress-feed-bestimmter-kategorie-generieren
+date: '2009-12-01T09:57:37'
 tags:
-- Development
-- Linux
-- Ubuntu
-- PHP
+- development
 - feed
-- kategorie
+- linux
 - planet
-- RSS
-- ubuntu
-- ubuntuusers
-- ubuntuusersplanet
 - wordpress
+- ubuntu
+- php
+- kategorie
+- rss
+title: Wordpress | Feed bestimmter Kategorie generieren
 ---
 
 ![ubuntuusers-logo](/uploads/2009/12/ubuntuusers-logo.serendipityThumb.png)
@@ -41,4 +37,3 @@ Artikel der definierten Kategorie auszuspucken.
 Das ist recht nice, weil ich Postings für den Planeten wahlweise nur in den
 Kategorien ankreuze und automatisch beim Planeten nur eben diese Artikel
 ankommen.
-

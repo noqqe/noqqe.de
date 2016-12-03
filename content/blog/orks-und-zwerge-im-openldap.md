@@ -1,15 +1,12 @@
 ---
-title: "Orks und Zwerge im OpenLDAP"
-date: 2013-02-23T12:25:00+02:00
-comments: true
+date: '2013-02-23T10:25:00'
 tags:
-- Debian
-- Bash
-- ubuntuusers
-- osbn
-- OpenLDAP
-- LDAP
-- Verzeichnisdienste
+- verzeichnisdienste
+- openldap
+- ldap
+- debian
+- bash
+title: Orks und Zwerge im OpenLDAP
 ---
 
 Ich setzte mich gerade wegen [LPIC 301](http://www.lpi.org/linux-certifications/programs/lpic-3/exam-301)

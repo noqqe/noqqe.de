@@ -1,8 +1,8 @@
 ---
-date: 2016-10-31T22:12:14+01:00
+date: '2016-10-31T21:12:14'
 tags:
-- code
 - web
+- code
 - magic
 title: Magic the Gathering - The Archivist
 ---
@@ -49,4 +49,3 @@ runterladen? Yaay!
 
     mkdir mercadian-masques
     ./archivist.py 'http://gatherer.wizards.com/Pages/Search/Default.aspx?action=advanced&set=+[%22Mercadian%20Masques%22]' mercadian-masques
-

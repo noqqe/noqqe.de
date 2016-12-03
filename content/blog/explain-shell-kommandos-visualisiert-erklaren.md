@@ -1,24 +1,21 @@
 ---
-date: 2010-08-29T22:31:32+02:00
-comments: true
-title: Explain | Shell-Kommandos visualisiert erklären
 aliases:
 - /blog/2010/08/29/explain-shell-kommandos-visualisiert-erklaren
 - /archives/1224
+date: '2010-08-29T20:31:32'
 tags:
-- Development
-- Ubuntu
-- ubuntuusers
-- bash
-- debian
+- development
+- python script
 - dokumentation
 - explain
 - find
-- png
-- python script
 - shell
+- png
 - ubuntu
 - vain
+- debian
+- bash
+title: "Explain | Shell-Kommandos visualisiert erkl\xE4ren"
 ---
 
 Neulich bin ich über das [github Profil](http://github.com/vain) von [Peter Hofmann](http://uninformativ.de)

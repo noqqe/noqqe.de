@@ -1,18 +1,16 @@
 ---
-date: 2011-08-25T19:00:33+02:00
-comments: true
-title: DeadDrop | Erlangen Kirchplatz
 aliases:
 - /blog/2011/08/25/deaddrop-erlangen-kirchplatz
 - /archives/1747
+date: '2011-08-25T17:00:33'
 tags:
-- Blog
-- Hardware
-- PlanetenBlogger
-- Aran Barthol
-- DeadDrop
-- DeadDrop Erlangen
-- Erlangen
+- erlangen
+- hardware
+- aran barthol
+- deaddrop
+- deaddrop erlangen
+- blog
+title: DeadDrop | Erlangen Kirchplatz
 ---
 
 Komme gerade vom ersten Versuch zurück, mich mal an einen

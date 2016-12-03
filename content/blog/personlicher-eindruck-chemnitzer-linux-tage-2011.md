@@ -1,26 +1,25 @@
 ---
-date: 2011-03-21T18:07:05+02:00
-comments: true
-title: Persönlicher Eindruck | Chemnitzer Linux Tage 2011
 aliases:
 - /blog/2011/03/21/personlicher-eindruck-chemnitzer-linux-tage-2011
 - /blog/2011/03/21/pers%C3%B6nlicher-eindruck--chemnitzer-linux-tage-2011/
 - /archives/1538
+date: '2011-03-21T16:07:05'
 tags:
-- clt
-- CLT2011
-- debian
-- Erfahrung
-- Event
-- git
-- Linux
-- Linux Tage
-- Linux Tage Chemnitz
-- opensource
 - opensuse
-- TeX
+- git
+- linux tage
 - tor
-- ZSH
+- tex
+- debian
+- linux tage chemnitz
+- clt2011
+- erfahrung
+- linux
+- clt
+- zsh
+- event
+- opensource
+title: "Pers\xF6nlicher Eindruck | Chemnitzer Linux Tage 2011"
 ---
 
 Nachdem mich die Vorträge letztes Jahr so beeindruckt haben, hab ich mich

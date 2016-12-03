@@ -1,16 +1,13 @@
 ---
-title: "mutt und mairix"
-date: 2013-03-18T22:00:00+02:00
-comments: true
+date: '2013-03-18T20:00:00'
 tags:
-- Mail
-- ubuntuusers
-- osbn
-- Stats
-- mutt
-- mairix
-- suche
 - index
+- stats
+- mutt
+- suche
+- mail
+- mairix
+title: mutt und mairix
 ---
 
 Ich war auf der Suche nach einem neuen Mailclient. Thunderbird
@@ -109,4 +106,3 @@ unset wait_key # do not require additional enter for shell commands
 Noch 2 Cronjobs für regelmäßiges mairix und offlineimap sync und alles ist
 entspannt.  Für Verbesserungsvorschläge und Inspirationen aus euren
 Mail-Setups bin ich wie immer gerne zu haben! :)
-

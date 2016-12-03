@@ -1,17 +1,15 @@
 ---
-title: "MacBook"
-date: 2014-09-25T18:34:00+02:00
-comments: true
+date: '2014-09-25T16:34:00'
 tags:
-- osbn
-- OpenBSD
-- OSX
-- macbook
-- apple
 - locate
+- osx
+- openbsd
+- apple
 - german
 - keyboard
 - layout
+- macbook
+title: MacBook
 ---
 
 Nachdem ich die letzte Zeit viele Betriebssysteme auf dem Thinkpad ausprobiert

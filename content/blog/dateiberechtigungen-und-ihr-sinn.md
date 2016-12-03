@@ -1,16 +1,15 @@
 ---
-date: 2008-05-23T11:55:05+02:00
-slug: dateiberechtigungen-und-ihr-sinn
-comments: true
-title: Dateiberechtigungen und ihr Sinn
 aliases:
 - /archives/63
+date: '2008-05-23T09:55:05'
+slug: dateiberechtigungen-und-ihr-sinn
 tags:
-- Hardware
-- Linux
-- shell
+- hardware
 - permissions
-- 755
+- shell
+- '755'
+- linux
+title: Dateiberechtigungen und ihr Sinn
 ---
 
 Neulich Abend hab ich mal wieder bisschen mit der Shell rumgespielt und mich gefragt was wohl im Detail die Ausgabe von

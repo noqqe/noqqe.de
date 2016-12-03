@@ -1,14 +1,13 @@
 ---
-date: 2008-12-23T14:51:04+02:00
-slug: unpack-200
-comments: true
-title: unpack 2.0.0
 aliases:
 - /archives/396
+date: '2008-12-23T12:51:04'
+slug: unpack-200
 tags:
-- Development
-- Blog
-- Linux
+- development
+- blog
+- linux
+title: unpack 2.0.0
 ---
 
 Morgen,

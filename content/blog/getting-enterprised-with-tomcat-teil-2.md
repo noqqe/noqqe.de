@@ -1,19 +1,17 @@
 ---
-title: "Getting enterprised with Tomcat - Teil 2"
-date: 2012-09-11T21:40:00+02:00
-comments: true
-tags:
-- Web
-- Administration
-- Shell
-- Tomcat
-- Code
-- Web
-- AJP
-- Webapp
-- LinuxHotel
 aliases:
 - /blog/2012/09/11/getting-enterprised-with-tomcat-teil-2/
+date: '2012-09-11T19:40:00'
+tags:
+- web
+- code
+- tomcat
+- ajp
+- linuxhotel
+- administration
+- shell
+- webapp
+title: Getting enterprised with Tomcat - Teil 2
 ---
 
 2 Tage der Schulung bzw. 14 Stunden die volle Java Object Klassen Dröhnung sind rum.

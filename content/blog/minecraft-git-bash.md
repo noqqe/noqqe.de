@@ -1,22 +1,19 @@
 ---
-date: 2011-07-04T20:42:09+02:00
-slug: minecraft-git-bash
-comments: true
-title: 'Minecraft + Git + Bash = <3'
 aliases:
 - /archives/1693
+date: '2011-07-04T18:42:09'
+slug: minecraft-git-bash
 tags:
-- Bash
-- ubuntuusers
-- Web
-- Autosave
-- bash
+- web
+- speichern
 - git
-- Minecraft
-- Minecraft and git
-- Minecraft und git
-- Save
-- Speichern
+- minecraft und git
+- autosave
+- save
+- minecraft
+- bash
+- minecraft and git
+title: Minecraft + Git + Bash = <3
 ---
 
 Seit mittlerweile erstaunlich langer Zeit spiele ich

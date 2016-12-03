@@ -1,13 +1,13 @@
 ---
-date: 2008-03-24T18:23:03+02:00
-slug: hallo-welt-2
-comments: true
-title: Blog Eröffnung!
 aliases:
 - /archives/421
+date: '2008-03-24T16:23:03'
+slug: hallo-welt-2
 tags:
-- Blog
+- blog
+title: "Blog Er\xF6ffnung!"
 ---
+
 Hallo,
 
 ich weis nicht wie viele Blog’s es schon zum Thema Linux Erfahrungen und

@@ -1,18 +1,15 @@
 ---
-date: 2016-03-20T14:36:09+01:00
+date: '2016-03-20T13:36:09'
 tags:
+- flume
+- yarn
 - administration
 - devops
-- linux
+- hive
+- bigdata
 - opensource
-- osbn
-- planetenblogger
-- ubuntuusers
-- Hive
-- BigData
-- Flume
-- Hadoop
-- Yarn
+- linux
+- hadoop
 title: Why BigData sucks.
 ---
 
@@ -101,4 +98,3 @@ Ich glaube, das Geschäftsfeld BigData braucht einfach Zeit. Zeit bis sich die
 gegangen sind. Bis Data Scientists & Developer nicht mehr gezwungen sind
 130 Tools zu evaluieren um Mehrwert zu generieren. Dann wird BigData
 annehmbar.
-

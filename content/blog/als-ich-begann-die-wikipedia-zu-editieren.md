@@ -1,16 +1,15 @@
 ---
-date: 2015-10-26T20:30:40+01:00
+date: '2015-10-26T19:30:40'
 tags:
-- openbsd
-- opensource
-- osbn
+- wiki
 - web
-- Wikipedia
-- Wiki
-- OpenSMTPD
-- NTPD
+- openbsd
 - ntp
 - openntpd
+- wikipedia
+- opensource
+- opensmtpd
+- ntpd
 title: Als ich begann die Wikipedia zu editieren.
 ---
 

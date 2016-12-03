@@ -1,25 +1,22 @@
 ---
-date: 2011-08-13T14:03:20+02:00
-slug: rot13-verschlusselung-in-bash
-comments: true
-title: ROT13 Verschlüsselung in Bash
 aliases:
 - /archives/1732
+date: '2011-08-13T12:03:20'
+slug: rot13-verschlusselung-in-bash
 tags:
-- /dev/radio
-- Bash
-- Development
-- Debian
-- Linux
-- ubuntuusers
-- bash
-- CCC
+- development
 - decryption
-- encryption
-- rot
-- rot13
+- /dev/radio
 - shell
+- encryption
+- rot13
+- ccc
+- linux
 - very simple encryption
+- rot
+- debian
+- bash
+title: "ROT13 Verschl\xFCsselung in Bash"
 ---
 
 Seit ich meinen neuen Arbeitsweg antrete und täglich ca eine Stunde im Zug

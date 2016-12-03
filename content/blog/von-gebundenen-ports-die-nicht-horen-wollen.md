@@ -1,23 +1,18 @@
 ---
-title: "Von gebundenen Ports die nicht hören wollen"
-date: 2014-11-27T21:45:00+02:00
-comments: true
 aliases:
 - /blog/2014/11/27/von-gebundenen-ports-die-nicht-h%C3%B6ren-wollen/
+date: '2014-11-27T19:45:00'
 tags:
-- ubuntuusers
-- osbn
-- Debian
-- Linux
-- Administration
+- suse
 - socket
-- network
 - bind
-- listen
-- Debian
+- administration
 - linux
 - sles
-- suse
+- listen
+- debian
+- network
+title: "Von gebundenen Ports die nicht h\xF6ren wollen"
 ---
 
 Ich komme immer mal wieder in die Verlegenheit in der Arbeit

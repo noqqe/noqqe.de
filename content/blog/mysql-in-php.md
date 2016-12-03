@@ -1,20 +1,19 @@
 ---
-date: 2009-02-18T22:12:43+02:00
-slug: mysql-in-php
-comments: true
-title: MySQL in PHP
 aliases:
 - /archives/496
+date: '2009-02-18T20:12:43'
+slug: mysql-in-php
 tags:
-- Development
-- Hardware
-- Linux
-- Databases
+- development
+- mysql
+- zufall
+- linux
 - abfrage
 - apache2
-- mysql
-- PHP
-- zufall
+- hardware
+- databases
+- php
+title: MySQL in PHP
 ---
 
 Zuerstmal, lief [mein Test über MySQL](http://seufz.wordpress.com/2009/02/12/a-byte-of-mysql-eine-kurzreferenz/)

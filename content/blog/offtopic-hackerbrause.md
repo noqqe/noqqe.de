@@ -1,22 +1,21 @@
 ---
-date: 2010-12-21T18:48:42+02:00
-comments: true
-title: Offtopic | Hackerbrause
 aliases:
 - /blog/2010/12/21/offtopic-hackerbrause
 - /archives/1431
+date: '2010-12-21T16:48:42'
 tags:
-- Blog
-- club
-- club-mate
-- geeks
-- getränk
 - hacker
-- k4cg
+- "getr\xE4nk"
+- club
+- geeks
+- "n\xFCrnberg"
+- blog
 - mate
+- k4cg
+- club-mate
 - nbg
 - nerds
-- nürnberg
+title: Offtopic | Hackerbrause
 ---
 
 Beim [K4CG](http://www.k4cg.org) den ich Letztens das zweite Mal besucht

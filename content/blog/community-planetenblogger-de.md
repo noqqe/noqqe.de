@@ -1,16 +1,14 @@
 ---
-date: 2010-03-01T19:23:26+02:00
-comments: true
-title: Community | Planetenblogger.de
 aliases:
 - /blog/2010/03/01/community-planetenblogger-de
 - /archives/920
+date: '2010-03-01T17:23:26'
 tags:
-- Blog
+- blog
 - planet
-- PlanetenBlogger
-- ubuntu
 - users
+- ubuntu
+title: Community | Planetenblogger.de
 ---
 
 Es zog sich <del>der hundertjährige Krieg</del> die hundertjährige

@@ -1,21 +1,19 @@
 ---
-date: 2009-11-29T18:20:03+02:00
-comments: true
-title: 'Theme | Clouds edited'
 aliases:
 - /archives/724
 - /blog/2009/11/29/theme-clouds-edited
+date: '2009-11-29T16:20:03'
 tags:
-- Development
-- Blog
-- PHP
-- cloud
+- development
 - creativ commons
-- minimal
-- PHP
+- blog
 - theme
-- wordpress theme
+- cloud
 - wp
+- wordpress theme
+- php
+- minimal
+title: Theme | Clouds edited
 ---
 
 Ich war auf der Suche nach einem Thema für den Blog hier. Was einreihiges.

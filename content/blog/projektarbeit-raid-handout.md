@@ -1,16 +1,15 @@
 ---
-date: 2008-11-09T20:54:14+02:00
-slug: projektarbeit-raid-handout
-comments: true
-title: 'Projektarbeit: RAID-Handout'
 aliases:
 - /archives/317
+date: '2008-11-09T18:54:14'
+slug: projektarbeit-raid-handout
 tags:
-- Hardware
-- Berufsschule
-- Projektarbeit
-- RAID
-- Referat
+- hardware
+- projektarbeit
+- raid
+- referat
+- berufsschule
+title: 'Projektarbeit: RAID-Handout'
 ---
 
 Nächste Woche ist schon Abgabe: Hier mal der Release Candidate :P

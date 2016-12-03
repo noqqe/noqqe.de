@@ -1,18 +1,18 @@
 ---
-title: "DaviCal, PostgreSQL und Apple Produkte"
-date: 2012-04-09T20:05:00+02:00
+date: '2012-04-09T18:05:00'
 tags:
-- Linux
-- Web
-- Apple
-- davical
+- web
+- apple
+- contacts
+- addressbook
+- app
 - caldav
 - carddav
-- postgres
 - ical
-- AddressBook
-- App
-- Contacts
+- linux
+- davical
+- postgres
+title: DaviCal, PostgreSQL und Apple Produkte
 ---
 
 Vor ewigen Zeiten hab ich mir mal ein eGroupware installiert. Es war schrecklich

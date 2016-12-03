@@ -1,12 +1,11 @@
 ---
-date: 2008-07-04T09:02:39+02:00
-slug: noqqede
-comments: true
-title: noqqe.de
 aliases:
 - /archives/102
+date: '2008-07-04T07:02:39'
+slug: noqqede
 tags:
-- Blog
+- blog
+title: noqqe.de
 ---
 
 Anstatt mir immer irgendwelche Abänderungen von Flo (flooohooo, Flooo, Fl0,

@@ -1,23 +1,21 @@
 ---
-date: 2010-09-19T16:09:00+02:00
-comments: true
-title: tismc | This is static markdown content!
 aliases:
 - /archives/1243
 - /blog/2010/09/19/tismc-this-is-static-markdown-content
+date: '2010-09-19T14:09:00'
 tags:
-- Development
-- Debian
-- PlanetenBlogger
-- Web
-- bash
-- content
+- development
+- web
 - cronjob
-- html
 - markdown
 - md
-- static
 - tismc
+- content
+- html
+- static
+- debian
+- bash
+title: tismc | This is static markdown content!
 ---
 
 Vorher noch nie gehört? Kann auch gar nicht sein.

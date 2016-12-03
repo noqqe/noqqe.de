@@ -1,13 +1,11 @@
 ---
-title: "Gitolite migrieren"
-date: 2012-11-30T20:25:00+02:00
-comments: true
+date: '2012-11-30T18:25:00'
 tags:
-- osbn
-- Debian
-- OpenBSD
 - git
+- openbsd
+- debian
 - gitolite
+title: Gitolite migrieren
 ---
 
 Eine der "Challenges" beim Umziehen auf die OpenBSD Kiste war auch, meine

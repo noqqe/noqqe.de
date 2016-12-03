@@ -1,20 +1,19 @@
 ---
-date: 2008-11-05T10:38:29+02:00
-slug: ide-festplatten-backups-und-skripte
-comments: true
-title: IDE Festplatten, Backups und Skripte
 aliases:
 - /archives/315
+date: '2008-11-05T08:38:29'
+slug: ide-festplatten-backups-und-skripte
 tags:
-- Development
-- Linux
-- Shell
-- Administration
-- backup
-- cron
+- development
+- shell
 - python
-- zwetschge
+- administration
 - zwetschge.org
+- cron
+- linux
+- zwetschge
+- backup
+title: IDE Festplatten, Backups und Skripte
 ---
 
 Zwetschge hat gestern eine zusätzliche Festplatte für Backups bekommen die

@@ -1,19 +1,18 @@
 ---
-title: "Switched to Octopress"
-date: 2012-03-05T21:22:00+02:00
-comments: true
+date: '2012-03-05T19:22:00'
 tags:
-- Web
-- Blog
-- Python
-- Ruby
-- Blogging
-- Posts
-- Framework
-- rvm
-- switched
+- web
 - exitwp
-- Wordpress
+- switched
+- python
+- posts
+- rvm
+- blog
+- framework
+- wordpress
+- ruby
+- blogging
+title: Switched to Octopress
 ---
 
 Hatte von [Octopress](http://octopress.org) gelesen. Dann nochmal im

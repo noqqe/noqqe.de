@@ -1,15 +1,13 @@
 ---
-title: "Gnome Terminator und Terminus Bitmap Font Rendering"
-date: 2012-10-19T19:50:00+02:00
-comments: true
+date: '2012-10-19T17:50:00'
 tags:
-- osbn
-- Shell
-- Linux
-- Terminal
-- Bash
-- Font
-- X11
+- shell
+- terminal
+- linux
+- x11
+- font
+- bash
+title: Gnome Terminator und Terminus Bitmap Font Rendering
 ---
 
 Mir wurde letzten Donnerstag vom

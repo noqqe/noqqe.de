@@ -1,21 +1,19 @@
 ---
-title: "ASCII Statistik Graphen mit Bash"
-date: 2012-04-01T11:11:00+02:00
-comments: true
+date: '2012-04-01T09:11:00'
 tags:
-- ubuntuusers
-- Shell
-- Web
-- Development
-- ascii
-- statistics
-- statistik
-- bash
+- development
+- web
+- shell
 - code
 - graph
-- chart
 - plot
+- chart
 - terminal
+- statistics
+- ascii
+- bash
+- statistik
+title: ASCII Statistik Graphen mit Bash
 ---
 
 [Vor einem Jahr](/blog/2011/04/14/statistical-statistiken-visualisieren-im-terminal/)

@@ -1,25 +1,23 @@
 ---
-title: "Privacy++"
-date: 2014-03-24T20:55:00+02:00
-comments: true
 aliases:
 - /blog/2014/03/24/privacy-plus-plus
+date: '2014-03-24T18:55:00'
 tags:
-- osbn
-- Blog
-- Development
-- privacy
-- openssl
-- ssl
+- development
 - jquery
-- google fonts
-- webfonts
-- selfhosted
-- startssl
-- tls
-- wget
-- pinboard
 - github
+- privacy
+- tls
+- pinboard
+- webfonts
+- openssl
+- selfhosted
+- blog
+- ssl
+- google fonts
+- wget
+- startssl
+title: Privacy++
 ---
 
 "Machste halt mal kurz SSL am Webserver an". So einfach ists halt leider

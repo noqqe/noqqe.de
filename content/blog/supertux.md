@@ -1,14 +1,13 @@
 ---
-date: 2008-06-27T17:09:24+02:00
-slug: supertux
-comments: true
-title: SuperTux!
 aliases:
 - /archives/87
+date: '2008-06-27T15:09:24'
+slug: supertux
 tags:
-- EEE-PC
-- Linux
-- SuperTux
+- supertux
+- eee-pc
+- linux
+title: SuperTux!
 ---
 
 Absolut in seinen Bann gezogen hat mich ja im moment

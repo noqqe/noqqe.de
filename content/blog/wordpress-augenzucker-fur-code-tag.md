@@ -1,22 +1,21 @@
 ---
-date: 2010-02-11T22:09:42+02:00
-comments: true
-title: Wordpress | Augenzucker für Code-Tag.
 aliases:
 - /archives/881
 - /blog/2010/02/11/wordpress-augenzucker-fur-code-tag
+date: '2010-02-11T20:09:42'
 tags:
-- Development
-- PHP
-- block
-- code
-- codeblock
-- css
+- development
 - style
+- code
 - sytnax
 - theme
 - wordpress
+- block
 - wp
+- php
+- css
+- codeblock
+title: "Wordpress | Augenzucker f\xFCr Code-Tag."
 ---
 
 EyeCandy mein ich. Auf

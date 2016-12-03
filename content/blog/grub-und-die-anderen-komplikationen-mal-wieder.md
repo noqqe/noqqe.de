@@ -1,14 +1,13 @@
 ---
-date: 2008-03-24T20:46:31+02:00
-slug: grub-und-die-anderen-komplikationen-mal-wieder
-comments: true
-title: Grub und andere Komplikationen...
 aliases:
 - /archives/6
+date: '2008-03-24T18:46:31'
+slug: grub-und-die-anderen-komplikationen-mal-wieder
 tags:
-- Hardware
-- Linux
-- Knoppix
+- hardware
+- knoppix
+- linux
+title: Grub und andere Komplikationen...
 ---
 
 Dank des genialen Einfalls eines Freundes Windows XP auf dem Linux-PC zu

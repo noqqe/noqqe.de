@@ -1,33 +1,31 @@
 ---
-date: 2011-10-02T23:58:50+02:00
-comments: true
-title: Statistiken | Einfache Graphen mit R und MySQL Anbindung
 aliases:
 - /blog/2011/10/02/statistiken-einfache-graphen-mit-r-und-mysql-anbindung
 - /archives/1780
+date: '2011-10-02T21:58:50'
 tags:
-- Bash
-- Development
-- Debian
-- Blog
-- Linux
-- Databases
-- Ubuntu
-- ubuntuusers
-- Web
-- analyse
-- anbindung
-- einfach
 - graphen
+- linux
 - mysql
-- R
-- sql
-- statistic
-- Statistik
+- einfach
+- statistik
+- web
 - stats
-- zombies
+- sql
+- anbindung
+- blog
 - zre
 - zufall
+- development
+- analyse
+- ubuntu
+- debian
+- bash
+- statistic
+- r
+- zombies
+- databases
+title: Statistiken | Einfache Graphen mit R und MySQL Anbindung
 ---
 
 [Immer mal wieder](/archives/1458) reizt mich die Programmiersprache für

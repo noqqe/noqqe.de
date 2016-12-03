@@ -1,12 +1,11 @@
 ---
-date: 2016-05-16T11:13:02+02:00
+date: '2016-05-16T09:13:02'
 tags:
-- rvo
-- code
-- crypto
 - development
-- osbn
+- code
 - python
+- rvo
+- crypto
 - cmddocs
 title: rvo
 ---

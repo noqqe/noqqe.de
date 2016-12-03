@@ -1,19 +1,15 @@
 ---
-title: "Tabellen aus R mit knitr und TeX"
-date: 2013-08-03T13:21:00+02:00
-comments: true
+date: '2013-08-03T11:21:00'
 tags:
-- Stats
-- ubuntuusers
-- osbn
-- Development
-- R
-- Stats
-- Statistik
-- TeX
-- LaTeX
-- PDF
-- Markdown
+- development
+- latex
+- markdown
+- stats
+- tex
+- r
+- pdf
+- statistik
+title: Tabellen aus R mit knitr und TeX
 ---
 
 Eines der Dinge die `R` wirklich gut kann ist Daten darstellen. Gerade im

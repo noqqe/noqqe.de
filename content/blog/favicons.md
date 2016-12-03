@@ -1,17 +1,15 @@
 ---
-title: "Favicons"
-date: 2012-11-04T11:40:00+02:00
-comments: true
+date: '2012-11-04T09:40:00'
 tags:
-- OpenSource
-- Web
-- Debian
-- osbn
+- web
 - favicons
-- Browser
-- Blog
-- Site
-- WWW
+- site
+- blog
+- opensource
+- www
+- debian
+- browser
+title: Favicons
 ---
 
 Favicons. Wer trotz der Überschrift beschlossen hat sich den Post durchzulesen
@@ -35,4 +33,3 @@ schön... anders seitdem ich es das letzte Mal angefasst hab.
 {{< figure src="/uploads/2012/11/browserbar.png" >}}
 
 h00ray!
-

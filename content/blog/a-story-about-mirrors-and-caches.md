@@ -1,24 +1,20 @@
 ---
-title: "A Story about Mirrors and Caches"
-date: 2013-08-31T19:01:00+02:00
-comments: true
+date: '2013-08-31T17:01:00'
 tags:
-- Debian
-- DevOps
-- Administration
-- apt
-- apt-cacher-ng
-- Updates
-- Ubuntuusers
-- puppet
-- mirror
-- cache
-- lxc
-- linuxcontaier
 - linux
 - kernel
-- osbn
-- ubuntuusers
+- cache
+- linuxcontaier
+- apt-cacher-ng
+- administration
+- devops
+- apt
+- puppet
+- updates
+- mirror
+- lxc
+- debian
+title: A Story about Mirrors and Caches
 ---
 
 [LinuxContainer](http://lxc.sourceforge.net/) sind für mich Wegwerfartikel.

@@ -1,21 +1,18 @@
 ---
-title: "Paying 5 bucks a month for stupid statistics?"
-date: 2012-07-02T21:00:00+02:00
-comments: true
+date: '2012-07-02T19:00:00'
 tags:
-- planetenblogger
-- Debian
-- Shell
-- Web
-- Stats
-- Sport
-- runkeeper
+- web
+- bars
+- shell
+- stats
 - gnuplot
+- plot
 - barchart
 - linechart
-- plot
-- bars
-- stats
+- sport
+- runkeeper
+- debian
+title: Paying 5 bucks a month for stupid statistics?
 ---
 
 Seit ich angefangen habe Ausflüge durch Wälder und anderem grobem Gelände mit

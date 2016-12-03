@@ -1,14 +1,12 @@
 ---
-title: "Wie der Zufall so will."
-date: 2012-12-28T20:15:00+02:00
-comments: true
+date: '2012-12-28T18:15:00'
 tags:
-- ubuntuusers
-- Shell
-- Stats
-- Bash
-- Random
-- Zufall
+- shell
+- stats
+- zufall
+- random
+- bash
+title: Wie der Zufall so will.
 ---
 
 Ab und zu stößt man auf etwas und fragt sich "Wie kommt das eigentlich zu

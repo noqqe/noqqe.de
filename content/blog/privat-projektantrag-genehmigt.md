@@ -1,16 +1,15 @@
 ---
-date: 2009-03-27T14:15:35+02:00
-comments: true
-title: Privat | Projektantrag genehmigt
 aliases:
 - /blog/2009/03/27/privat-projektantrag-genehmigt
 - /archives/574
+date: '2009-03-27T12:15:35'
 tags:
+- it-systemkaufmann
+- projektarbeit
 - fachinformatiker
 - it
-- it-systemkaufmann
 - projektantrag
-- Projektarbeit
+title: Privat | Projektantrag genehmigt
 ---
 
 Eigentlich hatte ich mich ja schon aufgrund fehlender kaufmännischer

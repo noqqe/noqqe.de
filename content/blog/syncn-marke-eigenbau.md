@@ -1,24 +1,22 @@
 ---
-date: 2009-01-09T00:16:13+02:00
-slug: syncn-marke-eigenbau
-comments: true
-title: syncN - Marke Eigenbau
 aliases:
 - /archives/416
 - /blog/2009/01/09/syncn-marke-eigenbau/
+date: '2009-01-08T22:16:13'
+slug: syncn-marke-eigenbau
 tags:
-- Development
-- Linux
-- bash
-- debian
-- Linux
-- script
-- server
+- development
 - shell
+- script
+- sync
+- server
+- syncn
 - shell skript
+- linux
 - skript
-- Sync
-- SyncN
+- debian
+- bash
+title: syncN - Marke Eigenbau
 ---
 
 Morgen, habe heute Abend versucht eine Lösung zu finden meine

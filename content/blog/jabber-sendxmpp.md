@@ -1,21 +1,20 @@
 ---
-date: 2009-05-09T19:28:30+02:00
-comments: true
-title: Jabber | sendXMPP
 aliases:
 - /archives/606
 - /blog/2009/05/09/jabber-sendxmpp
+date: '2009-05-09T17:28:30'
 tags:
-- Development
-- Hardware
-- Linux
-- backup
-- jabber
-- timerobot
-- unpack
+- development
 - xmpp
+- jabber
 - zwetschge
 - zwetschge.org
+- hardware
+- linux
+- timerobot
+- unpack
+- backup
+title: Jabber | sendXMPP
 ---
 
 Bis noch für kurzem hielt ich Jabber und das XMPP Protocol eher für eine

@@ -1,16 +1,13 @@
 ---
-title: "Deadly 30 unter Debian Squeeze 64bit"
-date: 2012-05-06T21:51:00+02:00
-comments: true
+date: '2012-05-06T19:51:00'
 tags:
-- ubuntuusers
-- Linux
-- Web
-- Debian
-- linux
-- game
+- web
 - shooter
 - 2d
+- game
+- linux
+- debian
+title: Deadly 30 unter Debian Squeeze 64bit
 ---
 
 Gerade von [Deadly 30](http://www.deadly30.com/index.php) gelesen. Linux Version

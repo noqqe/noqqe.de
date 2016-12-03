@@ -1,17 +1,15 @@
 ---
-date: 2008-09-30T10:15:48+02:00
-slug: rip-zwetschgeorg-30092008
-comments: true
-title: R.I.P zwetschge.org 30.09.2008
 aliases:
 - /archives/282
+date: '2008-09-30T08:15:48'
+slug: rip-zwetschgeorg-30092008
 tags:
-- Hardware
-- Linux
-- debian
-- Linux
-- RIP
+- hardware
 - zwetschge
+- debian
+- rip
+- linux
+title: R.I.P zwetschge.org 30.09.2008
 ---
 
 Mehreren Ext3 Errors zum Opfergefallen :(

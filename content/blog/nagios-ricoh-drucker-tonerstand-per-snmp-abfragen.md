@@ -1,24 +1,22 @@
 ---
-date: 2010-06-24T21:32:29+02:00
-comments: true
-title: Nagios | Ricoh-Drucker Tonerstand per SNMP abfragen
 aliases:
 - /blog/2010/06/24/nagios-ricoh-drucker-tonerstand-per-snmp-abfragen
 - /archives/1066
+date: '2010-06-24T19:32:29'
 tags:
-- Blog
-- Linux
-- PlanetenBlogger
-- Administration
-- DevOps
-- auffüllen
-- drucker
-- nagios
-- ricoh
-- snmp
-- stand
 - status
+- drucker
+- snmp
 - toner
+- administration
+- devops
+- nagios
+- blog
+- ricoh
+- stand
+- linux
+- "auff\xFCllen"
+title: Nagios | Ricoh-Drucker Tonerstand per SNMP abfragen
 ---
 
 [Schon wieder Nagios](http://zwetschge.org/blog/?p=954). Diesmal aber nur

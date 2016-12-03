@@ -1,14 +1,13 @@
 ---
-date: 2009-09-24T22:21:22+02:00
-comments: true
-title: Python | cryzed bashing
 aliases:
 - /blog/2009/09/24/python-cryzed-bashing
 - /archives/665
+date: '2009-09-24T20:21:22'
 tags:
-- Development
-- cryzed
+- development
 - python
+- cryzed
+title: Python | cryzed bashing
 ---
 
 nerd-battle

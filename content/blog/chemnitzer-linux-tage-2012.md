@@ -1,17 +1,15 @@
 ---
-title: "Chemnitzer Linux Tage 2012"
-date: 2012-03-22T20:16:00+02:00
-comments: true
+date: '2012-03-22T18:16:00'
 tags:
-- Linux
-- Events
-- Chemnitz
-- Chemnitzer Linux Tage
-- Linux
-- Event
-- Debian
-- Debian Stand
-- XFCE
+- debian stand
+- chemnitzer linux tage
+- debian
+- linux
+- events
+- xfce
+- event
+- chemnitz
+title: Chemnitzer Linux Tage 2012
 ---
 
 Mittlerweile das 3. Jahr, dass ich mich bei den Chemnitzer Linux Tagen habe
@@ -51,4 +49,3 @@ hat war wenig neues dabei.
 * [LinuXContainer in der Praxis](http://chemnitzer.linux-tage.de/2012/vortraege/1035)
 Fand ich persönlich vortragstechnisch und inhaltlich den besten Vortrag. Bin
 auch schon 2 Stunden am basteln damit, wenn ich schonmal Urlaub habe.
-

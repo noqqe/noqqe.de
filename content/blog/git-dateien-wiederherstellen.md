@@ -1,24 +1,23 @@
 ---
-date: 2010-08-18T21:53:13+02:00
-comments: true
-title: 'Git | Dateien wiederherstellen '
 aliases:
 - /blog/2010/08/18/git-dateien-wiederherstellen
 - /archives/1201
+date: '2010-08-18T19:53:13'
 tags:
-- Development
-- checkout
-- datei
-- dateien
+- development
 - files
+- head
 - git
-- git checkout
-- HEAD
-- recover
+- "zur\xFCckholen"
 - retten
+- git checkout
 - verloren
 - wiederherstellen
-- zurückholen
+- datei
+- recover
+- checkout
+- dateien
+title: 'Git | Dateien wiederherstellen '
 ---
 
 Versehentlich gelöschte Dateien recovern. Schön wenn einem dann klar wird,

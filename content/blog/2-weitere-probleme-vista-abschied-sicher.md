@@ -1,18 +1,17 @@
 ---
-date: 2008-05-31T12:06:30+02:00
-slug: 2-weitere-probleme-vista-abschied-sicher
-comments: true
-title: 2 weitere Probleme. Bye Bye Vista.
 aliases:
 - /archives/66
+date: '2008-05-31T10:06:30'
+slug: 2-weitere-probleme-vista-abschied-sicher
 tags:
-- Hardware
-- Linux
-- debian
-- ubuntu
-- Vista
+- vista
 - windows
-- XP
+- linux
+- hardware
+- ubuntu
+- xp
+- debian
+title: 2 weitere Probleme. Bye Bye Vista.
 ---
 
 Mittlerweile steht ein Umstieg auf meinem Hauptrechner fest. Folgende

@@ -1,20 +1,18 @@
 ---
-title: "*.wma zu *.mp3"
-date: 2012-07-29T17:39:00+02:00
-comments: true
-tags:
-- planetenblogger
-- Web
-- Debian
-- Bash
-- lame
-- mp3
-- wma
-- convert
-- konvertieren
-- konvertierung
 aliases:
 - /blog/2012/07/29/star-dot-wma-zu-star-dot-mp3
+date: '2012-07-29T15:39:00'
+tags:
+- web
+- convert
+- lame
+- konvertierung
+- konvertieren
+- mp3
+- wma
+- debian
+- bash
+title: '*.wma zu *.mp3'
 ---
 
 Man denkt ja immer "Gott, wie viele von diesen $MUSIKFORMAT_A zu $MUSIKFORMAT_B

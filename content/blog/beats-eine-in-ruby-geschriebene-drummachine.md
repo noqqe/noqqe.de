@@ -1,20 +1,19 @@
 ---
-date: 2011-05-22T20:38:54+02:00
-comments: true
-title: Beats | Eine in Ruby geschriebene Drummachine
 aliases:
 - /blog/2011/05/22/beats-eine-in-ruby-geschriebene-drummachine
 - /archives/1680
+date: '2011-05-22T18:38:54'
 tags:
-- Shell
-- Development
-- bash
-- beats
-- drummachine
-- drums
-- random
-- ruby
+- development
 - sound
+- shell
+- ruby
+- random
+- beats
+- drums
+- drummachine
+- bash
+title: Beats | Eine in Ruby geschriebene Drummachine
 ---
 
 Neulich habe ich voller Begeisterung das

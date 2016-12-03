@@ -1,26 +1,23 @@
 ---
-date: 2010-01-15T17:40:04+02:00
-comments: true
-title: Offtopic | Das verlorene Kind...ahm, Passwort
 aliases:
 - /blog/2010/01/15/offtopic-das-verlorene-kind-ahm-passwort
 - /archives/849
+date: '2010-01-15T15:40:04'
 tags:
-- Blog
-- Linux
-- OSX
-- adium
-- Error
-- ICQ
-- icq
-- Linux
-- login
-- Mac
-- password
-- pidgin
-- Protocol
-- protokoll
+- linux
+- osx
+- protocol
 - windows
+- adium
+- pidgin
+- blog
+- mac
+- error
+- protokoll
+- icq
+- password
+- login
+title: Offtopic | Das verlorene Kind...ahm, Passwort
 ---
 
 Mich verwunderte heute die Konnektierung zu meinem ICQ Account. Anstatt einer Hand

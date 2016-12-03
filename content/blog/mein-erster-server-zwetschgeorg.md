@@ -1,14 +1,13 @@
 ---
-date: 2008-09-12T16:22:15+02:00
-slug: zwetschgeorg
-comments: true
-title: zwetschge.org
 aliases:
 - /archives/235
+date: '2008-09-12T14:22:15'
+slug: zwetschgeorg
 tags:
-- debian
 - linxu
+- debian
 - zwetschge.org
+title: zwetschge.org
 ---
 
 Ist zwar nur ein virtueller Server (mit

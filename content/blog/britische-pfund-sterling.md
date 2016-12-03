@@ -1,20 +1,17 @@
 ---
-title: "Britische Pfund Sterling"
-date: 2013-06-17T20:45:00+02:00
-comments: true
+date: '2013-06-17T18:45:00'
 tags:
-- ubuntuusers
-- osbn
-- Development
-- Stats
-- Pfund
-- Euro
-- Kurs
-- R
-- Statistik
-- CSV
-- XML
-- EZB
+- development
+- pfund
+- csv
+- stats
+- xml
+- r
+- statistik
+- kurs
+- ezb
+- euro
+title: Britische Pfund Sterling
 ---
 
 Im Juli werde ich wohl etwas Sightseeing auf den britischen Inseln betreiben.

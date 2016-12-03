@@ -1,16 +1,14 @@
 ---
-title: "Spam"
-date: 2012-12-08T13:12:00+02:00
-comments: true
+date: '2012-12-08T11:12:00'
 tags:
-- Mail
-- Stats
-- osbn
-- Uberspace
-- Spam
-- Statistik
-- bash
+- stats
+- spam
 - grep
+- mail
+- uberspace
+- bash
+- statistik
+title: Spam
 ---
 
 Ich wollte mich noch nie selber um meine Mails kümmern. Rumkonfigurieren,

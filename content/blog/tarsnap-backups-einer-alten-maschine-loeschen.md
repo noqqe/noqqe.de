@@ -1,19 +1,16 @@
 ---
-date: 2015-06-14T18:25:54+02:00
+date: '2015-06-14T16:25:54'
 tags:
-- administration
-- bash
-- bsd
-- crypto
-- opensource
-- osbn
-- planetenblogger
 - shell
-- ubuntuusers
-- Backup
-- Tarsnap
+- administration
+- crypto
 - remove
-title: Tarsnap Backups einer alten Maschine löschen
+- opensource
+- bsd
+- tarsnap
+- backup
+- bash
+title: "Tarsnap Backups einer alten Maschine l\xF6schen"
 ---
 
 Seit einiger Zeit verwende ich [tarsnap](https://tarsnap.com) als Backup auf

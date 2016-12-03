@@ -1,21 +1,17 @@
 ---
-title: "Useful use of cat"
-date: 2013-09-08T20:28:00+02:00
-comments: true
+date: '2013-09-08T18:28:00'
 tags:
-- osbn
-- ubuntuusers
-- Development
-- Shell
-- Linux
-- cat
-- useless
+- development
+- shell
 - useful
 - use
-- bash
+- cat
 - unix
-- shell
+- useless
+- linux
+- bash
 - usability
+title: Useful use of cat
 ---
 
 Eine dieser langen Traditionen unter Unix Usern ist es über

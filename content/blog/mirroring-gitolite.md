@@ -1,18 +1,15 @@
 ---
-title: "Mirroring gitolite"
-date: 2013-02-17T20:14:00+02:00
-comments: true
+date: '2013-02-17T18:14:00'
 tags:
-- ubuntuusers
-- osbn
-- DevOps
-- Administration
-- Shell
 - git
-- gitolite
-- debian
 - slave
+- administration
+- devops
+- gitolite
+- shell
 - mirror
+- debian
+title: Mirroring gitolite
 ---
 
 [gitolite](https://github.com/sitaramc/gitolite) hat einen eingebauten

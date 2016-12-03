@@ -1,15 +1,14 @@
 ---
-date: 2015-09-12T14:47:14+02:00
+date: '2015-09-12T12:47:14'
 tags:
-- network
-- opensource
-- osbn
-- shell
+- multi user dungeon
 - web
-- MUD
-- Games
-- RPG
-- Multi User Dungeon
+- shell
+- network
+- mud
+- games
+- opensource
+- rpg
 title: Multi User Dungeons
 ---
 

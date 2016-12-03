@@ -1,14 +1,12 @@
 ---
-date: 2015-04-06T18:16:25+02:00
+date: '2015-04-06T16:16:25'
 tags:
-- bash
 - development
-- osbn
-- ubuntuusers
 - web
-- bookmarks
 - pinboard
 - bm
+- bookmarks
+- bash
 title: Bookmarks
 ---
 
@@ -72,4 +70,3 @@ Ich weiss von ein paar Leuten, dass Sie den RSS Feed meines Pinboard
 Profils lesen. Für den Moment wird es dort keine neuen Dinge geben.
 Eventuell bastle ich mich in `Python` ein kleines Skript dass meine
 Bookmarks regelmäßig in RSS giesst. Da schau ich aber erstmal.
-

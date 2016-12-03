@@ -1,14 +1,13 @@
 ---
-date: 2010-04-24T10:44:11+02:00
-comments: true
-title: Git | Workflow und Branching
 aliases:
 - /blog/2010/04/24/git-workflow-und-branching
 - /archives/998
+date: '2010-04-24T08:44:11'
 tags:
+- development
 - git
 - workflow
-- Development
+title: Git | Workflow und Branching
 ---
 
 ![git-logo](/uploads/2010/02/git-logo.png)

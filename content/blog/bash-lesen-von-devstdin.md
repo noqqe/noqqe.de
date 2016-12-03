@@ -1,22 +1,19 @@
 ---
-date: 2010-12-01T20:27:18+02:00
-comments: true
-title: Bash | Lesen von /dev/stdin
 aliases:
 - /blog/2010/12/01/bash-lesen-von-devstdin
 - /archives/1402
+date: '2010-12-01T18:27:18'
 tags:
-- Bash
-- Development
+- development
 - git
-- Linux
-- PlanetenBlogger
-- /dev/stdin
-- bash
-- lesen
-- read
 - script
+- read
+- /dev/stdin
 - shell
+- linux
+- lesen
+- bash
+title: Bash | Lesen von /dev/stdin
 ---
 
 Gestern hat mich eine Idee für ein Skript beschäftigt. Im Detail wollte ich

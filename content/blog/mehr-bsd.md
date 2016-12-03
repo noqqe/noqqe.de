@@ -1,23 +1,20 @@
 ---
-title: "Mehr BSD, Bye Uberspace"
-date: 2014-06-19T17:20:00+02:00
-comments: true
+date: '2014-06-19T15:20:00'
 tags:
-- Mail
-- osbn
-- BSD
-- OpenBSD
-- Linux
-- Uberspace
-- imapfilter
-- mailbox
-- bogofilter
-- dns
-- blog
-- domain
-- apache
+- openbsd
 - nginx
-- osbn
+- domain
+- mailbox
+- blog
+- apache
+- dns
+- linux
+- bsd
+- mail
+- bogofilter
+- imapfilter
+- uberspace
+title: Mehr BSD, Bye Uberspace
 ---
 
 Ab und an passiert es, dass Dinge die einfach funktionieren anfangen mich

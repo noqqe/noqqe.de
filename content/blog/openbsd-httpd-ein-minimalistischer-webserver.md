@@ -1,19 +1,17 @@
 ---
-layout: post
-title: "OpenBSD httpd"
-date: 2014-09-27T14:30:00+02:00
-comments: true
 aliases:
 - /blog/2014/09/27/openbsd-httpd-ein-minimalistischer-webserver
 - /blog/2014/09/27/openbsd-httpd
+date: '2014-09-27T12:30:00'
+layout: post
 tags:
 - httpd
-- OpenBSD
-- ubuntuusers
-- osbn
-- Base
+- openbsd
 - webserver
+- base
+title: OpenBSD httpd
 ---
+
 [Reyk Floeter](https://twitter.com/reykfloeter) hat zuletzt begonnen seinen
 [relayd](http://bsd.plumbing) zu forken und einen minimalistischen Webserver
 daraus zu bauen. Langfristig soll

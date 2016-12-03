@@ -1,19 +1,18 @@
 ---
-date: 2010-11-08T19:22:13+02:00
-comments: true
-title: ASCII | Star Wars via Telnet
 aliases:
 - /archives/1351
 - /blog/2010/11/08/ascii-starwars-via-telnet
+date: '2010-11-08T17:22:13'
 tags:
-- art
-- ascii
-- asciiart
-- blinkenlights
-- star
 - star wars
-- telnet
+- art
 - wars
+- telnet
+- blinkenlights
+- asciiart
+- star
+- ascii
+title: ASCII | Star Wars via Telnet
 ---
 
 13 Jahre arbeitet anscheinend jemand bereits an einen Remake von Star Wars

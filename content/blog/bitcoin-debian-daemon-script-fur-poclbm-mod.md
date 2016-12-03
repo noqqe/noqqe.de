@@ -1,20 +1,16 @@
 ---
-date: 2011-06-12T13:09:28+02:00
-comments: true
-title: BitCoin | Debian Daemon Script für poclbm-mod
 aliases:
 - /blog/2011/06/12/bitcoin-debian-daemon-script-fur-poclbm-mod
 - /archives/1689
+date: '2011-06-12T11:09:28'
 tags:
-- Bash
-- Debian
-- Ubuntu
-- ubuntuusers
-- Crypto
-- BitCoin
-- debian
-- Mining
+- mining
+- crypto
+- bitcoin
 - ubuntu
+- debian
+- bash
+title: "BitCoin | Debian Daemon Script f\xFCr poclbm-mod"
 ---
 
 Man muss Dinge über Hirnschäden von Menschen lesen die

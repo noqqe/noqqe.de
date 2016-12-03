@@ -1,25 +1,23 @@
 ---
-date: 2010-06-26T15:52:33+02:00
-comments: true
-title: Theme | nerd-clouds
 aliases:
 - /archives/1071
 - /blog/2010/06/26/theme-nerd-clouds
+date: '2010-06-26T13:52:33'
 tags:
-- Development
-- Linux
-- PlanetenBlogger
-- Blog
-- PHP
+- development
 - geek
-- geeky
-- minimal
 - minimalistic
-- nerd
-- nerdy
 - theme
-- wordpress
 - wp-theme
+- blog
+- geeky
+- nerdy
+- linux
+- wordpress
+- php
+- nerd
+- minimal
+title: Theme | nerd-clouds
 ---
 
 Als ich damals das Theme [Clouds](http://aliasaria.ca/blog/themes/) von

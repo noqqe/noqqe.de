@@ -1,21 +1,19 @@
 ---
-date: 2008-08-30T20:02:26+02:00
-slug: squid-opensource-proxyserver
-comments: true
-title: Squid - OpenSource ProxyServer
 aliases:
 - /archives/207
 - /blog/2008/08/30/squid-opensource-proxyserver/
+date: '2008-08-30T18:02:26'
+slug: squid-opensource-proxyserver
 tags:
-- Hardware
-- Linux
-- EEE-PC
-- Linux
-- opensource
+- eee-pc
+- squid
+- hardware
 - proxy
-- Squid
-- ubuntu
+- linux
 - ubuntueee
+- ubuntu
+- opensource
+title: Squid - OpenSource ProxyServer
 ---
 
 Erste Übung in der Technik-Abteilung in der ich seit ca 1er Woche bin.
@@ -82,4 +80,3 @@ So und jetzt mal eben sehen wo ich so war mit EeePc.
 # Access-Log
 access_log /var/log/squid/access.log squid
 ```
-

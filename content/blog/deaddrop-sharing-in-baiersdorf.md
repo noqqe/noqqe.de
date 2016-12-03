@@ -1,23 +1,22 @@
 ---
-date: 2011-10-04T20:50:34+02:00
-comments: true
-title: 'DeadDrop | Sharing mit Alice and Bob in Baiersdorf '
 aliases:
 - /blog/2011/10/04/deaddrop-sharing-in-baiersdorf
 - /archives/1792
+date: '2011-10-04T18:50:34'
 tags:
-- Hardware
-- Linux
-- Web
-- aram barthol
+- web
+- usb
+- mauer
+- deaddrop
 - baiersdorf
 - dead
-- DeadDrop
-- gips
-- mauer
+- aram barthol
+- hardware
 - stick
-- usb
 - usbstick
+- linux
+- gips
+title: 'DeadDrop | Sharing mit Alice and Bob in Baiersdorf '
 ---
 
 Als ich durch den Park in Baiersdorf lief und diese alte Mauer einer

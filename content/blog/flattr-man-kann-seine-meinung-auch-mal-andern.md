@@ -1,30 +1,28 @@
 ---
-date: 2011-10-01T13:12:03+02:00
-comments: true
-title: 'Flattr | Man kann seine Meinung auch mal ändern. '
 aliases:
 - /blog/2011/10/01/flattr-man-kann-seine-meinung-auch-mal-andern
 - /archives/1774
+date: '2011-10-01T11:12:03'
 tags:
-- Blog
-- Linux
-- Web
-- blog
-- blogging
-- cats
-- CCC
-- chaos computer club
+- web
+- flattr
 - deutsch
-- donate
-- donation
-- Flattr
 - german
-- kultur
+- chaos computer club
 - kulturwertmark
-- micro
-- micropayment
 - payment
+- blog
+- micro
+- donation
+- cats
 - spenden
+- linux
+- micropayment
+- donate
+- blogging
+- ccc
+- kultur
+title: "Flattr | Man kann seine Meinung auch mal \xE4ndern. "
 ---
 
 Als dieses Micro-Payment System [Flattr](http://flattr.com) vor mehr als

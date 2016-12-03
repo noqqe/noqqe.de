@@ -1,18 +1,17 @@
 ---
-date: 2008-06-14T12:18:19+02:00
-slug: hardy-und-widescreen-jetzt-doch
-comments: true
-title: Hardy und Widescreen - jetzt doch ?
 aliases:
 - /archives/73
 - /blog/2008/06/14/hardy-und-widescreen-jetzt-doch-/
 - /blog/2008/06/14/hardy-und-widescreen-jetzt-doch/
+date: '2008-06-14T10:18:19'
+slug: hardy-und-widescreen-jetzt-doch
 tags:
-- ALSA
-- debian
-- Hardy Heron
-- OSS
+- hardy heron
+- oss
 - ubuntu
+- debian
+- alsa
+title: Hardy und Widescreen - jetzt doch ?
 ---
 
 Wie soll ichs sagen... ich hatte die Win Vista Recovery CD schon auf dem

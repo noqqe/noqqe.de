@@ -1,16 +1,15 @@
 ---
-date: 2008-05-13T11:12:06+02:00
-slug: eeepc-urlaubstuchtig-media-tauglich-machen
-comments: true
-title: EeePC urlaubstüchtig / Media tauglich machen!
 aliases:
 - /archives/55
+date: '2008-05-13T09:12:06'
+slug: eeepc-urlaubstuchtig-media-tauglich-machen
 tags:
-- Hardware
-- Linux
-- totem
+- hardware
 - xmms
 - xubuntu
+- totem
+- linux
+title: "EeePC urlaubst\xFCchtig / Media tauglich machen!"
 ---
 
 Wie man sicher schon merkt mutiere ich hier immer mehr zum EeePC Blogger :) Aber
@@ -63,4 +62,3 @@ apt-get install libxvidcore4
 ```
 Ausprobiert hab ich das jetzt zwar noch nicht... aber wird sich zeigen sobald
 ich meine Externe zum laufen gebracht habe auf der mein ganzes Zeug liegt!
-

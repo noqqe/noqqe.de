@@ -1,17 +1,15 @@
 ---
-title: "Ext Filesystem Checks vorhersagen"
-date: 2012-05-05T11:33:00+02:00
-comments: true
+date: '2012-05-05T09:33:00'
 tags:
-- ubuntuusers
 - web
-- hardware
-- linux
-- debian
-- ubuntu
 - fs
+- linux
 - check
+- hardware
+- ubuntu
 - fsck
+- debian
+title: Ext Filesystem Checks vorhersagen
 ---
 
 Kernel Updates am Server seiner Wahl einspielen und dann...warten. Warten
@@ -68,5 +66,3 @@ Entpacken von whois (aus .../whois_5.0.10_amd64.deb) ...
 Trigger für man-db werden verarbeitet ...
 whois (5.0.10) wird eingerichtet ...
 ```
-
-

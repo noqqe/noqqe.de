@@ -1,13 +1,12 @@
 ---
-date: 2008-04-04T11:56:52+02:00
-slug: linux-befehle-buch
-comments: true
-title: Linux Befehle Buch!
 aliases:
 - /archives/21
+date: '2008-04-04T09:56:52'
+slug: linux-befehle-buch
 tags:
-- Hardware
-- Linux
+- hardware
+- linux
+title: Linux Befehle Buch!
 ---
 
 Um mal meine Grundkenntnisse etwas zu erhöhn  hab ich mir bei Amazon "Das

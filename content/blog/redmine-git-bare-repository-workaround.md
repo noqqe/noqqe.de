@@ -1,24 +1,22 @@
 ---
-date: 2010-11-27T13:49:42+02:00
-comments: true
-title: Redmine | Git Bare Repository Workaround
 aliases:
 - /blog/2010/11/27/redmine-git-bare-repository-workaround
 - /archives/1396
+date: '2010-11-27T11:49:42'
 tags:
-- Development
-- PlanetenBlogger
-- Administration
-- bare
-- barerepo
-- issue
-- redmine
+- development
 - repositories
 - git
-- repository
-- webinterface
 - workaround
+- repository
+- barerepo
+- administration
 - working copy
+- redmine
+- bare
+- webinterface
+- issue
+title: Redmine | Git Bare Repository Workaround
 ---
 
 Die letzten beiden Tage habe ich mich etwas mit

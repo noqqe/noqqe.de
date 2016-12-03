@@ -1,14 +1,13 @@
 ---
-title: "Ich wechselte zu Uberspace.de"
-date: 2012-08-17T20:07:00+02:00
-comments: true
-tags:
-- Web
-- Debian
-- Hosting
-- CentOS
 aliases:
 - /blog/2012/08/17/ich-wechselte-zu-uberspace-dot-de/
+date: '2012-08-17T18:07:00'
+tags:
+- web
+- debian
+- centos
+- hosting
+title: Ich wechselte zu Uberspace.de
 ---
 
 Es ist garnicht lange her, da wurde mir im [lokalen Hackspace K4CG](http://k4cg.org) die Hosting Plattform

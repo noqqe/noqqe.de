@@ -1,27 +1,25 @@
 ---
-date: 2011-04-29T11:55:33+02:00
-comments: true
-title: RT | RequestTracker-Stats
 aliases:
 - /archives/1649
 - /blog/2011/04/29/rt-requesttracker-stats
+date: '2011-04-29T09:55:33'
 tags:
-- Shell
-- Development
-- Debian
-- PlanetenBlogger
-- Databases
-- Ubuntu
-- Web
-- Bash
-- Addon
-- BestPractical
-- modul
+- development
+- web
+- shell
+- bestpractical
 - plugin
-- requesttracker
 - rt
-- Statistik
+- modul
+- databases
 - tool
+- ubuntu
+- requesttracker
+- statistik
+- debian
+- bash
+- addon
+title: RT | RequestTracker-Stats
 ---
 
 Oft angesprochen und trotzdem bisher nicht die Zeit gefunden drüber zu

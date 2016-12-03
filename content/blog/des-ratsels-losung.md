@@ -1,14 +1,13 @@
 ---
-date: 2008-03-26T11:46:52+02:00
-slug: des-ratsels-losung
-comments: true
-title: Des Rätsels Lösung?
 aliases:
 - /archives/8
 - /blog/2008/03/26/des-r%C3%A4tsels-l%C3%B6sung/
+date: '2008-03-26T09:46:52'
+slug: des-ratsels-losung
 tags:
-- Hardware
-- Linux
+- hardware
+- linux
+title: "Des R\xE4tsels L\xF6sung?"
 ---
 
 Moin Moin!

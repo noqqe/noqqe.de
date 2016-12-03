@@ -1,10 +1,10 @@
 ---
-date: 2016-11-11T16:53:04+01:00
-title: Moderne Websites
+date: '2016-11-11T15:53:04'
 tags:
 - blog
-- js
 - css
+- js
+title: Moderne Websites
 ---
 
 Websites sind ja seit Kurzem im Durchschnitt größer als

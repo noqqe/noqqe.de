@@ -1,16 +1,15 @@
 ---
-date: 2015-04-11T15:09:53+02:00
+date: '2015-04-11T13:09:53'
 tags:
-- blog
 - development
-- osbn
-- Hugo
-- Templates
-- Archive
-- Tags
-- Categories
-- Templating
-- Go
+- templates
+- templating
+- tags
+- hugo
+- blog
+- go
+- archive
+- categories
 title: Hugo Templating und Themes
 ---
 

@@ -1,24 +1,23 @@
 ---
-date: 2010-09-07T19:19:26+02:00
-comments: true
-title: Google | Dank der US-Army ist mir Street-View egal.
 aliases:
 - /blog/2010/09/07/google-dank-der-us-army-ist-mir-street-view-egal
 - /archives/1238
+date: '2010-09-07T17:19:26'
 tags:
-- Blog
-- Web
-- army
-- einspruchsfristen
+- web
 - google
-- grafenwöhr
-- street
 - streetview
-- truppenübungsplatz
-- usarmy
+- army
 - verpixelt
-- view
+- blog
+- usarmy
+- street
 - zensur
+- "grafenw\xF6hr"
+- "truppen\xFCbungsplatz"
+- einspruchsfristen
+- view
+title: Google | Dank der US-Army ist mir Street-View egal.
 ---
 
 Es gibt eigentlich zwei Gründe warum die ganze Google Streetview Diskussion

@@ -1,27 +1,25 @@
 ---
-date: 2012-01-22T15:09:07+02:00
-comments: true
-title: MySQL | Table Migration zu InnoDB
 aliases:
 - /blog/2012/01/22/mysql-table-migration-zu-innodb
 - /archives/1850
+date: '2012-01-22T13:09:07'
 tags:
-- Shell
-- Debian
-- Linux
-- ubuntuusers
-- Databases
-- acid
-- database
 - datenbank
 - fulltext
-- innodb
-- Migration
-- myisam
+- shell
+- database
 - mysql
-- mysqldump
-- sql
 - tables
+- linux
+- innodb
+- migration
+- myisam
+- databases
+- sql
+- acid
+- debian
+- mysqldump
+title: MySQL | Table Migration zu InnoDB
 ---
 
 Ich durfte letztens einer schönen Schulung zum Thema MySQL lauschen. Dabei

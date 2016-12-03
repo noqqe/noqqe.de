@@ -1,18 +1,16 @@
 ---
-date: 2011-10-15T16:02:46+02:00
-slug: git-and-the-unix-philosophy
-comments: true
-title: Git and the Unix philosophy
 aliases:
 - /archives/1805
+date: '2011-10-15T14:02:46'
+slug: git-and-the-unix-philosophy
 tags:
-- Blog
-- Web
+- web
 - git
 - philosophy
-- post
+- blog
 - unix
-- web
+- post
+title: Git and the Unix philosophy
 ---
 
 Mein Feedreader hat heute einen [Post von Julius](http://blog.plenz.com/2011-10/git-and-the-unix-philosophy.html)

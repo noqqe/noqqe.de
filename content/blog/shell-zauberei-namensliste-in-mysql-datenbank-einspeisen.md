@@ -1,25 +1,22 @@
 ---
-date: 2011-04-29T10:30:52+02:00
-slug: namensliste-in-mysql-datenbank-einspeisen
-comments: true
-title: Namensliste in MySQL Datenbank einspeisen
 aliases:
 - /archives/1645
+date: '2011-04-29T08:30:52'
+slug: namensliste-in-mysql-datenbank-einspeisen
 tags:
-- Shell
-- Development
-- Debian
-- PlanetenBlogger
-- Databases
-- bash
-- mysql
+- development
+- shell-zauberei
+- shell
 - namen
+- mysql
+- sql
+- databases
+- txt
 - namensliste
 - requesttracker
-- shell
-- Shell-Zauberei
-- sql
-- txt
+- debian
+- bash
+title: Namensliste in MySQL Datenbank einspeisen
 ---
 
 ### Code
@@ -49,4 +46,3 @@ Aktualisierungsvorgang passiert aber generisch. Das heisst ich setze den
 Namen des Users auf einen zufällig ausgewählten neuen Namen aus der Datei
 "Names". Das habe ich mit sed -n p FILE gelöst, was sicher auch schöner
 geht, aber für meine Zwecke hat es ausgereicht.
-

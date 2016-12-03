@@ -1,17 +1,15 @@
 ---
-title: "Isso - Ich schrei sonst"
-date: 2013-11-10T15:50:00+02:00
-comments: true
-tags:
-- osbn
-- Blog
-- isso
-- disqus
-- kommentare
-- comments
-- octopress
 aliases:
 - /blog/2013/11/10/isso-ich-schrei-sonst/
+date: '2013-11-10T13:50:00'
+tags:
+- isso
+- octopress
+- kommentare
+- comments
+- blog
+- disqus
+title: Isso - Ich schrei sonst
 ---
 
 {{< figure src="/uploads/2013/11/machines.jpg" >}}

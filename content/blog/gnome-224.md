@@ -1,17 +1,15 @@
 ---
-date: 2008-09-29T09:22:13+02:00
-slug: gnome-224
-comments: true
-title: Gnome 2.24
 aliases:
 - /archives/279
+date: '2008-09-29T07:22:13'
+slug: gnome-224
 tags:
-- Blog
-- Hardware
-- Linux
-- gnome
-- Linux
+- blog
+- hardware
 - ubuntu
+- gnome
+- linux
+title: Gnome 2.24
 ---
 
 Na endlich, es tut sich mal wieder etwas.

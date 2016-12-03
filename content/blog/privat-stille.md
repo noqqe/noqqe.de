@@ -1,20 +1,19 @@
 ---
-date: 2009-04-13T15:30:47+02:00
-comments: true
-title: Privat | Stille
 aliases:
 - /blog/2009/04/13/privat-stille
 - /archives/584
+date: '2009-04-13T13:30:47'
 tags:
-- Blog
-- anno1602
 - battle for wesnoth
+- blog
+- mud
+- anno1602
+- wesnoth
+- ubuntu
+- regexp
 - deezer
 - jaunty
-- mud
-- regexp
-- ubuntu
-- wesnoth
+title: Privat | Stille
 ---
 
 Zur Zeit is ja n bisschen ruhig. Liegt dran das ich mittlerweile mitten in

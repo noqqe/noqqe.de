@@ -1,22 +1,21 @@
 ---
-date: 2009-12-09T15:57:37+02:00
-comments: true
-title: Teeworlds | Mehrere Server betreiben unter Linux
 aliases:
 - /archives/800
 - /blog/2009/12/09/teeworlds-mehrere-server-betreiben-unter-linux
+date: '2009-12-09T13:57:37'
 tags:
-- Development
-- Linux
+- development
+- mehrere server
 - cronjob
-- debian
-- mehrere Server
+- teeworldsserver
 - multi server
 - paralell
-- server
+- linux
 - skript
-- Teeworlds
-- teeworldsserver
+- server
+- teeworlds
+- debian
+title: Teeworlds | Mehrere Server betreiben unter Linux
 ---
 
 Die 4 Teeworldsserver die auf zwetschge.org laufen, stellten ihre Dienste

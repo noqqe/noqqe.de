@@ -1,23 +1,22 @@
 ---
-date: 2011-07-24T18:56:32+02:00
-comments: true
-title: Abschlussprüfung | Zentrales Versionskontrollsystem mit git und etckeeper
 aliases:
 - /archives/1714
 - /blog/2011/07/24/abschlussprufung-zentrales-versionskontrollsystem-mit-git-und-etckeeper
+date: '2011-07-24T16:56:32'
 tags:
-- Bash
-- Debian
-- Hardware
-- abschluss
 - etckeeper
-- fachinformatiker
 - git
-- gitolite
-- Latex
-- presentation
-- Projektarbeit
+- latex
+- fachinformatiker
 - slidy
+- hardware
+- gitolite
+- projektarbeit
+- abschluss
+- presentation
+- debian
+- bash
+title: "Abschlusspr\xFCfung | Zentrales Versionskontrollsystem mit git und etckeeper"
 ---
 
 Nachdem ich letzten Donnerstag erfolgreich meine Ausbildung zum
@@ -47,4 +46,3 @@ nennen:
   * [etckeeper](http://kitenet.net/~joey/code/etckeeper/) von Joey Hess (Projektinhalt)
   * [gitolite](https://github.com/sitaramc/gitolite#start) (Projektinhalt)
   * und natürlich allen Debian Developern, die die genannte Software paketiert haben :)
-

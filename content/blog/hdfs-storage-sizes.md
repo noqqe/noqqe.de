@@ -1,15 +1,13 @@
 ---
-date: 2016-06-22T16:05:15+02:00
+date: '2016-06-22T14:05:15'
 tags:
+- hdfs
+- blocks
 - administration
 - devops
-- osbn
-- ubuntuusers
-- Hadoop
-- HDFS
-- Namenode
-- Datanode
-- Blocks
+- hadoop
+- datanode
+- namenode
 title: HDFS Storage Sizes
 ---
 
@@ -163,4 +161,3 @@ Missing blocks (with replication factor 1): 0
 
 Außerdem hab ich gelernt, mir fürs Finaliseren des Upgrades einen
 Kalendereintrag zu machen ;)
-

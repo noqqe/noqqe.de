@@ -1,26 +1,25 @@
 ---
-date: 2009-02-03T22:32:47+02:00
-slug: teeworlds-server-howto
-comments: true
-title: Teeworlds - Server How To
 aliases:
 - /archives/459
 - /blog/2009/02/03/teeworlds-server-how-to/
 - /blog/2009/02/03/teeworlds-server-howto/
+date: '2009-02-03T20:32:47'
+slug: teeworlds-server-howto
 tags:
-- Linux
-- Administration
-- codecocktail
-- how to
+- teeworlds server how to
+- virtual terminal
+- unpack
 - screen
+- how to
+- administration
+- codecocktail
+- teeworlds server
 - server
 - ssh
-- Teeworlds
-- teeworlds server
-- teeworlds server how to
-- unpack
-- virtual terminal
+- linux
 - zwetschge
+- teeworlds
+title: Teeworlds - Server How To
 ---
 
 Durch Crackpod und AtzeEgge von

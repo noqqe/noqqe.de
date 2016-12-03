@@ -1,25 +1,23 @@
 ---
-date: 2010-11-01T15:00:47+02:00
-comments: true
-title: bash-it | Zitronen-Thema
 aliases:
 - /archives/1342
 - /blog/2010/11/01/bash-it-zitronen-thema
+date: '2010-11-01T13:00:47'
 tags:
-- Development
-- Linux
-- Shell
-- git
-- xubuntu
-- bash
+- development
 - bash-theme
-- github
-- shell
 - style
+- git
+- github
 - terminal
 - theme
-- theming
+- shell
+- xubuntu
+- linux
 - zitron
+- theming
+- bash
+title: bash-it | Zitronen-Thema
 ---
 
 Benutze nun schon seit längerem ein Community Framework für Bash, welches

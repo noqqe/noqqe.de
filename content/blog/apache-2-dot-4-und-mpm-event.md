@@ -1,27 +1,25 @@
 ---
-title: "Apache 2.4 und mpm_event"
-date: 2012-05-28T14:41:00+02:00
-comments: true
-tags:
-- Debian
-- Administration
-- Web
-- ubuntuusers
-- apache
-- apache2
-- eventbased
-- eventbasiert
-- mpm
-- event mpm
-- mpm_event
-- worker
-- benchmark
-- apachebench
-- ab
-- prefork
 aliases:
 - /blog/2012/05/28/apache-2-dot-4-und-mpm-event
 - /blog/2012/05/28/apache-2-dot-4-und-mpm-event/
+date: '2012-05-28T12:41:00'
+tags:
+- web
+- eventbased
+- worker
+- apachebench
+- benchmark
+- event mpm
+- mpm
+- administration
+- apache2
+- prefork
+- apache
+- ab
+- eventbasiert
+- mpm_event
+- debian
+title: Apache 2.4 und mpm_event
 ---
 
 [Apache 2.4](http://httpd.apache.org/docs/2.4/) ist seit einiger Zeit in

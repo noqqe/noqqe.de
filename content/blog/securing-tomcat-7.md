@@ -1,20 +1,17 @@
 ---
-title: "Securing Tomcat 7"
-date: 2013-05-27T19:52:00+02:00
-comments: true
+date: '2013-05-27T17:52:00'
 tags:
-- Web
-- Linux
-- Administration
-- Tomcat
-- Tomcat7
-- Java
-- HTTP
-- Methods
-- Secure
-- Security
-- ubuntuusers
-- osbn
+- web
+- java
+- methods
+- tomcat
+- administration
+- tomcat7
+- linux
+- http
+- security
+- secure
+title: Securing Tomcat 7
 ---
 
 Zum Thema Application-Server absichern gibts unzählige Posts mit den

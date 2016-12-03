@@ -1,19 +1,16 @@
 ---
-title: "nichtparasoup"
-date: 2014-04-20T10:20:00+02:00
-comments: true
+date: '2014-04-20T08:20:00'
 tags:
-- Development
-- Web
-- soupio
-- parasoup
-- python
+- development
+- web
 - imagewall
-- wall
+- python
+- soupio
 - k4cg
+- wall
+- parasoup
 - images
-- osbn
-- ubuntuusers
+title: nichtparasoup
 ---
 
 In der [k4cg](http://k4cg.org) laufen auf dem Beamer meistens irgendwelche

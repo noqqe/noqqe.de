@@ -1,18 +1,16 @@
 ---
-date: 2008-10-09T13:43:16+02:00
-slug: ssh-tunnel
-comments: true
-title: ssh-Tunnel
 aliases:
 - /archives/297
+date: '2008-10-09T11:43:16'
+slug: ssh-tunnel
 tags:
-- Linux
-- Administration
-- Network
-- Linux
+- network
+- linux
+- administration
 - ssh
-- ssh tunnel
 - ubuntu
+- ssh tunnel
+title: ssh-Tunnel
 ---
 
 Bin ja richtig begeistert für was sich das alles verwenden lässt.

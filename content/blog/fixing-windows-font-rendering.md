@@ -1,13 +1,12 @@
 ---
-title: "Fixing Windows Font Rendering"
-date: 2013-12-05T20:28:00+02:00
-comments: true
+date: '2013-12-05T18:28:00'
 tags:
-- Windows
-- Font
-- Rendering
-- gdipp
+- windows
+- rendering
+- font
 - aliasing
+- gdipp
+title: Fixing Windows Font Rendering
 ---
 
 Seit ich auf der Arbeit Windows nutzen muss, störe ich mich am Font der systemweit

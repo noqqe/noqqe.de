@@ -1,13 +1,12 @@
 ---
-date: 2009-09-20T12:57:54+02:00
-comments: true
-title: Allgemein | Wiederbelebt
 aliases:
 - /archives/652
 - /blog/2009/09/20/allgemein-wiederbelebt
+date: '2009-09-20T10:57:54'
 tags:
-- Blog
-- Linux
+- blog
+- linux
+title: Allgemein | Wiederbelebt
 ---
 
 Und zwar den Blog. Was wäre ich auch für ein Web2.0-Typ hätte ich meinen

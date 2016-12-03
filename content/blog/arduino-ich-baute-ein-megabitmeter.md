@@ -1,30 +1,27 @@
 ---
-date: 2011-08-27T13:10:02+02:00
-comments: true
-title: Arduino | Ich baute ein Megabitmeter
 aliases:
 - /archives/1751
 - /blog/2011/08/27/arduino-ich-baute-ein-megabitmeter
+date: '2011-08-27T11:10:02'
 tags:
-- Hardware
-- ubuntuusers
-- Web
-- Arduino
-- ATMega
-- controller
-- hack
-- Hardware
-- löten
-- Megabit
-- Megabitmeter
-- Meter
-- mikrocontroller
-- nsfw
+- web
+- "l\xF6ten"
 - pritlove
 - prozessor
+- arduino
 - skytee
+- hack
+- megabitmeter
+- hardware
 - tim
+- controller
+- mikrocontroller
+- nsfw
+- meter
+- atmega
+- megabit
 - usb
+title: Arduino | Ich baute ein Megabitmeter
 ---
 
 Vor einiger Zeit hab ich über den Podcast von Tim Pritlove (NSFW) von dem

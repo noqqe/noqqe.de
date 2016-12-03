@@ -1,23 +1,21 @@
 ---
-date: 2010-02-10T19:37:53+02:00
-comments: true
-title: Git | Repositories auf Server anlegen
 aliases:
 - /blog/2010/02/10/git-repositories-auf-server-anlegen
 - /archives/867
+date: '2010-02-10T17:37:53'
 tags:
-- Development
-- Linux
-- git
-- gitosis
-- howto
-- Linux
-- progit
-- repo
-- repositories
+- development
 - scm
+- git
+- progit
 - svn
+- repositories
+- howto
+- gitosis
+- repo
 - unix
+- linux
+title: Git | Repositories auf Server anlegen
 ---
 
 ![git-logo](/uploads/2010/02/git-logo.png)<del>I</del><del>c</del><del>h
@@ -65,4 +63,3 @@ writable = project #Projektname abgleitet von project.git
 $ git commit -a -m "Gitosis update for new Project" #LokalCommit für Rechte
 $ git push #Auf RepoServer pushen
 ```
-

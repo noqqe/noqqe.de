@@ -1,22 +1,21 @@
 ---
-date: 2010-11-22T21:30:35+02:00
-comments: true
-title: github | Sinn, Unsinn, Interfaces und schon wieder Zombies
 aliases:
 - /blog/2010/11/22/github-sinn-unsinn-interfaces-und-schon-wieder-zombies
 - /archives/1383
+date: '2010-11-22T19:30:35'
 tags:
-- Development
-- Web
-- diaspora
+- development
+- web
 - git
-- github
-- gitignore
-- sinn
 - social coding
 - tiny-tiny-rss
-- unsinn
+- sinn
+- diaspora
+- github
 - zombies
+- unsinn
+- gitignore
+title: github | Sinn, Unsinn, Interfaces und schon wieder Zombies
 ---
 
 [github](http://github.com/noqqe) ist da wo ich mich momentan sehr gerne rumtreibe.

@@ -1,20 +1,17 @@
 ---
-title: "Obskures aus der Software Entwicklung"
-date: 2014-02-01T17:50:00+02:00
-comments: true
+date: '2014-02-01T15:50:00'
 tags:
-- Development
-- osbn
-- ubuntuusers
-- Software
-- Entwicklung
+- development
 - heisenbug
+- wikipedia
+- entwicklung
 - stonith
+- unix
 - planning poker
 - airplane
-- unix
 - ha
-- wikipedia
+- software
+title: Obskures aus der Software Entwicklung
 ---
 
 ### Heisenbug

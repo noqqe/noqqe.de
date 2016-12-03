@@ -1,25 +1,21 @@
 ---
-title: "Das Ext4 Directory Indexing"
-date: 2012-03-08T19:38:00+02:00
-comments: true
 aliases:
 - /blog/2012/03/08/a-byte-of-ext4-directory-indexing/
+date: '2012-03-08T17:38:00'
 tags:
-- ubuntuusers
-- Administration
-- Debian
-- Filesystems
-- Ext
-- Ext4
-- Index
-- indexing
-- dir index
-- dir_index
+- index
 - ext4
+- dir_index
+- centos
+- indexing
+- administration
+- filesystems
+- dir index
+- ext
+- full
 - linux
 - debian
-- centos
-- full
+title: Das Ext4 Directory Indexing
 ---
 
 Mit ext4 kam unter anderem ein Feature hinzu, welches sich Directory Indexing

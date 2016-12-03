@@ -1,22 +1,21 @@
 ---
-date: 2011-09-21T21:16:31+02:00
-comments: true
-title: DeadDrop | Erlangen - Schwabachanlage
 aliases:
 - /blog/2011/09/21/deaddrop-erlangen-schwabachanlage
 - /archives/1759
 - /blog/2011/09/21/deaddrop-erlangen-schwabachanlage/
+date: '2011-09-21T19:16:31'
 tags:
-- Debian
-- Hardware
-- anonym
-- DeadDrop
-- DeadDrop Erlangen
-- Mac
 - passanten
-- skurril
-- ubuntu
 - usb
+- deaddrop
+- skurril
+- deaddrop erlangen
+- hardware
+- mac
+- ubuntu
+- anonym
+- debian
+title: DeadDrop | Erlangen - Schwabachanlage
 ---
 
 Ich war dann schliesslich doch noch bei einem funktionierenden DeadDrop in

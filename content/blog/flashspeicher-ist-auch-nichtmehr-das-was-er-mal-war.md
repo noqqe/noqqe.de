@@ -1,19 +1,18 @@
 ---
-date: 2008-12-14T14:33:07+02:00
-slug: flashspeicher-ist-auch-nichtmehr-das-was-er-mal-war
-comments: true
-title: FlashSpeicher ist auch nichtmehr das was er mal war.
 aliases:
 - /archives/359
+date: '2008-12-14T12:33:07'
+slug: flashspeicher-ist-auch-nichtmehr-das-was-er-mal-war
 tags:
-- Hardware
-- Linux
-- Error
-- Flash
-- MemoryStick
-- ProDuo
-- PSP
-- Sony
+- linux
+- flash
+- hardware
+- produo
+- memorystick
+- error
+- sony
+- psp
+title: FlashSpeicher ist auch nichtmehr das was er mal war.
 ---
 
 Meine Tolle 8GB MemoryStickProDuo Magicgate Mark2 Karte (kurzer treffender

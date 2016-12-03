@@ -1,17 +1,16 @@
 ---
-date: 2008-07-08T19:37:41+02:00
-slug: cisco-ccna-1
-comments: true
-title: Cisco CCNA 1
 aliases:
 - /archives/103
+date: '2008-07-08T17:37:41'
+slug: cisco-ccna-1
 tags:
-- Blog
-- Hardware
-- CCNA 1
-- Cisco
-- Network
-- Netzwerk
+- hardware
+- cisco
+- network
+- ccna 1
+- blog
+- netzwerk
+title: Cisco CCNA 1
 ---
 
 Am Freitag ist es soweit. Jede Blockwoche hab ich eine Prüfung abgelegt um

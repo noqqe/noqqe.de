@@ -1,21 +1,20 @@
 ---
-date: 2010-12-01T20:58:12+02:00
-comments: true
-title: hcht | Handmade Commandline History Tool
 aliases:
 - /blog/2010/12/01/hcht-handmade-commandline-history-tool
 - /archives/1407
+date: '2010-12-01T18:58:12'
 tags:
-- Shell
-- Development
-- Linux
-- bash
-- bash-it
+- development
+- shell
 - commandline
 - handmade
-- history
+- bash-it
 - store
+- linux
 - tool
+- bash
+- history
+title: hcht | Handmade Commandline History Tool
 ---
 
 Mit dem Namen habe ich mich natürlich mal wieder selbst übertroffen. NICHT.

@@ -1,13 +1,12 @@
 ---
-title: "10 Flattrs - Thx!"
-date: 2012-11-18T20:37:00+02:00
-comments: true
-tags:
-- Flattr
-- Blog
-- Misc
 aliases:
 - /blog/2012/11/18/10-flattrs-thx/
+date: '2012-11-18T18:37:00'
+tags:
+- blog
+- misc
+- flattr
+title: 10 Flattrs - Thx!
 ---
 
 Woa! 10? Really? Hätte beim einbinden des Buttons ehrlich gesagt nichtmal

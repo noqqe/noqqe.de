@@ -1,17 +1,15 @@
 ---
-title: "Über gefixte Syntax und Stunden mit RegEx"
-date: 2012-11-22T22:27:00+02:00
-comments: true
+date: '2012-11-22T20:27:00'
 tags:
-- Blog
-- Web
-- Development
-- octopress
-- osbn
-- bash
-- regex
+- development
+- web
 - markdown
+- octopress
+- regex
+- blog
 - html
+- bash
+title: "\xDCber gefixte Syntax und Stunden mit RegEx"
 ---
 
 Manchmal sitze ich abends einfach so herum und repariere kaputte/unschöne

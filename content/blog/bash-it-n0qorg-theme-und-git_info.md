@@ -1,22 +1,20 @@
 ---
-date: 2010-11-24T18:14:57+02:00
-comments: true
-title: bash-it | n0qorg theme und git_info
 aliases:
 - /archives/1389
 - /blog/2010/11/24/bash-it-n0qorg-theme-und-git_info
+date: '2010-11-24T16:14:57'
 tags:
-- Development
-- Blog
-- Shell
+- development
+- shell
+- revans
+- community
+- github
+- blog
+- framework
+- bash-it
 - git
 - bash
-- bash-it
-- community
-- framework
-- git
-- github
-- revans
+title: bash-it | n0qorg theme und git_info
 ---
 
 Um die Entwicklung des Bash Community Frameworks

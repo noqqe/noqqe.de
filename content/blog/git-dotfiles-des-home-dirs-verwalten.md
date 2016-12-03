@@ -1,27 +1,25 @@
 ---
-date: 2010-08-16T18:42:48+02:00
-comments: true
-title: Git | Dotfiles des Home-Dirs verwalten
 aliases:
 - /blog/2010/08/16/git-dotfiles-des-home-dirs-verwalten
 - /archives/1192
+date: '2010-08-16T16:42:48'
 tags:
-- Development
-- Debian
-- Ubuntu
-- ubuntuusers
-- xubuntu
-- automatisierung
-- dotfiles
+- development
 - dotfiles verwalten
 - git
-- git hook
-- gitrepo
 - homedir
-- hook
-- post-commit
 - post-update
+- dotfiles
+- git hook
+- hook
+- automatisierung
+- gitrepo
+- ubuntu
 - pre-commit
+- debian
+- xubuntu
+- post-commit
+title: Git | Dotfiles des Home-Dirs verwalten
 ---
 
 Permanent an verschiedenen Workstations zu sitzen hat Nachteile.

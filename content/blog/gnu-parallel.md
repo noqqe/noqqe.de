@@ -1,21 +1,19 @@
 ---
-date: 2012-01-08T14:47:14+02:00
-slug: gnu-parallel
-comments: true
-title: 'GNU Parallel'
 aliases:
 - /archives/1846
+date: '2012-01-08T12:47:14'
+slug: gnu-parallel
 tags:
-- Shell
-- Linux
-- ubuntuusers
-- Web
-- gnu parallel
-- gzip
-- md5
-- parallel
+- web
+- shell
 - seq
+- parallel
+- gzip
 - test
+- linux
+- gnu parallel
+- md5
+title: GNU Parallel
 ---
 
 Vom [GNU Parallel Projekt](http://www.gnu.org/software/parallel/) habe ich

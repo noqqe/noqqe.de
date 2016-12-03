@@ -1,19 +1,17 @@
 ---
-title: "How to do simple and efficient image crawling"
-date: 2014-09-17T22:41:00+02:00
-comments: true
+date: '2014-09-17T20:41:00'
 tags:
-- Web
-- Development
-- nichtparasoup
-- crawl
+- development
+- web
 - reddit
-- soupio
 - pr0gramm
-- crawler
 - pictures
+- soupio
+- nichtparasoup
 - images
-- osbn
+- crawl
+- crawler
+title: How to do simple and efficient image crawling
 ---
 
 Im Rahmen von [nichtparasoup](http://github.com/k4cg/nichtparasoup) ergab
@@ -92,4 +90,3 @@ Köpfe zerbrochen haben und entsprechende Papers veröffentlicht haben. Für
 unsere Zwecke eignet sich diese Vorgehensweise aber sehr gut. Zumindest was
 die Erfahrungswerte der letzten 3 Monate angeht. Für bessere Vorschläge
 sind wir aber sehr gern zu haben.
-

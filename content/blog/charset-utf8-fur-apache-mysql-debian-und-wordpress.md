@@ -1,23 +1,21 @@
 ---
-date: 2011-02-24T11:22:13+02:00
-comments: true
-title: 'Charset | UTF8 für Apache, PHP, MySQL, Debian und Wordpress '
 aliases:
 - /blog/2011/02/24/charset-utf8-fur-apache-mysql-debian-und-wordpress
 - /archives/1487
+date: '2011-02-24T09:22:13'
 tags:
-- Shell
-- Debian
-- Linux
-- Administration
-- apache2
-- charset
-- debian
+- shell
 - mysql
-- PHP
-- sql
 - utf8
+- charset
+- administration
+- apache2
 - wordpress
+- sql
+- linux
+- php
+- debian
+title: "Charset | UTF8 f\xFCr Apache, PHP, MySQL, Debian und Wordpress "
 ---
 
 Nachdem ich die Migration meines Blogs auf meinen neues Stück Blech

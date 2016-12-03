@@ -1,18 +1,18 @@
 ---
-date: 2015-04-01T20:55:43+02:00
+date: '2015-04-01T18:55:43'
 draft: false
-title: Von Octopress zu Hugo
 tags:
-- Development
-- Blog
-- Web
-- hugo
+- development
+- web
 - octopress
+- python
+- hugo
+- blog
+- pygments
 - go
 - ruby
 - gem
-- pygments
-- python
+title: Von Octopress zu Hugo
 ---
 
 Ich war genervt. Oh mein Gott, wie war ich genervt. Von diesem ständigem

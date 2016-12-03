@@ -1,20 +1,19 @@
 ---
-date: 2010-06-13T14:23:20+02:00
-comments: true
-title: 'Bash | mailrequest '
 aliases:
 - /blog/2010/06/13/bash-mailrequest
 - /archives/1042
+date: '2010-06-13T12:23:20'
 tags:
-- Development
-- Linux
-- Shell
-- bash
-- GTD
-- mail
+- development
+- shell
+- gtd
 - script
-- sick
 - work
+- sick
+- linux
+- mail
+- bash
+title: 'Bash | mailrequest '
 ---
 
 Mal wieder was aus der "Faule Sysadmins" und "wie mache ich mir _noch_

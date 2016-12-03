@@ -1,15 +1,14 @@
 ---
-date: 2008-04-26T01:16:03+02:00
-slug: hardy-macht-spasironie-off
-comments: true
-title: Hardy macht Spaß!Ironie off.
 aliases:
 - /archives/41
+date: '2008-04-25T23:16:03'
+slug: hardy-macht-spasironie-off
 tags:
-- Hardware
-- Linux
-- Hardy Heron
+- hardware
+- hardy heron
 - ubuntu
+- linux
+title: "Hardy macht Spa\xDF!Ironie off."
 ---
 
 Gestern hab ich Hardy bei durchschnittlich 50kb/s runtergeladen und installiert. Allein das war ja schon sehr aufmunternd.

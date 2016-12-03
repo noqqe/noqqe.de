@@ -1,30 +1,28 @@
 ---
-date: 2011-02-04T12:18:35+02:00
-comments: true
-title: Statistiken | Using R - The Nerd Way
 aliases:
 - /blog/2011/02/04/statistiken-using-r-the-nerd-way
 - /archives/1458
 - /blog/2011/02/04/statistiken-using-r-the-nerd-way/
 - /blog/2011/02/04/statistiken--using-r-the-nerd-way/
+date: '2011-02-04T10:18:35'
 tags:
-- Development
-- Blog
-- Linux
-- Ubuntu
-- ubuntuusers
-- Web
+- development
+- web
 - analyiseren
-- bash
-- history
+- shell
+- twitter
+- linux
+- r-script
+- blog
+- statistiken
+- r
+- ubuntu
 - mail
 - maillog
-- R
-- r-script
-- shell
 - statistics
-- Statistiken
-- twitter
+- bash
+- history
+title: Statistiken | Using R - The Nerd Way
 ---
 
 Momentan interessiere ich mich für [R](

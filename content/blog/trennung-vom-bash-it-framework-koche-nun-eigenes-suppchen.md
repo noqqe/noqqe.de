@@ -1,25 +1,22 @@
 ---
-title: "Trennung vom bash-it Framework - Koche nun eigenes Süppchen"
-date: 2012-08-12T20:12:00+02:00
-comments: true
 aliases:
 - /blog/2012/08/12/trennung-vom-bash-it-framework-koche-nun-eigenes-s%C3%BCppchen/
+date: '2012-08-12T18:12:00'
 tags:
-- bash-it
-- Bash
-- Development
-- Debian
-- ubuntuusers
-- bash
-- framework
+- development
 - nano-bash
+- github
+- oh-my-zsh
 - nano
 - bashrc
-- config
-- tricks
-- oh-my-zsh
 - zsh
-- github
+- tricks
+- framework
+- bash-it
+- config
+- debian
+- bash
+title: "Trennung vom bash-it Framework - Koche nun eigenes S\xFCppchen"
 ---
 
 Manchmal muss man das auch. [Einige](/blog/2010/11/24/bash-it-n0qorg-theme-und-git_info/)

@@ -1,18 +1,14 @@
 ---
-title: "OpenBSD - Mal was neues lernen"
-date: 2012-11-30T12:00:00+02:00
-comments: true
-tags:
-- OpenBSD
-- osbn
-- BSD
-- Theo
-- Linux
-- BSD
-- OpenBSD
-- noris
 aliases:
 - /blog/2012/11/30/openbsd-mal-was-neues-lernen/
+date: '2012-11-30T10:00:00'
+tags:
+- theo
+- openbsd
+- noris
+- linux
+- bsd
+title: OpenBSD - Mal was neues lernen
 ---
 
 Schon seit Längerem liegt unter meinem Sofa noch ein 1HE Dell Server, mit dem
@@ -58,4 +54,3 @@ Jetzt noch warten bis die Second Edition "Absolute OpenBSD" von
 [Michael W. Lucas](http://blather.michaelwlucas.com) herauskommt. Laut seinem
 Blog könnte es im Frühling 2013 soweit sein. Oder man liesst ein Buch von 2003, also
 die First Edition.
-

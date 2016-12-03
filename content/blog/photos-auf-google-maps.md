@@ -1,15 +1,12 @@
 ---
+date: '2015-08-09T09:00:49'
 tags:
-- bash
+- osx
+- shell
+- web
 - devops
 - opensource
-- osbn
-- osx
-- planetenblogger
-- shell
-- ubuntuusers
-- web
-date: 2015-08-09T11:00:49+02:00
+- bash
 title: Photos auf Google Maps
 ---
 

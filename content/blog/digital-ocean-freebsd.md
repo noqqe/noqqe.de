@@ -1,14 +1,12 @@
 ---
-title: "Digital Ocean FreeBSD"
-date: 2015-01-26T21:06:00+02:00
-comments: true
+date: '2015-01-26T19:06:00'
 tags:
-- OpenBSD
-- BSD
-- osbn
-- FreeBSD
-- DigitalOcean
-- Zitat
+- openbsd
+- freebsd
+- digitalocean
+- zitat
+- bsd
+title: Digital Ocean FreeBSD
 ---
 
 Kommentar eines Users zum Launch von FreeBSD bei DigitalOcean. Einfach nur w0rd.

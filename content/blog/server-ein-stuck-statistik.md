@@ -1,23 +1,22 @@
 ---
-date: 2009-04-26T12:20:30+02:00
-comments: true
-title: Server | Ein Stück Statistik
 aliases:
 - /blog/2009/04/26/server-ein-stuck-statistik
 - /archives/595
+date: '2009-04-26T10:20:30'
 tags:
-- Blog
-- Linux
-- Stats
-- emote
-- fun
-- gif
-- kommentare
-- random
-- spam
-- Statistik
+- stats
 - teamspeak
-- Teeworlds
+- spam
+- random
+- emote
+- kommentare
+- blog
+- gif
+- linux
+- fun
+- teeworlds
+- statistik
+title: "Server | Ein St\xFCck Statistik"
 ---
 
 Hab mir mal die Zeit genommen ein paar Logfiles zu analysieren :)

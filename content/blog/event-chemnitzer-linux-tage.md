@@ -1,25 +1,23 @@
 ---
-date: 2010-03-16T19:19:58+02:00
-comments: true
-title: Event | Chemnitzer Linux-Tage
 aliases:
 - /blog/2010/03/16/event-chemnitzer-linux-tage
 - /archives/939
+date: '2010-03-16T17:19:58'
 tags:
-- Blog
-- Linux
-- Chemnitz
-- clt
-- debian
-- Event
+- suse
 - i2p
 - kvm
-- Linux
-- LinuxTage
 - mysql
-- pacemaker
-- suse
+- debian
+- blog
 - tor
+- pacemaker
+- linux
+- clt
+- linuxtage
+- event
+- chemnitz
+title: Event | Chemnitzer Linux-Tage
 ---
 
 ![logo2010](/uploads/2010/03/logo2010.png)

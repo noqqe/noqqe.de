@@ -1,17 +1,15 @@
 ---
-date: 2008-07-18T10:38:15+02:00
-comments: true
-title: Gobby | Multi Cursor File Editing
 aliases:
 - /blog/2008/07/18/gobbymulti-cursor-file-editing-oder-so-ahnlich-d
 - /archives/118
+date: '2008-07-18T08:38:15'
 tags:
-- Development
-- Linux
-- gobby
-- Linux
+- development
 - python
 - ubuntu
+- gobby
+- linux
+title: Gobby | Multi Cursor File Editing
 ---
 
 Seit einigen Tagen spielen [CrackPod](http://crackpod.bplaced.net) und ich

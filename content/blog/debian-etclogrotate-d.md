@@ -1,19 +1,18 @@
 ---
-date: 2009-10-12T18:57:37+02:00
-comments: true
-title: Debian | /etc/logrotate.d/*
 aliases:
 - /archives/684
 - /blog/2009/10/12/debian-etclogrotate-d
 - /blog/2009/10/12/debian-etclogrotate-dot-d-star
+date: '2009-10-12T16:57:37'
 tags:
-- Administration
-- Linux
-- logs
-- logging
 - rotate
+- logging
+- logs
+- linux
+- administration
 - filesystem
 - weekly
+title: Debian | /etc/logrotate.d/*
 ---
 
 Eigene Logs rotieren zu lassen ist mit logrotate eigentlich ziemlich entspannt.

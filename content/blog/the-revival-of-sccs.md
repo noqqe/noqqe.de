@@ -1,20 +1,17 @@
 ---
-title: "The Revival of SCCS"
-date: 2012-03-23T15:11:00+02:00
-comments: true
+date: '2012-03-23T13:11:00'
 tags:
-- ubuntuusers
-- Code
-- Shell
-- bash
-- shell
+- code
 - git
+- sun
+- berlios
 - rcs
-- berliOS
 - sccs
 - unix
-- sun
+- shell
 - opensource
+- bash
+title: The Revival of SCCS
 ---
 
 Ich durfte wie bereits
@@ -142,4 +139,3 @@ Vortrag oder die Weiterentwicklung von Jörg Schilling an SCCS kritisieren will.
 Im Gegenteil. SCCS ist für bestimmte Einsatzzwecke bestimmt nett, eben weil es
 "anders" ist als git. Aber, dass SCCS in allen Punkte besser als git möchte ich
 nicht unterschreiben.
-

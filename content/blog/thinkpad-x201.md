@@ -1,17 +1,14 @@
 ---
-title: "Thinkpad X201"
-date: 2012-04-15T11:16:00+02:00
-comments: true
+date: '2012-04-15T09:16:00'
 tags:
-- Web
-- Hardware
-- Linux
-- Debian
-- thinkpad
-- x201
+- web
 - linux
-- debian
+- x201
+- hardware
+- thinkpad
 - stable
+- debian
+title: Thinkpad X201
 ---
 
 Ich erstand bei [ralf-scharbert.de](http://ralf-scharbert.de) ein Thinkpad

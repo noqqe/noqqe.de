@@ -1,20 +1,17 @@
 ---
-date: 2010-07-24T15:07:54+02:00
-comments: true
-title: MySQL | Datenbanken einzeln sichern
 aliases:
 - /blog/2010/07/24/mysql-datenbanken-einzeln-sichern
 - /archives/1156
+date: '2010-07-24T13:07:54'
 tags:
-- Development
-- Debian
-- Linux
-- PlanetenBlogger
-- SQL
-- backup
+- development
 - mysql
+- linux
 - single file
 - sql
+- backup
+- debian
+title: MySQL | Datenbanken einzeln sichern
 ---
 
 Bis vor kurzem reichte mir ein volles MySQL-Backup der alle DB's komplett

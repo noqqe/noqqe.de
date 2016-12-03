@@ -1,30 +1,28 @@
 ---
-date: 2011-03-26T14:45:37+02:00
-comments: true
-title: 'ZRE | SQL Statistik Modul'
 aliases:
 - /archives/1566
 - /blog/2011/03/26/zre-sql-statistik-modul
+date: '2011-03-26T12:45:37'
 tags:
-- Bash
-- Debian
-- Development
-- attack
-- bash
-- chewbacca
-- Events
-- game
+- development
 - github
-- han solo
-- modul
-- module
-- mysql
-- shell
-- sql
-- zombie
 - zombie revolution environment
-- zombies
 - zre
+- modul
+- sql
+- game
+- module
+- events
+- zombie
+- attack
+- shell
+- han solo
+- zombies
+- mysql
+- chewbacca
+- debian
+- bash
+title: ZRE | SQL Statistik Modul
 ---
 
 Ich möchte kurz ein Wort über das SQL Modul verlieren, welches die
@@ -108,4 +106,3 @@ Mit dieser Lösung bin ich eigentlich relativ zufrieden. Über
 Verbesserungsvorschläge und Kritik freue ich mich natürlich wie immer. Das
 ganze Modul ist zusehen auf Github:
 [https://github.com/noqqe/zombie-revolution-environment/blob/master/lib/sqlstats.library.bash](https://github.com/noqqe/zombie-revolution-environment/blob/master/lib/sqlstats.library.bash)
-

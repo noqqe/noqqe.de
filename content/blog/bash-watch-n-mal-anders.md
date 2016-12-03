@@ -1,13 +1,12 @@
 ---
-date: 2010-09-05T20:58:33+02:00
-comments: true
-title: Bash | watch -n mal anders
 aliases:
 - /blog/2010/09/05/bash-watch-n-mal-anders
 - /archives/1230
+date: '2010-09-05T18:58:33'
 tags:
-- Development
-- Linux
+- development
+- linux
+title: Bash | watch -n mal anders
 ---
 
 ```

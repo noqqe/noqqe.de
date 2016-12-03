@@ -1,17 +1,16 @@
 ---
-date: 2010-05-22T09:09:35+02:00
-comments: true
-title: Bash | Scripting-Aufgabe @ School
 aliases:
 - /blog/2010/05/22/bash-scripting-aufgabe-school
 - /archives/1011
+date: '2010-05-22T07:09:35'
 tags:
-- Development
-- Linux
-- Schule
-- Aufgabe
-- Bash
-- Rechner
+- development
+- aufgabe
+- rechner
+- schule
+- linux
+- bash
+title: Bash | Scripting-Aufgabe @ School
 ---
 
 Wie [erwähnt](/?p=1005), gab es gestern den Test in Anwendungsentwicklung.

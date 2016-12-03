@@ -1,32 +1,30 @@
 ---
-date: 2010-08-15T12:44:27+02:00
-comments: true
-title: Bash | NerdTool Config for MacOSX
 aliases:
 - /archives/1182
 - /blog/2010/08/15/bash-nerdtool-config-for-macosx/
+date: '2010-08-15T10:44:27'
 tags:
-- Development
-- OSX
-- PlanetenBlogger
-- bash
-- cpu
-- daemons
-- established
-- geektool
-- gist
-- github
-- hostname
-- listen
-- memory
-- nerdtool
-- Network
+- development
+- osx
 - processes
-- ps aux
+- github
+- gist
+- established
+- hostname
 - ram
-- script
-- skript
 - uptime
+- nerdtool
+- network
+- script
+- memory
+- daemons
+- skript
+- geektool
+- ps aux
+- cpu
+- bash
+- listen
+title: Bash | NerdTool Config for MacOSX
 ---
 
 [GeekTool](http://projects.tynsoe.org/en/geektool/) und

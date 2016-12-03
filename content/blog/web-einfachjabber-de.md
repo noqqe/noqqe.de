@@ -1,21 +1,18 @@
 ---
-date: 2010-07-16T10:59:59+02:00
-comments: true
-title: Web | einfachJabber.de
 aliases:
 - /archives/1104
 - /blog/2010/07/16/web-einfachjabber-de
+date: '2010-07-16T08:59:59'
 tags:
-- Jabber
-- Development
-- Linux
-- PlanetenBlogger
-- Web
-- einfachjabber
-- jabber
+- development
+- web
 - jabber einrichten
 - learning
+- linux
+- einfachjabber
+- jabber
 - plattform
+title: Web | einfachJabber.de
 ---
 
 Bereits seit Längerem schon betreibt [zero](http://zeroathome.de) eine

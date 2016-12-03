@@ -1,13 +1,10 @@
 ---
-date: 2016-06-27T19:58:23+02:00
+date: '2016-06-27T17:58:23'
 tags:
+- web
 - crypto
 - opensource
-- osbn
-- planetenblogger
-- web
-- Entropy
-- Crypto
+- entropy
 title: Organic Entropy
 ---
 

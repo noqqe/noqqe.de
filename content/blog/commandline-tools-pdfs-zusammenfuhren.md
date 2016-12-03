@@ -1,21 +1,19 @@
 ---
-date: 2011-04-20T12:14:50+02:00
-comments: true
-title: Commandline Tools | PDFs zusammenführen
 aliases:
 - /blog/2011/04/20/commandline-tools-pdfs-zusammenfuhren
 - /archives/1622
+date: '2011-04-20T10:14:50'
 tags:
-- Bash
-- Blog
-- ubuntuusers
-- combine
-- kombinieren
+- blog
 - merge
+- combine
+- split
 - pdf
 - pdfs kombinieren
-- split
-- zusammenführen
+- "zusammenf\xFChren"
+- kombinieren
+- bash
+title: "Commandline Tools | PDFs zusammenf\xFChren"
 ---
 
 Aufgrund meiner aktuell vorherrschenden Bewerbungsphase wollte ich ein paar

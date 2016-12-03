@@ -1,17 +1,15 @@
 ---
-date: 2010-06-30T10:25:46+02:00
 aliases:
 - /blog/2010/06/30/theme-8-bit-banner
 - /archives/1076
-comments: true
-title: Theme | 8-Bit Banner
+date: '2010-06-30T08:25:46'
 tags:
-- Blog
-- Linux
-- PlanetenBlogger
-- 16 bit
 - 8 bit
-- GIMP
+- blog
+- linux
+- 16 bit
+- gimp
+title: Theme | 8-Bit Banner
 ---
 
 Es war ein heißer Dienstag Nachmittag. Genauer gesagt gestern. Ich könnte

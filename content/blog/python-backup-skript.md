@@ -1,14 +1,13 @@
 ---
-date: 2008-07-16T14:03:12+02:00
-slug: python-backup-skript
-comments: true
-title: Python Backup Skript
 aliases:
 - /archives/111
+date: '2008-07-16T12:03:12'
+slug: python-backup-skript
 tags:
-- Development
-- Linux
+- development
 - python
+- linux
+title: Python Backup Skript
 ---
 
 Sozusagen das mein erstes Nutzskript in python.

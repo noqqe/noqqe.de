@@ -1,15 +1,14 @@
 ---
-date: 2008-06-12T14:38:24+02:00
-slug: hardy-heron-und-die-auflosung
-comments: true
-title: Hardy Heron und die Auflösung
 aliases:
 - /archives/72
+date: '2008-06-12T12:38:24'
+slug: hardy-heron-und-die-auflosung
 tags:
-- Hardware
-- Linux
-- Hardy Heron
+- hardware
+- hardy heron
 - ubuntu
+- linux
+title: "Hardy Heron und die Aufl\xF6sung"
 ---
 
 Never Ending Story möchte ich fast schon sagen. Kann an der aktuellen

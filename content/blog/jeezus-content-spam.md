@@ -1,8 +1,8 @@
 ---
-date: 2016-12-03T10:30:16+01:00
+date: '2016-12-03T09:30:16'
 tags:
-- pyzor
 - razor
+- pyzor
 - bogofilter
 - spam
 title: jeezus Content Spam Filtering

@@ -1,13 +1,12 @@
 ---
-date: 2009-09-24T19:34:18+02:00
-comments: true
-title: iPhone | Lieferung
 aliases:
 - /blog/2009/09/24/iphone-lieferung
 - /archives/658
+date: '2009-09-24T17:34:18'
 tags:
-- Hardware
-- iPhone
+- hardware
+- iphone
+title: iPhone | Lieferung
 ---
 
 Heute Mittag war jemand da. Jemand ganz bestimmtes. Ein Kurier. Er hatte

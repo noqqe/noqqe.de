@@ -1,14 +1,13 @@
 ---
-date: 2011-03-24T12:58:24+02:00
-comments: true
-title: Offtopic | 3 Jahre Blog
 aliases:
 - /blog/2011/03/24/offtopic-3-jahre-blog
 - /archives/1536
+date: '2011-03-24T10:58:24'
 tags:
-- Blog
-- Geburtstag
-- Wordpress
+- blog
+- wordpress
+- geburtstag
+title: Offtopic | 3 Jahre Blog
 ---
 
 Vor 3 Jahren hab ich hier [den ersten Blog](/archives/421) post verfasst.

@@ -1,19 +1,17 @@
 ---
-title: "RSA Implementation in Bash"
-date: 2014-01-03T21:14:00+02:00
-comments: true
+date: '2014-01-03T19:14:00'
 tags:
-- Crypto
-- Shell
-- Development
-- RSA
-- Cryptography
-- Bash
-- Reference
-- Pubkey
-- Privatekey
-- RNG
-- Shell
+- development
+- shell
+- reference
+- cryptography
+- rng
+- privatekey
+- crypto
+- rsa
+- pubkey
+- bash
+title: RSA Implementation in Bash
 ---
 
 Teil 2 der Serie Crypto in Bash implementieren, heute:

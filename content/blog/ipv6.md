@@ -1,21 +1,20 @@
 ---
-date: 2008-12-17T23:54:39+02:00
-slug: ipv6
-comments: true
-title: IPv6
 aliases:
 - /archives/363
+date: '2008-12-17T21:54:39'
+slug: ipv6
 tags:
-- Hardware
-- Linux
-- Network
-- binär
+- "bin\xE4r"
+- hexadezimal
+- protocol
+- network
+- ip
+- ipv6
 - hex
-- Hexadezimal
-- ICMPv6
-- IP
-- IPv6
-- Protocol
+- hardware
+- icmpv6
+- linux
+title: IPv6
 ---
 
 Mal ein Eck (den Vorhersagen nach, garnichtmehr soweit entfernter) Zukunft.

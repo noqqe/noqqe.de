@@ -1,13 +1,10 @@
 ---
-date: 2016-11-13T10:50:02+01:00
+date: '2016-11-13T09:50:02'
 tags:
 - openbsd
-- osbn
-- planetenblogger
-- ubuntuusers
 - smtp
 - mail
-title: Reverse DNS SMTP Gedönz
+title: "Reverse DNS SMTP Ged\xF6nz"
 ---
 
 Seit 2-3 Monaten betreibe ich meinen Mailserver nun selbst. Dann wollte ich

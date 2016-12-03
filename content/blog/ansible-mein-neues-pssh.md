@@ -1,16 +1,15 @@
 ---
+date: '2015-07-12T18:47:14'
 tags:
-- ubuntuusers
-- Adminstration
-- BSD
-- Development
-- Ansible
-- python
-- puppet
+- development
 - management
+- adminstration
+- python
+- bsd
+- ansible
+- puppet
 - ssh
 - config
-date: 2015-07-12T20:47:14+02:00
 title: Ansible - Mein neues Pssh
 ---
 

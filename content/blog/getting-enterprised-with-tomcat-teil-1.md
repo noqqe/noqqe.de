@@ -1,18 +1,16 @@
 ---
-title: "Getting enterprised with Tomcat - Teil 1"
-date: 2012-09-09T20:45:00+02:00
-comments: true
-tags:
-- osbn
-- Web
-- Administration
-- tomcat
-- linux
-- opensource
-- webapps
-- LinuxHotel
 aliases:
 - /blog/2012/09/09/getting-enterprised-with-tomcat-teil-1/
+date: '2012-09-09T18:45:00'
+tags:
+- web
+- tomcat
+- webapps
+- linuxhotel
+- administration
+- opensource
+- linux
+title: Getting enterprised with Tomcat - Teil 1
 ---
 
 Da sitz ich nun. Im ICE von Nürnberg nach Essen. 13:10 bis 17:05. Genug Zeit
@@ -55,4 +53,3 @@ Man merkt vielleicht non-tech Posts sind ungewohnt für mich. Bisher aber ja
 eigentlich ganz in Ordnung :)
 
 {{< figure src="/uploads/2012/09/linuxhotel2.jpg" >}}
-

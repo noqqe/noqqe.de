@@ -1,18 +1,17 @@
 ---
-date: 2009-02-24T18:29:20+02:00
-comments: true
-title: html | Favicon in Wordpress
 aliases:
 - /blog/2009/02/24/favicon-in-wordpress
 - /archives/514
+date: '2009-02-24T16:29:20'
 tags:
-- Blog
-- Linux
-- favicon
-- html
-- PHP
-- wordpress
 - wp
+- favicon
+- blog
+- html
+- wordpress
+- linux
+- php
+title: html | Favicon in Wordpress
 ---
 
 Auch ein Vorteil der Self-Hosting Bloglösung :) Hab eben ein Favicon

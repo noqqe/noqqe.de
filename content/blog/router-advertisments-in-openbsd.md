@@ -1,17 +1,16 @@
 ---
-title: "Router Advertisments in OpenBSD"
-date: 2014-12-18T11:14:00+02:00
-comments: true
+date: '2014-12-18T09:14:00'
 tags:
-- OpenBSD
-- Network
-- BSD
-- IPv6
-- Routeradvertisement
 - rtadv
+- openbsd
+- network
+- routeradvertisement
+- ipv6
+- bsd
 - sysctl
-- osbn
+title: Router Advertisments in OpenBSD
 ---
+
 Seit OpenBSD 5.6 hat sich die Konfiguration für IPv6 Router Advertisements
 geändert.
 

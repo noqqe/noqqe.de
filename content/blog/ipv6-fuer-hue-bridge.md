@@ -1,17 +1,15 @@
 ---
-date: 2016-06-26T12:44:36+02:00
+date: '2016-06-26T10:44:36'
 tags:
-- administration
-- bsd
-- hardware
+- hue
+- openbsd
 - network
-- osbn
-- ubuntuusers
-- Hue
-- Phillips
-- IPv6
-- OpenBSD
-title: IPv6 für Phillips Hue Bridge
+- phillips
+- administration
+- hardware
+- ipv6
+- bsd
+title: "IPv6 f\xFCr Phillips Hue Bridge"
 ---
 
 In der K4CG haben wir seit Längerem ein paar Phillips Hue Lampen die wir

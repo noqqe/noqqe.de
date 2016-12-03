@@ -1,17 +1,15 @@
 ---
-title: "Keyboard Codes unter Debian mit xfce4.8"
-date: 2012-04-20T08:52:00+02:00
-comments: true
-tags:
-- ubuntuusers
-- Hardware
-- Debian
-- Linux
-- xfce
-- xorg
-- keyboard
 aliases:
 - /blog/2012/04/20/keyboard-codes-unter-debian-mit-xfce4-dot-8
+date: '2012-04-20T06:52:00'
+tags:
+- keyboard
+- hardware
+- xorg
+- linux
+- xfce
+- debian
+title: Keyboard Codes unter Debian mit xfce4.8
 ---
 
 Zuerstmal sei gesagt, dass ich sowieso schon sehr begeistert bin wie viele von

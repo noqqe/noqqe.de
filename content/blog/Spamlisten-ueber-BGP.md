@@ -1,19 +1,15 @@
 ---
-date: 2016-10-27T15:32:00+02:00
+date: '2016-10-27T13:32:00'
 tags:
+- openbsd
+- network
+- spam
 - administration
+- bgp
+- opensource
 - bsd
 - mail
-- network
-- openbsd
-- opensource
-- osbn
-- planetenblogger
-- ubuntuusers
-- BGP
-- OpenBSD
-- Spam
-title: Spamlisten über BGP
+title: "Spamlisten \xFCber BGP"
 ---
 
 Ich bei meiner Suche nach Antispam Lösungen stolperte ich über
@@ -52,4 +48,3 @@ match from group spamd-bgp community $spamdAS:42  set pftable "bgp-spamd-bypass"
 Somit kommen Mails von der Bahn oder Paypal usw. trotzdem gleich am
 Greylisting vorbei, böse Hosts werden weggeblockt und der Rest darf nach
 einer kurzen Zeit im Greylisting nochmal wiederkommen.
-

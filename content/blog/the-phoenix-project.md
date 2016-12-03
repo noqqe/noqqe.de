@@ -1,19 +1,15 @@
 ---
-title: "The Phoenix Project"
-date: 2014-07-03T16:53:00+02:00
-comments: true
+date: '2014-07-03T14:53:00'
 tags:
-- DevOps
-- Administration
-- ubuntuusers
-- osbn
-- The Pheonix Project
-- eBook
-- Kindle
-- DevOps
-- Operations
-- IT
-- Best Practices
+- operations
+- the pheonix project
+- ebook
+- administration
+- devops
+- it
+- kindle
+- best practices
+title: The Phoenix Project
 ---
 
 Im Urlaub laß ich ein wunderbares Buch. [The Phoenix

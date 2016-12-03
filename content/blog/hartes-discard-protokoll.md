@@ -1,16 +1,14 @@
 ---
-title: "Hartes Discard Protokoll"
-date: 2014-11-04T19:30:00+02:00
-comments: true
+date: '2014-11-04T17:30:00'
 tags:
-- OpenBSD
-- osbn
-- Network
-- inetd
-- discard
+- openbsd
+- network
 - devnull-as-a-service
-- port
 - connection
+- discard
+- inetd
+- port
+title: Hartes Discard Protokoll
 ---
 
 Ich habe verloren. Als ich gestern das OpenBSD unter

@@ -1,15 +1,14 @@
 ---
-date: 2008-07-11T14:00:06+02:00
-slug: cisco-ccna1-bestanden-941
-comments: true
-title: Cisco CCNA1 bestanden ! 94,1%
 aliases:
 - /archives/106
+date: '2008-07-11T12:00:06'
+slug: cisco-ccna1-bestanden-941
 tags:
-- CCNA 1
-- Cisco
-- Network
-- Netzwerk
+- netzwerk
+- cisco
+- network
+- ccna 1
+title: Cisco CCNA1 bestanden ! 94,1%
 ---
 
 > CISCO CERTIFIED NETWORK ADMIN

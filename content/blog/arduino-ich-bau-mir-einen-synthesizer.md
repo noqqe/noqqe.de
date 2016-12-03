@@ -1,25 +1,24 @@
 ---
-date: 2011-12-21T17:30:58+02:00
-comments: true
-title: Arduino | Ich bau mir einen Synthesizer
 aliases:
 - /archives/1833
 - /blog/2011/12/21/arduino-ich-bau-mir-einen-synthesizer
+date: '2011-12-21T15:30:58'
 tags:
-- Hardware
-- Web
-- Arduino
-- auduino
-- community
 - kabel
+- web
+- "l\xF6ten"
+- auduino
+- arduino
 - lfo
-- löten
-- low frequenzy synthesizer
-- soldering
-- synthesizer
-- synthi
-- verkabeln
 - wiring
+- community
+- verkabeln
+- hardware
+- synthesizer
+- soldering
+- synthi
+- low frequenzy synthesizer
+title: Arduino | Ich bau mir einen Synthesizer
 ---
 
 Vor ca. 2 Wochen habe ich auf der [Suppe vom K4CG](http://k4cg.soup.io) ein

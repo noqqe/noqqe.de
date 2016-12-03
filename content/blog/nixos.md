@@ -1,19 +1,16 @@
 ---
-date: 2015-09-05T13:55:46+02:00
+date: '2015-09-05T11:55:46'
 tags:
-- administration
 - code
-- databases
-- devops
-- linux
-- osbn
-- planetenblogger
-- DevOps
-- NixOS
-- Nix
-- Distribution
-- Paketmanager
 - mlmmj
+- databases
+- administration
+- devops
+- nix
+- linux
+- paketmanager
+- nixos
+- distribution
 title: NixOS
 ---
 
@@ -144,4 +141,3 @@ Um ein IPv6 Gateway zu hinterlegen, reicht die momentane stable Version
 Zusammenfassung: Ist schön, macht Spass, macht Sinn, ob es sich durchsetzt
 keine Ahnung. Ob es auf einem produktiven System Sinn macht? Wir sind nun mal
 ein Hackerspace.
-

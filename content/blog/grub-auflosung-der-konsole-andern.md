@@ -1,23 +1,22 @@
 ---
-date: 2010-07-14T19:17:18+02:00
-comments: true
-title: Grub | Auflösung der Konsole ändern
 aliases:
 - /blog/2010/07/14/grub-auflosung-der-konsole-andern
 - /blog/2010/07/14/grub--aufl%C3%B6sung-der-konsole-%C3%A4ndern/
 - /archives/1098
+date: '2010-07-14T17:17:18'
 tags:
-- Debian
-- Linux
-- Ubuntu
-- boot
-- change
-- grub
 - grub 1
+- grub
 - grub 2
 - hex
-- resolution
+- linux
+- boot
+- ubuntu
 - table
+- resolution
+- debian
+- change
+title: "Grub | Aufl\xF6sung der Konsole \xE4ndern"
 ---
 
 Die Auflösung der (ich nenne es mal so) Boot-Konsole ist nicht gerade die

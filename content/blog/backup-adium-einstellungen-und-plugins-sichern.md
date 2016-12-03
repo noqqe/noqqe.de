@@ -1,19 +1,18 @@
 ---
-date: 2010-03-27T19:29:12+02:00
-comments: true
-title: Backup | Adium Einstellungen und Plugins sichern
 aliases:
 - /archives/944
 - /blog/2010/03/27/backup-adium-einstellungen-und-plugins-sichern
+date: '2010-03-27T17:29:12'
 tags:
-- Development
-- adium
-- backup
-- einstellungen
-- Mac
-- plugin
+- development
 - preferences
+- einstellungen
+- plugin
+- adium
+- mac
 - sichern
+- backup
+title: Backup | Adium Einstellungen und Plugins sichern
 ---
 
 Ein gegebener Anlass brachte mich dazu mein Adium neu installieren zu

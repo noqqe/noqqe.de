@@ -1,14 +1,13 @@
 ---
-title: "Dwarf Fortress unter OS X Yosemite"
-date: 2015-02-07T17:16:00+02:00
-comments: true
+date: '2015-02-07T15:16:00'
 tags:
-- OSX
-- DwarfFortress
-- Dwarf
-- Yosemite
-- Mac
-- Homebrew
+- osx
+- dwarf
+- mac
+- homebrew
+- dwarffortress
+- yosemite
+title: Dwarf Fortress unter OS X Yosemite
 ---
 
 [Dwarf Fortress](http://www.bay12games.com/dwarves/) unter OSX Yosemite zum

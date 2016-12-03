@@ -1,14 +1,11 @@
 ---
-title: "Redesign des Blogs"
-date: 2012-12-22T18:27:00+02:00
-comments: true
+date: '2012-12-22T16:27:00'
 tags:
-- osbn
-- Blog
+- blog
 - octopress
-- Blog
-- HTML
+- html
 - sass
+title: Redesign des Blogs
 ---
 
 Eine Sache die schon ewig in meiner Taskwarrior rumeiert, ist mal was am Layout des

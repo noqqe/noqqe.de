@@ -1,30 +1,27 @@
 ---
-date: 2010-01-26T18:28:38+02:00
-comments: true
-title: Web | Paste-Service via CommandLine (Sprunge.us)
 aliases:
 - /archives/854
 - /blog/2010/01/26/web-paste-service-via-commandline-sprunge-us
+date: '2010-01-26T16:28:38'
 tags:
-- Development
-- Linux
-- Web
-- ubuntuusers
-- Shell
-- PHP
-- alias
-- bash
-- debian
-- easy_install
-- py
-- python
+- development
+- web
 - python-setuptools
-- script
 - shell
-- skript
-- sprang
-- sprunge
+- script
+- python
+- py
 - ubuntu
+- skript
+- alias
+- easy_install
+- sprunge
+- sprang
+- linux
+- php
+- debian
+- bash
+title: Web | Paste-Service via CommandLine (Sprunge.us)
 ---
 
 [Sprunge.us](http://sprunge.us) ist ein Paste-Service den ich heute von

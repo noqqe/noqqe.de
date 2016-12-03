@@ -1,16 +1,15 @@
 ---
-date: 2009-09-18T09:13:25+02:00
-comments: true
-title: Nebenbei | LPIC
 aliases:
 - /blog/2009/09/18/nebenbei-lpic
 - /archives/638
+date: '2009-09-18T07:13:25'
 tags:
-- Linux
-- Debian
-- LPIC
-- Zertifikat
-- Certificate
+- lpic
+- zertifikat
+- debian
+- certificate
+- linux
+title: Nebenbei | LPIC
 ---
 
 Habe am 20.8.09 meine Prüfung für LPIC abgelegt. Gestern kam das

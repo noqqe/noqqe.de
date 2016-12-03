@@ -1,21 +1,18 @@
 ---
-title: "Git Shell Environment Tricks"
-date: 2012-03-10T12:00:00+02:00
-comments: true
+date: '2012-03-10T10:00:00'
 tags:
-- tricks
-- ubuntuusers
-- Shell
-- linux
 - tipps
-- git
-- shell
-- bash
-- bashrc
-- prompt
 - functions
+- shell
+- prompt
+- tricks
+- bashrc
+- git
+- linux
 - statistics
+- bash
 - stats
+title: Git Shell Environment Tricks
 ---
 
 Heute mal ein Blick in meine `~/.bashrc` über viele Schnippsel und Funktionen

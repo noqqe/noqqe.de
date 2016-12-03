@@ -1,24 +1,21 @@
 ---
-title: "On Hackernews"
-date: 2013-12-29T13:50:00+02:00
-comments: true
+date: '2013-12-29T11:50:00'
 tags:
-- OpenBSD
-- osbn
-- Stats
-- acrylamid
-- hackernews
 - reddit
-- twitter
-- plotly
-- usage
-- graphs
-- GET
-- POST
-- DAAS
-- mail
 - stats
+- daas
+- get
+- twitter
+- graphs
+- acrylamid
+- plotly
+- mail
+- usage
+- openbsd
+- post
 - statistik
+- hackernews
+title: On Hackernews
 ---
 
 Eigentlich wollte ich nur Acrylamid ausprobieren. Ich evaluierte

@@ -1,22 +1,20 @@
 ---
-date: 2009-05-10T11:31:37+02:00
-comments: true
-title: Linux | Hardware Erkennung in Ubuntu
 aliases:
 - /blog/2009/05/10/linux-hardware-erkennung-in-ubuntu
 - /archives/610
+date: '2009-05-10T09:31:37'
 tags:
-- Blog
-- Hardware
-- Linux
-- gembird
+- hardware
 - illuminated
-- jaunty
-- Linux
-- logitech
-- ubuntu
 - v7
-- Xorg
+- logitech
+- blog
+- gembird
+- xorg
+- linux
+- jaunty
+- ubuntu
+title: Linux | Hardware Erkennung in Ubuntu
 ---
 
 Ich muss echt sagen das ich richtig beeindruckt bin. Hab etwas

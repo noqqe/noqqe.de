@@ -1,14 +1,13 @@
 ---
-date: 2015-06-07T22:58:21+02:00
+date: '2015-06-07T20:58:21'
 tags:
+- mongodb
 - administration
-- databases
 - devops
+- auth
 - opensource
-- osbn
-- MongoDB
-- KeyFile
-- Auth
+- databases
+- keyfile
 title: MongoDB KeyFile
 ---
 

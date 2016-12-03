@@ -1,23 +1,21 @@
 ---
-date: 2011-04-16T16:48:23+02:00
-comments: true
-title: 'statistical | It''s about internal functions. '
 aliases:
 - /blog/2011/04/16/statistical-its-about-internal-functions
 - /archives/1611
+date: '2011-04-16T14:48:23'
 tags:
-- Bash
-- Development
-- Blog
-- Web
-- balken
+- development
+- web
 - balkendiagramm
-- bash
+- balken
 - script
-- shell
-- statistic
-- statistical
 - terminal
+- blog
+- shell
+- statistical
+- statistic
+- bash
+title: 'statistical | It''s about internal functions. '
 ---
 
 Als ich [statistical](http://github.com/noqqe/statistical) auf GitHub
@@ -52,5 +50,3 @@ sys     0m0.250s
 Wahnsinn oder? Durch den Austausch von awk und grep durch interne Bash
 Funktionen wird das ganze ernsthaft 23x mal schneller. Vielen Dank an Vain
 an dieser Stelle!
-
-

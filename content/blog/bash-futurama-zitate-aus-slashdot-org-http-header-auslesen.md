@@ -1,26 +1,23 @@
 ---
-date: 2010-09-26T14:56:42+02:00
-comments: true
-title: Bash | Futurama Zitate aus slashdot.org HTTP-Header auslesen
 aliases:
 - /archives/1255
 - /blog/2010/09/26/bash-futurama-zitate-aus-slashdot-org-http-header-auslesen
+date: '2010-09-26T12:56:42'
 tags:
-- Development
-- Debian
-- Blog
-- ubuntuusers
-- bash
-- debian
-- futurama
-- message of the day
-- motd
-- oneline
-- script
+- development
 - shell
-- slashdot
-- ubuntu
+- motd
+- script
 - welcome
+- blog
+- futurama
+- slashdot
+- oneline
+- ubuntu
+- message of the day
+- debian
+- bash
+title: Bash | Futurama Zitate aus slashdot.org HTTP-Header auslesen
 ---
 
 Bin heute morgen über ein Easter-Egg von Slashdot.org
@@ -84,4 +81,3 @@ You have new mail.
 Bender: You can't count on God for jack! He pretty much told me so himself.
 user@host:~$
 ```
-

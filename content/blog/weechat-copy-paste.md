@@ -1,15 +1,13 @@
 ---
-date: 2015-04-20T21:57:54+02:00
+date: '2015-04-20T19:57:54'
 tags:
-- opensource
-- osbn
 - stats
-- ubuntuusers
-- weechat
-- irc
-- alias
-- copypasta
 - paste
+- copypasta
+- alias
+- opensource
+- irc
+- weechat
 title: Weechat Copy & Paste
 ---
 
@@ -32,4 +30,3 @@ So ist's für mich am Einfachsten irgendwelches Zeugs aus IRC zu kopieren.
 * `/hidebars`
 * Copy
 * `/showbars`
-

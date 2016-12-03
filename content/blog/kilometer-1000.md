@@ -1,17 +1,15 @@
 ---
-title: "Kilometer 1000"
-date: 2012-10-10T20:55:00+02:00
-comments: true
+date: '2012-10-10T18:55:00'
 tags:
-- osbn
-- Web
-- Debian
-- Shell
+- web
+- shell
+- google
+- gpx
+- runkeeper
+- debian
 - bash
-- Google
-- Runkeeper
-- GPX
-- GPS
+- gps
+title: Kilometer 1000
 ---
 
 Die Saison ist eigentlich so gut wie gelaufen und ich hab mein Ziel erreicht.

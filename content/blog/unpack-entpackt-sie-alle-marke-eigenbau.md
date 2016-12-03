@@ -1,26 +1,25 @@
 ---
-date: 2008-12-05T15:37:56+02:00
-slug: unpack-entpackt-sie-alle-marke-eigenbau
-comments: true
-title: unpack - Entpackt sie alle - Marke Eigenbau
 aliases:
 - /archives/346
 - /blog/2008/12/05/unpack-entpackt-sie-alle-marke-eigenbau/
+date: '2008-12-05T13:37:56'
+slug: unpack-entpackt-sie-alle-marke-eigenbau
 tags:
-- Development
-- Linux
-- targz
-- archive tool
-- debian
-- entpacken
-- Linux
-- server
+- development
 - shell skript
-- tar
-- unpack
-- unpacking tool
 - zip
+- tar
+- targz
+- entpacken
+- unpacking tool
+- server
+- archive tool
+- linux
+- unpack
+- debian
+title: unpack - Entpackt sie alle - Marke Eigenbau
 ---
+
 Vor ein paar Tagen erst haben wir uns in der Arbeit über die [Komplexität
 der tar Befehle unterhalten und die Millionen
 Archivetypen](http://www.linux-fuer-alle.de/doc_show.php?docid=76) die es

@@ -1,13 +1,12 @@
 ---
-date: 2010-06-04T18:00:22+02:00
-comments: true
-title: 'Flattr | Unentschlossen und unterinformiert. '
 aliases:
 - /blog/2010/06/04/flattr-unentschlossen-und-unterinformiert
 - /archives/1024
+date: '2010-06-04T16:00:22'
 tags:
-- Flattr
 - web
+- flattr
+title: 'Flattr | Unentschlossen und unterinformiert. '
 ---
 
 Ich weiss nicht. Also ich weiss es wirklich nicht. Ich möchte weder für die

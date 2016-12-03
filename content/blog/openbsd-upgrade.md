@@ -1,12 +1,10 @@
 ---
-date: 2015-11-07T21:59:22+01:00
+date: '2015-11-07T20:59:22'
 tags:
-- administration
-- bsd
 - openbsd
+- administration
 - opensource
-- osbn
-- planetenblogger
+- bsd
 title: OpenBSD Upgrade Guidelines
 ---
 

@@ -1,17 +1,14 @@
 ---
-date: 2016-01-12T21:08:07+01:00
+date: '2016-01-12T20:08:07'
 tags:
+- web
+- openbsd
+- network
+- onion
 - tor
 - blog
-- bsd
-- network
-- openbsd
 - opensource
-- osbn
-- planetenblogger
-- ubuntuusers
-- web
-- onion
+- bsd
 title: Tor & 32c3
 ---
 

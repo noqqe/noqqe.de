@@ -1,14 +1,13 @@
 ---
-date: 2008-06-18T13:07:52+02:00
-slug: the-geek-code
-comments: true
-title: The Geek Code
 aliases:
 - /archives/80
+date: '2008-06-18T11:07:52'
+slug: the-geek-code
 tags:
 - geek
 - geekcode
 - wikpedia
+title: The Geek Code
 ---
 
 Schon öfter drüber gestolpert. Aber noch nie den Sinn dahinter verstanden.

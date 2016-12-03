@@ -1,19 +1,14 @@
 ---
-date: 2016-10-23T16:34:04+02:00
+date: '2016-10-23T14:34:04'
 tags:
-- administration
-- bsd
-- mail
-- openbsd
-- osbn
-- planetenblogger
-- ubuntuusers
-- mail
-- smtpd
-- opensmtp
 - openbsd
 - spamd
 - greylisting
+- administration
+- opensmtp
+- smtpd
+- bsd
+- mail
 title: Greylisting und spamd
 ---
 
@@ -113,4 +108,3 @@ So werde ich meinen Spam los ohne Greylisting zu brauchen. Vielleicht
 schaue ich mir irgendwann noch die BGP Variante an.
 [bgp-spamd.net](http://bgp-spamd.net).
 Vorerst reicht mir die Spamliste von Heise aber.
-

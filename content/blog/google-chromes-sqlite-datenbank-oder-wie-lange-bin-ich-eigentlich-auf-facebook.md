@@ -1,17 +1,16 @@
 ---
-title: "Google Chromes SQLite Datenbank oder Wie viel Zeit verschwende ich eigentlich auf Facebook?"
-date: 2012-08-26T12:30:00+02:00
-comments: true
+date: '2012-08-26T10:30:00'
 tags:
-- ubuntuusers
-- Development
-- Debian
-- Bash
-- Shell
-- Google
-- Chrome
-- Browser
-- Browsing
+- development
+- shell
+- chrome
+- google
+- browsing
+- debian
+- bash
+- browser
+title: Google Chromes SQLite Datenbank oder Wie viel Zeit verschwende ich eigentlich
+  auf Facebook?
 ---
 
 Im O'reilly Blog habe ich letztens einen [interessanten Ausschnitt](http://community.oreilly.de/blog/2012/08/10/auszug-aus-computer-forensik-hacks-teil-3/) aus

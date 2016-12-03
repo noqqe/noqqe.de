@@ -1,25 +1,24 @@
 ---
-date: 2010-12-23T16:16:03+02:00
-comments: true
-title: Mac | Fraise App für LaTeX konfigurieren
 aliases:
 - /blog/2010/12/23/mac-fraise-app-fur-latex-konfigurieren
 - /archives/1437
+date: '2010-12-23T14:16:03'
 tags:
-- Bash
-- Development
-- OSX
-- Web
+- development
+- osx
+- smultron
+- latex
+- fraise
+- apple
+- web
 - app
-- Apple
-- Build
-- Fraise
-- Latex
-- Mac
-- R
-- Shortcut
-- Smultron
-- Tastenkürzel
+- "tastenk\xFCrzel"
+- shortcut
+- mac
+- r
+- build
+- bash
+title: "Mac | Fraise App f\xFCr LaTeX konfigurieren"
 ---
 
 Nachdem meine 30 Tage von [TextMate App](http://macromates.com/)

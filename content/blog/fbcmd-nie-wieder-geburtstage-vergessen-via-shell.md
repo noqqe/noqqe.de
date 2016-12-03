@@ -1,28 +1,26 @@
 ---
-date: 2011-12-11T20:45:18+02:00
-comments: true
-title: 'fbcmd | Nie wieder Geburtstage vergessen via Shell. '
 aliases:
 - /blog/2011/12/11/fbcmd-nie-wieder-geburtstage-vergessen-via-shell
 - /archives/1827
+date: '2011-12-11T18:45:18'
 tags:
-- Bash
-- Development
-- Debian
-- ubuntuusers
-- Web
-- automagisch
-- automatisch
-- birthday
+- development
+- web
 - cronjob
-- facbeook
-- fb
-- fbcmd
-- geburtstag
+- automatisch
 - pinnwand
-- reminder
-- versenden
+- facbeook
+- geburtstag
+- fbcmd
+- automagisch
 - wallpost
+- fb
+- birthday
+- versenden
+- reminder
+- debian
+- bash
+title: 'fbcmd | Nie wieder Geburtstage vergessen via Shell. '
 ---
 
 Die nachfolgende Beschreibung eines technischen Vorgangs würde die Mehrheit

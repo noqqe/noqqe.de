@@ -1,22 +1,20 @@
 ---
-date: 2010-03-31T20:12:03+02:00
-comments: true
-title: Apache2 | vhost-Logs und logrotate
 aliases:
 - /archives/946
 - /blog/2010/03/31/apache2-vhost-logs-und-logrotate
+date: '2010-03-31T18:12:03'
 tags:
-- Development
-- Linux
-- ubuntuusers
-- apache
-- apache2
+- development
 - logging
-- logrotate
 - logs
 - vhost
 - vhosts
+- apache2
+- apache
+- logrotate
+- linux
 - virtual host
+title: Apache2 | vhost-Logs und logrotate
 ---
 
 ![169px-ASF-logo.svg](/uploads/2010/03/169px-ASF-logo.svg.png)

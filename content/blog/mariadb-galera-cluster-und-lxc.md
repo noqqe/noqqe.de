@@ -1,18 +1,15 @@
 ---
-title: "MariaDB, Galera Cluster und LXC"
-date: 2013-06-02T19:45:00+02:00
-comments: true
+date: '2013-06-02T17:45:00'
 tags:
-- Debian
-- Stats
-- Administration
-- osbn
-- ubuntuusers
-- MariaDB
-- Galera
-- LXC
-- Container
-- Statistik
+- galera
+- stats
+- administration
+- lxc
+- container
+- mariadb
+- debian
+- statistik
+title: MariaDB, Galera Cluster und LXC
 ---
 
 Eingestaubt, Zukunft ungewiss. Weg von MySQL. Zeit sich endlich mal

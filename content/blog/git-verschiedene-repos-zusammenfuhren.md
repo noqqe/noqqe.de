@@ -1,20 +1,19 @@
 ---
-date: 2010-10-09T17:28:58+02:00
-comments: true
-title: 'Git | Verschiedene Repos zusammenführen '
 aliases:
 - /blog/2010/10/09/git-verschiedene-repos-zusammenfuhren
 - /archives/1302
+date: '2010-10-09T15:28:58'
 tags:
-- Development
-- Debian
+- development
 - branching
-- fetch
 - git
-- merge
 - repos
+- fetch
+- merge
 - vereinen
-- zusammenführen
+- "zusammenf\xFChren"
+- debian
+title: "Git | Verschiedene Repos zusammenf\xFChren "
 ---
 
 In einem Anfall des Ordnungswahns entschloss ich mich im Mai (oder einem

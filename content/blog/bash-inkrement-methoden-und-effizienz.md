@@ -1,21 +1,18 @@
 ---
-date: 2010-05-26T20:22:56+02:00
-comments: true
-title: Bash | Inkrement-Methoden und Effizienz
 aliases:
 - /blog/2010/05/26/bash-inkrement-methoden-und-effizienz
 - /archives/1014
+date: '2010-05-26T18:22:56'
 tags:
-- Development
-- Linux
-- ubuntuusers
-- Shell
-- bash
-- Development
-- decrement
-- increment
+- development
 - inkrementieren
+- shell
 - tricks
+- increment
+- linux
+- decrement
+- bash
+title: Bash | Inkrement-Methoden und Effizienz
 ---
 
 Des öfteren schlage ich mich in Bash-Scripting mit den Meldungen "unärer

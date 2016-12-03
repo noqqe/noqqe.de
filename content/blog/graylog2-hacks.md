@@ -1,13 +1,12 @@
 ---
-title: "graylog2 Hacks"
-date: 2012-08-28T20:24:00+02:00
-comments: true
+date: '2012-08-28T18:24:00'
 tags:
-- Debian
-- Web
-- Ubuntu
-- CentOS
-- Development
+- development
+- web
+- debian
+- centos
+- ubuntu
+title: graylog2 Hacks
 ---
 
 Eigentlich sollte im Titel eher "Tipps und Tricks" stehen, aber mit Hacks im

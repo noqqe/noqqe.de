@@ -1,18 +1,17 @@
 ---
-date: 2009-11-12T16:01:29+02:00
-comments: true
-title: bash | Server updaten gekürzt
 aliases:
 - /blog/2009/11/12/bash-server-updaten-gekurzt
 - /archives/709
+date: '2009-11-12T14:01:29'
 tags:
-- Development
-- Linux
-- Shell
-- apt
+- development
 - upgrade
 - update
+- apt
+- shell
 - aptitude
+- linux
+title: "bash | Server updaten gek\xFCrzt"
 ---
 
 So faul wie ich also bin, mich bei jedem Server einzeln einzuloggen,

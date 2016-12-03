@@ -1,16 +1,15 @@
 ---
-date: 2010-10-09T18:29:37+02:00
-comments: true
-title: Twidge | twidge-sh merged!
 aliases:
 - /archives/1308
 - /blog/2010/10/09/twidge-twidge-sh-merged
+date: '2010-10-09T16:29:37'
 tags:
-- Development
-- Debian
+- development
+- web
 - git
-- Linux
-- Web
+- debian
+- linux
+title: Twidge | twidge-sh merged!
 ---
 
 Yay. Thanks to John Goerzen.

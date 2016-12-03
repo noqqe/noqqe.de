@@ -1,21 +1,19 @@
 ---
-date: 2009-01-10T19:43:22+02:00
-slug: unpack-301-ab-jetzt-als-deb-paket
-comments: true
-title: unpack-3.0.1 ab jetzt als .deb Paket
 aliases:
 - /archives/422
+date: '2009-01-10T17:43:22'
+slug: unpack-301-ab-jetzt-als-deb-paket
 tags:
-- Development
-- Linux
-- bash
-- Development
-- deb
-- debian
-- debian Paket
+- development
 - shell
-- unpack
+- debian paket
 - unpacking tool
+- linux
+- deb
+- unpack
+- debian
+- bash
+title: unpack-3.0.1 ab jetzt als .deb Paket
 ---
 
 Als ich heute morgen nochmal über [syncN](http://zwetschge.org/syncN/)

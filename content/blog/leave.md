@@ -1,16 +1,14 @@
 ---
-title: "leave"
-date: 2015-01-24T10:34:00+02:00
-comments: true
+date: '2015-01-24T08:34:00'
 tags:
-- OpenBSD
-- osbn
-- ubuntuusers
+- openbsd
+- cli
+- commandline
 - leave
-- CLI
-- NetBSD
-- Commandline
+- netbsd
+title: leave
 ---
+
 Die Tage bin ich auf ein über 30 Jahre altes Stück Software gestoßen, dass
 seinen
 [Ursprung](http://ftp.rrzn.uni-hannover.de/pub/mirror/bsd/NetBSD/NetBSD-current/src/usr.bin/leave/)

@@ -1,20 +1,19 @@
 ---
-date: 2009-12-17T11:43:13+02:00
-comments: true
-title: Wordpress | RSS und Planet
 aliases:
 - /archives/805
 - /blog/2009/12/17/wordpress-rss-und-planet
+date: '2009-12-17T09:43:13'
 tags:
-- Linux
-- Development
-- blog
-- feed
-- PHP
+- development
 - planet
-- RSS
 - rss2
+- blog
 - wordpress
+- linux
+- php
+- feed
+- rss
+title: Wordpress | RSS und Planet
 ---
 
 ![rss](/uploads/2009/12/rss.gif)

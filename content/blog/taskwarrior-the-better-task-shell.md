@@ -1,23 +1,20 @@
 ---
-date: 2011-10-22T14:05:57+02:00
-comments: true
-title: Taskwarrior | The better-task-shell
 aliases:
 - /archives/1810
 - /blog/2011/10/22/taskwarrior-the-better-task-shell
+date: '2011-10-22T12:05:57'
 tags:
-- Shell
-- Development
-- Debian
-- PlanetenBlogger
-- Ubuntu
-- Web
-- bash
-- better shell
+- development
+- web
 - shell
-- Task
+- better shell
+- taskwarrior
+- task
+- ubuntu
 - task-shell
-- Taskwarrior
+- debian
+- bash
+title: Taskwarrior | The better-task-shell
 ---
 
 Eigentlich wollte ich das Projekt task-shell-ng nennen. Aber so gut ist es
@@ -71,4 +68,3 @@ git clone git@github.com:noqqe/better-task-shell.git
 $ cd better-task-shell
 $ ./better-task-shell
 ```
-

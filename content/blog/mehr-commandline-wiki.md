@@ -1,18 +1,16 @@
 ---
-date: 2015-06-06T18:28:32+02:00
+date: '2015-06-06T16:28:32'
 tags:
-- bsd
+- wiki
+- web
+- shell
+- python
+- cmd
+- cmddocs
 - code
 - opensource
-- osbn
-- shell
-- ubuntuusers
-- web
-- cmddocs
-- wiki
+- bsd
 - commandlinedocs
-- cmd
-- python
 - documentation
 title: Mehr Commandline Wiki
 ---

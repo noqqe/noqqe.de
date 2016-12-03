@@ -1,26 +1,24 @@
 ---
-date: 2010-04-02T19:24:51+02:00
-comments: true
-title: Nagios | Von sprechenden Druckern, Verpflichtungen und SNMP
 aliases:
 - /archives/954
 - /blog/2010/04/02/nagios-von-sprechenden-druckern-verpflichtungen-und-snmp
+date: '2010-04-02T17:24:51'
 tags:
-- Debian
-- Ubuntu
-- Administration
-- DevOps
 - fach
-- mib
-- nachfüllen
-- nagios
-- oid
-- paper
-- papier
-- printer
+- "nachf\xFCllen"
 - snmp
-- tray
+- mib
+- administration
+- devops
+- nagios
+- paper
 - ubuntu
+- printer
+- papier
+- tray
+- debian
+- oid
+title: Nagios | Von sprechenden Druckern, Verpflichtungen und SNMP
 ---
 
 ![Logo_Nagios](/uploads/2010/04/Logo_Nagios.gif)

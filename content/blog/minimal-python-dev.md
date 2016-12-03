@@ -1,15 +1,12 @@
 ---
-date: 2016-03-02T19:30:50+01:00
+date: '2016-03-02T18:30:50'
 tags:
+- development
 - code
-- development
-- opensource
-- osbn
-- planetenblogger
 - python
-- pip
-- development
 - vim
+- opensource
+- pip
 title: Minimales Python Development
 ---
 
@@ -220,4 +217,3 @@ so unerfahren, dass ich das mal weg lasse. Will man auf jedenfall haben, da
 Tests im Zweifel die einzigen Indikatoren für Paketmaintainer diverser
 Betriebssysteme sind, um sicherzustellen, dass die Software auch wirklich
 funktioniert.
-
