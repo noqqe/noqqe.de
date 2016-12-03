@@ -5,10 +5,9 @@ title: 'Git | Verschiedene Repos zusammenführen '
 aliases:
 - /blog/2010/10/09/git-verschiedene-repos-zusammenfuhren
 - /archives/1302
-categories:
+tags:
 - Development
 - Debian
-tags:
 - branching
 - fetch
 - git

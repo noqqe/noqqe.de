@@ -1,12 +1,11 @@
 ---
-categories:
+date: 2016-03-02T19:30:50+01:00
+tags:
 - code
 - development
 - opensource
 - osbn
 - planetenblogger
-date: 2016-03-02T19:30:50+01:00
-tags:
 - python
 - pip
 - development

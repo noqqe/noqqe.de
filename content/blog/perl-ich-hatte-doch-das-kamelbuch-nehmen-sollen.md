@@ -5,11 +5,10 @@ title: Perl | Ich hätte doch das Kamelbuch nehmen sollen
 aliases:
 - /blog/2010/07/04/perl-ich-hatte-doch-das-kamelbuch-nehmen-sollen
 - /archives/1087
-categories:
+tags:
 - Development
 - Linux
 - PlanetenBlogger
-tags:
 - Perl
 - coden
 - Development

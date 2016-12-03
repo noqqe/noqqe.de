@@ -5,13 +5,12 @@ title: Offtopic | Deskshot.
 aliases:
 - /blog/2010/12/26/offtopic-deskshot
 - /archives/1442
-categories:
+tags:
 - Shell
 - Blog
 - Hardware
 - Linux
 - Web
-tags:
 - camel active
 - Cherry
 - leatherman

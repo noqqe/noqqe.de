@@ -2,11 +2,10 @@
 title: "OpenBSD nginx Logrotate"
 date: 2014-03-02T12:09:00+02:00
 comments: true
-categories:
+tags:
 - OpenBSD
 - osbn
 - BSD
-tags:
 - Log
 - Nginx
 - Logrotate

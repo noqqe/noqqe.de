@@ -5,9 +5,8 @@ title: Privat | Stille
 aliases:
 - /blog/2009/04/13/privat-stille
 - /archives/584
-categories:
-- Blog
 tags:
+- Blog
 - anno1602
 - battle for wesnoth
 - deezer

@@ -4,13 +4,12 @@ date: 2012-08-12T20:12:00+02:00
 comments: true
 aliases:
 - /blog/2012/08/12/trennung-vom-bash-it-framework-koche-nun-eigenes-s%C3%BCppchen/
-categories:
+tags:
+- bash-it
 - Bash
 - Development
 - Debian
 - ubuntuusers
-tags:
-- bash-it
 - bash
 - framework
 - nano-bash

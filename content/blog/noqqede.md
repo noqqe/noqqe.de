@@ -5,7 +5,7 @@ comments: true
 title: noqqe.de
 aliases:
 - /archives/102
-categories:
+tags:
 - Blog
 ---
 

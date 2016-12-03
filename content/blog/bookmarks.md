@@ -1,12 +1,11 @@
 ---
-categories:
+date: 2015-04-06T18:16:25+02:00
+tags:
 - bash
 - development
 - osbn
 - ubuntuusers
 - web
-date: 2015-04-06T18:16:25+02:00
-tags:
 - bookmarks
 - pinboard
 - bm

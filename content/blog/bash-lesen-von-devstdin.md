@@ -5,19 +5,16 @@ title: Bash | Lesen von /dev/stdin
 aliases:
 - /blog/2010/12/01/bash-lesen-von-devstdin
 - /archives/1402
-categories:
+tags:
 - Bash
 - Development
 - git
 - Linux
 - PlanetenBlogger
-tags:
 - /dev/stdin
 - bash
 - lesen
-- lesen vom stdin
 - read
-- read from stdin
 - script
 - shell
 ---

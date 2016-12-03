@@ -5,10 +5,9 @@ title: Wordpress | Tags in Theme einbauen
 aliases:
 - /archives/886
 - /blog/2010/02/15/wordpress-tags-in-theme-einbauen
-categories:
+tags:
 - Development
 - Blog
-tags:
 - PHP
 - tagging
 - tags

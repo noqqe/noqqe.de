@@ -5,7 +5,7 @@ title: Allgemein | Wiederbelebt
 aliases:
 - /archives/652
 - /blog/2009/09/20/allgemein-wiederbelebt
-categories:
+tags:
 - Blog
 - Linux
 ---

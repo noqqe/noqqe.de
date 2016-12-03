@@ -1,6 +1,4 @@
 ---
-categories:
-- web
 date: 2016-04-26T20:29:53+02:00
 tags:
 - web

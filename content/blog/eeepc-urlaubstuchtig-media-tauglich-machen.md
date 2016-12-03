@@ -5,10 +5,9 @@ comments: true
 title: EeePC urlaubstüchtig / Media tauglich machen!
 aliases:
 - /archives/55
-categories:
+tags:
 - Hardware
 - Linux
-tags:
 - totem
 - xmms
 - xubuntu

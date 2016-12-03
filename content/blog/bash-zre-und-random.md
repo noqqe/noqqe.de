@@ -5,11 +5,9 @@ title: Bash | ZRE und $RANDOM
 aliases:
 - /blog/2010/10/19/bash-zre-und-random
 - /archives/1321
-categories:
-- Development
-- Blog
-- Shell
 tags:
+- Development
+- Shell
 - git
 - bash
 - humans

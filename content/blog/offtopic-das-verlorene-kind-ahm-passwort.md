@@ -5,12 +5,10 @@ title: Offtopic | Das verlorene Kind...ahm, Passwort
 aliases:
 - /blog/2010/01/15/offtopic-das-verlorene-kind-ahm-passwort
 - /archives/849
-categories:
+tags:
 - Blog
 - Linux
 - OSX
-tags:
-- '2010'
 - adium
 - Error
 - ICQ

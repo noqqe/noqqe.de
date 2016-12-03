@@ -5,10 +5,9 @@ title: Gobby | Multi Cursor File Editing
 aliases:
 - /blog/2008/07/18/gobbymulti-cursor-file-editing-oder-so-ahnlich-d
 - /archives/118
-categories:
+tags:
 - Development
 - Linux
-tags:
 - gobby
 - Linux
 - python

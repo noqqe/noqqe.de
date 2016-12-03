@@ -2,13 +2,12 @@
 title: "Mirroring gitolite"
 date: 2013-02-17T20:14:00+02:00
 comments: true
-categories:
+tags:
 - ubuntuusers
 - osbn
 - DevOps
 - Administration
 - Shell
-tags:
 - git
 - gitolite
 - debian

@@ -5,11 +5,10 @@ title: Mail | Evolution und sein K.O.-Kriterium
 aliases:
 - /blog/2010/05/31/mail-evolution-und-sein-k-o-kriterium
 - /archives/1018
-categories:
+tags:
 - Linux
 - ubuntuusers
 - Mail
-tags:
 - evolution
 - mail
 - Thunderbird

@@ -5,13 +5,12 @@ title: ZRE | Visualisiert.
 aliases:
 - /archives/1513
 - /blog/2011/03/08/zre-visualisiert
-categories:
+tags:
 - Bash
 - Development
 - Debian
 - Blog
 - Ubuntu
-tags:
 - docs
 - google
 - zre

@@ -2,13 +2,12 @@
 title: "LXC Setup 2.0"
 date: 2012-10-07T20:00:00+02:00
 comments: true
-categories:
+tags:
 - ubuntuusers
 - osbn
 - Debian
 - Linux
 - Shell
-tags:
 - LXC
 aliases:
 - /blog/2012/10/07/lxc-setup-2-dot-0

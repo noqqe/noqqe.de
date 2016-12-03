@@ -5,9 +5,8 @@ title: iPhone | Lieferung
 aliases:
 - /blog/2009/09/24/iphone-lieferung
 - /archives/658
-categories:
-- Hardware
 tags:
+- Hardware
 - iPhone
 ---
 

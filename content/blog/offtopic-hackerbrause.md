@@ -5,9 +5,8 @@ title: Offtopic | Hackerbrause
 aliases:
 - /blog/2010/12/21/offtopic-hackerbrause
 - /archives/1431
-categories:
-- Blog
 tags:
+- Blog
 - club
 - club-mate
 - geeks

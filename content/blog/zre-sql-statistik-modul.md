@@ -5,11 +5,10 @@ title: 'ZRE | SQL Statistik Modul'
 aliases:
 - /archives/1566
 - /blog/2011/03/26/zre-sql-statistik-modul
-categories:
+tags:
 - Bash
 - Debian
 - Development
-tags:
 - attack
 - bash
 - chewbacca

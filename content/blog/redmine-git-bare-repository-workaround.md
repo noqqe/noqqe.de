@@ -5,11 +5,10 @@ title: Redmine | Git Bare Repository Workaround
 aliases:
 - /blog/2010/11/27/redmine-git-bare-repository-workaround
 - /archives/1396
-categories:
+tags:
 - Development
 - PlanetenBlogger
 - Administration
-tags:
 - bare
 - barerepo
 - issue

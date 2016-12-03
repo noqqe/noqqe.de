@@ -7,8 +7,6 @@ aliases:
 - /archives/73
 - /blog/2008/06/14/hardy-und-widescreen-jetzt-doch-/
 - /blog/2008/06/14/hardy-und-widescreen-jetzt-doch/
-categories:
-- Linux
 tags:
 - ALSA
 - debian

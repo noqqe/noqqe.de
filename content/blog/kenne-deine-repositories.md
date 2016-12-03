@@ -2,11 +2,10 @@
 title: "Kenne deine Repositories"
 date: 2012-11-18T20:27:00+02:00
 comments: true
-categories:
+tags:
 - osbn
 - bash
 - stats
-tags:
 - bash
 - regex
 - git

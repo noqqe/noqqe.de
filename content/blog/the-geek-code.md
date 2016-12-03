@@ -5,8 +5,6 @@ comments: true
 title: The Geek Code
 aliases:
 - /archives/80
-categories:
-- Blog
 tags:
 - geek
 - geekcode

@@ -1,12 +1,11 @@
 ---
-categories:
+date: 2016-05-16T11:13:02+02:00
+tags:
+- rvo
 - code
 - crypto
 - development
 - osbn
-date: 2016-05-16T11:13:02+02:00
-tags:
-- rvo
 - python
 - cmddocs
 title: rvo

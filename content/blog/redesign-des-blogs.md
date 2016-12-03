@@ -2,10 +2,9 @@
 title: "Redesign des Blogs"
 date: 2012-12-22T18:27:00+02:00
 comments: true
-categories:
+tags:
 - osbn
 - Blog
-tags:
 - octopress
 - Blog
 - HTML

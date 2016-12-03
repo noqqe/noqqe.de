@@ -5,10 +5,9 @@ title: Arduino | Ich bau mir einen Synthesizer
 aliases:
 - /archives/1833
 - /blog/2011/12/21/arduino-ich-bau-mir-einen-synthesizer
-categories:
+tags:
 - Hardware
 - Web
-tags:
 - Arduino
 - auduino
 - community

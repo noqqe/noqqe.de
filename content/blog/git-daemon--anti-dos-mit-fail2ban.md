@@ -4,10 +4,9 @@ comments: true
 title: Git-daemon | Anti-DOS mit fail2ban
 aliases:
 - /archives/991
-categories:
+tags:
 - Development
 - Linux
-tags:
 - ban
 - daemon
 - dos

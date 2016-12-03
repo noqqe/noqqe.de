@@ -5,9 +5,8 @@ title: Feed | RSS im Directors-Cut
 aliases:
 - /blog/2009/03/07/feed-rss-im-directors-cut
 - /archives/542
-categories:
-- Blog
 tags:
+- Blog
 - atom
 - feed
 - gekürzt

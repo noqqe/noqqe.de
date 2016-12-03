@@ -5,12 +5,11 @@ comments: true
 title: Pidgin Chat-Nachrichten zählen
 aliases:
 - /archives/1672
-categories:
+tags:
 - Shell
 - Development
 - Ubuntu
 - Web
-tags:
 - chat
 - ICQ
 - libpurple

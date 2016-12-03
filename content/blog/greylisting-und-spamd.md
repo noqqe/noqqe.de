@@ -1,5 +1,6 @@
 ---
-categories:
+date: 2016-10-23T16:34:04+02:00
+tags:
 - administration
 - bsd
 - mail
@@ -7,8 +8,6 @@ categories:
 - osbn
 - planetenblogger
 - ubuntuusers
-date: 2016-10-23T16:34:04+02:00
-tags:
 - mail
 - smtpd
 - opensmtp

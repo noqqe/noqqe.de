@@ -5,10 +5,9 @@ title: Creative Commons | Freies Wissen und Inhalte
 aliases:
 - /blog/2010/06/17/creative-commons-freies-wissen-und-inhalte-auf-noqqe-de
 - /archives/1049
-categories:
+tags:
 - Development
 - Blog
-tags:
 - cc
 - cc-by-nc-sa
 - cc-network

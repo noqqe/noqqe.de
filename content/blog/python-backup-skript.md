@@ -5,10 +5,9 @@ comments: true
 title: Python Backup Skript
 aliases:
 - /archives/111
-categories:
+tags:
 - Development
 - Linux
-tags:
 - python
 ---
 

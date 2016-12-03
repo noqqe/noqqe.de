@@ -5,10 +5,9 @@ title: Event | Chemnitzer Linux-Tage
 aliases:
 - /blog/2010/03/16/event-chemnitzer-linux-tage
 - /archives/939
-categories:
+tags:
 - Blog
 - Linux
-tags:
 - Chemnitz
 - clt
 - debian

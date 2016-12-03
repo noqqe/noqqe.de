@@ -2,9 +2,8 @@
 title: "Enlarge your P..GP Key"
 date: 2014-03-16T17:20:00+02:00
 comments: true
-categories:
-- Crypto
 tags:
+- Crypto
 - pgp
 - gpg
 - key

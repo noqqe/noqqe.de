@@ -5,14 +5,13 @@ comments: true
 title: ROT13 Verschlüsselung in Bash
 aliases:
 - /archives/1732
-categories:
+tags:
+- /dev/radio
 - Bash
 - Development
 - Debian
 - Linux
 - ubuntuusers
-tags:
-- /dev/radio
 - bash
 - CCC
 - decryption

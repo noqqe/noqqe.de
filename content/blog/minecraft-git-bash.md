@@ -5,11 +5,10 @@ comments: true
 title: 'Minecraft + Git + Bash = <3'
 aliases:
 - /archives/1693
-categories:
+tags:
 - Bash
 - ubuntuusers
 - Web
-tags:
 - Autosave
 - bash
 - git

@@ -1,12 +1,11 @@
 ---
-categories:
+date: 2015-09-12T14:47:14+02:00
+tags:
 - network
 - opensource
 - osbn
 - shell
 - web
-date: 2015-09-12T14:47:14+02:00
-tags:
 - MUD
 - Games
 - RPG

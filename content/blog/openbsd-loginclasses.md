@@ -1,11 +1,10 @@
 ---
-categories:
+date: 2016-07-09T11:09:55+02:00
+tags:
 - administration
 - bsd
 - openbsd
 - osbn
-date: 2016-07-09T11:09:55+02:00
-tags:
 - ulimit
 - login
 - maxfiles

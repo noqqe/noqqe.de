@@ -5,11 +5,10 @@ title: Bash | the zombie-revolution-environment
 aliases:
 - /blog/2010/10/17/bash-the-zombie-revolution-environment
 - /archives/1314
-categories:
+tags:
 - Development
 - Debian
 - Shell
-tags:
 - git
 - 8bit
 - bash

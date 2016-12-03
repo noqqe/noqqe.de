@@ -5,12 +5,11 @@ title: Twitter OAuth | Twidge reanimieren
 aliases:
 - /archives/1262
 - /blog/2010/09/29/twitter-oauth-twidge-reanimieren
-categories:
+tags:
 - Debian
 - Linux
 - PlanetenBlogger
 - Ubuntu
-tags:
 - API
 - auth
 - debian

@@ -5,13 +5,12 @@ title: BitCoin | Debian Daemon Script für poclbm-mod
 aliases:
 - /blog/2011/06/12/bitcoin-debian-daemon-script-fur-poclbm-mod
 - /archives/1689
-categories:
+tags:
 - Bash
 - Debian
 - Ubuntu
 - ubuntuusers
 - Crypto
-tags:
 - BitCoin
 - debian
 - Mining

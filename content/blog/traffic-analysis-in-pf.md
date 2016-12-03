@@ -2,12 +2,11 @@
 title: "Traffic Analysis in pf"
 date: 2015-03-17T13:02:00+02:00
 comments: true
-categories:
+tags:
 - OpenBSD
 - Network
 - BSD
 - Administration
-tags:
 - PF
 - Firewall
 - Network

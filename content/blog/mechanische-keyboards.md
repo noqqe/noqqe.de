@@ -1,11 +1,10 @@
 ---
-categories:
+date: 2016-07-01T15:28:29+02:00
+tags:
 - hardware
 - osbn
 - planetenblogger
 - ubuntuusers
-date: 2016-07-01T15:28:29+02:00
-tags:
 - Keyboard
 - Signature Plastics
 - Cherry

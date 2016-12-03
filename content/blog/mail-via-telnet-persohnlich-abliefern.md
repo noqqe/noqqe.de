@@ -5,11 +5,10 @@ title: Mail | via Telnet persöhnlich abliefern
 aliases:
 - /blog/2009/02/24/mail-via-telnet-persohnlich-abliefern
 - /archives/521
-categories:
+tags:
 - Hardware
 - Linux
 - Mail
-tags:
 - EEE-PC
 - email
 - mail

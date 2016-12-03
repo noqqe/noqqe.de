@@ -1,15 +1,12 @@
 ---
-categories:
+date: 2015-11-07T21:59:22+01:00
+tags:
 - administration
 - bsd
 - openbsd
 - opensource
 - osbn
 - planetenblogger
-- ubuntuusers
-date: 2015-11-07T21:59:22+01:00
-tags:
-- null
 title: OpenBSD Upgrade Guidelines
 ---
 

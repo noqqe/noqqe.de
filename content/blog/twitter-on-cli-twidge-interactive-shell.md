@@ -5,13 +5,12 @@ title: Twitter on CLI | Twidge Interactive Shell
 aliases:
 - /archives/1285
 - /blog/2010/10/05/twitter-on-cli-twidge-interactive-shell
-categories:
+tags:
 - Development
 - Debian
 - Linux
 - PlanetenBlogger
 - Web
-tags:
 - alias
 - cli
 - cli-twitter

@@ -5,10 +5,9 @@ comments: true
 title: Dateiberechtigungen und ihr Sinn
 aliases:
 - /archives/63
-categories:
+tags:
 - Hardware
 - Linux
-tags:
 - shell
 - permissions
 - 755

@@ -5,10 +5,9 @@ comments: true
 title: Hardy Heron und die Auflösung
 aliases:
 - /archives/72
-categories:
+tags:
 - Hardware
 - Linux
-tags:
 - Hardy Heron
 - ubuntu
 ---

@@ -5,10 +5,9 @@ title: Bash | Scripting-Aufgabe @ School
 aliases:
 - /blog/2010/05/22/bash-scripting-aufgabe-school
 - /archives/1011
-categories:
+tags:
 - Development
 - Linux
-tags:
 - Schule
 - Aufgabe
 - Bash

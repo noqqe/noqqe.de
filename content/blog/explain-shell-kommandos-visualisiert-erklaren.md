@@ -5,11 +5,10 @@ title: Explain | Shell-Kommandos visualisiert erklären
 aliases:
 - /blog/2010/08/29/explain-shell-kommandos-visualisiert-erklaren
 - /archives/1224
-categories:
+tags:
 - Development
 - Ubuntu
 - ubuntuusers
-tags:
 - bash
 - debian
 - dokumentation

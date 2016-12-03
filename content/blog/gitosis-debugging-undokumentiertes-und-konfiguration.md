@@ -5,10 +5,9 @@ title: Gitosis | Debugging, Undokumentiertes und Konfiguration
 aliases:
 - /blog/2010/08/12/gitosis-debugging-undokumentiertes-und-konfiguration
 - /archives/1175
-categories:
+tags:
 - Development
 - Debian
-tags:
 - accounting
 - debug
 - documentation

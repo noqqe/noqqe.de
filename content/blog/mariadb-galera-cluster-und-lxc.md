@@ -2,13 +2,12 @@
 title: "MariaDB, Galera Cluster und LXC"
 date: 2013-06-02T19:45:00+02:00
 comments: true
-categories:
+tags:
 - Debian
 - Stats
 - Administration
 - osbn
 - ubuntuusers
-tags:
 - MariaDB
 - Galera
 - LXC

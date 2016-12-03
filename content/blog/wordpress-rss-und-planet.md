@@ -5,10 +5,9 @@ title: Wordpress | RSS und Planet
 aliases:
 - /archives/805
 - /blog/2009/12/17/wordpress-rss-und-planet
-categories:
+tags:
 - Linux
 - Development
-tags:
 - blog
 - feed
 - PHP

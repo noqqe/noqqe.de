@@ -2,12 +2,11 @@
 title: "LXC. Not ready yet for production use, huh?"
 date: 2012-05-14T15:30:00+02:00
 comments: true
-categories:
+tags:
 - ubuntuusers
 - Linux
 - Debian
 - Development
-tags:
 - LXC
 - linux
 - container

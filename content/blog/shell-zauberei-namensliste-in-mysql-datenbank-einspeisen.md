@@ -5,13 +5,12 @@ comments: true
 title: Namensliste in MySQL Datenbank einspeisen
 aliases:
 - /archives/1645
-categories:
+tags:
 - Shell
 - Development
 - Debian
 - PlanetenBlogger
 - Databases
-tags:
 - bash
 - mysql
 - namen

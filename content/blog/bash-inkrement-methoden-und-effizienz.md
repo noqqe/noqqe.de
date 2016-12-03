@@ -5,12 +5,11 @@ title: Bash | Inkrement-Methoden und Effizienz
 aliases:
 - /blog/2010/05/26/bash-inkrement-methoden-und-effizienz
 - /archives/1014
-categories:
+tags:
 - Development
 - Linux
 - ubuntuusers
 - Shell
-tags:
 - bash
 - Development
 - decrement

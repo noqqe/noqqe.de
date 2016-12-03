@@ -5,14 +5,13 @@ title: Loading | Eine Bash-Progress-Bar
 aliases:
 - /blog/2011/11/26/loading-eine-bash-progress-bar
 - /archives/1819
-categories:
+tags:
 - Shell
 - Development
 - Debian
 - Linux
 - ubuntuusers
 - Web
-tags:
 - balken
 - bar
 - bash

@@ -1,10 +1,9 @@
 ---
-categories:
+date: 2016-09-15T11:23:11+02:00
+tags:
 - bsd
 - openbsd
 - osbn
-date: 2016-09-15T11:23:11+02:00
-tags:
 - Paste
 - pastecat
 - pastebin

@@ -5,12 +5,11 @@ title: Git | Dotfiles des Home-Dirs verwalten
 aliases:
 - /blog/2010/08/16/git-dotfiles-des-home-dirs-verwalten
 - /archives/1192
-categories:
+tags:
 - Development
 - Debian
 - Ubuntu
 - ubuntuusers
-tags:
 - xubuntu
 - automatisierung
 - dotfiles

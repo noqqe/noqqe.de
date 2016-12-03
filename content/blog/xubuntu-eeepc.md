@@ -5,10 +5,9 @@ comments: true
 title: Xubuntu / EeePC
 aliases:
 - /archives/50
-categories:
+tags:
 - Hardware
 - Linux
-tags:
 - Hardy Heron
 - xfce
 - xubuntu

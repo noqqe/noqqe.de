@@ -5,13 +5,12 @@ title: 'fbcmd | Nie wieder Geburtstage vergessen via Shell. '
 aliases:
 - /blog/2011/12/11/fbcmd-nie-wieder-geburtstage-vergessen-via-shell
 - /archives/1827
-categories:
+tags:
 - Bash
 - Development
 - Debian
 - ubuntuusers
 - Web
-tags:
 - automagisch
 - automatisch
 - birthday

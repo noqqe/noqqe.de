@@ -5,10 +5,9 @@ title: Offtopic | Endlich mal ein schöner ASCII-Art-Generator
 aliases:
 - /blog/2010/02/15/offtopic-endlich-mal-ein-schoner-ascii-art-generator
 - /archives/884
-categories:
+tags:
 - Development
 - Web
-tags:
 - art
 - ascii
 - generator

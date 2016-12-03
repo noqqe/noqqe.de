@@ -6,10 +6,9 @@ aliases:
 - /blog/2011/09/21/deaddrop-erlangen-schwabachanlage
 - /archives/1759
 - /blog/2011/09/21/deaddrop-erlangen-schwabachanlage/
-categories:
+tags:
 - Debian
 - Hardware
-tags:
 - anonym
 - DeadDrop
 - DeadDrop Erlangen

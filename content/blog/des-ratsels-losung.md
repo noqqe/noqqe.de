@@ -6,7 +6,7 @@ title: Des Rätsels Lösung?
 aliases:
 - /archives/8
 - /blog/2008/03/26/des-r%C3%A4tsels-l%C3%B6sung/
-categories:
+tags:
 - Hardware
 - Linux
 ---

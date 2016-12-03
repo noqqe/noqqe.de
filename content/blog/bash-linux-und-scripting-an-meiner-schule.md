@@ -5,11 +5,10 @@ title: Bash | Linux und Scripting an meiner Schule
 aliases:
 - /blog/2010/05/20/bash-linux-und-scripting-an-meiner-schule
 - /archives/1005
-categories:
+tags:
 - Development
 - Linux
 - Shell
-tags:
 - bash
 - schule
 - scripting

@@ -1,11 +1,10 @@
 ---
-categories:
+date: 2016-11-13T10:50:02+01:00
+tags:
 - openbsd
 - osbn
 - planetenblogger
 - ubuntuusers
-date: 2016-11-13T10:50:02+01:00
-tags:
 - smtp
 - mail
 title: Reverse DNS SMTP Gedönz

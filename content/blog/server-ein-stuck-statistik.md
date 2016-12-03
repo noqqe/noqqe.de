@@ -5,11 +5,10 @@ title: Server | Ein Stück Statistik
 aliases:
 - /blog/2009/04/26/server-ein-stuck-statistik
 - /archives/595
-categories:
+tags:
 - Blog
 - Linux
 - Stats
-tags:
 - emote
 - fun
 - gif

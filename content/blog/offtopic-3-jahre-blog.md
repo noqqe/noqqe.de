@@ -5,9 +5,8 @@ title: Offtopic | 3 Jahre Blog
 aliases:
 - /blog/2011/03/24/offtopic-3-jahre-blog
 - /archives/1536
-categories:
-- Blog
 tags:
+- Blog
 - Geburtstag
 - Wordpress
 ---

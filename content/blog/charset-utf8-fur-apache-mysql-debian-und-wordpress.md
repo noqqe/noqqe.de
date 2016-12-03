@@ -5,12 +5,11 @@ title: 'Charset | UTF8 für Apache, PHP, MySQL, Debian und Wordpress '
 aliases:
 - /blog/2011/02/24/charset-utf8-fur-apache-mysql-debian-und-wordpress
 - /archives/1487
-categories:
+tags:
 - Shell
 - Debian
 - Linux
 - Administration
-tags:
 - apache2
 - charset
 - debian

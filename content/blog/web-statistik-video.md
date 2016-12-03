@@ -5,11 +5,10 @@ title: Web | Statistik Video
 aliases:
 - /archives/933
 - /blog/2010/03/12/web-statistik-video
-categories:
+tags:
 - Web
 - PlanetenBlogger
 - Stats
-tags:
 - facebook
 - statistics
 - twitter

@@ -5,9 +5,8 @@ title: Community | Planetenblogger.de
 aliases:
 - /blog/2010/03/01/community-planetenblogger-de
 - /archives/920
-categories:
-- Blog
 tags:
+- Blog
 - planet
 - PlanetenBlogger
 - ubuntu

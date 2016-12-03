@@ -1,11 +1,9 @@
 ---
 title: "DaviCal, PostgreSQL und Apple Produkte"
 date: 2012-04-09T20:05:00+02:00
-comments: true
-categories:
+tags:
 - Linux
 - Web
-tags:
 - Apple
 - davical
 - caldav

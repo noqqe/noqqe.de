@@ -2,10 +2,9 @@
 title: "Chemnitzer Linux Tage 2012"
 date: 2012-03-22T20:16:00+02:00
 comments: true
-categories:
+tags:
 - Linux
 - Events
-tags:
 - Chemnitz
 - Chemnitzer Linux Tage
 - Linux

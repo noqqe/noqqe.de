@@ -6,13 +6,10 @@ aliases:
 - /blog/2010/07/14/grub-auflosung-der-konsole-andern
 - /blog/2010/07/14/grub--aufl%C3%B6sung-der-konsole-%C3%A4ndern/
 - /archives/1098
-categories:
+tags:
 - Debian
 - Linux
 - Ubuntu
-tags:
-- ändern
-- auflösung
 - boot
 - change
 - grub

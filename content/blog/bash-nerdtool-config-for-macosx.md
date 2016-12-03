@@ -5,11 +5,10 @@ title: Bash | NerdTool Config for MacOSX
 aliases:
 - /archives/1182
 - /blog/2010/08/15/bash-nerdtool-config-for-macosx/
-categories:
+tags:
 - Development
 - OSX
 - PlanetenBlogger
-tags:
 - bash
 - cpu
 - daemons

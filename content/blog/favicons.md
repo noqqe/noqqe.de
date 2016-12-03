@@ -2,12 +2,11 @@
 title: "Favicons"
 date: 2012-11-04T11:40:00+02:00
 comments: true
-categories:
+tags:
 - OpenSource
 - Web
 - Debian
 - osbn
-tags:
 - favicons
 - Browser
 - Blog

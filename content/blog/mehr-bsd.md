@@ -2,13 +2,12 @@
 title: "Mehr BSD, Bye Uberspace"
 date: 2014-06-19T17:20:00+02:00
 comments: true
-categories:
+tags:
 - Mail
 - osbn
 - BSD
 - OpenBSD
 - Linux
-tags:
 - Uberspace
 - imapfilter
 - mailbox

@@ -5,10 +5,9 @@ comments: true
 title: Grub und andere Komplikationen...
 aliases:
 - /archives/6
-categories:
+tags:
 - Hardware
 - Linux
-tags:
 - Knoppix
 ---
 

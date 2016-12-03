@@ -5,12 +5,11 @@ title: Mac | Fraise App für LaTeX konfigurieren
 aliases:
 - /blog/2010/12/23/mac-fraise-app-fur-latex-konfigurieren
 - /archives/1437
-categories:
+tags:
 - Bash
 - Development
 - OSX
 - Web
-tags:
 - app
 - Apple
 - Build

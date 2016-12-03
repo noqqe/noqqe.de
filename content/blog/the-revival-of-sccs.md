@@ -2,11 +2,10 @@
 title: "The Revival of SCCS"
 date: 2012-03-23T15:11:00+02:00
 comments: true
-categories:
+tags:
 - ubuntuusers
 - Code
 - Shell
-tags:
 - bash
 - shell
 - git

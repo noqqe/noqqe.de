@@ -1,13 +1,12 @@
 ---
-categories:
+date: 2015-05-08T18:25:17+02:00
+tags:
 - blog
 - bsd
 - openbsd
 - osbn
 - osx
 - ubuntuusers
-date: 2015-05-08T18:25:17+02:00
-tags:
 - openbsd
 - safari
 - file

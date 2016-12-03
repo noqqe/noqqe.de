@@ -5,7 +5,7 @@ title: statistical | Statistiken visualisieren im Terminal
 aliases:
 - /archives/1603
 - /blog/2011/04/14/statistical-statistiken-visualisieren-im-terminal
-categories:
+tags:
 - Bash
 - Development
 - Debian
@@ -14,7 +14,6 @@ categories:
 - Mail
 - Ubuntu
 - Web
-tags:
 - alice
 - bash
 - bob

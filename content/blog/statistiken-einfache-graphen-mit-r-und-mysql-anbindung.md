@@ -5,7 +5,7 @@ title: Statistiken | Einfache Graphen mit R und MySQL Anbindung
 aliases:
 - /blog/2011/10/02/statistiken-einfache-graphen-mit-r-und-mysql-anbindung
 - /archives/1780
-categories:
+tags:
 - Bash
 - Development
 - Debian
@@ -14,7 +14,6 @@ categories:
 - Databases
 - Ubuntu
 - ubuntuusers
-tags:
 - Web
 - analyse
 - anbindung

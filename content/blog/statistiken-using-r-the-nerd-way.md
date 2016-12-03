@@ -7,14 +7,13 @@ aliases:
 - /archives/1458
 - /blog/2011/02/04/statistiken-using-r-the-nerd-way/
 - /blog/2011/02/04/statistiken--using-r-the-nerd-way/
-categories:
+tags:
 - Development
 - Blog
 - Linux
 - Ubuntu
 - ubuntuusers
 - Web
-tags:
 - analyiseren
 - bash
 - history

@@ -2,11 +2,10 @@
 title: "MacBook"
 date: 2014-09-25T18:34:00+02:00
 comments: true
-categories:
+tags:
 - osbn
 - OpenBSD
 - OSX
-tags:
 - macbook
 - apple
 - locate

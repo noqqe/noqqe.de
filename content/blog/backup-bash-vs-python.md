@@ -5,10 +5,9 @@ title: Backup | Bash vs. Python
 aliases:
 - /archives/568
 - /blog/2009/03/18/backup-bash-vs-python
-categories:
+tags:
 - Development
 - Linux
-tags:
 - backup
 - bash
 - python

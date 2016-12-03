@@ -5,12 +5,11 @@ title: roborobo | selfmade robot
 aliases:
 - /blog/2010/04/11/roborobo-selfmade-robot
 - /archives/977
-categories:
+tags:
 - Development
 - Linux
 - PlanetenBlogger
 - Shell
-tags:
 - backup
 - daemon
 - deb

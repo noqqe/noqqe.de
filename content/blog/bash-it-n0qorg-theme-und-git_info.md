@@ -5,11 +5,10 @@ title: bash-it | n0qorg theme und git_info
 aliases:
 - /archives/1389
 - /blog/2010/11/24/bash-it-n0qorg-theme-und-git_info
-categories:
+tags:
 - Development
 - Blog
 - Shell
-tags:
 - git
 - bash
 - bash-it

@@ -5,12 +5,11 @@ title: DuckDuckGo | Suche via Firefox Addressleiste umstellen
 aliases:
 - /blog/2011/02/07/duckduckgo-suche-via-firefox-addressleiste-umstellen
 - /archives/1475
-categories:
+tags:
 - Shell
 - Development
 - ubuntuusers
 - Web
-tags:
 - Jabber
 - addressleisten suche
 - alternative

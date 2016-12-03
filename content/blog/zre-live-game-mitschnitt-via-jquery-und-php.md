@@ -5,7 +5,7 @@ title: ZRE | Live Game Mitschnitt via jQuery und PHP
 aliases:
 - /archives/1520
 - /blog/2011/03/14/zre-live-game-mitschnitt-via-jquery-und-php
-categories:
+tags:
 - Bash
 - Development
 - Debian
@@ -15,7 +15,6 @@ categories:
 - PlanetenBlogger
 - Ubuntu
 - Web
-tags:
 - environment
 - game
 - javascript

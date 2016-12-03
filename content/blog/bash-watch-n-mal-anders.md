@@ -5,7 +5,7 @@ title: Bash | watch -n mal anders
 aliases:
 - /blog/2010/09/05/bash-watch-n-mal-anders
 - /archives/1230
-categories:
+tags:
 - Development
 - Linux
 ---

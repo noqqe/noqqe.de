@@ -2,10 +2,9 @@
 title: "Isso - Ich schrei sonst"
 date: 2013-11-10T15:50:00+02:00
 comments: true
-categories:
+tags:
 - osbn
 - Blog
-tags:
 - isso
 - disqus
 - kommentare

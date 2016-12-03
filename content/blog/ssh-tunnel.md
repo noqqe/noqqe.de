@@ -5,11 +5,10 @@ comments: true
 title: ssh-Tunnel
 aliases:
 - /archives/297
-categories:
+tags:
 - Linux
 - Administration
 - Network
-tags:
 - Linux
 - ssh
 - ssh tunnel

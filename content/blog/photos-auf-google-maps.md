@@ -1,5 +1,5 @@
 ---
-categories:
+tags:
 - bash
 - devops
 - opensource
@@ -10,8 +10,6 @@ categories:
 - ubuntuusers
 - web
 date: 2015-08-09T11:00:49+02:00
-tags:
-- null
 title: Photos auf Google Maps
 ---
 

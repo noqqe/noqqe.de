@@ -5,9 +5,8 @@ title: Publications | Projektdokumentation
 aliases:
 - /archives/675
 - /blog/2009/10/07/publications-projektdokumentation
-categories:
-- Blog
 tags:
+- Blog
 - fisi
 - projektarbeit
 - dokumentation

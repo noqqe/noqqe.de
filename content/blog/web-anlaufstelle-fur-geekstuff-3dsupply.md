@@ -5,11 +5,10 @@ title: Web | Anlaufstelle für Geekstuff? 3dsupply
 aliases:
 - /archives/995
 - /blog/2010/04/22/web-anlaufstelle-fur-geekstuff-3dsupply
-categories:
+tags:
 - Linux
 - PlanetenBlogger
 - Web
-tags:
 - 3dsupply
 - aktion
 - free

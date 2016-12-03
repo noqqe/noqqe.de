@@ -5,13 +5,12 @@ title: Web | einfachJabber.de
 aliases:
 - /archives/1104
 - /blog/2010/07/16/web-einfachjabber-de
-categories:
+tags:
+- Jabber
 - Development
 - Linux
 - PlanetenBlogger
 - Web
-tags:
-- Jabber
 - einfachjabber
 - jabber
 - jabber einrichten

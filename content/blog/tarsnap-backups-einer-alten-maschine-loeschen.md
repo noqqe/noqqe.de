@@ -1,5 +1,6 @@
 ---
-categories:
+date: 2015-06-14T18:25:54+02:00
+tags:
 - administration
 - bash
 - bsd
@@ -9,8 +10,6 @@ categories:
 - planetenblogger
 - shell
 - ubuntuusers
-date: 2015-06-14T18:25:54+02:00
-tags:
 - Backup
 - Tarsnap
 - remove

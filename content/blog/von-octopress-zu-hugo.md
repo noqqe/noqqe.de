@@ -2,11 +2,10 @@
 date: 2015-04-01T20:55:43+02:00
 draft: false
 title: Von Octopress zu Hugo
-categories:
+tags:
 - Development
 - Blog
 - Web
-tags:
 - hugo
 - octopress
 - go

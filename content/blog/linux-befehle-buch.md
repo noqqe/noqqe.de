@@ -5,7 +5,7 @@ comments: true
 title: Linux Befehle Buch!
 aliases:
 - /archives/21
-categories:
+tags:
 - Hardware
 - Linux
 ---

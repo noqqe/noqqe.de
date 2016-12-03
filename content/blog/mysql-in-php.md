@@ -5,12 +5,11 @@ comments: true
 title: MySQL in PHP
 aliases:
 - /archives/496
-categories:
+tags:
 - Development
 - Hardware
 - Linux
 - Databases
-tags:
 - abfrage
 - apache2
 - mysql

@@ -5,9 +5,8 @@ title: Wordpress | Augenzucker für Code-Tag.
 aliases:
 - /archives/881
 - /blog/2010/02/11/wordpress-augenzucker-fur-code-tag
-categories:
-- Development
 tags:
+- Development
 - PHP
 - block
 - code

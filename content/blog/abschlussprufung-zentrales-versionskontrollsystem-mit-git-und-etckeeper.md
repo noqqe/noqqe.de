@@ -5,11 +5,10 @@ title: Abschlussprüfung | Zentrales Versionskontrollsystem mit git und etckeepe
 aliases:
 - /archives/1714
 - /blog/2011/07/24/abschlussprufung-zentrales-versionskontrollsystem-mit-git-und-etckeeper
-categories:
+tags:
 - Bash
 - Debian
 - Hardware
-tags:
 - abschluss
 - etckeeper
 - fachinformatiker

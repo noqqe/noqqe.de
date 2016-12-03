@@ -1,5 +1,6 @@
 ---
-categories:
+date: 2015-06-06T18:28:32+02:00
+tags:
 - bsd
 - code
 - opensource
@@ -7,8 +8,6 @@ categories:
 - shell
 - ubuntuusers
 - web
-date: 2015-06-06T18:28:32+02:00
-tags:
 - cmddocs
 - wiki
 - commandlinedocs

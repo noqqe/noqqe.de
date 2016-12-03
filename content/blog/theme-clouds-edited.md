@@ -5,10 +5,9 @@ title: 'Theme | Clouds edited'
 aliases:
 - /archives/724
 - /blog/2009/11/29/theme-clouds-edited
-categories:
+tags:
 - Development
 - Blog
-tags:
 - PHP
 - cloud
 - creativ commons

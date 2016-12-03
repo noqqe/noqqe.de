@@ -5,10 +5,9 @@ title: Git | Repositories auf Server anlegen
 aliases:
 - /blog/2010/02/10/git-repositories-auf-server-anlegen
 - /archives/867
-categories:
+tags:
 - Development
 - Linux
-tags:
 - git
 - gitosis
 - howto

@@ -2,11 +2,10 @@
 title: "On Hackernews"
 date: 2013-12-29T13:50:00+02:00
 comments: true
-categories:
+tags:
 - OpenBSD
 - osbn
 - Stats
-tags:
 - acrylamid
 - hackernews
 - reddit

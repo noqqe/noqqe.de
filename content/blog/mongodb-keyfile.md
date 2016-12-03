@@ -1,12 +1,11 @@
 ---
-categories:
+date: 2015-06-07T22:58:21+02:00
+tags:
 - administration
 - databases
 - devops
 - opensource
 - osbn
-date: 2015-06-07T22:58:21+02:00
-tags:
 - MongoDB
 - KeyFile
 - Auth

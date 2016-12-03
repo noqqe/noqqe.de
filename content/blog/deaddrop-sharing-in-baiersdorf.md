@@ -5,11 +5,10 @@ title: 'DeadDrop | Sharing mit Alice and Bob in Baiersdorf '
 aliases:
 - /blog/2011/10/04/deaddrop-sharing-in-baiersdorf
 - /archives/1792
-categories:
+tags:
 - Hardware
 - Linux
 - Web
-tags:
 - aram barthol
 - baiersdorf
 - dead

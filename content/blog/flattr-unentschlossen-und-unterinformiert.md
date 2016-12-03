@@ -5,13 +5,8 @@ title: 'Flattr | Unentschlossen und unterinformiert. '
 aliases:
 - /blog/2010/06/04/flattr-unentschlossen-und-unterinformiert
 - /archives/1024
-categories:
-- Web
 tags:
-- $$$
-- donate
 - Flattr
-- pay
 - web
 ---
 

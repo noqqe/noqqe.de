@@ -5,10 +5,9 @@ comments: true
 title: Hardy macht Spaß!Ironie off.
 aliases:
 - /archives/41
-categories:
+tags:
 - Hardware
 - Linux
-tags:
 - Hardy Heron
 - ubuntu
 ---

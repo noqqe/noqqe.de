@@ -2,12 +2,11 @@
 title: "cmddocs"
 date: 2015-01-24T10:23:00+02:00
 comments: true
-categories:
+tags:
 - osbn
 - ubuntuusers
 - Development
 - OpenBSD
-tags:
 - wiki
 - docs
 - python

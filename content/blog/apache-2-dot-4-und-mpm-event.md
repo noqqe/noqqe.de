@@ -2,12 +2,11 @@
 title: "Apache 2.4 und mpm_event"
 date: 2012-05-28T14:41:00+02:00
 comments: true
-categories:
+tags:
 - Debian
 - Administration
 - Web
 - ubuntuusers
-tags:
 - apache
 - apache2
 - eventbased

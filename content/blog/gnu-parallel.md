@@ -5,12 +5,11 @@ comments: true
 title: 'GNU Parallel'
 aliases:
 - /archives/1846
-categories:
+tags:
 - Shell
 - Linux
 - ubuntuusers
 - Web
-tags:
 - gnu parallel
 - gzip
 - md5

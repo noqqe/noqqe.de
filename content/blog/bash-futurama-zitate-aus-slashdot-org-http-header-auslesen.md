@@ -5,12 +5,11 @@ title: Bash | Futurama Zitate aus slashdot.org HTTP-Header auslesen
 aliases:
 - /archives/1255
 - /blog/2010/09/26/bash-futurama-zitate-aus-slashdot-org-http-header-auslesen
-categories:
+tags:
 - Development
 - Debian
 - Blog
 - ubuntuusers
-tags:
 - bash
 - debian
 - futurama

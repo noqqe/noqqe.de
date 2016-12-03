@@ -5,8 +5,6 @@ comments: true
 title: Mein erster Apache2
 aliases:
 - /archives/224
-categories:
-- Linux
 tags:
 - apache2
 - Linux

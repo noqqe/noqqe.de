@@ -5,12 +5,11 @@ title: ZRE | Zombie Revolution Environment. Im Web!
 aliases:
 - /archives/1500
 - /blog/2011/03/06/zre-zombie-revolution-environment-im-web
-categories:
+tags:
 - Shell
 - Debian
 - Databases
 - Web
-tags:
 - PlanetenBlogger
 - bash
 - brains

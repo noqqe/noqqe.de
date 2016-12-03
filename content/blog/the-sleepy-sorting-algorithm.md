@@ -2,12 +2,11 @@
 title: "The sleepy sorting algorithm"
 date: 2012-11-25T14:53:00+02:00
 comments: true
-categories:
+tags:
 - osbn
 - Shell
 - Development
 - Web
-tags:
 - algorithm
 - Bash
 - 4chan

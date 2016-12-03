@@ -1,9 +1,8 @@
 ---
-categories:
-- code
-- web
 date: 2016-10-31T22:12:14+01:00
 tags:
+- code
+- web
 - magic
 title: Magic the Gathering - The Archivist
 ---

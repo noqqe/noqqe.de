@@ -5,10 +5,9 @@ title: Teeworlds | Version 0.5.2
 aliases:
 - /archives/721
 - /blog/2009/11/28/teeworlds-version-0-5-2
-categories:
+tags:
 - Linux
 - Debian
-tags:
 - Teeworlds
 ---
 

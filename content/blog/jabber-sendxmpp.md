@@ -5,11 +5,10 @@ title: Jabber | sendXMPP
 aliases:
 - /archives/606
 - /blog/2009/05/09/jabber-sendxmpp
-categories:
+tags:
 - Development
 - Hardware
 - Linux
-tags:
 - backup
 - jabber
 - timerobot

@@ -5,11 +5,10 @@ title: Arduino | Ich baute ein Megabitmeter
 aliases:
 - /archives/1751
 - /blog/2011/08/27/arduino-ich-baute-ein-megabitmeter
-categories:
+tags:
 - Hardware
 - ubuntuusers
 - Web
-tags:
 - Arduino
 - ATMega
 - controller

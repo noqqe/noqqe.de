@@ -5,9 +5,8 @@ title: 'Git | Dateien wiederherstellen '
 aliases:
 - /blog/2010/08/18/git-dateien-wiederherstellen
 - /archives/1201
-categories:
-- Development
 tags:
+- Development
 - checkout
 - datei
 - dateien

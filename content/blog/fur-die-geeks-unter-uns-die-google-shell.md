@@ -6,10 +6,9 @@ title: Für die Geeks unter uns - Die Google-Shell
 aliases:
 - /archives/262
 - /blog/2008/09/24/f%C3%BCr-die-geeks-unter-uns-die-google-shell/
-categories:
+tags:
 - Development
 - Linux
-tags:
 - bash
 - google
 - Google-Shell

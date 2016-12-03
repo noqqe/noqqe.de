@@ -2,14 +2,13 @@
 title: "Ext Filesystem Checks vorhersagen"
 date: 2012-05-05T11:33:00+02:00
 comments: true
-categories:
+tags:
 - ubuntuusers
 - web
 - hardware
 - linux
 - debian
 - ubuntu
-tags:
 - fs
 - check
 - fsck

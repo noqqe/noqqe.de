@@ -5,10 +5,9 @@ title: 'SSH-App | Leid oder Elend. It''s your choice. '
 aliases:
 - /blog/2010/07/28/ssh-app-leid-oder-elend-its-your-choice
 - /archives/1164
-categories:
+tags:
 - Blog
 - OSX
-tags:
 - iPhone
 - app
 - appstore

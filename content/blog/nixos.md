@@ -1,5 +1,6 @@
 ---
-categories:
+date: 2015-09-05T13:55:46+02:00
+tags:
 - administration
 - code
 - databases
@@ -7,9 +8,6 @@ categories:
 - linux
 - osbn
 - planetenblogger
-- ubuntuusers
-date: 2015-09-05T13:55:46+02:00
-tags:
 - DevOps
 - NixOS
 - Nix

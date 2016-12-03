@@ -5,11 +5,10 @@ title: Apache2 | vhost-Logs und logrotate
 aliases:
 - /archives/946
 - /blog/2010/03/31/apache2-vhost-logs-und-logrotate
-categories:
+tags:
 - Development
 - Linux
 - ubuntuusers
-tags:
 - apache
 - apache2
 - logging

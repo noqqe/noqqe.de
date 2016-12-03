@@ -2,13 +2,12 @@
 title: "SMTPS OpenSMTPD"
 date: 2014-12-01T12:02:00+02:00
 comments: true
-categories:
+tags:
 - osbn
 - ubuntuusers
 - OpenBSD
 - BSD
 - Mail
-tags:
 - openbsd
 - neomailbox
 - mutt

@@ -1,12 +1,10 @@
 ---
-categories:
+date: 2015-04-06T18:28:12+02:00
+tags:
 - blog
 - opensource
 - osbn
 - web
-date: 2015-04-06T18:28:12+02:00
-tags:
-- blog
 - github
 - markdown
 - rechtschreibfehler

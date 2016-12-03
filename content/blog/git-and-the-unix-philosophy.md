@@ -5,10 +5,9 @@ comments: true
 title: Git and the Unix philosophy
 aliases:
 - /archives/1805
-categories:
+tags:
 - Blog
 - Web
-tags:
 - git
 - philosophy
 - post

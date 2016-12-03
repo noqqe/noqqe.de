@@ -5,11 +5,10 @@ aliases:
 - /archives/1076
 comments: true
 title: Theme | 8-Bit Banner
-categories:
+tags:
 - Blog
 - Linux
 - PlanetenBlogger
-tags:
 - 16 bit
 - 8 bit
 - GIMP

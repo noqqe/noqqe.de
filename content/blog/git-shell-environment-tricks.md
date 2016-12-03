@@ -2,12 +2,11 @@
 title: "Git Shell Environment Tricks"
 date: 2012-03-10T12:00:00+02:00
 comments: true
-categories:
+tags:
+- tricks
 - ubuntuusers
 - Shell
 - linux
-tags:
-- tricks
 - tipps
 - git
 - shell

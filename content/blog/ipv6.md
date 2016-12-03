@@ -5,11 +5,10 @@ comments: true
 title: IPv6
 aliases:
 - /archives/363
-categories:
+tags:
 - Hardware
 - Linux
 - Network
-tags:
 - binär
 - hex
 - Hexadezimal

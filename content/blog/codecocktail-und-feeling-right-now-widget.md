@@ -5,10 +5,9 @@ comments: true
 title: CodeCocktail und "feeling right now" Widget
 aliases:
 - /archives/455
-categories:
+tags:
 - Development
 - Linux
-tags:
 - bash
 - codecocktail
 - feeling

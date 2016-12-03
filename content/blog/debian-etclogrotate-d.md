@@ -6,10 +6,9 @@ aliases:
 - /archives/684
 - /blog/2009/10/12/debian-etclogrotate-d
 - /blog/2009/10/12/debian-etclogrotate-dot-d-star
-categories:
+tags:
 - Administration
 - Linux
-tags:
 - logs
 - logging
 - rotate

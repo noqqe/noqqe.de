@@ -6,10 +6,9 @@ title: unpack - Entpackt sie alle - Marke Eigenbau
 aliases:
 - /archives/346
 - /blog/2008/12/05/unpack-entpackt-sie-alle-marke-eigenbau/
-categories:
+tags:
 - Development
 - Linux
-tags:
 - targz
 - archive tool
 - debian
@@ -42,16 +41,16 @@ machen und diverse neue/alte Formate einfügen sowie die Struktur
 
 "Install - Guide":
 
-  * Skript [downloaden](http://zwetschge.org/unpack/) |
-    [Quellcode](http://paste.pocoo.org/show/93956/)
-  * in /home/user/.bashrc alias eintragen:
+* Skript [downloaden](http://zwetschge.org/unpack/) |
+  [Quellcode](http://paste.pocoo.org/show/93956/)
+* in /home/user/.bashrc alias eintragen:
   ` alias unpack = 'sh /pfad/zum/skript'`
-  * Ausführbar machen
+* Ausführbar machen
   `$ chmod +x /pfad/zum/skript`
-  * Skript ausführen:
+* Skript ausführen:
   `$ unpack /pfad/zum/archiv`
-  * Entpackte Dateien befinden sich im aktuellen Verzeichnis! (Daran werde
-    ich noch arbeiten :) )
+* Entpackte Dateien befinden sich im aktuellen Verzeichnis! (Daran werde
+  ich noch arbeiten :) )
 
 Wer  Shell Fanatiker ist oder viel auf Servern herumfuhrwerkt wird hoffe
 ich Spaß daran haben. Ansonsten für die GUI-Freaks gibts ja immernoch den

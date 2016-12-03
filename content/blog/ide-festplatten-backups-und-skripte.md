@@ -5,12 +5,11 @@ comments: true
 title: IDE Festplatten, Backups und Skripte
 aliases:
 - /archives/315
-categories:
+tags:
 - Development
 - Linux
 - Shell
 - Administration
-tags:
 - backup
 - cron
 - python

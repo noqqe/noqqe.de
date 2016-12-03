@@ -5,7 +5,7 @@ comments: true
 title: Blog Eröffnung!
 aliases:
 - /archives/421
-categories:
+tags:
 - Blog
 ---
 Hallo,

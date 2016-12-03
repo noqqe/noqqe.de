@@ -5,9 +5,8 @@ title: Python | cryzed bashing
 aliases:
 - /blog/2009/09/24/python-cryzed-bashing
 - /archives/665
-categories:
-- Development
 tags:
+- Development
 - cryzed
 - python
 ---

@@ -5,11 +5,10 @@ title: hcht | Handmade Commandline History Tool
 aliases:
 - /blog/2010/12/01/hcht-handmade-commandline-history-tool
 - /archives/1407
-categories:
+tags:
 - Shell
 - Development
 - Linux
-tags:
 - bash
 - bash-it
 - commandline

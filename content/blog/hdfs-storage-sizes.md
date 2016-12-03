@@ -1,11 +1,10 @@
 ---
-categories:
+date: 2016-06-22T16:05:15+02:00
+tags:
 - administration
 - devops
 - osbn
 - ubuntuusers
-date: 2016-06-22T16:05:15+02:00
-tags:
 - Hadoop
 - HDFS
 - Namenode

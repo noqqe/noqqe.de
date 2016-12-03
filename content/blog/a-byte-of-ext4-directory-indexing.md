@@ -2,13 +2,12 @@
 title: "Das Ext4 Directory Indexing"
 date: 2012-03-08T19:38:00+02:00
 comments: true
-categories:
-- ubuntuusers
-- Administration
-- Debian
 aliases:
 - /blog/2012/03/08/a-byte-of-ext4-directory-indexing/
 tags:
+- ubuntuusers
+- Administration
+- Debian
 - Filesystems
 - Ext
 - Ext4

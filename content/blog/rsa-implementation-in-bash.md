@@ -2,11 +2,10 @@
 title: "RSA Implementation in Bash"
 date: 2014-01-03T21:14:00+02:00
 comments: true
-categories:
+tags:
 - Crypto
 - Shell
 - Development
-tags:
 - RSA
 - Cryptography
 - Bash

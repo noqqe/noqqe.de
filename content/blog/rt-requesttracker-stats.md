@@ -5,7 +5,7 @@ title: RT | RequestTracker-Stats
 aliases:
 - /archives/1649
 - /blog/2011/04/29/rt-requesttracker-stats
-categories:
+tags:
 - Shell
 - Development
 - Debian
@@ -13,7 +13,6 @@ categories:
 - Databases
 - Ubuntu
 - Web
-tags:
 - Bash
 - Addon
 - BestPractical

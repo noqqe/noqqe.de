@@ -1,10 +1,9 @@
 ---
-categories:
+date: 2015-04-11T15:09:53+02:00
+tags:
 - blog
 - development
 - osbn
-date: 2015-04-11T15:09:53+02:00
-tags:
 - Hugo
 - Templates
 - Archive

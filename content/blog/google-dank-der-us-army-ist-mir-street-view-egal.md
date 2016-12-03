@@ -5,10 +5,9 @@ title: Google | Dank der US-Army ist mir Street-View egal.
 aliases:
 - /blog/2010/09/07/google-dank-der-us-army-ist-mir-street-view-egal
 - /archives/1238
-categories:
+tags:
 - Blog
 - Web
-tags:
 - army
 - einspruchsfristen
 - google

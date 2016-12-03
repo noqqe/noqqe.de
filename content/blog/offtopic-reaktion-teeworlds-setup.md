@@ -5,11 +5,10 @@ title: Offtopic | Reaktion Teeworlds-Setup
 aliases:
 - /blog/2010/01/30/offtopic-reaktion-teeworlds-setup
 - /archives/857
-categories:
+tags:
 - Blog
 - Linux
 - PlanetenBlogger
-tags:
 - c++
 - debian
 - Linux

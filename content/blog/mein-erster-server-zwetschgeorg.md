@@ -5,10 +5,6 @@ comments: true
 title: zwetschge.org
 aliases:
 - /archives/235
-categories:
-- Hardware
-- Linux
-- Debian
 tags:
 - debian
 - linxu

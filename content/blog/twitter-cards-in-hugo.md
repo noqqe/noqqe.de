@@ -1,9 +1,8 @@
 ---
-categories:
-- blog
-- web
 date: 2016-01-27T20:12:28+01:00
 tags:
+- blog
+- web
 - twitter
 - html
 - meta

@@ -1,11 +1,10 @@
 ---
-categories:
+date: 2015-10-26T20:30:40+01:00
+tags:
 - openbsd
 - opensource
 - osbn
 - web
-date: 2015-10-26T20:30:40+01:00
-tags:
 - Wikipedia
 - Wiki
 - OpenSMTPD

@@ -5,10 +5,9 @@ comments: true
 title: R.I.P zwetschge.org 30.09.2008
 aliases:
 - /archives/282
-categories:
+tags:
 - Hardware
 - Linux
-tags:
 - debian
 - Linux
 - RIP

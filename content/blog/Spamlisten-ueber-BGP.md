@@ -1,5 +1,6 @@
 ---
-categories:
+date: 2016-10-27T15:32:00+02:00
+tags:
 - administration
 - bsd
 - mail
@@ -9,8 +10,6 @@ categories:
 - osbn
 - planetenblogger
 - ubuntuusers
-date: 2016-10-27T15:32:00+02:00
-tags:
 - BGP
 - OpenBSD
 - Spam

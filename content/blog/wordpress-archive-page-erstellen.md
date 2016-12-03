@@ -4,10 +4,9 @@ title: Wordpress | Archive Page erstellen
 aliases:
 - /archives/970
 - /blog/2010/04/05/wordpress-archive-page-erstellen
-categories:
+tags:
 - Development
 - PlanetenBlogger
-tags:
 - archiv
 - archive
 - clouds

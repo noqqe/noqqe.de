@@ -5,10 +5,9 @@ title: Nebenbei | LPIC
 aliases:
 - /blog/2009/09/18/nebenbei-lpic
 - /archives/638
-categories:
+tags:
 - Linux
 - Debian
-tags:
 - LPIC
 - Zertifikat
 - Certificate

@@ -5,12 +5,11 @@ title: Theme | nerd-clouds
 aliases:
 - /archives/1071
 - /blog/2010/06/26/theme-nerd-clouds
-categories:
+tags:
 - Development
 - Linux
 - PlanetenBlogger
 - Blog
-tags:
 - PHP
 - geek
 - geeky

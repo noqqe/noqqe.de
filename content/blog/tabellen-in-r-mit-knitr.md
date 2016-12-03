@@ -2,12 +2,11 @@
 title: "Tabellen aus R mit knitr und TeX"
 date: 2013-08-03T13:21:00+02:00
 comments: true
-categories:
+tags:
 - Stats
 - ubuntuusers
 - osbn
 - Development
-tags:
 - R
 - Stats
 - Statistik

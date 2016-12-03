@@ -2,12 +2,11 @@
 title: "Keyboard Codes unter Debian mit xfce4.8"
 date: 2012-04-20T08:52:00+02:00
 comments: true
-categories:
+tags:
 - ubuntuusers
 - Hardware
 - Debian
 - Linux
-tags:
 - xfce
 - xorg
 - keyboard

@@ -5,11 +5,10 @@ comments: true
 title: Gnome 2.24
 aliases:
 - /archives/279
-categories:
+tags:
 - Blog
 - Hardware
 - Linux
-tags:
 - gnome
 - Linux
 - ubuntu

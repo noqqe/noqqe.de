@@ -5,11 +5,10 @@ title: Hack | The Unix Forkbomb
 aliases:
 - /blog/2009/11/30/hack-the-unix-forkbomb
 - /archives/740
-categories:
+tags:
 - Development
 - Linux
 - Shell
-tags:
 - exploit
 - fork
 - forkbomb

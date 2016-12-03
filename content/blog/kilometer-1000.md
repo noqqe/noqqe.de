@@ -2,12 +2,11 @@
 title: "Kilometer 1000"
 date: 2012-10-10T20:55:00+02:00
 comments: true
-categories:
+tags:
 - osbn
 - Web
 - Debian
 - Shell
-tags:
 - bash
 - Google
 - Runkeeper

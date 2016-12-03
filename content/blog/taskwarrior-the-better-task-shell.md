@@ -5,14 +5,13 @@ title: Taskwarrior | The better-task-shell
 aliases:
 - /archives/1810
 - /blog/2011/10/22/taskwarrior-the-better-task-shell
-categories:
+tags:
 - Shell
 - Development
 - Debian
 - PlanetenBlogger
 - Ubuntu
 - Web
-tags:
 - bash
 - better shell
 - shell

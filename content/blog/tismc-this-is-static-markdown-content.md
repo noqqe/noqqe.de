@@ -5,12 +5,11 @@ title: tismc | This is static markdown content!
 aliases:
 - /archives/1243
 - /blog/2010/09/19/tismc-this-is-static-markdown-content
-categories:
+tags:
 - Development
 - Debian
 - PlanetenBlogger
 - Web
-tags:
 - bash
 - content
 - cronjob

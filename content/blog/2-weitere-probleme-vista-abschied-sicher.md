@@ -5,10 +5,9 @@ comments: true
 title: 2 weitere Probleme. Bye Bye Vista.
 aliases:
 - /archives/66
-categories:
+tags:
 - Hardware
 - Linux
-tags:
 - debian
 - ubuntu
 - Vista

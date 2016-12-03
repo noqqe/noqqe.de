@@ -5,8 +5,6 @@ title: ASCII | Star Wars via Telnet
 aliases:
 - /archives/1351
 - /blog/2010/11/08/ascii-starwars-via-telnet
-categories:
-- Web
 tags:
 - art
 - ascii

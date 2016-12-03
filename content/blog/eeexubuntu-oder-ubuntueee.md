@@ -5,10 +5,9 @@ comments: true
 title: eeexubuntu oder ubuntueee ?!
 aliases:
 - /archives/108
-categories:
+tags:
 - Hardware
 - Linux
-tags:
 - EEE-PC
 - eeexubuntu
 - Linux

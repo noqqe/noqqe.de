@@ -5,11 +5,10 @@ title: Apt | Aktualisierungen anzeigen lassen
 aliases:
 - /archives/894
 - /blog/2010/02/20/apt-aktualisierungen-anzeigen-lassen
-categories:
+tags:
 - Development
 - Linux
 - ubuntuusers
-tags:
 - aktualisierungen
 - anzeigen
 - apt

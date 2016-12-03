@@ -5,13 +5,12 @@ title: 'Bash | Backup eines Files mit Zeitstempel in unkompliziert. '
 aliases:
 - /archives/1425
 - /blog/2010/12/14/bash-backup-eines-files-mit-zeitstempel-einfach-gemacht
-categories:
+tags:
 - Shell
 - Development
 - Debian
 - Ubuntu
 - ubuntuusers
-tags:
 - admins
 - backup
 - bashrc

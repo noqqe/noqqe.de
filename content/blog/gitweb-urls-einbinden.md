@@ -5,10 +5,9 @@ title: Gitweb | URLs einbinden
 aliases:
 - /blog/2010/04/21/gitweb-urls-einbinden
 - /archives/987
-categories:
+tags:
 - Development
 - Linux
-tags:
 - clone
 - cloneurl
 - einbinden

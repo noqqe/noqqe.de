@@ -1,13 +1,12 @@
 ---
-categories:
+date: 2015-10-09T16:29:14+02:00
+tags:
 - blog
 - development
 - devops
 - osbn
 - planetenblogger
 - ubuntuusers
-date: 2015-10-09T16:29:14+02:00
-tags:
 - vim
 - config
 - blog

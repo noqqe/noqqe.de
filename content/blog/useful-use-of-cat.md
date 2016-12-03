@@ -2,13 +2,12 @@
 title: "Useful use of cat"
 date: 2013-09-08T20:28:00+02:00
 comments: true
-categories:
+tags:
 - osbn
 - ubuntuusers
 - Development
 - Shell
 - Linux
-tags:
 - cat
 - useless
 - useful

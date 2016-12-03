@@ -1,11 +1,10 @@
 ---
-Kategorie:
+date: 2015-04-20T21:57:54+02:00
+tags:
 - opensource
 - osbn
 - stats
 - ubuntuusers
-date: 2015-04-20T21:57:54+02:00
-tags:
 - weechat
 - irc
 - alias

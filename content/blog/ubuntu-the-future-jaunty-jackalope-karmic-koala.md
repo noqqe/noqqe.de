@@ -5,9 +5,6 @@ title: 'Ubuntu | The Future: Jaunty Jackalope & Karmic Koala'
 aliases:
 - /archives/540
 - /blog/2009/03/07/ubuntu-the-future-jaunty-jackalope-karmic-koala
-categories:
-- Ubuntu
-- Linux
 tags:
 - jaunty
 - Jaunty Jackalope
@@ -31,5 +28,3 @@ Weitere Infos bei der [UbuntuWiki-Site für Jaunty](https://wiki.ubuntu.com/Jaun
 Desweiteren steht auch der Name der nächsten Ubuntu-Distri schon wieder
 fest: Karmic Koala
 [Heise Beitrag](http://www.heise.de/newsticker/Ausblick-auf-Ubuntu-9-10-Koala-mit-Karma--/meldung/133307)
-
-Greez, Flo

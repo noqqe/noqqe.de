@@ -2,11 +2,10 @@
 title: "Hartes Discard Protokoll"
 date: 2014-11-04T19:30:00+02:00
 comments: true
-categories:
+tags:
 - OpenBSD
 - osbn
 - Network
-tags:
 - inetd
 - discard
 - devnull-as-a-service

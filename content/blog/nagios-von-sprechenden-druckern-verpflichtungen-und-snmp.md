@@ -5,16 +5,11 @@ title: Nagios | Von sprechenden Druckern, Verpflichtungen und SNMP
 aliases:
 - /archives/954
 - /blog/2010/04/02/nagios-von-sprechenden-druckern-verpflichtungen-und-snmp
-categories:
-- Development
-- Linux
-- ubuntuusers
-categories:
+tags:
 - Debian
 - Ubuntu
 - Administration
 - DevOps
-tags:
 - fach
 - mib
 - nachfüllen

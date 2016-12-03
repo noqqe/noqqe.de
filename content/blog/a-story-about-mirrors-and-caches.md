@@ -2,11 +2,10 @@
 title: "A Story about Mirrors and Caches"
 date: 2013-08-31T19:01:00+02:00
 comments: true
-categories:
+tags:
 - Debian
 - DevOps
 - Administration
-tags:
 - apt
 - apt-cacher-ng
 - Updates

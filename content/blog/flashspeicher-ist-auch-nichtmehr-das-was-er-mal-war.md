@@ -5,10 +5,9 @@ comments: true
 title: FlashSpeicher ist auch nichtmehr das was er mal war.
 aliases:
 - /archives/359
-categories:
+tags:
 - Hardware
 - Linux
-tags:
 - Error
 - Flash
 - MemoryStick

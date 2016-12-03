@@ -5,10 +5,9 @@ comments: true
 title: Ubuntu 9.04 heißt "Jaunty Jackalope"
 aliases:
 - /archives/227
-categories:
+tags:
 - Hardware
 - Linux
-tags:
 - Intrepid Ibex
 - Jaunty Jackalope
 - Linux

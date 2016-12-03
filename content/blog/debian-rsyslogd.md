@@ -5,7 +5,7 @@ title: Debian | rsyslogd
 aliases:
 - /blog/2009/10/12/debian-rsyslogd
 - /archives/686
-categories:
+tags:
 - Development
 - Linux
 - Administration

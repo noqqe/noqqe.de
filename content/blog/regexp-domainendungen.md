@@ -5,13 +5,12 @@ title: RegExp | Domainendungen
 aliases:
 - /blog/2010/04/13/regexp-domainendungen
 - /archives/983
-categories:
+tags:
+- cat
 - Development
 - Linux
 - PlanetenBlogger
 - Shell
-tags:
-- cat
 - debian
 - domains
 - endungen

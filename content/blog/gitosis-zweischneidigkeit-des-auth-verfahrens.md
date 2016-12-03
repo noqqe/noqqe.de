@@ -5,11 +5,10 @@ title: Gitosis | Zweischneidigkeit des Auth-Verfahrens
 aliases:
 - /blog/2010/08/25/gitosis-zweischneidigkeit-des-auth-verfahrens
 - /archives/1208
-categories:
+tags:
 - Development
 - Debian
 - Linux
-tags:
 - auth
 - denied
 - deny

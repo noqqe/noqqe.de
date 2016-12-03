@@ -5,9 +5,8 @@ title: iPhone | Google Kalender synchronisieren
 aliases:
 - /archives/673
 - /blog/2009/10/06/iphone-google-kalender-synchronisieren
-categories:
-- Hardware
 tags:
+- Hardware
 - calendar
 - google
 - iPhone

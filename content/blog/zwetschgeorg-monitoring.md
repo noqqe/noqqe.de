@@ -5,10 +5,9 @@ comments: true
 title: zwetschge.org monitoring
 aliases:
 - /archives/246
-categories:
+tags:
 - Hardware
 - Linux
-tags:
 - debian
 - monitoring
 - Netzwerk

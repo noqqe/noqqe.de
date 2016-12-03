@@ -5,10 +5,9 @@ comments: true
 title: Cisco CCNA 1
 aliases:
 - /archives/103
-categories:
+tags:
 - Blog
 - Hardware
-tags:
 - CCNA 1
 - Cisco
 - Network

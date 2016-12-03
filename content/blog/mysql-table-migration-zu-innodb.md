@@ -5,13 +5,12 @@ title: MySQL | Table Migration zu InnoDB
 aliases:
 - /blog/2012/01/22/mysql-table-migration-zu-innodb
 - /archives/1850
-categories:
+tags:
 - Shell
 - Debian
 - Linux
 - ubuntuusers
 - Databases
-tags:
 - acid
 - database
 - datenbank

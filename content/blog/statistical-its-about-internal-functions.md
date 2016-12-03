@@ -5,12 +5,11 @@ title: 'statistical | It''s about internal functions. '
 aliases:
 - /blog/2011/04/16/statistical-its-about-internal-functions
 - /archives/1611
-categories:
+tags:
 - Bash
 - Development
 - Blog
 - Web
-tags:
 - balken
 - balkendiagramm
 - bash

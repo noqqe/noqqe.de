@@ -1,5 +1,6 @@
 ---
-categories:
+date: 2016-03-20T14:36:09+01:00
+tags:
 - administration
 - devops
 - linux
@@ -7,8 +8,6 @@ categories:
 - osbn
 - planetenblogger
 - ubuntuusers
-date: 2016-03-20T14:36:09+01:00
-tags:
 - Hive
 - BigData
 - Flume

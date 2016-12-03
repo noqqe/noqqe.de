@@ -5,11 +5,10 @@ title: Commandline Tools | PDFs zusammenführen
 aliases:
 - /blog/2011/04/20/commandline-tools-pdfs-zusammenfuhren
 - /archives/1622
-categories:
+tags:
 - Bash
 - Blog
 - ubuntuusers
-tags:
 - combine
 - kombinieren
 - merge

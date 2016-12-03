@@ -5,10 +5,9 @@ comments: true
 title: Ich lerne Python
 aliases:
 - /archives/104
-categories:
+tags:
 - Development
 - Linux
-tags:
 - Development
 - Linux
 - python

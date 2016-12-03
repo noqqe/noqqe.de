@@ -2,12 +2,11 @@
 title: "Versteckte Prozessparameter in UNIX"
 date: 2014-05-23T22:14:00+02:00
 comments: true
-categories:
+tags:
 - ubuntuusers
 - osbn
 - Databases
 - Administration
-tags:
 - mongodb
 - mysql
 - c

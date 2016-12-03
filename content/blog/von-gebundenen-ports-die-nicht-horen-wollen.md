@@ -4,13 +4,12 @@ date: 2014-11-27T21:45:00+02:00
 comments: true
 aliases:
 - /blog/2014/11/27/von-gebundenen-ports-die-nicht-h%C3%B6ren-wollen/
-categories:
+tags:
 - ubuntuusers
 - osbn
 - Debian
 - Linux
 - Administration
-tags:
 - socket
 - network
 - bind

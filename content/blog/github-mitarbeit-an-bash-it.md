@@ -5,10 +5,9 @@ title: 'github | Mitarbeit an bash-it '
 aliases:
 - /blog/2010/12/07/github-mitarbeit-an-bash-it
 - /archives/1420
-categories:
+tags:
 - Shell
 - Development
-tags:
 - git
 - bash
 - bash-it

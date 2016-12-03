@@ -2,11 +2,10 @@
 title: "Das CAP Theorem"
 date: 2012-04-29T12:22:00+02:00
 comments: true
-categories:
+tags:
 - Web
 - Databases
 - Code
-tags:
 - Berkeley
 - CAP
 - Theory

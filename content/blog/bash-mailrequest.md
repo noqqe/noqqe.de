@@ -5,11 +5,10 @@ title: 'Bash | mailrequest '
 aliases:
 - /blog/2010/06/13/bash-mailrequest
 - /archives/1042
-categories:
+tags:
 - Development
 - Linux
 - Shell
-tags:
 - bash
 - GTD
 - mail

@@ -5,10 +5,9 @@ title: Teeworlds | Mehrere Server betreiben unter Linux
 aliases:
 - /archives/800
 - /blog/2009/12/09/teeworlds-mehrere-server-betreiben-unter-linux
-categories:
+tags:
 - Development
 - Linux
-tags:
 - cronjob
 - debian
 - mehrere Server

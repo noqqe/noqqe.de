@@ -2,7 +2,7 @@
 title: "10 Flattrs - Thx!"
 date: 2012-11-18T20:37:00+02:00
 comments: true
-categories:
+tags:
 - Flattr
 - Blog
 - Misc

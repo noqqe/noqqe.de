@@ -5,10 +5,9 @@ title: html | Favicon in Wordpress
 aliases:
 - /blog/2009/02/24/favicon-in-wordpress
 - /archives/514
-categories:
+tags:
 - Blog
 - Linux
-tags:
 - favicon
 - html
 - PHP

@@ -5,12 +5,11 @@ comments: true
 title: Emailadressen in MySQL Datenbank anonymisieren
 aliases:
 - /archives/1635
-categories:
+tags:
 - Bash
 - Development
 - Shell
 - Databases
-tags:
 - bash
 - einzeiler
 - mysql

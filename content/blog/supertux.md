@@ -5,8 +5,6 @@ comments: true
 title: SuperTux!
 aliases:
 - /archives/87
-categories:
-- Linux
 tags:
 - EEE-PC
 - Linux

@@ -5,7 +5,7 @@ title: 'Taskwarrior | Migration von MyTinyTodo '
 aliases:
 - /archives/1766
 - /blog/2011/09/25/taskwarrior-migration-von-mytinytodo
-categories:
+tags:
 - Bash
 - Development
 - Debian
@@ -13,7 +13,6 @@ categories:
 - Databases
 - Ubuntu
 - Web
-tags:
 - GTD
 - import
 - mig

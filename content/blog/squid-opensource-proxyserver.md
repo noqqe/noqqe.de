@@ -6,10 +6,9 @@ title: Squid - OpenSource ProxyServer
 aliases:
 - /archives/207
 - /blog/2008/08/30/squid-opensource-proxyserver/
-categories:
+tags:
 - Hardware
 - Linux
-tags:
 - EEE-PC
 - Linux
 - opensource

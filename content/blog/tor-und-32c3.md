@@ -1,5 +1,7 @@
 ---
-categories:
+date: 2016-01-12T21:08:07+01:00
+tags:
+- tor
 - blog
 - bsd
 - network
@@ -9,9 +11,6 @@ categories:
 - planetenblogger
 - ubuntuusers
 - web
-date: 2016-01-12T21:08:07+01:00
-tags:
-- tor
 - onion
 title: Tor & 32c3
 ---

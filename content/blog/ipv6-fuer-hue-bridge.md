@@ -1,13 +1,12 @@
 ---
-categories:
+date: 2016-06-26T12:44:36+02:00
+tags:
 - administration
 - bsd
 - hardware
 - network
 - osbn
 - ubuntuusers
-date: 2016-06-26T12:44:36+02:00
-tags:
 - Hue
 - Phillips
 - IPv6

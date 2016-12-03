@@ -5,11 +5,10 @@ title: DeadDrop | Erlangen Kirchplatz
 aliases:
 - /blog/2011/08/25/deaddrop-erlangen-kirchplatz
 - /archives/1747
-categories:
+tags:
 - Blog
 - Hardware
 - PlanetenBlogger
-tags:
 - Aran Barthol
 - DeadDrop
 - DeadDrop Erlangen

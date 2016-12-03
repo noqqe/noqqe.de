@@ -6,12 +6,11 @@ comments: true
 aliases:
 - /blog/2014/09/27/openbsd-httpd-ein-minimalistischer-webserver
 - /blog/2014/09/27/openbsd-httpd
-categories:
+tags:
+- httpd
 - OpenBSD
 - ubuntuusers
 - osbn
-tags:
-- httpd
 - Base
 - webserver
 ---

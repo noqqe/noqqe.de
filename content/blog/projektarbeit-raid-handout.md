@@ -5,9 +5,8 @@ comments: true
 title: 'Projektarbeit: RAID-Handout'
 aliases:
 - /archives/317
-categories:
-- Hardware
 tags:
+- Hardware
 - Berufsschule
 - Projektarbeit
 - RAID

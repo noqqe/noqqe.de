@@ -6,10 +6,9 @@ title: Zwetschge.org Monitoring - mal wieder
 aliases:
 - /archives/311
 - /blog/2008/10/28/zwetschge.org-monitoring-mal-wieder/
-categories:
+tags:
 - Hardware
 - Linux
-tags:
 - collectd
 - debian
 - Linux

@@ -5,8 +5,6 @@ comments: true
 title: DesktopDir verändern
 aliases:
 - /archives/355
-categories:
-- Linux
 tags:
 - config
 - desktop

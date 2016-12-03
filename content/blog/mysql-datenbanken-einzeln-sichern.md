@@ -5,13 +5,12 @@ title: MySQL | Datenbanken einzeln sichern
 aliases:
 - /blog/2010/07/24/mysql-datenbanken-einzeln-sichern
 - /archives/1156
-categories:
+tags:
 - Development
 - Debian
 - Linux
 - PlanetenBlogger
 - SQL
-tags:
 - backup
 - mysql
 - single file

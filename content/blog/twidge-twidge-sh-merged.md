@@ -5,7 +5,7 @@ title: Twidge | twidge-sh merged!
 aliases:
 - /archives/1308
 - /blog/2010/10/09/twidge-twidge-sh-merged
-categories:
+tags:
 - Development
 - Debian
 - git

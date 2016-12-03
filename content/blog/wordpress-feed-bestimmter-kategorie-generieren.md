@@ -5,11 +5,10 @@ title: Wordpress | Feed bestimmter Kategorie generieren
 aliases:
 - /archives/752
 - /blog/2009/12/01/wordpress-feed-bestimmter-kategorie-generieren
-categories:
+tags:
 - Development
 - Linux
 - Ubuntu
-tags:
 - PHP
 - feed
 - kategorie

@@ -5,11 +5,10 @@ title: 'Flattr | Man kann seine Meinung auch mal ändern. '
 aliases:
 - /blog/2011/10/01/flattr-man-kann-seine-meinung-auch-mal-andern
 - /archives/1774
-categories:
+tags:
 - Blog
 - Linux
 - Web
-tags:
 - blog
 - blogging
 - cats

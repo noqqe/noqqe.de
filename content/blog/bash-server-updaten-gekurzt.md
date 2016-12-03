@@ -5,11 +5,10 @@ title: bash | Server updaten gekürzt
 aliases:
 - /blog/2009/11/12/bash-server-updaten-gekurzt
 - /archives/709
-categories:
+tags:
 - Development
 - Linux
 - Shell
-tags:
 - apt
 - upgrade
 - update

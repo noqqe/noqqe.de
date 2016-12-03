@@ -5,10 +5,9 @@ title: Shell | Vollständiger File-Path
 aliases:
 - /blog/2009/09/24/shell-vollstandiger-file-path
 - /archives/663
-categories:
+tags:
 - Development
 - Linux
-tags:
 - file
 - path
 - filesystem

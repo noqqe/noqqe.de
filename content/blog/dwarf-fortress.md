@@ -2,9 +2,8 @@
 title: "Dwarf Fortress"
 date: 2012-10-19T20:18:00+02:00
 comments: true
-categories:
-- Linux
 tags:
+- Linux
 - games
 - Book
 - osbn

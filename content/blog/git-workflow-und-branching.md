@@ -8,7 +8,6 @@ aliases:
 tags:
 - git
 - workflow
-categories:
 - Development
 ---
 

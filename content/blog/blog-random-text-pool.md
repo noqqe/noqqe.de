@@ -5,11 +5,10 @@ title: Blog | Random-Text-Pool
 aliases:
 - /blog/2009/03/07/blog-random-text-pool
 - /archives/538
-categories:
+tags:
 - Development
 - Blog
 - Hardware
-tags:
 - mysql
 - PHP
 - random

@@ -5,7 +5,7 @@ title: Apache | Authentifizierung über mod_auth_pam
 aliases:
 - /archives/1494
 - /blog/2011/03/04/apache-authentifizierung-uber-mod_auth_pam
-categories:
+tags:
 - Bash
 - Development
 - Debian
@@ -13,7 +13,6 @@ categories:
 - PlanetenBlogger
 - Ubuntu
 - Web
-tags:
 - apache2
 - auth
 - authentication failure

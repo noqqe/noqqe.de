@@ -5,12 +5,11 @@ title: FTP | vsftpd mit MySQL-Userauth und fail2ban
 aliases:
 - /blog/2010/02/24/ftp-vsftpd-mit-mysql-userauth-und-fail2ban
 - /archives/904
-categories:
+tags:
 - Development
 - Hardware
 - Linux
 - ubuntuusers
-tags:
 - daemon
 - debian
 - Fail2ban

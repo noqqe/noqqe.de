@@ -5,11 +5,10 @@ title: bash-it | Zitronen-Thema
 aliases:
 - /archives/1342
 - /blog/2010/11/01/bash-it-zitronen-thema
-categories:
+tags:
 - Development
 - Linux
 - Shell
-tags:
 - git
 - xubuntu
 - bash

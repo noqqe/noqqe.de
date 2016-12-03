@@ -2,12 +2,11 @@
 title: "*.wma zu *.mp3"
 date: 2012-07-29T17:39:00+02:00
 comments: true
-categories:
+tags:
 - planetenblogger
 - Web
 - Debian
 - Bash
-tags:
 - lame
 - mp3
 - wma

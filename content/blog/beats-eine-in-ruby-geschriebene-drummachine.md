@@ -5,10 +5,9 @@ title: Beats | Eine in Ruby geschriebene Drummachine
 aliases:
 - /blog/2011/05/22/beats-eine-in-ruby-geschriebene-drummachine
 - /archives/1680
-categories:
+tags:
 - Shell
 - Development
-tags:
 - bash
 - beats
 - drummachine

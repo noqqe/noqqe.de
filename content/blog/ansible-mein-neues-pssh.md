@@ -1,10 +1,8 @@
 ---
-Categories:
+tags:
 - ubuntuusers
 - Adminstration
 - BSD
-Description: ""
-Tags:
 - Development
 - Ansible
 - python
