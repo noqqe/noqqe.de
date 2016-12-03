@@ -1,85 +1,82 @@
 {{ partial "header.html" . }}
 
+    <h1>Sammelsurium</h1>
+    <div class="itemcontent">
+    <h3>Operating Systems</h3>
+    <ul>
+    {{ range where .Data.Pages.ByTitle "Type" "sammelsurium" }}
+      {{ if in .Params.tags "OS" }}
+      <li>
+          <a href="{{ .Permalink }}">{{ .Title }}</a>
+      </li>
+      {{ end }}
+    {{ end }}
+    </ul>
 
-    <div id="contentwrapper">
-      <div class="itemwrapper">
-        <h1>Sammelsurium</h1>
-        <div class="itemcontent">
-        <h3>Operating Systems</h3>
-        <ul>
-        {{ range where .Data.Pages.ByTitle "Type" "sammelsurium" }}
-          {{ if in .Params.tags "OS" }}
-          <li>
-              <a href="{{ .Permalink }}">{{ .Title }}</a>
-          </li>
-          {{ end }}
-        {{ end }}
-        </ul>
+    <h3>Databases</h3>
+    <ul>
+    {{ range where .Data.Pages.ByTitle "Type" "sammelsurium" }}
+      {{ if in .Params.tags "Databases" }}
+      <li>
+          <a href="{{ .Permalink }}">{{ .Title }}</a>
+      </li>
+      {{ end }}
+    {{ end }}
+    </ul>
 
-        <h3>Databases</h3>
-        <ul>
-        {{ range where .Data.Pages.ByTitle "Type" "sammelsurium" }}
-          {{ if in .Params.tags "Databases" }}
-          <li>
-              <a href="{{ .Permalink }}">{{ .Title }}</a>
-          </li>
-          {{ end }}
-        {{ end }}
-        </ul>
+    <h3>Software</h3>
+    <ul>
+    {{ range where .Data.Pages.ByTitle "Type" "sammelsurium" }}
+      {{ if in .Params.tags "Software" }}
+      <li>
+          <a href="{{ .Permalink }}">{{ .Title }}</a>
+      </li>
+      {{ end }}
+    {{ end }}
+    </ul>
 
-        <h3>Software</h3>
-        <ul>
-        {{ range where .Data.Pages.ByTitle "Type" "sammelsurium" }}
-          {{ if in .Params.tags "Software" }}
-          <li>
-              <a href="{{ .Permalink }}">{{ .Title }}</a>
-          </li>
-          {{ end }}
-        {{ end }}
-        </ul>
+    <h3>Programming</h3>
+    <ul>
+    {{ range where .Data.Pages.ByTitle "Type" "sammelsurium" }}
+      {{ if in .Params.tags "Programming" }}
+      <li>
+          <a href="{{ .Permalink }}">{{ .Title }}</a>
+      </li>
+      {{ end }}
+    {{ end }}
+    </ul>
 
-        <h3>Programming</h3>
-        <ul>
-        {{ range where .Data.Pages.ByTitle "Type" "sammelsurium" }}
-          {{ if in .Params.tags "Programming" }}
-          <li>
-              <a href="{{ .Permalink }}">{{ .Title }}</a>
-          </li>
-          {{ end }}
-        {{ end }}
-        </ul>
+    <h3>Puppet</h3>
+    <ul>
+    {{ range where .Data.Pages.ByTitle "Type" "sammelsurium" }}
+      {{ if in .Params.tags "Puppet" }}
+      <li>
+          <a href="{{ .Permalink }}">{{ .Title }}</a>
+      </li>
+      {{ end }}
+    {{ end }}
+    </ul>
 
-        <h3>Puppet</h3>
-        <ul>
-        {{ range where .Data.Pages.ByTitle "Type" "sammelsurium" }}
-          {{ if in .Params.tags "Puppet" }}
-          <li>
-              <a href="{{ .Permalink }}">{{ .Title }}</a>
-          </li>
-          {{ end }}
-        {{ end }}
-        </ul>
+    <h3>Filesystems</h3>
+    <ul>
+    {{ range where .Data.Pages.ByTitle "Type" "sammelsurium" }}
+      {{ if in .Params.tags "Filesystems" }}
+      <li>
+          <a href="{{ .Permalink }}">{{ .Title }}</a>
+      </li>
+      {{ end }}
+    {{ end }}
+    </ul>
 
-        <h3>Filesystems</h3>
-        <ul>
-        {{ range where .Data.Pages.ByTitle "Type" "sammelsurium" }}
-          {{ if in .Params.tags "Filesystems" }}
-          <li>
-              <a href="{{ .Permalink }}">{{ .Title }}</a>
-          </li>
-          {{ end }}
-        {{ end }}
-        </ul>
-
-        <h3>HowTos</h3>
-        <ul>
-        {{ range where .Data.Pages.ByTitle "Type" "sammelsurium" }}
-          {{ if in .Params.tags "HowTos" }}
-          <li>
-              <a href="{{ .Permalink }}">{{ .Title }}</a>
-          </li>
-          {{ end }}
-        {{ end }}
-        </ul>
+    <h3>HowTos</h3>
+    <ul>
+    {{ range where .Data.Pages.ByTitle "Type" "sammelsurium" }}
+      {{ if in .Params.tags "HowTos" }}
+      <li>
+          <a href="{{ .Permalink }}">{{ .Title }}</a>
+      </li>
+      {{ end }}
+    {{ end }}
+    </ul>
 
 {{ partial "footer.html" . }}

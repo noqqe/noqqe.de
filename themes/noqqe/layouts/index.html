@@ -1,19 +1,17 @@
 {{ partial "header.html" . }}
 
-    <div id="contentwrapper">
-      <div class="itemwrapper">
-        <h1>Blog</h1>
-        <div class="itemcontent">
-        {{ range (where .Site.Pages "Type" "blog").GroupByDate "2006"  }}
-        <h2>{{ .Key }}</h2>
-        <ul>
-          {{ range .Pages }}
-          <li>
-              <span>{{ .Date.Format "02.01" }}</span>
-              <a href="{{ .Permalink }}">{{ .Title }}</a>
-          </li>
-            {{ end }}
-        </ul>
-      {{ end }}
+  <h1>Blog</h1>
+  <div class="itemcontent">
+  {{ range (where .Site.Pages "Type" "blog").GroupByDate "2006"  }}
+  <h2>{{ .Key }}</h2>
+  <ul>
+    {{ range .Pages }}
+    <li>
+        <span>{{ .Date.Format "02.01" }}</span>
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+    </li>
+    {{ end }}
+  </ul>
+  {{ end }}
 
 {{ partial "footer.html" . }}
