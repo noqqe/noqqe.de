@@ -83,3 +83,5 @@ Solang mir nicht anderes über den Weg läuft werde ich das wohl erstmal so
 weiter betreiben. Eine Bayesian Library mit der ich die Erkennung direkt in
 Python machen kann ohne einen externen Command zu callen wäre noch schön.
 Mal sehen ob sich da was findet.
+
+Ansonsten ist der Source auf [Github](https://github.com/noqqe/jeezus) zu finden.
