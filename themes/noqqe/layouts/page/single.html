@@ -1,13 +1,12 @@
-{{ partial "head.html" . }}
-<body class="theme-base-1b">
+{{ partial "header.html" . }}
 
-{{ partial "sidebar.html" . }}
+    <div id="contentwrapper">
+      <div class="itemwrapper">
+      <h1>
+          <a href="{{ .Permalink }}">{{ .Title }}</a>
+      </h1>
 
-    <div class="content container">
-<div class="post">
-  <h1>{{ .Title }}</h1>
-      {{ .Content }}
-</div>
-</div>
+      <div class="itemcontent">
+        {{ .Content }}
 
-{{ partial "foot.html" . }}
+{{ partial "footer.html" . }}

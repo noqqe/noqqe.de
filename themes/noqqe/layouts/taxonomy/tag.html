@@ -1,19 +1,31 @@
-{{ partial "head.html" . }}
-<body class="theme-base-1b">
 
-{{ partial "sidebar.html" . }}
+{{ partial "header.html" . }}
 
-  <div class="content container">
-  <div class="post">
-  <h1 class="post-title">{{ .Title }}</h1>
+    <div id="contentwrapper">
+      <div class="itemwrapper">
+      <h1>
+          <a href="{{ .Permalink }}">{{ lower .Title }}</a>
+      </h1>
+
+      <div class="itemcontent">
+        <h4>blog</h4>
         <ul>
-      {{ range .Data.Pages  }}
-          <li>
-              <span>{{ .Date.Format "02.01" }}</span>
-              <a href="{{ .Permalink }}">{{ .Title }}</a>
-          </li>
-      {{ end }}
+        {{ range (where .Data.Pages  "Type" "blog")}}
+            <li>
+                <span>{{ .Date.Format "2006.01.02" }}</span>
+                <a href="{{ .Permalink }}">{{ .Title }}</a>
+            </li>
+        {{ end }}
         </ul>
-  </div>
-  </div>
-{{ partial "foot.html" . }}
+
+        <h4>sammelsurium</h4>
+        <ul>
+        {{ range (where .Data.Pages  "Type" "sammelsurium")}}
+            <li>
+                <span>{{ .Date.Format "2006.01.02" }}</span>
+                <a href="{{ .Permalink }}">{{ .Title }}</a>
+            </li>
+        {{ end }}
+        </ul>
+
+{{ partial "footer.html" . }}

@@ -1,26 +1,19 @@
-{{ partial "head.html" . }}
+{{ partial "header.html" . }}
 
-<body class="theme-base-1b">
-
-{{ partial "sidebar.html" . }}
-
-  <div class="content container">
-    <div class="posts">
-
-      {{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
-      {{ range $paginator.Pages }}
-
-      <div class="post">
-        <h1 class="post-title">
-        <a href="{{ .Permalink }}">{{ .Title }}</a>
-        </h1>
-        <span class="post-date">{{ .Date.Format "2006-01-02" }}</span>
-        {{ .Content }}
-      </div>
-
+    <div id="contentwrapper">
+      <div class="itemwrapper">
+        <h1>Blog</h1>
+        <div class="itemcontent">
+        {{ range (where .Site.Pages "Type" "blog").GroupByDate "2006"  }}
+        <h2>{{ .Key }}</h2>
+        <ul>
+          {{ range .Pages }}
+          <li>
+              <span>{{ .Date.Format "02.01" }}</span>
+              <a href="{{ .Permalink }}">{{ .Title }}</a>
+          </li>
+            {{ end }}
+        </ul>
       {{ end }}
 
-    </div>
-    {{ partial "pagination.html" $paginator }}
-  </div>
-{{ partial "foot.html" . }}
+{{ partial "footer.html" . }}
