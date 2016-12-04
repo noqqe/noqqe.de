@@ -3,8 +3,6 @@ baseurl:  "https://noqqe.de"
 languageCode: "de-de"
 theme: "noqqe"
 path: "blog"
-paginate: 3
-paginatePath: "page"
 publishdir: "public"
 metaDataFormat: "yaml"
 
@@ -17,7 +15,6 @@ params:
   Twitter: "noqqe"
 
 taxonomies:
-  category: "categories"
   tag: "tags"
 
 permalinks:
