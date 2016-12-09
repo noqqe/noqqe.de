@@ -25,7 +25,11 @@ Neben dem ganzen Kram interessiert mich [OpenBSD](/tags/openbsd), [Python](/tags
 Hackerspace [K4CG](https://k4cg.org).
 
 Erreichen kann man mich auf Twitter unter
-[@noqqe](https://twitter.com/noqqe), per Mail und lieber noch per Mail via
+[@noqqe](https://twitter.com/noqqe), per Mail <code class="rev">ed.eqqon@olf</code> und lieber noch per Mail via
 [PGP](/pgp/) Key ID `CDA4B775` und Fingerprint `227E 8E2D E6C7 A7F5 280C 9431 BFE7 8B80 CDA4 B775`.
+
+Kommentare zu Posts könnt ihr gerne an <code class="rev">ed.eqqon@tupnigolb-xilef</code> senden.
+Tut euch außerdem selbst einen gefallen und schreibt **keine Mails** an
+[wa1@noqqe.de](mailto:wa1@noqqe.de). Spamtrap.
 
 kkthxbai und :wq!

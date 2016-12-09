@@ -54,6 +54,12 @@ pre code {
 	background-color: #f5f5f5;
 }
 
+/* anti spam from the 90s */
+code.rev {
+  direction: rtl;
+  unicode-bidi:bidi-override;
+}
+
 header {
 	height: 3em;
 	margin-bottom: 10px;
