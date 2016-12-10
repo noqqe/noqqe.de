@@ -1,17 +1,28 @@
 {{ partial "header.html" . }}
 
   <h1 itemprop="headline">
-      <a href="{{ .Permalink }}">{{ .Title }}</a>
+      <a itemprop="mainEntityOfPage" href="{{ .Permalink }}">{{ .Title }}</a>
   </h1>
 
   <div class="itemdetails">
-   <span class="date" itemprop="datePublished dateModified">{{ .Date.Format "2006-01-02" }}</span> @
-      {{ range .Params.tags}}
-      <a href="/tags/{{ . | urlize }}" class="boldlink">{{ lower . }}</a>
+   <span class="date" itemprop="datePublished dateModified">{{ .Date.Format "2006-01-02" }}</span>
+   @
+   <span itemprop="keywords">
+      {{ with .Params.tags }}
+        {{ $sort := sort . }}
+        {{ $links := apply $sort "partial" "link" "." }}
+        {{ $clean := apply $links "chomp" "." }}
+        {{ delimit $clean ", " }}
       {{ end }}
+   </span>
+
+   <div class="hidden" itemprop="author publisher">
+    <span itemscope itemtype="http://schema.org/Person">
+    <span itemprop="name">{{ .Site.Params.Author }}</span>
+  </div>
   </div>
 
-  <div itemprop="articleBody" class="itemcontent">
+  <div class="itemcontent" itemprop="articleBody">
     {{ .Content }}
 
 {{ partial "footer.html" . }}

@@ -12,7 +12,7 @@
 
   <!-- Twitter Cards -->
 	<meta name="twitter:card" content="summary"/>
-  <meta name="twitter:image" content="{{ .Site.BaseURL }}/images/noqqe_square.png">
+  <meta name="twitter:image" content="{{ .Site.BaseURL }}/images/logo.png">
   <meta name="twitter:site" content="{{ .Site.Params.Twitter }}">
   <meta name="twitter:creator" content="{{ .Site.Params.Twitter }}">
   <meta name="twitter:title" content="{{ $isHomePage := eq .Title .Site.Title }}{{ .Title }}{{ if eq $isHomePage false }} - {{ .Site.Title }}{{ end }}">
@@ -50,24 +50,18 @@
   <link href="{{ .Site.BaseURL }}/css/styles.css" media="all" rel="stylesheet" />
 </head>
 
-<body class="item ">
+<body class="item" itemscope="" itemtype="http://schema.org/Blog">
   <div id="sitewrapper">
 
-    <header itemscope itemtype="author">
-      <h2 itemscope itemtype="http://schema.org/Person">
-        <a itemprop="name" rel="author" href="/">noqqe</a>
+    <header>
+      <h2>
+        <a href="{{ .Site.BaseURL }}">noqqe</a>
       </h2>
       <br>
       <a href="{{ .Site.BaseURL }}/blog">blog</a>
       <span class="bar">|</span>
       <a href="{{ .Site.BaseURL }}/sammelsurium">sammelsurium</a>
       <span class="bar">|</span>
-      <!-- <a href="{{ .Site.BaseURL }}/links/">links</a> -->
-      <!-- <span class="bar">|</span> -->
-      <!-- <a href="{{ .Site.BaseURL }}/books">books</a> -->
-      <!-- <span class="bar">|</span> -->
-      <!-- <a href="{{ .Site.BaseURL }}/pgp">pgp</a> -->
-      <!-- <span class="bar">|</span> -->
       <a href="{{ .Site.BaseURL }}/projects">projects</a>
       <span class="bar">|</span>
       <a href="/about">about</a>

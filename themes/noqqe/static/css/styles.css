@@ -60,6 +60,11 @@ code.rev {
   unicode-bidi:bidi-override;
 }
 
+/* hide elements from being displayed */
+.hidden {
+  display: none
+}
+
 header {
 	height: 3em;
 	margin-bottom: 10px;
