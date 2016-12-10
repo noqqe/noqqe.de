@@ -18,6 +18,11 @@ tags:
              port 80 namevhost www.domain2.com (/etc/apache2/sites-enabled/www.domain2.com:4)
     Syntax OK
 
+## mod_proxy
+
+    ProxyPass /foo http://foo.example.com/bar
+    ProxyPassReverse /foo http://foo.example.com/bar
+
 ## Apache2.4 Satisfy Any
 
 Grant stuff changed a lot since the last version

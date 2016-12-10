@@ -17,11 +17,11 @@ Words per Sentence
 
 Anzahl der Wörter finden
 
-		len(nltk.tokenize.sent_tokenize(foo))
+    len(nltk.tokenize.sent_tokenize(foo))
 
 Anzahl der Sätze finden
 
-		len(nltk.tokenize.sent_tokenize(text1))
+    len(nltk.tokenize.sent_tokenize(text1))
 
 Search text for every occurence of word:
 

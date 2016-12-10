@@ -6,6 +6,8 @@ tags:
 - git
 ---
 
+## Deletions
+
 Files mit bestimmten Suffix aus Git History finden
 
     git log --all --summary -- '*.Rdata'
@@ -17,6 +19,17 @@ Gelöschte Files aus History anzeigen
 File aus History löschen
 
     git filter-branch -f --tree-filter "rm -f foo/bar/baz.RData" HEAD
+
+## Checkout remote branch
+
+Remote branch auschecken ist was anderes als einen lokalen Branch erstellen
+und den remote branch pullen. Merging baby.
+
+Die Zeilen holen alle Meta daten und man kann den remote Branch so wie er
+ist verwenden.
+
+    git fetch
+    git checkout test
 
 ## git gc
 
@@ -34,10 +47,6 @@ Wenn ich ein git repository wieder aufräumen möchte.
         insteadOf = git+https://
         insteadOf = git+http://
         insteadOf = http://
-
-## Performance Test
-
-    git add test; time while [ $C -le 1004225 ]; do   date "+%Y%m%d %H%M%s%N" >> test ;   git commit -a -m "$C";   ((C++)); done
 
 ## Search
 
