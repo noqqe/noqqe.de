@@ -124,6 +124,13 @@ func main() {
   // Some warm welcome
   log.Println(".oO(Amaze - Wow)Oo.")
 
+  if len(os.Args) < 2 {
+    log.Println("Missing command - Choose:")
+    log.Println("* sammelsurium")
+    log.Println("* build")
+    os.Exit(1)
+  }
+
   if os.Args[1] == "build" {
     build(c)
   } else if os.Args[1] == "sammelsurium" {
