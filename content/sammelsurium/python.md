@@ -6,6 +6,13 @@ tags:
 - Python
 ---
 
+#### Unix Epoch to ISO 8601
+
+   	import pytz
+		from datetime import datetime
+		tz = pytz.timezone('Europe/Berlin')
+		datetime.fromtimestamp(140000000, tz).isoformat()
+
 #### Crypto Example
 
     #!/usr/bin/env python2

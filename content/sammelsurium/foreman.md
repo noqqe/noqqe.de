@@ -28,55 +28,44 @@ production:
   host: localhost
 ~~~
 
-## Apache2 Passenger
+#### Pitfalls
 
-~~~
-<VirtualHost *:443>
-        SSLEngine on
-        SSLProtocol -ALL +SSLv3 +TLSv1
-        SSLCipherSuite ALL:!ADH:RC4+RSA:+HIGH:+MEDIUM:-LOW:-SSLv2:-EXP
+If you are planning to setup a foreman server for reporting and totally
+decoupled from your puppet master, pay attention to the following things
 
-        SSLCertificateFile      /var/lib/puppet/ssl/certs/ip-10-2-0-254.example.com.pem
-        SSLCertificateKeyFile   /var/lib/puppet/ssl/private_keys/ip-10-2-0-254.example.com.pem
-        SSLCertificateChainFile /var/lib/puppet/ssl/certs/ca.pem
-        SSLCACertificateFile    /var/lib/puppet/ssl/certs/ca.pem
-        ## If Apache complains about invalid signatures on the CRL, you can try disabling
-        ## CRL checking by commenting the next line, but this is not recommended.
-        SSLCARevocationFile     /var/lib/puppet/ssl/ca/ca_crl.pem
-        SSLVerifyClient optional
-        SSLVerifyDepth  1
-        ## The `ExportCertData` option is needed for agent certificate expiration warnings
-        SSLOptions +StdEnvVars +ExportCertData
+* Set puppet.conf on master to
 
-        ## This header needs to be set if using a loadbalancer or proxy
-        RequestHeader unset X-Forwarded-For
+```
+[master]
+reports = foreman
+external_nodes = /etc/puppet/node.rb
+node_terminus = exec
+```
 
-        RequestHeader set X-SSL-Subject %{SSL_CLIENT_S_DN}e
-        RequestHeader set X-Client-DN %{SSL_CLIENT_S_DN}e
-        RequestHeader set X-Client-Verify %{SSL_CLIENT_VERIFY}e
+* Set correct SSL Certs in foreman hosts apache2 (copy over puppet masters)
+* Update `nodes.rb` file from foreman homepage
+* Adjust foreman.yaml in /etc/puppet
 
-        ## you probably want to tune these settings
-        PassengerHighPerformance on
-        PassengerMaxPoolSize 12
-        PassengerPoolIdleTime 1500
-        ## PassengerMaxRequests 1000
-        PassengerStatThrottleRate 120
+```
+---
+## Update for your Foreman and Puppet master hostname(s)
+:url: "https://dcex1045mfman01.ext.gfk"
+:ssl_ca: "/var/lib/puppet/ssl/certs/ca.pem"
+:ssl_cert: "/var/lib/puppet/ssl/certs/dcex1045mpups01.ext.gfk.pem"
+:ssl_key: "/var/lib/puppet/ssl/private_keys/dcex1045mpups01.ext.gfk.pem"
+:user: "admin"
+:password: "lol"
+:puppetdir: "/var/lib/puppet"
+:puppetuser: "puppet"
+:facts: true
+:timeout: 10
+:threads: null
+```
 
+* Copy `/usr/lib/ruby/vendor_ruby/puppet/reports/foreman.rb` to your puppet
+  master's `/usr/lib/ruby/vendor_ruby/puppet/reports/`
+* Set `Puppet server` config item to correct master
+* Update `Trusted puppetmaster hosts` to correct puppet master (as an
+  array!)
+* **IMPORTANT** Set `ENC environment` to `No`!
 
-        DocumentRoot /usr/share/foreman/public
-        PassengerAppRoot /usr/share/foreman
-        RackAutoDetect On
-        RailsAutoDetect On
-        AddDefaultCharset UTF-8
-
-        <Directory /usr/share/foreman/public>
-                <IfVersion < 2.4>
-                 Allow from all
-                </IfVersion>
-                <IfVersion >= 2.4>
-                 Require all granted
-                </IfVersion>
-        </Directory>
-
-</VirtualHost>
-~~~
