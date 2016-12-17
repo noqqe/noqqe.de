@@ -9,13 +9,6 @@ import (
 )
 
 
-// Tiny little configuration struct
-type Config struct {
-  hugocmd string
-  homedir string
-  sammelsuriumdir string
-  rvocmd string
-}
 
 // A document coming from rvo
 // looks like this.
@@ -113,13 +106,7 @@ func sammelsurium(c Config) bool {
 
 func main() {
 
-  // configuration is stored in this
-  // tiny little struct made with <3
-  c := Config{
-    rvocmd: "rvo export -c docs",
-    hugocmd: "hugo",
-    sammelsuriumdir: "/home/noqqe/Code/noqqe.de/content/sammelsurium/",
-    homedir: "/home/noqqe/Code/noqqe.de"}
+  c := parseConfig("../config.yaml")
 
   // Some warm welcome
   log.Println(".oO(Amaze - Wow)Oo.")

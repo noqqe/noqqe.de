@@ -39,3 +39,9 @@ menu:
   - name: "about"
     weight: 40
     url: "/about/"
+
+amaze:
+  rvocmd: "rvo export -c docs"
+  hugocmd: "hugo"
+  sammelsuriumdir: "/home/noqqe/Code/noqqe.de/content/sammelsurium/"
+  homedir: "/home/noqqe/Code/noqqe.de"
