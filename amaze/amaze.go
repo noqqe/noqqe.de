@@ -9,7 +9,6 @@ import (
 )
 
 
-
 // A document coming from rvo
 // looks like this.
 type Document struct {
