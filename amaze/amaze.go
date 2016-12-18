@@ -34,7 +34,7 @@ func build(c Config) bool {
 
   output, err := cmd.CombinedOutput()
   if err != nil {
-    log.Fatal("Hugo crashed and burned.")
+    log.Fatal("Hugo crashed and burned. Error:", err)
   }
 
   log.Printf("%s\n", string(output))
@@ -105,7 +105,8 @@ func sammelsurium(c Config) bool {
 
 func main() {
 
-  c := parseConfig("../config.yaml")
+  c := parseConfig("/home/noqqe/Code/noqqe.de/config.yaml")
+  log.Println(c)
 
   // Some warm welcome
   log.Println(".oO(Amaze - Wow)Oo.")

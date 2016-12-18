@@ -42,6 +42,6 @@ menu:
 
 amaze:
   rvocmd: "rvo export -c docs"
-  hugocmd: "hugo"
+  hugocmd: "/home/noqqe/.go/bin/hugo"
   sammelsuriumdir: "/home/noqqe/Code/noqqe.de/content/sammelsurium/"
   homedir: "/home/noqqe/Code/noqqe.de"
