@@ -49,10 +49,10 @@ node_terminus = exec
 ```
 ---
 ## Update for your Foreman and Puppet master hostname(s)
-:url: "https://dcex1045mfman01.ext.gfk"
+:url: "https://foreman.example.com"
 :ssl_ca: "/var/lib/puppet/ssl/certs/ca.pem"
-:ssl_cert: "/var/lib/puppet/ssl/certs/dcex1045mpups01.ext.gfk.pem"
-:ssl_key: "/var/lib/puppet/ssl/private_keys/dcex1045mpups01.ext.gfk.pem"
+:ssl_cert: "/var/lib/puppet/ssl/certs/foreman.example.com.crt"
+:ssl_key: "/var/lib/puppet/ssl/private_keys/foreman.example.com.key"
 :user: "admin"
 :password: "lol"
 :puppetdir: "/var/lib/puppet"
