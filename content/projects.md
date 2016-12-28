@@ -11,6 +11,8 @@ alias: 'archives/434'
 
 ## 2016
 
+  * [sadcat](https://github.com/noqqe/sadcat) - ssh config generator
+  * [jeezus](https://github.com/noqqe/jeezus) - Experimental SMTP Proxy for Antispam in Python
   * [Organic Entropy](https://organic-entropy.org) - Gewinnung grüner und
     nachhaltiger Entropie in der Kryptographie
   * [rvo](https://github.com/noqqe/rvo) - Managing textual data
@@ -19,6 +21,7 @@ alias: 'archives/434'
 
 ## 2015
 
+  * [Rezeptionistin](https://github.com/k4cg/rezeptionistin) - Der freundliche IRC Bot für #k4cg
   * [bm](https://github.com/noqqe/bm) - Commandline Bookmark Manager
   * [cmddocs](https://github.com/noqqe/cmddocs) - Commandline Wiki
 
@@ -26,8 +29,7 @@ alias: 'archives/434'
 
   * [maildirstats](https://github.com/noqqe/maildirstats) - Statistiken für
     das eigene Maildir Verzeichnis
-  * [nichtparasoup](https://github.com/k4cg/nichtparasoup) - Nerds Home
-    Entertainment System
+  * [nichtparasoup](https://github.com/k4cg/nichtparasoup) - Hackerspace Entertainment System
 
 ## 2013
 
