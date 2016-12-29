@@ -165,7 +165,6 @@ div.itemdetails a {
 	text-decoration: none;
 }
 
-
 /* responsive adjustments */
 @media only screen and (max-width: 640px) {
   div#contentwrapper {

@@ -1,8 +1,19 @@
-      <div class="itembottomwrapper">
+      {{ if isset .Params "comments" }}
+        <div class="comments">
+          <h4>Comments ({{ .Params.comments | len }})</h4>
+        {{ range .Params.comments }}
+          <div class="comment">
+            <div class="itemdetails"><b>{{ .name }}</b> on {{ .date }}</div>
+            <div>{{ .content }}</div>
+            <br/>
+          </div>
+        {{ end }}
+      {{ end }}
       </div>
   </div>
 
 </div>
+
 
 </div>
 
