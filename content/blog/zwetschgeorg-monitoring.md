@@ -12,6 +12,10 @@ tags:
 - zwetschge
 - debian
 title: zwetschge.org monitoring
+comments:
+-
+  name: foo
+  body: das ist ein kommentar
 ---
 
 Habe mich heute mal mit [collectd](http://collectd.org/) und
