@@ -29,8 +29,8 @@ type Document struct {
 }
 
 func build(c Config) bool {
-  os.Chdir(c.homedir)
-  cmd := exec.Command(c.hugocmd)
+  os.Chdir(c.Amaze.Homedir)
+  cmd := exec.Command(c.Amaze.Hugocmd)
 
   output, err := cmd.CombinedOutput()
   if err != nil {
@@ -50,10 +50,10 @@ func sammelsurium(c Config) bool {
   log.Println("Sammelsurium calculating...")
 
   // change directory
-  os.Chdir(c.homedir)
+  os.Chdir(c.Amaze.Homedir)
 
   // convert cmd from string to array
-  cmdline := strings.Split(c.rvocmd, " ")
+  cmdline := strings.Split(c.Amaze.Rvocmd, " ")
   command := cmdline[0]
   args := cmdline[1:]
 
@@ -82,7 +82,7 @@ func sammelsurium(c Config) bool {
 
     // get filename
     filename := generateFilename(documents[d].Title)
-    path := c.sammelsuriumdir + "/" + filename
+    path := c.Amaze.Sammelsuriumdir + "/" + filename
 
     // strip content
     content := generateContent(documents[d].Content)
