@@ -15,6 +15,7 @@ type Config struct {
     Rvocmd          string `yaml:"rvocmd"`
     Homedir         string `yaml:"homedir"`
     Sammelsuriumdir string `yaml:"sammelsuriumdir"`
+    Deploycmd       string `yaml:"deploycmd"`
   }
 }
 

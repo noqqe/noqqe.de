@@ -42,6 +42,31 @@ func build(c Config) bool {
   return true
 }
 
+func deploy(c Config) bool {
+
+  log.Println("Deploying to webserver...")
+
+  os.Chdir(c.Amaze.Homedir)
+
+  // convert cmd from string to array
+  cmdline := strings.Split(c.Amaze.Deploycmd, " ")
+  command := cmdline[0]
+  args := cmdline[1:]
+
+  // execute commands
+  cmd := exec.Command(command, args...)
+  output, err := cmd.CombinedOutput()
+
+  if err != nil {
+    log.Fatal("Deploying to webserver crashed and burned. Error:", err)
+  }
+
+  log.Printf("%s\n", string(output))
+
+  return true
+}
+
+
 // Create posts for sammelsurium using json export
 // of rvo and persisting them into the posts
 func sammelsurium(c Config) bool {
@@ -103,10 +128,11 @@ func sammelsurium(c Config) bool {
   return true
 }
 
+// parsing cmdline arguments and trigger functions.
 func main() {
 
+  // parse configuration
   c := parseConfig("/home/noqqe/Code/noqqe.de/config.yaml")
-  log.Println(c)
 
   // Some warm welcome
   log.Println(".oO(Amaze - Wow)Oo.")
@@ -122,6 +148,9 @@ func main() {
     build(c)
   } else if os.Args[1] == "sammelsurium" {
     sammelsurium(c)
+  } else if os.Args[1] == "deploy" {
+    build(c)
+    deploy(c)
   }
 }
 
