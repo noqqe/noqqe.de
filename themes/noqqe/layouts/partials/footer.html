@@ -4,7 +4,7 @@
         {{ range .Params.comments }}
           <div class="comment">
             <div class="itemdetails"><b>{{ .author }}</b> on {{ .date }}</div>
-            <div>{{ safeHTML .content }}</div>
+            <div>{{ plainify .content }}</div>
             <br/>
           </div>
         {{ end }}
