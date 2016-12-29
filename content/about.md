@@ -30,6 +30,7 @@ Erreichen kann man mich auf Twitter unter
 
 Kommentare zu Posts könnt ihr gerne an <code class="rev">ed.eqqon@tupnigolb-xilef</code> senden.
 Tut euch außerdem selbst einen gefallen und schreibt **keine Mails** an
-[wa1@noqqe.de](mailto:wa1@noqqe.de). Spamtrap.
+[wa1@noqqe.de](mailto:wa1@noqqe.de) und auch nicht an
+[blablahuulululu@noqqe.de](mailto:blablahuulululu@noqqe.de). Spamtrap.
 
 kkthxbai und :wq!
