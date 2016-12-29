@@ -6,6 +6,19 @@ tags:
 - apt
 ---
 
+#### Download sources
+
+see sources and look at details for the package
+
+		cd /tmp/
+		apt-get download newrelic-daemon
+		ar -x newrelic-daemon_6.8.0.177_amd64.deb
+		ls
+		tar xfvz control.tar.gz
+		tar xfvj data.tar.bz2
+
+#### apt-key
+
 Neuen Key aus untrusted Repo importieren
 
     gpg --keyserver pgpkeys.mit.edu --recv-key 1285491434D8786F
@@ -34,17 +47,9 @@ Key manuell von Site herunterladen
     apt-key
     apt-key add squeeze.asc
 
-## Wenn bei Ubuntu Sources nichts mehr hilft...
+#### Clean temporary data
 
-Wegen eventuell diesem Fehler
-
-    W: Bei der Überprüfung der Signatur ist ein Fehler aufgetreten. Die Paketquelle ist nicht aktuell, die bisherigen Index-
-    Dateien werden weiter verwendet. GPG-Fehler: http://de.archive.ubuntu.com lucid Release Die folgenden Signaturen waren
-    ungültig: BADSIG 40976EAF437D05B5 Ubuntu Archive Automatic Signing Key <ftpmaster@ubuntu.com>
-    W: Fehlschlag beim Holen von http://de.archive.ubuntu.com/ubuntu/dists/lucid/Release
-    W: Einige Indexdateien konnten nicht heruntergeladen werden, sie wurden ignoriert oder alte an ihrer Stelle benutzt.
-
-dann
+its a little like a soft reset
 
     sudo apt-get clean
     cd /var/lib/apt
@@ -53,4 +58,4 @@ dann
     sudo apt-get clean
     sudo apt-get update
 
-Gefunden bei [askubuntu.com](http://askubuntu.com/questions/85641/how-do-i-deal-with-unauthenticated-sources-errors-in-the-software-center)
+[askubuntu.com](http://askubuntu.com/questions/85641/how-do-i-deal-with-unauthenticated-sources-errors-in-the-software-center)
