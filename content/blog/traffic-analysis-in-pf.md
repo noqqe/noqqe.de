@@ -1,4 +1,18 @@
 ---
+comments:
+- author: aibo
+  content: "Falls du bei deinen Recherchen nicht \xFCber pmacct gestolpert sein solltest,
+    dann m\xF6chte ich die Gelegenheit nutzen, dich darauf hinzuweisen Falls ich dich
+    richtig verstanden habe, k\xF6nnte es f\xFCr die L\xF6sung der Problemstellung
+    in frage kommen:\nhttp://www.pmacct.net/"
+  date: '2015-03-17T20:31:13.099216'
+- author: noqqe
+  content: Oh ne, das kannte ich noch nicht. Schau ich mir an, danke! :)
+  date: '2015-03-17T22:23:56.135100'
+- author: Anonymous
+  content: "Ich glaube, dass man bei tshark (Teil von Wireshark - Keine Ahnung, ob
+    das auch f\xFCr *BSD existiert) custom und feste Outpuformat definieren kann."
+  date: '2015-03-22T13:20:54.861321'
 date: '2015-03-17T11:02:00'
 tags:
 - openbsd

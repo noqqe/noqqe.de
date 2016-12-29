@@ -1,4 +1,21 @@
 ---
+comments:
+- author: Anonymous
+  content: "Toll, dass du nochmal an sowas erinnerst! Mir geht es bei Spielen um die
+    erlebte Geschichte, und daf\xFCr braucht man keine Grafik."
+  date: '2015-09-12T16:25:10.916720'
+- author: chris_blues
+  content: "Hihi! Lang ists her. Hab auch vor ein paar Monaten mal wieder eins von
+    den bsd-games angeworfen - wei\xDF nicht mehr wie's hie\xDF. Da war meine Geduld
+    allerdings ziemlich schnell ersch\xF6pft. Bin halt doch kein Zocker mehr... Aber
+    ich hab noch allerhand Erinnerungen an n\xE4chtelanges shell-zocken mit Star-Trek
+    & Co... :D"
+  date: '2015-09-12T17:05:06.724260'
+- author: nosports
+  content: 'Herzlich Willkommen im MG. :)
+
+    (SirJow gruesst)'
+  date: '2015-09-14T09:26:23.409261'
 date: '2015-09-12T12:47:14'
 tags:
 - multi user dungeon

@@ -1,6 +1,13 @@
 ---
 aliases:
 - /blog/2012/09/09/getting-enterprised-with-tomcat-teil-1/
+comments:
+- author: dreary
+  content: "<p>Yeah! Dann mal viel Spa\xDF bei der Schulung. Auf das Linux-Hotel bin
+    ich letztens auch durch Zufall (via Google) gestossen und hab mir deren Website
+    mal angesehen :) Zum Thema nicht-technische-Blogposts: liest man auch gerne mal
+    - bitte mehr \xFCber deinen Aufenthalt dort ;)</p>"
+  date: '2012-09-10T06:51:07'
 date: '2012-09-09T18:45:00'
 tags:
 - web

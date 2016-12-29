@@ -1,4 +1,26 @@
 ---
+comments:
+- author: MM
+  content: "Die meisten w\xFCrden da sicherlich zu Piwigo raten (Alternativen auch
+    hier: https://github.com/Kickball/awesome-selfhosted#photo-and-video-galleries).
+    Gesichtserkennung ist mir nicht bekannt und auch schwierig einzurichten wegen
+    den Abh\xE4ngigkeiten. W\xE4re da nicht digiKam auf dem Desktop (mit Gesichtserkennung!)
+    und dann das teilen der tags zu Personen eine M\xF6glichkeit?"
+  date: '2015-08-09T14:15:15.424447'
+- author: Flo
+  content: "Ich w\xFCrde auch zu digikam raten. Wenn man das in einen Docker Container
+    packt, kann es auch als \"Webanwendung\" verwendet werden. https://hub.docker.com/r/aptalca/docker-digikam/"
+  date: '2015-08-09T21:10:25.283330'
+- author: Anonymous
+  content: "G\xE4be es so etwa auch als OpenStreetmap Variante?"
+  date: '2015-08-10T16:02:02.039678'
+- author: Yannic
+  content: 'Wuerde mich auch interessieren :)
+
+
+    EDIT: Ok, hab grade selber was gefunden: https://help.openstreetmap.org/questions/1778/how-can-i-display-a-map-with-multiple-markers
+    und http://bl.ocks.org/d3noob/9150014 :)'
+  date: '2015-08-14T23:13:31.572259'
 date: '2015-08-09T09:00:49'
 tags:
 - osx

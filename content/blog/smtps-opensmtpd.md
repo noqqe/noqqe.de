@@ -1,4 +1,16 @@
 ---
+comments:
+- author: noqqe
+  content: 'Base64 Variante in Bash: "echo -n "passwort" | base64" via Dr4ke_LE'
+  date: '2014-12-01T13:08:18.973142'
+- author: noqqe
+  content: "OpenSSL sclient im interactive Mode mag f\xFChrende \"R\"s nicht. \"When
+    used interactively (which means neither -quiet nor -ign_eof have been given),
+    the session will be renegotiated if the line begins with an R\" via @raimue"
+  date: '2014-12-01T13:09:26.850838'
+- author: mjnbock
+  content: "Danke f\xFCrs dokumentieren dieses OpenSSL Features ;-)"
+  date: '2016-04-14T12:29:16.284944'
 date: '2014-12-01T10:02:00'
 tags:
 - openbsd

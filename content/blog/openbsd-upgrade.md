@@ -1,4 +1,23 @@
 ---
+comments:
+- author: tux.
+  content: OpenBSD ist keine Distribution.
+  date: '2015-11-07T22:20:42.061276'
+- author: Anonymous
+  content: Pinguine hier mal den den Kopf zu machen, wenn der Teufel an der Arbeit
+    ist.
+  date: '2015-11-07T23:38:19.068166'
+- author: noqqe
+  content: Die auf der ... Berkley Software Distribution basiert? Irgendwie doch.
+  date: '2015-11-07T23:39:55.567497'
+- author: tux.
+  content: "Ich nutze BSD schon 'n bisschen l\xE4nger, Troll."
+  date: '2015-11-08T00:08:58.760291'
+- author: tux.
+  content: "Nein, OpenBSD ist l\xE4ngst ein eigenst\xE4ndiges System. Bzw. wenn OpenBSD
+    eine Distribution ist, ist Windows auch eine. (1992 musste s\xE4mtlicher Original-BSD-Code
+    ja ersetzt werden.)"
+  date: '2015-11-08T00:09:43.690936'
 date: '2015-11-07T20:59:22'
 tags:
 - openbsd

@@ -1,4 +1,20 @@
 ---
+comments:
+- author: noqqe
+  content: 'Achja, gefunden bei: http://www.bionix-it.de/the-phoenix-project-a-novel-about-it-devops'
+  date: '2014-07-03T17:36:19.525282'
+- author: Thoys
+  content: "Hei,\n\nwie verst\xE4ndlich war denn das Buch? Also f\xFCr jemanden mit
+    m\xE4\xDFiger Englischkompetenz, ist es da zu empfehlen, oder brauche ich dann
+    ein W\xF6rterbuch f\xFCr jedes zweite Wort?"
+  date: '2014-10-11T12:12:08.278950'
+- author: Guenther Schmitz
+  content: 'wer erst mal anlesen moechte: es gibt ein "excerpt" was den part 1 (170
+    seiten) beinhaltet. wer dann nach dem halben buch weiter lesen moechte muss es
+    sich halt kaufen .. habe es leider noch in keiner digitalen version gefunden ...
+
+    http://itrevolution.com/wp-content/uploads/files/PhoenixProjectExcerpt.pdf'
+  date: '2014-12-14T17:18:25.209411'
 date: '2014-07-03T14:53:00'
 tags:
 - operations

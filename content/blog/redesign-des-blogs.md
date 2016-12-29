@@ -1,4 +1,39 @@
 ---
+comments:
+- author: spion
+  content: "<p>IHGITT!11elf</p><p>Ernsthaft: aufm Taschencomputer kommt's garnicht
+    so unkool, vom Gr\xFCn mal abgesehen.. ;)</p>"
+  date: '2012-12-22T21:50:34'
+- author: Dr. Azrael Tod
+  content: <p>sieht auf meinem Netbook recht ansprechend und vor allem benutzbar aus
+    :-)</p>
+  date: '2012-12-22T22:07:24'
+- author: noqqe
+  content: <p>Taschencomputer == iPhone oder Laptop? :P </p><p>Die Mobile Version
+    find ich jetzt nicht so prall. Aber das war sie auch vorher nicht.</p>
+  date: '2012-12-22T23:22:43'
+- author: noqqe
+  content: <p>sehr gut :) Thx!</p>
+  date: '2012-12-23T11:49:07'
+- author: spion
+  content: <p>iPhone (IOS 5.0.1)</p>
+  date: '2012-12-23T19:01:06'
+- author: Korbinian K.
+  content: "<p>Hi,</p><p>bin gerade erst auf deinen Blog gesto\xDFen (durch den Artikel
+    \xFCber Apache vhosts und Logrotate) und muss sagen die Seite gef\xE4llt mir gut,
+    was mich allerdings schon fast zur Verzweiflung getrieben hat ist: kein Link zur
+    Startseite hinter dem Logo. Das ist mMn mittlerweile zu einem Art Standard im
+    Web verkommen und nat\xFCrlich auch durchaus praktisch ;)</p>"
+  date: '2013-01-15T13:30:07'
+- author: noqqe
+  content: <p>Hi,</p><p>da geb ich dir Recht. Ich hab jetzt extra(!) das Logo Clickable
+    gemacht :P</p>
+  date: '2013-01-17T19:35:01'
+- author: Korbinian K.
+  content: "<p>Hey - Super, Danke! Der RSS-Feed ist auch schon seit Dienstag im Feedreader
+    :)</p><p>Ich sollte auch mal wieder mehr bloggen ... </p><p>Viele Gr\xFC\xDFe
+    und auf ein baldiges Wiederlesen</p>"
+  date: '2013-01-17T20:20:04'
 date: '2012-12-22T16:27:00'
 tags:
 - blog

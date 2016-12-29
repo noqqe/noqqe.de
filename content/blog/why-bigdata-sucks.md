@@ -1,4 +1,15 @@
 ---
+comments:
+- author: Anonymous
+  content: 'In den Beruhigungspausen einfach ne Runde "Pokemon or Big Data" spielen
+    ;)
+
+    https://pixelastic.github.io/pokemonorbigdata/'
+  date: '2016-03-20T15:29:32.509370'
+- author: Anonymous
+  content: "In der Zuordnung der Nodes ist ein Slave zu viel, sonst gilt der Jobtracker
+    als Slave, oder die Secondary Namenode vergessen? W\xE4re aber auch Master..."
+  date: '2016-03-20T18:20:44.810706'
 date: '2016-03-20T13:36:09'
 tags:
 - flume

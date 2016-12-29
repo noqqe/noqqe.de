@@ -1,4 +1,9 @@
 ---
+comments:
+- author: nik22
+  content: "Da kommst du aber mit einem Rootserver von kimsufi oder online.net deutlich
+    g\xFCnstiger weg."
+  date: '2015-01-26T22:05:19.477121'
 date: '2015-01-26T19:06:00'
 tags:
 - openbsd

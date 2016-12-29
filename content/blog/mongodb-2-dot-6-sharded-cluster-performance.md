@@ -1,6 +1,10 @@
 ---
 aliases:
 - /blog/2014/06/18/mongodb-2-dot-6-sharded-cluster-performance
+comments:
+- author: Martin
+  content: Interessant auch die Jepsen Ergebnisse zu mongo im Fall von Node failures.
+  date: '2014-06-19T09:40:54.409166'
 date: '2014-06-18T19:02:00'
 tags:
 - development

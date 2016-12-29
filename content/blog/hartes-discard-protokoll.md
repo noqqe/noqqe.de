@@ -1,4 +1,8 @@
 ---
+comments:
+- author: Anonymous
+  content: Man kann OpenBSD also durch discard DoSsen???
+  date: '2015-02-04T22:07:46.173307'
 date: '2014-11-04T17:30:00'
 tags:
 - openbsd

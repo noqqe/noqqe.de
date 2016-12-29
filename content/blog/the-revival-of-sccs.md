@@ -1,4 +1,23 @@
 ---
+comments:
+- author: Ranlvor
+  content: "<p>Ich habe dein Skript mal laufen lassen, dauerte 218m16.425s und du
+    -hs .git meldete wie bei dir 12G.<br>Allerdings war es dann jegliches Arbeiten
+    mit dem Repository unglaublich langsam, da es zu viele einzelne Dateien waren.
+    Daher habe ich das Skript leicht abge\xE4ndert damit es alle 10.000 Commits git
+    gc ausf\xFChrt um das Repository zu optimieren:<br>touch test\_<br>git add test\_<br>C=0<br>time
+    while [ $C -le 1004225 ]; do<br>\_ D=0<br>\_ while [ $D -le 10000 ]; do<br>\_
+    \_ date \"+%Y%m%d %H%M%s%N\" &gt; test\_<br>\_ \_ git commit -a -m \"$C\"<br>\_
+    \_ ((C++))<br>\_ \_ ((D++))<br>\_ done<br>\_ git gc<br>done</p><p>Das hat dann
+    271m12.816s gedauert, aber .git war dann nur 624M gro\xDF. Dann habe ich noch
+    ein paar \xFCberfl\xFCssige Dateien entfernt (logs/HEAD \_logs/refs/heads/master)
+    und kam dann auf nur noch 316M. Somit ist git ungef\xE4hr so gro\xDF wie die unkomprimierte
+    SCCS-Variante.</p>"
+  date: '2012-03-25T20:12:22'
+- author: noqqe
+  content: <p>Nice! Sehr interessant das das Repo damit doch so schrumpft.<br>Super
+    danke! :)</p>
+  date: '2012-03-26T05:59:50'
 date: '2012-03-23T13:11:00'
 tags:
 - code

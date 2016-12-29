@@ -1,4 +1,34 @@
 ---
+comments:
+- author: Anonymous
+  content: "Moin erstmal ;D Bin eigentlich so ein Typ, der gerne mit Schubladen arbeitet.
+    Die Probleme hier kenne ich zu gen\xFCge, meist kriegt man in den benannten Forum,
+    lass die Finger davon und such dir was anderes. Aber der Punkt \"Der resignierende
+    Senior\" trifft ein wenig auch auf mich zu. Bin fr\xFCher ein weniger aktiver
+    gewesen, was probleml\xF6sungen angeht, jetzt mache ich eigentlich nur das was
+    ich muss. \n\nAber sch\xF6ner Artikel ;D"
+  date: '2014-04-19T21:09:20.874128'
+- author: maltris
+  content: "Sch\xF6ner Artikel, hat Spa\xDF gemacht zu lesen. Kann mich aber keiner
+    Kategorie wirklich zuordnen. Mache von jedem ein bisschen. :D"
+  date: '2014-04-20T07:31:04.566934'
+- author: Spion
+  content: Systemadministration, ist das ansteckend?!?
+  date: '2014-04-20T10:18:35.255794'
+- author: "Kr\xFCtschi"
+  content: "Ich bin Dienstleister(Hotline) f\xFCr ein gr\xF6sseres Fach-Programm.
+    Wer Wartung hat kann uns anrufen wir helfen. Bereits zwei mal hat sich heraus
+    gestellt, das der Hausmeister zum Administrator wurde. \nBeide male hatte der
+    Ur-Admin gek\xFCndigt. Beide Hausmeister wurden gefragt ob sie sich mit Computer
+    auskennen und beide haben einfach Ja gesagt.\nBeide haben einfach nie etwas am
+    System gemacht. Der eine hat sich beim Verkaufsgespr\xE4ch entlarft. Weil er nie
+    was gesagt hat, sich extrem Vorsichtig gabe und alles von uns erledigt gehabt
+    haben wollte. Er ist offenbar beim Nachfragen welches Server-Betriebssystem eigentlich
+    derzeit l\xE4uft auf die Fressen gefallen.\n\nDer andere ist auf gefallen, weil
+    er es selbst mit Anleitung nur umst\xE4ndlich geschaft hat eine Remotesession
+    ein zu richten und dann nicht mal wusste wie man in Windows ein Netzlaufwerk verbindet
+    und auch die Systemsteuerung nicht gefunden hatte."
+  date: '2014-04-25T15:45:50.832633'
 date: '2014-04-19T16:52:00'
 tags:
 - operations

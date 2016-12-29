@@ -1,4 +1,53 @@
 ---
+comments:
+- author: Clemens
+  content: "C99 sagt zwar, dass argv editierbar ist \u2013 allerdings muss das noch
+    nicht hei\xDFen, dass damit auch die Kommandozeile, die in ps angezeigt wird auch
+    ver\xE4ndert wird. In Linux ist das zwar so implementiert (man bekommt also quasi
+    \xFCber /proc/$pid/cmdline eine Sicht in den Adressraum des Prozesses), andere
+    (POSIX-kompatible) Systeme k\xF6nnten aber durchaus bei jedem execve(2) eine Kopie
+    anlegen und die zur\xFCckgeben. Unter OS X funktioniert das allerdings auch, unter
+    BSD und Linux hast dus vermutlich selbst getestet.\n\nDie sicherste Variante,
+    die die Race-Condition beim Start vermeidet, ist und bleibt aber das Lesen des
+    Passworts von einem Filedeskriptor, wie z.B. bei gpg --passphrase-fd."
+  date: '2014-05-23T23:14:33.352542'
+- author: noqqe
+  content: "Yep, sowas hab ich auch beim Googeln gefunden. Siehe\_http://stackoverflow.com/questions/3830823/hiding-secret-from-command-line-parameter-on-unix.
+    Total gut! Danke!"
+  date: '2014-05-23T23:21:35.819351'
+- author: tux.
+  content: "Und seit wann ist \"f\" ein valider Parameter f\xFCr \"ps\"? Unter OpenBSD
+    jedenfalls ist er das nicht: http://www.openbsd.org/cgi-bin/man.cgi?query=ps\n\nAuch
+    ohne \"f\" zeigt \"ps\" jedenfalls zumindest den Namen des Programms an:\n\nhttps://www.dropbox.com/s/n65ikfx0idde4zw/2014-05-24-004028_1024x768_scrot.png\n\nSch\xF6n,
+    wenn es unter Linux geht, aber UNIX mag das halt nicht.\nTja."
+  date: '2014-05-23T23:50:59.692086'
+- author: noqqe
+  content: muss an dem komischen editor liegen den du da nutzt ;)
+  date: '2014-05-23T23:54:55.581969'
+- author: Vain
+  content: Indeed, again what learned! :)
+  date: '2014-05-24T10:02:16.255188'
+- author: Anonymous
+  content: "nice one!\nAber \"Again what learned\", srsly?! Das ist selbst f\xFCr
+    einen Witz zu schmerzhaft. :("
+  date: '2014-05-24T16:09:30.897238'
+- author: Shogun
+  content: "Passw\xF6rter in der Cmdline sind generell eine schlechte Idee. Entweder
+    sollte, wie schon kommentiert, mit Filedeskriptoren gearbeitet werden oder z.B.
+    das f\xFCr MySQL daf\xFCr vorgesehene Defaults-File verwendet werden."
+  date: '2014-05-25T14:00:27.553601'
+- author: noqqe
+  content: "Das kommt drauf an. Bevor das Passwort 365 Tage im Jahr in einem File
+    steht, \xFCbergeb ichs lieber readline beim Aufruf. Da ists dann nur im Memory
+    und evtl. mal kurz in der Prozessliste. Wohingegen iwelche default-files jeder
+    kennt und einsehen kann."
+  date: '2014-05-26T09:42:57.416607'
+- author: Geier
+  content: '"StackOverflow-Driven-Development" -- nice.'
+  date: '2014-05-26T20:22:21.112065'
+- author: Anonymous
+  content: "Es ist immer wieder erstaunlich was mit C so alles m\xF6glich ist..."
+  date: '2014-05-26T21:16:33.342711'
 date: '2014-05-23T20:14:00'
 tags:
 - ps

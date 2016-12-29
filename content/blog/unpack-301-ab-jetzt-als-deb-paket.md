@@ -1,6 +1,20 @@
 ---
 aliases:
 - /archives/422
+comments:
+- author: Thomas
+  content: "<p>Nicht schlecht Herr Specht, so ein .deb-Paket macht schon ganz sch\xF6n
+    was her finde ich =)</p><p>Ich kann nur nicht ganz nachvollziehen, warum das erst
+    nach der Installation \xFCber das .dep-Paket mit dem \"Tabben\" funktioniert,
+    bei mir geht das auch, wenn ich einfach ein Script in einen Ordner der PATH-Variable
+    lege oder einen alias anlege...</p>"
+  date: '2009-01-11T17:02:35'
+- author: noqqe
+  content: "<p>Okay, danke f\xFCrs Lob erstmal ;)</p><p>Mh, also ... ich hatte das
+    Skript vorher via --autoinstall installiert... und konnte nichts vervollst\xE4ndigen.
+    Aber okay, warscheinlich kam da wieder meine Unf\xE4higkeit ins Spiel :) . Jetzt
+    gehts aufjedenfall :)</p>"
+  date: '2009-01-11T17:16:45'
 date: '2009-01-10T17:43:22'
 slug: unpack-301-ab-jetzt-als-deb-paket
 tags:

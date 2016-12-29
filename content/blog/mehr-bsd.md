@@ -1,4 +1,32 @@
 ---
+comments:
+- author: maltris
+  content: Feini Schweini. Mir ist der "Space"-Teil von Uberspace zu gering, wenn
+    du verstehst.
+  date: '2014-06-19T18:57:58.401043'
+- author: tux.
+  content: "Ich lager' meine Webprojekte meist bei Uberspace, mein \"Spielzeug\" (also
+    alles, wof\xFCr ich mehr als nur 'n WordPress administrieren muss) liegt aber
+    auf einem FreeBSD-Server. Na ja, auf mehreren. OpenBSD ist, zugegeben, interessant
+    geworden, seit nginx da in den Core gewandert ist. Wie ist da die Performance
+    im Vergleich? OpenBSD nutze nur auf einem Laptop bislang, da l\xE4uft nat\xFCrlich
+    kein Serverkram drauf."
+  date: '2014-06-19T23:24:09.228907'
+- author: noqqe
+  content: Du meinst... die 10GB?
+  date: '2014-06-20T14:05:48.924298'
+- author: noqqe
+  content: Zur Performance kann ich nix sagen. Hab das nicht getestet im Vergleich
+    zu FreeBSD.
+  date: '2014-06-20T14:06:53.194924'
+- author: Jan Beck
+  content: "Danke, sehr informativer Artikel. Ich bin bislang noch bei Uberspace habe
+    das aber m\xF6glichst \"dezentralisiert\":\n\n\n- Domains bei INWX registriert\n\n\n-
+    Webserver als eigener Uberspace eingerichtet; DNS A-Records zeigen hierher\n\n\n-
+    Mailsserver als eigener Uberspace eingerichtet; DNS MX-Records zeigen hierher\n\nSo
+    kann ich, falls ich eines Tages den gleichen Schritt gehe wie du, alles einzeln
+    wegziehen und bin weniger \"locked-in\"."
+  date: '2015-07-15T17:47:24.998584'
 date: '2014-06-19T15:20:00'
 tags:
 - openbsd

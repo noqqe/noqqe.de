@@ -1,4 +1,18 @@
 ---
+comments:
+- author: Higgi
+  content: "<p>W\xFCrde ein Nerd es nicht mit gnuplot machen ;)<br>Spa\xDF beiseite.
+    Ich w\xFCrde es glaube ich mit gnuplot angehen. Da bin ich unabh\xE4ngiger von
+    einem Dienst wie Google. Ich wei\xDF allerdings gerade nicht ob Gnuplot auch Tortendiagramme
+    und Balkendiagramme kann. Bisher hab ich nur ganz klassisch x/y manchmal x/y/z
+    aufgetragen.</p>"
+  date: '2012-06-17T18:10:14'
+- author: noqqe
+  content: "<p>Hehe, jop die Argumentation kann ich verstehen. Aber mit Gnuplot hab
+    ich schon gearbeitet, mit Google Charts noch nicht. </p><p>Gnuplot kann Balkendiagramme
+    auch... hab n Template daf\xFCr. Torte hab ich noch nicht probiert, mag ich aber
+    eh nicht wirklich ... ^^</p>"
+  date: '2012-06-18T04:05:35'
 date: '2012-06-16T10:31:00'
 tags:
 - web

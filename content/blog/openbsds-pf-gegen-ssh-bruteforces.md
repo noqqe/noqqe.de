@@ -1,6 +1,17 @@
 ---
 aliases:
 - /blog/2013/06/09/openbsds-pf-gegen-ssh-bruteforces
+comments:
+- author: zralb
+  content: <p>Genau so wird das gemacht! :-)</p>
+  date: '2013-06-09T15:28:57'
+- author: Anonymous
+  content: "Du kannst auch expiretables (Port security/expiretables) daf\xFCr benutzen,
+    das tut das Ganze auch ohne cronjob"
+  date: '2013-11-28T22:30:51.933127'
+- author: noqqe
+  content: ui, nice! das kenn ich garnicht, guter hinweis, danke!
+  date: '2013-11-29T08:29:07.189039'
 date: '2013-06-09T14:55:00'
 tags:
 - bruteforce

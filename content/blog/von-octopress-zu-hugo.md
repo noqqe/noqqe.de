@@ -1,4 +1,29 @@
 ---
+comments:
+- author: Martin
+  content: "Gef\xE4llt mir!"
+  date: '2015-04-01T21:29:27.238207'
+- author: tux.
+  content: "Gesetzt den Fall, dass man Go genauso wenig kann wie Python: Was spricht
+    f\xFCr Hugo statt Pelican?"
+  date: '2015-04-01T22:11:30.401686'
+- author: noqqe
+  content: "Hab ich mir vor ein paar Monaten mal angsehen. Objektiv kann ich aber
+    jetzt keine Vor-/Nachteile vorbringen. Irgendwie sahen mir Codebeispiele und beim
+    Docs durchbl\xE4ttern Hugo sympathischer aus."
+  date: '2015-04-01T22:30:39.169485'
+- author: Alex
+  content: "Noch einfacher / sch\xF6ner als Hugo ist IMHO Kirby (http://getkirby.com/)
+    Kostet allerdings schlappe 15,- Euros..."
+  date: '2015-04-04T17:23:28.206269'
+- author: noqqe
+  content: Aber das ist ja PHP O_o
+  date: '2015-04-11T13:12:37.477396'
+- author: dakira
+  content: "Also PHP bashing is ja auch so'n bisschen 2005 oder? Da hat sich in den
+    letzten 10 Jahren einiges getan. Muss ich mal dr\xFCber bloggen. ;-) (PS: reply
+    notification gibt es nicht, oder?"
+  date: '2015-04-12T18:58:00.843856'
 date: '2015-04-01T18:55:43'
 draft: false
 tags:

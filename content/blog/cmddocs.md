@@ -1,4 +1,31 @@
 ---
+comments:
+- author: dAnjou
+  content: "Du realisierst aber schon, dass du das ganze auch mit einer \xFCberschaubaren
+    Anzahl Aliasen haben k\xF6nntest? Falls du das Tool `tree` nicht kennst, hab ich
+    es dir soeben empfohlen. Und zusammen mit einer besseren Shell wie z.B. zsh sehe
+    ich in diesem Projekt absolut keinen Mehrwert. Kl\xE4re mich auf, falls ich es
+    noch nicht ganz verstanden habe."
+  date: '2015-01-24T20:18:18.947328'
+- author: Martin
+  content: "Der Vorteil einer dedizierten \"Wiki-Shell\" ist z.B. das automatische
+    comitten von \xC4nderungen, z.B. nach `edit Foobar` folgt sofort ein Commit. Nat\xFCrlich
+    l\xE4sst sich das auch mit einem Alias realisieren. Auch das ANSI-Highlighting
+    hast Du mit `cat` nicht direkt ootb."
+  date: '2015-01-25T00:38:13.749454'
+- author: noqqe
+  content: Warum gibt es `htop`. Da gibts die selben Informationen wie in `top`
+  date: '2015-01-25T13:38:14.669727'
+- author: dAnjou
+  content: "Du hast halt ziemlich viel Code geschrieben, den man durch simple Tools,
+    die meistens schon vorinstalliert sind, ersetzen k\xF6nnte."
+  date: '2015-01-30T19:13:15.198285'
+- author: noqqe
+  content: "Das da w\xE4re?"
+  date: '2015-01-31T13:53:54.871927'
+- author: bo
+  content: Ja fett :)
+  date: '2015-02-13T14:02:25.353568'
 date: '2015-01-24T08:23:00'
 tags:
 - development

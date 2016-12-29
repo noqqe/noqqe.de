@@ -1,4 +1,17 @@
 ---
+comments:
+- author: spion
+  content: <p>das ganze mit logger gibts wo? ;)</p>
+  date: '2013-02-17T21:38:48'
+- author: Ranlvor
+  content: "<p>soweit ich wei\xDF kannst du die Schleife, die \xFCber alle Branches
+    iteriert weglassen und daf\xFCr git fetch origin benutzen, das sollte alle Branches
+    laden und mit Namen nach dem Muster origin/&lt;name&gt; verf\xFCgbar machen. Wenn
+    du wirklich alle Branches direkt im Hauptnamespace haben willst kannst du auch
+    einmal mit git fetch origin alle Branches laden und mit git checkout $rbranch;
+    git merge origin/$rbranch die merges durchf\xFChren, dann musst du f\xFCr jedes
+    Repository nur eine SSH Verbindung und nicht eine pro Branch aufbauen.&lt;/name&gt;</p>"
+  date: '2013-02-18T15:12:25'
 date: '2013-02-17T18:14:00'
 tags:
 - git

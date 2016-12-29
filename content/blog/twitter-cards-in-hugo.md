@@ -1,4 +1,12 @@
 ---
+comments:
+- author: Raim
+  content: "Und als n\xE4chstes kommen dann bitte eingebettete Tweets statt Screenshots?
+    ;-)"
+  date: '2016-01-28T12:14:44.168614'
+- author: noqqe
+  content: lol. hat was.
+  date: '2016-01-30T16:39:38.122553'
 date: '2016-01-27T19:12:28'
 tags:
 - blog

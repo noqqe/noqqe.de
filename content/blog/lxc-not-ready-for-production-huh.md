@@ -1,4 +1,45 @@
 ---
+comments:
+- author: Asdf
+  content: "<p>\_Das ist EXAKT das was ich brauche :-D Mal ausprobieren...</p>"
+  date: '2012-05-14T15:50:53'
+- author: noqqe
+  content: "<p>\_Sau gut :) </p>"
+  date: '2012-05-14T17:36:15'
+- author: Silvio Knizek
+  content: "<p>Ich wei\xDF nicht\u2026 ich werde erst auf lxc umstellen, wenn es so
+    einfach wie vServer geworden ist. </p>"
+  date: '2012-05-15T19:07:17'
+- author: noqqe
+  content: "<p>\_Was meinst du mit vServer genau? Xen, vmware ? </p>"
+  date: '2012-05-16T09:45:05'
+- author: Anonym
+  content: "<p>Schau dir mal bitte deinen Post im Ubuntuusers-Planet an, sieht furchtbar
+    aus. W\xE4re gut, wenn du mal schaust, dass du das fixt \u2026</p>"
+  date: '2012-05-17T09:50:09'
+- author: noqqe
+  content: "<p>\_Ich habe an dieser Stelle nichts zu fixen. </p><p>Die XML die Ubuntuusers
+    Planeten Software auswertet ist: <a href=\"http://noqqe.de/ubuntuusers.xml\" rel=\"nofollow\">http://noqqe.de/ubuntuusers.xm...</a>.
+    Die ganzen Formatzeichen sind dort nicht im Code. W\xFCrde die Planetensoftware
+    das alles so auswerten w\xFCrde es wie in allen Readern funktionieren. </p><p>Habe
+    viele Reader getestet: Liferea, tinytinyrss und Goolge Reader. Bei allen verlief
+    der Test problemlos. </p>"
+  date: '2012-05-17T11:19:12'
+- author: noqqe
+  content: "<p>Ich weiss, dass das furchtbar aussieht. Wenn du meinen Feed in allen
+    anderen Feedreader abbonnierst sieht aber alles ganz normal aus. </p><p>Das soll
+    heissen: Ich kann nichts daf\xFCr. Aus dem Feed kommt valides HTML und damit w\xE4re
+    mein teil erledigt. Was das Inyoka von <a href=\"http://ubuntuusers.de\" rel=\"nofollow\">ubuntuusers.de</a>
+    damit macht ist f\xFCr mich nicht \"fixbar\". </p><p>Ich habe allerdings geh\xF6rt
+    das es dazu schon einen Bug im Bugtracker von Inyoka gibt.\_ </p>"
+  date: '2012-05-28T12:46:51'
+- author: Foo
+  content: <p>Arsch! :)</p>
+  date: '2012-05-30T22:32:13'
+- author: Thorsten Reiser
+  content: <p>Die Installer aus der 0.8 sind genial aber die Probleme mit der cgroup
+    failed to rename cgroup /sys/fs/cgroup// sind immer noch da ..... wirklich schade</p>
+  date: '2013-03-18T00:07:11'
 date: '2012-05-14T13:30:00'
 tags:
 - development

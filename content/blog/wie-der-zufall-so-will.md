@@ -1,4 +1,60 @@
 ---
+comments:
+- author: Patrick Kohan
+  content: <p>sehr guter Artikel, hatten das mal behandelt in der Vorlesung Betriebssysteme,
+    mein Vorschlag ist /dev/random oder /dev/urandom auszulesen ;-)</p>
+  date: '2012-12-28T21:47:08'
+- author: dAnjou
+  content: '<p>Du hast leider nicht nur den alt-Text des XKCD-Comics vergessen, sondern
+    auch gleich noch die Lizenz verletzt: <a href="http://xkcd.com/license.html" rel="nofollow">http://xkcd.com/license.html</a></p>'
+  date: '2012-12-28T23:13:29'
+- author: noqqe
+  content: <p>Vielen Dank :) Jupp. Hast ne gute Zeile parat gleich nur Numerische
+    Sachen auszugeben?</p>
+  date: '2012-12-29T08:03:09'
+- author: noqqe
+  content: "<p>Ah. Title != Alt Text. Von Dilbert gab es auch einen Comic der sehr
+    gut gepasst h\xE4tte, aber da konnt ich \xFCberhaupt nicht durchblicken ob man
+    das jetzt darf oder nicht. </p><p>In dem FAQ geht es meistens um \"use in presentations\"
+    usw. Ziemlich komisch. </p><p>Habs jetzt mal noch einen ALT Text hinzugef\xFCgt.</p>"
+  date: '2012-12-29T08:15:07'
+- author: sgolb
+  content: '<p>Je nach Bedarf angepasst, so was: od -An -N2 -i /dev/random</p>'
+  date: '2012-12-29T11:03:20'
+- author: Thomas Gericke
+  content: <p>+1</p>
+  date: '2012-12-29T11:57:08'
+- author: Lorag
+  content: <p>$RANDOM liefert doch aber trotzdem keine Zufallszahlen, auch wenn die
+    statischen Eigenschaften der Werte in Ordnung sind.</p>
+  date: '2012-12-29T13:50:52'
+- author: noqqe
+  content: <p>Ich weiss nicht was du damit versuchst zu sagen. Genauer?</p>
+  date: '2012-12-29T19:10:15'
+- author: Lorag
+  content: "<p>Zufallszahlen zu erzeugen ist f\xFCr Computer normalerweise sehr schwierig,
+    meist bedarf es dazu spezieller Hardware. F\xFCr die meisten Anwendungen behilft
+    man sich daher mit Zahlen, deren Generierung auf einem nicht einsehbaren Ausgangsmuster
+    beruht und deren gleichm\xE4\xDFige H\xE4ufigkeitsverteilung und niedrige Korrelation
+    dem echter Zufallszahlenreihen gleichen. Wenn man sich die Zahl \u03C0 als Zahlenreihe
+    denkt und der Computer auf Tastendruck anfangen w\xFCrde durch die Ziffern zu
+    gehen, w\xFCrde man, wenn der Computer auf einen zweiten Tastendruck stoppt, eine
+    \u201Ezuf\xE4llige\u201C Ziffer zwischen 1 und 9 bekommen. </p><p>Tats\xE4chlich
+    ist diese Zahl aber nicht zuf\xE4llig, sondern nur undurchschaubar. Wer den exakten
+    Abstand zwischen beiden Tastendr\xFCcken kennt und dazu die Geschwindigkeit, mit
+    der der PC rechnet, kann die Zahl bestimmen. Genauso, wie ich das Sample von $RANDOM
+    bestimmen kann, wenn ich den seed kenne \u2013 oder in diesem Fall Zeit und PID.
+    Deshalb spricht man dabei von Pseudozufallszahlen. </p><p>$RANDOM ist ein deterministischer
+    Pseudozufallszahlengenerator. Wenn du RANDOM f\xFCr jeden Durchlauf des Skripts
+    den gleichen Seed gibst, bekommst du exakt dieselben Zufallswerte. Das macht auch
+    nichts, solange man jedes Mal reseedet und den Generator nur f\xFCr triviale Anwendungen
+    ben\xF6tigt. Eine andere L\xF6sung braucht man allerdings, wenn man etwa kryptologisch
+    sichere Zufallszahlen haben will. Da stehen meistens auch keine nicht deterministischen
+    Generatoren zur Verf\xFCgung, weshalb viele Mathematiker an L\xF6sungen gearbeitet
+    haben, die trotzdem kryptologisch sicher sind. </p><p>Unter dem Strich komme ich
+    allerdings zu demselben Ergebnis $RANDOM ist f\xFCr das meiste mehr als ausreichend
+    und hat vor allem den Vorteil, schnell zu sein.</p>"
+  date: '2012-12-30T16:23:20'
 date: '2012-12-28T18:15:00'
 tags:
 - shell

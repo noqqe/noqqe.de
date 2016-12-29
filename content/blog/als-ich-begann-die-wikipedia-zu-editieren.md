@@ -1,4 +1,75 @@
 ---
+comments:
+- author: onli
+  content: "> Wahrscheinlich h\xE4ngt das mit deutscher Gesetzgebung zusammen. Da
+    geht es\nwohl vor, die Organisation zu sch\xFCtzen statt sch\xF6ne Artikel zu
+    haben.\n\nNein, glaub nur das nicht. Die Rechtslage w\xE4re in Deutschland v\xF6llig
+    unproblematisch. Das ist einfach nur die deutsche Wikipedia."
+  date: '2015-10-26T21:02:45.611358'
+- author: Max
+  content: "Die fehlende Relevanz mal wieder ... ich verstehe wirklich nicht warum
+    sich die deutsche Wikipedia immer wieder selbst ins Knie schie\xDFt. Gerade seltene
+    Themen sollten doch auch abgebildet werden, ansonsten hei\xDFt es bald: Wikipedia
+    hat keine Relevanz mehr!"
+  date: '2015-10-27T10:21:43.128237'
+- author: Anonymous
+  content: "Die deutsche WP orientiert sich teilweise an den Qualit\xE4tsanspr\xFCchen
+    der alten deutschen Enzyklop\xE4die. In B\xFCchern hat man ein Platzproblem, auf
+    Wiki Server eher selten und Anf\xE4nger verprellt man durch so hohe Anspr\xFCche
+    beim Entstehen der WP. Diese Erkenntnisse haben sich leider bei der deutschsprachigen
+    WP nicht durchgesetzt."
+  date: '2015-10-27T10:59:36.935077'
+- author: noqqe
+  content: Full-ack!
+  date: '2015-10-27T11:17:12.456387'
+- author: noqqe
+  content: "Sehr schade drum.. ganz ehrlich. Ich habs lieber umfassend und mit Raum
+    f\xFCr Verbesserungen, als garkeine Artikel. \n\nSobald sich jemand die M\xFChe
+    macht einen Artikel zu verfassen, ist er relevant. Zumindest in den meinsten F\xE4llen."
+  date: '2015-10-27T11:25:15.386518'
+- author: Dr. Azrael Tod
+  content: "Das Editier-Zeugs bei Wikipedia funktioniert immer prima, so lange keiner
+    eine ernsthaft andere Meinung hat als du.\nF\xFCr ein Kontrastprogramm empfehle
+    ich mal \"umstrittene\" Artikel zu bearbeiten. Z.B. k\xF6nnte man sich irgendein
+    Eso-Thema suchen und da versuchen in der Einleitung schon darauf hinzuweisen dass
+    es um Hokuspokus-Bullshit geht. (also in der akzeptierten Formulierung al\xE1
+    \"Wirksamkeit kann in Studien nicht nachgewiesen werden, Wirkprinzip widerspricht
+    naturwissenschaftlichen Erkenntnissen\")\n\nDa explodiert dir das System ins Gesicht."
+  date: '2015-10-28T06:53:36.592108'
+- author: Anonymous
+  content: "Nein, das ist Quatsch. Fair Use gibt es in Deutschland schlichtweg nicht,
+    darauf beruft sich die englische Wikipedia aber, wenn sie urheberrechtlich gesch\xFCtzte
+    Logos und Screenshots einbindet. Geh mal auf eine deutsche Uni und du wei\xDFt,
+    wie auch bei offensichtlich wissenschaftliche Zwecke noch alles problematisch
+    ist."
+  date: '2015-10-28T13:03:18.296848'
+- author: Anonymous
+  content: "Grad das entstehen von Artikeln wird halt erschwert. Die deutsche Wikipedia
+    lehnt ja Stubs vollst\xE4ndig ab, also kurze Artikel die nur aus einem Absatz
+    bestehen, der immerhin zur Einordnung und Erg\xE4nzung praktisch w\xE4re.\n\nDas
+    die Wikipedia kein Telefonbuch werden soll, in dem jede Firma ihren Platz findet
+    verstehe ich ja, aber meistens f\xFChrt man L\xF6schdiskussionen bei bekannter
+    freier Software oder sogar Fernsehsendungen. Eigentlich sollte es Maluspunkte
+    f\xFCr jeden unbegr\xFCndeten und ungerechtfertigten L\xF6schantrag geben."
+  date: '2015-10-28T13:07:30.199991'
+- author: Anonymous
+  content: "Wikipedia ist auch eine wirre Struktur aus Hierarchie, in der man sich
+    hochschlafen kann und l\xE4ngerem Atem."
+  date: '2015-10-28T13:08:55.594967'
+- author: Anonymous
+  content: "Ironischerweise sind ja gerade in der deutschen Wikipedia die Quellenangaben
+    sp\xE4rlich und gerade mal ausreichend den Artikel zu begr\xFCnden, f\xFCr weitere
+    Recherche oder so aber kaum brauchbar."
+  date: '2015-10-28T13:09:56.841563'
+- author: marvin
+  content: "genau die gleiche erfahrung gemacht. ich hatte den antrieb serien beitr\xE4ge
+    mit trivia ein wenig aufzuf\xFCllen. fand ich halt interessant. selbst wenn die
+    quelle der autor der serie war, wurden meine \xE4nderungen immer wieder gel\xF6scht.
+    irgendwann l\xE4sst man es dann einfach."
+  date: '2015-10-30T11:28:51.029514'
+- author: Anonymous
+  content: "Wurde ja inzwischen gel\xF6scht schade D:"
+  date: '2016-02-01T19:57:44.804276'
 date: '2015-10-26T19:30:40'
 tags:
 - wiki

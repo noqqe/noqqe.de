@@ -1,6 +1,10 @@
 ---
 aliases:
 - /archives/55
+comments:
+- author: noqqe
+  content: '...'
+  date: '2016-01-13T13:35:47.684528'
 date: '2008-05-13T09:12:06'
 slug: eeepc-urlaubstuchtig-media-tauglich-machen
 tags:

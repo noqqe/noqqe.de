@@ -2,6 +2,10 @@
 aliases:
 - /archives/502
 - /blog/2009/02/23/noqqe.de-relaunch-des-blogs/
+comments:
+- author: Ricarda
+  content: "<p>Dann herzlichen Gl\xFCckwunsch zur neu gewonnenen Freiheit!</p>"
+  date: '2009-03-06T16:39:44'
 date: '2009-02-23T15:06:57'
 slug: noqqede-relaunch-des-blogs
 tags:

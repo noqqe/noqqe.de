@@ -1,4 +1,47 @@
 ---
+comments:
+- author: Moellus
+  content: <p>kuhl!</p>
+  date: '2013-06-02T18:01:29'
+- author: noqqe
+  content: <p>Danke! :)</p>
+  date: '2013-06-02T18:27:06'
+- author: Maik
+  content: <p>Vorsicht mit dem Teil, das haette mich mal fast meinen Job gekostet.
+    Mit kleinen Test-Cases sieht alles supertoll aus, aber sobald es dann mal um Real-World-Datenbanken
+    geht, stirbt der Cluster schneller an Inkonsistenzen als du Backup schreien kannst.
+    ;)</p><p>Passt aber mittlerweile gut in mein Bild ueber diese ganze Percona-MySQL-Abklatsch-Welt.
+    Die netten Damen und Herren von Percona sind naemlich keinen Deut besser als die
+    von Oracle. Ziel ist es, Enterprise zu verkaufen - im Fall von Percona in Form
+    von Installationen, Schulungen, Support, etc.. Das heisst natuerlich auch, wenn
+    das Produkt kurzfristig gut aussieht, langfristig aber sich selbst immer beschissener
+    kaputtfunktioniert, dann gibt das viele Kunden die maechtig Schotter bringen..</p>
+  date: '2013-06-07T16:33:36'
+- author: noqqe
+  content: "<p>Mh, das muss man auch erstmal wirken lassen. Hast du das technisch
+    irgendwie dokumentiert? </p><p>W\xFCrde ich mir gerne mal ansehen.</p>"
+  date: '2013-06-09T15:15:35'
+- author: Maik
+  content: "<p>War im Rahmen meiner Forschungsarbeit f\xFCr meinen Arbeitgeber, also
+    kann dir nich soo viel Details geben.. Aber nur so als Tipp: 20 - 30 GB an Daten
+    in MySQL pumpen und dann 400QPS mit &lt;20% Write Access(das schafft ein kleiner
+    Solo- oder Master/Slave-Server *locker*) und die Probleme fangen meist schon an
+    .. Das ganze kommt langsam und schleichtend und man bekommt es erst gar nicht
+    mit. Und wenn man dann merkt, dass etwas nicht stimmt, ist es leider fast schon
+    zu sp\xE4t... </p><p>Deshalb lieber mal mit etwas gr\xF6\xDFeren real-world-Datensets
+    testen und mit einem CPU-reichen VPS nochmal ein dickes sysbench - vorzugsweise
+    mit TPC-C \xE4hnlichem behaviour - auf die DB losjagen, bevor man loslegt. :)</p>"
+  date: '2013-06-09T15:26:01'
+- author: noqqe
+  content: "<p>Mh vielleicht mach ich das auch noch ;) <br>Danke f\xFCr den Tipp!</p>"
+  date: '2013-06-09T17:26:17'
+- author: Thomas
+  content: "<p>Ich habe damit eigentlich nur gute Erfahrungen gemacht. Beim Schreiben
+    sollte man nicht zu sehr skalieren. Die st\xE4rken lliegen eher beim lesen. Man
+    will glb als lb von den Codership Leuten nutzen, jedenfalls meiner Meinung nach.
+    Multimaster ist super und mit etwas Planung ist Galera genau das was man im DB
+    Bereich haben will...meiner Meinung nach ;-).</p>"
+  date: '2013-06-09T21:34:16'
 date: '2013-06-02T17:45:00'
 tags:
 - galera

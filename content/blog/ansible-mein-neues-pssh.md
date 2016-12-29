@@ -1,4 +1,9 @@
 ---
+comments:
+- author: marvin
+  content: ich werde auch jeden tag mehr und mehr fan von ansible. gibt da soviel
+    zu entdecken und soviele anwendungszwecke.
+  date: '2015-07-13T11:42:32.819846'
 date: '2015-07-12T18:47:14'
 tags:
 - development

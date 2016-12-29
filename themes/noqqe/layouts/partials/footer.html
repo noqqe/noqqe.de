@@ -3,7 +3,7 @@
           <h4>Comments ({{ .Params.comments | len }})</h4>
         {{ range .Params.comments }}
           <div class="comment">
-            <div class="itemdetails"><b>{{ .author }}</b> on {{ .date.Format "2006-01-02" }}</div>
+            <div class="itemdetails"><b>{{ .author }}</b> on {{ .date }}</div>
             <div>{{ .content }}</div>
             <br/>
           </div>

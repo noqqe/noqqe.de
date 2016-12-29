@@ -1,4 +1,19 @@
 ---
+comments:
+- author: tux.
+  content: 'Buuuuh! Linux!
+
+    Aber den Paketmanager mag ich. Wobei: Ist der nicht eigentlich portabel?'
+  date: '2015-09-05T14:42:35.777475'
+- author: noqqe
+  content: Das ist er.
+  date: '2015-09-05T15:07:44.041639'
+- author: Marcus
+  content: "Coole Sache, Ich nutze seit einiger Zeit Guix, das ist sehr \xE4hnlich."
+  date: '2015-09-05T23:04:04.947950'
+- author: makefu
+  content: "Ger\xFCchten zufolge l\xE4uft nix auch auf Windows"
+  date: '2015-09-05T23:32:36.089159'
 date: '2015-09-05T11:55:46'
 tags:
 - code

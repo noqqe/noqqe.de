@@ -3,6 +3,92 @@ aliases:
 - /blog/2013/02/15/wenn-etwas-gross-wird-und-du-merkst-du-hast-gefailed/
 - /blog/2013/02/15/wenn-etwas-gro%C3%9F-wird-und-du-merkst-du-hast-gefailed./
 - /blog/2013/02/15/wenn-etwas-gro%C3%9F-wird-und-du-merkst-du-hast-gefailed/
+comments:
+- author: Thomas Do
+  content: <p>All of old.<br>Nothing else ever. </p><p>Ever tried. </p><p>Ever failed.
+    </p><p>No matter. </p><p>Try again. </p><p>Fail again. </p><p>Fail better.</p><p>Samuel
+    Beckett, Worstward Ho</p>
+  date: '2013-02-15T14:40:14'
+- author: spion
+  content: <p>wie waere folgendes:</p><p>Du baust eine alternative Funktion, die das
+    Ganze in Unix-Epoch realisiert und migrierst dann deine Datenbank? ;)</p>
+  date: '2013-02-15T15:26:17'
+- author: noqqe
+  content: "<p>Right, das ginge. </p><p>Problem ist jedoch, dass ich jegliche Kalkulation
+    von zeitlichen Values ins Backend also die Datenbank ausgelagert habe. Daten werden
+    w\xE4hrend des SQL Querys bereits so modifiziert wie ich sie in der PHP Anwendung
+    brauche. So kann ich Fehler fr\xFCh abfangen. </p><p>Ich m\xFCsste also bei so
+    einem Umzug _alle_ Queries und alle Graphen/Charts anpassen und umbauen. </p><p>Das
+    m\xF6chte ich nicht! :P</p>"
+  date: '2013-02-15T17:35:14'
+- author: spion
+  content: <p>naja ... einen tot wirst du wohl sterben muessen .... nichts destotrotz
+    solltest du so oder so deine zeitstempel pruefen, bevor du sie in die datenbank
+    tackerst ;)</p>
+  date: '2013-02-15T17:53:28'
+- author: noqqe
+  content: <p>Wer sagt denn das ich sie nicht validiere? :) Genau diese Mechanismen
+    umzubauen will ich mir ja ersparen.</p>
+  date: '2013-02-15T17:57:30'
+- author: ChristophLSA
+  content: "<p>Wieso l\xE4sst du den User bei der Registrierung nicht einstellen,
+    in welcher Zeitzone er lebt? Ggf. kannst du bei jeder neuen Angabe der zugenommenen
+    Menge das Feld auch einbauen (falls man wirklich gerade wo anders ist). Wenn du
+    dann erreichst, dass die bestehenden User die timezone updaten, dann kannst du
+    die alten Daten ja fixen, denn wie ich sehe hast du die Userids mitabgespeichert.
+    ;)</p>"
+  date: '2013-02-15T18:06:48'
+- author: noqqe
+  content: "<p>Coole Idee, aber folgende Punkte daran find ich nicht so prall:</p><p>*
+    Unn\xF6tige Verkomplizierung der Bedienung der Site f\xFCr den User<br>* \xC4nderung
+    im DB Schema daf\xFCr n\xF6tig<br>* Ich muss jeden Timestamp erst umrechnen in
+    der Anwendung um vereinheitlichbare  werte f\xFCr die Graphen zu haben. <br>*
+    Ich kann bestehende User nicht dazu zwischen ihre Zeitzone einzustellen :)</p><p>Mit
+    dem JS kommt automatisch die richtige Zeit f\xFCr den User und f\xFCr mich an.
+    Und niemand muss ich darum wirklich k\xFCmmern (au\xDFer ich beim JS schreiben
+    kurz mal...) Keine DB Schema Anpassung und kein herumgerechne.</p>"
+  date: '2013-02-16T08:48:24'
+- author: noqqe
+  content: <p>Sehr geil :)</p>
+  date: '2013-02-16T20:50:11'
+- author: spion
+  content: <p>fauli!</p>
+  date: '2013-02-17T21:38:30'
+- author: Maik
+  content: <p>Uebrigens geht auch das Captcha bei der Registrierung nicht. Scheint
+    auf irgendeine Nicht-SSL-Ressource zuzugreifen ;)</p>
+  date: '2013-02-19T16:56:40'
+- author: Maik
+  content: <p>Das momentane JavaScript auf der Seite ist uebrigens immernoch leicht
+    problematisch. Geht der User auf die Update-Seite, laesst sie ein paar Stunden
+    offen und klickt erst dann auf update, ist d immernoch das Datum vom Aufruf der
+    Seite, nicht vom Klick auf den Absenden-Button. Hatte ich vorhin. Hat mich arg
+    verwirrt. ;)</p><p>Kann man damit beheben, indem man die Zeile mit "d=new Date()"
+    in die AddPostData-Funktion schiebt. :)</p>
+  date: '2013-02-20T14:54:41'
+- author: mike
+  content: '<p>Auf gleichen Fehler wollte ich auch hinweisen. Aber das hat Maik ja
+    schon getan.</p><p>Weiterhin: Ich finde das Projekt Klasse. :-)</p><p>moikmoikmoik</p>'
+  date: '2013-02-21T10:02:58'
+- author: noqqe
+  content: "<p>Danke f\xFCr die Tipps und das Lob :) </p><p>Ich werd das fixen. Glaub
+    der Javascript Hint ist gut :)</p>"
+  date: '2013-02-21T11:04:47'
+- author: noqqe
+  content: <p>Mal schauen ob ich die ReCaptcha Library dazu bringe ssl Content von
+    Google zu laden :)</p>
+  date: '2013-02-21T11:05:23'
+- author: Sebastian Gaul
+  content: '<p>Einfacher ist manchmal einfacher: Warum nicht einfach anonym melden
+    lassen?</p>'
+  date: '2013-02-23T11:10:54'
+- author: noqqe
+  content: <p>Ich verstehe nicht was du meinst</p>
+  date: '2013-02-23T11:31:28'
+- author: Sebastian Gaul
+  content: "<p>Na dass Besucher ohne Registrierung und Anmeldung auf einen dicken
+    Button \"Hatte nen Kaffee\" dr\xFCcken k\xF6nnen. Oder so \xE4hnlich.</p>"
+  date: '2013-03-04T21:28:56'
 date: '2013-02-15T11:15:00'
 tags:
 - development

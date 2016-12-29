@@ -1,4 +1,14 @@
 ---
+comments:
+- author: tatonka
+  content: "Hi, \nwie hast du den OpenSMTPd auf Debian Jessie installiert bekommen?
+    Momentan scheint er nur auf testing am Start zu sein, und in den Backports isser
+    auch nicht. :("
+  date: '2015-07-07T13:55:15.776253'
+- author: Anonymous
+  content: Ich bekomme immer wieder 550 Invalid recipient. Gibt es dabei noch etwas
+    zu beachten?
+  date: '2016-08-16T22:22:15.113815'
 date: '2014-05-29T09:24:00'
 tags:
 - jessie

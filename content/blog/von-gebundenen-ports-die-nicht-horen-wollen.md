@@ -1,6 +1,20 @@
 ---
 aliases:
 - /blog/2014/11/27/von-gebundenen-ports-die-nicht-h%C3%B6ren-wollen/
+comments:
+- author: "Rainer M\xFCller"
+  content: "Interessant, unter OS X 10.10 Yosemite wird mir so ein Port \xFCbrigens
+    als CLOSED angezeigt. Getestet hab ich das mit einem Einzeiler in Python.\n\n<pre>\n$
+    python -c 'import socket; s = socket.socket(socket.AF_INET, socket.SOCK_STREAM);
+    s.bind((\"\", 8888)); raw_input();'\n\n$ lsof -i -n -P |grep 8888\nPython    97609
+    raimue    3u  IPv4 0x9efe4c51c483d339      0t0  TCP *:8888 (CLOSED)\n</pre>\n\nUnter
+    Linux kann ich das Problem auch nachvollziehen, ich seh allerdings noch nicht
+    mal irgendwas mit \"identify\" im lsof. Eine L\xF6sung kenn ich demnach also auch
+    nicht."
+  date: '2014-11-27T22:49:25.114504'
+- author: noqqe
+  content: Mh, CLOSED macht auf jedenfall mehr sinn als garnichts. Danke!
+  date: '2014-11-28T13:23:40.156244'
 date: '2014-11-27T19:45:00'
 tags:
 - suse

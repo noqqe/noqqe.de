@@ -1,6 +1,15 @@
 ---
 aliases:
 - /blog/2013/09/03/statistical-und-showterm-dot-io
+comments:
+- author: Martin
+  content: <p><a href="http://Showterm.io" rel="nofollow">Showterm.io</a> ist zudem
+    auch noch <a href="https://github.com/ConradIrwin/showterm.io" rel="nofollow">quelloffen</a>
+    :)</p>
+  date: '2013-09-03T22:21:44'
+- author: noqqe
+  content: <p>Yay!</p>
+  date: '2013-09-05T05:43:59'
 date: '2013-09-03T19:20:00'
 tags:
 - recording

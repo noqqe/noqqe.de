@@ -1,6 +1,13 @@
 ---
 aliases:
 - /archives/21
+comments:
+- author: Anonymous
+  content: test
+  date: '2014-10-13T16:19:29.691060'
+- author: Anonymous
+  content: test
+  date: '2014-11-03T21:37:42.181446'
 date: '2008-04-04T09:56:52'
 slug: linux-befehle-buch
 tags:

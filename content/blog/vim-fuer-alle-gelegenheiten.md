@@ -1,4 +1,40 @@
 ---
+comments:
+- author: tux.
+  content: "Hab' ich eigentlich schon mal die prima Voreinstellungen von Emacs gew\xFCrdigt?
+    ;-)"
+  date: '2015-10-09T21:02:47.290991'
+- author: Jochen
+  content: "Bin seit einiger Zeit auch etwas tiefer in die vim-markdown-Sache \neingetaucht
+    und stelle immer wieder erstaunt fest was vim doch f\xFCr ein \nVieh von Editor
+    ist ;-)\n\nWeitere Anregungen und weiterf\xFChrende Links finden sich auf der
+    [Vim for Writers](http://naperwrimo.org/wiki/index.php?title=Vim_for_Writers)
+    Seite. Und falls die markdown-Files mal Tabellen enthalten sollten kommt man mit
+    dem Plugin 'dhruvasagar/vim-table-mode' voll auf seine Kosten ;-)"
+  date: '2015-10-10T01:44:25.414993'
+- author: noqqe
+  content: nein, aber mach mal!
+  date: '2015-10-12T09:19:29.279169'
+- author: noqqe
+  content: sehr sehr geiler Tipp! Viel raus gezogen!
+  date: '2015-10-16T10:45:28.716977'
+- author: Jochen
+  content: Gern geschehen
+  date: '2015-10-17T13:47:17.250640'
+- author: marvin
+  content: 'mal wieder eine riesen inspiration... wie so oft in dem blog. gerade bei
+    staticsitegeneretators macht es sinn vim maximal aufzubohren. was ich bis jetzt
+    nicht geschafft habe: bei markdown automatisch goyo zu aktivieren.'
+  date: '2015-10-22T09:04:08.808078'
+- author: noqqe
+  content: 'oh danke :) Freut mich!
+
+
+    Ich habe meine vim config mittlerweile auf github
+
+
+    https://github.com/noqqe/vim'
+  date: '2015-10-22T09:38:00.688204'
 date: '2015-10-09T14:29:14'
 tags:
 - development

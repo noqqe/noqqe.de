@@ -1,4 +1,13 @@
 ---
+comments:
+- author: Stefan
+  content: 1s/^Ich bei/Bei/g LG Stefan
+  date: '2016-10-27T17:10:39.577637'
+- author: Anonymous
+  content: "Vielleicht ist DN42.net f\xFCr dich interessant, ein privates Netz f\xFCr
+    Leute die BGP nicht in einem \xF6ffentlichen Netz testen wollen oder k\xF6nnen.\n\nDas
+    Wiki dort ist ausf\xFChrlich was Konfiguration der einzelnen BGPd's angeht."
+  date: '2016-10-31T16:19:01.773276'
 date: '2016-10-27T13:32:00'
 tags:
 - openbsd

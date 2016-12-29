@@ -1,4 +1,35 @@
 ---
+comments:
+- author: Michael
+  content: "Ich mache momentan auch unter MacOS rum. Hast Du eine Alternative f\xFCr
+    den Finder? Irgendwas Richtung Nautilus fehlt mir wirklich sehr auf dem System."
+  date: '2015-05-08T19:49:36.740159'
+- author: Martin
+  content: "Meine Zeit mit OS X ist schon etwas l\xE4nger her, aber ich habe [TotalFinder](http://totalfinder.binaryage.com/)
+    ganz gern genutzt."
+  date: '2015-05-08T21:45:00.460097'
+- author: Christian M. Grube
+  content: "Newsbeuter und URLs anklicken.\nIch habe daf\xFCr  https://github.com/muennich/urxvt-perls/blob/master/url-select"
+  date: '2015-05-08T23:45:04.052122'
+- author: Normy
+  content: "Freiwillig (Nazi-)Apple und dessen \xFCberteuerten Hardwareschrott benutzen
+    ? Tolle Leistung. Nicht. Apple-J\xFCnger sollten sich sch\xE4men."
+  date: '2015-05-09T12:16:25.071279'
+- author: noqqe
+  content: Das ist lustig, weil du einen Hitlervergleich gemacht hast. Du darfst gerne
+    andere Blogs lesen.
+  date: '2015-05-09T12:35:34.234694'
+- author: fara
+  content: 'Oder ForkLift. Obwohl ich mit dem Finder recht zufrieden bin, was fehlt
+    dir denn daran?
+
+    http://www.binarynights.com/forklift/'
+  date: '2015-05-12T14:41:30.645222'
+- author: Anonymous
+  content: "Jeder kann nutzen, was er will. Da du hier gleich eine ganze Nutzergruppe
+    ungefragt und ungest\xF6rt verurteilst, bist du wohl der bessere Nazi. Wenn du
+    schon auf den Vergleich stehst."
+  date: '2015-05-13T14:20:07.754758'
 date: '2015-05-08T16:25:17'
 tags:
 - osx

@@ -1,4 +1,18 @@
 ---
+comments:
+- author: zogan
+  content: "Scrum ist nicht esoterisch, sondern eher best-practice\u2122. Und ganz
+    dumm ist die Idee des Planning-Poker nicht, zumindest _wenn_ man aufgrund von
+    Projektleitungsbissnessfoo gezwungen ist, Sch\xE4tzungen abzugeben. Erschlie\xDFt
+    sich einem aber auch erst, wenn man mal Software in gr\xF6\xDFeren Teams entwickelt."
+  date: '2014-02-10T16:46:58.705967'
+- author: noqqe
+  content: "\"Sehr tolles Prinzip.\" - H\xF6rt sich zwar ironisch gemeint an, wars
+    in dem Fall aber garnicht :) \n\nDas meinte ich zur Abwechslung mal ernst ;) Sorry"
+  date: '2014-02-10T16:56:17.040586'
+- author: zogan
+  content: Oh. :-)
+  date: '2014-02-15T14:33:46.672552'
 date: '2014-02-01T15:50:00'
 tags:
 - development

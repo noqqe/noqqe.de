@@ -2,6 +2,10 @@
 aliases:
 - /blog/2010/02/15/offtopic-endlich-mal-ein-schoner-ascii-art-generator
 - /archives/884
+comments:
+- author: Anonymous
+  content: cool :)
+  date: '2014-02-18T13:57:34.207429'
 date: '2010-02-15T06:39:42'
 tags:
 - development

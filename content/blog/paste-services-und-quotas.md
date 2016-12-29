@@ -1,4 +1,14 @@
 ---
+comments:
+- author: Marius
+  content: "Du hast eine Portumleitung gebaut, die f\xFCr Android 3.2 nicht geht,
+    weil dein SSL Zert Anbieter nicht mehr im normalen Zertifikate Storage von Android
+    3.2 ist. \n\nso k\xF6nnte man das Problem f\xFCr User umgehen : \n\nRewriteCond
+    %{HTTP_HOST} .*<DEINDOMAINNAME>\nRewriteCond %{SERVER_PORT}   !^443$\nRewriteCond
+    %{HTTP_USER_AGENT} !.*Android.3\\.2.*\nRewriteRule  (.*)  https://%{HTTP_HOST}/$1
+    \  [L] \n\nHabe ich bei mir auch machen m\xFCssen, weil mein Tablet mein Blog
+    nicht mehr lesen wollte."
+  date: '2016-09-17T09:44:40.608024'
 date: '2016-09-15T09:23:11'
 tags:
 - openbsd

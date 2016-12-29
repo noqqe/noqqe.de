@@ -1,4 +1,27 @@
 ---
+comments:
+- author: faheus
+  content: wow, such read, very crypto, amaze
+  date: '2014-01-03T21:29:11.496623'
+- author: noqqe
+  content: "Achja, wichtig ist noch, dass der gew\xE4hlte Publickey immer kleiner
+    als p*q (also max) sein muss. "
+  date: '2014-01-04T18:36:50.851435'
+- author: onli
+  content: "Vll interessiert dich das: Habe das vor Jahren auch mal in Bash (mit bc)
+    gemacht. Nat\xFCrlich genauso wenig nutzbar, aber ein kleines bisschen kompletter,
+    wenn ich das richtig sehe: \nhttps://gist.github.com/onli/8320277"
+  date: '2014-01-08T18:10:55.285556'
+- author: noqqe
+  content: yeah! richtig nice und wesentlich kompletter! total gut!
+  date: '2014-01-08T18:32:12.456048'
+- author: onli
+  content: "Danke :)\n\nMuss zugeben, ich finds selbst lustig, was mein damaliges
+    Ich da gebaut hat - die richtige Mischung aus total f\xFCrchterlich (alleine die
+    bescheuerte Grundidee, das f\xFCr ne ernsthafte Abgabe in Bash zu machen) und
+    dann doch irgendwo clevere Umsetzung, die ich heute noch mag. Muss mich richtig
+    gereizt haben."
+  date: '2014-01-08T18:38:23.110133'
 date: '2014-01-03T19:14:00'
 tags:
 - development

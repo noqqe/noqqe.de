@@ -1,4 +1,19 @@
 ---
+comments:
+- author: Anaximander
+  content: "<p>B\xF6se Zungen k\xF6nnten jetzt behaupten, dass das Discard Protocol
+    beim Support mancher Unternehmen immer noch t\xE4glich genutzt wird. ;-)</p><p>Das
+    Echo Protocol auf Port 9 k\xF6nnte man auch noch nennen. Es macht genau das was
+    man vermutet. Es sendet einfach das zur\xFCck was man hinschickt.</p>"
+  date: '2013-05-07T11:09:29'
+- author: noqqe
+  content: <p>hehe, like!</p>
+  date: '2013-05-07T14:53:12'
+- author: Freiheit
+  content: "<p>Bei einigen Unternehmen muss es da noch ein mir unbekanntes Protokoll
+    geben. Dies senden einen Standardtext auf eine Beschwerde zur\xFCck, welches nichts
+    mit dem Problem zu tun hat. ;-)</p>"
+  date: '2013-05-08T09:36:24'
 date: '2013-05-06T18:11:00'
 tags:
 - openbsd

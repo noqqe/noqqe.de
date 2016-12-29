@@ -1,4 +1,14 @@
 ---
+comments:
+- author: daniel
+  content: "Coole Sache, zumal man durch die statischen Inhalte sich nicht st\xE4ndig
+    um irgendwelche Plugin-Updates k\xFCmmern muss.\n\nHatte mal nanoc und octopress
+    in Benutzung, fand nur die Adaption recht m\xFChselig und zeit intensiv. Daher
+    ist es sch\xF6n, dass du das alles dokumentierst."
+  date: '2015-04-11T19:24:31.602652'
+- author: noqqe
+  content: Gerne! :)
+  date: '2015-04-14T16:03:31.516375'
 date: '2015-04-11T13:09:53'
 tags:
 - development

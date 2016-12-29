@@ -1,4 +1,39 @@
 ---
+comments:
+- author: killermoehre
+  content: "<p>Zur besseren Lastverteilung k\xF6nntest du noch <a href=\"http://cdn.debian.net\"
+    rel=\"nofollow\">cdn.debian.net</a> als Paketquelle eintragen, das Content Delivering
+    Network von Debian.</p>"
+  date: '2013-08-31T18:33:40'
+- author: Martin
+  content: <p></p><pre>pip install https://github.com/rodjek/puppet-pygments-lexer/archive/master.zip<br>pbpaste
+    | pygmentize -l puppet -f terminal -g /dev/stdin<br></pre><p></p><p>SCNR ;)</p>
+  date: '2013-08-31T19:14:36'
+- author: noqqe
+  content: <p>Du bist so gut zu mir ;D</p>
+  date: '2013-09-01T11:24:05'
+- author: noqqe
+  content: "<p>Ich war der Meinung der routed einen nur Location-Based zum n\xE4chstm\xF6glichen
+    Mirror. Nicht Last-Bezogen.</p>"
+  date: '2013-09-01T11:24:54'
+- author: Michael
+  content: "<p>apt-cacher-ng (siehe auch Wiki bei <a href=\"http://ubuntuusers.de\"
+    rel=\"nofollow\">ubuntuusers.de</a>) setze ich hier ebenfalls ein, damit sich
+    meine 4-5 Ubuntu-Computer im Haushalt m\xF6glichst viele Updates teilen. Funktioniert
+    alles gut, einzig f\xFCr die mobilen Ger\xE4te m\xFCsste ich mal ein kleines Skript
+    schreiben, damit sie sich direkt mit den Servern verbinden, wenn sie ausser Hause
+    sind...</p>"
+  date: '2013-09-03T07:18:42'
+- author: senden9
+  content: <p>"apt-cacher-ng" kannte ich schon. Das Thema Puppet/Massenkonfiguration
+    welches du kurz angerissen hast finde ich allerdings interessant.</p>
+  date: '2013-09-07T17:41:52'
+- author: MKzero
+  content: "Man kann, wenn man eh schon einen Proxy braucht(weil man z.B. keine direktes
+    Routing ins Internet hat) auch einfach einen Squid o.\xE4. betreiben. Der kann
+    entsprechend Cachen und die Clients brauchen auch nur die Proxy-Config f\xFCr
+    Apt. "
+  date: '2014-01-09T23:31:53.206764'
 date: '2013-08-31T17:01:00'
 tags:
 - linux

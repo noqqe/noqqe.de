@@ -1,6 +1,35 @@
 ---
 aliases:
 - /blog/2012/08/12/trennung-vom-bash-it-framework-koche-nun-eigenes-s%C3%BCppchen/
+comments:
+- author: Martin
+  content: "<p>5 Sekunden zum Prompt ist ja *noch* langsamer als oh-my-zsh mit ~2
+    Sekunden + Bedenkzeit je Tab-Anschlag (unter FDE).</p><p>Gab es jemals die Intention,
+    alle plugins lazy zu machen? [1] finde ich ziemlich geil. Gerade noch vertretbare
+    0.45 Sekunden f\xFCr die Bash ;)</p><p>[1]: <a href=\"http://fahdshariff.blogspot.de/2011/09/speeding-up-bash-profile-load-time.html\"
+    rel=\"nofollow\">http://fahdshariff.blogspot.de...</a></p><p></p>"
+  date: '2012-08-12T20:00:42'
+- author: Andreas
+  content: "<p>Ich kann dich verstehen, geht mir auch so. Mit SSD geht wenigstens
+    der Prompt etwas schneller, aber bei gro\xDFen SVN oder GIT-Archiven dauert das
+    wechseln in ein Verzeichnis unglaublich lange (&gt;10 sec)</p>"
+  date: '2012-08-12T20:44:04'
+- author: noqqe
+  content: "<p>Ok, 5 Sekunden sind auch etwas \xFCbertrieben gewesen. Aber es f\xFChlt
+    sich eben an wie eine kleine Ewigkeit :)</p><p>Dieses <a href=\"http://dnycomp.sh\"
+    rel=\"nofollow\">dnycomp.sh</a> ist ja geiler Scheiss. Schau ich mir heut Abend
+    mal an. Danke!</p>"
+  date: '2012-08-13T07:55:52'
+- author: Martin
+  content: "<p>Leider hat der Entwickler sich inzwischen von der bash abgewandt und
+    das Repository gel\xF6scht... und <a href=\"http://dyncomp.sh\" rel=\"nofollow\">dyncomp.sh</a>
+    hat noch ein paar merkw\xFCrdige Bugs, die ich nicht so ganz zu fixen wei\xDF.
+    So funktionieren nur ~80% aller completions, `rsync` oder `hub` geh\xF6ren nicht
+    dazu.</p>"
+  date: '2012-09-30T11:54:36'
+- author: noqqe
+  content: "<p>Ach, und ich dachte ich w\xE4re zu bl\xF6de :) </p>"
+  date: '2012-09-30T16:37:33'
 date: '2012-08-12T18:12:00'
 tags:
 - development

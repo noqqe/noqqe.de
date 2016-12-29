@@ -1,4 +1,17 @@
 ---
+comments:
+- author: F30
+  content: "<p>Interessanter Einsatz von LXC, aber ansich ja falsch herum: Wenn du
+    dir auf dem Host \"was einf\xE4ngst\", kann das prinzipiell auch den Container
+    berinflussen.<br>Zus\xE4tzliche H\xFCrden setzt es nat\xFCrlich \u2013 ist dann
+    letztlich wieder die Frage, ob du dich vor 0815-Malware oder gezielten Angriffen
+    sch\xFCtzen willst.</p>"
+  date: '2013-11-08T19:49:12'
+- author: noqqe
+  content: "<p>Ja, es ist keine dedizierte Maschine, klaro. Im Rahmen der M\xF6glichkeiten
+    ohne es unn\xF6tig kompliziert machen zu m\xFCssen \"Ich fahr dann mal kurz ins
+    RZ, was \xFCberweisen!\" gibts mir aber doch ein besseres Gef\xFChl.</p>"
+  date: '2013-11-08T19:53:34'
 date: '2013-11-08T16:00:00'
 tags:
 - onlinebanking

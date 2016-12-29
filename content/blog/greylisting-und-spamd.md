@@ -1,4 +1,18 @@
 ---
+comments:
+- author: Raim
+  content: "Bei Postgrey, dem greylisting policy daemon f\xFCr Postfix, ist \xFCbrigens
+    eine Liste mit solchen MX-Adressen dabei, bei denen Greylisting nicht funktioniert.
+    Paypal ist da allerdings auch nicht dabei:\nhttps://github.com/schweikert/postgrey/blob/master/postgrey_whitelist_clients\n\nSehr
+    viel Spam wird man \xFCbrigens schon los, wenn man einfach nur pr\xFCft, ob im
+    HELO/EHLO ein valider FQDN steht, der auch zur entsprechenden IP der Verbindung
+    aufl\xF6st."
+  date: '2016-10-23T18:04:04.070073'
+- author: noqqe
+  content: "Hey, guter Hinweis mit der Postgrey Liste. Mal durchschauen ob was dabei
+    ist. \nEvtl ist mir die Bald nuetzlich. \n\nDas mit dem valid HELO/EHLO stimmt.
+    Leider gibts dazu noch keine Moeglichkeit das in OpenSMTPD zu verifizieren :("
+  date: '2016-10-25T21:57:44.974017'
 date: '2016-10-23T14:34:04'
 tags:
 - openbsd

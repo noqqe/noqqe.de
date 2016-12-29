@@ -1,4 +1,9 @@
 ---
+comments:
+- author: Anonymous
+  content: "Hallo,\_\n\ndas sieht interessant aus! Gibt es das evtl in Form eines
+    Addons f\xFCr TB ohne bash/shell?"
+  date: '2014-07-08T13:19:43.369275'
 date: '2012-08-25T09:25:00'
 tags:
 - web

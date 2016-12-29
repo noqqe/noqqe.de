@@ -1,4 +1,9 @@
 ---
+comments:
+- author: noqqe
+  content: <p>Huch, da hab ich eine Null vergessen bei den Einwohner zahlen der USA
+    :)</p>
+  date: '2013-01-26T11:22:41'
 date: '2013-01-25T20:02:00'
 tags:
 - web

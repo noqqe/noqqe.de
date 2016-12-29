@@ -1,4 +1,9 @@
 ---
+comments:
+- author: Anonymous
+  content: "Hallo, \nIn der MongoDB werden nur Einstellungen, Dashboards, Benutzer
+    und ein paar Graylog-Interna gespeichert. Die Logs selbst landen alle im Elasticsearch."
+  date: '2015-12-27T18:24:35.489374'
 date: '2012-08-28T18:24:00'
 tags:
 - development

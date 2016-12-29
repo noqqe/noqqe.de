@@ -1,4 +1,24 @@
 ---
+comments:
+- author: tux.
+  content: "\"Die meisten Keyboards haben US Layout.\"\n\nQuark. Mir ist bisher nur
+    eine mechanische Tastatur begegnet, die es nicht mit QWERTZ gegeben h\xE4tte,
+    und das war wahrscheinlich nur, weil ich nicht lange gesucht habe."
+  date: '2016-07-01T16:12:18.189844'
+- author: senden9
+  content: "In welcher Preisklasse bist du f\xFCr den Aufbau dann ca. gelandet?"
+  date: '2016-07-01T17:13:38.838912'
+- author: Anonymous
+  content: 'Die Quellenangaben deiner Bilder sind problematisch. "Quelle: Wikipedia"
+    reicht definitiv nicht. Gerade erst neulich gab es beim Planet einige Posts zum
+    Thema "CC-Lizenzangaben".'
+  date: '2016-07-04T06:45:48.378396'
+- author: noqqe
+  content: Da ist ein Link - Klick drauf dann hast du genau die Quelle.
+  date: '2016-07-04T10:05:41.288867'
+- author: ucn
+  content: 'Und softwareseitig empfehle ich den Umstieg auf neo: http://neo-layout.org/'
+  date: '2016-08-10T21:48:42.352489'
 date: '2016-07-01T13:28:29'
 tags:
 - signature plastics

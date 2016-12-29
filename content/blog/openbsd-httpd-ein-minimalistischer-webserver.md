@@ -2,6 +2,10 @@
 aliases:
 - /blog/2014/09/27/openbsd-httpd-ein-minimalistischer-webserver
 - /blog/2014/09/27/openbsd-httpd
+comments:
+- author: Anonymous
+  content: Wie sieht es mit gatling von Fefe?
+  date: '2014-10-01T09:36:35.683788'
 date: '2014-09-27T12:30:00'
 layout: post
 tags:

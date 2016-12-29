@@ -1,4 +1,14 @@
 ---
+comments:
+- author: nv1t
+  content: I want to fav that!
+  date: '2013-12-29T14:16:05.019970'
+- author: tux.
+  content: mhhh lahm
+  date: '2013-12-29T17:48:05.671919'
+- author: Dr. Azrael Tod
+  content: +1 :D
+  date: '2013-12-29T22:09:34.211216'
 date: '2013-12-29T11:50:00'
 tags:
 - reddit

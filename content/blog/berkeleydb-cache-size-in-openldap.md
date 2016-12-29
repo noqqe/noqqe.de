@@ -1,4 +1,13 @@
 ---
+comments:
+- author: Franck
+  content: "<p>Hi Florian,</p><p>danke f\xFCr die Anleitung. Ich nehme an das die
+    Berechnung f\xFCr id2entry: <br>( 1 root Page + 1 internal + 29 leaf ) * 16KB
+    = 496 KB heissen (16 statt 4KB)</p><p>Viele Gr\xFCsse</p><p>Franck</p>"
+  date: '2013-10-22T12:46:44'
+- author: noqqe
+  content: "<p>Urghs, ja! </p><p>Danke f\xFCr den Hint! Ich update das :)</p>"
+  date: '2013-10-23T06:50:33'
 date: '2013-03-08T16:40:00'
 tags:
 - berkeleydb

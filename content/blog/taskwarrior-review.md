@@ -1,4 +1,34 @@
 ---
+comments:
+- author: Anonymous
+  content: "Die Idee klingt eigentlich gut. Mal schauen ob ich f\xFCr meine Todo-Listen
+    so etwas ebenfalls hinbekomme."
+  date: '2016-05-08T15:49:50.517502'
+- author: Anonymous
+  content: "Eigentlich bin ich ja ein grosser fan von CLI tools, aber als ich das
+    letzte mal (vor ca. 2 Jahren) geschaut habe, gab es keine gescheite M\xF6glichkeit
+    l, die tasks \xFCber mehrere Devices zu syncen. Weisst du was, wie es da aktuell
+    aussieht?"
+  date: '2016-05-08T16:36:02.730065'
+- author: pbeckingham
+  content: Nicely done.
+  date: '2016-05-08T22:31:05.585023'
+- author: Anonymous
+  content: 'Taskwarrior hat sog. "Taskserver", die gibts auch als Service: https://freecinc.com/about'
+  date: '2016-05-09T02:52:11.827145'
+- author: noqqe
+  content: thanks!
+  date: '2016-05-09T08:36:42.924364'
+- author: noqqe
+  content: Was nutzt du denn?
+  date: '2016-05-09T08:37:20.011658'
+- author: noqqe
+  content: genau das!
+  date: '2016-05-09T08:37:32.115206'
+- author: senden9
+  content: "Aktuell trello.com. Hab schon nachgesehen. Die bieten eine API an. Eventuell
+    schaue ich mir aber mal das Taskwarrior-\xD6kosystem an."
+  date: '2016-05-09T17:54:38.428788'
 date: '2016-05-08T09:52:27'
 tags:
 - openbsd

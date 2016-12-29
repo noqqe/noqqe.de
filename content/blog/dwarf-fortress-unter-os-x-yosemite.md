@@ -1,4 +1,14 @@
 ---
+comments:
+- author: Anonymous
+  content: "Coole Sache! Kennst du halbwegs brauchbare Tutorials f\xFCr DF? Oder hast
+    du dir alles leidvoll angeeignet? ;)"
+  date: '2015-02-08T23:23:31.119230'
+- author: noqqe
+  content: "Das erste Jahr hab ich eigentlich mit ein paar Internet Howtos und dem
+    DF Wiki rumgebracht. Das lief ganz gut. Danach hab ich dann \nhttp://shop.oreilly.com/product/0636920022565.do
+    gelesen. Das bringts mehr :) w\xFCrd ich empfehlen!"
+  date: '2015-02-09T09:19:11.168417'
 date: '2015-02-07T15:16:00'
 tags:
 - osx

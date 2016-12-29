@@ -1,4 +1,9 @@
 ---
+comments:
+- author: Vain
+  content: "\"Ich blogge \xFCber Windows Themen. F\xFChle mich jetzt Enterprise-Ready\xA9.\"\n\nMade
+    my day. :-)"
+  date: '2013-12-05T21:13:01.647395'
 date: '2013-12-05T18:28:00'
 tags:
 - windows

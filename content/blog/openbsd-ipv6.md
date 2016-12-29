@@ -1,4 +1,8 @@
 ---
+comments:
+- author: noqqe
+  content: "RTADV haben sich ge\xE4ndert. Update hier https://noqqe.de/blog/2014/12/18/router-advertisments-in-openbsd/"
+  date: '2014-12-18T11:26:42.481567'
 date: '2014-10-09T17:15:00'
 tags:
 - ping6

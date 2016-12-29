@@ -1,6 +1,21 @@
 ---
 aliases:
 - /blog/2013/10/26/spammer-vs-statistik-mit-bogofilter/
+comments:
+- author: Anaximander
+  content: "<p>Merkst du bez\xFCglich der Geschwindigkeit von Bogofilter einen Unterschied
+    zwischen der wordlist.db mit 12 MB und der mit 1,4 GB?</p>"
+  date: '2013-10-27T16:53:02'
+- author: noqqe
+  content: "<p>Ne, hatte ich auch damit gerechnet. Es geht aber genauso schnell wie
+    vorher. Evtl. m\xF6chte man da noch in der <a href=\"http://bogofilter.cf\" rel=\"nofollow\">bogofilter.cf</a>
+    bei bdb_cache_size herumspielen, aber bisher hab ichs nicht gebraucht.</p>"
+  date: '2013-10-27T16:58:06'
+- author: Anaximander
+  content: "<p>Interessant (so wie es aussieht ist Berkeley DB ja auch auf Geschwindigkeit
+    ausgelegt, was eine Erkl\xE4rung sein k\xF6nnte). Eventuell teste ich das dann
+    auch mal. Obwohl ich mit den Ergebnissen meiner 28 MB auch zufrieden bin.</p>"
+  date: '2013-10-30T07:08:58'
 date: '2013-10-26T15:40:00'
 tags:
 - development

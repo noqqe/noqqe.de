@@ -1,6 +1,10 @@
 ---
 aliases:
 - /archives/421
+comments:
+- author: seufz
+  content: <p>Test Reply</p>
+  date: '2008-03-24T23:41:50'
 date: '2008-03-24T16:23:03'
 slug: hallo-welt-2
 tags:

@@ -2,6 +2,25 @@
 aliases:
 - /blog/2012/05/28/apache-2-dot-4-und-mpm-event
 - /blog/2012/05/28/apache-2-dot-4-und-mpm-event/
+comments:
+- author: Higgi
+  content: "<p>Ich glaube du meinst bei 600 gleichen Requests oder irre ich mich da
+    ?\_</p><p>\"Warum MPM Prefork bei 1000 gleichzeitigen Connections immer so \u201Cabhaut\u201D
+    kann ich nicht sagen\"</p>"
+  date: '2012-05-28T17:15:45'
+- author: noqqe
+  content: "<p>Teils... das der Event bei 600 abhaut ist auch komisch... aber geschrieben
+    hab ich eigentlich \xFCber den Prefork bei 1000. :)</p>"
+  date: '2012-05-28T17:26:35'
+- author: Higgi
+  content: <p>ups ;) Wer lesen kann ist stark im Vorteil ;) Ich habs ja sogar zitiert.</p>
+  date: '2012-05-29T05:07:49'
+- author: noqqe
+  content: <p>hehe :)</p>
+  date: '2012-05-29T05:28:06'
+- author: StackLinux
+  content: <p>Beautiful Thanks! I'm on 2.4 event.c and flying.</p>
+  date: '2013-07-31T06:25:33'
 date: '2012-05-28T12:41:00'
 tags:
 - web

@@ -1,6 +1,11 @@
 ---
 aliases:
 - /archives/282
+comments:
+- author: Thomas
+  content: <p>Dieser Moment, wird als schrecklicher in die Geschichte eingehen.</p><p>*an
+    Schweigeminute teilnehm*</p>
+  date: '2008-09-30T17:59:23'
 date: '2008-09-30T08:15:48'
 slug: rip-zwetschgeorg-30092008
 tags:

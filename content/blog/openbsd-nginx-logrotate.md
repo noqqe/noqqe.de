@@ -1,4 +1,31 @@
 ---
+comments:
+- author: Martin
+  content: 'FreeBSD hat auch weiterhin newsyslog: https://github.com/freebsd/freebsd/tree/master/usr.sbin/newsyslog
+
+
+    Probier doch mal ob es unter OpenBSD kompiliert, wahrscheinlich erfordert es nur
+    kleine Anpassungen der includes.
+
+'
+  date: '2014-03-02T16:46:15.344601'
+- author: noqqe
+  content: "Oh, hab auch bei FreeBSD in usr.bin/ gesucht. Thx!\n\nBei compilen bin
+    ich mir nicht ganz sicher, das m\xFCsst ich quasi bei jedem Distupgrade erneut
+    machen.. \xDCberleg ich mir mal"
+  date: '2014-03-02T19:35:17.954852'
+- author: waldner
+  content: 'Das $(ls -1 ...) ist nicht notwendig, man kann einfach:
+
+
+    for x in /var/www/logs/*.log; do ...
+
+'
+  date: '2014-03-06T22:20:32.983181'
+- author: noqqe
+  content: Jap, vollkommen richtig. Beim basteln entsteht sowas manchmal, man kennt
+    das ja :)
+  date: '2014-03-09T16:31:56.090328'
 date: '2014-03-02T10:09:00'
 tags:
 - newsyslog

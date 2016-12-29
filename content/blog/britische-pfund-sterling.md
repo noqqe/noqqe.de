@@ -1,4 +1,19 @@
 ---
+comments:
+- author: Georg
+  content: "<p>Diese \"maximal fragw\xFCrdigen\" Seiten haben einen fragw\xFCrdigen
+    Vorteil: Auf mobilen Browsern, die nicht als solche erkannt werden, sehen diese
+    Seiten auf kleinen Bildschirmen oft gar nicht mal so schlecht aus. Manche durchgestaltete
+    Webseite bringt mit ihrem vielen JS den Browser fast zum Absturz, solche Oldie-Seiten
+    sehen zumindest nicht schlimmer aus als am Desktop.<br>So eine Anzeige w\xE4re
+    f\xFCr Conky ganz cool. Der Wert von heute und ein Pfeil, der die Tendenz seit
+    gestern anzeigt (steigend, fallend, ungef\xE4hr gleich).</p>"
+  date: '2013-06-17T20:56:29'
+- author: noqqe
+  content: "<p>Ich sehe irgendwie keinen Zusammenhang zwischen Seiten die alt aussehen
+    und Seiten die im Handy gut aussehen. Es gibt Seiten die \xFCberall gut aussehen
+    und welche die \xFCberall doof aussehen :)</p>"
+  date: '2013-06-18T11:41:12'
 date: '2013-06-17T18:45:00'
 tags:
 - development

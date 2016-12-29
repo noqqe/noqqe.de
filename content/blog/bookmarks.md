@@ -1,4 +1,47 @@
 ---
+comments:
+- author: Matthias
+  content: "Sieht gut aus und webkit2png gibts auf Linux eh nicht.  \nBeim mir kam
+    eine Fehlermeldung beim adden: \"ggrep\" kannte mein System nicht und auch die
+    Websuche ergab nichts. Ich habe einfach ein \"grep\" daraus gemacht und jetzt
+    l\xE4ufts.  \nEine *rm* Funktion w\xE4re noch klasse, weil vermutlich irgendwann
+    das h\xE4ndische L\xF6schen recht aufwendig wird. Und vielleicht eine Option,
+    um den gefundenen Link in die *Zwischenablage* zu schieben.\n\nAuf alle F\xE4lle
+    ein dickes **Dankesch\xF6n**."
+  date: '2015-04-08T18:29:05.769749'
+- author: noqqe
+  content: "Ah siehst, das mit Webkit2png wusste ich garnicht. \n\nMit dem \"ggrep\"...
+    Das hat mit OpenBSD zu tun, dass ich benutze. F\xFCr das Title Fetching brauche
+    ich das \"Gnu Grep\", da das mitgelieferte grep unter BSD ein paar Optionen die
+    ich brauche nicht mitbringt. \n\nBzgl. \"rm\": wie w\xE4re das am Besten umzusetzen?
+    So was gel\xF6scht werden sollte? Einen eindeutigen Indikator gibts ja nicht."
+  date: '2015-04-09T09:15:09.063398'
+- author: Anonymous
+  content: 'Offtopic:
+
+    Dein identicon: http://www.instructables.com/files/orig/FM5/CVAV/GNOD5VX7/FM5CVAVGNOD5VX7.png'
+  date: '2015-04-09T17:33:39.965263'
+- author: matthias
+  content: "Ja, dazu m\xFCsste jeder Eintrag einen eindeutigen Schl\xFCssel bekommen
+    anhand dessen er identifiziert werden kann. \n\nIch habe sogar noch weiter herum
+    gesponnen: wenns au\xDFerdem noch git-Funktionalit\xE4t g\xE4be, k\xF6nnte auf
+    einfach Wei\xDFe gepusht und gepult werden. Dadurch w\xE4re ein einfaches Verteilen
+    auf verschiedene Instanzen m\xF6glich oder man sammelt sogar kollaborativ.\n\n*Die
+    W\xFCnsche gehen nicht aus.*"
+  date: '2015-04-09T17:45:52.773150'
+- author: noqqe
+  content: hahaha :D
+  date: '2015-04-10T10:55:37.399750'
+- author: Matthias
+  content: "Ich habe das zweite jetzt mal mit *rsync* realisiert: https://github.com/mtthff/bm/tree/clipboard
+    \nFunktioniert ganz rund. Per cronjob mache ich mir t\xE4glich ein Backup der
+    Datei auf dem Host, falls ich mich mal vertue. Was h\xE4ltst du davon?"
+  date: '2015-04-14T13:22:48.544812'
+- author: noqqe
+  content: "Huh, sieht doch gut aus. Ich mach auch Backups, aber ganz einfach \n\n`cp
+    ~/.bookmarks ~/Backups/bookmarks.$(date '+\\%F')` \n\n\nSo Conflicts werden halt
+    bei dir \xFCberschrieben :) Musst halt vorsichtig sein :=)"
+  date: '2015-04-14T13:41:33.884715'
 date: '2015-04-06T16:16:25'
 tags:
 - development

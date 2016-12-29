@@ -1,4 +1,27 @@
 ---
+comments:
+- author: Thomas
+  content: <p>"fucking lesbar" bedeutet schlecht lesbar oder?</p>
+  date: '2013-09-09T08:32:18'
+- author: noqqe
+  content: <p>Ne, gut! :)</p>
+  date: '2013-09-09T08:43:06'
+- author: nuit
+  content: '<p>*applaus* Fazit: zum Debuggen sinnvoll, wirkliche Verwendung in hardcoded
+    Stuff geht garnicht.</p>'
+  date: '2013-09-09T10:00:47'
+- author: Erik Wasser
+  content: "<p>Ich fand den Award schon immer \xFCberbewertet. Bashzeilen mit \"cat\"
+    sind lesbarer und k\xF6nnen f\xFCr das Debugging leichter ausgetauscht werden.</p>"
+  date: '2013-09-12T09:29:11'
+- author: mina86
+  content: <p></p>
+  date: '2013-10-30T12:33:55'
+- author: mina86
+  content: <p>Issues with less then sign it seems. Also, sorry, I actually don't speak
+    German. ;) Either way, maybe it'll work this time, what I'm trying to point out
+    is:</p><p>&lt; file-name comma</p>
+  date: '2013-10-30T12:36:52'
 date: '2013-09-08T18:28:00'
 tags:
 - development
