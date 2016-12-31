@@ -1,12 +1,11 @@
 ---
-date: 2016-12-31T13:47:25+01:00
+date: 2016-12-31T14:45:25+01:00
 tags:
 - 33c3
 - blog
 - comments
 - isso
 title: yaml Kommentare
-draft: true
 ---
 
 Auf dem [33c3](https://events.ccc.de/congress/2016/wiki/Main_Page) hatte
@@ -60,3 +59,10 @@ Das Ergebnis kann man zum Beispiel mal in diesem
 
 Ich war auch tatsächlich etwas überrascht, über 8 Jahre kamen **1028**
 Kommentare zu **267** Posts zusammen.
+
+In `git log --shortstat` sah das ganze dann so aus
+
+{{< figure src="/uploads/2016/12/comments.png" >}}
+
+Als kleines Bonus feature kann man jetzt theoretisch auch einfach Pull
+Requests für Kommentare auf github öffnen. Wenn man das will.
