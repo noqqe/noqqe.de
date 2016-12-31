@@ -65,4 +65,6 @@ In `git log --shortstat` sah das ganze dann so aus
 {{< figure src="/uploads/2016/12/comments.png" >}}
 
 Als kleines Bonus feature kann man jetzt theoretisch auch einfach Pull
-Requests für Kommentare auf github öffnen. Wenn man das will.
+Requests für Kommentare auf github öffnen. Wenn man das will. Primär brauch
+ich aber einfach keine Kommentare mehr im Blog. Wollte aber den
+Datenbestand einfach nicht aufgeben. Für die Menschen!
