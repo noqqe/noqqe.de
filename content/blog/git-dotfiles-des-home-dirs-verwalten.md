@@ -2,6 +2,70 @@
 aliases:
 - /blog/2010/08/16/git-dotfiles-des-home-dirs-verwalten
 - /archives/1192
+comments:
+- author: Vain
+  content: "<p>Moin,</p><p>so als Idee: Wahrscheinlich k\xF6nntest du dir das \"coming-home.bash\"-Skript
+    sparen, wenn du stattdessen Symlinks setzt. Also statt einer echten ~/.bashrc
+    einfach einen Symlink nach ~/git/dotfiles/.bashrc. Habe zumindest keine schlechten
+    Erfahrungen damit gemacht. :)</p><p>Cheers!</p>"
+  date: '2010-08-16T23:07:54'
+- author: noqqe
+  content: "<p>@Vain: Moin, mit der \xDCberlegung hatte ich wirklich schonmal gespielt.
+    Erschien mir aber irgendwie zu \"unstable\". Son lokales Repo kommt dann doch
+    mal weg, oder sonst was... :/ <br>Hab mich da ehrlich gesagt nicht dran gewagt.
+    </p><p>In wie weit hast du das im Einsatz? F\xFCr mehrere Configs? Bzw auch \xFCber
+    fremde Partitionen ? Gibts da eventuell Leistungseinbu\xDFen?</p>"
+  date: '2010-08-16T23:12:10'
+- author: Keba
+  content: "<p>Nat\xFCrlich kann ein lokales Repo mal wegkommen, aber bei DVCS wie
+    git gibt es zum Gl\xFCck kein \"Single Point of failure\". Einfach neu klonen
+    und alles ist gut. ;)</p>"
+  date: '2010-08-17T01:35:38'
+- author: Vain
+  content: "<p>Naja, alle meine Dotfiles sind Symlinks in ein Git-Repo. Allerdings
+    nicht \xFCber Partitionsgrenzen hinweg, nein. \xDCber ein Verlorengehen des Repos
+    hab ich eigentlich auch noch nie nachgedacht \u2013 eben, weil man\u2019s halt
+    wieder klonen kann. :)</p><p>Mir f\xE4llt aber gerade ein, dass es doch manchmal
+    zu Problemen kommen kann. Manche Programme schreiben ja ihre Configs neu, nachdem
+    man sie beendet hat (auch, wenn sich eigentlich nichts ge\xE4ndert hat). Und manchmal
+    machen sie das so d\xE4mlich, dass sie die Datei erst komplett l\xF6schen und
+    dann neu anlegen \u2013 dabei geht der Symlink halt kaputt. Dadurch entsteht kein
+    Datenverlust, nur Git bekommt keine \xC4nderungen mehr mit.</p><p>Ich glaube,
+    WeeChat war so ein Sonderfall, was das so gemacht hat. Kann man dann aber auch
+    leicht umschiffen, wenn man das Verzeichnis (in dem Fall ~/.weechat/) verlinkt
+    statt einzelner Dateien. Man muss es nur erst mal bemerken. ;)</p><p>Aber das
+    ist so selten, dass ich es schon erfolgreich aus dem Ged\xE4chtnis verdr\xE4ngt
+    hatte.</p><p>Cheers!</p>"
+  date: '2010-08-17T02:15:29'
+- author: noqqe
+  content: "<p>@Keba: Jepp. Denke mal es wird Distributed Version Control System bedeuten
+    oder? :) Wenn das Repo mal weg ist und der Rechner gebootet wird, werden warscheinlich
+    meine ganzen Links auch weg sein oder? Standard-Config wieder eingesetzt evtl?
+    </p><p>@Vain: Okay, also mit einschr\xE4nkungen h\xF6rt sich das aber doch trotzdem
+    ganz nett an :) Ich denke ich werds mal testen und sehen wie ich damit zurecht
+    komme. Danke f\xFCr den Tipp :)</p>"
+  date: '2010-08-17T11:12:02'
+- author: nbkr
+  content: "<p>F\xFCr sowas nutze ich gerne \"Puppet\". Meine User lege ich dort alle
+    an und bestimme \xFCber das Manifest welcher User auf welchem System zu finden
+    sein soll.</p><p>Au\xDFerdem speichere ich mir noch welche Dateien im Homedir
+    des Users liegen sollen und wie die aussehen.</p><p>Muss ich dann an diesen Dateien
+    etwas anpassen (z.B. die .vimrc) dann mache ich das auf der Puppetmaster-Maschine
+    und die anderen System holen sich die Updates automatisch und ohne zu tun.</p>"
+  date: '2010-08-17T14:16:38'
+- author: bka
+  content: <p>hi,</p><p>da kommt aber mehr als nur die dotfiles raus...</p><p>ls -la
+    | grep -v ^d | awk '{print $8}'</p><p>alle dotfiles bekommt man mit:<br>ls -a
+    ~/ | grep '^.'</p>
+  date: '2010-08-18T20:32:51'
+- author: noqqe
+  content: <p>Hallo @bka, <br>die Ausgabe soll den Inhalt des Git-Repos filtern. Nicht
+    die des Home-Verzeichnisses.</p>
+  date: '2010-08-18T21:58:06'
+- author: marian
+  content: <p>&gt; ls -la | grep -v ^d | awk '{print $8}'| grep -v ^coming-home.bash$<br>find
+    existiert :)</p>
+  date: '2010-08-27T06:25:44'
 date: '2010-08-16T16:42:48'
 tags:
 - development

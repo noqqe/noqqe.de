@@ -1,4 +1,11 @@
 ---
+comments:
+- author: Das wort
+  content: "<p>Also jetzt noch ein paar mehr Funktionen und ab ins Debian-Repo *tr\xE4um*</p>"
+  date: '2012-04-11T02:10:13'
+- author: noqqe
+  content: "<p>Hehe :) Bin f\xFCr Pull Requests immer offen :) </p>"
+  date: '2012-04-11T05:49:36'
 date: '2012-04-01T09:11:00'
 tags:
 - development

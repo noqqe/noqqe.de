@@ -2,6 +2,11 @@
 aliases:
 - /blog/2011/10/01/flattr-man-kann-seine-meinung-auch-mal-andern
 - /archives/1774
+comments:
+- author: Marie
+  content: <p>Glad to see you putting up buttons on your own work!</p><p>Good luck
+    with catching a few clicks.</p>
+  date: '2011-10-03T16:53:54'
 date: '2011-10-01T11:12:03'
 tags:
 - web

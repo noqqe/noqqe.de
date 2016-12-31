@@ -2,6 +2,16 @@
 aliases:
 - /archives/1109
 - /blog/2010/07/16/thunar-netzwerk-ressourcen-einbinden-mit-gigolo
+comments:
+- author: Darcie Companie
+  content: <p>I am very thankful to this topic because it really gives useful information
+    `~'</p>
+  date: '2011-01-20T01:05:47'
+- author: DuKane
+  content: <p>Hallo Florian,</p><p>ich stand vor dem gleichen Problem, bin es aber
+    etwas anders angegangen. <a href="http://dukuntu.blogspot.com/2011/10/xubuntu-1110-and-deja-dup.html"
+    rel="nofollow">http://dukuntu.blogspot.com/20...</a></p>
+  date: '2011-10-23T22:29:49'
 date: '2010-07-16T14:39:16'
 tags:
 - ressourcen

@@ -1,6 +1,33 @@
 ---
 aliases:
 - /archives/1732
+comments:
+- author: Hesmon
+  content: "<p>K\xFCrzer:<br><a href=\"http://www.commandlinefu.com/commands/view/1792/rot13-using-the-tr-command\"
+    rel=\"nofollow\">http://www.commandlinefu.com/c...</a></p>"
+  date: '2011-08-13T20:30:46'
+- author: noqqe
+  content: <p>Schade, dass du den Post nichtmal gelesen hast.</p>
+  date: '2011-08-13T20:45:12'
+- author: Frank
+  content: <p>Wo kann ich das downloaden was du gebastelt hast?</p>
+  date: '2011-08-14T02:22:50'
+- author: noqqe
+  content: <p>In dem eingebundenen JavaScript von Github gibts einen Knopf mit "View
+    raw"</p><p>Hier ist der Link:</p><p><a href="https://gist.github.com/raw/1143762/a88606a269ed45945b2dead9424886a04ef9fe6b/rot13.bash"
+    rel="nofollow">https://gist.github.com/raw/11...</a></p>
+  date: '2011-08-14T15:48:54'
+- author: cp
+  content: "<p>Rot13 ist zwar sch\xF6n einfach, aber man kann nat\xFCrlich sehr leicht
+    den Klartext wiederherstellen. Die Vigen\xE8re-Chiffre dagegen ist ohne Wissen
+    um den Schl\xFCssel \"von Hand\" nicht leicht entschl\xFCsselbar, aber nicht wirklich
+    kompliziert anzuwenden. F\xFCr mich also als Tipp an dich f\xFCr weitere Spielerein
+    :)</p>"
+  date: '2011-08-15T04:39:34'
+- author: noqqe
+  content: "<p>@cp: danke f\xFCr den Tipp! Schau ich mir mal an :) aber sieht h\xE4rter
+    aus. Um einiges ;)</p>"
+  date: '2011-08-16T18:59:06'
 date: '2011-08-13T12:03:20'
 slug: rot13-verschlusselung-in-bash
 tags:

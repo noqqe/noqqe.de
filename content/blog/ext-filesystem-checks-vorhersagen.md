@@ -1,4 +1,17 @@
 ---
+comments:
+- author: Evalinda Parkin
+  content: <p>feine sache! daraus werde ich mal ein nagios plugin basteln.</p>
+  date: '2012-05-14T15:43:10'
+- author: noqqe
+  content: "<p>\_Sag mal Bescheid was dabei raus kommt. Muss man halt jonglieren mit
+    notifications. Weil man den Server ja nicht immer rebooten will wenn sowas ansteht.
+    </p><p>Egal - Wenns fertig is schreib mir mal ne Mail. Interessiert mich. </p>"
+  date: '2012-05-14T19:44:23'
+- author: Evalinda Parkin
+  content: "<p>Mach ich. Guter Punkt mit den notifications, da wird man den service
+    check \"irgendwie tunen\" m\xFCssen. Mal sehen :-)</p>"
+  date: '2012-05-15T11:03:59'
 date: '2012-05-05T09:33:00'
 tags:
 - web

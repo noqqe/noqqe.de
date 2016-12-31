@@ -1,6 +1,27 @@
 ---
 aliases:
 - /archives/1846
+comments:
+- author: Ole Tange
+  content: '<p>GNU Parallel takes around 2 ms per job. 0.5 ms is spent setting up
+    atomic output, which you do not use. You can disable atomic output with ''-u''.</p><p>But
+    your general observation still holds: If your jobs are so short that slowing down
+    each job by 2 ms is a considerable amount, then GNU Parallel is probably not the
+    right tool for you.</p><p>In this case you could group the md5sum in batches of
+    100 and run these scripts in parallel:</p><p>    parallel "echo ''echo {1}{2}|
+    md5sum &amp;&gt; /dev/null '' &gt;&gt;/tmp/md5.{2}" :::: &lt;(seq 100) &lt;(seq
+    100)<br>    ls md5.* | time parallel bash</p><p>Another situation where you may
+    not see a speedup is if the jobs compete for disk I/O. It is often slower to read
+    two big files from the same disk simultaneously than to read them sequentially.
+    To help this you can have a look at &amp;#039sem&amp;#039 which is part of GNU
+    Parallel.</p>'
+  date: '2012-01-09T18:16:36'
+- author: noqqe
+  content: <p>Hi Ole,</p><p>wow. Grouping the md5 Sums seems to be a nice way to solve
+    this "problem". <br>I think I will do a retry with -u option in my posted commands
+    to see if it saves ressources :)</p><p>I had never thought about the disk I/O
+    situation you mentioned. Seems to make sense. </p><p>Thank you!</p>
+  date: '2012-01-10T13:53:59'
 date: '2012-01-08T12:47:14'
 slug: gnu-parallel
 tags:

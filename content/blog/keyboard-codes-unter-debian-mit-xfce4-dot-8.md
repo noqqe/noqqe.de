@@ -1,6 +1,33 @@
 ---
 aliases:
 - /blog/2012/04/20/keyboard-codes-unter-debian-mit-xfce4-dot-8
+comments:
+- author: Silvio Knizek
+  content: "<p>Aber aber\u2026 sollten nicht inzwischen alle wissen, dass es schlecht
+    ist, die .xml-Dateien von Xfce direkt an zufassen? Besser ist an dieser Stelle
+    xfconf-query: \xBBxfconf-query -c xfce4-keyboard-shortcuts -p /commands/custom/hpModelock1
+    -n -t string -s \"/usr/bin/i3lock\"\xAB<br>Wer es unbedingt graphisch braucht,
+    kann auch xfce4-settings-editor verwenden</p><p>killermoehre<br>Xfce Supporter
+    IRC</p>"
+  date: '2012-04-20T19:54:39'
+- author: noqqe
+  content: "<p>\_Echt? Ne, war mir nicht wirklich klar. Wo kann man sich dazu denn
+    schlaulesen, was passiert wenn ich an XML Files direkt hinfasse? </p>"
+  date: '2012-04-21T09:13:06'
+- author: Silvio Knizek
+  content: "<p>Im besten Fall passiert nichts. Im schlimmsten Fall werden die XML-Dateien
+    korrumpiert. Es ist einfach nicht empfehlenswert. Xfconf funktioniert \xFCber
+    dbus-calls, die bei einer direkten Bearbeitung nicht ausgel\xF6st werden, womit
+    die Applikationen nicht mit bekommen, das etwas ver\xE4ndert wurde.</p><p>killermoehre<br><a
+    href=\"irc://irc.freenode.net/#xfce-de\" rel=\"nofollow\">irc://irc.freenode.net/#xfce-d...</a></p>"
+  date: '2012-04-21T16:51:50'
+- author: noqqe
+  content: "<p>\_Alles klar. Angekommen und registriert :)<br>Danke!</p>"
+  date: '2012-04-22T08:51:53'
+- author: Silvio Knizek
+  content: "<p>Xfce bringt \xFCbrigens seinen eigenes Screen-Lock-Frontend namens
+    xflock4 mit. Einfach mal ausprobieren.</p>"
+  date: '2012-04-23T19:01:11'
 date: '2012-04-20T06:52:00'
 tags:
 - keyboard

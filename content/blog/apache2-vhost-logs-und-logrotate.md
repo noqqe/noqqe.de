@@ -2,6 +2,12 @@
 aliases:
 - /archives/946
 - /blog/2010/03/31/apache2-vhost-logs-und-logrotate
+comments:
+- author: r. penner
+  content: "<p>Hey ...</p><p>genau was ich gesucht habe. Besonderes der letzte Teil
+    mit dem logrotate habe ich \xE4hnlich realisiert ... nur das ich f\xFCr jeden
+    vhost ein eigenes Verzeichnis unter /var/log/apache angelegt habe.</p><p>Gru\xDF<br>Ren\xE9</p>"
+  date: '2011-11-08T02:47:20'
 date: '2010-03-31T18:12:03'
 tags:
 - development

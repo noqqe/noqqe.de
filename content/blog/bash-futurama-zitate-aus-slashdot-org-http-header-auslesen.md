@@ -2,6 +2,28 @@
 aliases:
 - /archives/1255
 - /blog/2010/09/26/bash-futurama-zitate-aus-slashdot-org-http-header-auslesen
+comments:
+- author: noqqe
+  content: "<p>Update1: bei Commandlinefu gibt es ebenfalls eine Reihe von L\xF6sungen
+    f\xFCr die HTTP-Header Abfrage von <a href=\"http://slashdot.org\" rel=\"nofollow\">slashdot.org</a>:
+    <a href=\"http://www.commandlinefu.com/commands/tagged/234/futurama\" rel=\"nofollow\">http://www.commandlinefu.com/c...</a></p><p>Update2:
+    Es scheint auch ein fortune-mod-paket zu geben, welches l\xE4ngere Zitate von
+    Futurama enth\xE4lt: <a href=\"http://www.netmeister.org/apps/fortune-mod-futurama-0.2.tar.gz\"
+    rel=\"nofollow\">http://www.netmeister.org/apps...</a></p>"
+  date: '2010-09-26T17:08:49'
+- author: The Compiler
+  content: "<p>if [ $(grep \"$quote\" $target |wc -l) -lt 1 ]; then</p><p>Das ist
+    b\xF6\xF6\xF6se :p Geht doch viel einfacher:</p><p>if ! grep -q \"$quote\" \"$target\";
+    then</p>"
+  date: '2010-09-26T18:28:42'
+- author: noqqe
+  content: "<p>@the compiler: <br>ah sehr nice. quiet und nur den r\xFCckgabewert
+    benutzen. awesome.</p>"
+  date: '2010-09-26T19:05:35'
+- author: Christian D.
+  content: "<p>@toadie.de:</p><p>Unschlagbar! Wer braucht schon Cowsay wenn das Bender
+    \xFCbernehmen kann? ;-)))</p>"
+  date: '2010-09-29T19:46:17'
 date: '2010-09-26T12:56:42'
 tags:
 - development

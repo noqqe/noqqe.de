@@ -2,6 +2,20 @@
 aliases:
 - /blog/2010/10/09/git-verschiedene-repos-zusammenfuhren
 - /archives/1302
+comments:
+- author: Speiderlars
+  content: "<p>Hallo, irgend</p><p>wie klappt es bei mir so nicht.<br>Kann es sein
+    das ich nach dem mkdir dot... noch etwas machen muss ? Zb denn Branch Master richtig
+    init. </p><p>Ich komme an denn Punkt das ich <br>die Branches habe zb master:libs<br>dann
+    will ich das Script ausf\xFChren und es kommt zb ein:</p><p>mv: cannot stat `/srv/repos/git/test/.git-rewrite/t/../index.new':
+    No such file or directory</p><p>Der sub Ordner hei\xDFt libs und der Branch auch
+    libs also habe ich in dem script auch:</p><p>SUBDIR_NAME=libs<br>BRANCH_NAME=libs</p><p>stehen.
+    Ich hoffe du verstehst mein problem und kannst mir helfen.</p><p>Gru\xDF Speiderlars</p>"
+  date: '2011-10-18T17:27:11'
+- author: noqqe
+  content: "<p>Mh. Und du bist auch wirklich im richtigen verzeichnis wenn du das
+    Skript ausf\xFChrst?</p>"
+  date: '2011-10-22T15:09:19'
 date: '2010-10-09T15:28:58'
 tags:
 - development

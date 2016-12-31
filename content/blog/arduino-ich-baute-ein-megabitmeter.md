@@ -2,6 +2,17 @@
 aliases:
 - /archives/1751
 - /blog/2011/08/27/arduino-ich-baute-ein-megabitmeter
+comments:
+- author: Frank
+  content: <p>der Link zu <a href="http://zombies.n0q.org" rel="nofollow">zombies.n0q.org</a>
+    geht nicht</p>
+  date: '2011-08-27T17:07:58'
+- author: noqqe
+  content: "<p>@Frank: Danke f\xFCr den Tipp, ist gefixt.</p>"
+  date: '2011-08-27T20:32:38'
+- author: mkind
+  content: <p>feine sache. sehr gut auch der mate deckel :D</p>
+  date: '2011-08-29T12:12:00'
 date: '2011-08-27T11:10:02'
 tags:
 - web

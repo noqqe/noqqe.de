@@ -1,6 +1,11 @@
 ---
 aliases:
 - /archives/87
+comments:
+- author: Dr. Azrael Tod
+  content: <p>Hat meine Freundin auch vor kurzem mal eben durchgespielt, ist evtl.
+    ansteckend. *g*</p>
+  date: '2008-06-29T21:28:19'
 date: '2008-06-27T15:09:24'
 slug: supertux
 tags:

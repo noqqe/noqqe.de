@@ -2,6 +2,17 @@
 aliases:
 - /blog/2009/11/30/hack-the-unix-forkbomb
 - /archives/740
+comments:
+- author: nicohofmann
+  content: <p>Funktioniert gut. Ratz fatz wech.</p><p>Sehr nett.</p>
+  date: '2009-12-02T01:52:54'
+- author: noqqe
+  content: <p>Dachte ich mir auch :) <br>Code is art.</p>
+  date: '2009-12-02T02:03:10'
+- author: Lachkater
+  content: "<p>Zum Gl\xFCck gibt es die /etc/security/limits.conf in der man unter
+    anderem das Maximum an auszuf\xFChrenden Prozessen einstellen kann :&gt;</p>"
+  date: '2009-12-16T22:01:46'
 date: '2009-11-30T20:24:46'
 tags:
 - development

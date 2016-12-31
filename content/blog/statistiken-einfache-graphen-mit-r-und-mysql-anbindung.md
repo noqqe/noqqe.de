@@ -2,6 +2,25 @@
 aliases:
 - /blog/2011/10/02/statistiken-einfache-graphen-mit-r-und-mysql-anbindung
 - /archives/1780
+comments:
+- author: "J\xF6rg"
+  content: "<p>Ich finde diesen ganzen ZRE ziemlich lustig; was genau simuliert der
+    denn  ? Wirft er einfach nur Zufallszahlen ob mal die Zombies und mal die Menschen
+    gewinnen, oder steckt da \"mehr\" hinter :) ?</p><p>Und nat\xFCrliche eine nette
+    Idee mit den Statistiken!</p>"
+  date: '2011-11-11T01:17:48'
+- author: noqqe
+  content: "<p>Hi J\xF6rg,</p><p>Naja einfach nur zuf\xE4llig gew\xE4hlt wer gewinnt
+    ist es nicht. Es steckt eine Art kleines Kampf-System dahinter.</p><p>Im lediglichen
+    nur Strength und Defense. Jeder Mensch hat dann 100/100 und jeder Zombie 120/80.
+    </p><p>Die Zahl der Angreifenden und der Verteidigenden Einheiten wird zuf\xE4llig
+    ausgew\xE4hlt. So entstehen dann zb. Konstrukte wie: </p><p>strength example:
+    50 humans * 100 strength-points = 5000 strength-points<br>defense example: 50
+    zombies * 80 defense-points = 4000 defense-points<br>fight: humans 5000 strength
+    vs. zombies 4000 defense<br>result: humans win.</p><p>Zu sehen und mehr Infos
+    auch auf der Github Site: <a href=\"https://github.com/noqqe/zombie-revolution-environment\"
+    rel=\"nofollow\">https://github.com/noqqe/zombi...</a> ^^</p>"
+  date: '2011-11-13T17:01:44'
 date: '2011-10-02T21:58:50'
 tags:
 - graphen

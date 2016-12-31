@@ -2,6 +2,32 @@
 aliases:
 - /blog/2010/07/04/perl-ich-hatte-doch-das-kamelbuch-nehmen-sollen
 - /archives/1087
+comments:
+- author: otzenpunk
+  content: "<p>Die Perl-B\xFCcher von O'Reilly sind wirklich hervorragend. Allerdings
+    ist das \"Kamel-Buch\" eher eine umfassende Referenz der Sprache, als ein Einsteigerbuch.
+    Von den O'Reilly-Perl-B\xFCchern, die ich besitze, war es mir eigentlich mit am
+    wenigsten von Nutzen. \"Einf\xFChrung in Perl\" war da weit fl\xFCssiger zu lesen.
+    Solltest du dir noch ein Perl-Buch zulegen wollen, empfehle ich von O'Reilly auf
+    jeden Fall das \"Perl Kochbuch\" und/oder \"Einf\xFChrung in Perl-Objekte, Referenzen
+    &amp; Module\". (Und nat\xFCrlich \"Regul\xE4re Ausdr\xFCcke\". Das ist zwar nicht
+    perl-spezifisch, aber Perl ohne RegExes ist nur eine halbe Sprache.)</p>"
+  date: '2010-07-08T14:41:48'
+- author: noqqe
+  content: "<p>Hi otzenpunk,</p><p>na das h\xF6rt sich doch mal an als w\xFCsstes
+    du von was du sprichst ;) </p><p>Regul\xE4re Ausdr\xFCcke hab ich schon durch.
+    Hat auch wirklich sehr geholfen :)</p><p>Ich weiss nur nicht ob das Einf\xFChrung
+    in Perl jetzt nicht schon zu... naja. \xDCberfl\xFCssig ist, da ich das andere
+    Buch und Tutorial des Perlboards schon gelesen habe.</p><p>oder was meinst du?</p>"
+  date: '2010-07-09T00:02:23'
+- author: otzenpunk
+  content: "<p>&gt; Ich weiss nur nicht ob das Einf\xFChrung in Perl jetzt nicht schon
+    zu\u2026 naja. \xDCberfl\xFCssig ist</p><p>Richtig. So hatte ich das auch gemeint.
+    Ich w\xFCrde mit dem Kochbuch fortfahren.</p>"
+  date: '2010-07-12T21:22:22'
+- author: noqqe
+  content: <p>Ah, okay :) <br>Ich denke das werde ich auch :)</p>
+  date: '2010-07-16T19:53:06'
 date: '2010-07-04T07:17:00'
 tags:
 - development

@@ -2,6 +2,20 @@
 aliases:
 - /blog/2011/11/26/loading-eine-bash-progress-bar
 - /archives/1819
+comments:
+- author: no bo dy
+  content: <p>Wieso komme ich nur immer auf solche Sachen? Aber:</p><p>./<a href="http://loading.sh"
+    rel="nofollow">loading.sh</a> 5 0.05 "    8" = D</p>
+  date: '2011-11-26T21:52:50'
+- author: nuit
+  content: <p>gibt es bereits :)</p><p>zumindest in arch gibt es im community repository
+    ein bash script namens "bar".<br><a href="http://pastebin.com/GzRgiWzF" rel="nofollow">http://pastebin.com/GzRgiWzF</a></p><p>aber
+    nette idee und schoen ausgefuehrt :)</p>
+  date: '2011-11-28T08:35:11'
+- author: noqqe
+  content: '<p>@no bo dy: ;D na klar. </p><p>@nuitmh ich kann das script von arch
+    irgendwie nicht benutzen. Bekomme Syntax Errors.</p>'
+  date: '2011-11-29T00:52:23'
 date: '2011-11-26T12:53:21'
 tags:
 - development

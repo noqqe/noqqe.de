@@ -1,4 +1,74 @@
 ---
+comments:
+- author: nuit
+  content: <p>notmuch und emacs  als reader :D</p>
+  date: '2013-03-19T08:09:31'
+- author: Anaximander
+  content: <p>Auch wenn es etwas offtopic ist, was hat aus deiner Sicht gegen Claws
+    Mail gesprochen?</p>
+  date: '2013-03-19T08:15:53'
+- author: Martin
+  content: "<p>mutt (mit wie vielen externen Patches inzwischen? 10?) + offlineimap
+    (+ tool f\xFCr das Auslesen der Keychain) + mairix ist jetzt ein weniger retardiertes
+    Setup als out-of-the-box Tools wie Thunderbird oder ClawsMail?</p><p>Da kann ich
+    ja gleich sowas wie <a href=\"http://www.ulm.ccc.de/ChaosSeminar/2012/04_mmh\"
+    rel=\"nofollow\"><code>mmh</code></a> aufsetzen.</p>"
+  date: '2013-03-19T08:30:20'
+- author: noqqe
+  content: <p>Kranke Sau! :D</p>
+  date: '2013-03-19T08:40:51'
+- author: noqqe
+  content: "<p>Ich kann das garnicht so genau auf einen Punkt bringen. Evtl. h\xE4tte
+    ich nur noch mit Clawsmail warm werden m\xFCssen. Bzw. mich an ihn gew\xF6hnen
+    m\xFCssen - bei Thunderbird ging das ja damals auch.  Ganz aufgegeben hab ich
+    Clawsmail bisher noch nicht.</p>"
+  date: '2013-03-19T08:42:43'
+- author: noqqe
+  content: "<p>Naja, wollte ich sowas wie Thunderbird br\xE4uchte ich ja: offlineimap,
+    mutt-superbonus-patches, abook, mutt-print, pdf2text, mairix, w3m mailcap, usw...
+    </p><p>Was ich sagen will: Ich finds nicht retardiert, weil ich selektiv Komponenten
+    zu mutt hinzufuegen kann. </p><p>Was gibts denn noch f\xFCr externe Patches f\xFCr
+    mutt, au\xDFer sidebar?</p>"
+  date: '2013-03-19T08:46:05'
+- author: Martin
+  content: "<p>Mindestens 25, die zwar die meisten Distributionen einpflegen, aber
+    nicht Upstream gehen. Dazu gibt es halt noch den sidebar, trash, pgp-verbose-mime
+    und ignore-thread Patch.</p><p>Bei den &gt;100k Mails ist die Performance beim
+    Navigieren in Mutt fl\xFCssig? Mir kam das so vor, als ob das alles single-threaded
+    ist.</p>"
+  date: '2013-03-19T08:51:18'
+- author: noqqe
+  content: "<p>Ah, jetzt weiss ich was du meinst. Ja benutze auch das mutt-patched
+    \ Paket aus Debian. Wusste aber nicht, dass da mehr drinsteckt als der Sidebar
+    Patch. </p><p>Muss ich mir mal durchlesen :) </p><p>Die 100k Mails sind gr\xF6\xDFtenteils
+    in meinen Archives Ordnern. Hebe in Inbox nur das aktuelle Jahr auf und auch da
+    sortiere ich Teilweise schon Themenorientiert in den Archives 2013 Ordner weg.</p>"
+  date: '2013-03-19T08:56:03'
+- author: Anaximander
+  content: "<p>Erinnert mich an meinen Umstieg von Kmail zu Claws Mail. Da war ich
+    anfangs auch nicht zufrieden, ohne wirklich sagen k\xF6nnen wieso. Inzwischen
+    kann ich mir nicht mehr vorstellen Kmail zu nutzen.</p>"
+  date: '2013-03-19T13:12:24'
+- author: dakira
+  content: "<p>Hab ich was verpasst? Thunderbird wird doch weiterhin von der Community
+    weitergepflegt. Von Mozilla kam auch schon bei den letzten \"offiziellen\" releases
+    nichts substanzielles mehr. Die meisten \xC4nderungen kamen von Extern. Die haben
+    es doch nur offiziell gemacht, dass andere sich besser um Thunderbird k\xFCmmern.
+    Und diese \"anderen\" haben auch direkt gesagt, dass sie weiter in Thunderbird
+    investieren.<br>Edit: <a href=\"http://www.soeren-hentzschel.at/mozilla/thunderbird/2012/07/23/die-zukunft-von-thunderbird-ausblick-auf-kommende-features/\"
+    rel=\"nofollow\">Hier</a> mehr Informationen dazu und <a href=\"http://www.soeren-hentzschel.at/mozilla/thunderbird/2013/03/08/mozilla-veroffentlicht-thunderbird-20-0-beta/\"
+    rel=\"nofollow\">Thunderbird 20</a> ist auch gerade raus.</p>"
+  date: '2013-03-19T16:33:06'
+- author: Jochen
+  content: "<p>Warum syncst du nicht dein IMAP dauerhaft in das Maildir und l\xE4sst
+    den Mutt auf das locale Maildir los? Was bringt es dir zwei imap-Clients und verschiedene
+    Datenbasen zu haben?</p>"
+  date: '2013-03-22T19:00:09'
+- author: noqqe
+  content: "<p>naja, Mails am Handy und an anderen Rechnern. Das ist dann nicht mehr
+    so wirklich Konsistent. So hab ich das Maildir nur f\xFCrs Suchen, Rest benutzt
+    weiterhin IMAP.</p>"
+  date: '2013-03-24T12:45:42'
 date: '2013-03-18T20:00:00'
 tags:
 - index

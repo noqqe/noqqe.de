@@ -3,6 +3,14 @@ aliases:
 - /archives/459
 - /blog/2009/02/03/teeworlds-server-how-to/
 - /blog/2009/02/03/teeworlds-server-howto/
+comments:
+- author: crackpod
+  content: "<p>Warum f\xFChle ich mich gerade diskriminiert?</p>"
+  date: '2009-02-04T20:09:54'
+- author: Thomas
+  content: "<p>@crackpod, ich wei\xDF auch nicht?!?</p><p>So, ich bin dann mal weg,
+    teeworlds zocken =)</p>"
+  date: '2009-02-07T23:39:28'
 date: '2009-02-03T20:32:47'
 slug: teeworlds-server-howto
 tags:

@@ -2,6 +2,26 @@
 aliases:
 - /archives/1714
 - /blog/2011/07/24/abschlussprufung-zentrales-versionskontrollsystem-mit-git-und-etckeeper
+comments:
+- author: Baul
+  content: "<p>Gl\xFCckwunsch! Schaut \xFCbrigens interessant aus, deine Arbeit :)</p>"
+  date: '2011-07-24T22:05:39'
+- author: Thoys
+  content: <p>Gratulation!</p>
+  date: '2011-07-25T01:08:49'
+- author: noqqe
+  content: "<p>Dankesch\xF6n! :)</p>"
+  date: '2011-07-25T14:18:47'
+- author: "dv\xE4rg hoffmann"
+  content: "<p>cooles ding, k\xF6nnte man als blaupause f\xFCr die die newbs, die
+    nicht so richtig wissen, wie sie ihre /etc und ~/.conf ordner mittels github in
+    die reihe kriegen, nutzen. hut ab</p>"
+  date: '2012-01-12T10:24:51'
+- author: noqqe
+  content: "<p>:) Um einfach verst\xE4ndlich zu sein ist zu viel Zeugs drin, was die
+    IHK von einem verlangt. Am Rande ist man ja auch hier Kaufmann und muss wirtschaftliche
+    Gedanken einf\xFCgen. </p><p>Gibts auch k\xFCrzere Tutorials, aber danke :)</p>"
+  date: '2012-01-12T13:36:46'
 date: '2011-07-24T16:56:32'
 tags:
 - etckeeper

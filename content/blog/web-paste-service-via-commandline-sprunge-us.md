@@ -2,6 +2,24 @@
 aliases:
 - /archives/854
 - /blog/2010/01/26/web-paste-service-via-commandline-sprunge-us
+comments:
+- author: Maxe
+  content: "<p>Mein Lieblingspastebin ( <a href=\"http://paste.pocoo.org/\" rel=\"nofollow\">http://paste.pocoo.org/</a>
+    ) bietet auch ein Konsolentool \u2192 <a href=\"http://paste.pocoo.org/help/integration/\"
+    rel=\"nofollow\">http://paste.pocoo.org/help/in...</a></p><p>:P</p>"
+  date: '2010-01-27T01:30:18'
+- author: Sven
+  content: "<p>Das ist ja gro\xDFartig.<br>Ich habe bei Opera gerade eine neue Suche
+    definiert und f\xFCr diesen Dienst angepasst. Hat keine halbe Minute gedauert.<br>So
+    kann ich im Browser ein Text markieren und statt nach ihm zu suchen eben zu <a
+    href=\"http://sprunge.us\" rel=\"nofollow\">sprunge.us</a> schicken. Oder in die
+    Adresszeile per \"sprunge text der gepastet werden soll\".<br>Vielen Danke daf\xFCr!</p>"
+  date: '2010-01-27T05:29:23'
+- author: noqqe
+  content: '<p>@Maxe: Ja paste.pocoo hab ich auch lang benutzt. aber das tool kannte
+    ich garnicht...</p><p>@sven: Ja? So hab ich das noch garnicht gesehen. Super improvisiert!
+    :D</p>'
+  date: '2010-01-29T00:33:32'
 date: '2010-01-26T16:28:38'
 tags:
 - development

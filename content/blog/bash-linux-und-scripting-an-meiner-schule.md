@@ -2,6 +2,19 @@
 aliases:
 - /blog/2010/05/20/bash-linux-und-scripting-an-meiner-schule
 - /archives/1005
+comments:
+- author: nicohofmann
+  content: <p>Setzen 1</p>
+  date: '2010-05-20T23:28:50'
+- author: noqqe
+  content: <p>test1</p>
+  date: '2011-12-28T20:52:07'
+- author: noqqe
+  content: <p>test2</p>
+  date: '2011-12-28T20:52:14'
+- author: noqqe
+  content: <p>test3</p>
+  date: '2011-12-28T20:52:23'
 date: '2010-05-20T18:03:32'
 tags:
 - development

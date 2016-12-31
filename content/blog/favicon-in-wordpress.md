@@ -2,6 +2,13 @@
 aliases:
 - /blog/2009/02/24/favicon-in-wordpress
 - /archives/514
+comments:
+- author: Dr. Azrael Tod
+  content: "<p>\xF6hm.. hab ich auch ;-P</p>"
+  date: '2009-02-25T01:33:18'
+- author: noqqe
+  content: <p>wie hast du das denn gemacht?</p>
+  date: '2009-02-25T02:25:21'
 date: '2009-02-24T16:29:20'
 tags:
 - wp

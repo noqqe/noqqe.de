@@ -2,6 +2,30 @@
 aliases:
 - /blog/2010/08/12/gitosis-debugging-undokumentiertes-und-konfiguration
 - /archives/1175
+comments:
+- author: surtic
+  content: "<p>Moin,</p><p>Du bringst es echt auf den Punkt, als ich vor etwa 1 Jahr
+    f\xFCr mich Gitosis Konfiguriert und dann entlich mal zum laufen gebracht habe
+    verging so seine Zeit. Vor allem das mit dem Hook post-update war keine einfache
+    Sache.</p><p>Wie w\xE4re es mit einen Wiki Eintrag bei <a href=\"http://ubuntuusers.de\"
+    rel=\"nofollow\">ubuntuusers.de</a> zu erstellen?</p><p>greez</p>"
+  date: '2010-08-13T10:10:36'
+- author: noqqe
+  content: "<p>Hi surtic: Danke, sch\xF6n dass es bei sowas nicht nur mir so geht.
+    <br>Ob bei ubuntuusers Bedarf f\xFCr so einen Eintrag besteht weiss ich nicht.
+    Vielleicht erstelle ich einen :)</p>"
+  date: '2010-08-13T10:41:21'
+- author: philipp
+  content: "<p>Es gibt BTW eine example.conf</p><p><a href=\"http://eagain.net/gitweb/?p=gitosis.git;a=blob;f=example.conf;h=87bd822fc17ebfe0132f7060afa8036f84c3be99;hb=HEAD\"
+    rel=\"nofollow\">http://eagain.net/gitweb/?p=gi...</a></p><p>Die ist interessant,
+    da steht z.B. drinne, wie gruppen mitglied einer anderen gruppe werden k\xF6nnen!...</p><p>(subdirs
+    behandeln sie nur implizit, weil eines mit subdir angegeben wird)</p>"
+  date: '2011-01-20T19:49:43'
+- author: noqqe
+  content: "<p>Hallo Phillip,</p><p>Danke :) Ich hab mittlerweile aber nicht mehr
+    wirklich Bedarf f\xFCr gitosis. </p><p>Bin auf gitolite umgestiegen, da gitosis
+    an sich ja auch nicht mehr weiter entwickelt wird. :(</p>"
+  date: '2011-01-20T20:49:31'
 date: '2010-08-12T17:46:44'
 tags:
 - gitserver

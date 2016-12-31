@@ -1,6 +1,10 @@
 ---
 aliases:
 - /archives/66
+comments:
+- author: noqqe
+  content: <p>Testkommentar</p>
+  date: '2009-03-07T23:43:07'
 date: '2008-05-31T10:06:30'
 slug: 2-weitere-probleme-vista-abschied-sicher
 tags:

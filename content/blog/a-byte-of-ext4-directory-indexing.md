@@ -1,6 +1,59 @@
 ---
 aliases:
 - /blog/2012/03/08/a-byte-of-ext4-directory-indexing/
+comments:
+- author: Ice Polar
+  content: "<p>\_Mir pers\xF6hnlich gefallen solche Hintergrundinformationen ganz
+    besonders, denn sie zeigen auf, was unter der Oberfl\xE4che alles passiert. Die
+    Systeme heutzutage sind derart komplex, so dass sich keiner mehr wirklich im Klaren
+    dar\xFCber ist, worauf er sich da unter Umst\xE4nden verl\xE4sst... Und so ein
+    Filesystem ist doch immer wieder eine grundlegende Funktion, die man einfach mal
+    so benutzt also ob das die einfachste Sache der Welt w\xE4re.</p>"
+  date: '2012-03-09T19:45:48'
+- author: noqqe
+  content: "<p>\_Geb ich dir Recht. War auch interessant zum Debuggen. Hat Spa\xDF
+    gemacht. </p>"
+  date: '2012-03-09T20:09:29'
+- author: sebix
+  content: "<p>\_debugfs ist als root auszuf\xFChren nicht als normaler User</p>"
+  date: '2012-03-12T20:14:40'
+- author: noqqe
+  content: "<p>\_Ich nehme an du machst das an dem Prefix $ fest, dass ich als Identifier
+    f\xFCr Shell Commands verwende, # f\xFCr Kommentare. </p><p>Das ist jedenfalls
+    ein Trugschluss :) </p><p></p>"
+  date: '2012-03-12T20:17:59'
+- author: sebix
+  content: <p>Du hast vollkommen recht ;)</p>
+  date: '2012-03-13T12:34:27'
+- author: Ice Polar
+  content: "<p>Ob jemand einmal etwas zu den Unterschieden zwischen ext4 und dem neuen
+    MS REFS ( \"Resilient File System\") sagen kann?\_</p>"
+  date: '2012-03-14T21:59:02'
+- author: Datenbank archINFORM
+  content: "<p>Hi Florian,</p><p>Hatte gerade das gleiche Problem beim zwischencache
+    eines webservers und war auch erstmal ziemlich ratlos, da noch gen\xFCgend Inodes
+    und Plattenplatz zur Verf\xFCgung standen. <br>\"Man schafft ein Feature,<br>dass
+    dann einspringt wenn es viele Files werden (bei meinen Tests ab 300.000<br>Files),
+    welches dann sp\xE4ter wegen diesen vielen Files zu fehlern f\xFChrt.\" gut auf
+    den Punkt gebracht! ;)<br>Mich w\xFCrde ja jetzt ziemlich interessieren, wie sich
+    denn nun die maximale Anzahl Files pro Directory bei gegebener Blockgr\xF6\xDFe,
+    etc. berechnen l\xE4sst. Wirklich ein ziemliches Loch in der offiz. Doku. Diese
+    Info ist ja bei entsprechenden Anforderungen schon bei der Einrichtung der Partition
+    (Blockgr\xF6\xDFe/Inodeanzahl) essentiell.</p><p>Gru\xDF, Sascha\_ \_ </p>"
+  date: '2012-03-20T08:11:41'
+- author: noqqe
+  content: "<p>\_Jap. Also in den Test-Cases habe ich immer ne max Limit Count von
+    508 gefunden. Wie man das ext4 formatieren muss um da mehr zu erreichen w\xFCrde
+    mich auch interessieren... <br>Wahrscheinilch ists aber statisch..</p>"
+  date: '2012-03-22T18:10:37'
+- author: Daniii
+  content: Toller Artikel!!! hat mir sehr geholfen... haben uns dagegen entschieden
+    den index einzusetzen :-)
+  date: '2014-07-31T08:57:42.091639'
+- author: Anonymous
+  content: "Danke f\xFCr den Blogbeitrag! Der war ebenfalls einer der Gr\xFCnde, wodurch
+    ich auf das Feature von ext4 verzichtet habe."
+  date: '2015-10-14T12:06:16.745945'
 date: '2012-03-08T17:38:00'
 tags:
 - index

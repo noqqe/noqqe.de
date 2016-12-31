@@ -1,4 +1,32 @@
 ---
+comments:
+- author: Anaximander
+  content: "<p>Ich bin ebenfalls bei Uberspace. Mehr E-Mail-Spam kann ich bei mir
+    nicht nachvollziehen. Im Bogofilter bleibt bei mir nicht mehr h\xE4ngen als sonst
+    auch. Spamassassin nutze ich allerdings nicht.</p>"
+  date: '2012-12-08T15:57:02'
+- author: noqqe
+  content: "<p>Bogofilter? Wie kann ich mir das jetzt vorstellen? L\xE4uft das auf
+    den Servern schon? Selber installiert?</p>"
+  date: '2012-12-08T16:07:35'
+- author: Anaximander
+  content: "<p>Nein, der l\xE4uft bei mir lokal und klinkt sich in mein E-Mail-Programm
+    ein. Bin ehrlich gesagt zu faul das zu \xE4ndern, da die Trefferquote inzwischen
+    bei 99,x% liegt und einige meiner anderen E-Mail-Adressen bei Anbietern sind,
+    die oft keinen bzw. einen ziemlich schlechten Spamfilter anbieten.</p><p>Ich vermute
+    aber, dass Bogofilter durchaus bei Uberspace laufen sollte, da er z. B. mit diversen
+    MDA, wie den von <a href=\"http://uberspace.de\" rel=\"nofollow\">uberspace.de</a>
+    verwendeten maildrop zusammenarbeitet. M\xFCsste man eigentlich mal ausprobieren...</p>"
+  date: '2012-12-08T19:22:31'
+- author: noqqe
+  content: "<p>Das werd ich mir definitv mal durchschauen. Danke f\xFCr den Tipp!</p>"
+  date: '2012-12-09T09:09:46'
+- author: noqqe
+  content: "<p>btw: Hab jetzt spamassassin durch bogofilter ersetzt. Seither keine
+    einzige Spam Mail mehr in meiner Inbox. Alles super erkannt. Trainiere das teil
+    jetzt im -u Mode und regelm\xE4\xDFig alle Stunde \xFCber nen Cronjob (wenn ich
+    manuell was verschiebe). </p><p>Danke - Super Teil.</p>"
+  date: '2012-12-22T11:20:05'
 date: '2012-12-08T11:12:00'
 tags:
 - stats

@@ -3,6 +3,15 @@ aliases:
 - /archives/73
 - /blog/2008/06/14/hardy-und-widescreen-jetzt-doch-/
 - /blog/2008/06/14/hardy-und-widescreen-jetzt-doch/
+comments:
+- author: CracKPod
+  content: "<p>Hallo,<br>Ich bin auch seit kurzem ein begeisterter Ubuntu Fan und
+    habe auch einen Blog der sich um das Thema Ubuntu/Linux/Freie|Open-Source-Software
+    dreht und w\xE4re sehr an einem Bannertausch o.\xE4 mit dir interessiert. Falls
+    du also Lust haben solltest schick mir bitte eine E-Mail oder erreiche mich per
+    ICQ / MSN.</p><p>---<br>E-Mail: CracKPod@googlemail.com<br>ICQ: 414059439<br>MSN:
+    CracKPod@googlemail.com</p>"
+  date: '2008-06-15T16:42:03'
 date: '2008-06-14T10:18:19'
 slug: hardy-und-widescreen-jetzt-doch
 tags:

@@ -2,6 +2,13 @@
 aliases:
 - /blog/2010/06/17/creative-commons-freies-wissen-und-inhalte-auf-noqqe-de
 - /archives/1049
+comments:
+- author: Thoys
+  content: "<p>Stark von dir.</p><p>(Klingt nach Ironie, ist aber ernst gemeint.)</p><p>Und
+    dass ich die freien Lizenzen toll finde muss ich wohl kaum sagen. </p><p>Ohne
+    diese w\xFCrde Windows funktionieren und alles von Apple rechtlich gesch\xFCtzt.
+    :-)</p><p>Die Welt w\xE4re ein bisschen schwarzer. gg</p><p>Gr\xFC\xDFe Thoys</p>"
+  date: '2010-06-24T02:11:31'
 date: '2010-06-17T17:43:32'
 tags:
 - development

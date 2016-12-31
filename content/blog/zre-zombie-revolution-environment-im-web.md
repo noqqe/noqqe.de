@@ -2,6 +2,11 @@
 aliases:
 - /archives/1500
 - /blog/2011/03/06/zre-zombie-revolution-environment-im-web
+comments:
+- author: F00b4r
+  content: "<p>Ein Gl\xFCck, das die bash unter OSX lauff\xE4hig ist. Man k\xF6nnte
+    aber auch Solaris nehmen ... oder cygwin!</p>"
+  date: '2011-03-07T03:39:41'
 date: '2011-03-06T14:06:38'
 tags:
 - web

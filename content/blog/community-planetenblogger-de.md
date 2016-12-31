@@ -2,6 +2,13 @@
 aliases:
 - /blog/2010/03/01/community-planetenblogger-de
 - /archives/920
+comments:
+- author: Thomas
+  content: "<p>Ich wei\xDF ja nicht, ob das Absicht ist, aber die drei Links dort
+    unten zeigen einfach auf die Startseite... Vermutlich weil die Links dorthin eigentlich
+    nur \"JavaScript-Links\" sind.<br>Aber, naja, selbst wenn man den Links immer
+    auf die Startseite folgt, findet man sich da vermutlich schon zurecht. ;-)</p>"
+  date: '2010-03-10T11:43:25'
 date: '2010-03-01T17:23:26'
 tags:
 - blog

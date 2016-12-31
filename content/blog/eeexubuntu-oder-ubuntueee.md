@@ -1,6 +1,14 @@
 ---
 aliases:
 - /archives/108
+comments:
+- author: Dr. Azrael Tod
+  content: "<p>Alternativvorschlag: Pupeee<br>nicht unbedingt die DAU-tauglichste
+    Distri aber daf\xFCr extrem klein und schnell.. also ideal f\xFCr den Eee</p>"
+  date: '2008-07-14T15:27:40'
+- author: noqqe
+  content: <p>Sieht verdammt nach KDE aus...kann das sein?</p>
+  date: '2008-07-14T16:08:40'
 date: '2008-07-14T11:18:52'
 slug: eeexubuntu-oder-ubuntueee
 tags:

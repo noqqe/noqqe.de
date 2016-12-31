@@ -1,4 +1,12 @@
 ---
+comments:
+- author: Spion
+  content: <p>Also den Nippl willst Du auf jeden Fall benutzen und am besten auch
+    gleich das Touchpad im BIOS abschalten, da kommt man nur ungewollt drauf und dann
+    is der Frust gross.<br>Partitionen sichern, komprimiert und ohne den freien Platz
+    (wie mit dd), via Netzwerk geht absolut komfortabel via clonezille, vorrausgesetzt
+    man hat keine Allergie gegen Konsolen-Anwendungen. <br></p>
+  date: '2012-04-15T14:19:15'
 date: '2012-04-15T09:16:00'
 tags:
 - web

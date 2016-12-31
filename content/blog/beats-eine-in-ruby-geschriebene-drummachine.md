@@ -2,6 +2,20 @@
 aliases:
 - /blog/2011/05/22/beats-eine-in-ruby-geschriebene-drummachine
 - /archives/1680
+comments:
+- author: Jurkan
+  content: "<p>Super Sache! Ich hab vor nem halben Jahr mal was vergleichbares (mit
+    GUI) gesucht, bin aber nicht f\xFCndig geworden. BEATS entspricht da genau meinen
+    Vorstellungen, GUI braucht man bei dem einfachen Format nicht wirklich.</p><p>Das
+    Randomsong-Skript dazu ist ganz interessant, aber zum Gl\xFCck reicht meine Kreativit\xE4t
+    auch aus, um von Hand was einigerma\xDFen brauchbares zu erzeugen. Oder du setzt
+    einfach h\xF6here Ma\xDFst\xE4be an ;-)</p><p>Danke jedenfalls f\xFCr den Tipp.</p>"
+  date: '2011-05-23T01:21:01'
+- author: noqqe
+  content: "<p>Hi Jurkan! Super das es dir gef\xE4llt :) Der Autor von Beats hat mir
+    auch neulich Feedback dazu geben und fand es gerade zum Erstellen neuer Ideen
+    sehr hilfreich :)</p>"
+  date: '2011-05-24T18:02:20'
 date: '2011-05-22T18:38:54'
 tags:
 - development

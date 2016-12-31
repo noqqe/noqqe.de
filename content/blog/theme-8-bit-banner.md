@@ -2,6 +2,30 @@
 aliases:
 - /blog/2010/06/30/theme-8-bit-banner
 - /archives/1076
+comments:
+- author: xanvader
+  content: '<p>Hallo Flo, WOT (Web of Trust) - Meldung: "Diese Seite hat einen Schlechten
+    Ruf basierend auf Benutzerbewertungen". Was hast du dazu zu sagen, Schlechte Erfahrungen
+    gemacht?<br>NG xanvader aka xrolly</p>'
+  date: '2012-01-04T14:44:53'
+- author: noqqe
+  content: "<p>Mhpf. Ich hab das WebOfTrust Plugin gerade das erste Mal ausprobiert.
+    </p><p>Keine Ahnung wie sich da die Zahnr\xE4der drehen bei WOT oder wann ein
+    User sich in seiner H\xE4ndlerzuverl\xE4ssigkeit betrogen f\xFChlt.</p><p>Ich
+    fands da zwar auch bissl strange aber nur weils eben aus Japan ist. </p><p>Gruesse.</p>"
+  date: '2012-01-04T15:02:25'
+- author: xanvader
+  content: <p>Hey noqqe! <br>Okay, wenn's dir deinem System nicht "Weh getan hat"
+    ;-). Ich bin immer auf der Suche nach neuen Fonts. Werde es mir mal anschauen,
+    Danke fuer dein Feedback.<br>NG xanvader ..</p>
+  date: '2012-01-04T18:55:01'
+- author: xanvader
+  content: <p>Hey noqqe, die M36_L.E.D. BIT; BITMAP FONT's sagten mir u.a. auch zu,
+    Danke nochmals, NG</p>
+  date: '2012-01-04T19:00:01'
+- author: noqqe
+  content: "<p>Kein Problem. Ja da gibts viele sch\xF6ne :)</p>"
+  date: '2012-01-06T17:04:59'
 date: '2010-06-30T08:25:46'
 tags:
 - 8 bit

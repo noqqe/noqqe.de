@@ -2,6 +2,23 @@
 aliases:
 - /blog/2010/11/27/redmine-git-bare-repository-workaround
 - /archives/1396
+comments:
+- author: git spasti
+  content: "<p>Das ganze l\xE4uft effizienter wenn nicht geklont sondern lediglich
+    gepulled wird.</p><p>Mir f\xE4llt momentan kein Grund ein warum man an dieser
+    Stelle auf die Vorz\xFCge von Git (als SCM) verzichten sollte. Es ist nicht n\xF6tig
+    jedes mal einen Full-Clone zu machen.</p>"
+  date: '2011-12-22T23:01:26'
+- author: noqqe
+  content: "<p>Da hast du Recht. Das war auch mein erster Ansatz. </p><p>Aber ich
+    h\xE4tte mir da einen Check \xFCberlegen m\xFCssen obs das Repo schon gibt oder
+    ob es erst angelegt wurde und ich deshalb clonen m\xFCsste. </p><p>Darauf hatte
+    ich damals keine Lust und habs dann einfach alles wie es ist erschlagen.</p>"
+  date: '2011-12-27T14:12:49'
+- author: chris
+  content: "<p>Eigentlich nur Rechte Webserver auf die Dirs pr\xFCfen und ggf. bare
+    repo richtig chmoden!<br>Geht bei mir..!</p>"
+  date: '2012-11-28T18:59:21'
 date: '2010-11-27T11:49:42'
 tags:
 - development

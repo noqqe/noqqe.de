@@ -2,6 +2,21 @@
 aliases:
 - /blog/2010/11/22/github-sinn-unsinn-interfaces-und-schon-wieder-zombies
 - /archives/1383
+comments:
+- author: Flyingmana
+  content: "<p>Hast du schon mal versucht, dass bei Github direkt vorzuschlagen?^^</p><p>Was
+    ich bei Github ansonsten praktisch finde, und dir vielleicht hilft, wenn du nicht
+    zwingend das github dashboard verwenden willst. Du kannst auch einzelne Repos
+    als Feed abonieren. Das w\xE4re zum Beispiel gut, um die dir wichtigen Repos nochmal
+    speziell im Auge zu behalten, da du dann ja auch ein gelesen/ungelesen status
+    hast.</p>"
+  date: '2010-11-23T04:28:23'
+- author: noqqe
+  content: <p>Oh, gute Idee mit dem RSS-Feed. Aber ob ich da auch Fork Informationen
+    bekomme? Mh. Werd ich auf jedenfall mal ausprobieren. </p><p>Bei Github direkt
+    hab ichs nicht vorgeschlagen nein ;) Die Idee ist bestimmt nicht kompliziert.
+    Die Umsetzung von sowas in einer Datenbank von Github bestimmt :)</p>
+  date: '2010-11-23T13:02:02'
 date: '2010-11-22T19:30:35'
 tags:
 - development

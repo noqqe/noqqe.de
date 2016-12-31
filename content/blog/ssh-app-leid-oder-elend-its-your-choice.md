@@ -2,6 +2,15 @@
 aliases:
 - /blog/2010/07/28/ssh-app-leid-oder-elend-its-your-choice
 - /archives/1164
+comments:
+- author: Dr. Azrael Tod
+  content: "<p>Tja.. ich hab connectbot bzw. Das davon abgeleitete irssi-connectbot.</p><p>Kostenlos,
+    ziemlich brauchbar aber leider f\xFCr android.</p><p>Tut \xFCberhaupt nichts zur
+    sache, aber musste ich jetzt einfach mal anmerken... *druck und rennen*</p>"
+  date: '2010-07-28T14:54:11'
+- author: noqqe
+  content: <p>Bin es ja schon gewohnt von dir ;)</p>
+  date: '2010-07-28T15:43:47'
 date: '2010-07-28T09:19:30'
 tags:
 - osx

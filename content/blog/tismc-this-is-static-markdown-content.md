@@ -2,6 +2,10 @@
 aliases:
 - /archives/1243
 - /blog/2010/09/19/tismc-this-is-static-markdown-content
+comments:
+- author: Holger
+  content: "<p>Ich \xE4\xE4h nixe Disain\xE4r. Aber FLEISCHk\xE4se okay .D</p>"
+  date: '2010-09-21T20:23:05'
 date: '2010-09-19T14:09:00'
 tags:
 - development

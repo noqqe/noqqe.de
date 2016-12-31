@@ -2,6 +2,12 @@
 aliases:
 - /archives/970
 - /blog/2010/04/05/wordpress-archive-page-erstellen
+comments:
+- author: Shanelle Powanda
+  content: <p>Meine private Homepage im i-Net. Hier schreibe ich zu viel Zeug die
+    ich intresant find wenn ich Zeit finde. Es macht mir Freude zu philosophieren,
+    und ich freue mich wenn du bald die home page ankuckst (o:</p>
+  date: '2011-05-17T13:50:34'
 date: '2010-04-05T18:01:16'
 tags:
 - development

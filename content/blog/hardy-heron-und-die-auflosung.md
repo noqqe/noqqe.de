@@ -1,6 +1,22 @@
 ---
 aliases:
 - /archives/72
+comments:
+- author: Dominik
+  content: "<p>Was f\xFCr einen Bildschirmtreiber hat displayconfig erkannt? Manchmal
+    muss man die Verwendung der propriet\xE4ren Treiber erzwingen und mit denen klappt's
+    bei mir recht gut bei 1680x1050...<br>Allerdings nur solange ich meinen (analogen)
+    Monitor nicht via DVI-Adapter anschliesse, sondern nur direkt am (2.) VGA-Ausgang.
+    \xDCber den DVI-Adapter klappt wohl die Abfrage der Bildschirmparameter mittels
+    DDC nicht.<br>Ansonsten k\xF6nnte man noch versuchen displayconfig die Windows
+    INF-Datei f\xFCr den Monitor anzugeben. Ich meine mich zu erinnern, da\xDF das
+    geht.</p>"
+  date: '2008-06-13T01:44:16'
+- author: seufz
+  content: "<p>Aha ;)<br>Um es mit den Worten des Kommentators des Deutschlandspiels
+    auszudr\xFCcken \"Eine Verkettung von Zuf\xE4llen hat zum Tor (Ziel) gef\xFChrt!\"</p><p>Danke
+    f\xFCr die Anst\xF6\xDFe!<br>Ganze Geschichte kommt im n\xE4chsten Blogeintrag!</p>"
+  date: '2008-06-13T20:53:30'
 date: '2008-06-12T12:38:24'
 slug: hardy-heron-und-die-auflosung
 tags:

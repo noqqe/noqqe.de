@@ -1,6 +1,17 @@
 ---
 aliases:
 - /archives/63
+comments:
+- author: zypral
+  content: "<p>Mit deinem letzten Wort hast du den Eee doch erw\xE4hnt. :P</p>"
+  date: '2008-05-23T19:21:34'
+- author: seufz
+  content: <p>Argh!!<br>Da hast du Recht :(</p>
+  date: '2008-05-23T19:37:06'
+- author: Dopamine
+  content: <p>Somehow i missed the point. Probably lost in translation :) Anyway ...
+    nice blog to visit.</p><p>cheers, Dopamine!!</p>
+  date: '2008-06-20T22:23:06'
 date: '2008-05-23T09:55:05'
 slug: dateiberechtigungen-und-ihr-sinn
 tags:

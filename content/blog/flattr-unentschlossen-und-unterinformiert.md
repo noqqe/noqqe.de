@@ -2,6 +2,21 @@
 aliases:
 - /blog/2010/06/04/flattr-unentschlossen-und-unterinformiert
 - /archives/1024
+comments:
+- author: Jan Hofmann
+  content: "<p>ich in einer Reihe mit mspr0 und fefe :D Danke f\xFCr den Pingback!</p><p>Gru\xDF,
+    Jan</p>"
+  date: '2010-06-04T22:49:18'
+- author: vectrex71
+  content: "<p>Ich habe Flattr auch in meinem Blog, doch irgendwie hatte ich seit
+    1 Monat erst 2 Klicks. Da mache ich mehr kohle mit AdSense, das ist f\xFCr den
+    User der einfachste Weg und er wird nicht nur seine Kolhle los die er ja bei Flattr
+    zuerst mitbringen muss und das MONATLICH !!! Sondern wenn der User aus Dank auf
+    eine Adsense Werbung klickt, dann findet er eventuell ja noch was interessantes
+    hinter dem Adsense Klick und es hat ihn NICHTS aber auch gar nichts gekostet !
+    Ich gedenke nach einem Monat der morgen endet Flattr wieder aus dem Blog zu nehmen.
+    F\xFCr mich nur eine Modeerscheinung die so unn\xFCtz ist wie altes Brot.</p>"
+  date: '2010-06-29T22:20:09'
 date: '2010-06-04T16:00:22'
 tags:
 - web

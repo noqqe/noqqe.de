@@ -2,6 +2,97 @@
 aliases:
 - /archives/1833
 - /blog/2011/12/21/arduino-ich-bau-mir-einen-synthesizer
+comments:
+- author: Knorkebrot
+  content: "<p>Mit Verlaub, das ist fett. Da bekommt man glatt auch Lust mal was in
+    der Richtung zu machen.<br>Steuert man den Ton nur \xFCber die Potenziometer oder
+    ist das auch programmierbar? Braucht man dazu ein gr\xF6\xDFeres Vorwissen in
+    Sachen Elektronik? In Physik war ich trotz astreinem Mathe immer eine Niete. :/</p>"
+  date: '2011-12-22T17:23:21'
+- author: noqqe
+  content: "<p>Hi Knorkebrot: Naja also generell kommen die analogen Signale von den
+    Potenziometern. </p><p>Diese werden dann (vermute ich) gegen die Werte Tabellen
+    in der Firmware gedr\xFCckt (oben im Code) und unten werden alle diese Werte dann
+    miteinander verheiratet/verwurstet. </p><p>Du kannst also auch die Tables bzw.
+    den ganzen Code anpassen um andere T\xF6ne zu erhalten. </p><p>Aber ich finde
+    die Software daf\xFCr sehr Tricky weil Sie so Hardware nah ist und ich von Arduino
+    Programmierung auch noch nicht sooooo die Welt Ahnung hab. </p><p>Hab mal mit
+    ein paar Unterschiedlichen Werten im MidiTable experimentiert, aber im Endeffekt
+    bin ich bei der Original Firmware geblieben. </p><p>Solltest dus auch bauen: Bloggen!
+    :P</p>"
+  date: '2011-12-22T18:19:51'
+- author: noqqe
+  content: "<p>Achja und: Nein man braucht kein gr\xF6\xDFeres Vorwissen in Elektronik.
+    Das besitze ich n\xE4mlich auch definitiv _nicht_. </p><p>Lediglich die einfachsten
+    Grundlagen sollte man kennen.</p>"
+  date: '2011-12-22T18:25:07'
+- author: Knorkebrot
+  content: "<p>Hm, ja, h\xE4tte ich auch gleich mal in den Source gucken k\xF6nnen,
+    nicht?<br>(*.pde ist \xFCbrigens nur ein C Source File, falls dar\xFCber noch
+    jemand stolpert und sich extra die dicke Arduino IDE runterl\xE4d...)</p><p>Das
+    sieht eigentlich nicht sonderlich schwer aus, es werden halt einfach nur Werte
+    ausgelesen, gemapt und f\xFCr die Ausgabe zwischengespeichert. Was da dann passiert,
+    muss einen ja nicht wirklich interessieren, aber auch das ist an sich keine Magie
+    - musst nur wissen was mit Dreieckswelle, Phase, Grain(?) und alles meint. Keine
+    Ahnung von dem Schnick Schnack. ;)</p><p>Aber man k\xF6nnte sich auf jeden Fall
+    die Potenziometer sparen, wenn man eine vorprogrammierte Melodie haben will. Man
+    m\xFCsste nur die Werte kennen, die dort herausfallen und sie sich abtippen.<br>Oder
+    um die Idee etwas weiter zu spinnen, man k\xF6nnte einen Ethernet Arduino nehmen,
+    dem einen Schalter verpassen, der in der loop() abgefragt wird. Ist er aktiv,
+    wird die Tonausgabe ausgeschaltet und der Interrupttimer deaktiviert. Jetzt kann
+    man auf dem Ethernetport lauschen und annehmen, was kommt, das schreibt man sich
+    in das Array und schon hat man eine neue Melodie.<br>Legt man den Schalter wieder
+    um, wird die Interruptschleife wieder gestartet.</p><p>Ich glaube ich spreche
+    heute Abend mal mit dem Arduino-M\xE4n im \xF6rtlichen Chaostreff.</p>"
+  date: '2011-12-22T21:49:04'
+- author: noqqe
+  content: "<p>Mh naja. Also das gibts ja oft zu h\xF6ren, dass die IDE so \xFCberladen
+    w\xE4re und auch sonst nicht so toll. </p><p>Aber man darf nicht vergessen das
+    Arduino als Lernplattform gegr\xFCndet wurde. Und genau das kann Arduino wirklich
+    gut. </p><p>Ich brauch mir da keine riesen Gedanken machen wie die Software auf
+    den Flash kommt usw. Ich dr\xFCcke drauf und es geht. Das finde ich schon sehr
+    sehr gut. Eben weil ich keine Ahnung davon habe wie sowas in der Industrie funktioniert.</p><p>Jop
+    das k\xF6nnte man auch in der Loop mit vordefinierten werten machen. Sicherlich.</p><p>Was
+    hat denn dein \xF6rtlicher Arudino Mensch so gesprochen?</p>"
+  date: '2011-12-27T14:08:14'
+- author: Knorkebrot
+  content: "<p>Oh, ich kenne die IDE ja gar nicht, ich hab mich nur ge\xE4rgert, dass
+    mir das nicht vorher aufgefallen ist, dass ich nicht mehr als einen einfachen
+    Editor brauchte, vim oder so. Ich hab mal schnell gegooglet, es gibt auf jeden
+    Fall auch einige nette CLI-Tools:<br><a href=\"http://arduino.cc/playground/FreeBSD/CLI\"
+    rel=\"nofollow\">http://arduino.cc/playground/F...</a></p><p>Ardunio-M\xE4n sagt:
+    Im Bereich des M\xF6glichen. (Er ist aber auch noch ziemlich am Anfang mit Ardunino,
+    wusste ich nicht :P ) Ich werde mich mal nach Silvester nach der Hardware umsehen,
+    da sollte ich etwas mehr Zeit im Alltag haben, richtig cool w\xE4re das dann ja
+    auch, wenn der noch PoE kann. Gibt ja auch dazu Erweiterungen f\xFCr den Arduino
+    und ein PoE Injector ist ja nicht sonderlich teuer.</p>"
+  date: '2011-12-28T19:42:35'
+- author: noqqe
+  content: <p>test</p>
+  date: '2011-12-28T21:30:59'
+- author: noqqe
+  content: <p>test2</p>
+  date: '2011-12-28T21:31:19'
+- author: Guest
+  content: "<p>Hey, ich w\xFCrde den auch gerne nachbauen, allerdings finde ich auf
+    der Seite den Download f\xFCr den Source-code nicht ... Oder ist der komplette
+    code schon das kleine Popel ding da, welches man nurnoch in eine schleife setzen
+    muss, wenn ja wie muss ich die inputs und alles definieren?<br>Am besten du postest
+    einfach mal den kompletten Code, w\xE4re sehr nett :)</p><p>Au\xDFerdem: kann
+    man als Potis auch x-beliebige lineare 4.7kohm potis nehmen oder braucht man die
+    vom Tinkershop?</p>"
+  date: '2012-12-09T20:03:45'
+- author: Anonymous
+  content: "hey ;)\nIch wei\xDF, dass das bei dir jetzt schon eine Weile her sein
+    mag, allerdings w\xFCrde ich den auch gerne nachbauen, hab aber absolut keine
+    Ahnung von Arduino und Programmieren. Bekomm ich das trotzdem hin und wie lange
+    wird es dauern? Weisst du das?\nUnd welche Bauteile w\xFCrde ich daf\xFCr ben\xF6tigen?\n"
+  date: '2014-02-23T11:53:45.354058'
+- author: Anonymous
+  content: 'Wo finde ich genau den Code?
+
+    Alles super aber den Code finde ich nicht'
+  date: '2014-04-12T10:32:14.294218'
 date: '2011-12-21T15:30:58'
 tags:
 - kabel

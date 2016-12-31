@@ -2,6 +2,21 @@
 aliases:
 - /blog/2008/07/18/gobbymulti-cursor-file-editing-oder-so-ahnlich-d
 - /archives/118
+comments:
+- author: Dr. Azrael Tod
+  content: "<p>vlt nicht ganz so gut f\xFCr gr\xF6\xDFere Projekte geeignet wie CVS
+    aber sicher sehr interessant zu lern- und spa\xDFzwecken...<br>Werd ich mir mal
+    ansehen. :-)</p>"
+  date: '2008-07-18T13:08:08'
+- author: noqqe
+  content: <p>Ach wir nehmen dich einfach mal in ein Session mit rein :)</p>
+  date: '2008-07-18T13:14:56'
+- author: charlysan
+  content: <p>Naja, also mit CVS hat das ja eigentlich nichts zu tun, mit dem Editor
+    kann man ja wirklich gleichzeitig live an einer Datei arbeiten (und hat nebenbei
+    sogar noch einen ganz netten Chat).<br>Also ich hab damit auch schonmal rumgespielt
+    und fand den echt cool, auch wenn man sowas ja nicht so oft braucht...</p>
+  date: '2008-07-20T20:58:04'
 date: '2008-07-18T08:38:15'
 tags:
 - development

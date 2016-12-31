@@ -2,6 +2,11 @@
 aliases:
 - /archives/606
 - /blog/2009/05/09/jabber-sendxmpp
+comments:
+- author: Ramiro Lapage
+  content: <p>Hi! Das ist mal wieder ein interessanter Artikel. Echt gut, dass es
+    so Blogs wie deinen gibt. :)</p>
+  date: '2010-09-05T22:13:16'
 date: '2009-05-09T17:28:30'
 tags:
 - development

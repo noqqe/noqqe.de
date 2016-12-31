@@ -1,4 +1,59 @@
 ---
+comments:
+- author: noqqe
+  content: "<p>Das ist ja der absolute Wahnsinn wie schrecklich der Post im ubuntuusers
+    Planeten aussieht.\_ </p>"
+  date: '2012-03-10T13:50:00'
+- author: Jakob
+  content: "<p>git diff --staged ist dasselbe wie git diff --cached, also ist der
+    Alias \u201Egsdiff\u201C \xFCberfl\xFCssig (Quelle: man 1 git-diff).</p>"
+  date: '2012-03-10T21:43:28'
+- author: Jakob
+  content: "<p>Was ich \xFCbrigens auch empfehlen kann: vcprompt (<a href=\"https://bitbucket.org/gward/vcprompt)\"
+    rel=\"nofollow\">https://bitbucket.org/gward/vc...</a>. Das kann man sehr sch\xF6n
+    in seinen Prompt einbauen. Woher wei\xDF eigentlich dein Blog, dass ich das dunkle
+    Solarized-Theme in meinem Terminal verwenden? :O Und ich habe \xFCbrigens auch
+    ein `git diff`-Alias:</p><p>&gt; gdf ist ein Alias von `git diff HEAD | pygmentize
+    -l diff | less -R'.</p>"
+  date: '2012-03-10T21:53:49'
+- author: noqqe
+  content: "<p>\_Auch nett sich pygmentize f\xFCr sowas zu holen :)<br></p>"
+  date: '2012-03-11T11:37:38'
+- author: sebix
+  content: <p>Nette Zusammenstellung, danke!</p>
+  date: '2012-03-12T20:31:06'
+- author: BO
+  content: "<p>Was machst du eigentlich mit build-Hinterlassenschaften bei\_parse_git_dirty()?
+    Auf ein build-Verzeichnis kann man sich ja nicht immer verlassen, das man evtl.
+    als ignore eintragen k\xF6nnte.\_Ich benutze erst seit ein paar Tagen ernsthaft
+    git(-svn) - keine Ahnung, wie da das \xFCbliche Vorgehen w\xE4re, wenn es eins
+    gibt.</p>"
+  date: '2012-03-14T02:12:22'
+- author: noqqe
+  content: "<p>Build hinterlassenschaften? Also Sachen die nicht Committet werden
+    (sollen?) </p><p>Naja das ist ganz einfach abh\xE4ngig davon wie du deine git
+    Repos pflegst. Eigentlich sollte dein Repo, wenn du nicht drin arbeitest, immer
+    sauber sein. Gibts auch ne coole Sammlung von ignore Sets auf github die du vielleicht
+    nutzen willst. </p>"
+  date: '2012-03-14T06:55:39'
+- author: noqqe
+  content: "<p>Hast du nat\xFCrlich recht. Aber ehrlichgesagt nutze ich nur gsdiff
+    - weswegen mir der andere nicht wirklich aufgefallen ist :/ </p>"
+  date: '2012-03-14T06:56:39'
+- author: BO
+  content: "<p>Klar, wenn ich nichts darin mache, dann ist da auch nichts, das mich
+    st\xF6ren kann, aber es w\xFCrde mich dann ja auch nicht st\xF6ren.\_Mit build-Hinterlassenschaften
+    meine ich all den Kram, der produziert wird, wenn du im Projekt mal `make` machst.<br>Aber
+    ich merk schon, die Frage an sich war schon bl\xF6d, genau daf\xFCr ist ja\_parse_git_dirty()
+    da. Gehirnfurz, sorry. :)</p>"
+  date: '2012-03-15T13:38:25'
+- author: BO
+  content: "<p>Konkret: `git status` gibt mir einen Haufen untracked files zur\xFCck,
+    vieles kann man nat\xFCrlich ausklammern, *.so *.o und so, aber es gibt auch einfache
+    C++ files darunter, die beim bauen zusammengebastelt werden. Z.B.\_<a href=\"http://queryyacc.cc\"
+    rel=\"nofollow\">queryyacc.cc</a>, wie erreiche ich, dass mir die beim `git status`
+    nicht mehr angezeigt wird? Ist da .gitignore das vern\xFCnftige Mittel zur Wahl?<br></p>"
+  date: '2012-03-15T13:47:38'
 date: '2012-03-10T10:00:00'
 tags:
 - tipps

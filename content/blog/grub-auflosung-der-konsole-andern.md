@@ -3,6 +3,28 @@ aliases:
 - /blog/2010/07/14/grub-auflosung-der-konsole-andern
 - /blog/2010/07/14/grub--aufl%C3%B6sung-der-konsole-%C3%A4ndern/
 - /archives/1098
+comments:
+- author: savier
+  content: "<p>Hey, netter Blogeintrag! Werde das heute umgehend unter meine Xubuntu-VM
+    testen :) Dann resized sich das Fenster beim Booten auch nicht st\xE4ndig.</p><p>Ich
+    sag Bescheid, ob das geklappt hat.</p>"
+  date: '2010-07-15T12:51:17'
+- author: Tanja
+  content: "<p>Besser ist es, die Kerneloptionen nicht direkt in der Kernel-Zeile
+    anzuh\xE4ngen sondern sie in die daf\xFCr vorgesehenen Veriablen einzutragen und
+    anschlie\xDFend das update-script auszuf\xFChren. Dann muss man n\xE4mlich nicht
+    nach Kernelupdate die Optionen wieder erneut eintragen, sondern es passiert automatisch.</p><p><a
+    href=\"http://wiki.ubuntuusers.de/Konsolen-Aufl%C3%B6sung#GRUB-Konfiguration\"
+    rel=\"nofollow\">http://wiki.ubuntuusers.de/Kon...</a></p>"
+  date: '2010-07-15T14:10:06'
+- author: Tanja
+  content: "<p>Bei grub2 sollte man au\xDFerdem den Paramater \"video=\" statt \"vga=\"
+    verwenden.</p><p>Sorry f\xFCr die Fehler.. :-)</p>"
+  date: '2010-07-15T14:15:35'
+- author: noqqe
+  content: "<p>@Tanja: Vielen Dank f\xFCr die Tipps :) Scheint mir sinnvoll zu sein.
+    Denke ich werd das auch dementsprechend umbasteln. :)</p>"
+  date: '2010-07-15T16:38:21'
 date: '2010-07-14T17:17:18'
 tags:
 - grub 1

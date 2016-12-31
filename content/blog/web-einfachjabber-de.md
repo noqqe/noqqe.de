@@ -2,6 +2,15 @@
 aliases:
 - /archives/1104
 - /blog/2010/07/16/web-einfachjabber-de
+comments:
+- author: Nabo
+  content: "<p>Echt super Seite!<br>Habe auch schon sehr oft Freunde und Bekannte
+    darauf verwiesen und siehe da, meine Jabberliste ist gewachsen!</p><p>Super Sache!</p><p>Gru\xDF<br>Nabo</p>"
+  date: '2010-07-16T19:36:34'
+- author: noqqe
+  content: <p>*klick*</p><p>schon hat es sich gelohnt die Seite zu betreiben :)</p><p>super
+    :)</p>
+  date: '2010-07-16T19:50:19'
 date: '2010-07-16T08:59:59'
 tags:
 - development

@@ -2,6 +2,35 @@
 aliases:
 - /archives/1810
 - /blog/2011/10/22/taskwarrior-the-better-task-shell
+comments:
+- author: Dirk Deimeke
+  content: <p>Ich kann das Repository leider nicht klonen. Ist das eventuell privat?</p>
+  date: '2011-10-23T14:41:07'
+- author: noqqe
+  content: '<p>Hi dirk, </p><p>ich hab gerade auch mal ausgecheckt, aber bei mir funktionierts.
+    </p><p>Versuch doch alternativ mal:</p><p><a rel="nofollow">git://github.com/noqqe/better-...</a></p><p>oder:
+    </p><p><a href="https://github.com/noqqe/better-task-shell.git" rel="nofollow">https://github.com/noqqe/bette...</a></p>'
+  date: '2011-10-23T14:57:46'
+- author: Dirk Deimeke
+  content: <p>Die Alternative hat funktioniert, aber die Shell tut noch nicht ganz
+    das, was sie soll. Wenn ich "ll" eintippe, wird mein selbst definierter Report
+    nicht angezeigt.</p>
+  date: '2011-10-23T15:27:08'
+- author: noqqe
+  content: "<p>Hi Dirk,</p><p>ich habe das irgendwie vergessen. Ist aber schon gepatched
+    :)</p><p>W\xE4r cool wenn dus nochmal probieren k\xF6nntest und deine Meinung
+    abgibst als Taskwarrior Entwickler ;)</p>"
+  date: '2011-10-23T18:04:05'
+- author: Dirk Deimeke
+  content: "<p>Das ist f\xFCr mich noch nicht benutzbar, da es kaum Nutzen gibt. Deine
+    Shell ist nur eine Reihe von aliases ...</p><p>Das ist mir zu wenig. \"?\" geht
+    nicht \"help\" auch nicht.</p><p>Aber, wenn es Dir hilft, ist es genau richtig.</p>"
+  date: '2011-10-23T18:19:35'
+- author: noqqe
+  content: <p>Ja richtig. Ich wollte lediglich die Features die ich von einer normalen
+    Shell gewohnt bin weiter nutzen und hab mir die Umgebung von Taskwarrior nachgebaut.</p><p>Wie
+    das realisier ist ist m.E. Egal.</p>
+  date: '2011-10-23T19:30:55'
 date: '2011-10-22T12:05:57'
 tags:
 - development

@@ -2,6 +2,26 @@
 aliases:
 - /blog/2010/05/22/bash-scripting-aufgabe-school
 - /archives/1011
+comments:
+- author: nicohofmann
+  content: "<p>Gl\xFCckwunsch - aber Hauptsache man kann alles mit 1 multiplizieren.
+    Macht wirklich Sinn die Aufgabe :D</p>"
+  date: '2010-05-22T13:59:08'
+- author: noqqe
+  content: "<p>thihi .. na klar :D <br>aber hat seinen zweck erf\xFCllt gottseidank
+    :)</p>"
+  date: '2010-05-22T14:15:58'
+- author: Holger
+  content: "<p>Mir wurden f\xFCr meine Mehrarbeit 2 Pkt. abgezogen. War dann halt
+    leider nur die 1-. Aber egal :)</p><p>Auch nochmal Grats an dich, Flo. Good Arbeit
+    und good Qualit\xE4t.</p>"
+  date: '2010-05-22T14:48:10'
+- author: Nephilim
+  content: "<p>Hi,<br>ich bin am scripten lernen, aber recht unkreativ, daher auf
+    der Suche nach Vorschl\xE4gen. Anschlie\xDFend auf das hier gesto\xDFen. Da man
+    sich hier nicht anmelden brauch teile ich meine Ergebnisse nat\xFCrlich gerne.
+    Im Prinzip, das selbe nur etw. angepasst: </p>"
+  date: '2012-04-17T10:08:25'
 date: '2010-05-22T07:09:35'
 tags:
 - development

@@ -2,6 +2,14 @@
 aliases:
 - /blog/2010/08/25/gitosis-zweischneidigkeit-des-auth-verfahrens
 - /archives/1208
+comments:
+- author: Tommy
+  content: "<p>Danke f\xFCr den Post, hat mir grad das Leben gerettet...</p>"
+  date: '2010-09-03T14:22:12'
+- author: Eloy
+  content: <p>Amazing post, honest!</p><p><a href="http://www.underthesinkwaterfilter.com/"
+    rel="nofollow">http://www.underthesinkwaterfilter.com/</a></p>
+  date: '2011-08-01T21:33:17'
 date: '2010-08-25T18:06:47'
 tags:
 - development

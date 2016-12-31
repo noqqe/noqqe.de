@@ -2,6 +2,13 @@
 aliases:
 - /archives/1603
 - /blog/2011/04/14/statistical-statistiken-visualisieren-im-terminal
+comments:
+- author: Knorkebrot
+  content: "<p>Fand ich recht nett die Ausgabe, ich hab mir mal schnell was \xE4hnliches
+    in Perl zusammengehackt. Wei\xDF nicht, steht nicht auf Bash. :P<br>Nimmt aber
+    eine \xE4hnliche Syntax auf (key:value) und ist deutlich dynamischer, so von der
+    Breitenrechnung meine ich.<br><a href=\"http://blog.kbct.de/2011/04/16/0/\" rel=\"nofollow\">http://blog.kbct.de/2011/04/16...</a></p>"
+  date: '2011-04-16T04:38:15'
 date: '2011-04-14T16:55:10'
 tags:
 - development

@@ -1,6 +1,10 @@
 ---
 aliases:
 - /archives/80
+comments:
+- author: Dr. Azrael Tod
+  content: <p>kommt mir bekannt vor *g*</p>
+  date: '2008-06-19T01:06:16'
 date: '2008-06-18T11:07:52'
 slug: the-geek-code
 tags:

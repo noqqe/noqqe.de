@@ -2,6 +2,26 @@
 aliases:
 - /blog/2010/01/15/offtopic-das-verlorene-kind-ahm-passwort
 - /archives/849
+comments:
+- author: Marc
+  content: <p>Doch, mit 14 habe ich schon an Sicherheit und Brute-Force gedacht. Aber
+    ich bin auch Hardcore-Nerd. :p</p>
+  date: '2010-01-16T08:05:16'
+- author: noqqe
+  content: <p>Naja. Bei dir war das ja erst letztes oder vorletztes Jahr :D</p><p>2003
+    / 2004 sah es da schon etwas anders aus.</p>
+  date: '2010-01-16T14:52:15'
+- author: Tanja K
+  content: "<p>Ich habe mittlerweile alle Passw\xF6rter verschl\xFCsselt in KeepassX
+    gespeichert und keines ist k\xFCrzer als 20 Stellen, da mir die Software die Eingabe
+    abnimmt. Sicherheitstechnisch halte ich dies f\xFCr vern\xFCnftiger, als kurze
+    eingabefreundliche und wom\xF6glich unsichere Passw\xF6rter zu w\xE4hlen.</p><p>Achja,
+    den Algorithmus vom Rhythmus abzuleiten ist ein klassischer Anf\xE4ngerfehler.
+    :-)</p>"
+  date: '2010-03-02T02:46:28'
+- author: noqqe
+  content: "<p>Autsch, na das tut nat\xFCrlich weh u_u <br>Ich werds korrigieren :)</p><p>Danke!</p>"
+  date: '2010-03-02T12:59:41'
 date: '2010-01-15T15:40:04'
 tags:
 - linux

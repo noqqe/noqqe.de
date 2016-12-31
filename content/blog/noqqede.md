@@ -1,6 +1,10 @@
 ---
 aliases:
 - /archives/102
+comments:
+- author: Ricarda
+  content: "<p>Dann herzlichen Gl\xFCckwunsch zur neu gewonnenen Freiheit!</p>"
+  date: '2009-03-06T16:39:44'
 date: '2008-07-04T07:02:39'
 slug: noqqede
 tags:

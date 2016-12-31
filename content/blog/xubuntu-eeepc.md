@@ -1,6 +1,19 @@
 ---
 aliases:
 - /archives/50
+comments:
+- author: Dominik
+  content: "<p>Hallo,</p><p>Wie Du ja bei mir lesen konntest, kann ich das Ger\xE4t,
+    trotz einiger Unzul\xE4nglichkeiten des vorinstallierten Xandros-Linux, nur empfehlen.
+    Die Akkulaufzeit reicht f\xFCr zweimal t\xE4glich 1\xBD Stunden E-Buch lesen im
+    Zug. Damit ist es mit Abstand der billigste E-Buch-Leser, den man kriegen kann.
+    Und dann kann es noch viel mehr...</p><p>Was den Preis angeht, so sind 299,- \u20AC
+    mittlerweile fast etwas viel, insbesondere da der Akku jetzt kleiner ist. Daf\xFCr
+    gibt es den Eee-PC aber bei einer Firma mit magentafarbenem Logo auch im \"Bundle\"
+    mit einer DSL-Flatrate f\xFCr 199,- \u20AC. Sollte also gerade der DSL-Vertrag
+    zu Verl\xE4ngerung anstehen, so l\xE4sst sich da vielleicht ein Schnapper machen.</p><p>Vielen
+    Dank auch f\xFCr Deinen lobenden Kommentar.</p><p>Gru\xDF,<br>  Dominik</p>"
+  date: '2008-05-06T01:50:32'
 date: '2008-05-04T10:02:52'
 slug: xubuntu-eeepc
 tags:

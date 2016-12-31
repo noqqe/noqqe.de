@@ -1,6 +1,14 @@
 ---
 aliases:
 - /archives/235
+comments:
+- author: fidel
+  content: "<p>warum du erst /home/teamspeak erstellst und dann den user anlegst versteh
+    ich zwar nicht wirklich ... aber viele wege f\xFChren nach rom =)</p><p>gruss<br>fidel</p>"
+  date: '2008-09-19T21:03:03'
+- author: Teamspeak Server
+  content: <p>fidel richtig verstehe ich auch nicht</p>
+  date: '2008-10-22T13:07:15'
 date: '2008-09-12T14:22:15'
 slug: zwetschgeorg
 tags:

@@ -2,6 +2,32 @@
 aliases:
 - /blog/2010/12/23/mac-fraise-app-fur-latex-konfigurieren
 - /archives/1437
+comments:
+- author: sbo
+  content: "<p>Netter Tipp.<br>Allerdings wurde Fraise eingestellt, und Smultron wird
+    aktiv weiter entwickelt. Das ist f\xFCr 3,99 im AppStore zu haben.</p>"
+  date: '2011-01-25T04:10:22'
+- author: noqqe
+  content: <p>WTF BBQ ? </p><p>Hat da jemand Kohle gerochen, oder wie darf ich das
+    verstehen?</p>
+  date: '2011-01-25T22:31:58'
+- author: sbo
+  content: "<p>Das wei\xDF ich nicht, aber es ist ja quasi Fraise, nur dass noch Updates
+    kommen. Auf der Fraise Seite k\xFCndigt der Dev ja an, an einem komplett neuen
+    Editor zu werkeln..und der Post ist von Juni 2010. Und ich find die ~4\u20AC f\xFCr
+    Smultron eigentlich ganz okay, die Auswahl ist bei OSX ja leider eher sp\xE4rlich.
+    TextMate ist mir mit 30\u20AC zu teuer, TextWrangler ist irgendwie \xFCberladen
+    und jEdit ist langsam. Also lieber 4\u20AC f\xFCr Smultron und gut ist. Au\xDFer
+    du nimmst halt vi oder emacs, aber..</p>"
+  date: '2011-01-28T16:58:07'
+- author: sbo
+  content: "<p>Ist es eigentlich Absicht, dass die Ausgabe von pdflatex an die Stelle
+    des Cursors im LaTeX Dokument eingef\xFCgt wird? :)</p>"
+  date: '2011-01-30T17:57:50'
+- author: noqqe
+  content: "<p>Whupps. Der Haken f\xFCr 'INLINE' geh\xF6rt da nicht hin, der da auf
+    dem Screenshot zu sehen ist. </p><p>Wenn der raus ist, passier das nicht :)</p>"
+  date: '2011-01-30T18:30:36'
 date: '2010-12-23T14:16:03'
 tags:
 - development

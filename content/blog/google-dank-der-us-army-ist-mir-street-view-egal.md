@@ -2,6 +2,22 @@
 aliases:
 - /blog/2010/09/07/google-dank-der-us-army-ist-mir-street-view-egal
 - /archives/1238
+comments:
+- author: Thilo
+  content: "<p>Das is ja interessant. W\xFCsste ich auch gerne warum diese Zensur
+    so weit\xE4umig ist. Das die Army nich will das man ihr auf den Kopf guckt ist
+    ja noch irgendwo verst\xE4ndlich aber die in der Umgebung gelegenen St\xE4dte/D\xF6rfer?
+    Solltest du jemals den Grund rausfinden lass mich nicht dumm sterben ;-)</p>"
+  date: '2010-09-07T21:39:57'
+- author: BOfH
+  content: <p>Ignorant! :P</p>
+  date: '2010-09-08T00:13:14'
+- author: hangy
+  content: "<p>Ist das nicht eigentlich eine Benachteiligung der Unternehmen in der
+    zensierten Region? Potentielle Kunden k\xF6nnen bei anderen Unternehmen die Lage
+    sch\xF6n per Street View/Maps erkunden - bei den zensierten geht das ja nicht
+    ... :D</p>"
+  date: '2010-09-09T22:06:33'
 date: '2010-09-07T17:19:26'
 tags:
 - web

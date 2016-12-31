@@ -2,6 +2,14 @@
 aliases:
 - /archives/995
 - /blog/2010/04/22/web-anlaufstelle-fur-geekstuff-3dsupply
+comments:
+- author: Florian
+  content: "<p>Hehe, cool du auch :)<br>Gru\xDF Florian (trinec)</p>"
+  date: '2010-04-23T12:23:17'
+- author: noqqe
+  content: "<p>yeah flo! <br>du auch?</p><p>schon ewig nix mehr geh\xF6rt. sehr nett
+    schaut dein blog jetzt aus :) </p><p> gef\xE4llt mir gut :)</p>"
+  date: '2010-04-23T18:31:24'
 date: '2010-04-22T18:18:54'
 tags:
 - web

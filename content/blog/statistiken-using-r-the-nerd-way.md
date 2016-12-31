@@ -4,6 +4,46 @@ aliases:
 - /archives/1458
 - /blog/2011/02/04/statistiken-using-r-the-nerd-way/
 - /blog/2011/02/04/statistiken--using-r-the-nerd-way/
+comments:
+- author: Fredo
+  content: "<p>Yeah, R rocks!</p><p>R ist wirklich eine ziemlich interessante Sprache.
+    Die Grafikm\xF6glichkeiten sind ziemlich gut, aber auch die F\xE4higkeiten in
+    Bezug auf Datentransformation, Matrixalgebra etc. sind sehr ausgefeilt.</p><p>Nur
+    als Hinweis am Rande: Kreisdiagramme sind zwar ganz h\xFCbsch, aber Balkendiagramme
+    sind in der Regel zweckm\xE4\xDFiger: Bei Kreisdiagrammen l\xE4sst sich die Gr\xF6\xDFe
+    von Segmenten optisch relativ schwer erfassen und vergleichen, w\xE4hrend Balkendiagramme
+    sehr gut gelesen und interpretiert werden k\xF6nnen.</p>"
+  date: '2011-02-04T21:45:02'
+- author: noqqe
+  content: "<p>hey fredo!<br>Ja, fand ich auch. Hab mir das Manual schon zum gro\xDFen
+    Teil durchgelesen, aber irgendwie keine wirkliche Verwendung f\xFCr die (echt
+    umfangreichen) mathematischen M\xF6glichkeiten gefunden. </p><p>Ja, bei den Kreisdiagrammen
+    muss ich dir recht geben, aber ich meine hey... KUCHEN! :)</p>"
+  date: '2011-02-05T00:40:39'
+- author: HmpfCBR
+  content: "<p>Schau dir auch mal 'littler' an, gerade f\xFCr Interaktion bash und
+    R recht hilfreich.</p><p>Ansosnten kann ich Frodo bzgl. Kreis und Balkendiagrammen
+    nur zustimmen. Wenigstens hast du keine 3D-Torten benutzt. ;) Vergleich deine
+    Grafiken und frag dich selbst, wo du was wie gut erkennst ...</p><p>Torten taugen
+    nur bei ganz wenigen Teilen und auch dann nur, wenn man klar machen will, dass
+    es sich um Teile eines Ganzen handelt.</p>"
+  date: '2011-02-05T04:07:23'
+- author: thomas
+  content: "<p>Wow, R ist echt nice :D</p><p>Vielleicht k\xF6nnte man bei \"Commands\"
+    und auch der Statistik deiner Timeline statt den Rest \"abzuschneiden\" auch R
+    anweisen, nur die 10 gr\xF6\xDFten Anteile einzeln anzuzeigen und den Rest zusammengefasst
+    darzustellen, eben als \"Rest\" wie man das von herk\xF6mmlichen Statistiken kennt.<br>Damit
+    w\xFCrdest du das Ergebnis nicht verf\xE4lschen und trotzdem die \xDCbersicht
+    bewahren.</p><p>Super Artikel, wieder was gelernt!</p>"
+  date: '2011-02-07T01:19:10'
+- author: noqqe
+  content: "<p>@HmpfCBR: Ja, wenn ich so im nachhinein dr\xFCber nachdenke, habt ihr
+    wohl Recht. </p><p>@thomas: Ja ich weiss was du meinst. Sone art \"Other\"-Spalte
+    im Kuchen wie man das von Wahlen kennt. Hab ich mich auch kurz schlaugelesen,
+    aber dazu h\xE4tte ich (wenn ich das richtig verstanden hab) ein zus\xE4tzliches
+    Paket aus dem CRAN gebraucht. Damit hab ich mich dann f\xFCrn Anfang doch noch
+    nicht auseinander setzen wollen ;) Aber sch\xF6n mal wieder was von dir zu h\xF6ren!</p>"
+  date: '2011-02-07T18:09:21'
 date: '2011-02-04T10:18:35'
 tags:
 - development

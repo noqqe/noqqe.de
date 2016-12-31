@@ -2,6 +2,25 @@
 aliases:
 - /blog/2011/12/11/fbcmd-nie-wieder-geburtstage-vergessen-via-shell
 - /archives/1827
+comments:
+- author: Lorlen
+  content: "<p>Genial!! Damit nicht auff\xE4llt dass man allen immer dasselbe schreibt,
+    m\xFCsste man das jetzt nur noch so ver\xE4ndern, dass aus zehn verschieden Geburtstagsnachrichten
+    in Kombination mit verschiedenen Smileys am Ende, und dem Namen des Geburtstagskindes
+    eine individuelle Nachricht gebastelt wird.</p>"
+  date: '2011-12-12T02:12:46'
+- author: dAnjou
+  content: "<p>Ich hoffe, dass dieses Beispiel nur exemplarisch gew\xE4hlt wurde.
+    Denn diese Sache ist schon ziemlich bezeichnend f\xFCr Facebook und seine Nutzer.</p>"
+  date: '2011-12-12T04:04:11'
+- author: Higgi
+  content: "<p>@dAnjou, </p><p>das ist typisches Facebookverhalten. Meine Freundin
+    und ich haben kurz hintereinander Geburtstag. Wir haben mal einen kleinen Test
+    gemacht. Ich habe meinen Geburtstag drin stehen lassen, sie ihren gel\xF6scht.
+    Ich hatte ca 40 Nachrichten von Leuten, die ich selten sehe/spreche und sie hatte
+    3! Nachrichten von anderen. Text war trotzdem immer \"Alles gute zum Geburstag\"
+    oder \xE4hnliches.</p>"
+  date: '2011-12-13T01:06:58'
 date: '2011-12-11T18:45:18'
 tags:
 - development

@@ -2,6 +2,30 @@
 aliases:
 - /archives/954
 - /blog/2010/04/02/nagios-von-sprechenden-druckern-verpflichtungen-und-snmp
+comments:
+- author: Christian
+  content: "<p>Und woran erkennt der Drucker, das Papier nachgef\xFCllt wurde wenn
+    der Schacht noch gar nicht leer war?<br>Anhand des Herausziehens des Schachtes
+    oder wie geht das?</p>"
+  date: '2010-04-04T02:50:49'
+- author: noqqe
+  content: "<p>Hallo Christian,</p><p>das kann ich dir nicht mit 100%iger Sicherheit
+    sagen. Die Information die ich via SNMP abhole, wird vom Drucker bereits bereitgestellt.
+    </p><p>Ich kann vermuten und denke, das es anhand der im Tray eine ungef\xE4hre
+    Gewichtsmessung gibt. </p><p>Wie gesagt, nur Vermutung. :)</p>"
+  date: '2010-04-04T14:16:34'
+- author: Leser
+  content: "<p>Hallo,</p><p>ein sch\xF6ner Artikel. Die gro\xDFen Multifunktionger\xE4te
+    bieten im Webinterface teilweise auch schon die M\xF6glichkeit per Email bei bestimmten
+    Ereignissen, z.B. kein Papier, Benachrichtigungen zu verschicken.</p>"
+  date: '2010-04-04T15:59:38'
+- author: noqqe
+  content: "<p>Stimmt, w\xE4re aber dann kein Blogpost geworden. Auch kein Lerneffekt
+    ;)</p>"
+  date: '2010-04-04T21:40:23'
+- author: Jan
+  content: <p>Danke, </p><p>nette Idee, wenn man eh ein Nagios am Laufen hat...  ;-)</p><p>Jan</p>
+  date: '2011-02-06T06:24:26'
 date: '2010-04-02T17:24:51'
 tags:
 - fach

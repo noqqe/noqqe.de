@@ -3,6 +3,12 @@ aliases:
 - /blog/2011/03/21/personlicher-eindruck-chemnitzer-linux-tage-2011
 - /blog/2011/03/21/pers%C3%B6nlicher-eindruck--chemnitzer-linux-tage-2011/
 - /archives/1538
+comments:
+- author: ODH
+  content: "<p>Schade, dass wir uns nicht gesehen haben, es war aber auch alles so
+    spannend und zeitraubend, so dass man wirklich f\xFCr eine Mahlzeit etwas sausen
+    lassen musste.</p>"
+  date: '2011-03-22T00:00:44'
 date: '2011-03-21T16:07:05'
 tags:
 - opensuse

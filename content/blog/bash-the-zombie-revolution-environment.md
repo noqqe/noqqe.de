@@ -2,6 +2,15 @@
 aliases:
 - /blog/2010/10/17/bash-the-zombie-revolution-environment
 - /archives/1314
+comments:
+- author: Florian Heiser
+  content: <p>Ihr habt definitiv zuviel Zeit!!!<br>Was ist die Erkenntnis von diesem
+    Zombie-Games???</p>
+  date: '2010-10-20T07:23:19'
+- author: noqqe
+  content: "<p>Hallo Florian,</p><p>sch\xF6n das du dir die letzte Zeile zuherzen
+    genommen hast. Insbesondere die letzten beiden Punkte.</p>"
+  date: '2010-10-20T13:43:54'
 date: '2010-10-17T10:14:05'
 tags:
 - development

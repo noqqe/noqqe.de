@@ -2,6 +2,22 @@
 aliases:
 - /blog/2010/05/26/bash-inkrement-methoden-und-effizienz
 - /archives/1014
+comments:
+- author: Paradiesstaub
+  content: "<p>Danke f\xFCr die n\xFCtzliche Recherche. Mein Favorit war bisher ((i++)).</p>"
+  date: '2010-05-27T00:26:21'
+- author: noqqe
+  content: "<p>:) wir wurde auch gezwitschert, dass deine Methode eine Integer-Variable
+    erzwingt. </p><p>Dann w\xFCrde ich auch dahin umsatteln. Gerne wieder.</p>"
+  date: '2010-05-27T00:39:44'
+- author: user unknown
+  content: "<p>Da finde ich doch <br>[code]j=5 ; k=12 ; i=$((j*10+k/2)); echo $i<br>[/code]<br>k\xFCrzer
+    und praktischer.</p><p>Der Vollst\xE4ndigkeit halber w\xFCrde ich noch [code]<br>((i+=1));
+    echo $i[/code]<br>erw\xE4hnen, aber nur der Vollst\xE4ndigkeit halber. </p><p>F\xFCr
+    besonders gro\xDFe Zahlen <br>[code]<br>echo \"6^6^6\" | bc<br>[/code]<br>und
+    Nachkommastellen empfiehlt sich dann bc, wie man hier sieht. <br>[code]<br>echo
+    \"scale=42;pi=4*a(1);pi\" | bc -l <br>[/code]</p>"
+  date: '2010-05-27T15:19:10'
 date: '2010-05-26T18:22:56'
 tags:
 - development

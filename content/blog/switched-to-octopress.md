@@ -1,4 +1,8 @@
 ---
+comments:
+- author: Admin42
+  content: <p>Nice!</p>
+  date: '2012-03-06T22:13:55'
 date: '2012-03-05T19:22:00'
 tags:
 - web

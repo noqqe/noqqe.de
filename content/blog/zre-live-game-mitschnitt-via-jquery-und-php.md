@@ -2,6 +2,25 @@
 aliases:
 - /archives/1520
 - /blog/2011/03/14/zre-live-game-mitschnitt-via-jquery-und-php
+comments:
+- author: Knorkebrot
+  content: "<p>Netter Codingstil :P<br>Deine for-Schleife im PHP ist kaputt. Die Clientseite
+    h\xE4tte ich anders gemacht, vor allem in so fern, dass ich kein Framework daf\xFCr
+    eingebunden h\xE4tte. F\xFCr solche Requests gibt es in Javascript die XMLHttpRequest-Klasse:</p><p>var
+    xhr = new XMLHttpRequest();<br>function update() {<br> xhr.open('GET', '/statics/gamequery.php?mode=part',
+    false);<br> xhr.send();<br> document.getElementById('gamebox').innerHTML = xhr.response;<br>
+    return true;<br>}<br>setInterval(update, 2000);</p><p>jQuery ist einfach nur ein
+    dicker, fetter Overhead f\xFCr sowas, denke ich.</p><p>M\xDFG</p>"
+  date: '2011-03-17T20:14:44'
+- author: Knorkebrot
+  content: "<p>Oh, sieht ja fein aus, gibt es sowas wie <code> f\xFCr Kommentare?<br>M\xDFG,
+    bzw. ist HTML erlaubt?</code></p>"
+  date: '2011-03-17T20:16:36'
+- author: Knorkebrot
+  content: "<p>Na das artet ja schon in Spam aus.<br>W\xE4re sicher sinnvoll unter
+    das Kommentarfeld zu schreiben, dass HTML (in Teilen?) erlaubt ist.<br>Du darfst
+    meine Beitr\xE4ge gerne reparieren, wenn du willst :)<br>M\xDFG, kaputtgespielt.</p>"
+  date: '2011-03-17T20:22:02'
 date: '2011-03-14T19:37:05'
 tags:
 - development

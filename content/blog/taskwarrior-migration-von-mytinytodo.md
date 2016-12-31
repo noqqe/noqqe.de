@@ -2,6 +2,14 @@
 aliases:
 - /archives/1766
 - /blog/2011/09/25/taskwarrior-migration-von-mytinytodo
+comments:
+- author: Pa_trick17
+  content: "<p>Taskwarrior ist spitze! Ich war auf der Suche nach einer schlichten
+    Aufgabenverwaltung und h\xE4tte am Anfang meiner Suche nicht gedacht, dass ich
+    auf der Kommandozeile lande. Jetzt wei\xDF ich gar nicht mehr wie ich ohne leben
+    konnte.</p><p>Nur die Server-Funktion und das Android-App fehlen mir noch ein
+    bisschen - aber es ist ja in Arbeit. :-)</p><p>Gru\xDF</p><p>Patrick</p>"
+  date: '2011-09-28T12:35:53'
 date: '2011-09-25T11:58:52'
 tags:
 - development

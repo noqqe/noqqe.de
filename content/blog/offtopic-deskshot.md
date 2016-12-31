@@ -2,6 +2,30 @@
 aliases:
 - /blog/2010/12/26/offtopic-deskshot
 - /archives/1442
+comments:
+- author: vain
+  content: "<p>Servus,</p><p>mir war ja gar nicht klar, dass du dich auf \"feindlichem\"
+    Apfel-Gebiet bewegst. ;D</p><p>Ist aber wirklich sehr aufger\xE4umt da bei dir.
+    Noch nichtmal ein gesunder Kabelsalat, kein CD-Stapel, ... Wie h\xE4lt man das
+    nur aus? ;)</p><p>Meinen Desk gab's auch gerade heute im Arch Forum:</p><p><a
+    href=\"https://bbs.archlinux.de/viewtopic.php?pid=254631#p254631\" rel=\"nofollow\">https://bbs.archlinux.de/viewt...</a></p><p>Cheers!</p>"
+  date: '2010-12-27T01:04:16'
+- author: noqqe
+  content: '<p>@vain: Apple! Naja ich sag mal so. Der Kabelsalat meiner anderen Workstation
+    ist jetzt nicht mit am Bild ;) </p><p>Sieht aber auch ganz nett aus bei dir :)</p>'
+  date: '2010-12-27T14:44:47'
+- author: Spion
+  content: "<p>Also ich kenn ja einige Deiner anderen Desktops ..... 10:1, da\xDF
+    Du doch aufger\xE4umt hast .... :P</p>"
+  date: '2010-12-28T03:30:52'
+- author: noqqe
+  content: "<p>@Spion: Es w\xE4re nett wenn du auch deinen Beitrag dazu leisten w\xFCrdest
+    meine digitale Identit\xE4t so weit wie m\xF6glich ordentlich erscheinen zu lassen
+    :) also pssst!</p>"
+  date: '2010-12-28T15:48:05'
+- author: Holger
+  content: <p>&lt;3</p>
+  date: '2010-12-30T18:28:12'
 date: '2010-12-26T12:08:48'
 tags:
 - camel active

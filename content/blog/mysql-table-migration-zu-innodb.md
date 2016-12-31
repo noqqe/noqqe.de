@@ -2,6 +2,34 @@
 aliases:
 - /blog/2012/01/22/mysql-table-migration-zu-innodb
 - /archives/1850
+comments:
+- author: dakira
+  content: <p>Schoener Artikel! Sowas mach ich auch haeufiger mal. gerade sed in Verbindung
+    mit mysqldump ist super. Ich habe mich z.B. dazu entschieden, dass ich bei webapps
+    als table-prefix acht zufallsgenerierte zeichen nehme. Webapps, bei denen ich
+    das nicht von anfang an so gemacht habe, kann ich so ruckzuck mit mysqldump und
+    sed umstellen.</p>
+  date: '2012-01-22T20:36:00'
+- author: Andreas G.
+  content: "<p>InnoDB hat f\xFCr mich mehr Nachteile als Vorteile gegen\xFCber MyISAM.</p><p>*)
+    InnoDB ist langsam. Gegen\xFCber MyISAM hat man einen massiven Geschwindigkeitsnachteil.</p><p>*)
+    InnoDB braucht mehr Platz: InnoDB wird in einer Art Dateisystemstruktur gespeichert.
+    Per Default sogar in einer einzigen globalen Datei f\xFCr den gesamten Server
+    (innodb_file_per_table). Zudem ist es so das niemals Platz freigemacht wird. Die
+    InnoDB Datei wird immer gr\xF6\xDFer auch wenn man Daten l\xF6scht. Ich hatte
+    schon ibdata Dateien von \xFCber 80GB Gr\xF6\xDFe.</p><p>*) Wenn die InnoDB Datei
+    crasht ist es ein extremer Aufwand um sie wieder zu reparieren. Vor allem wenn
+    man viele Datenbanken hat. Es gibt zwar ein myisamchk aber kein myinnodbchk.<br>Im
+    schlimmsten Fall darfst du in die my.cnf innodb_force_recovery=4 eintragen und
+    dann Notfalldumps machen und zum Schlu\xDF dann wieder alles komplett neu einspielen.</p>"
+  date: '2012-01-22T21:46:14'
+- author: noqqe
+  content: "<p>@dakira: Danke! :) Gute Idee mit den Zufallsprefix.</p><p>@Andreas:
+    Zuerstmal danke :) Du hast Recht aber das war mir klar. Ich hab l\xE4nger \xFCberlegt
+    ob ich den Beitrag in den Planeten poste, genau um solchen Posts vorzubeugen habe
+    ich aber extra das: \"Welche Vor- und Nachteile das hatt sollte sich jeder vorher
+    klarmachen. \" hinzugef\xFCgt. </p><p>Leider wird das wie immer \xFCberlesen.</p>"
+  date: '2012-01-22T22:06:03'
 date: '2012-01-22T13:09:07'
 tags:
 - datenbank

@@ -1,6 +1,10 @@
 ---
 aliases:
 - /archives/246
+comments:
+- author: trinec
+  content: "<p>Freut mich, dass es dir gef\xE4llt ;)</p>"
+  date: '2008-09-16T22:03:40'
 date: '2008-09-15T20:24:15'
 slug: zwetschgeorg-monitoring
 tags:
@@ -12,10 +16,6 @@ tags:
 - zwetschge
 - debian
 title: zwetschge.org monitoring
-comments:
--
-  name: foo
-  body: das ist ein kommentar
 ---
 
 Habe mich heute mal mit [collectd](http://collectd.org/) und
