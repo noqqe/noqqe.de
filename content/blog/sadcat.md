@@ -44,7 +44,11 @@ Als ich dann irgendwann Zeile 1000 Überschritt war auch bei mir mal die
 maximale Leidensfähigkeit erschöpft und irgendwas musste anders werden.
 
 Die `PATTERNS` Sektion in der `ssh_config` Manpage gab nichts her und
-umgewöhnen wollte ich mich einfach nicht.
+umgewöhnen wollte ich mich einfach nicht. Die Fähigkeit dynamische Aliases
+zu generieren gehört nicht zu Notwendigkeiten so einer Software. Das würde
+eine Art Templating innerhalb der ssh Config vorraussetzen und das gehört
+da nicht hin. Deshalb fand ich es auch völlig okay mir selber etwas zu
+bauen.
 
 Daraus entstand dann [sadcat](https://github.com/noqqe/sadcat). Was
 `sadcat` tut ist, ein `toml` Config File annehmen und daraus eine
