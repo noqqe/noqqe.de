@@ -55,14 +55,14 @@ werden. Seit 6 Releases mach ich das jetzt so.
 ```
 VER=5.8
 ARCH=$(uname -m)
-wget -r --no-parent -A.tgz http://openbsd.cs.fau.de/pub/OpenBSD/$VER/$ARCH/
-cd openbsd.cs.fau.de/pub/OpenBSD/$VER/$ARCH/
-wget http://openbsd.cs.fau.de/pub/OpenBSD/$VER/$ARCH/bsd
-wget http://openbsd.cs.fau.de/pub/OpenBSD/$VER/$ARCH/bsd.rd
-wget http://openbsd.cs.fau.de/pub/OpenBSD/$VER/$ARCH/bsd.mp
-wget http://openbsd.cs.fau.de/pub/OpenBSD/$VER/$ARCH/bsd.sp
-wget http://openbsd.cs.fau.de/pub/OpenBSD/$VER/$ARCH/SHA256
-wget http://openbsd.cs.fau.de/pub/OpenBSD/$VER/$ARCH/SHA256.sig
+wget -r --no-parent -A.tgz http://ftp.hostserver.de/pub/OpenBSD/$VER/$ARCH/
+cd ftp.hostserver.de/pub/OpenBSD/$VER/$ARCH/
+wget http://ftp.hostserver.de/pub/OpenBSD/$VER/$ARCH/bsd
+wget http://ftp.hostserver.de/pub/OpenBSD/$VER/$ARCH/bsd.rd
+wget http://ftp.hostserver.de/pub/OpenBSD/$VER/$ARCH/bsd.mp
+wget http://ftp.hostserver.de/pub/OpenBSD/$VER/$ARCH/bsd.sp
+wget http://ftp.hostserver.de/pub/OpenBSD/$VER/$ARCH/SHA256
+wget http://ftp.hostserver.de/pub/OpenBSD/$VER/$ARCH/SHA256.sig
 ```
 
 * Schritten aus der Anleitung zum Einspielen auf openbsd.org folgen
@@ -73,18 +73,18 @@ wget http://openbsd.cs.fau.de/pub/OpenBSD/$VER/$ARCH/SHA256.sig
 
 * Packages: PKG_PATH in ksh/bash aktualisieren und updaten
 
-		export PKG_PATH=http://openbsd.cs.fau.de/pub/OpenBSD/$(uname -r)/packages/$(uname -m)/
+		export PKG_PATH=http://ftp.hostserver.de/pub/OpenBSD/$(uname -r)/packages/$(uname -m)/
 		pkg_add -u
 
 * CVS src Tree updaten
 
 		cd /usr
-		cvs -qd anoncvs@openbsd.cs.fau.de:/cvs get -rOPENBSD_5_X -P src
+		cvs -qd anoncvs@ftp.hostserver.de:/cvs get -rOPENBSD_5_X -P src
 
 * CVS ports Tree updaten
 
 		cd /usr
-		cvs -qd anoncvs@openbsd.cs.fau.de:/cvs get -rOPENBSD_5_X -P ports
+		cvs -qd anoncvs@ftp.hostserver.de:/cvs get -rOPENBSD_5_X -P ports
 
 ### Errata
 
@@ -94,7 +94,7 @@ verfügbar sind. Ich benutze hierfür Binpatching via
 [openup](http://www.mtier.org/index.php/solutions/apps/openup/)
 
 
-    PKG_PATH_MAIN=http://openbsd.cs.fau.de/pub/OpenBSD/5.X/packages/amd64/
+    PKG_PATH_MAIN=http://ftp.hostserver.de/pub/OpenBSD/5.X/packages/amd64/
     ./openup
 
 ### 3rd Party Software
