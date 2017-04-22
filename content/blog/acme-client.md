@@ -7,9 +7,9 @@ tags:
 title: acme-client(1)
 ---
 
-Auf was ich mich am meisten im neuen OpenBSD Release 6.1 gefreut hab ist
+Auf was ich mich am Meisten im neuen OpenBSD Release 6.1 gefreut hab ist
 [acme-client(1)](http://man.openbsd.org/acme-client). Das Binary welches
-direkt aus dem `base` System kommt ersetzt bei mir einen hässlichen wusst
+direkt aus dem `base` System kommt ersetzt bei mir einen hässlichen Wust
 aus Shell Skripten und anderen Schnipseln die ich mir irgendwo notiert
 hatte.
 
