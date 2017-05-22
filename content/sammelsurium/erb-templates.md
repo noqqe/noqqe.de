@@ -1,7 +1,7 @@
 ---
 title: erb Templates
 date: 2013-12-02T14:27:02
-tags: 
+tags:
 - Puppet
 ---
 
@@ -29,6 +29,17 @@ command[check_load]=/usr/lib/nagios/plugins/check_load -w 15,10,5 -c 30,25,20
 <%## comment %>
 ~~~
 
+## Count Schleife
+
+```
+# reduce count by 1 because we start at 0
+<% cpus = @processors['count'].to_i - 1 -%>
+
+# loop through all cpus
+<% for x in 0..cpus do -%>
+w /sys/devices/system/cpu/cpu<%= x %>/cpufreq/scaling_governor - - - - performance
+<% end -%>
+```
 
 ## Looping durch eine Hiera Variable
 
@@ -75,12 +86,6 @@ server.<%= x.count %> <%= x %>:2888:3888
 ## Loop mit Kommas in einer Zeile
 
 ~~~
-<value><%- i = 0 ; @zookeepersrv.each do |x| -%><%= ',' if i > 0 %><%= x %>:2181<%- i += 1 -%><%- end -%></value>
-~~~
-
-In aufgesplittet mit Kommentaren
-
-~~~
 <value>
  <%- i= 0 ; @zookeepersrv.each do |x| -%> ## Loop
   <%= ',' if i > 0 %> ## Wenn erstes element, dann kein Komma
@@ -93,13 +98,6 @@ In aufgesplittet mit Kommentaren
 Ergebnis
 
 ~~~
--    <value>zk11.example.com:2181,zk12.example.com:2181,zk21.example.com:2181</value>
 +    <value>zk11.example.com:2181</value>
-~~~
-
-oder
-
-~~~
--    <value>zk11.example.com:2181,zk12.example.com:2181,zk21.example.com:2181</value>
 +    <value>zk11.example.com:2181,zk12.example.com:2181,zk13.example.com:2181</value>
 ~~~
