@@ -54,12 +54,15 @@ Erstellen, formatieren und mounten.
 
 ## Rescan des SCSI-Hostbuses
 
-    ls /sys/class/scsi_host/
-    host0  host1  host2
+Trigger scan
 
-    echo "- - -" > /sys/class/scsi_host/host0/scan
-    echo "- - -" > /sys/class/scsi_host/host1/scan
-    echo "- - -" > /sys/class/scsi_host/host2/scan
+    for x in $(ls /sys/class/scsi_host/); do echo "- - -" > /sys/class/scsi_host/${x}/scan ; done
+
+Trigger rescan
+
+    for id in $(ls /sys/class/scsi_device/); do echo 1 > /sys/class/scsi_device/$id/device/rescan; done
+
+danach wieder ansehen
 
     lsscsi
     [1:0:0:0]    cd/dvd  NECVMWar VMware IDE CDR10 1.00  /dev/sr0
