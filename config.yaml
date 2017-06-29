@@ -39,10 +39,3 @@ menu:
   - name: "about"
     weight: 40
     url: "/about/"
-
-amaze:
-  rvocmd: "rvo export -c docs"
-  hugocmd: "/home/noqqe/.go/bin/hugo"
-  sammelsuriumdir: "/home/noqqe/Code/noqqe.de/content/sammelsurium/"
-  homedir: "/home/noqqe/Code/noqqe.de"
-  deploycmd: "/usr/local/bin/rsync -avi --delete public/ aax:/var/www/htdocs/noqqe.de/"
