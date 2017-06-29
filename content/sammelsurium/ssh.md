@@ -1,24 +1,36 @@
 ---
 title: ssh
 date: 2013-07-27T12:15:30
-tags: 
+tags:
 - Software
 - ssh
 ---
 
-ssh commandline options
+## Client Options
 
-### ssh config
-
-#### terminal description
+Passwort Auth erzwingen
 
 ```
-Host *
-PermitLocalCommand yes
-LocalCommand if [[ $TERM == screen* ]]; then printf "\033k%h\033\\"; fi
+ssh host -o PasswordAuthentication=yes -o PubkeyAuthentication=no
 ```
 
-### secure ciphers
+Speziellen Port angeben
+
+```
+ssh host -p22
+```
+
+Speziellen Key angeben. Nicht das .pub!
+
+```
+ssh host -l noqqe -i ~/.ssh/private
+```
+
+## Secure ciphers
+
+Vorsicht. Ändert sich auch immer mal wieder.
+
+Im Zweifel mal hier nachschauen. https://bettercrypto.org/static/applied-crypto-hardening.pdf
 
 ```
 ## Crypto shit
@@ -27,7 +39,7 @@ MACs    umac-128-etm@openssh.com,hmac-sha2-512,hmac-sha2-256,hmac-ripemd160
 KexAlgorithms diffie-hellman-group-exchange-sha256,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1
 ```
 
-### ESCAPE CHARACTERS
+## Escape Characters
 
 ```
 ~. Disconnect.
@@ -44,4 +56,14 @@ local command if the PermitLocalCommand option is enabled in
 ssh_config(5). Basic help is available, using the -h option.
 ~R Request rekeying of the connection (only useful for SSH protocol
 version 2 and if the peer supports it).
+```
+
+## Terminal Description
+
+Um den sauberen Hostname im Tab zu haben.
+
+```
+Host *
+PermitLocalCommand yes
+LocalCommand if [[ $TERM == screen* ]]; then printf "\033k%h\033\\"; fi
 ```
