@@ -101,3 +101,39 @@ Ergebnis
 +    <value>zk11.example.com:2181</value>
 +    <value>zk11.example.com:2181,zk12.example.com:2181,zk13.example.com:2181</value>
 ~~~
+
+## Hiera in Template Komplettbeispiel
+
+Das hiera File (hieradata/tiers/production.yaml)
+
+```
+---
+profiles::daemon::username: user
+profiles::daemon::password: passw0rd
+```
+
+Das Manifest (site/profiles/manifests/daemon.pp)
+
+```
+class profiles::daemon (
+  $username,
+  $password,
+) {
+
+  file { '/etc/daemon/config':
+    mode    => mode,
+    owner   => root,
+    group   => root,
+    content => template("profiles/daemon/config.erb")
+  }
+
+}
+```
+
+Das Template (site/profiles/templates/daemon/config.erb)
+
+```
+memorylimit: 9001
+user: <%= @username %>
+password: <%= @password %>
+```
