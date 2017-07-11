@@ -56,11 +56,11 @@ Erstellen, formatieren und mounten.
 
 Trigger scan
 
-    for x in $(ls /sys/class/scsi_host/); do echo "- - -" > /sys/class/scsi_host/${x}/scan ; done
+    for x in /sys/class/scsi_host/* ; do echo "- - -" > ${x}/scan ; done
 
 Trigger rescan
 
-    for id in $(ls /sys/class/scsi_device/); do echo 1 > /sys/class/scsi_device/$id/device/rescan; done
+    for x in /sys/class/scsi_device/*; do echo 1 > ${x}/device/rescan; done
 
 danach wieder ansehen
 
