@@ -6,13 +6,15 @@ type: "page"
 
 Angaben gemäß § 5 TMG:
 
-Florian Baumann  
-Kirschgartenstr. 77  
-90419 Nürnberg  
+```
+Florian Baumann
+Kirschgartenstr. 77
+90419 Nürnberg
+```
 
 Kontakt:
 
-E-Mail: flo und ein @ und die Domains der Site.
+E-Mail: <code class="rev">ed.eqqon@olf</code>
 
 Quelle: eRecht24, Rechtsanwalt für Internetrecht Sören Siebert
 
