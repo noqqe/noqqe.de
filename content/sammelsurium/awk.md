@@ -1,60 +1,58 @@
 ---
 title: awk
 date: 2011-07-26T12:38:13
-tags: 
+tags:
 - Programming
 ---
 
 Eine kleine Sammlung von Schnippseln die hilfreich sein könnten.
 
-## Range von Dingen ausgeben
-
-    awk '{for(i=3;i<=NF;++i)print $i}' 
 
 ## Genereller Aufbau
 
-    awk 'program' input-file1 input-file2 ... `
-    awk -f program-file input-file1 input-file2 ...`
+```
+awk 'program' input-file1 input-file2 ...
+awk -f program-file input-file1 input-file2 ...
 
-    `rule/pattern { action }`
-    `rule/pattern { action }`
+rule/pattern { action }
+rule/pattern { action }
+```
 
-## Simple Examples
+## Beispiele
 
-* Print the length of the longest input line:
+Zeug das ich eigentlich immer wieder brauche...
 
-    `awk '{ if (length($0) > max) max = length($0) } END { print max }' data`
+Zusammenzählen alle Werte einer Spalte
 
-* command-line variable assignment, like this:
+```
+awk '{ SUM += $1} END { print SUM * 48 }' /tmp/fos
+```
 
-    `$ awk -v sq="'" 'BEGIN { print "Here is a single quote <" sq ">" }'`
-    `-| Here is a single quote <'>`
+Einfache Loop
 
-* print lines with "foo" in it
+```
+awk '{for(i=3;i<=NF;++i)print $i}'
+```
 
-    $ awk '/foo/ { print $0 }' BBS-list
-    -| fooey        555-1234     2400/1200/300     B
-    -| foot         555-6699     1200/300          B
-    -| macfoo       555-6480     1200/300          A
-    -| sabafoo      555-2127     1200/300          C
+Zeige die Anzahl der Chars der längsten Input Zeile
 
-## For Loop for each $1, $2 of line
+```
+awk '{ if (length($0) > max) max = length($0) } END { print max }' data
+```
+
+Variablenzuweisung auf der Commandline
+
+```
+$ awk -v sq="'" 'BEGIN { print "Here is a single quote <" sq ">" }'
+-| Here is a single quote <'>
+```
+
+For Loop für multiple Spalten echos
 
 ~~~
 awk -F, '{ for (i = 1; i <= NF; i++)
          print $i
 }'
-~~~
-
-Example
-
-~~~
-$ echo "foo foo fo teo ewr " | awk ' { for (i = 1; i <= NF; i++) print $i}'
-foo
-foo
-fo
-teo
-ewr
 ~~~
 
 ## Quotes in awk print
