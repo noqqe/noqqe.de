@@ -1,21 +1,29 @@
 ---
 title: Elasticsearch
 date: 2016-03-02T09:48:08
-tags: 
+tags:
 - Software
 - elasticsearch
 ---
 
 #### Cluster
 
-* Does multicast on same clustername
-* you can also use unicast with ips
-* master will be elected
+* Cluster bauen findet über Multicast im Netz statt (furchtbar)
+* Man _kann_ unicast statt multicast benutzen.
+* `master` wird gewählt
 
-Get cluster health
+Informationen eines CLUSTERS anzeigen
 
     curl -XGET 'http://localhost:9200/_cluster/health?pretty=true'
 
-Show infos about host
+Informationen eines HOST anzeigen
 
     curl localhost:9200/_nodes/stats/process?pretty
+
+Alle Indices anzeigen
+
+    curl localhost:9200/_aliases
+
+Einen Index löschen
+
+    http --auth elastic:xxx DELETE 'http://localhost:9200/beat-2017.08.19'
