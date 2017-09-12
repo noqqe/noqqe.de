@@ -1,7 +1,7 @@
 ---
 title: Hiera
 date: 2015-01-29T15:38:39
-tags: 
+tags:
 - Puppet
 - Hiera
 ---
@@ -36,3 +36,7 @@ immer true zurück gibt.
 #### Hiera Query
 
     hiera -h -d users ::application=ldm ::applicationtier=ldm-na-prod ::environment=production
+
+### Puppet Explain Query
+
+    /opt/puppetlabs/bin/puppet lookup classes --merge unique --explain
