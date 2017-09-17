@@ -1,7 +1,7 @@
 ---
 title: R Cheatsheet
 date: 2013-03-27T19:37:01
-tags: 
+tags:
 - Programming
 - R
 ---
@@ -35,6 +35,7 @@ order(x) ## sortieren mit realtiven index angaben als return
 
 ~~~
 read.table("bla.csv",header=FALSE) ## Import von CSV Dateien
+read.table("bla.txt",header=FALSE) ## Import von TXT
 scan(tf,"") ## import von textdateien
 ~~~
 
