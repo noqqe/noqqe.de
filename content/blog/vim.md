@@ -1,7 +1,7 @@
 ---
 title: "Verschiedene vim Versionen & etwas micro"
 date: 2017-10-03T09:15:23+02:00
-draft: true
+draft: false
 tags:
 - vim
 - micro
