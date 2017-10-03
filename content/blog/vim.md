@@ -10,7 +10,7 @@ tags:
 
 Wow. Gerade realisiert das ich hier ganze 5(!) Monate nicht mehr gebloggt
 habe. Quasi den ganzen Sommer über. Es fühlt sich auch ein bisschen fremd
-an wieder mit [hugo](https://gohuho.io) zu arbeiten, was wahrscheinlich
+an wieder mit [hugo](https://gohugo.io) zu arbeiten, was wahrscheinlich
 hauptsächlich daran liegt das die Befehle dazu aus meiner `bash` History
 rausrotiert sind und ich sie nicht wie sonst mit `ctrl+r` suchen konnte.
 
