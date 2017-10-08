@@ -18,6 +18,9 @@ This is far away from being complete.
 * `<select>+gq` - Block formatieren nach `textwidth`
 
 ## Moving
+
+`:help motion` lesen. Sahneschnittchen sind hier.
+
 * `#` - zu nächstem Vorkommen des Wortes springen
 * `K` - öffnet Manpage zu dem Wort über dem sich der Cursor befindet
 * `H` - Ganz oben im screen springen
@@ -72,3 +75,11 @@ Newline durch RegEx einfügen:
 
 Der Trick dabei ist: STRG+V und STRG+M Drücken. Das macht in das Kommando
 das Umschaltzeichen ^M rein.
+
+## vim-sandwich
+
+Da ich mir das einfach nicht merken kann, muss ich das jetzt hier aufschreiben.
+
+* `saiw"` - Wort umklammern wie "hier"
+* `sr"(` - Doublequotes mit `(` ersetzen wie (hier)
+* `sd"` - löschen der Umrandung " wie hier
