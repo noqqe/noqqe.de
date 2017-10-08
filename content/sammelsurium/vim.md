@@ -9,55 +9,51 @@ tags:
 Some of the shortcuts here may refer to my vim configuration on github.
 This is far away from being complete.
 
-#### Commands
-`ZZ` - nicer for closing
+## Commands
+* `ZZ` - nicer for closing
 
-#### Plugin shortcuts
-* `-r` - Reload all configurations (after config change)
-* `-P` - Cleanup + Install + Update all Plugins
-* `-n` - Toggle line numbers
-* `-p` - Toggle paste mode
-* `-s` - Toggle spell checking
-* `-w` - Strip trailing whitespace
-* `-g` - Toggle git gutter line markers
-* `-e` - Check for syntaxerrors with syntastic
+## Editing
+* `CTRL+V` - Block select
+* `gg+=+G` -  Whitespace entfernen
+* `<select>+gq` - Block formatieren nach `textwidth`
 
-#### Editing
-* CTRL+V - Block select
-* gg+=+G - Remove all whitespace
-* Selektieren+gq - Block formatieren nach textwidth
+## Moving
+* `#` - zu nächstem Vorkommen des Wortes springen
+* `K` - öffnet Manpage zu dem Wort über dem sich der Cursor befindet
+* `H` - Ganz oben im screen springen
+* `M` - Mitte des Screens springen
+* `L` - Ganz unten im screen springen
 
-#### Moving
-* `#` - zu nächstem Vorkommen des wortes springen
-* `K` - oeffnet Manpage zu dem Wort ueber dem sich der Curor befindet
+* `mx` - Markierung setzen in aktueller Zeile
+* `'x` - Zur markierten Zeile zurückspringen
+* `''` - Zurück zur Stelle vorher springen
 
-#### Windows
+## Windows
 * `CTRL+ww` - Switch between windows
 * `CTRL+ws` - Split windows
 * `CTRL+ww` - switch between windows
 * `CTRL+wq` - Quit a window
 * `CTRL+wv` - Split windows vertically
 
-#### Panes
-* ALT+Arrow - Move between Splitpane
+## Panes
+* `ALT+Arrow` - Move between Splitpane
 
-#### Files
-
+## Files
 * `:bn` - next File
 * `:bp` - previous File
 
-#### Filetypes
+## Filetypes
 
-Convert file format
+Konvertieren des Filetyps
 
     :set ff=unix
     :set ff=mac
 
-and to switch encoding
+Encoding reparieren
 
     :write ++enc=utf-8
 
-#### RegEx
+## RegEx
 
 * `%s`   - Ganzes File
 * `1,5`  - Zeile 1 - 5
