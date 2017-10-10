@@ -128,14 +128,14 @@ nicht sagen. Habe mehrmals versucht mit immer dem gleichen Ergebnis.
 
 ## Fazit
 
-Die Daten zu deuten ist jedem selber überlassen. Was hier auch überhaupt
-nicht zur Sprache kam ist die Administrierbarkeit der Module oder
-Stabilität. Ob man Prefork mag weil es nativ mit mod_php kann oder man sich
-wegen der Performance mpm_worker mit fcgid antut... Geschmäcker gehen hier
-auseinander aber allein wegen der Verträglichkeit des mpm_event gegenüber
-[Slowloris](http://de.wikipedia.org/wiki/Slowloris) Attacken sollten man
-sich den "neuen" mpm_event jedenfalls mal ansehen. Performacetechnisch
-sieht es jedenfalls nicht schlecht aus ;)
+Die Daten zu deuten ist jedem selber überlassen. Was hier auch überhaupt nicht
+zur Sprache kam ist die Administrierbarkeit der Module oder Stabilität. Ob man
+Prefork mag weil es nativ mit mod_php kann oder man sich wegen der Performance
+mpm_worker mit fcgid antut... Geschmäcker gehen hier auseinander aber allein
+wegen der Verträglichkeit des mpm_event gegenüber
+[Slowloris](http://de.wikipedia.org/wiki/Slowloris) Attacken sollten man sich
+den "neuen" mpm_event jedenfalls mal ansehen. Performacetechnisch sieht es
+jedenfalls nicht schlecht aus ;)
 
 Wer möchte kann sich die [Rohdaten](https://gist.github.com/2764231) der Tests
 bei Github abholen.

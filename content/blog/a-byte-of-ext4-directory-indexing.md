@@ -128,13 +128,14 @@ Limit und Count Values sprechen denke ich für sich.
 
 ## Okay. Problem gefunden. Wie beheb ich es? ##
 
-Man baut den Directory Index neu auf, wobei der alte Dir Index
-prinzipiell behalten wird und der Neue an der letzten Stelle auf den weiteren
-Index referenziert.
+Man baut den Directory Index neu auf, wobei der alte Dir Index prinzipiell
+behalten wird und der Neue an der letzten Stelle auf den weiteren Index
+referenziert.
 
 ``` bash
 fsck.ext4 -yfD /dev/sdd1
 ```
+
 Dazu ist ein unmounten zwingend erforderlich, was bei produktiven Systemen
 unschön ist. Oder man löscht das Verzeichnis.
 
@@ -144,12 +145,13 @@ hat auch nur ca. 10 Tage gedauert. Nur so am Rande.
 
 ## Irritiert. ##
 
-Zum Abschluss muss ich sagen bin ich etwas.. irritiert. Man schafft ein Feature,
-dass dann einspringt wenn es viele Files werden (bei meinen Tests ab 300.000
-Files), welches dann später wegen diesen vielen Files zu fehlern führt. In dem
-Bereich dazwischen ist das eventuell wirklich nett zu haben, weil Perfomance.
-Aber dass ich den "Referenzakt" nicht anstossen kann während das FS gemountet
-ist finde ich dann speziell für den HA Betrieb von Servern ... fragwürdig.
+Zum Abschluss muss ich sagen bin ich etwas.. irritiert. Man schafft ein
+Feature, dass dann einspringt wenn es viele Files werden (bei meinen Tests ab
+300.000 Files), welches dann später wegen diesen vielen Files zu fehlern führt.
+In dem Bereich dazwischen ist das eventuell wirklich nett zu haben, weil
+Perfomance. Aber dass ich den "Referenzakt" nicht anstossen kann während das FS
+gemountet ist finde ich dann speziell für den HA Betrieb von Servern ...
+fragwürdig.
 
 Klar es ist in keinem Fall eine gute Idee mehr als 2 Mio. files in *ein*
 Verzeichnis zu legen, aber hey.

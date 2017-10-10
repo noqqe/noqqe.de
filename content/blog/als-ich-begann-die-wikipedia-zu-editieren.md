@@ -151,8 +151,13 @@ eingebunden. Das OpenBSD Logo dort weisst sogar [spezifische
 Informationen](https://en.wikipedia.org/wiki/File:OpenBSD_Logo_-_Cartoon_Puffy_with_textual_logo_below.svg) über
 die Herkunft und eingeräumten Nutzungsrechte auf.
 
-> The holder of the copyright (Theo de Raadt) mentions on the artwork website the following "license": Most images provided here are copyright by OpenBSD, by Theo de Raadt, or by other members or developers of the OpenBSD group. However, it is our intent that anyone be able to use these images to represent OpenBSD in a positive light. So enjoy them and let the world see them, if that is your wish.
-> Theo de Raadt is aware of the use of this svg file for the wikipedia article.
+> The holder of the copyright (Theo de Raadt) mentions on the artwork website
+> the following "license": Most images provided here are copyright by OpenBSD,
+> by Theo de Raadt, or by other members or developers of the OpenBSD group.
+> However, it is our intent that anyone be able to use these images to
+> represent OpenBSD in a positive light. So enjoy them and let the world see
+> them, if that is your wish. Theo de Raadt is aware of the use of this svg
+> file for the wikipedia article.
 
 Ich lud also mit einer ähnlichen Übersetzung das Logo in die deutsche
 Wikipedia. Wurde auch prompt wegen ungeklärten Nutzungsrechten wieder

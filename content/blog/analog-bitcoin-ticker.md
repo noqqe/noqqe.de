@@ -28,8 +28,10 @@ verblüfft. Egal. Es macht momentan Spass BitCoin zu verfolgen. Gerade die "Such
 
 {{< figure src="/uploads/2014/03/nakamoto.jpg" >}}
 
-2011 bastelte ich einen [Megabitmeter](/blog/2011/08/27/arduino-ich-baute-ein-megabitmeter/) und als er mir letztens wieder
-in die Hände fiel, dachte ich mir hey, BitCoins&lt;-&gt;Dollar anzeigen lassen!
+2011 bastelte ich einen
+[Megabitmeter](/blog/2011/08/27/arduino-ich-baute-ein-megabitmeter/) und als er
+mir letztens wieder in die Hände fiel, dachte ich mir hey,
+BitCoins&lt;-&gt;Dollar anzeigen lassen!
 
 {{< figure src="/uploads/2014/03/bitcoinmeter.png" >}}
 
