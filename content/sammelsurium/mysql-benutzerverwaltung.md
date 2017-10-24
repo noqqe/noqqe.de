@@ -1,7 +1,7 @@
 ---
 title: MySQL Benutzerverwaltung
 date: 2012-03-06T09:07:40
-tags: 
+tags:
 - Databases
 - MySQL
 ---
@@ -17,6 +17,10 @@ tags:
 ## Passwort neu setzen
 
     SET PASSWORD FOR 'bob'@'%.loc.gov' = PASSWORD('newpass');
+
+## Root ähnlichen User erzeugen
+
+    GRANT ALL PRIVILEGES ON *.* TO 'root'@'localhost' IDENTIFIED BY PASSWORD 'mypassword' WITH GRANT OPTION
 
 ### Passwort fuer alle root user neu setzen
 
