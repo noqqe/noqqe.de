@@ -7,8 +7,9 @@ tags:
 ---
 
 Dank [gpunktschmitz](https://gpunktschmitz.de) haben wir nun eine
-Virtualisierungslösung in der [K4CG](https://k4cg.org) die mit Hyper-V umgesetzt wurde.
-Ich habe damit noch nie was gemacht
+Virtualisierungslösung in der [K4CG](https://k4cg.org) die mit Hyper-V
+umgesetzt wurde. Ich habe damit noch nie was gemacht, aber muss sagen das das
+wesentlich cooler ist als ich es mir vorgestellt hab!
 
 Ich habe ein NixOS installiert und wollte ein verschlüsseltes
 Volume via `ecryptfs` aufsetzen.
