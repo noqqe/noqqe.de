@@ -1,6 +1,6 @@
 ---
 title: "NixOS mit ecryptfs"
-date: 2018-01-05T13:28:10+01:00
+date: 2018-01-05T15:59:10+01:00
 tags:
 - NixOS
 - ecryptfs
