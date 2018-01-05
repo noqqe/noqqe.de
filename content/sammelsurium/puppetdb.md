@@ -2,6 +2,9 @@
 title: "Puppetdb"
 date: 2017-12-18T15:58:58+01:00
 draft: true
+tags:
+  - Puppet
+  - PuppetDB
 ---
 
 Delete a node

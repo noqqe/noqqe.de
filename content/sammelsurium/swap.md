@@ -1,7 +1,8 @@
 ---
 title: Swap
 date: 2011-11-22T10:08:45
-tags: 
+tags:
+- OS
 - Linux
 - Swap
 ---
