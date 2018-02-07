@@ -7,7 +7,7 @@ publishdir: "public"
 metaDataFormat: "yaml"
 
 params:
-  Description: "No advertising, no support, no bug fixes, payment in advance.<br/> &mdash; AT&T Unix Policy (1984)"
+  Description: "No advertising, no support, no bug fixes, payment in advance. &mdash; AT&T Unix Policy (1984)"
   Copyright: "Content is licensed under a Creative Commons Attribution 4.0 International License"
   Author: "Florian Baumann"
   githubuser: "noqqe"
