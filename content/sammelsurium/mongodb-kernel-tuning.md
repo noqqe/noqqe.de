@@ -1,7 +1,7 @@
 ---
 title: MongoDB Kernel Tuning
 date: 2014-03-11T12:45:48
-tags: 
+tags:
 - Databases
 - MongoDB
 ---
@@ -121,44 +121,3 @@ return-limits(){
 * soft nproc 32000
 * hard nproc 32000
 ~~~
-
-## Simple DB Handling
-
-~~~
-## "create" new database
-> use mydb
-
-## create key value in javascript
-> j = { name : "mongo" }
-{ "name" : "mongo" }
-
-## one more
-> k = { x : 3 }
-{ "x" : 3 }
-
-## insert data into collection
-> db.testData.insert( j )
-> db.testData.insert( k )
->
-
-## list data
-> db.testData.find()
-{ "_id" : ObjectId("520a64632d51787dd8bcf951"), "name" : "mongo" }
-{ "_id" : ObjectId("520a64632d51787dd8bcf952"), "x" : 3 }
-~~~
-
-## Schreiben über ein File in JS
-
-File file.js
-
-~~~
-db = db.getSiblingDB('noqqe');
-
-for (x=1 ; x <= 100 ; x++) {
-  db.collection.save( { foo: x } )
-};
-~~~
-
-Dann mit einlesen
-
-    mongo file.js

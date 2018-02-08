@@ -1,16 +1,22 @@
 ---
 title: MongoDB Backup and Restore
 date: 2015-03-17T09:48:07
-tags: 
+tags:
 - Databases
 - MongoDB
 ---
 
-because i always forget
 
 ## Backup
 
-#### Full Cluster Backup
+    mongodump --db test --out /tmp/dump
+
+## Restore
+
+    mongorestore --db test /tmp/dump/test/
+
+
+## Full Cluster Backup
 
 * Pick one shard+configserver
 * Stop Balancer via mongos
@@ -24,7 +30,7 @@ because i always forget
 * unmount snapshot
 * delete lvm snapshot
 
-## Restore
+## Full Cluster Restore
 
 There are multiple scenarios of backing up
 
