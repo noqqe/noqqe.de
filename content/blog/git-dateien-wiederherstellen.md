@@ -5,19 +5,8 @@ aliases:
 date: '2010-08-18T19:53:13'
 tags:
 - development
-- files
-- head
 - git
-- "zur\xFCckholen"
-- retten
-- git checkout
-- verloren
-- wiederherstellen
-- datei
-- recover
-- checkout
-- dateien
-title: 'Git | Dateien wiederherstellen '
+title: 'Git | Dateien wiederherstellen'
 ---
 
 Versehentlich gelöschte Dateien recovern. Schön wenn einem dann klar wird,

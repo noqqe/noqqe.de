@@ -21,13 +21,7 @@ tags:
 - development
 - branching
 - git
-- repos
-- fetch
-- merge
-- vereinen
-- "zusammenf\xFChren"
-- debian
-title: "Git | Verschiedene Repos zusammenf\xFChren "
+title: "Git | Verschiedene Repos zusammenführen"
 ---
 
 In einem Anfall des Ordnungswahns entschloss ich mich im Mai (oder einem
