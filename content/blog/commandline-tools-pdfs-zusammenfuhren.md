@@ -67,14 +67,9 @@ comments:
   date: '2015-02-03T15:18:57.196778'
 date: '2011-04-20T10:14:50'
 tags:
-- blog
 - merge
-- combine
 - split
 - pdf
-- pdfs kombinieren
-- "zusammenf\xFChren"
-- kombinieren
 - bash
 title: "Commandline Tools | PDFs zusammenf\xFChren"
 ---
