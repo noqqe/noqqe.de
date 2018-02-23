@@ -1,12 +1,58 @@
 ---
 title: InfluxDB
 date: 2016-10-20T15:46:50
-tags: 
+tags:
 - InfluxDB
 - Software
 ---
 
-#### Databases
+## Datenbanken
+
+DB auswählen
+
+    show database
+    use telegraf
+
+Oder auch beim connecten
+
+    influx -database telegraf
+
+Erstellen
+
+    create database telegraf
+
+Löschen
+
+    drop database telegraf
+
+## Series
+
+Show all series
+
+    use telegraf
+    show series
+
+## Measurements
+
+    show measurements
+
+## Queries
+
+Alle series anzeigen
+
+    select * from mqtt_consumer
+
+Alle Series löschen
+
+    drop series from mqtt_consumer
+
+Where ist wie bei SQL
+
+    select * from mqtt_consumer where topic='sensors/spacestatus/temp'
+
+## curl Queries
+
+### Databases
 
 Create
 
@@ -16,7 +62,7 @@ Drop
 
     curl -i -XPOST http://localhost:8086/query --data-urlencode "q=DROP DATABASE besucher"
 
-#### Data
+### Data
 
 Select
 
