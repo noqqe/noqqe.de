@@ -30,6 +30,11 @@ body {
 	padding-top: 0;
 }
 
+figcaption {
+	text-align: center;
+    font-style: italic;
+}
+
 a {
 	color: dodgerblue;
 }
