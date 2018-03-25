@@ -29,7 +29,7 @@ comments:
   date: '2010-04-11T21:37:24'
 - author: noqqe
   content: "<p>Vielen Dank Jurkan nochmal f\xFCr die Arch AUR Portierung. <br><a href=\"http://aur.archlinux.org/packages.php?ID=36366\"
-    rel=\"nofollow\">http://aur.archlinux.org/packa...</a></p><p>Bug ist gefixed.
+    rel=\"nofollow\">http://aur.archlinux.org/packages.php?ID=36366</a></p><p>Bug ist gefixed.
     Lag an der File-Identifikation. War nicht eindeutig genug. Update ist in Git(-hub).
     Genaugenommen 2 Zeichen.</p>"
   date: '2010-04-12T00:03:29'

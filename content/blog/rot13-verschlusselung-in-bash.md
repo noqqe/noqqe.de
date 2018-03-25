@@ -4,7 +4,7 @@ aliases:
 comments:
 - author: Hesmon
   content: "<p>K\xFCrzer:<br><a href=\"http://www.commandlinefu.com/commands/view/1792/rot13-using-the-tr-command\"
-    rel=\"nofollow\">http://www.commandlinefu.com/c...</a></p>"
+    rel=\"nofollow\">http://www.commandlinefu.com/commands/view/1792/rot13-using-the-tr-command</a></p>"
   date: '2011-08-13T20:30:46'
 - author: noqqe
   content: <p>Schade, dass du den Post nichtmal gelesen hast.</p>
@@ -15,7 +15,7 @@ comments:
 - author: noqqe
   content: <p>In dem eingebundenen JavaScript von Github gibts einen Knopf mit "View
     raw"</p><p>Hier ist der Link:</p><p><a href="https://gist.github.com/raw/1143762/a88606a269ed45945b2dead9424886a04ef9fe6b/rot13.bash"
-    rel="nofollow">https://gist.github.com/raw/11...</a></p>
+    rel="nofollow">https://gist.github.com/raw/1143762/a88606a269ed45945b2dead9424886a04ef9fe6b/rot13.bash</a></p>
   date: '2011-08-14T15:48:54'
 - author: cp
   content: "<p>Rot13 ist zwar sch\xF6n einfach, aber man kann nat\xFCrlich sehr leicht

@@ -37,7 +37,7 @@ comments:
   date: '2010-06-01T00:39:59'
 - author: foo
   content: <p>Ansonsten einfach ein Issue aufmachen / kommentieren ( <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=Evolution"
-    rel="nofollow">https://bugzilla.gnome.org/ent...</a> ) und nicht gleich den Kopf
+    rel="nofollow">https://bugzilla.gnome.org/enter_bug.cgi?product=Evolution</a> ) und nicht gleich den Kopf
     in den Sand stecken. Freie Software lebt davon, dass Benutzer aktiv mithelfen
     bei der Verbesserung - auch wenn es nur ein Kommentar unter einem bekannten Bug
     ist, der dessen Prio unterstreicht.</p>
@@ -54,7 +54,7 @@ comments:
 - author: David
   content: <p>Falls der Mailserver unter deiner Kontrolle ist, solltest dir mal Sieve
     angucken (<a href="http://en.wikipedia.org/wiki/Sieve_%28mail_filtering_language%29)"
-    rel="nofollow">http://en.wikipedia.org/wiki/S...</a></p><p>Serverseitiges IMAP
+    rel="nofollow">http://en.wikipedia.org/wiki/Sieve_%28mail_filtering_language%29</a></p><p>Serverseitiges IMAP
     filtern - und nie mehr Filter von verschiedenen Clients importieren/exporteren
     ;)</p>
   date: '2010-06-01T02:02:43'
@@ -100,7 +100,7 @@ comments:
   content: "<p>Mein Setup auf dem Mailserver besteht aus: Postfix, Dovecot f\xFCr
     IMAP (ab 1.2 ist sieve dabei, fr\xFChere Versionen m\xFCssen wohl gepatched werden),
     dann Roundcube Webmail mit diesem Plugin f\xFCr die Filter: <a href=\"http://www.tehinterweb.co.uk/roundcube/#pisieverules\"
-    rel=\"nofollow\">http://www.tehinterweb.co.uk/r...</a>.</p><p>Bin sehr zufrieden
+    rel=\"nofollow\">http://www.tehinterweb.co.uk/roundcube/#pisieverules</a>.</p><p>Bin sehr zufrieden
     mit diesem Setup und w\xFCrde es nie mehr gegen clientseitige Filter eintauschen
     ;)</p>"
   date: '2010-06-01T15:30:48'

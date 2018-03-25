@@ -19,7 +19,7 @@ comments:
   date: '2012-05-17T09:50:09'
 - author: noqqe
   content: "<p>\_Ich habe an dieser Stelle nichts zu fixen. </p><p>Die XML die Ubuntuusers
-    Planeten Software auswertet ist: <a href=\"http://noqqe.de/ubuntuusers.xml\" rel=\"nofollow\">http://noqqe.de/ubuntuusers.xm...</a>.
+    Planeten Software auswertet ist: <a href=\"http://noqqe.de/ubuntuusers.xml\" rel=\"nofollow\">http://noqqe.de/ubuntuusers.xml</a>.
     Die ganzen Formatzeichen sind dort nicht im Code. W\xFCrde die Planetensoftware
     das alles so auswerten w\xFCrde es wie in allen Readern funktionieren. </p><p>Habe
     viele Reader getestet: Liferea, tinytinyrss und Goolge Reader. Bei allen verlief

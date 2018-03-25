@@ -12,7 +12,7 @@ comments:
     rel="nofollow">-as-a-service.com</a> is apparently not working.  I found a bug
     in your setup.  I figure it's probably well known so I will just report it here.</p><p>I
     wanted to let you know that the sample code yields a 404 error, that <a href="http://denull-as-a-service.com/dev/null"
-    rel="nofollow">http://denull-as-a-service.com...</a> is not found.</p><p>My recommendation
+    rel="nofollow">http://denull-as-a-service.com/dev/null</a> is not found.</p><p>My recommendation
     is that you create a simple FCGI script to simply return an HTTP 202 ACCPETED
     code.  In general it looks bad if your demo returns a file not found.</p><p>Best
     of luck on your new venture.  Might I suggest however that /dev/zero as a service

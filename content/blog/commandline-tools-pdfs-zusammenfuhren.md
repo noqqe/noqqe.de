@@ -16,7 +16,7 @@ comments:
   content: '<p>Wenn ein GUI-Programm bevorzugt wird: <a href="http://live.gnome.org/PdfMod"
     rel="nofollow">http://live.gnome.org/PdfMod</a><br><a href="http://www.pdfsam.org/"
     rel="nofollow">http://www.pdfsam.org/</a><br><a href="http://sourceforge.net/projects/pdfshuffler/"
-    rel="nofollow">http://sourceforge.net/project...</a></p>'
+    rel="nofollow">http://sourceforge.net/projects/pdfshuffler/</a></p>'
   date: '2011-04-20T14:54:27'
 - author: Niko
   content: "<p>Ich stand vor einiger Zeit auch vor dem Problem, dass ich eine Hand
@@ -28,7 +28,7 @@ comments:
 - author: sinusQ
   content: <p>Wie auch Niko schon sagte.. Ich verwende meistens PDF MOD. </p><p><a
     href="http://wiki.ubuntuusers.de/PDF?highlight=Pw%20Tbaustell%20Zpdfmod#PDF-Mod"
-    rel="nofollow">http://wiki.ubuntuusers.de/PDF...</a></p>
+    rel="nofollow">http://wiki.ubuntuusers.de/PDF?highlight=Pw%20Tbaustell%20Zpdfmod#PDF-Mod</a></p>
   date: '2011-04-20T16:43:01'
 - author: Funatiker
   content: <p>Und was genau spricht gegen die Verwendung von pdfjoin?</p>

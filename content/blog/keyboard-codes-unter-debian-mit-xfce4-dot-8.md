@@ -19,7 +19,7 @@ comments:
     korrumpiert. Es ist einfach nicht empfehlenswert. Xfconf funktioniert \xFCber
     dbus-calls, die bei einer direkten Bearbeitung nicht ausgel\xF6st werden, womit
     die Applikationen nicht mit bekommen, das etwas ver\xE4ndert wurde.</p><p>killermoehre<br><a
-    href=\"irc://irc.freenode.net/#xfce-de\" rel=\"nofollow\">irc://irc.freenode.net/#xfce-d...</a></p>"
+    href=\"irc://irc.freenode.net/#xfce-de\" rel=\"nofollow\">irc://irc.freenode.net/#xfce-de</a></p>"
   date: '2012-04-21T16:51:50'
 - author: noqqe
   content: "<p>\_Alles klar. Angekommen und registriert :)<br>Danke!</p>"

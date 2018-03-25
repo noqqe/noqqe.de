@@ -17,7 +17,7 @@ comments:
   content: "<p>Hier mach ich einfach mal eben Eigenwerbung, weil ich durch deinen
     Artikel auf ein anderes \xE4hnliches Programm gesto\xDFen bin, dass unter Umst\xE4nden
     schon n\xFCtzlich sein k\xF6nnte.<br><a href=\"http://codecocktail.wordpress.com/2008/09/24/surfraw-googeln-im-linux-terminal/\"
-    rel=\"nofollow\">http://codecocktail.wordpress....</a></p><p>Sicherlich ist goosh
+    rel=\"nofollow\">http://codecocktail.wordpress.com/2008/09/24/surfraw-googeln-im-linux-terminal/</a></p><p>Sicherlich ist goosh
     in der Form, wie es unter <a href=\"http://goosh.org\" rel=\"nofollow\">goosh.org</a>
     anzutreffen ist nicht sehr n\xFCtzlich. Ich f\xE4nde es n\xFCtzlich, wenn ich
     den Spa\xDF von meinem Linuxterminal aus benutzen k\xF6nnte, um so schnell nach
@@ -28,9 +28,9 @@ comments:
   date: '2008-09-24T21:05:13'
 - author: zypral
   content: "<p>Was mir dazu einf\xE4llt:</p><p>Auf <a href=\"http://karl-tux-stadt.de/ktuxs/\"
-    rel=\"nofollow\">http://karl-tux-stadt.de/ktuxs...</a> auf der rechten Seite bei
+    rel=\"nofollow\">http://karl-tux-stadt.de/ktuxs/</a> auf der rechten Seite bei
     Themeswitch mal \"Shell\" ausw\xE4hlen.</p><p>Direktlink mit Shell-Theme: <a href=\"http://karl-tux-stadt.de/ktuxs/index.php?wptheme=Shell\"
-    rel=\"nofollow\">http://karl-tux-stadt.de/ktuxs...</a></p><p>LG<br>zypral</p>"
+    rel=\"nofollow\">http://karl-tux-stadt.de/ktuxs/index.php?wptheme=Shell</a></p><p>LG<br>zypral</p>"
   date: '2008-09-24T23:07:43'
 - author: Dr. Azrael Tod
   content: "<p>wenn man suchen und \xE4hnliches via eines shell-\xE4hnlichen Interfaces

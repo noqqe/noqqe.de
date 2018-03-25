@@ -8,7 +8,7 @@ comments:
     Apfel-Gebiet bewegst. ;D</p><p>Ist aber wirklich sehr aufger\xE4umt da bei dir.
     Noch nichtmal ein gesunder Kabelsalat, kein CD-Stapel, ... Wie h\xE4lt man das
     nur aus? ;)</p><p>Meinen Desk gab's auch gerade heute im Arch Forum:</p><p><a
-    href=\"https://bbs.archlinux.de/viewtopic.php?pid=254631#p254631\" rel=\"nofollow\">https://bbs.archlinux.de/viewt...</a></p><p>Cheers!</p>"
+    href=\"https://bbs.archlinux.de/viewtopic.php?pid=254631#p254631\" rel=\"nofollow\">https://bbs.archlinux.de/viewtopic.php?pid=254631#p254631</a></p><p>Cheers!</p>"
   date: '2010-12-27T01:04:16'
 - author: noqqe
   content: '<p>@vain: Apple! Naja ich sag mal so. Der Kabelsalat meiner anderen Workstation

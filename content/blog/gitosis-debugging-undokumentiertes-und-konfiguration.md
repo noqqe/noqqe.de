@@ -17,7 +17,7 @@ comments:
   date: '2010-08-13T10:41:21'
 - author: philipp
   content: "<p>Es gibt BTW eine example.conf</p><p><a href=\"http://eagain.net/gitweb/?p=gitosis.git;a=blob;f=example.conf;h=87bd822fc17ebfe0132f7060afa8036f84c3be99;hb=HEAD\"
-    rel=\"nofollow\">http://eagain.net/gitweb/?p=gi...</a></p><p>Die ist interessant,
+    rel=\"nofollow\">http://eagain.net/gitweb/?p=gitosis.git;a=blob;f=example.conf;h=87bd822fc17ebfe0132f7060afa8036f84c3be99;hb=HEAD</a></p><p>Die ist interessant,
     da steht z.B. drinne, wie gruppen mitglied einer anderen gruppe werden k\xF6nnen!...</p><p>(subdirs
     behandeln sie nur implizit, weil eines mit subdir angegeben wird)</p>"
   date: '2011-01-20T19:49:43'

@@ -19,12 +19,12 @@ comments:
   content: "<p>Hi Freakern, </p><p>Da hast du Recht :) Die Meisten haben so Ihre eigene
     Verwaltung von hilfreichen Schnippseln. </p><p>Ich pers\xF6hnlich habe das auch
     lange so gel\xF6st wie du, bin dann aber zu bash-it gewechselt. </p><p>Wenn du
-    Interesse hast schau dir mal <a href=\"http://github.com/revans/bash-it\" rel=\"nofollow\">http://github.com/revans/bash-...</a>
+    Interesse hast schau dir mal <a href=\"http://github.com/revans/bash-it\" rel=\"nofollow\">http://github.com/revans/bash-it/</a>
     an. Das ist im Grunde das selbe in Gr\xFCn und Strukturiert :)</p>"
   date: '2010-12-14T20:13:36'
 - author: Lars Moelleken
   content: <p>... hab mir auch mal ein paar Shell-Schnippseln zusammengeschrieben
-    :-) <br>-&gt; <a href="http://suckup.de/blog/2010/07/30/bashrc/" rel="nofollow">http://suckup.de/blog/2010/07/...</a></p><p>bash-it
+    :-) <br>-&gt; <a href="http://suckup.de/blog/2010/07/30/bashrc/" rel="nofollow">http://suckup.de/blog/2010/07/30/bashrc/</a></p><p>bash-it
     ist ne gute Idee! Thx!</p>
   date: '2010-12-14T22:49:36'
 - author: Alex

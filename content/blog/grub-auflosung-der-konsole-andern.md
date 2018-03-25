@@ -15,7 +15,7 @@ comments:
     anschlie\xDFend das update-script auszuf\xFChren. Dann muss man n\xE4mlich nicht
     nach Kernelupdate die Optionen wieder erneut eintragen, sondern es passiert automatisch.</p><p><a
     href=\"http://wiki.ubuntuusers.de/Konsolen-Aufl%C3%B6sung#GRUB-Konfiguration\"
-    rel=\"nofollow\">http://wiki.ubuntuusers.de/Kon...</a></p>"
+    rel=\"nofollow\">http://wiki.ubuntuusers.de/Konsolen-Aufl%C3%B6sung#GRUB-Konfiguration</a></p>"
   date: '2010-07-15T14:10:06'
 - author: Tanja
   content: "<p>Bei grub2 sollte man au\xDFerdem den Paramater \"video=\" statt \"vga=\"

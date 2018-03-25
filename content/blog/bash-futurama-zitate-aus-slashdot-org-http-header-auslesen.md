@@ -6,10 +6,10 @@ comments:
 - author: noqqe
   content: "<p>Update1: bei Commandlinefu gibt es ebenfalls eine Reihe von L\xF6sungen
     f\xFCr die HTTP-Header Abfrage von <a href=\"http://slashdot.org\" rel=\"nofollow\">slashdot.org</a>:
-    <a href=\"http://www.commandlinefu.com/commands/tagged/234/futurama\" rel=\"nofollow\">http://www.commandlinefu.com/c...</a></p><p>Update2:
+    <a href=\"http://www.commandlinefu.com/commands/tagged/234/futurama\" rel=\"nofollow\">http://www.commandlinefu.com/commands/tagged/234/futurama</a></p><p>Update2:
     Es scheint auch ein fortune-mod-paket zu geben, welches l\xE4ngere Zitate von
     Futurama enth\xE4lt: <a href=\"http://www.netmeister.org/apps/fortune-mod-futurama-0.2.tar.gz\"
-    rel=\"nofollow\">http://www.netmeister.org/apps...</a></p>"
+    rel=\"nofollow\">http://www.netmeister.org/apps/fortune-mod-futurama-0.2.tar.gz</a></p>"
   date: '2010-09-26T17:08:49'
 - author: The Compiler
   content: "<p>if [ $(grep \"$quote\" $target |wc -l) -lt 1 ]; then</p><p>Das ist

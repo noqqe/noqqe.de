@@ -9,18 +9,18 @@ comments:
   date: '2008-07-10T00:15:04'
 - author: zypral
   content: <p>Ein Buch das ich mir bestellt habe und empfehlen kann:<br><a href="http://www.amazon.de/Objektorientierte-Programmierung-Python-Michael-Weigend/dp/382661660X/ref=sr_1_7?ie=UTF8&amp;s=books&amp;qid=1215634971&amp;sr=1-7"
-    rel="nofollow">http://www.amazon.de/Objektori...</a></p>
+    rel="nofollow">http://www.amazon.de/Objektorientierte-Programmierung-Python-Michael-Weigend/dp/382661660X/</a></p>
   date: '2008-07-10T00:23:26'
 - author: noqqe
   content: "<p>Danke f\xFCr die Empfehlungen! Ein neues Buch kauf ich mir erst wenn
     ich mti meinem Linux-Befehle Buch durch bin. Dauert nichtmehr lange! Aber wenn
     hab ich da schon was im Auge.<br>Eventuell sogar <a href=\"http://www.galileocomputing.de/openbook/python/\"
-    rel=\"nofollow\">http://www.galileocomputing.de...</a></p><p>Google App-Engine
+    rel=\"nofollow\">http://www.galileocomputing.de/openbook/python</a></p><p>Google App-Engine
     werd ich mir auch mal anschaun!</p>"
   date: '2008-07-10T01:04:28'
 - author: zypral
   content: <p>Hatte ich auch angefangen, bis ich das gelesen habe:<br><a href="http://www.python-forum.de/topic-13008.html"
-    rel="nofollow">http://www.python-forum.de/top...</a></p>
+    rel="nofollow">http://www.python-forum.de/topic-13008.html</a></p>
   date: '2008-07-10T22:30:18'
 - author: CracKPod
   content: "<p>Hey, was zypral sagte stimmt, solltest du nicht kaufen.</p><p>Ich w\xFCnsche

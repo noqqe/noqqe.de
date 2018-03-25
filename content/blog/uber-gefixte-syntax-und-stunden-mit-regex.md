@@ -6,7 +6,7 @@ comments:
   date: '2012-11-23T10:59:39'
 - author: noqqe
   content: "<p>Klar, dazu gibts nen Blogpost: <a href=\"http://noqqe.de/blog/2012/03/05/switched-to-octopress/\"
-    rel=\"nofollow\">http://noqqe.de/blog/2012/03/0...</a>. Ham uns im \xF6rtlichen
+    rel=\"nofollow\">http://noqqe.de/blog/2012/03/05/switched-to-octopress/</a>. Ham uns im \xF6rtlichen
     Hackerspace bissl \xFCber Blogging Software unterhalten und dann kam (zum Gro\xDFteil
     wegen Markdown und wegfallen von PHP) eins zum anderen :)</p><p>Wenn du konkrete
     Fragen hast meld dich ;)</p>"
@@ -70,7 +70,7 @@ comments:
     durchsetzen und tats\xE4chlich zum RFC werden m\xFCssen eh einige leute was tun.
     </p><p>Zum Thema Kompilierungszeit: Wie lange braucht dein Framework eigentlich
     so wenn du deinen Blog baust? H\xE4tt mich eh mal interessiert :) </p><p>[1]:
-    <a href=\"http://en.wikipedia.org/wiki/List_of_Markdown_implementations\" rel=\"nofollow\">http://en.wikipedia.org/wiki/L...</a></p>"
+    <a href=\"http://en.wikipedia.org/wiki/List_of_Markdown_implementations\" rel=\"nofollow\">http://en.wikipedia.org/wiki/List_of_Markdown_implementations</a></p>"
   date: '2012-12-01T09:48:50'
 - author: posativ
   content: "<p>Pro \xC4nderung/neuer Eintrag ~1s, from scratch ca. 10s, bei 170 Beitr\xE4gen.

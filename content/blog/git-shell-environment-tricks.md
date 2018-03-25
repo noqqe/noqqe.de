@@ -10,7 +10,7 @@ comments:
   date: '2012-03-10T21:43:28'
 - author: Jakob
   content: "<p>Was ich \xFCbrigens auch empfehlen kann: vcprompt (<a href=\"https://bitbucket.org/gward/vcprompt)\"
-    rel=\"nofollow\">https://bitbucket.org/gward/vc...</a>. Das kann man sehr sch\xF6n
+    rel=\"nofollow\">https://bitbucket.org/gward/vcprompt</a>. Das kann man sehr sch\xF6n
     in seinen Prompt einbauen. Woher wei\xDF eigentlich dein Blog, dass ich das dunkle
     Solarized-Theme in meinem Terminal verwenden? :O Und ich habe \xFCbrigens auch
     ein `git diff`-Alias:</p><p>&gt; gdf ist ein Alias von `git diff HEAD | pygmentize

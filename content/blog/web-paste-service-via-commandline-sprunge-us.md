@@ -6,7 +6,7 @@ comments:
 - author: Maxe
   content: "<p>Mein Lieblingspastebin ( <a href=\"http://paste.pocoo.org/\" rel=\"nofollow\">http://paste.pocoo.org/</a>
     ) bietet auch ein Konsolentool \u2192 <a href=\"http://paste.pocoo.org/help/integration/\"
-    rel=\"nofollow\">http://paste.pocoo.org/help/in...</a></p><p>:P</p>"
+    rel=\"nofollow\">http://paste.pocoo.org/help/integration/</a></p><p>:P</p>"
   date: '2010-01-27T01:30:18'
 - author: Sven
   content: "<p>Das ist ja gro\xDFartig.<br>Ich habe bei Opera gerade eine neue Suche

@@ -9,7 +9,7 @@ comments:
 - author: noqqe
   content: '<p>Hi dirk, </p><p>ich hab gerade auch mal ausgecheckt, aber bei mir funktionierts.
     </p><p>Versuch doch alternativ mal:</p><p><a rel="nofollow">git://github.com/noqqe/better-...</a></p><p>oder:
-    </p><p><a href="https://github.com/noqqe/better-task-shell.git" rel="nofollow">https://github.com/noqqe/bette...</a></p>'
+    </p><p><a href="https://github.com/noqqe/better-task-shell.git" rel="nofollow">https://github.com/noqqe/better-task-shell.git</a></p>'
   date: '2011-10-23T14:57:46'
 - author: Dirk Deimeke
   content: <p>Die Alternative hat funktioniert, aber die Shell tut noch nicht ganz

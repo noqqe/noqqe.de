@@ -2,7 +2,7 @@
 comments:
 - author: gewalt-achim
   content: "<p>dein blog is nich valid: <a href=\"http://validator.w3.org/check?uri=http%3A%2F%2Fnoqqe.de\"
-    rel=\"nofollow\">validator.w3.org/check?uri=htt...</a></p><p>und das is auch der
+    rel=\"nofollow\">\"http://validator.w3.org/check?uri=http%3A%2F%2Fnoqqe.de</a></p><p>und das is auch der
     einzige blog, der im planet auf der uu-page die \"zur\xFCck\"- und \"weiter\"-buttons
     nich sauber anzeigt (hab hier FF 14.0.1 @ xubuntu 12.04 lts).</p>"
   date: '2012-07-29T14:48:33'
@@ -42,7 +42,7 @@ comments:
   date: '2012-07-29T20:14:36'
 - author: noqqe
   content: "<p>Ich sags dir mal einfach so. Das ist die URL die Ubuntuusers bei mir
-    abholt. <a href=\"http://noqqe.de/ubuntuusers.xml\" rel=\"nofollow\">http://noqqe.de/ubuntuusers.xm...</a></p><p>Nennt
+    abholt. <a href=\"http://noqqe.de/ubuntuusers.xml\" rel=\"nofollow\">http://noqqe.de/ubuntuusers.xml</a></p><p>Nennt
     sich Atom Feed. </p><p>Wo der Uu-Planet  irgendwelche &lt; p&gt; Tags findet und
     warum du hier total ausrastet ist mir schleierhaft. </p><p>Was ich weiss ist,
     dass ich wohl nicht der einzige mit einem Octopress Blog im Uu-Planeten bin und
@@ -51,7 +51,7 @@ comments:
   date: '2012-07-30T15:34:47'
 - author: noqqe
   content: "<p>Ich sags dir mal einfach so. Das ist die URL die Ubuntuusers bei mir
-    abholt. <a href=\"http://noqqe.de/ubuntuusers.xml\" rel=\"nofollow\">http://noqqe.de/ubuntuusers.xm...</a>
+    abholt. <a href=\"http://noqqe.de/ubuntuusers.xml\" rel=\"nofollow\">http://noqqe.de/ubuntuusers.xml</a>
     Nennt sich Atom Feed. Wo der Uu-Planet irgendwelche &lt; p&gt; Tags findet und
     warum du hier total ausrastet ist mir schleierhaft. Was ich weiss ist, dass ich
     wohl nicht der einzige mit einem Octopress Blog im Uu-Planeten bin und es au\xDFerdem

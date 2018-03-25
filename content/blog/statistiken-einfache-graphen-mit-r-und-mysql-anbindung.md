@@ -19,7 +19,7 @@ comments:
     zombies * 80 defense-points = 4000 defense-points<br>fight: humans 5000 strength
     vs. zombies 4000 defense<br>result: humans win.</p><p>Zu sehen und mehr Infos
     auch auf der Github Site: <a href=\"https://github.com/noqqe/zombie-revolution-environment\"
-    rel=\"nofollow\">https://github.com/noqqe/zombi...</a> ^^</p>"
+    rel=\"nofollow\">https://github.com/noqqe/zombie-revolution-environment</a> ^^</p>"
   date: '2011-11-13T17:01:44'
 date: '2011-10-02T21:58:50'
 tags:

@@ -60,7 +60,7 @@ comments:
     mir das nicht vorher aufgefallen ist, dass ich nicht mehr als einen einfachen
     Editor brauchte, vim oder so. Ich hab mal schnell gegooglet, es gibt auf jeden
     Fall auch einige nette CLI-Tools:<br><a href=\"http://arduino.cc/playground/FreeBSD/CLI\"
-    rel=\"nofollow\">http://arduino.cc/playground/F...</a></p><p>Ardunio-M\xE4n sagt:
+    rel=\"nofollow\">http://arduino.cc/playground/FreeBSD/CLI</a></p><p>Ardunio-M\xE4n sagt:
     Im Bereich des M\xF6glichen. (Er ist aber auch noch ziemlich am Anfang mit Ardunino,
     wusste ich nicht :P ) Ich werde mich mal nach Silvester nach der Hardware umsehen,
     da sollte ich etwas mehr Zeit im Alltag haben, richtig cool w\xE4re das dann ja

@@ -8,7 +8,7 @@ comments:
     einen Weg gefunden, die Einstellungen zu speichern?</p>"
   date: '2008-04-28T23:06:26'
 - author: seufz
-  content: <p><a href="http://seufz.wordpress.com/2008/04/28/hachjanvidia/" rel="nofollow">http://seufz.wordpress.com/200...</a><br>;)</p><p>Sollte
+  content: <p><a href="http://seufz.wordpress.com/2008/04/28/hachjanvidia/" rel="nofollow">http://seufz.wordpress.com/2008/04/28/hachjanvidia/</a><br>;)</p><p>Sollte
     deine Frage beantworten.<br>Falls noch was ist sag Bescheid. Ich helf gerne.</p>
   date: '2008-04-29T00:11:59'
 - author: Lukas

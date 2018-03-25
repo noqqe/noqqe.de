@@ -7,7 +7,7 @@ comments:
     Sekunden + Bedenkzeit je Tab-Anschlag (unter FDE).</p><p>Gab es jemals die Intention,
     alle plugins lazy zu machen? [1] finde ich ziemlich geil. Gerade noch vertretbare
     0.45 Sekunden f\xFCr die Bash ;)</p><p>[1]: <a href=\"http://fahdshariff.blogspot.de/2011/09/speeding-up-bash-profile-load-time.html\"
-    rel=\"nofollow\">http://fahdshariff.blogspot.de...</a></p><p></p>"
+    rel=\"nofollow\">http://fahdshariff.blogspot.de/2011/09/speeding-up-bash-profile-load-time.html</a></p><p></p>"
   date: '2012-08-12T20:00:42'
 - author: Andreas
   content: "<p>Ich kann dich verstehen, geht mir auch so. Mit SSD geht wenigstens
