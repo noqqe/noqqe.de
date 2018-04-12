@@ -53,16 +53,16 @@ werden. Seit 6 Releases mach ich das jetzt so.
 * Base Sets und Kernel und Signaturen ziehen.
 
 ```
-VER=5.8
+VER=6.3
 ARCH=$(uname -m)
-wget -r --no-parent -A.tgz http://ftp.hostserver.de/pub/OpenBSD/$VER/$ARCH/
-cd ftp.hostserver.de/pub/OpenBSD/$VER/$ARCH/
-wget http://ftp.hostserver.de/pub/OpenBSD/$VER/$ARCH/bsd
-wget http://ftp.hostserver.de/pub/OpenBSD/$VER/$ARCH/bsd.rd
-wget http://ftp.hostserver.de/pub/OpenBSD/$VER/$ARCH/bsd.mp
-wget http://ftp.hostserver.de/pub/OpenBSD/$VER/$ARCH/bsd.sp
-wget http://ftp.hostserver.de/pub/OpenBSD/$VER/$ARCH/SHA256
-wget http://ftp.hostserver.de/pub/OpenBSD/$VER/$ARCH/SHA256.sig
+wget -r --no-parent -A.tgz https://ftp.uni-erlangen.de/openbsd/$VER/$ARCH/
+cd ftp.uni-erlangen.de/openbsd/$VER/$ARCH/
+wget https://ftp.uni-erlangen.de/openbsd/$VER/$ARCH/bsd
+wget https://ftp.uni-erlangen.de/openbsd/$VER/$ARCH/bsd.rd
+wget https://ftp.uni-erlangen.de/openbsd/$VER/$ARCH/bsd.mp
+wget https://ftp.uni-erlangen.de/openbsd/$VER/$ARCH/bsd.sp
+wget https://ftp.uni-erlangen.de/openbsd/$VER/$ARCH/SHA256
+wget https://ftp.uni-erlangen.de/openbsd/$VER/$ARCH/SHA256.sig
 ```
 
 * Schritten aus der Anleitung zum Einspielen auf openbsd.org folgen
@@ -73,29 +73,26 @@ wget http://ftp.hostserver.de/pub/OpenBSD/$VER/$ARCH/SHA256.sig
 
 * Packages: PKG_PATH in ksh/bash aktualisieren und updaten
 
-		export PKG_PATH=http://ftp.hostserver.de/pub/OpenBSD/$(uname -r)/packages/$(uname -m)/
+		export PKG_PATH=https://ftp.uni-erlangen.de/openbsd/$(uname -r)/packages/$(uname -m)/
 		pkg_add -u
 
 * CVS src Tree updaten
 
 		cd /usr
-		cvs -qd anoncvs@ftp.hostserver.de:/cvs get -rOPENBSD_5_X -P src
+		cvs -qd anoncvs@ftp.hostserver.de:/cvs get -rOPENBSD_6_X -P src
 
 * CVS ports Tree updaten
 
 		cd /usr
-		cvs -qd anoncvs@ftp.hostserver.de:/cvs get -rOPENBSD_5_X -P ports
+		cvs -qd anoncvs@ftp.hostserver.de:/cvs get -rOPENBSD_6_X -P ports
 
 ### Errata
 
 Da oftmals Errata publik werden nachdem das eigentliche Release schon im
 freeze ist, am besten gleich nach dem Upgrade schauen, ob schon Errata
-verfügbar sind. Ich benutze hierfür Binpatching via
-[openup](http://www.mtier.org/index.php/solutions/apps/openup/)
+verfügbar sind. Seit 6.0 gibt es hierfür `syspatch`.
 
-
-    PKG_PATH_MAIN=http://ftp.hostserver.de/pub/OpenBSD/5.X/packages/amd64/
-    ./openup
+    syspatch
 
 ### 3rd Party Software
 
