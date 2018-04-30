@@ -1,6 +1,10 @@
 ---
 title: "sed & awk"
 date: 2018-04-30T18:00:28+02:00
+comments:
+- author: Mullet
+  date: '2018-04-30T19:33:09.970656'
+  content: 'Ich teile grundsaetzlich deine Emotion, aber du musst bedenken, dass dein Aufhaenger mit dem Buch von Selection/Survivorship Biases betroffen ist. Du schaust dir ein altes Buch an von einer Sprache, die du kennst. Wie viele aehnlich alte Buecher hast du wohl  ignoriert, weil irgendeine laengst tote Technologie auf dem Titel steht? Und: 1992 war war sed schon 15 Jahre alt. Eine heute 15 Jahre alte Technologie hat war wahrscheinlich auch gute Ueberlebenschancen fuer die naechsten 15 Jahre.'
 tags:
 - sed
 - aws
