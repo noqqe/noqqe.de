@@ -1,7 +1,7 @@
 ---
 title: ImageMagick
 date: 2016-05-07T22:57:15
-tags: 
+tags:
 - Software
 - image
 - imagemagick
@@ -20,3 +20,10 @@ Identifizieren von Bildmaßen
 Resize eines Bildes
 
     convert crypto.jpg -resize 50% crypto.png
+
+GIF aus mehreren JPGs erstellen. Delay sind Ticks pro Sekunde. 70 ist ein
+annehmbares Maß.
+
+    convert -resize 768x576 -delay 60 -loop 1 in*.JPG out.gif
+    convert -resize 20% -delay 60 -loop 1 in*.JPG out.gif
+
