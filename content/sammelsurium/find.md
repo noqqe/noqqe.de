@@ -1,21 +1,31 @@
 ---
 title: find
 date: 2014-02-20T17:12:57
-tags: 
+tags:
 - Software
 - find
 ---
 
-To find directories with wrong permissions:
+Files finden die älter als 3 Tage sind
 
-~~~
-$ find /data/share01/ \( ! -perm -o+w -and -type d \) -print
-$ find /data/share01/ \( ! -perm -u+w -and -type d \) -print
-~~~
+    find . -type f -mtime +3
 
-Fix permissions
+Files finden die jünger als 3 Tage sind
 
-~~~
-$ find /data/share01/ \( ! -perm -o+w -and -type d \) -exec chmod o+rwx {} \;
-$ find /data/share01/ \( ! -perm -u+w -and -type d \) -exec chmod u+rwx {} \;
-~~~
+    find . -type f -mtime +3
+
+Ordner finden welche vom User und Other schreibbar sind
+
+    find . \( ! -perm -o+w -and -type d \) -print
+
+Löschen via Gnu Tools
+
+    find . -type f -delete
+
+Löschen via xargs
+
+    find . -type f -print0 | xargs -0 rm
+
+Löschen via exec (wenns nicht anders geht). Gefährlich mit Spaces!
+
+    find . -type f -exec rm {} \;
