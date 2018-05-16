@@ -6,8 +6,7 @@ tags:
 - vim
 ---
 
-Some of the shortcuts here may refer to my vim configuration on github.
-This is far away from being complete.
+Ein paar Hilfen von Dingen die ich immer wieder vergesse.
 
 ## Commands
 * `ZZ` - nicer for closing
@@ -44,6 +43,37 @@ This is far away from being complete.
 ## Files
 * `:bn` - next File
 * `:bp` - previous File
+
+## Maps
+
+Wenn ich mal wieder Keys neu mappen muss
+
+    :help map-overview
+
+## Registers
+
+In Registern werden Dinge aus Clipboards und yank, delete Aktionen gespeichert
+
+    :help registers
+
+Zusammenfassung
+
+> 1. The unnamed register ""
+> 2. 10 numbered registers "0 to "9
+> 3. The small delete register "-
+> 4. 26 named registers "a to "z or "A to "Z
+> 5. three read-only registers ":, "., "%
+> 6. alternate buffer register "#
+> 7. the expression register "=
+> 8. The selection and drop registers "*, "+ and "~
+> 9. The black hole register "_
+> 10. Last search pattern register "/
+
+Um aus verschiedenen OS Clipboards lesen zu können, will man sich auch
+
+    :help clipboard
+
+anschauen
 
 ## Filetypes
 
