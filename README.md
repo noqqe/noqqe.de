@@ -40,3 +40,9 @@ Patches / Pull Requests regarding
 are very welcome. Please do **not** open pull requests for
 `content/sammelsurium` posts! They are maintained somewhere else. It would
 be a waste of efforts.
+
+# Deploy
+
+```
+rm -rf public/ ; hugo ; /usr/local/bin/rsync -avi --delete --iconv=utf-8-mac,utf-8 --exclude='.DS_Store' public/ <host>:/var/www/htdocs/noqqe.de/
+```
