@@ -15,7 +15,7 @@ Danach (2016) kam das [Sammelsurium](/sammelsurium/) hinzu. Ein unsortierter Wus
 und Cheatsheets der sich über die Jahre als Admin angesammelt halt.
 
 Neben [Projekten](/projects/) wie
-[devnull-as-a-service.com](https://devnull-as-as-service.com) und
+[devnull-as-a-service.com](https://devnull-as-a-service.com) und
 [entbehrlich.es](https://entbehrlich.es) und [Organic
 Entropy](https://organic-entropy.org), arbeitete ich als Sysadmin in
 [Bayreuth](https://de.wikipedia.org/wiki/Bayreuth) und mittlerweile als
