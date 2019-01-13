@@ -1,0 +1,4 @@
+language: generic
+before_script:
+  - npm install -g markdownlint
+script: markdownlint **/*.md

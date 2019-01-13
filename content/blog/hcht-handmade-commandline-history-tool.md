@@ -40,7 +40,7 @@ für [bash-it](http://github.com/revans/bash-it).
 Idee ist einfach. Alles wird in einem zentralen Ordner abgespeichert und
 dieser wird mit tollen Features durch hcht befüllt.
 
-###Editor ###
+### Editor
 
 Die Basis sozusagen. Eine Notiz oder ein Kommando per Hand einfügen
 
@@ -48,7 +48,7 @@ Die Basis sozusagen. Eine Notiz oder ein Kommando per Hand einfügen
 $ hcht das-ist-eine-Notiz.hch
 ```
 
-###List-Funktion###
+### List-Funktion
 
 Anzeigen aller abgespeicherten Files
 
@@ -56,7 +56,7 @@ Anzeigen aller abgespeicherten Files
 $ hcht
 ```
 
-###Einzeilige Notiz###
+### Einzeilige Notiz
 
 Den ganzen Spaß gibts auch einzeilig.
 
@@ -64,7 +64,7 @@ Den ganzen Spaß gibts auch einzeilig.
 $ hcht Hallo, das ist eine kleine Notiz
 ```
 
-###Pipeable###
+### Pipeable
 
 Natürlich hat mein [Lesen von Stdin Post](/archives/1402) auch einen Sinn gehabt.
 
@@ -73,7 +73,7 @@ $ cat mail.log | hcht maillog
 
 ```
 
-###Wiederholbar###
+### Wiederholbar
 
 Die bashinterne Funktion ist zum Beispiel auch hilfreich. Angenommen man
 hat grade einen total coolen Hack gebastelt und will diesen aufheben:

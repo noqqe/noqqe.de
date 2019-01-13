@@ -50,8 +50,10 @@ Eine Installation dieser Art sei wärmstens empfohlen.
 
 ### Vorteile
 
-* Ihr entscheidet wann es upgedated wird ("omg, apt-get hat unser Tomcat-Setup zerstört")
-* Kein überflüssiger Unsinn im Tomcat (Docs, Manageranwendung, default Passwörter, minimale Installation)
+* Ihr entscheidet wann es upgedated wird ("omg, apt-get hat unser
+  Tomcat-Setup zerstört")
+* Kein überflüssiger Unsinn im Tomcat (Docs, Manageranwendung, default
+  Passwörter, minimale Installation)
 * Konfiguration lesbar und verständlich (Stichwort Kommentare)
 * Update von Tomcat testweise auf neue Version
 * Update von Java testweise auf neue Version
