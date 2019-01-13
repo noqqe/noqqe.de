@@ -1,7 +1,7 @@
 ---
 title: OpenSMTPD Mailer on OpenBSD
 date: 2016-09-16T12:30:49
-tags: 
+tags:
 - OpenBSD
 - Mail
 - Opensmtpd
@@ -53,14 +53,14 @@ nicht sonderlich schlimm. Aber trotzdem.
 
 Um Sieve zu aktivieren
 
-	plugin {
-		sieve = /home/%Ln/mail.sieve
-	}
+    plugin {
+      sieve = /home/%Ln/mail.sieve
+    }
 
-	protocol lmtp {
-		## Space separated list of plugins to load (default is global mail_plugins).
-		mail_plugins = $mail_plugins sieve
-	}
+    protocol lmtp {
+      ## Space separated list of plugins to load (default is global mail_plugins).
+      mail_plugins = $mail_plugins sieve
+    }
 
 
 #### Auth Bruteforce
@@ -85,21 +85,21 @@ Wenn kein Auth table gegeben, dann wird system auth genommen.
 
 Delivery durch einfach nur local auth
 
-		mail_location = maildir:~/mail
-		auth_username_format = %Ln
+    mail_location = maildir:~/mail
+    auth_username_format = %Ln
 
-		passdb {
-				driver = bsdauth
-		}
+    passdb {
+        driver = bsdauth
+    }
 
-		userdb {
-				driver = passwd
-		}
+    userdb {
+        driver = passwd
+    }
 
 und im smtpd
 
-		table mailboxdomains { "example.com" }
-		accept from any for domain <mailboxdomains> deliver to lmtp "/var/dovecot/lmtp" rcpt-to
+    table mailboxdomains { "example.com" }
+    accept from any for domain <mailboxdomains> deliver to lmtp "/var/dovecot/lmtp" rcpt-to
 
 Hurra!
 
@@ -114,20 +114,20 @@ und unbedingt an IPv6 denken!
 
 IMAPS only.
 
-		## TLS
-		ssl = yes
-		ssl_cert = </etc/ssl/mail.example.com.crt
-		ssl_key = </etc/ssl/private/mail.example.com.key
+    ## TLS
+    ssl = yes
+    ssl_cert = </etc/ssl/mail.example.com.crt
+    ssl_key = </etc/ssl/private/mail.example.com.key
 
-		## Disable unsecure IMAP
-		service imap-login {
-			inet_listener imap {
-				port = 0
-			}
-			inet_listener imaps {
-				port = 993
-			}
-		}
+    ## Disable unsecure IMAP
+    service imap-login {
+      inet_listener imap {
+        port = 0
+      }
+      inet_listener imaps {
+        port = 993
+      }
+    }
 
 #### Monitoring
 
@@ -139,8 +139,8 @@ IMAPS - Port 993
 
 Forwarding works.
 
-	  swaks --to flo@example.com --server mail.example.com --timeout 1800
-	  swaks --to noqqe@example.com --server mail.example.com
+    swaks --to flo@example.com --server mail.example.com --timeout 1800
+    swaks --to noqqe@example.com --server mail.example.com
 
 Mailbox delivery Works
 

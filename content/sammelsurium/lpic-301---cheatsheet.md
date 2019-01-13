@@ -1,7 +1,7 @@
 ---
 title: LPIC 301 - Cheatsheet
 date: 2013-03-06T19:21:04
-tags: 
+tags:
 - Software
 - OpenLDAP
 ---
@@ -187,59 +187,59 @@ verwendet. Hier noch eine Übersicht
     --disable-option-checking  ignore unrecognized --enable/--with options
     --disable-FEATURE       do not include FEATURE (same as --enable-FEATURE=no)
     --enable-FEATURE[=ARG]  include FEATURE [ARG=yes]
-    --enable-debug 	  enable debugging no|yes|traditional [yes]
-    --enable-dynamic	  enable linking built binaries with dynamic libs [no]
-    --enable-syslog	  enable syslog support [auto]
-    --enable-proctitle	  enable proctitle support [yes]
-    --enable-ipv6 	  enable IPv6 support [auto]
-    --enable-local	  enable AF_LOCAL (AF_UNIX) socket support [auto]
-    --enable-slapd	  enable building slapd [yes]
-    --enable-dynacl	  enable run-time loadable ACL support (experimental) [no]
-    --enable-aci	  enable per-object ACIs (experimental) no|yes|mod [no]
-    --enable-cleartext	  enable cleartext passwords [yes]
-    --enable-crypt	  enable crypt(3) passwords [no]
-    --enable-lmpasswd	  enable LAN Manager passwords [no]
-    --enable-spasswd	  enable (Cyrus) SASL password verification [no]
-    --enable-modules	  enable dynamic module support [no]
-    --enable-rewrite	  enable DN rewriting in back-ldap and rwm overlay [auto]
-    --enable-rlookups	  enable reverse lookups of client hostnames [no]
+    --enable-debug    enable debugging no|yes|traditional [yes]
+    --enable-dynamic    enable linking built binaries with dynamic libs [no]
+    --enable-syslog   enable syslog support [auto]
+    --enable-proctitle    enable proctitle support [yes]
+    --enable-ipv6     enable IPv6 support [auto]
+    --enable-local    enable AF_LOCAL (AF_UNIX) socket support [auto]
+    --enable-slapd    enable building slapd [yes]
+    --enable-dynacl   enable run-time loadable ACL support (experimental) [no]
+    --enable-aci    enable per-object ACIs (experimental) no|yes|mod [no]
+    --enable-cleartext    enable cleartext passwords [yes]
+    --enable-crypt    enable crypt(3) passwords [no]
+    --enable-lmpasswd   enable LAN Manager passwords [no]
+    --enable-spasswd    enable (Cyrus) SASL password verification [no]
+    --enable-modules    enable dynamic module support [no]
+    --enable-rewrite    enable DN rewriting in back-ldap and rwm overlay [auto]
+    --enable-rlookups   enable reverse lookups of client hostnames [no]
     --enable-slapi        enable SLAPI support (experimental) [no]
     --enable-slp          enable SLPv2 support [no]
-    --enable-wrappers	  enable tcp wrapper support [no]
-    --enable-backends	  enable all available backends no|yes|mod
-    --enable-bdb	  enable Berkeley DB backend no|yes|mod [yes]
-    --enable-dnssrv	  enable dnssrv backend no|yes|mod [no]
-    --enable-hdb	  enable Hierarchical DB backend no|yes|mod [yes]
-    --enable-ldap	  enable ldap backend no|yes|mod [no]
-    --enable-mdb	  enable mdb database backend no|yes|mod [yes]
-    --enable-meta	  enable metadirectory backend no|yes|mod [no]
-    --enable-monitor	  enable monitor backend no|yes|mod [yes]
-    --enable-ndb	  enable MySQL NDB Cluster backend no|yes|mod [no]
-    --enable-null	  enable null backend no|yes|mod [no]
-    --enable-passwd	  enable passwd backend no|yes|mod [no]
-    --enable-perl	  enable perl backend no|yes|mod [no]
-    --enable-relay  	  enable relay backend no|yes|mod [yes]
-    --enable-shell	  enable shell backend no|yes|mod [no]
-    --enable-sock	  enable sock backend no|yes|mod [no]
-    --enable-sql	  enable sql backend no|yes|mod [no]
-    --enable-overlays	  enable all available overlays no|yes|mod
-    --enable-accesslog	  In-Directory Access Logging overlay no|yes|mod [no]
-    --enable-auditlog	  Audit Logging overlay no|yes|mod [no]
-    --enable-collect	  Collect overlay no|yes|mod [no]
-    --enable-constraint	  Attribute Constraint overlay no|yes|mod [no]
-    --enable-dds  	  Dynamic Directory Services overlay no|yes|mod [no]
-    --enable-deref	  Dereference overlay no|yes|mod [no]
-    --enable-dyngroup	  Dynamic Group overlay no|yes|mod [no]
-    --enable-dynlist	  Dynamic List overlay no|yes|mod [no]
-    --enable-memberof	  Reverse Group Membership overlay no|yes|mod [no]
-    --enable-ppolicy	  Password Policy overlay no|yes|mod [no]
-    --enable-proxycache	  Proxy Cache overlay no|yes|mod [no]
-    --enable-refint	  Referential Integrity overlay no|yes|mod [no]
-    --enable-retcode	  Return Code testing overlay no|yes|mod [no]
-    --enable-rwm       	  Rewrite/Remap overlay no|yes|mod [no]
-    --enable-seqmod	  Sequential Modify overlay no|yes|mod [no]
-    --enable-sssvlv	  ServerSideSort/VLV overlay no|yes|mod [no]
-    --enable-syncprov	  Syncrepl Provider overlay no|yes|mod [yes]
+    --enable-wrappers   enable tcp wrapper support [no]
+    --enable-backends   enable all available backends no|yes|mod
+    --enable-bdb    enable Berkeley DB backend no|yes|mod [yes]
+    --enable-dnssrv   enable dnssrv backend no|yes|mod [no]
+    --enable-hdb    enable Hierarchical DB backend no|yes|mod [yes]
+    --enable-ldap   enable ldap backend no|yes|mod [no]
+    --enable-mdb    enable mdb database backend no|yes|mod [yes]
+    --enable-meta   enable metadirectory backend no|yes|mod [no]
+    --enable-monitor    enable monitor backend no|yes|mod [yes]
+    --enable-ndb    enable MySQL NDB Cluster backend no|yes|mod [no]
+    --enable-null   enable null backend no|yes|mod [no]
+    --enable-passwd   enable passwd backend no|yes|mod [no]
+    --enable-perl   enable perl backend no|yes|mod [no]
+    --enable-relay      enable relay backend no|yes|mod [yes]
+    --enable-shell    enable shell backend no|yes|mod [no]
+    --enable-sock   enable sock backend no|yes|mod [no]
+    --enable-sql    enable sql backend no|yes|mod [no]
+    --enable-overlays   enable all available overlays no|yes|mod
+    --enable-accesslog    In-Directory Access Logging overlay no|yes|mod [no]
+    --enable-auditlog   Audit Logging overlay no|yes|mod [no]
+    --enable-collect    Collect overlay no|yes|mod [no]
+    --enable-constraint   Attribute Constraint overlay no|yes|mod [no]
+    --enable-dds      Dynamic Directory Services overlay no|yes|mod [no]
+    --enable-deref    Dereference overlay no|yes|mod [no]
+    --enable-dyngroup   Dynamic Group overlay no|yes|mod [no]
+    --enable-dynlist    Dynamic List overlay no|yes|mod [no]
+    --enable-memberof   Reverse Group Membership overlay no|yes|mod [no]
+    --enable-ppolicy    Password Policy overlay no|yes|mod [no]
+    --enable-proxycache   Proxy Cache overlay no|yes|mod [no]
+    --enable-refint   Referential Integrity overlay no|yes|mod [no]
+    --enable-retcode    Return Code testing overlay no|yes|mod [no]
+    --enable-rwm          Rewrite/Remap overlay no|yes|mod [no]
+    --enable-seqmod   Sequential Modify overlay no|yes|mod [no]
+    --enable-sssvlv   ServerSideSort/VLV overlay no|yes|mod [no]
+    --enable-syncprov   Syncrepl Provider overlay no|yes|mod [yes]
     --enable-translucent  Translucent Proxy overlay no|yes|mod [no]
     --enable-unique       Attribute Uniqueness overlay no|yes|mod [no]
     --enable-valsort      Value Sorting overlay no|yes|mod [no]
@@ -252,10 +252,10 @@ verwendet. Hier noch eine Übersicht
     --with-PACKAGE[=ARG]    use PACKAGE [ARG=yes]
     --without-PACKAGE       do not use PACKAGE (same as --with-PACKAGE=no)
     --with-subdir=DIR       change default subdirectory used for installs
-    --with-cyrus-sasl	  with Cyrus SASL support [auto]
-    --with-fetch		  with fetch(3) URL support [auto]
-    --with-threads	  with threads [auto]
-    --with-tls		  with TLS/SSL support auto|openssl|gnutls|moznss [auto]
+    --with-cyrus-sasl   with Cyrus SASL support [auto]
+    --with-fetch      with fetch(3) URL support [auto]
+    --with-threads    with threads [auto]
+    --with-tls      with TLS/SSL support auto|openssl|gnutls|moznss [auto]
     --with-yielding-select  with implicitly yielding select [auto]
     --with-mp               with multiple precision statistics auto|longlong|long|bignum|gmp [auto]
     --with-odbc             with specific ODBC support iodbc|unixodbc|odbc32|auto [auto]
@@ -308,34 +308,34 @@ db_stat -h /usr/local/var/openldap-data/ -d id2entry.bdb
 
 ~~~
 ## db_stat -h /usr/local/var/openldap-data/ -d dn2id.bdb
-Fri Mar  8 09:11:16 2013	Local time
-53162	Btree magic number
-9	Btree version number
-Little-endian	Byte order
-duplicates, sorted duplicates	Flags
-2	Minimum keys per-page
-4096	Underlying database page size
-1007	Overflow key/data size
-2	Number of levels in the tree
-1149	Number of unique keys in the tree
-2281	Number of data items in the tree
-3	Number of tree internal pages
-11444	Number of bytes free in tree internal pages (6% ff)
-29	Number of tree leaf pages
-48174	Number of bytes free in tree leaf pages (59% ff)
-4	Number of tree duplicate pages
-642	Number of bytes free in tree duplicate pages (96% ff)
-0	Number of tree overflow pages
-0	Number of bytes free in tree overflow pages (0% ff)
-0	Number of empty pages
-0	Number of pages on the free list
+Fri Mar  8 09:11:16 2013  Local time
+53162 Btree magic number
+9 Btree version number
+Little-endian Byte order
+duplicates, sorted duplicates Flags
+2 Minimum keys per-page
+4096  Underlying database page size
+1007  Overflow key/data size
+2 Number of levels in the tree
+1149  Number of unique keys in the tree
+2281  Number of data items in the tree
+3 Number of tree internal pages
+11444 Number of bytes free in tree internal pages (6% ff)
+29  Number of tree leaf pages
+48174 Number of bytes free in tree leaf pages (59% ff)
+4 Number of tree duplicate pages
+642 Number of bytes free in tree duplicate pages (96% ff)
+0 Number of tree overflow pages
+0 Number of bytes free in tree overflow pages (0% ff)
+0 Number of empty pages
+0 Number of pages on the free list
 ~~~
 
 Die wichtigen Angaben nochmal in kurz
 
 ~~~
-3	Number of tree internal pages
-29	Number of tree leaf pages
+3 Number of tree internal pages
+29  Number of tree leaf pages
 ~~~
 
 Blockgröße des Dateisystems: 4KB
@@ -346,27 +346,27 @@ Formel:
 
 ~~~
 root@vm29-ldap:~## db_stat -h /usr/local/var/openldap-data/ -d id2entry.bdb
-Fri Mar  8 09:30:37 2013	Local time
-53162	Btree magic number
-9	Btree version number
-Little-endian	Byte order
-	Flags
-2	Minimum keys per-page
-16384	Underlying database page size
-4079	Overflow key/data size
-2	Number of levels in the tree
-573	Number of unique keys in the tree
-573	Number of data items in the tree
-1	Number of tree internal pages
-15728	Number of bytes free in tree internal pages (4% ff)
-29	Number of tree leaf pages
-45622	Number of bytes free in tree leaf pages (90% ff)
-0	Number of tree duplicate pages
-0	Number of bytes free in tree duplicate pages (0% ff)
-0	Number of tree overflow pages
-0	Number of bytes free in tree overflow pages (0% ff)
-0	Number of empty pages
-0	Number of pages on the free list
+Fri Mar  8 09:30:37 2013  Local time
+53162 Btree magic number
+9 Btree version number
+Little-endian Byte order
+  Flags
+2 Minimum keys per-page
+16384 Underlying database page size
+4079  Overflow key/data size
+2 Number of levels in the tree
+573 Number of unique keys in the tree
+573 Number of data items in the tree
+1 Number of tree internal pages
+15728 Number of bytes free in tree internal pages (4% ff)
+29  Number of tree leaf pages
+45622 Number of bytes free in tree leaf pages (90% ff)
+0 Number of tree duplicate pages
+0 Number of bytes free in tree duplicate pages (0% ff)
+0 Number of tree overflow pages
+0 Number of bytes free in tree overflow pages (0% ff)
+0 Number of empty pages
+0 Number of pages on the free list
 ~~~
 
 bei der

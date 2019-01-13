@@ -1,7 +1,7 @@
 ---
 title: NFS Debugging
 date: 2013-06-12T10:25:14
-tags: 
+tags:
 - Filesystems
 ---
 
@@ -33,7 +33,7 @@ specific port range.  Or alternatively, see if you can persuade the host
 that's not using reserved ports, to use reserved ports - EG, on
 AIX, this can be done with:
 
-	echo "/usr/sbin/nfso -o nfs_use_reserved_ports=1" &amp;&amp; /etc/rc.net
+    echo "/usr/sbin/nfso -o nfs_use_reserved_ports=1" &amp;&amp; /etc/rc.net
 
 Make sure the user doing the NFS mount isn't in too many groups.  If
 you're in a large number of groups, NFS mounts can fail, seemingly
@@ -50,7 +50,7 @@ Make sure there isn't a firewall blocking some important traffic.
 Sometimes even NFS clients will require accepting some incoming traffic,
 initiated by the server.  This command can be very useful for this:
 
-	nmap -sR -I RPC dcs.nac.uci.edu
+    nmap -sR -I RPC dcs.nac.uci.edu
 
 It may or may not help to add -p1-65535 to the options.
 
@@ -71,12 +71,12 @@ subset of the RPC services on an NFS server (may even be a set of size 0
 If you're automounting, and you have static mounting working, there
 are two scenarios to consider:
 
-	On systems that have both automount and automountd programs,
-	automountd is the daemon, and automount is a program that is supposed
-	to make automountd notice changes in its maps.
-	On systems that only have an automount program, automount is the
-	daemon, and you need to kill and restart it (without</i> using the
-	-9 signal!) to make it see changes.
+> On systems that have both automount and automountd programs,
+> automountd is the daemon, and automount is a program that is supposed
+> to make automountd notice changes in its maps.
+> On systems that only have an automount program, automount is the
+> daemon, and you need to kill and restart it (without</i> using the
+> -9 signal!) to make it see changes.
 
 
 Are all of the relevant daemons running?  You probably want something
@@ -196,14 +196,16 @@ on /proc/sys/sunrpc/rpc_debug, /proc/sys/sunrpc/nlm_debug
 and /proc/sys/sunrpc/nfsd_debug respectively.
 
 Note as I said earlier, though, this is really designed for debugging
-	purposes. There are no plans to convert it into an administrative tool.
+purposes. There are no plans to convert it into an administrative tool.
 
 Linux: Run this once while the NFS server is working, and then again when
 the NFS server is having problems:
 
-	cat /etc/exports
-	cat /proc/fs/nfsd/exports
-	grep . /proc/net/rpc/*/content
+```
+cat /etc/exports
+cat /proc/fs/nfsd/exports
+grep . /proc/net/rpc/*/content
+```
 
 
 Post to any and all relevant mailing lists and newsgroups :)  Do

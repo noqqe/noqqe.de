@@ -1,7 +1,7 @@
 ---
 title: MongoDB Performance Test
 date: 2014-03-31T14:38:08
-tags: 
+tags:
 - Databases
 - MongoDB
 ---
@@ -19,15 +19,15 @@ i = 0
 
 while (i < 1000000):
 
-	start = time.time()
-	m.tests.insertTest.insert(doc, manipulate=False, w=1)
-	end = time.time()
+  start = time.time()
+  m.tests.insertTest.insert(doc, manipulate=False, w=1)
+  end = time.time()
 
-	executionTime = (end - start) * 1000 ## Convert to ms
+  executionTime = (end - start) * 1000 ## Convert to ms
 
-	print executionTime
+  print executionTime
 
-	i = i + 1
+  i = i + 1
 ~~~
 
 > times.txt

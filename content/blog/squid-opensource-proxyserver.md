@@ -54,22 +54,22 @@ acl manager proto cache_object
 acl localhost src 127.0.0.1/255.255.255.255
 acl to_localhost dst 127.0.0.0/8
 acl microsoft dstdomain .microsoft.com # Verbotssite die oben eingebaut wird, hab ich hier definiert.
-acl SSL_ports port 443		# https
-acl SSL_ports port 563		# snews
-acl SSL_ports port 873		# rsync
-acl Safe_ports port 80		# http
-acl Safe_ports port 21		# ftp
-acl Safe_ports port 443		# https
-acl Safe_ports port 70		# gopher
-acl Safe_ports port 210		# wais
-acl Safe_ports port 1025-65535	# unregistered ports
-acl Safe_ports port 280		# http-mgmt
-acl Safe_ports port 488		# gss-http
-acl Safe_ports port 591		# filemaker
-acl Safe_ports port 777		# multiling http
-acl Safe_ports port 631		# cups
-acl Safe_ports port 873		# rsync
-acl Safe_ports port 901		# SWAT
+acl SSL_ports port 443    # https
+acl SSL_ports port 563    # snews
+acl SSL_ports port 873    # rsync
+acl Safe_ports port 80    # http
+acl Safe_ports port 21    # ftp
+acl Safe_ports port 443   # https
+acl Safe_ports port 70    # gopher
+acl Safe_ports port 210   # wais
+acl Safe_ports port 1025-65535  # unregistered ports
+acl Safe_ports port 280   # http-mgmt
+acl Safe_ports port 488   # gss-http
+acl Safe_ports port 591   # filemaker
+acl Safe_ports port 777   # multiling http
+acl Safe_ports port 631   # cups
+acl Safe_ports port 873   # rsync
+acl Safe_ports port 901   # SWAT
 acl purge method PURGE
 acl CONNECT method CONNECT
 ```

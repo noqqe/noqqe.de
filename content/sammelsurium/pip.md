@@ -1,7 +1,7 @@
 ---
 title: pip
 date: 2016-12-08T14:55:04
-tags: 
+tags:
 - Python
 - Programming
 - pip
@@ -9,13 +9,13 @@ tags:
 
 Register a user and create config
 
-		[distutils]
-		index-servers = pypi
+    [distutils]
+    index-servers = pypi
 
-		[pypi]
-		repository: https://pypi.python.org/pypi
-		username: user
-		password: xxx
+    [pypi]
+    repository: https://pypi.python.org/pypi
+    username: user
+    password: xxx
 
 Register a new package
 
