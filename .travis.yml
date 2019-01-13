@@ -2,6 +2,6 @@ language: generic
 before_script:
   - npm install -g markdownlint-cli
 script:
-  - /usr/local/bin/markdownlint content/*.md
-  - /usr/local/bin/markdownlint content/blog/*.md
-  - /usr/local/bin/markdownlint content/sammelsurium/*.md
+  - markdownlint content/*.md
+  - markdownlint content/blog/*.md
+  - markdownlint content/sammelsurium/*.md
