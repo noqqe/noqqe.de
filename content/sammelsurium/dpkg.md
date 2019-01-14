@@ -26,7 +26,6 @@ dpkg:
 $ LANG=C dpkg -l 2>/dev/null | awk '{print $3}' | egrep -v '^[[:digit:]]'
 ~~~
 
-
 ### Lösung 1
 
 Wenns im Available vorkommt

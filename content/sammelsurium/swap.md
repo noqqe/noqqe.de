@@ -17,4 +17,3 @@ dd if=/dev/zero of=tempswap bs=1M count=1024
 sudo mkswap tempswap
 sudo swapon tempswap
 ```
-

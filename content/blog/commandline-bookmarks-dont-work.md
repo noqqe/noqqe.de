@@ -107,4 +107,3 @@ Eintrags zu exportieren.
 
 Das schöne (bei Instapaper eingebettete) aufbereiten eines Posts werde ich
 mal versuchen mit dem "[Reader View](https://support.apple.com/kb/PH21467?locale=en_US)" aus Safari zu ersetzen
-

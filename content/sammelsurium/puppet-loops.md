@@ -27,8 +27,6 @@ Call the defined class with an array of objects:
 
     flumeports { ["8800", "8801", "8802", "8803", "8804", "8805", "8806", "8807"]: }
 
-
-
 ## Parameterized Class
 
 Definition

@@ -49,7 +49,6 @@ Resource / Subject and so on.  Im ersten Moment klingt das als Jabberclient
 recht kompliziert. Aber für mich als Server-Inhaber ist das ganze sehr
 sinnvoll. Nur so aus Spaß hab ich eine Datei erstellt mit folgendem Inhalt:
 
-
 ```
  /usr/bin/jabberscript:
 echo $1 | sendxmpp -f /root/.sendxmpprc -r zwetschge-generated noqqe@jabber.ccc.de

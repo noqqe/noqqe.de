@@ -3,7 +3,6 @@ comments:
 - author: Martin
   content: 'FreeBSD hat auch weiterhin newsyslog: https://github.com/freebsd/freebsd/tree/master/usr.sbin/newsyslog
 
-
     Probier doch mal ob es unter OpenBSD kompiliert, wahrscheinlich erfordert es nur
     kleine Anpassungen der includes.
 
@@ -16,7 +15,6 @@ comments:
   date: '2014-03-02T19:35:17.954852'
 - author: waldner
   content: 'Das $(ls -1 ...) ist nicht notwendig, man kann einfach:
-
 
     for x in /var/www/logs/*.log; do ...
 

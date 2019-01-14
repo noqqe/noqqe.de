@@ -15,7 +15,6 @@ barplot(d[,2], cex.names=0.8, names.arg=d[,1], main="Stromverbauch",
 
 ## ggplot2
 
-
 #### Barchart
 
 ~~~

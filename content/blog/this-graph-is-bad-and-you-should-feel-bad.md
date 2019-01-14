@@ -73,7 +73,6 @@ google.setOnLoadCallback(drawVisualization);
 <div id="rebuild" style="width: 500px; height: 400px;"></div>
 </center>
 
-
 ## Dramatische Darstellung mit Hilfe der Achsen
 
 An den minimalen und maximalen Werten der beiden Achsen kann man schnell

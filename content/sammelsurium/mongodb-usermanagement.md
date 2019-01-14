@@ -45,7 +45,6 @@ MongoDB 2.6
     mongos> db.system.users.find()
     { "_id" : ObjectId("532062fc07f14d1ead116815"), "user" : "Project2", "pwd" : "cb4a562cdaf742b68b9ecded34bc898f", "roles" : [ "readWrite", "dbAdmin" ] }
 
-
 after all, verify login
 
     mongo --username Project1 -pXXX Project1

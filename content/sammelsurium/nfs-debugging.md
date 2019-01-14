@@ -78,7 +78,6 @@ are two scenarios to consider:
 > daemon, and you need to kill and restart it (without</i> using the
 > -9 signal!) to make it see changes.
 
-
 Are all of the relevant daemons running?  You probably want something
 like the following in rpcinfo -p:
 
@@ -207,11 +206,9 @@ cat /proc/fs/nfsd/exports
 grep . /proc/net/rpc/*/content
 ```
 
-
 Post to any and all relevant mailing lists and newsgroups :)  Do
 this sequentially, not in parallel - to keep the people you want help
 from, from getting annoyed by reading and rereading the same message
 over and over again unnecessarily.  Do not cross post.
 
 Call the relevant vendors :)
-

@@ -29,9 +29,7 @@ comments:
 - author: noqqe
   content: 'oh danke :) Freut mich!
 
-
     Ich habe meine vim config mittlerweile auf github
-
 
     https://github.com/noqqe/vim'
   date: '2015-10-22T09:38:00.688204'

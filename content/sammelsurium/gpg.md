@@ -54,7 +54,6 @@ delete keys
 
     gpg --list-secret-keys
 
-
 * neuen key mit altem key signieren um signaturen zu behalten
 
     gpg --default-key D2C909A2 --sign-key CDA4B775
@@ -94,7 +93,6 @@ delete keys
     It is smart to print this certificate and store it away, just in case
     your media become unreadable.  But have some caution:  The print system of
     your machine might store the data and make it available to others!
-
 
 * alten key auf keyserver laden
 

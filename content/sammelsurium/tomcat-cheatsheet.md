@@ -159,7 +159,6 @@ Einer der unschönen Teile des Tomcat
     <Connector port="8090" executor="Catalina-Threads" protocol="org.apache.coyote.http11.Http11NioProtocol" />
     <Connector port="8070" executor="Catalina-Threads" protocol="org.apache.coyote.http11.Http11AprProtocol" />
 
-
 ### HTTP/1.1 Connector parametisiert (SSL)
 
 ~~~

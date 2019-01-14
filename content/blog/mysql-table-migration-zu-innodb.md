@@ -85,7 +85,6 @@ innodb_flush_log_at_trx_commit = 1
 innodb_lock_wait_timeout = 50
 ```
 
-
 Anschliessend den Dump erstellen und alle ENGINE=MyISAM durch InnoDB ersetzen:
 
 ``` bash

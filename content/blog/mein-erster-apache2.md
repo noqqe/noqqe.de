@@ -13,7 +13,6 @@ title: Mein erster Apache2
 
 Hier in aller Kürze und ohne großartige Comments: die apache2.conf
 
-
 ```
 ServerRoot "/etc/apache2"
 LockFile /var/lock/apache2/accept.lock

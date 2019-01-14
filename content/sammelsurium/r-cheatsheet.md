@@ -87,7 +87,6 @@ library("libaryname",quietly=T) ## lib nachladen und Fresse halten
 suppressPackageStartupMessages(library("libaryname",quietly=T)) ## und dann auch noch wirklich die fresse halten!
 ~~~
 
-
 ## Befüllen der Variablen
 
 ~~~

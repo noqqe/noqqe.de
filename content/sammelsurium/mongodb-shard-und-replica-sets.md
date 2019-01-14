@@ -39,7 +39,6 @@ in the config file do:
 
 restart all shard servers. than connect to the local shard directly
 
-
 #### on 01
 
 ~~~
@@ -184,8 +183,6 @@ mongos> sh.status()
   databases:
         {  "_id" : "admin",  "partitioned" : false,  "primary" : "config" }
 
-
-
 ~~~
 
 ### add sharded database
@@ -219,5 +216,3 @@ on primary to become secondary
 ~~~
 rs.stepDown()
 ~~~
-
-

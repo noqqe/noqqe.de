@@ -208,4 +208,3 @@ adding this `<Realm>` element to the `<Host>` element named localhost:
   ...
 </Host>
 ~~~
-

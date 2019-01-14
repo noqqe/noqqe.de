@@ -106,7 +106,6 @@ Beispiel ich), greift zu Syntastic. Syntastic zeigt einem (mittels
 Pylint und Pydocstyle) Importerrors, fehlende Dokumentation oder falsche
 Methodenparameter.
 
-
 {{< figure src="/uploads/2016/03/vim.png" >}}
 
 Per Default werden diese Checks beim Öffnen und Schreiben des Files
@@ -208,7 +207,6 @@ werden.
 Nach ein paar (erfolgreichen) Tests, kann man das nochmal wiederholen und
 auf PyPI hochladen. Macht einfach einen gedanklichen sed auf
 `s#pypitest#pypi#`.
-
 
 ### Tests
 

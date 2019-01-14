@@ -49,4 +49,3 @@ tags:
         data = json.load(data_file)
 
     pprint(data)
-

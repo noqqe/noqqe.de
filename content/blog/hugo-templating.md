@@ -164,7 +164,6 @@ wilden `%Y-%m-%d` Commands, sondern einem Referenz-Datum. Schön sehen kann
 man das auch
 [hier](https://github.com/noqqe/noqqe.de/blob/master/themes/noqqe/layouts/post/single.html#L9)
 
-
 ### Tags und Categories
 
 Was auch gefehlt hat war, dass Tags und Kategorien im Single-View der

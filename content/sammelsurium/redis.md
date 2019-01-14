@@ -82,4 +82,3 @@ Authenticate with password
 Useful queries from commandline example
 
     $ echo "SENTINEL get-master-addr-by-name master01" | redis-cli -h host -p 26379 -x
-

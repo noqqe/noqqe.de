@@ -6,7 +6,6 @@ tags:
 - MongoDB
 ---
 
-
 ## Backup
 
     mongodump --db test --out /tmp/dump
@@ -14,7 +13,6 @@ tags:
 ## Restore
 
     mongorestore --db test /tmp/dump/test/
-
 
 ## Full Cluster Backup
 
@@ -65,4 +63,3 @@ Fun part is that you acutally import the dumped data into the mongos
 Obacht, --oplog does not dump the oplog collection.
 
     mongodump --db local --host localhost:27018 --username xxx -pxxx --collection oplog.rs --authenticationDatabase admin --out /tmp/
-

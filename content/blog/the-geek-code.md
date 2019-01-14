@@ -32,7 +32,6 @@ erste Buchstabenkombination ist eine Abkürzung für die Art des
 [Geeks](http://de.wikipedia.org/wiki/Geek), wogegen die folgenden
 Buchstaben und Zeichen das Verhalten des Geeks näher beschreiben. _
 
-
 [Hier kann mann sich Geekcodes generieren](http://www.joereiss.net/geek/geek.html)
 und
 [Hier kann man den Geekcodes "entgeeken"](http://www.joereiss.net/geek/ungeek.html)

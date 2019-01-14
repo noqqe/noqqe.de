@@ -78,7 +78,6 @@ def draw_title(image, title):
 
 {{< figure src="/uploads/2018/12/mallon.png" >}}
 
-
 ## Multiline Text auf Bild
 
 Etwas schwieriger wurde es dann schon bei dem Beschreibungstext. Ich muss die

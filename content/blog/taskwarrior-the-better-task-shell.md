@@ -76,7 +76,6 @@ die im großen und ganzen auf einer Bash basiert.
 
 ### Known Bugs
 
-
   * Neu angelegt tasks  können derzeit noch nicht via ID aufgerufen werden.
 ```
 $ add Uberweisung einwerfen
@@ -85,7 +84,6 @@ $ 45 pri:H
 bash: 45: Kommando nicht gefunden
 ```
   * Mode -v ist bis jetzt noch nicht benutzbar aber bereits implementiert.
-
 
 Das ganze gibts jetzt unter
 [http://github.com/noqqe/better-task-shell](http://github.com/noqqe/better-task-shell)

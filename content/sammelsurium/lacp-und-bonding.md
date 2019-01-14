@@ -120,7 +120,6 @@ bloeder bondage witz hier einfuegen.
     parm:           fail_over_mac:For active-backup, do not set all slaves to the
     same MAC.  none (default), active or follow (charp)
 
-
 ### Starten des bonding modules mit xmit_hash_policy
 
 fuer layer 3+4 hash map
@@ -144,7 +143,6 @@ weil hier nur der Modus 4 der ist, der LACP macht (802.3ad)
     xmit_hash_policy:XOR hashing method: 0 for layer 2 (default), 1 for layer 3+4
     (charp)
 
-
     $ rmmod bonding
     $ modprobe bonding xmit_hash_policy=1
 
@@ -167,7 +165,6 @@ weil hier nur der Modus 4 der ist, der LACP macht (802.3ad)
     [  5]  0.0-26.7 sec  1000 MBytes   314 Mbits/sec
     [  3]  0.0-26.7 sec  1000 MBytes   314 Mbits/sec
     [SUM]  0.0-26.7 sec  5.86 GBytes  1.88 Gbits/sec
-
 
     ## iperf -s
     ------------------------------------------------------------

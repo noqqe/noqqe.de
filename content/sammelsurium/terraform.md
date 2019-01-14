@@ -46,7 +46,6 @@ Remote State
 Damit der State nicht nur lokal vorhanden ist sondern auch für andere
 Kollegen, sollte man einen Terraform.
 
-
 ```
 terraform {
   backend "s3" {

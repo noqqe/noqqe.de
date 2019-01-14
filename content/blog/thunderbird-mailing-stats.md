@@ -119,7 +119,6 @@ Archives/
 für jede dieser Inbox Verzeichnisse hab ich bis jetzt eine CSV Datei
 erstellt, die ich nun weiter verwenden kann.
 
-
 Eine modifizierte Version der Inbox Line baut mir die Daten in das folgende
 Format:
 

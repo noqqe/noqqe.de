@@ -92,7 +92,6 @@ session required  pam_unix.so
 session optional      pam_ldap.so
 ~~~
 
-
 In der /etc/pam_ldap.conf
 
 ~~~

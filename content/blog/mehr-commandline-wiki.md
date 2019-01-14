@@ -27,9 +27,7 @@ comments:
 - author: Anonymous
   content: 'Hi! versucht es doch mal mit:
 
-
     pip2.7 install cmddocs
-
 
     Dann klappts auch mit verschiedenen Python versionen
 

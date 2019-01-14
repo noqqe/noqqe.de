@@ -46,7 +46,6 @@ kleines Skript zu basteln, welches die Anzahl der erledigten Tickets pro
 User aus der MySQL Datenbank ausliesst und dann im Key:Value Format an
 statistical übergibt. Das hat auch ganz gut funktioniert.
 
-
     Resolved ticket statistic for this month (April)
     ---------------------------------------------------
     Tracy   |##################### (22)

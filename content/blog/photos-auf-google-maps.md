@@ -17,7 +17,6 @@ comments:
 - author: Yannic
   content: 'Wuerde mich auch interessieren :)
 
-
     EDIT: Ok, hab grade selber was gefunden: https://help.openstreetmap.org/questions/1778/how-can-i-display-a-map-with-multiple-markers
     und http://bl.ocks.org/d3noob/9150014 :)'
   date: '2015-08-14T23:13:31.572259'
@@ -76,7 +75,6 @@ Danach hab ich einfach alles in das File aus Stackoverflow pastiert und fertig.
 `maps.html` im Browser aufgerufen.
 
 {{< figure src="/uploads/2015/08/map.png" >}}
-
 
 Allgemein gefragt, gibt es eine self-Hosted, Webinterface Anwendung für Fotos
 die Gesichtserkennung, ACLs und Kartenvisualisierung kann? Ich will sowas.

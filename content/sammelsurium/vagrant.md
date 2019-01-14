@@ -19,7 +19,6 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   config.vm.box_url = "http://files.vagrantup.com/precise32.box"
 
-
   config.vm.define "puppetmaster" do |puppetmaster|
     puppetmaster.vm.box = "precise32"
     puppetmaster.vm.network "forwarded_port", guest: 22, host: 2200
@@ -41,4 +40,3 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
 end
 ```
-

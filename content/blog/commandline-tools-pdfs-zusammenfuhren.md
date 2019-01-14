@@ -1,3 +1,4 @@
+
 ---
 aliases:
 - /blog/2011/04/20/commandline-tools-pdfs-zusammenfuhren
@@ -95,7 +96,6 @@ sudo aptitude install pdftk
 Ich muss trotzdem zugeben, dass die Syntax mir etwas ungewöhnlich erschien,
 aber nicht unbezwingbar ist :) Nach ein paar Blicken in die Manpage, kam
 ich auch da an wo ich wollte.
-
 
 ```
 $ pdftk novell-cert.pdf ripe.pdf lpic-1.pdf cisco-ccna1.pdf cat output Zertifikate.pdf

@@ -45,7 +45,6 @@ Größe eines Ordners anschaeun
 
     hadoop fs -du <target_on_HDFS>
 
-
 #### Administratives
 
 Übersicht
@@ -105,7 +104,6 @@ Get current master
   Secondary ist der wohl irreführendeste begriff überhaupt
   er wird für allerhand meta daten information missbrauchtn.
   Wenn der Primary down ist, hilft auch der Secondary nichts.
-
 
 #### Namenode Reformat
 

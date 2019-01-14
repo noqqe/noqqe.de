@@ -20,7 +20,6 @@ dn: ou=users,dc=example,dc=com
 
 dn: ou=groups,dc=example,dc=com
 
-
 ~~~
 
 ### Wer bin ich eigentlich?
@@ -91,7 +90,6 @@ Enter LDAP Password:
 > EOF
 ~~~
 
-
 ### Entries modifizieren
 
 #### Von File
@@ -132,7 +130,6 @@ modifying entry "uid=horst,ou=users,dc=example,dc=com"
 Enter LDAP Password:
 ~~~
 
-
 ## Neue Gruppe anlegen
 
 Neues .ldif File anlegen
@@ -170,7 +167,6 @@ Modify mit -a für add
 
 oder interaktiv mit -S
 
-
 ### Ein Alias Objekt erstellen
 
 ~~~
@@ -182,7 +178,6 @@ uid: vvorschlaghammer
 aliasedobjectname: uid=vvorschlaghammer,ou=zwerge,dc=example,dc=com
 EOF
 ~~~
-
 
 ### Erweiterte Konfiguration der Clienttools
 
@@ -198,7 +193,6 @@ SIZELIMIT       50
 TIMELIMIT       15
 DEREF           never
 ~~~
-
 
 ### Gruppen Admins einrichten
 
@@ -239,12 +233,10 @@ access to *
         by users read
         by * auth
 
-
 access to *
         by dn.exact="cn=repl,dc=example,dc=com"
         by * break
 ~~~
-
 
 Test mit Modify:
 

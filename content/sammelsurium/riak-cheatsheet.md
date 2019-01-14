@@ -61,4 +61,3 @@ Verify
     watch -n 1 "riak-admin transfers"
     riak-admin test
     riak-admin top
-

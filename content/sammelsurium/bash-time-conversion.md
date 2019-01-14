@@ -10,7 +10,6 @@ Gefunden auf:
 
 http://unstableme.blogspot.de/2009/01/convert-seconds-to-hour-minute-seconds.html
 
-
 ~~~ { .bash }
 #!/bin/sh
 #Convert seconds to h:m:s format

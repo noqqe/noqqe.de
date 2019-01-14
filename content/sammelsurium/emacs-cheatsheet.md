@@ -49,5 +49,3 @@ können einfach durchgehend gedrückt werden! WTF!
 #### Misc
 
 * c-h h - Zeigt lustige UTF-8 Zeug an
-
-

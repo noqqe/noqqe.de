@@ -62,7 +62,6 @@ mich auch nicht ;)
 [...]
 ```
 
-
 ### Wie viele Zeilen pro Commit bearbeitet?
 
 Innerhalb eines Repos sieht man auch oft interessante Werte über seine Commits.

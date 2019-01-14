@@ -106,7 +106,6 @@ mit neuem Datum wieder abgespeichert. Das sieht ungefähr so aus:
     |           |-- interfaces-20100409-1654
     |           `-- interfaces-20100409-1655
 
-
 Ich brauche mich somit um _nichts_ mehr kümmern. Gebe dem "kleinen" die
 Files die mir wichtig sind und er passt darauf auf. Fühlt sich irgendwie an
 wie ein Backup-Daemon ;)

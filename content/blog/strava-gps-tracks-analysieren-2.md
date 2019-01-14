@@ -32,7 +32,6 @@ Sinn dahinter ist eigentlich, dass ich gerne ein GIF erstellt hätte, welches
 dann die Jahre einzeln durchscrollt. Das (mich immer wieder überraschende)
 ImageMagick gibt einem dafür `convert` zur Hand.
 
-
 ```
 $ ls
 .rw-r--r--  1.4M strava-progress-2011.png
@@ -54,7 +53,6 @@ Alles schön und gut, nur dauert die Erstellung der einzelnen Dateien ultra
 lange... Fast 40 Minuten muss man wie innerlich tot auf den Bildschirm
 starrend Lebenszeit verschwenden. Aber dann erinnerte ich mich an ein Gespräch
 *&lt;Werbung&gt;* am letzten [Chaostreff Nürnberg](https://chaostreff-nuernberg.de) *&lt;/Werbung&gt;*.
-
 
 Mittels [GPS Simplification](http://www.gpsvisualizer.com/tutorials/track_filters.html)  sollte es eigentlich möglich sein
 die Rechenzeit zu reduzieren. Wie viele Trackpoints brauche ich wohl um
@@ -90,7 +88,6 @@ end
 Natürlich hab ich etwas herumprobiert mit verschiedenen Verhältnissen, aber
 bei der Auflösung in denen ich meine Bilder generiere reichen mir gerade
 einmal **~3%** der Trackpoints um nahezu das gleiche Bild zu erzeugen:
-
 
 {{< figure src="/uploads/2018/05/vergleich.png" >}}
 

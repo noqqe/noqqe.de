@@ -74,7 +74,6 @@ RESET MASTER;
 
 ## Was tun wenn
 
-
 ### Loggin enabled
 ~~~
 Error 'You cannot 'ALTER' a log table if logging is enabled' on query. Default database: 'mysql'. Query: 'ALTER TABLE slow_log
@@ -114,4 +113,3 @@ PURGE BINARY LOGS BEFORE '2008-04-02 22:46:26';
 ~~~
 
 löschen
-

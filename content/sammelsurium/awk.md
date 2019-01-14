@@ -7,7 +7,6 @@ tags:
 
 Eine kleine Sammlung von Schnippseln die hilfreich sein könnten.
 
-
 ## Genereller Aufbau
 
 ```

@@ -83,9 +83,7 @@ und
 /etc/init.d/drbd start
 ~~~
 
-
 ### Erster Sync
-
 
 ~~~
 $ drbdadm -- --overwrite-data-of-peer primary
@@ -124,7 +122,6 @@ weil ping immer mtu 1500 macht, findet man das nicht.
 [72388.661861] block drbd0: [drbd0_worker/23957] sock_sendmsg time expired, ko = 4294967287
 [72394.660934] block drbd0: [drbd0_worker/23957] sock_sendmsg time expired, ko = 4294967286
 
-
 allow-hotplug eth5
 auto eth5
 iface eth5 inet static
@@ -136,9 +133,7 @@ iface eth5 inet static
 
 ~~~
 
-
 ## Hearbeat
-
 
 ### Installation
 
@@ -184,5 +179,3 @@ auth 2
 ~~~
 host1px IPaddr::172.19.15.209/27 drbddisk::db Filesystem::/dev/drbd0::/data/mysql::ext3::defaults mysql
 ~~~
-
-

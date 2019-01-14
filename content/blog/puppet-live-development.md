@@ -87,7 +87,6 @@ kann ich ihn (hoffentlich) mergen. Durch Branch Namen und evtl Commit Messages
 habe ich dann auch sowohl in Stash als auch in Jira die Links zum PR
 hergestellt und der Kreis schliesst sich dann. Nachvollziehbarkeit, Yeah!
 
-
 ### More convenience please!
 
 Das alles ist natürlich nicht manuell nötig. Ich schrieb also ein script

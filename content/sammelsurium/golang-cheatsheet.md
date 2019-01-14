@@ -111,5 +111,3 @@ type Document struct {
   Categories []string `json:"categories"`
 }
 ```
-
-

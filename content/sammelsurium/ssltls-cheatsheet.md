@@ -139,7 +139,6 @@ Wenn man wissen will ob intermediate Zertifikat zum eigentlichen Zertifikat pass
     $ openssl x509 -in intermediate.pem -subject_hash -noout
     b204d74a
 
-
 #### Selbsterstellte Zertifikate
 
 * Generating key

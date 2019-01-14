@@ -1,7 +1,7 @@
 ---
 title: Bash Email Validation
 date: 2011-06-07T15:38:56
-tags: 
+tags:
 - Programming
 - RegEx
 ---
@@ -18,4 +18,3 @@ else
    echo "not OK"
 fi
 ~~~
-

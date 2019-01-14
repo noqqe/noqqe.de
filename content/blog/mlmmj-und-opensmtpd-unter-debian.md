@@ -44,7 +44,6 @@ eine Pipe einfügen für den entsprechenden User.
 k4cg:     "|/usr/bin/mlmmj-receive -L /var/spool/mlmmj/k4cg"
 ```
 
-
 ### OpenSMTPD
 
 {{< figure src="/uploads/2014/05/opensmtpd.png" >}}

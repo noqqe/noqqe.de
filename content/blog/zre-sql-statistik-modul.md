@@ -42,7 +42,6 @@ Problemfallbehandlung (MySQL nicht installiert, Modul in Config nicht
 aktiviert, MySQL nicht erreichbar usw.) die ich in jedem Event hätte extra
 behandeln müssen.
 
-
 ```
 events/
 ├── attack.humans.event
@@ -60,7 +59,6 @@ events/
 ├── support.zombies.event
 └── weather.event
 ```
-
 
 Stattdessen entschied ich mich ein kleines Modul in Bash zu schreiben, welches eine Hand voll übergebener Daten annimmt und dann in die konfigurierte Datenbank schreibt.  Hier am Beispiel des weather.event
 

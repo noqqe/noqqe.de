@@ -95,11 +95,9 @@ find . -iname '*.png' -exec echo '<br><img src="{}">' ; > gallery.html
   - Finde (via find)
 ```
 
-
 (PlainText: [/uploads/2009/09/015](/uploads/2009/09/015))
 
 Die Syntax des Files das zur Deklaration der Ausgabe dient:
-
 
 ```
 find . -iname '*.png' -exec echo '<br><img src="{}">' ; > gallery.html

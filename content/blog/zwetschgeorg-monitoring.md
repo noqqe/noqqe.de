@@ -32,7 +32,6 @@ Im groben kurz nochmal:
 * /etc/collectd/collectd.conf anpassen
 * /etc/monitoring anlegen und mit :
 
-
 ``` bash
 #!/bin/bash
 # Webstatistiken erzeugen auf Webserver - Umwandlung von collectd zu Grafiken

@@ -34,7 +34,6 @@ Informationen in Textform speichern und aufheben kann.  Nachdem ich nichts
 fand fing ich an mir selber so ein kleines Tool zu schreiben. Als Plugin
 für [bash-it](http://github.com/revans/bash-it).
 
-
 ## Funktionen
 
 Idee ist einfach. Alles wird in einem zentralen Ordner abgespeichert und

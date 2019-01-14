@@ -38,7 +38,6 @@ $ twidge lsrecent
 $ twidge update "Ich benutze gerade Twidge"
 ```
 
-
 Bei intensiver Nutzung nervt die Syntax allerdings etwas. Deshalb hab ich
 mich hingesetzt und eine Twidge-Shell gebaut.
 

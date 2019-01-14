@@ -29,4 +29,3 @@ File in das inkludiert wird
         &config;
 </crawler>
 ~~~
-

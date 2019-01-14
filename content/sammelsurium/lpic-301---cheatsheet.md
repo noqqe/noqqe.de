@@ -79,7 +79,6 @@ wichtige Dateien:
 /usr/local/etc/openldap/schema/inetorgperson.schema
 ~~~
 
-
 #### lokale Struktur vs. Domain Struktur
 
 * lokale Struktur zB -> cn=frank,ou=Mitarbeiter,o=Firma GmbH,l=Nuernberg,c=de
@@ -95,7 +94,6 @@ wichtige Dateien:
     * nis.schema (Network Information Service Schema)
     * openldap.schema (LDAP spezifischer Kram)
 
-
 * Abhängigkeiten
 
 ~~~
@@ -103,7 +101,6 @@ core.schema <- cosine.schema <- nis.schema
 core.schema <- cosine.schema <- inetorgperson.schema
 core.schema <- cosine.schema <- inetorgperson.schema <- openldap.schema
 ~~~
-
 
 #### Objektklassen
 
@@ -125,7 +122,6 @@ Beispiel Objektklassen
 * ABSTRACT Classes (nur aus Vererbungsgründen)
     * top
 
-
 * Felder
     * OID (2.16.840.1.113739.3.2.3)
     * NAME
@@ -134,7 +130,6 @@ Beispiel Objektklassen
     * TYPE (STRUCTURAL/AUXILIARY)
     * MUST ( 1 $ 2 $ )
     * MAY ( 1 $ 2 $ 3 )
-
 
 #### Attributstypen
 
@@ -147,7 +142,6 @@ Beispiel Objektklassen
     * ORDERING
     * SUBSTR
     * SYNTAX
-
 
 #### configure Parameter
 
@@ -379,7 +373,6 @@ Einbau
     set_cachesize 2 524288000 1
     dbconfig set_cachesize 2 524288000 1
 
-
 #### net::ldap Perl Modul
 
      $ldap = Net::LDAP->new( 'ldap.bigfoot.com' ) or die "$@";
@@ -390,7 +383,6 @@ Einbau
                             base   => "c=US",
                             filter => "(&(sn=Barr) (o=Texas Instruments))"
                           );
-
 
      $result = $ldap->add( 'cn=Barbara Jensen, o=University of Michigan, c=US',
                            attrs => [
@@ -403,10 +395,7 @@ Einbau
                            ]
                          );
 
-
      $mesg = $ldap->unbind;   ## take down session
-
-
 
 #### Ablauf einer LDAP Session
 
@@ -555,7 +544,6 @@ syncrepl        rid=001
                 sizelimit=unlimited
 ~~~
 
-
 #### Verschlüsselte Verbindung zum LDAP
 
 * Serverseitig
@@ -605,7 +593,6 @@ TLS_KEY /pfad/
     * EXTERNAL
 
 * Bind durch: -Y DIGEST-MD5 -U user@example.com
-
 
 #### Wichtige Konfigurationsparameter slapd.conf
 
@@ -824,7 +811,6 @@ ldap machine suffix = ou=computers
 ldap suffix = dc=example=com
 ldap filter = (&(uid\%u) (objectclass=sambaSamAccount)
 ~~~
-
 
 * pbedit
 

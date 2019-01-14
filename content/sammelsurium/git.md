@@ -95,7 +95,6 @@ To remove a submodule you need to:
 * Delete the relevant section from .git/config.
 * Run git rm --cached path_to_submodule (no trailing slash).
 
-
     $ git rm --cached bundle/R.vim
     rm 'bundle/R.vim'
 

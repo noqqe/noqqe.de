@@ -45,5 +45,3 @@ Database changed
 mysql> SELECT /*!40001 SQL_NO_CACHE */ * FROM EVENTS;
 Empty set (0.00 sec)
 ~~~
-
-

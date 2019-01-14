@@ -62,9 +62,7 @@ Um Sieve zu aktivieren
       mail_plugins = $mail_plugins sieve
     }
 
-
 #### Auth Bruteforce
-
 
     ## Deny and track SMTP Relay bruteforce
     table <bruteforce-relay> persist

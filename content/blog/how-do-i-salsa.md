@@ -70,7 +70,6 @@ ist ein String, der nur einmal pro Zugriff auf den Ciphertext verwendet
 werden soll. Das heisst, auch wenn ich eine meiner Notizen lesend abrufe,
 muss ich es neu verschlüsseln mit einem anderen 24 Byte String als `nonce`.
 
-
 ### Blake2b
 
 Was mich ja nervt ist, dass Ciphers immer(?) eine fixe Größe eines Strings

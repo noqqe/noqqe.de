@@ -102,7 +102,6 @@ User=root
 WorkingDirectory=/tmp/
 ```
 
-
 ### Tempfiles
 
 Man kann auch via Systemd tmpfiles anlegen lassen. Die configs dazu liegen

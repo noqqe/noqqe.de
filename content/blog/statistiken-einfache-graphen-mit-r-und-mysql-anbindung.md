@@ -68,7 +68,6 @@ zre_colors <- colors()[grep("green",colors())]
 zre_mint <- colors()[c(48,86,50)]
 ```
 
-
 Im Klartext wird aus dem [CRAN Library Verzeichnis](http://cran.r-project.org)
 die Library RMySQL includiert und die Verbindung in der Variable **con**
 abgelegt. Ähnlich wie bei PHP. Für alle Debian / Ubuntu Benutzer empfiehlt sich
@@ -134,7 +133,6 @@ png(file="kills.png", width=400, height=400, bg="transparent")
 par(col="white", bg="transparent", col.axis="white", col.lab="white", col.main="white", lwd=4)
 plot(zre_kills$kills, xlab="Games", type="b", ylab="Kills", main="Kills from last 25 Attacks", col=zre_mint)
 ```
-
 
 {{< figure src="/uploads/2011/10/25kills.png" >}}
 

@@ -49,7 +49,6 @@ Da das "Spiel" ausschließlich aus zufällig generierten Umständen besteht,
 wäre die Auswertung der Entwicklungen der simulierten Welt evtl.
 interessant. Grade wenn man so auf Statistiken steht. :/
 
-
 ## Anforderungen
 
   * ZRE (in Bash geschrieben) als lauffähigen Daemon umsetzen der Output an eine Stelle generiert. (Bash - Shell)

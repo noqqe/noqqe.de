@@ -24,4 +24,3 @@ tags:
 256 Color ANSI
 
     for x in {0..255} ; do echo -ne "\e[38;5;${x}m" $x "\e[0" ; done
-

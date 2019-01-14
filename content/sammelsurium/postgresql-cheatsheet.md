@@ -44,4 +44,3 @@ Backup all Databases
 Restore
 
     $ psql db1 < backup.sql
-

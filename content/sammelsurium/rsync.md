@@ -15,4 +15,3 @@ Hier ein kleiner Hint für eine System migration.
 oder
 
     rsync -axHSKDvz --exclude=/proc --exclude=/tmp --exclude=/sys --exclude=/dev -e ssh / root@host:/mnt/root
-

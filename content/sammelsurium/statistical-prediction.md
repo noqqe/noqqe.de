@@ -19,4 +19,3 @@ Wenn also 4/2 = 2 (es hat an zwei Tagen geregnet), wird es am 5. Tag wieder regn
 Um Herauszubekommen wie man "k" am besten setzt, wird einfach durch das
 vorherige Dataset durchgegangen und geschaut, bei welchem "k" Wert es die
 besten Ergebnisse gab.
-

@@ -79,7 +79,6 @@ $ mlxc stop vm99-tempbanking
 Im Endeffekt sehr simpel gehalten, nur umständlich zu bedienen. Irgendwie wollte
 ich noch einen Tick mehr Usability.
 
-
 ### Integration
 
 Ich hatte erstmal nur ein Skript, ähnlich der Abfolge weiter oben. Da

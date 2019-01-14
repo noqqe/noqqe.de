@@ -105,7 +105,6 @@ lxc:
         100 /var/lib/dpkg/status
 ```
 
-
 * Testing: Im Moment scheinen die cgroups kaputt. Dafür konnte ich keine Lösung
 finden da ich auch noch keine Erfahrung mit cgroups habe. Schade. Verison 0.8 hätte mich gereizt.
 
@@ -135,7 +134,6 @@ iface lxcbr0 inet static
   post-up /usr/local/bin/lxcbr0-up
   post-down brctl delbr lxcbr0
 ```
-
 
 ```
 $ cat /usr/local/bin/lxcbr0-up

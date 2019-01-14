@@ -149,4 +149,3 @@ hist(x[x>=100&x<1000],main="Distribution of big queries")
      Min.   1st Qu.    Median      Mean   3rd Qu.      Max.
     0.325     0.598     0.786     1.773     1.186 23870.000
 ~~~
-

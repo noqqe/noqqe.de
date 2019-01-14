@@ -60,7 +60,6 @@ Alte unbenutzte Pakete aufräumen um Platz zu sparen
     nix-collect-garbage -d
     nix-store --gc --print-dead
 
-
 ## Module Development
 
 > noqqe | i can also use a local nixpkgs repo for testing module changes, right?
@@ -89,7 +88,6 @@ Alte unbenutzte Pakete aufräumen um Platz zu sparen
 > kmicu | You could add your external module definition to ‘imports = [ … /my/module.nix … ]’ in configuration.nix. You don’t need to use fork, but if you
 >       | want to contribute back then use fork, checkout channel revision, test with ‘-I nixpkgs=/path/to/fork’, more at
 >       | http://hydra.nixos.org/build/25709458/download/1/nixpkgs/manual.html#chap-submitting-changes
-
 
 ## Secure Passwords in configuration.nix
 

@@ -68,4 +68,3 @@ node_terminus = exec
 * Update `Trusted puppetmaster hosts` to correct puppet master (as an
   array!)
 * **IMPORTANT** Set `ENC environment` to `No`!
-

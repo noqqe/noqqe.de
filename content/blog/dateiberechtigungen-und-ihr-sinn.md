@@ -74,14 +74,12 @@ r-x (nur lesen und ausführen)
 5
 ```
 
-
 und die letzten 3 stehen für andere Benutzer:
 
 ```
 r-- (nur lesen)
 4
 ```
-
 
 Man hat sicher bemerkt das ich so lustige Zahlen unter die einzelnen Rechte
 geschrieben habe. Auch das hat einen Grund. Und zwar kann man durch ein

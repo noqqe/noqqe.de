@@ -81,4 +81,3 @@ I/O size (minimum/optimal): 512 bytes / 512 bytes
 Disk identifier: 0x000eac13
 
 ~~~
-
