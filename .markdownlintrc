@@ -4,9 +4,10 @@
   "first-heading-h1": false,
   "first-line-h1": false,
   "line-length": false,
-  "MD013": {
-    "code_blocks": false,
-    "tables": false,
-    "headings": true
+  "ul-style": {
+    "style": "asterisk"
+  },
+  "header-style": {
+    "style": "atx"
   }
 }
