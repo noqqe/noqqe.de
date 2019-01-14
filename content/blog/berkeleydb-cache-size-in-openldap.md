@@ -38,8 +38,8 @@ Um die Files der Berkely DB zu finden und auswerten zu können werden extra Tool
 benötigt.
 
 ``` bash
-$ aptitude install db-util
-$ db_stat -h /usr/local/var/openldap-data/ -m
+aptitude install db-util
+db_stat -h /usr/local/var/openldap-data/ -m
 ```
 
 So werden erstmal alle statistischen Daten zu den einzelnen Datenbankfiles

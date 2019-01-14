@@ -97,10 +97,10 @@ Authentifizierung weiterzuleiten.
 Das `secrets` File erstellen
 
 ``` bash
-$ echo "neo user:pw" > /etc/mail/secrets
-$ chown root:_smtpd /etc/mail/secrets
-$ chmod 640 /etc/mail/secrets
-$ makemap /etc/mail/secrets
+echo "neo user:pw" > /etc/mail/secrets
+chown root:_smtpd /etc/mail/secrets
+chmod 640 /etc/mail/secrets
+makemap /etc/mail/secrets
 ```
 
 und die `smtpd.conf` wie folgt anpassen:

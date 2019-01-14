@@ -23,5 +23,5 @@ Episode 4 in ASCII mit mehr als 15.000 Einzelbildern.
 Selbst anschauen:
 
 ```
-$ telnet towel.blinkenlights.nl
+telnet towel.blinkenlights.nl
 ```

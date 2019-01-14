@@ -19,9 +19,9 @@ ist.
 
 Bedeutung hat er nicht so Recht. Kriterien waren:
 
-  * Kurz
-  * Einfach
-  * (einigermaßen) einmalig
+* Kurz
+* Einfach
+* (einigermaßen) einmalig
 
 Denke das passt schon so.
 Blog ist ab jetzt auch unter [noqqe.de](http://noqqe.de) zu finden

@@ -38,7 +38,7 @@ Wie [erwähnt](/?p=1005), gab es gestern den Test in Anwendungsentwicklung.
 > _Aufgabenstellung: Erstelle ein Skript "rechner", welches 2 Parameter
 > aufnimmt und über Abfrage innerhalb des Skriptes den Modus auswählbar
 > macht. Folgende Modi und Funktionen müssen enthalten sein:_
-
+>
 > _Modus 1: Multiplikation
 > Usage: ./rechner 1  2
 > Ausgabe: Das Ergebnis von 1 * 2 = 2_

@@ -29,7 +29,7 @@ Der Migrationspfad auf einen neuen Key.
 
 Sichern des alten Key Environments
 
-    $ cp -a ~/.gnupg ~/.gnupg-old
+    cp -a ~/.gnupg ~/.gnupg-old
 
 ### Neuen Key generieren
 
@@ -46,7 +46,7 @@ Für aus der CPU generierte Entropie, kann
 
 und anschliessend den Key erstellen
 
-    $ gpg --gen-key
+    gpg --gen-key
 
 Der interaktive Dialog sollte einen eigentlich halbwegs verständlich durch die
 Generierung führen.
@@ -77,14 +77,14 @@ replaced by newkeyid
 
 Heraus fällt ein Public-Key Block, der in einer Datei importiert werden kann.
 
-    $ gpg --import revoke.txt
+    gpg --import revoke.txt
 
 ### Migration
 
 Auf meinem alten Key befinden sich wie gesagt ein paar Unterschriften. Auch
 deswegen macht es Sinn den neuen Key mit dem Alten zu unterschreiben.
 
-    $ gpg --default-key oldkeyid --sign-key newkeyid
+    gpg --default-key oldkeyid --sign-key newkeyid
 
 Dadurch wird nicht nur die Referenzkette gebildet, sondern auch gleich
 nachvollziehbar, dass der neue Key wirklich der Nachfolger meiner "originalen"
@@ -95,13 +95,13 @@ KeyID ist.
 Wenn der alte Publickey nun revoked ist, kann es auf den Keyserver geladen
 werden.
 
-    $ gpg --list-key oldkeyid
-    $ gpg --send-keys oldkeyid
+    gpg --list-key oldkeyid
+    gpg --send-keys oldkeyid
 
 Genauso der neue Publickey.
 
-    $ gpg --list-key newkeyid
-    $ gpg --send-keys newkeyid
+    gpg --list-key newkeyid
+    gpg --send-keys newkeyid
 
 ### Nacharbeiten
 
@@ -112,9 +112,9 @@ Genauso der neue Publickey.
   umgewandelt und ausgedruckt werden.
 
 ```
-$ aptitude install signing-party ghostscript
-$ gpg-key2ps -p a4 CDA4B775 > key.ps
-$ ps2pdf key.ps
+aptitude install signing-party ghostscript
+gpg-key2ps -p a4 CDA4B775 > key.ps
+ps2pdf key.ps
 ```
 
 * Signatur im Mailclient updaten

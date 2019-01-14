@@ -116,7 +116,7 @@ offlineimap täglich (reicht mir) synce, und gibt dir Ergebnisse in eine
 separate mbox `Search`.
 
 ```
-$ sudo aptitude install mairix offlineimap
+sudo aptitude install mairix offlineimap
 ```
 
 Meine mairix-Config:

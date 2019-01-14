@@ -45,7 +45,7 @@ Namen **[JustForFun]zwetschge.org|noqqe.de** und wird (was mich wundert)
 mit gutem Ping relativ häufig bespielt(auch via IP-Connect mit
 **zwetschge.org:8303** erreichbar). Sollte jemand das Bedürfnis bekommen
 mich oder die anderen von CodeCocktail mal "ownen" oder "bashen" zu wollen
-- kann dieser jemand das nun tun. Ich stell damit sogar die Mittel :).
+kann dieser jemand das nun tun. Ich stell damit sogar die Mittel :).
 
 Um aber mal zum technischen Teil zu kommen: Ist ein Teeworlds-Server sehr
 einfach aufzusetzen.
@@ -76,8 +76,8 @@ sv_max_clients 12
 sv_spectator_slots 10
 ```
 
-  * Den Server mit Configfile starten " ./teeworlds_srv -f twserver.cfg "
-  * Happy Bashing.
+* Den Server mit Configfile starten " ./teeworlds_srv -f twserver.cfg "
+* Happy Bashing.
 
 So würde das gehen. Wenn da nicht noch ssh Session ins Spiel kommen würde.
 Ich muss sagen das teeworlds_srv eine kleine Macke hat. Diese Executeable
@@ -89,15 +89,15 @@ das mit meinem Game-Server. Abhilfe schafft aber ein Paket namens screen
 das im Debian Repository ist. Dieses Programm zielt genau auf solche Fälle
 ab.
 
-  * apt-get install screen
-  * " screen  ./teeworlds_srv -f twserver.cfg " (öffnet den Vordergrund
-    Prozess in einem Virtuellen Terminal in dem der TeeworldsServer jetzt
-    läuft)
-  * mit Strg+A+D kann man diesen Modus nun wieder verlassen und die SSH
-    Session schliessen.
-  * Angenommen man will den Server aber trotzdem nachher noch einmal
-    begutachten: " screen -r " zeigt offene Screens an. So ist das Problem
-    super gelöst
+* apt-get install screen
+* " screen  ./teeworlds_srv -f twserver.cfg " (öffnet den Vordergrund
+  Prozess in einem Virtuellen Terminal in dem der TeeworldsServer jetzt
+  läuft)
+* mit Strg+A+D kann man diesen Modus nun wieder verlassen und die SSH
+  Session schliessen.
+* Angenommen man will den Server aber trotzdem nachher noch einmal
+  begutachten: " screen -r " zeigt offene Screens an. So ist das Problem
+  super gelöst
 
 Der Server auf zwetschge.org bleibt denke ich längerfristig bestehen und
 wird in die Projects hinzugefügt. Vielleicht sieht man sich ja mal :) Happy

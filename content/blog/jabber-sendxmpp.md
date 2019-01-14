@@ -33,16 +33,18 @@ sendxmpp ist dazu da Jabbernachrichten über bestehende Konten per shell zu
 versenden. Syntax mäßig funktioniert das ganze genauso wie beispielsweise
 bei mail.
 
-  * Zu haben ist das ganze im Debian Repo ganz normal. (apt-get install
-    sendxmpp)
-  * Um Nachrichten verschicken zu können wird zuerst ein bestehendes
-    Jabber-Konto benötigt. (Ich hab zwetschge.org mal ein Jabberkonto bei
-    jabber.org gesponsort)
-  * Als nächstes mit den Konto-Daten eine Config erstellen die sehr einfach
-    aufgebaut ist:
-  * Das wars eigentlich schon. Nun kann versendet werden:
+* Zu haben ist das ganze im Debian Repo ganz normal. (apt-get install
+  sendxmpp)
+* Um Nachrichten verschicken zu können wird zuerst ein bestehendes
+  Jabber-Konto benötigt. (Ich hab zwetschge.org mal ein Jabberkonto bei
+  jabber.org gesponsort)
+* Als nächstes mit den Konto-Daten eine Config erstellen die sehr einfach
+  aufgebaut ist:
+* Das wars eigentlich schon. Nun kann versendet werden:
 
-    echo "Hello - Jabber sendxmpp Test" | sendxmpp empfänger@jabber.org
+``` bash
+echo "Hello - Jabber sendxmpp Test" | sendxmpp empfänger@jabber.org
+```
 
 Dabei gibts noch die schönsten Parameter (in der MAN-Page vermerkt) wie
 Resource / Subject and so on.  Im ersten Moment klingt das als Jabberclient

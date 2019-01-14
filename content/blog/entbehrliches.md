@@ -29,4 +29,3 @@ angewöhnen will. Mehr Wikipedia lesen. May I introduce to you..
 
 Was ich dabei so finde und interessant ist, landet auf entbehrlich.es.
 Details auch auf der [About Page](https://entbehrlich.es/about/).
-

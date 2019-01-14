@@ -93,8 +93,8 @@ Das ist tatsächlich das erste Packet was ich dort hochlade. Demnach kann man
 `cmddocs` jetzt einfach über `pip` installieren.
 
 ``` bash
-$ pip install cmddocs
-$ cmddocs
+pip install cmddocs
+cmddocs
 ```
 
 \o/, Extrem fragwürdig finde ich aber die Downloads/Zugriffszahlen.

@@ -57,8 +57,8 @@ Installation dank guter Python Packages unter [OpenBSD](http://openbsd.org)
 easy.
 
 ``` bash
-$ sudo pkg_add py-pip
-$ sudo pip install isso
+sudo pkg_add py-pip
+sudo pip install isso
 ```
 
 Der Rest läuft dann genauso, wie unter anderen Distributionen auch. Zusätzlich

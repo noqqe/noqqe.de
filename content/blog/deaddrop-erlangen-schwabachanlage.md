@@ -34,8 +34,12 @@ eine tote Mauer stehe ziemlich skurril ausgesehen haben.
 
 > "Gibts da Strom umsonst oder was ist da los?"
 
+oder
+
 > "Junger Mann, das is ja unerhört. Mit dem Laptop am Lenker Fahrrad fahren!
 > Das ist eine Gefährdung für den Verkehr!"
+
+oder
 
 > "Ach, was wird das denn? Muss ich die Politzei verständigen?"
 

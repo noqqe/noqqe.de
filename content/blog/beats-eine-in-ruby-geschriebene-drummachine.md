@@ -47,8 +47,8 @@ Interessante Ergebnisse entstanden, aber nichts wofür ich mich nicht
 schämen müsste ;)
 
 ```
-$ beats song1.txt song.wav
-$ open song.wav
+beats song1.txt song.wav
+open song.wav
 ```
 
 Ich hab dann allerdings kurzer Hand begonnen, den Vorgang zu
@@ -68,12 +68,12 @@ Ins jeweilige Verzeichnis mit den Roh-Daten kopieren/wechseln und Skript
 ausführen.
 
 ```
-$ git clone http://github.com/noqqe/randombeats
-$ cp randombeats/randombeats.bash /path/to/music
-$ cd /path/to/music
-$ ./randombeats.bash > randomsong.txt
-$ beats randomsong.txt
-$ open randomsong.wav
+git clone http://github.com/noqqe/randombeats
+cp randombeats/randombeats.bash /path/to/music
+cd /path/to/music
+./randombeats.bash > randomsong.txt
+beats randomsong.txt
+open randomsong.wav
 ```
 
 Raus kommen allerlei sehr Interessante und manchmal auch schöne Rhythmen.

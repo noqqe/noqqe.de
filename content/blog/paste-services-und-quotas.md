@@ -45,27 +45,31 @@ aus wie ich mir das vorgestellt hab.
 Nur lässt sie dem User etwas zu viel Raum zu bestimmen **wie lange** und **wie
 viele** Files hochgeladen werden.
 
-Erstmal dem **wie viel** widmen. Puh. Ich glaube das letzte Mal als ich irgendwo ein Filesystem Quota
-gesetzt habe war 2010. Alles kommt ja irgendwie wieder.
+Erstmal dem **wie viel** widmen. Puh. Ich glaube das letzte Mal als ich
+irgendwo ein Filesystem Quota gesetzt habe war 2010. Alles kommt ja irgendwie
+wieder.
 
 Quota Option in die `fstab` hängen.
+
 ```
-# vim /etc/fstab
+$ vim /etc/fstab
 fbc4391bb6b72c36.k /home ffs rw,nodev,nosuid,userquota=/var/quotas/home.user 1 2
 ```
 
 Mit `edquota` die Größe (4GB) setzen (natürlich dem separaten User `paste`
 vorausgesetzt).
+
 ```
-# edquota paste
+$ edquota paste
 Quotas for user paste:
 /home: KBytes in use: 28990, limits (soft = 400000, hard = 400000)
         inodes in use: 61, limits (soft = 0, hard = 0)
 ```
 
 Quota überprüfen
+
 ```
-# quota -u paste
+$ quota -u paste
 Disk quotas for user paste (uid 1006):
   Filesystem  KBytes    quota   limit   grace    files   quota   limit   grace
        /home   28990   400000  400000              61        0       0
@@ -82,7 +86,7 @@ Anfangs hatte ich mit ein bisschen `nginx` Zauber experimentiert. Da die
 API einfach nur das HTTP Header Field `Linx-Expiry` zur Identifikation
 verwendet.
 
-``` nginx
+```nginx
 location / {
   proxy_pass http://127.0.0.1:5005/;
   proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;

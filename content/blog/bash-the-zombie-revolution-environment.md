@@ -80,8 +80,8 @@ nicht wirklich was es ist, aber es unterhält mich.
 Usage ist relativ einfach.
 
 ```
-$ wget http://github.com/noqqe/zombie-revolution-environment/raw/master/zre.bash
-$ ./zre.bash
+wget http://github.com/noqqe/zombie-revolution-environment/raw/master/zre.bash
+./zre.bash
 ```
 
 [Ein beispielhafter Verlauf](http://github.com/noqqe/zombie-revolution-environment/blob/master/zre.example)

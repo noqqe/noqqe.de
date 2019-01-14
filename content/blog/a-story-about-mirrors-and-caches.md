@@ -87,8 +87,8 @@ möchte man [apt-cacher-ng](https://www.unix-ag.uni-kl.de/~bloch/acng/) nutzen.
 konfigurierten Debian Mirror.
 
 ```
-$ sudo aptitude install apt-cacher-ng
-$ sudo /etc/init.d/apt-cacher-ng start
+sudo aptitude install apt-cacher-ng
+sudo /etc/init.d/apt-cacher-ng start
 ```
 
 Möchte ein Client Updates herunterladen, bemüht sich apt-cacher-ng nach

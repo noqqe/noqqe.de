@@ -103,10 +103,10 @@ aber nicht so. Leider.
 
 Stattdessen gilt es, noch folgende Anpassungen zu machen:
 
-  * about:config in die Adresszeile tippen
-  * Nach dem Begriff "keyword.URL" suchen
-  * Das Feld doppelklicken (standardmäßig dürfte es leer sein)
-  * `http://duckduckgo.com/?q=**` als String einfügen
+* about:config in die Adresszeile tippen
+* Nach dem Begriff "keyword.URL" suchen
+* Das Feld doppelklicken (standardmäßig dürfte es leer sein)
+* `http://duckduckgo.com/?q=**` als String einfügen
 
 Anschließend Firefox Neustart. Nein ich habe kein Geld für diesen Post
 bekommen. Schon wieder nicht.

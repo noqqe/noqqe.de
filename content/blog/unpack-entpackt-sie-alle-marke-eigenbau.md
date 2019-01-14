@@ -1,14 +1,14 @@
-aliases:
 ---
+aliases:
 - /archives/346
 - /blog/2008/12/05/unpack-entpackt-sie-alle-marke-eigenbau/
 comments:
 - author: Marc
-  content: "<p>Das ist ja mal ein n\xFCtzliches Skript, kann ich gut gebrauchen.<br>Vielleicht
-    bringe ich das sogar noch irgendwann in meinem Adventskalender. ;)</p>"
+  content: "Das ist ja mal ein n\xFCtzliches Skript, kann ich gut gebrauchen.<br>Vielleicht
+    bringe ich das sogar noch irgendwann in meinem Adventskalender. ;)"
   date: '2008-12-08T12:56:17'
 - author: Marc
-  content: <p>Schreib mal Marc, statt "MarcBoe". ;)</p>
+  content: "Schreib mal Marc, statt "MarcBoe". ;)"
   date: '2008-12-09T17:37:15'
 date: '2008-12-05T13:37:56'
 slug: unpack-entpackt-sie-alle-marke-eigenbau

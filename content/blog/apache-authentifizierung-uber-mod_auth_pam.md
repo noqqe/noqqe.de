@@ -43,7 +43,7 @@ zusätzliche htpasswd Datei pflegen zu müssen, bietet sich das Apache2 Modul
 mod_auth_pam an. Allerdings nur wenn man weiss wie.
 
 ```
-$ aptitude install libapache2-mod-auth-pam
+aptitude install libapache2-mod-auth-pam
 ```
 
 ```
@@ -56,6 +56,7 @@ AuthBasicAuthoritative Off
 Require user FTPUSER
 </Location>
 ```
+
 Sehr wichtig an dieser Stelle AuthBasicAuthoritative Off. Ansonsten
 Internal Server Error. Die Schnittstelle mit der sich Apache2 gegen PAM
 anmeldet, wird automatisch definiert.

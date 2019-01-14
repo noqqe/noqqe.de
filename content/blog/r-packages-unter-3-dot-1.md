@@ -23,4 +23,5 @@ Paketmigration einfach und pragmatisch
 R> x <- list.files("~/R/x86_64-pc-linux-gnu-library/3.0/")
 R> sapply(x, install.packages)
 ```
+
 Macht mehr R.

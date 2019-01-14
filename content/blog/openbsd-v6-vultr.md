@@ -100,9 +100,9 @@ genau braucht einfach in Wikipedia/RFC nachlesen.
 Aber jetzt...
 
 ```
-$ pfctl -f /etc/pf.conf
-$ sh /etc/netstart vio0
-$ rcctl restart slaacd
+pfctl -f /etc/pf.conf
+sh /etc/netstart vio0
+rcctl restart slaacd
 ```
 
 und zack, hab ich ein funktionierendes v6.

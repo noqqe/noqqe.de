@@ -123,6 +123,7 @@ Number of Entries (count): 508
 Number of Entries (limit): 508
 [...]
 ```
+
 htree listet die Indexes in dem Ordner und Informationen zum hashed B-Tree. Die
 Limit und Count Values sprechen denke ich für sich.
 

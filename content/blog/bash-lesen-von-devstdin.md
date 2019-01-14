@@ -37,7 +37,7 @@ Gestern hat mich eine Idee für ein Skript beschäftigt. Im Detail wollte ich
 die Syntax:
 
 ```
-$ cat any_file.txt | script.sh
+cat any_file.txt | script.sh
 ```
 
 abbilden. Lesen von File Descriptor 0. Also Standard-Input. Mich

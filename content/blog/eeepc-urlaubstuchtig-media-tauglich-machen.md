@@ -32,11 +32,11 @@ Wollte aber nicht so recht. Genau wie andere Pakete. Aber hat nicht lang
 gedauert bis ich geschnallt hab das eeeXubuntu aus irgendeinem Grund
 Paketquellen "aus dem Internet herunterladbar" kein einziges Häkchen hatte.
 
-  * Von Canoncial unterstützte OpenSourceSoftware
-  * Von der Gemeinschaft betreute OpenSourceSoftware
-  * Proprietäre Gerätetreiber
-  * Urheberrechtlich eingeschränkte Software
-  * Quelltext
+* Von Canoncial unterstützte OpenSourceSoftware
+* Von der Gemeinschaft betreute OpenSourceSoftware
+* Proprietäre Gerätetreiber
+* Urheberrechtlich eingeschränkte Software
+* Quelltext
 
 Nichts von alle Dem war angekreuzt. Also gut. MP3s liefen und um nicht
 Totem verwenden zu müssen hab ich mich dann für xmms entschieden. Hab ich
@@ -52,8 +52,8 @@ Aber es geht.
 
 ### Externe Festplatte
 
-_"_Cannot mount volume"_ Invalid mount option when attempting to mount the
-volume "Externe"._
+`Cannot mount volume Invalid mount option when attempting to mount the
+volume "Externe"`
 
 Warum nicht? Darum muss ich mich umbedingt noch kümmern.
 
@@ -64,5 +64,6 @@ Auch schnell gegessen:
 ```
 apt-get install libxvidcore4
 ```
+
 Ausprobiert hab ich das jetzt zwar noch nicht... aber wird sich zeigen sobald
 ich meine Externe zum laufen gebracht habe auf der mein ganzes Zeug liegt!

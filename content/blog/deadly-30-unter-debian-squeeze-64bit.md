@@ -65,7 +65,7 @@ Also die nötigen 32bit Libraries runterladen und einbauen.
 ## 1. /usr/lib32/ Backup erstellen
 
 ```
-$ tar cfvz $HOME/usr-lib32.tar.gz /usr/lib32
+tar cfvz $HOME/usr-lib32.tar.gz /usr/lib32
 ```
 
 ## 2. libgstreamer installieren
@@ -73,11 +73,11 @@ $ tar cfvz $HOME/usr-lib32.tar.gz /usr/lib32
 * [http://packages.debian.org/squeeze/libgstreamer0.10-0](http://packages.debian.org/squeeze/libgstreamer0.10-0)
 
 ```
-$ cd /tmp
-$ wget http://ftp.de.debian.org/debian/pool/main/g/gstreamer0.10/libgstreamer0.10-0_0.10.30-1_i386.deb
-$ ar -x libgstreamer0.10-0_0.10.30-1_i386.deb
-$ tar xfvz data.tar.gz
-$ sudo cp -av /tmp/usr/lib/* /usr/lib32/
+cd /tmp
+wget http://ftp.de.debian.org/debian/pool/main/g/gstreamer0.10/libgstreamer0.10-0_0.10.30-1_i386.deb
+ar -x libgstreamer0.10-0_0.10.30-1_i386.deb
+tar xfvz data.tar.gz
+sudo cp -av /tmp/usr/lib/* /usr/lib32/
 ```
 
 ## 3. libgstreamer-plugins installieren
@@ -85,11 +85,11 @@ $ sudo cp -av /tmp/usr/lib/* /usr/lib32/
 * [http://packages.debian.org/squeeze/libgstreamer-plugins-base0.10-0](http://packages.debian.org/squeeze/libgstreamer-plugins-base0.10-0)
 
 ```
-$ cd /tmp
-$ wget http://ftp.de.debian.org/debian/pool/main/g/gst-plugins-base0.10/libgstreamer-plugins-base0.10-0_0.10.30-1_i386.deb
-$ ar -x libgstreamer-plugins-base0.10-0_0.10.30-1_i386.deb
-$ tar xfvz data.tar.gz
-$ sudo cp -av /tmp/usr/lib/* /usr/lib32/
+cd /tmp
+wget http://ftp.de.debian.org/debian/pool/main/g/gst-plugins-base0.10/libgstreamer-plugins-base0.10-0_0.10.30-1_i386.deb
+ar -x libgstreamer-plugins-base0.10-0_0.10.30-1_i386.deb
+tar xfvz data.tar.gz
+sudo cp -av /tmp/usr/lib/* /usr/lib32/
 ```
 
 Das ist zwar alles immer total unschön, aber es funktioniert. Außerdem, was tut

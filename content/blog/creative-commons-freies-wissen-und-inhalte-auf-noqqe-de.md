@@ -35,6 +35,7 @@ komplett frei benutzt, verändert und weitergegeben werden. Unter ein paar
 winzigen Bedinungen.
 
 [CC-BY-NC-SA](http://creativecommons.org/licenses/by-nc-sa/3.0/de/)
+
 1. Namensnennung
 2. Keine kommerzielle Nutzung der Inhalte
 3. Weitergabe unter gleichen Bedingungen

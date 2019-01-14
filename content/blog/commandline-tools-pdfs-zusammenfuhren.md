@@ -1,4 +1,3 @@
-
 ---
 aliases:
 - /blog/2011/04/20/commandline-tools-pdfs-zusammenfuhren

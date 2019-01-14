@@ -36,8 +36,8 @@ Koordinaten sehr [schlecht geworden](http://apple.stackexchange.com/questions/18
 
 {{< figure src="/uploads/2015/08/photos.jpg" >}}
 
-Informationen werden beim Zoom verschluckt, die Karte ist entweder winzig klein
-oder nur ein Subset aus allen Bildern.
+Informationen werden beim Zoom verschluckt, die Karte ist entweder winzig
+klein oder nur ein Subset aus allen Bildern.
 
 ### exiftool
 
@@ -67,9 +67,8 @@ konvertieren. Wobei es aber zwingend erforderlich ist, dass die letzte ID
 eindeutig und von 1 an fortlaufend ist. Diese zwei Zeilen bewerkstelligen den
 ganzen Arbeitsablauf.
 
-    $ exiftool -gpslongitude -gpslatitude -n -T /Users/noqqe/Pictures/Photos\ Library.photoslibrary/Masters/ -r  | uniq | awk '{print $2" "$1}' > /tmp/foo
-
-    $ grep -v -- "- -" /tmp/foo | gsed -e 's/\s/, /' -e 's/^/["Bild", /' | gawk '{print $0 ", " FNR "],"}'']'
+    exiftool -gpslongitude -gpslatitude -n -T /Users/noqqe/Pictures/Photos\ Library.photoslibrary/Masters/ -r  | uniq | awk '{print $2" "$1}' > /tmp/foo
+    grep -v -- "- -" /tmp/foo | gsed -e 's/\s/, /' -e 's/^/["Bild", /' | gawk '{print $0 ", " FNR "],"}'']'
 
 Danach hab ich einfach alles in das File aus Stackoverflow pastiert und fertig.
 `maps.html` im Browser aufgerufen.

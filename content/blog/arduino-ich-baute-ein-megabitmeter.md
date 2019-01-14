@@ -69,7 +69,7 @@ Wenn alles fertig gebastelt ist, kann man dem Gerät einfach via echo Werte
 übergeben.
 
 ```
-$ echo "200" > /dev/ttyUSB0
+echo "200" > /dev/ttyUSB0
 ```
 
 Ein paar Anwendungsbeispiele:

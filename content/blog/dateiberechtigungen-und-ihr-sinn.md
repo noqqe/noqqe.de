@@ -52,9 +52,9 @@ Springender Punkt bei der Sache sind erstes. Also `drwxr-xr-x` oder
 ähnliches. Mir war ja klar das es was mit Dateirechten zu tun hat. Aber
 eigentlich gibt es ja nur 3 gänige Rechte!
 
-  * r - read
-  * w - write
-  * x - execute
+* r - read
+* w - write
+* x - execute
 
 Wofür also die ganzen anderen Buchstaben und Striche?
 War natürlich ein super Fall für mein "Linux Befehle Buch" :)

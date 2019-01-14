@@ -74,7 +74,7 @@ Heute mal ein Blick in meine `~/.bashrc` über viele Schnippsel und Funktionen
 die ich im Laufe der Jahre für git zusammengesammelt habe. Wenns mir noch
 einfällt mit Quelle :)
 
-## Aliases ##
+## Aliases
 
 Teilweise selber gebastelt, teilweise aus [bash-it](https://github.com/revans/bash-it) geklaut.
 
@@ -103,7 +103,7 @@ Hervorheben will ich hier besonders `gll`:
 
 {{< figure src="/uploads/2012/03/gitlog-graph.png" >}}
 
-## git Informationen ##
+## git Informationen
 
 Wer viel in verschiedenen git Repos unterwegs ist hilft vielleicht (wie mir)
 diese Funktion. Selbst geschrieben.
@@ -172,7 +172,8 @@ d0ffb0d Merge remote-tracking branch 'berenm/master'
 94a7b78 Revert "Revert new color framework"
 87d7d7a Fixed issue #103 caused by "normal" colors not reseting bold/underline/... text attributes.
 ```
-## git Bash Prompt ##
+
+## git Bash Prompt
 
 Eines der nützlichsten Dinge. Wenn das aktuellen Working Directory ein git Repository ist verändert sich der Prompt.
 Es zeigt falls das der Fall ist den aktuell ausgecheckten Branch an und eine Asterisk (*) wenn das
@@ -203,7 +204,7 @@ noqqe@deathstar:~/Code/octopress (master)$ touch foobar
 noqqe@deathstar:~/Code/octopress (master*)$
 ```
 
-## git Remotes ##
+## git Remotes
 
 Zwei Funktionen an die ich mich ziemlich gewöhnt habe, weil ich für meine git
 repos meistens sowieso den selben Remote benutze. Ebenfalls veruntreut vom
@@ -221,7 +222,7 @@ function git_first_push {
 }
 ```
 
-## git Statistiken ##
+## git Statistiken
 
 Hier noch ein Stück für die Statistik Liebhaber. Ich mags.
 
@@ -303,7 +304,7 @@ Number of merges: 3
 [...]
 ```
 
-## git fehlende Files entfernen ##
+## git fehlende Files entfernen
 
 ``` bash
 function git_remove_missing_files() {
@@ -311,7 +312,7 @@ function git_remove_missing_files() {
 }
 ```
 
-## git lokales ignore ##
+## git lokales ignore
 
 ``` bash
 function local-ignore() {

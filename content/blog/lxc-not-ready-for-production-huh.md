@@ -87,7 +87,7 @@ Trotz allem reizt mich das Thema. Installiert wird das wie so ziemlich alles
 über
 
 ```
-$ apt-get install lxc bridge-utils debootstrap
+apt-get install lxc bridge-utils debootstrap
 ```
 
 Allerdings gibt es bei testing und auch bei stable Nachteile.
@@ -105,7 +105,7 @@ lxc:
         100 /var/lib/dpkg/status
 ```
 
-* Testing: Im Moment scheinen die cgroups kaputt. Dafür konnte ich keine Lösung
+Testing: Im Moment scheinen die cgroups kaputt. Dafür konnte ich keine Lösung
 finden da ich auch noch keine Erfahrung mit cgroups habe. Schade. Verison 0.8 hätte mich gereizt.
 
 ```
@@ -115,7 +115,7 @@ lxc-start: failed to spawn 'vm0'
 lxc-start: No such file or directory - failed to remove cgroup '/sys/fs/cgroup//vm0/14051'
 ```
 
-* Stable: Unter Stable ist kein Template für Debian Squeeze verfügbar. Da
+Stable: Unter Stable ist kein Template für Debian Squeeze verfügbar. Da
 heissts dann Lenny Template [umbauen](http://jtrancas.wordpress.com/2011/02/10/debian-squeeze-lxc-template/).
 Anleitung ist recht einfach zu verstehen und funktioniert.
 
@@ -156,7 +156,7 @@ Ich möchte meine Linux Container nun immer in einem `screen` starten. Ein Start
 sieht daher ungefähr immer so aus:
 
 ```
-$ screen -d -m -S vm0 lxc-start -n vm0 -f /var/lib/lxc/vm0/config
+screen -d -m -S vm0 lxc-start -n vm0 -f /var/lib/lxc/vm0/config
 ```
 
 Aus erst einem Alias wurden dann Mehrere und dann ein Wrapper Script

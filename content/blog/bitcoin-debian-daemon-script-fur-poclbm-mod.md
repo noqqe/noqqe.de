@@ -100,9 +100,9 @@ Start-Stop-Daemon für **/etc/init.d/**. Es startet automatisch wenn mein
 Rechner hochfährt und hört auf wenn ich Ihn herunterfahre. Ganz einfach
 
 ```
-$ wget -O /etc/init.d/bitcoin https://gist.github.com/raw/1007794/bitcoin.sh
-$ chmod +x /etc/init.d/bitcoin
-$ update-rc.d bitcoin defaults
+wget -O /etc/init.d/bitcoin https://gist.github.com/raw/1007794/bitcoin.sh
+chmod +x /etc/init.d/bitcoin
+update-rc.d bitcoin defaults
 ```
 
 [https://gist.github.com/1007794](https://gist.github.com/1007794)

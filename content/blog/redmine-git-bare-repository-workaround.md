@@ -48,6 +48,7 @@ jeder Working Copy darstellt. Es befinden sich also keine Klartext Files
 darin.
 
 {{< figure src="/uploads/2010/11/2431284305_9c4952e7f6.jpg" >}}
+
 Creative Commons by [Impact Tarmac](http://www.flickr.com/photos/bbcolin/)
 
 Diese Bare Repos lassen sich in Redmine aber nicht hinzufügen. Ob es
@@ -59,8 +60,8 @@ Ein bisschen Dokumentation zu lesen hat mich da schon um einiges weiter
 gebracht. Es gibt unter der Redmine Community anscheinend zwei verbreitete
 Lösungsansätze.
 
-  * Cronjob der alle heilige Zeit auf Änderungen prüft
-  * Hook in Bare Repos einfügen, welcher auslöst wenn gepushte Änderungen vorliegen
+* Cronjob der alle heilige Zeit auf Änderungen prüft
+* Hook in Bare Repos einfügen, welcher auslöst wenn gepushte Änderungen vorliegen
 
 Kurz: Ich entschied mir für die zweite Lösung. Um Ressourcen zu sparen.
 Oder weniger Cronjobs laufen zu haben. Erschien mir effizienter.

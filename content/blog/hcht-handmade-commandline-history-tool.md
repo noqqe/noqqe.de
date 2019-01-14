@@ -44,7 +44,7 @@ dieser wird mit tollen Features durch hcht befüllt.
 Die Basis sozusagen. Eine Notiz oder ein Kommando per Hand einfügen
 
 ```
-$ hcht das-ist-eine-Notiz.hch
+hcht das-ist-eine-Notiz.hch
 ```
 
 ### List-Funktion
@@ -52,7 +52,7 @@ $ hcht das-ist-eine-Notiz.hch
 Anzeigen aller abgespeicherten Files
 
 ```
-$ hcht
+hcht
 ```
 
 ### Einzeilige Notiz
@@ -60,7 +60,7 @@ $ hcht
 Den ganzen Spaß gibts auch einzeilig.
 
 ```
-$ hcht Hallo, das ist eine kleine Notiz
+hcht Hallo, das ist eine kleine Notiz
 ```
 
 ### Pipeable
@@ -68,8 +68,7 @@ $ hcht Hallo, das ist eine kleine Notiz
 Natürlich hat mein [Lesen von Stdin Post](/archives/1402) auch einen Sinn gehabt.
 
 ```
-$ cat mail.log | hcht maillog
-
+cat mail.log | hcht maillog
 ```
 
 ### Wiederholbar
@@ -78,8 +77,8 @@ Die bashinterne Funktion ist zum Beispiel auch hilfreich. Angenommen man
 hat grade einen total coolen Hack gebastelt und will diesen aufheben:
 
 ```
-$ find . -iname '*.png' -exec echo '<br><img src="{}">'  ; > gallery.html
-$ hcht !!
+find . -iname '*.png' -exec echo '<br><img src="{}">'  ; > gallery.html
+hcht !!
 ```
 
 Für mehr und vor allem genauere Beschreibung siehe den Source und das

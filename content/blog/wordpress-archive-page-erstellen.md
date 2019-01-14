@@ -73,6 +73,7 @@ Template Name: Archives
 */
 ?>
 ```
+
 am Anfang der Datei einfügen. Jetzt noch in Wordpress die Seite erstellen.
 Dazu musste ich eine Seite anlegen mit leerem Inhalt. Anschliessend bei
 Seiten -&gt; bearbeiten -&gt; Quickedit(!) -&gt; Template: Archive auswählen.

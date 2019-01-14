@@ -101,9 +101,7 @@ Reverse-Engeneering-Abteilung in meinem Kopf ratterte vor sich hin. Was
 passiert da und warum passiert das? Und vor allem: Wie komme ich jetzt
 wieder auf den Server?
 
-### Solve it!
-
-1. Public-Key Auth deaktivieren
+## 1. Public-Key Auth deaktivieren
 
 Ohne PubKey Auth, wird der ssh-daemon nicht erkennen, das er mir eine
 git-serve session geben müsste. Dem lokalen ssh-client beizubringen sich
@@ -118,13 +116,13 @@ User root
 pubkeyauthentication no
 ```
 
-2. Different User
+## 2. Different User
 
 Die Alternative zu dieser dauerhaften Veränderung ist (wenn vorhanden)
 einen anderen Benutzer zu verwenden um sich ins System einzuloggen und erst
 anschließend zu root zu werden.
 
-3. gitosis-serve zurechtstutzen
+## 3. gitosis-serve zurechtstutzen
 
 Nachdem der Zugriff auf das System  wiederhergestellt ist, gehts zum Bugfix
 (gitosis-serve). gitosis muss diesen Umstand in irgendeiner ssh-config
@@ -132,7 +130,7 @@ erzwingen. Ich verstehe nicht ganz warum, aber gitosis schrieb mir diese
 Änderungen in /root/.ssh/authorized_keys.
 
 ```
-command="gitosis-serve user@host",no-port-forwarding,no-X11-forwarding,no-agent-forwarding,no-pty ssh-rsa AABBB3NzaC1yc2EAAAABIwAAAQEAyjwZCinCmB4oJJZ4RuiSqrQmiYE8+C+JKpTmiPkdfojUbiB9gm3BOhsYAdu99vP7yDOaIqg9e2dk/4HGm+P8obUR7lVrinMf5NvoRkOa8EfGdPJRz4ABOGRDte454bwestyWlvLhnKyWd+a9lU07siDJg5b1NbitIXkXa76V+lGMrqkixaDC6meZQEjZlxnVMpgzC5wyEQy2cVwUnX+Swiw68gsHsMYKBNsiVgNQ7nY8fa5lhV13E6L2aYAIorVpudS1bTiQfvfXCpVtJkJVSNPP6RzUtuSSErhsqOn1o2QtVjWhH5J/Y0D1b4eeEAgmdhq7554kQupJ9LgRww== user@host
+command="gitosis-serve user@host",no-port-forwarding,no-X11-forwarding,no-agent-forwarding,no-pty ssh-rsa AABBB[...]== user@host
 ```
 
 Dieser Eintrag ist für das Verhalten verantwortlich. Auskommentieren oder

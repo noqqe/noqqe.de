@@ -74,7 +74,7 @@ abgelegt. Ähnlich wie bei PHP. Für alle Debian / Ubuntu Benutzer empfiehlt sic
 aber, die Library einfach über das Paketsystem nachzuinstallieren.
 
 ``` bash
-$ aptitude install r-cran-rmysql
+aptitude install r-cran-rmysql
 ```
 
 Standardmäßig sehen Graphen die mit R erstellt werden ziemlich mau aus. Die

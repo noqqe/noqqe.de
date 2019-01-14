@@ -88,6 +88,7 @@ dokumentiert ist.
 ```
 ERROR:gitosis.serve.main:Repository read access denied fatal: The remote end hung up unexpectedly
 ```
+
 Nach dem  das Master-Repo die gepushte Version von Gitosis erhält, führt es
 einen  sogenannten
 [Hook](http://www.kernel.org/pub/software/scm/git/docs/githooks.html) aus.

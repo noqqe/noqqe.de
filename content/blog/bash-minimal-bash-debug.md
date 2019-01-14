@@ -41,11 +41,11 @@ Lernaufwand ist jenseits von Gut und Böse. Deshalb habe ich mich hingesetzt
 und überlegt, wie ich eine Debugging-Engine gerne hätte. Wie müsste sowas
 aussehen, damit ich es verwenden würde?
 
-  * Code sollte nicht verunstaltet werden.
-  * Debug Informationen sollten gut leserlich ausgegeben werden.
-  * Debug Nachrichten sollten sich leicht zu erzeugen sein.
-  * Sollte sehr einfach abschaltbar und skalierbar sein.
-  * Minimaler Umfang des Gesamtsystems
+* Code sollte nicht verunstaltet werden.
+* Debug Informationen sollten gut leserlich ausgegeben werden.
+* Debug Nachrichten sollten sich leicht zu erzeugen sein.
+* Sollte sehr einfach abschaltbar und skalierbar sein.
+* Minimaler Umfang des Gesamtsystems
 
 Nun ja, im typischen Sonntag Nachmittag Größenwahn hab ich mich bemüht meine
 Anforderungen an den Bash Debugger umzusetzen. Ob es mir gelungen ist lasse
@@ -89,10 +89,10 @@ debug 3 echo "Variable FOO is $FOO"
 
 Das ganze ist simpel.
 
-  * debug aufrufen (debug)
-  * debug level bestimmen (2)
-  * debug mode auswählen (echo|syslog)
-  * debug message übergeben (Variable FOO is $FOO)
+* debug aufrufen (debug)
+* debug level bestimmen (2)
+* debug mode auswählen (echo|syslog)
+* debug message übergeben (Variable FOO is $FOO)
 
 Das war auch schon der ganze Zauber. Das schöne daran ist, ist das
 .minimal-bash-debug Script einmal nicht mehr vorhanden/nicht ausführbar

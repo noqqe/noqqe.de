@@ -48,9 +48,9 @@ Ein kleines Debian stable installiert und mit den Paketen bestückt ist die zum 
 gebraucht werden.
 
 ```
-$ mlxc clone vm13-stable vm24-bankingtemplate
-$ ssh vm24-bankingtemplate -l root "aptitude install chromium xauth"
-$ mlxc clone vm24-bankingtemplate vm99-tempbanking
+mlxc clone vm13-stable vm24-bankingtemplate
+ssh vm24-bankingtemplate -l root "aptitude install chromium xauth"
+mlxc clone vm24-bankingtemplate vm99-tempbanking
 ```
 
 Noch alle Zertifikate entfernt und fertig wars.
@@ -70,10 +70,10 @@ oder sonst was, bisher funktioniert es aber mit `rsync` ganz gut
 für mich.
 
 ```
-$ rsync -av --delete /home/lxc/vm24-bankingtemplate/rootfs/ /home/lxc/vm99-tempbanking/rootfs/
-$ mlxc start vm99-tempbanking
-$ ssh -X -l noqqe vm99-tempbanking "chromium"
-$ mlxc stop vm99-tempbanking
+rsync -av --delete /home/lxc/vm24-bankingtemplate/rootfs/ /home/lxc/vm99-tempbanking/rootfs/
+mlxc start vm99-tempbanking
+ssh -X -l noqqe vm99-tempbanking "chromium"
+mlxc stop vm99-tempbanking
 ```
 
 Im Endeffekt sehr simpel gehalten, nur umständlich zu bedienen. Irgendwie wollte

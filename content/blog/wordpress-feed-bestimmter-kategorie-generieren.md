@@ -32,7 +32,7 @@ langweiligen C++ Programmierstunde in der Schule) herausgefunden das sich
 der RSS-Feed eine zusätzliche Kategorie-Variable mitübergeben lässt um nur
 Artikel der definierten Kategorie auszuspucken.
 
-**/?feed=rss&cat=ID_364**
+    /?feed=rss&cat=ID_364
 
 Das ist recht nice, weil ich Postings für den Planeten wahlweise nur in den
 Kategorien ankreuze und automatisch beim Planeten nur eben diese Artikel

@@ -60,13 +60,13 @@ noqqe@twitter> follow technicallife
 
 Die Twidge-Shell hat weiterhin folgende Features:
 
-  * Der Prompt wird aus der .twidgerc generiert (username@service)
-  * Alle Standart Kommandos  von Twidge werden automatisch komplettiert und
-    sind benutzbar (z.B. user@service lsrecent)
-  * Alle in der .twidgerc definierten Aliase werden übernommen und sind
-    ebenfalls verwendbar. (z.B. user@service rls)
-  * Die Twidge-Shell funktioniert weiterhin als ganz normale Shell mit
-    allen Zusätzen und Funktionen.
+* Der Prompt wird aus der .twidgerc generiert (username@service)
+* Alle Standart Kommandos  von Twidge werden automatisch komplettiert und
+  sind benutzbar (z.B. user@service lsrecent)
+* Alle in der .twidgerc definierten Aliase werden übernommen und sind
+  ebenfalls verwendbar. (z.B. user@service rls)
+* Die Twidge-Shell funktioniert weiterhin als ganz normale Shell mit allen
+  Zusätzen und Funktionen.
 
 Ich habe mich dabei an Ryan Tomayko's git-sh orientiert, der ähnliches für
 Git gebaut hat. Was übrigens auch wirklich gut funktioniert.
