@@ -35,7 +35,7 @@ ist verwenden.
 
 Wenn ich ein git repository wieder aufräumen möchte.
 
-    http://git-scm.com/docs/git-gc
+[http://git-scm.com/docs/git-gc](http://git-scm.com/docs/git-gc)
 
 ## git proxy
 

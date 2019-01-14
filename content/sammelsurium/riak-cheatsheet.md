@@ -1,7 +1,7 @@
 ---
 title: Riak Cheatsheet
 date: 2016-05-30T15:14:45
-tags: 
+tags:
 - Databases
 - Riak
 ---

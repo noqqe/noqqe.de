@@ -24,8 +24,8 @@ Query mit FQDN
 
 Eine Faustregel. Einfach niemals Hiera Booleans verwenden
 
-* https://t.co/Osq7cJao4f
-* https://t.co/lgFD5MlohT
+* [Boolean in Hiera](https://groups.google.com/forum/#!topic/puppet-users/BLw91HEpP0I)
+* [Puppet Bug #17474](https://projects.puppetlabs.com/issues/17474)
 
 weil
 

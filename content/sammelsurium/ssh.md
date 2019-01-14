@@ -30,7 +30,7 @@ ssh host -l noqqe -i ~/.ssh/private
 
 Vorsicht. Ändert sich auch immer mal wieder.
 
-Im Zweifel mal hier nachschauen. https://bettercrypto.org/static/applied-crypto-hardening.pdf
+Im Zweifel mal hier nachschauen. [Crypto Hardening](https://bettercrypto.org/static/applied-crypto-hardening.pdf)
 
 ```
 ## Crypto shit

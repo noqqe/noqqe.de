@@ -1,7 +1,7 @@
 ---
 title: SSL/TLS Cheatsheet
 date: 2011-11-15T14:46:15
-tags: 
+tags:
 - SSL
 - TLS
 - Software
@@ -20,7 +20,7 @@ tags:
 
 * TCP Verbindung, SSL Handshake, HTTP über Secure Layer.
 
-https://www.identrustssl.com/images/learn_ssl_diagram.gif
+[SSL Diagram](https://www.identrustssl.com/images/learn_ssl_diagram.gif)
 
 #### Protokolle
 

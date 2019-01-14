@@ -68,9 +68,10 @@ Eine Installation dieser Art sei wärmstens empfohlen.
     ln -s apache-tomcat-XX-VV tomcat
 
 #### JDK herunterladen
+
 Auf
 
-http://www.oracle.com/technetwork/java/javase/downloads/
+[Oracle Downloads](http://www.oracle.com/technetwork/java/javase/downloads/)
 
 License Foo auswählen und herunterladen. Am besten den Downloadlink kopieren danach.
 
