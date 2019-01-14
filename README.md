@@ -4,6 +4,8 @@ This is the source of [noqqe.de](https://noqqe.de).
 
 # Build
 
+[![Build Status](https://travis-ci.org/noqqe/noqqe.de.svg?branch=master)](https://travis-ci.org/noqqe/noqqe.de)
+
 Build an run the blog on `localhost:1313`
 
 ```
@@ -27,6 +29,8 @@ Or on a custom server (to overwrite items in config.yaml) use
 hugo server --baseURL=foo.example.com --port=1313 --bind=0.0.0.0 --watch
 ```
 
+Think about running `markdownlint`
+
 # Contribute
 
 Patches / Pull Requests regarding
@@ -37,9 +41,7 @@ Patches / Pull Requests regarding
 * HTML
 * CSS
 
-are very welcome. Please do **not** open pull requests for
-`content/sammelsurium` posts! They are maintained somewhere else. It would
-be a waste of efforts.
+are very welcome.
 
 # Deploy
 
