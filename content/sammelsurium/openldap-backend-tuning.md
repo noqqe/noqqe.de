@@ -1,7 +1,7 @@
 ---
 title: OpenLDAP Backend Tuning
 date: 2013-02-23T11:47:14
-tags: 
+tags:
 - Software
 - OpenLDAP
 ---
@@ -56,34 +56,34 @@ db_stat -h /usr/local/var/openldap-data/ -d id2entry.bdb
 
 ~~~
 ## db_stat -h /usr/local/var/openldap-data/ -d dn2id.bdb
-Fri Mar  8 09:11:16 2013	Local time
-53162	Btree magic number
-9	Btree version number
-Little-endian	Byte order
-duplicates, sorted duplicates	Flags
-2	Minimum keys per-page
-4096	Underlying database page size
-1007	Overflow key/data size
-2	Number of levels in the tree
-1149	Number of unique keys in the tree
-2281	Number of data items in the tree
-3	Number of tree internal pages
-11444	Number of bytes free in tree internal pages (6% ff)
-29	Number of tree leaf pages
-48174	Number of bytes free in tree leaf pages (59% ff)
-4	Number of tree duplicate pages
-642	Number of bytes free in tree duplicate pages (96% ff)
-0	Number of tree overflow pages
-0	Number of bytes free in tree overflow pages (0% ff)
-0	Number of empty pages
-0	Number of pages on the free list
+Fri Mar  8 09:11:16 2013  Local time
+53162 Btree magic number
+9 Btree version number
+Little-endian Byte order
+duplicates, sorted duplicates Flags
+2 Minimum keys per-page
+4096  Underlying database page size
+1007  Overflow key/data size
+2 Number of levels in the tree
+1149  Number of unique keys in the tree
+2281  Number of data items in the tree
+3 Number of tree internal pages
+11444 Number of bytes free in tree internal pages (6% ff)
+29  Number of tree leaf pages
+48174 Number of bytes free in tree leaf pages (59% ff)
+4 Number of tree duplicate pages
+642 Number of bytes free in tree duplicate pages (96% ff)
+0 Number of tree overflow pages
+0 Number of bytes free in tree overflow pages (0% ff)
+0 Number of empty pages
+0 Number of pages on the free list
 ~~~
 
 Die wichtigen Angaben nochmal in kurz
 
 ~~~
-3	Number of tree internal pages
-29	Number of tree leaf pages
+3 Number of tree internal pages
+29  Number of tree leaf pages
 ~~~
 
 Blockgröße des Dateisystems: 4KB
@@ -94,27 +94,27 @@ Formel:
 
 ~~~
 root@vm29-ldap:~## db_stat -h /usr/local/var/openldap-data/ -d id2entry.bdb
-Fri Mar  8 09:30:37 2013	Local time
-53162	Btree magic number
-9	Btree version number
-Little-endian	Byte order
-	Flags
-2	Minimum keys per-page
-16384	Underlying database page size
-4079	Overflow key/data size
-2	Number of levels in the tree
-573	Number of unique keys in the tree
-573	Number of data items in the tree
-1	Number of tree internal pages
-15728	Number of bytes free in tree internal pages (4% ff)
-29	Number of tree leaf pages
-45622	Number of bytes free in tree leaf pages (90% ff)
-0	Number of tree duplicate pages
-0	Number of bytes free in tree duplicate pages (0% ff)
-0	Number of tree overflow pages
-0	Number of bytes free in tree overflow pages (0% ff)
-0	Number of empty pages
-0	Number of pages on the free list
+Fri Mar  8 09:30:37 2013  Local time
+53162 Btree magic number
+9 Btree version number
+Little-endian Byte order
+  Flags
+2 Minimum keys per-page
+16384 Underlying database page size
+4079  Overflow key/data size
+2 Number of levels in the tree
+573 Number of unique keys in the tree
+573 Number of data items in the tree
+1 Number of tree internal pages
+15728 Number of bytes free in tree internal pages (4% ff)
+29  Number of tree leaf pages
+45622 Number of bytes free in tree leaf pages (90% ff)
+0 Number of tree duplicate pages
+0 Number of bytes free in tree duplicate pages (0% ff)
+0 Number of tree overflow pages
+0 Number of bytes free in tree overflow pages (0% ff)
+0 Number of empty pages
+0 Number of pages on the free list
 ~~~
 
 bei der

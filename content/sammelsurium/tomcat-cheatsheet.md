@@ -1,7 +1,7 @@
 ---
 title: Tomcat Cheatsheet
 date: 2013-01-06T13:24:55
-tags: 
+tags:
 - Software
 - Tomcat
 ---
@@ -50,8 +50,10 @@ Eine Installation dieser Art sei wärmstens empfohlen.
 
 ### Vorteile
 
-* Ihr entscheidet wann es upgedated wird ("omg, apt-get hat unser Tomcat-Setup zerstört")
-* Kein überflüssiger Unsinn im Tomcat (Docs, Manageranwendung, default Passwörter, minimale Installation)
+* Ihr entscheidet wann es upgedated wird ("omg, apt-get hat unser
+  Tomcat-Setup zerstört")
+* Kein überflüssiger Unsinn im Tomcat (Docs, Manageranwendung, default
+  Passwörter, minimale Installation)
 * Konfiguration lesbar und verständlich (Stichwort Kommentare)
 * Update von Tomcat testweise auf neue Version
 * Update von Java testweise auf neue Version
@@ -95,7 +97,7 @@ Voll funktionsfähige minimale Konfiguration:
     <Server port="8005" shutdown="SHUTDOWN">
       <Listener className="org.apache.catalina.core.JasperListener" />
       <Listener className="org.apache.catalina.core.JreMemoryLeakPreventionListener" />
-     
+
       <Service name="Catalina">
         <Connector port="8080" protocol="HTTP/1.1" />
         <Connector port="8009" protocol="AJP/1.3" />
@@ -166,10 +168,10 @@ Einer der unschönen Teile des Tomcat
     scheme="https"
     secure="true"
     sslProtocol="TLS"
-	SSLEnabled="true"
-	SSLCertificateFile="${catalina.base}/conf/tomcatcert.pem"
-	SSLCertificateKeyFile="${catalina.base}/conf/tomcatkey.pem"
-	SSLPassword="tomcat"
+  SSLEnabled="true"
+  SSLCertificateFile="${catalina.base}/conf/tomcatcert.pem"
+  SSLCertificateKeyFile="${catalina.base}/conf/tomcatkey.pem"
+  SSLPassword="tomcat"
      />
 ~~~
 
@@ -186,7 +188,7 @@ Einer der unschönen Teile des Tomcat
               maxActive="20"
               maxIdle="10"
               maxWait="15000"
-    	  removeAbandoned="true"
+        removeAbandoned="true"
               validationQuery="SELECT 1"
               testOnBorrow="true"
               testWhileIdle="true"

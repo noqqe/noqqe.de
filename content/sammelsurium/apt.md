@@ -1,7 +1,7 @@
 ---
 title: apt
 date: 2012-05-21T08:18:00
-tags: 
+tags:
 - Software
 - apt
 ---
@@ -10,12 +10,12 @@ tags:
 
 see sources and look at details for the package
 
-		cd /tmp/
-		apt-get download newrelic-daemon
-		ar -x newrelic-daemon_6.8.0.177_amd64.deb
-		ls
-		tar xfvz control.tar.gz
-		tar xfvj data.tar.bz2
+    cd /tmp/
+    apt-get download newrelic-daemon
+    ar -x newrelic-daemon_6.8.0.177_amd64.deb
+    ls
+    tar xfvz control.tar.gz
+    tar xfvj data.tar.bz2
 
 #### apt-key
 

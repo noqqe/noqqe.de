@@ -1,0 +1,7 @@
+language: generic
+before_script:
+  - npm install -g markdownlint-cli
+script:
+  - markdownlint content/*.md
+  - markdownlint content/blog/*.md
+  - markdownlint content/sammelsurium/*.md
