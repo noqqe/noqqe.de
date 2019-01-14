@@ -90,7 +90,7 @@ Comments:
 geht. Außerdem erfährt man, dass der Random Number Generator von Turbo Pascal
 wohl nicht so der Wahnsinn ist. Schade eigentlich.
 
-<p><img class="center" src="/uploads/2012/12/random_number.png" title="XKCD - 211" alt="Creative Commons Attribution-NonCommercial 2.5 License http://xkcd.com/221/"></p>
+{{< figure src="/uploads/2012/12/random_number.png" caption="Creative Commons Attribution-NonCommercial 2.5 License xkcd.com/221" >}}
 
 Im Source etwas umgeschaut findet man aber schnell das was man sucht.
 Mit etwas Bitwise XOR Spass einen Seed auf Zeit- und PID-Basis erstellt, durch den

@@ -47,7 +47,7 @@ ausliefern muss. Was generiert und übertragen wird sind einfache
 Characters. Das erzeugt fast keinen Overhead und funktioniert auch noch
 ohne langes herumrechnen.
 
-<iframe src="http://showterm.io/0d0f510cb43b206350679#fast" width="670" height="510"></iframe>
+[Showterm](http://showterm.io/0d0f510cb43b206350679#fast)
 
 Installation und Bedienung sind unendlich einfach.
 Was man bekommt ist ein Link zu einer Site, die das aufgenommene mit HTML5

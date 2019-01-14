@@ -137,4 +137,6 @@ Danach baut mir das Shellscript die GnuPlots und die HTML Site
 ```
 
 Das alles gibts auf [github](http://github.com/noqqe/runkeeper-statistics/) und
-die "Demo" hab ich mal hochgeladen und mit zufälligen Daten befüllt:<b>[Demo](/uploads/2012/07/runkeeper-statistics/html/index.html)</b>
+die "Demo" hab ich mal hochgeladen und mit zufälligen Daten befüllt:
+
+[Demo](/uploads/2012/07/runkeeper-statistics/html/index.html)

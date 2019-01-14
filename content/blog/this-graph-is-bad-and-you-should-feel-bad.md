@@ -39,40 +39,6 @@ der Zahlen fängts schon an. Durch die krummen Gridlines (800 Morde/15%
 Marktanteil) der Achsen sind die Werte relativ bescheiden herauszulesen.
 Trotzdem:
 
-<script type="text/javascript" src="http://www.google.com/jsapi"></script>
-<script type="text/javascript">
-google.load('visualization', '1', {packages: ['corechart']});
-</script>
-<script type="text/javascript">
-function drawVisualization() {
-var data = new google.visualization.DataTable();
-data.addColumn('string', 'Year');
-data.addColumn('number', 'Murders in US');
-data.addColumn('number', 'IE Marketshare in %');
-data.addRow(["2006", 17500, 74]);
-data.addRow(["2007", 17250, 71]);
-data.addRow(["2008", 16900, 66]);
-data.addRow(["2009", 16400, 48]);
-data.addRow(["2010", 15550, 34]);
-data.addRow(["2011", 15250, 32]);
-new
-google.visualization.LineChart(document.getElementById('rebuild')).
-draw(data, {curveType: "function",width: 500, height: 400, title: "Internet Explorer vs. Murder Rate",
-vAxes: {0: {logScale: false,minValue:14000},
-1: {logScale: false,
-minValue:15,maxValue:90}},
-series:{
-0:{targetAxisIndex:0},
-0:{type: "bars", color: "#96d777"},
-1:{targetAxisIndex:1,color: "#3399FF",lineWidth: 3,pointSize: 12}}}
-);
-}
-google.setOnLoadCallback(drawVisualization);
-</script>
-<center>
-<div id="rebuild" style="width: 500px; height: 400px;"></div>
-</center>
-
 ## Dramatische Darstellung mit Hilfe der Achsen
 
 An den minimalen und maximalen Werten der beiden Achsen kann man schnell
@@ -90,37 +56,6 @@ Mensch stellt prozentuale Values von 10%-90% dar?
 
 Wenn ich beide Achsen von 0 bis $max gehen lasse, sieht die Geschichte
 gleich ganz anders aus.
-
-<script type="text/javascript">
-function drawVisualization() {
-var data = new google.visualization.DataTable();
-data.addColumn('string', 'Cats');
-data.addColumn('number', 'Murders in US');
-data.addColumn('number', 'IE Marketshare in %');
-data.addRow(["2006", 17500, 74]);
-data.addRow(["2007", 17250, 71]);
-data.addRow(["2008", 16900, 66]);
-data.addRow(["2009", 16400, 48]);
-data.addRow(["2010", 15550, 34]);
-data.addRow(["2011", 15250, 32]);
-new
-google.visualization.LineChart(document.getElementById('rightgraph')).
-draw(data, {curveType: "function",width: 500, height: 400, title:
-"Internet Explorer vs. Murder Rate",
-vAxes: {0: {logScale: false,minValue:0},
-1: {logScale: false,
-minValue:0,maxValue:100}},
-series:{
-0:{targetAxisIndex:0},
-0:{type: "bars", color: "#96d777"},
-1:{targetAxisIndex:1,color: "#3399FF",lineWidth: 3,pointSize:12}}}
-);
-}
-google.setOnLoadCallback(drawVisualization);
-</script>
-<center>
-<div id="rightgraph" style="width: 500px; height: 400px;"></div>
-</center>
 
 ## Äpfel und Birnen vergleichen
 

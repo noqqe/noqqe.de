@@ -18,22 +18,23 @@ tags:
 title: Git | Repositories auf Server anlegen
 ---
 
-![git-logo](/uploads/2010/02/git-logo.png)<del>I</del><del>c</del><del>h
-bin ja zukunftsorientiert.</del> Mir wurde einbläut zukunftsorientierte
+{{< figure src="/uploads/2010/02/git-logo.png" >}}
+
+~~Ich bin ja zukunftsorientiert.~~ Mir wurde einbläut zukunftsorientierte
 Software zu verwenden und sich nicht mit Relikten alter Generationen
 rumzuprügeln. Nachdem die letzten Wochen mit SVN etwas holprig waren, mir
 allerdings halfen das prinzipielle System einer Versionsverwaltung zu
-verstehen, tat ich mir Git an. Git. Der Name ist ja erstmal unterirdisch
-wenn mans so auf sich wirken lässt. Ganz im Gegensatz zum Banner der
-Projekt-Homepage [www.git-scm.com](http://www.git-scm.com), welches ich
-sehr nett finde. Aber Schluss mit EyeCandy.
+verstehen, tat ich mir Git an. Git. Der Name ist ja erstmal unterirdisch wenn
+mans so auf sich wirken lässt. Ganz im Gegensatz zum Banner der
+Projekt-Homepage [www.git-scm.com](http://www.git-scm.com), welches ich sehr
+nett finde. Aber Schluss mit EyeCandy.
 
-Erstellte <del>gezwungenermaßen</del> freiwillig mit ein paar (Obacht, zwei
+Erstellte ~~gezwungenermaßen~~ freiwillig mit ein paar (Obacht, zwei
 Links in einem Wort)
 [How](http://progit.org)-[To's](http://scie.nti.st/2007/11/14/hosting-git-repositories-the-easy-and-secure-way)
 ein Git-Repository auf zwetschge.org. Mithilfe der How-Tos,
 [Gitosis](http://wiki.dreamhost.com/Gitosis), git-daemon-run und git-core
-war das <del>relativ schnell</del> geschafft. Allerdings kann ich mir beim
+war das ~~relativ schnell~~ geschafft. Allerdings kann ich mir beim
 besten Willen nicht merken wie ich ein  Repository für ein neues Projekt
 erstelle. An der Stelle setzt der Blogpost an.
 

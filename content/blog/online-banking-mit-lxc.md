@@ -96,8 +96,4 @@ Das sehr businessmäßig aussehende Logo oben in der Ecke wurde freundlicherweis
 von [GNU Cash](http://gnucash.org) zur Verfügung gestellt, war aber eher ein
 Zufallsfund auf meinem System, da ich mir GNUCash zuletzt mal angesehen hatte.
 
-Und weil ich jetzt auch noch hart multimedial werde: Vimeo.
-
-<iframe src="//player.vimeo.com/video/78758620" width="600" height="376"
-frameborder="0" webkitallowfullscreen mozallowfullscreen
-allowfullscreen></iframe>
+Und weil ich jetzt auch noch hart multimedial werde: [Vimeo](https://player.vimeo.com/video/78758620)

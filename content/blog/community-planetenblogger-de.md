@@ -18,7 +18,7 @@ tags:
 title: Community | Planetenblogger.de
 ---
 
-Es zog sich <del>der hundertjährige Krieg</del> die hundertjährige
+Es zog sich ~~der hundertjährige Krieg~~ die hundertjährige
 [Diskussion](http://forum.ubuntuusers.de/topic/ausrichtung-des-planeten/)
 durch das Ubuntuusers.de-Forum über Soll und Nicht-Soll der Themen im
 offiziellen Ubuntuusers-Planeten. In diesen Threads ging es lange hin und

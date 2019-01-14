@@ -16,7 +16,7 @@ title: Getting enterprised with Tomcat - Teil 2
 
 2 Tage der Schulung bzw. 14 Stunden die volle Java Object Klassen Dröhnung sind rum.
 Die Schulung ist bis auf ein paar Details mit denen ich
-<strike>wahrscheinlich</strike> hoffentlich nie was zu tun
+~~wahrscheinlich~~ hoffentlich nie was zu tun
 haben werde sehr interessant.
 
 {{< figure src="/uploads/2012/09/whatdoyoumean.jpg" >}}
