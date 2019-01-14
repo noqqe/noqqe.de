@@ -36,7 +36,7 @@ comments:
   content: "<p>@Jensel: Achso jetzt verstehe ich. Du hast Recht DDG macht etwas \xE4hnliches,
     allerdings im viel breiterem Spektrum. Es fragt auch nicht _nur_ andere Suchfunktionen,
     sondern l\xE4sst sich auch irgendwie nach Themen sortieren. Schau dir doch mal
-    die Liste von den !Bangs an: /bang.html
+    die Liste von den !Bangs an: /bang.html"
   date: '2011-02-08T00:49:49'
 - author: name
   content: "<p>Nach ein paar Wochen mit Dukgo bin ich wieder zur\xFCck zu Google,
