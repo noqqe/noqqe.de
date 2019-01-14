@@ -1,7 +1,7 @@
 ---
 title: SuSE Cheatsheet
 date: 2012-02-29T13:11:13
-tags: 
+tags:
 - OS
 - SUSE
 - sles
@@ -11,39 +11,39 @@ tags:
 
 repository neu bauen
 
-    $ zypper refs
+    zypper refs
 
 neues repo abholen
 
-    $ zypper refresh
+    zypper refresh
 
 suse registern und dabei die paketquellen aktualisieren
 
-    $ suse_register
+    suse_register
 
 ## Updates
 
 Updates anzeigen
 
-    $ zypper lu
+    zypper lu
 
 Updates einspielen
 
-    $ zypper up
+    zypper up
 
 Auf nächsten Service Pack upgraden
 
-    $ wagon
+    wagon
 
 Requirements anzeigen
 
-    $ zypper info --requires spacewalk-client-tools
+    zypper info --requires spacewalk-client-tools
 
 #### RPM
 
 Installation und relocate in ein anderes Verzeichnis als paketiert
 
-    $ rpm -ihv /home/noqqe/sorted/sw/jdk-7u9-linux-x64.rpm --relocate="/usr/java"="/usr/local/"
+    rpm -ihv /home/noqqe/sorted/sw/jdk-7u9-linux-x64.rpm --relocate="/usr/java"="/usr/local/"
 
 ## Apache2 Wechsel von prefork auf worker
 

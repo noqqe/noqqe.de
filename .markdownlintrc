@@ -1,0 +1,9 @@
+{
+  "default": true,
+  "fenced-code-language": false,
+  "MD013": {
+    "code_blocks": false,
+    "tables": false,
+    "headings": true
+  }
+}
