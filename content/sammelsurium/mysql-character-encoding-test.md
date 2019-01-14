@@ -33,9 +33,9 @@ mysql --default-character-set=LATIN1 -e "select id, query from data where query 
 +----+-------------------------------------------------------+
 ~~~
 
-## Charset Configs #
+## Charset Configs
 
-### Latin1 ##
+### Latin1
 
 ~~~
 [client]
@@ -54,7 +54,7 @@ default-character-set = latin1
 default-character-set = latin1
 ~~~
 
-### UTF8 ##
+### UTF8
 
 ~~~
 [client]
@@ -73,14 +73,14 @@ default-character-set = utf8
 default-character-set = utf8
 ~~~
 
-## Richtig Dumpen #
+## Richtig Dumpen
 
 ~~~
 mysqldump --default-character-set="UTF8" db > db_utf8.sql
 mysql --default-character-set="UTF8" db < db_utf8.sql
 ~~~
 
-## Links #
+## Links
 
 [PHP-UTF8 Anleitung](http://www.gerd-riesselmann.de/softwareentwicklung/php-und-utf-8-eine-anleitung-teil-1-mysql)
 

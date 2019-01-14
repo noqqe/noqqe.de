@@ -39,5 +39,5 @@ Obacht, nur Regeln die mit state pflow versehen sind, werden wirklich zum Collec
 
 #### Anschauen
 
-    $ tcpdump -nettti pflow0
-    $ tcpdump -nettti pflog0 host 192.168.1.19 and port 9995
+    tcpdump -nettti pflow0
+    tcpdump -nettti pflog0 host 192.168.1.19 and port 9995

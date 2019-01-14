@@ -9,18 +9,17 @@ tags:
 
 Status ausgeben
 
-    $ zpool status
+    zpool status
 
 Alle pools anzeigen
 
-    $ zpool list
+    zpool list
 
 # Platten ersetzen
 
 ## Platten anzeigen
 
     $ zpool status | less
-
     NAME                STATE     READ WRITE CKSUM
       data                DEGRADED     0     0     0
         raidz1-0          ONLINE       0     0     0
