@@ -1,7 +1,11 @@
 language: generic
-before_script:
+
+install:
+  - go get github.com/gohugoio/hugo
   - npm install -g markdownlint-cli
+
 script:
+  - hugo
   - markdownlint content/*.md
   - markdownlint content/blog/*.md
   - markdownlint content/sammelsurium/*.md
