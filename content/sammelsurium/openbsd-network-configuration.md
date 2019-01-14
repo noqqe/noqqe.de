@@ -1,7 +1,7 @@
 ---
 title: OpenBSD Network Configuration
 date: 2012-11-04T12:31:38
-tags: 
+tags:
 - OS
 - OpenBSD
 ---
@@ -31,7 +31,7 @@ in /etc/mygate
 das ist wohl das pendant zum networking restart aus Debian
 
 ~~~
-$ sh /etc/netstart
+sh /etc/netstart
 ~~~
 
 ## DNS

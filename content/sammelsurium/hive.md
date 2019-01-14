@@ -1,7 +1,7 @@
 ---
 title: Hive
 date: 2014-05-09T11:22:05
-tags: 
+tags:
 - Software
 - Hadoop
 ---
@@ -11,10 +11,10 @@ mit Bees
 
 typical operations
 
-    $ hive -e "show databases;"
-    $ hive -e "show tables;"
-    $ hive -e "select * from hh limit 20;"
+    hive -e "show databases;"
+    hive -e "show tables;"
+    hive -e "select * from hh limit 20;"
 
 Turn on debug mode
 
-    $ hive -hiveconf hive.root.logger=DEBUG,console
+    hive -hiveconf hive.root.logger=DEBUG,console

@@ -590,14 +590,15 @@ Verbindungsmethoden
 
 #### SASL
 
-* Mechs
-    * PLAIN
-    * CRAM-MD5
-    * DIGEST-MD5
-    * GSSAPI (Kerberos)
-    * EXTERNAL
+Mechs
 
-* Bind durch: -Y DIGEST-MD5 -U user@example.com
+* PLAIN
+* CRAM-MD5
+* DIGEST-MD5
+* GSSAPI (Kerberos)
+* EXTERNAL
+
+Bind durch: -Y DIGEST-MD5 -U user@example.com
 
 #### Wichtige Konfigurationsparameter slapd.conf
 

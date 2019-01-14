@@ -1,7 +1,7 @@
 ---
 title: MySQL Replication
 date: 2012-03-28T15:10:59
-tags: 
+tags:
 - Databases
 - MySQL
 ---
@@ -75,6 +75,7 @@ RESET MASTER;
 ## Was tun wenn
 
 ### Loggin enabled
+
 ~~~
 Error 'You cannot 'ALTER' a log table if logging is enabled' on query. Default database: 'mysql'. Query: 'ALTER TABLE slow_log
 ~~~

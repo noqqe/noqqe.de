@@ -64,7 +64,7 @@ firewall or something (network problem?) blocking some traffic.
 
 You can expect the server to have greater RPC service requirements than the
 client.  The client, if it is also an NFS server, may have the same RPC
-services registered, but usually NFS will actually use</i> a proper
+services registered, but usually NFS will actually use a proper
 subset of the RPC services on an NFS server (may even be a set of size 0
 :).
 
@@ -117,8 +117,7 @@ Make sure that the actual daemon names sound NFS-related; sometimes a
 non-RPC program will steal a port that rpcbind/portmap thought it could
 allocate - but couldn't.
 
-Alternatively, you can just run my <a
-href="http://stromberg.dnsalias.org/~dstromberg/rpc-health.html">rpc-health
+Alternatively, you can just run my [RPC Health](http://stromberg.dnsalias.org/~dstromberg/rpc-health.html)
 script - but note that it won't detect missing services, only services
 that are registered but not responding to a minimal test.
 

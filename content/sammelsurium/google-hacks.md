@@ -120,6 +120,7 @@ Durchsucht nur den Seiteninhalt nach den darauffolgenden Begriffen.
 "allintext" sollte nicht mit anderen Spezialausdrücken verwendet werden.
 
 #### inanchor:
+
 Mit diesem Ausdruck können nur die Linkbeschreibungen in den Seiten
 durchsucht werden. Lautet der HTML-Quelltext eines Links
 

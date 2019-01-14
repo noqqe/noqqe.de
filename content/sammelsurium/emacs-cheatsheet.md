@@ -20,7 +20,7 @@ können einfach durchgehend gedrückt werden! WTF!
 * Kommando abbrechen: c-g
 * Neues File öffnen: c-x c-f
 
-* Neuen Buffer erstellen: c-x b <name>
+* Neuen Buffer erstellen: c-x b `<name>`
 * Buffer schliessen: c-x k
 * Alle Buffers anzeigen: c-x c-b
 * Switch Buffer: c-x b

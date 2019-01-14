@@ -1,12 +1,13 @@
 ---
 title: MySQL Master Switch
 date: 2012-08-01T10:04:25
-tags: 
+tags:
 - Databases
 - MySQL
 ---
 
 ## 1. Methode
+
 ### Readonly setzen
 
 ~~~

@@ -7,8 +7,8 @@ tags:
 
 ### Drop
 
-    $ sync
-    $ echo 1 > /proc/sys/vm/drop_caches
+    sync
+    echo 1 > /proc/sys/vm/drop_caches
 
 [linuxquestions.org](http://www.linuxquestions.org/questions/linux-kernel-70/how-to-disable-filesystem-cache-627012/)
 

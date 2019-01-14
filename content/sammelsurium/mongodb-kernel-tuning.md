@@ -33,7 +33,7 @@ atime auf partition ausschalten
 
 Einmalig:
 
-    $ blockdev --setra 4096 /dev/sdb
+    blockdev --setra 4096 /dev/sdb
 
 Readahead warnings ausschalten, persistent
 

@@ -70,6 +70,7 @@ Kategorien einordnen. Ähnlich wie beim
 ### Practices
 
 #### "Es ging nicht anders" Man hat keine Ahnung vom Thema. Die Lösung
+
 entspringt Google, einem Unix-Forum Post von 1997 oder im besten Fall einem
 Server Fault Thread mit 1,5 Upvotes.
 

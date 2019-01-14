@@ -1,7 +1,7 @@
 ---
 title: DRBD Setup
 date: 2012-10-19T10:13:27
-tags: 
+tags:
 - Filesystems
 - DRBD
 ---
@@ -97,11 +97,11 @@ srcversion: 71955441799F513ACA6DA60
 
 ### Dateisystem einrichten
 
-    $ mkfs.ext4 /dev/drbd0
-    $ mount /dev/drbd0 /mnt/
-    $ cd /mnt
-    $ touch 1 2 3 4 5
-    $ umount /mnt
+    mkfs.ext4 /dev/drbd0
+    mount /dev/drbd0 /mnt/
+    cd /mnt
+    touch 1 2 3 4 5
+    umount /mnt
 
 ### Schwenken
 
@@ -135,7 +135,7 @@ iface eth5 inet static
 
 ## Hearbeat
 
-### Installation
+### Installation Heartbeat
 
 ~~~
 aptitude install heartbeat
