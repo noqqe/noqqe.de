@@ -1,4 +1,7 @@
-language: generic
+language: go
+
+go:
+  - master
 
 install:
   - go get github.com/gohugoio/hugo
