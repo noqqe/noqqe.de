@@ -53,9 +53,13 @@ was auf japanisch dort stand.
 
 Google Translate hat mir dann geholfen:
 
-> - Unerlaubte Vervielfältigung umgeleitet, um Daten auf unserer Website bitte nicht replizieren
-- Kostenloses Web Klüngel Aktivitäten und groß angelegte nicht-materielle Verteilung, die Schriftart für Non-Profit-Aktivitäten Bitte zögern Sie nicht verwendet
-- Und Bücher auf die gewerbliche Nutzung von Schriften und sonstigen Anfragen zur Gestaltung der Arbeit danken Ihnen per E-Mail.
+> - Unerlaubte Vervielfältigung umgeleitet, um Daten auf unserer Website
+>   bitte nicht replizieren
+> - Kostenloses Web Klüngel Aktivitäten und groß angelegte nicht-materielle
+>   Verteilung, die Schriftart für Non-Profit-Aktivitäten Bitte zögern Sie
+>   nicht verwendet
+> - Und Bücher auf die gewerbliche Nutzung von Schriften und sonstigen
+>   Anfragen zur Gestaltung der Arbeit danken Ihnen per E-Mail.
 
 So sieht das jetzt nämlich aus. Ich bin ja non-commercial ;). Und ich hab das Banner mit Gimp erstellt. Weil ich so OpenSource bin.
 

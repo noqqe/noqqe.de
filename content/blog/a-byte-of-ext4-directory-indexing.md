@@ -94,7 +94,7 @@ Files gelistet, dass in dem (wahrscheinlich FS designtechnisch limitierten,
 korrigiert mich bitte) Hashmap Block kein Platz mehr ist. Es können schlicht
 und ergreifend keine neuen Einträge hinzugefügt werden.
 
-## Was jetzt? ##
+## Was jetzt?
 
 Längeres wälzen von Dokumentation lässt sich nicht vermeiden.
 
@@ -126,7 +126,7 @@ Number of Entries (limit): 508
 htree listet die Indexes in dem Ordner und Informationen zum hashed B-Tree. Die
 Limit und Count Values sprechen denke ich für sich.
 
-## Okay. Problem gefunden. Wie beheb ich es? ##
+## Okay. Problem gefunden. Wie beheb ich es?
 
 Man baut den Directory Index neu auf, wobei der alte Dir Index prinzipiell
 behalten wird und der Neue an der letzten Stelle auf den weiteren Index
@@ -143,7 +143,7 @@ Wie sich später herausgestellt hat war die Ursache davon ein nicht korrekt
 funktionierendes Logrotate welches ca 8 Mio. Files produziert hat. Das Löschen
 hat auch nur ca. 10 Tage gedauert. Nur so am Rande.
 
-## Irritiert. ##
+## Irritiert.
 
 Zum Abschluss muss ich sagen bin ich etwas.. irritiert. Man schafft ein
 Feature, dass dann einspringt wenn es viele Files werden (bei meinen Tests ab

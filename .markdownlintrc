@@ -1,4 +1,6 @@
 {
+  "comment": "https://github.com/DavidAnson/markdownlint",
+
   "default": true,
   "fenced-code-language": false,
   "first-heading-h1": false,
@@ -6,9 +8,7 @@
   "no-trailing-punctuation": false,
   "first-line-h1": false,
   "line-length": false,
-  "ul-style": {
-    "style": "asterisk"
-  },
+  "ul-style": false,
   "header-style": {
     "style": "atx"
   }

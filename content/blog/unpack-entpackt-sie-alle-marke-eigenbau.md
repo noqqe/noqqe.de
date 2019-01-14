@@ -28,9 +28,9 @@ tags:
 title: unpack - Entpackt sie alle - Marke Eigenbau
 ---
 
-Vor ein paar Tagen erst haben wir uns in der Arbeit über die [Komplexität
-der tar Befehle unterhalten und die Millionen
-Archivetypen](http://www.linux-fuer-alle.de/doc_show.php?docid=76) die es
+Vor ein paar Tagen erst haben wir uns in der Arbeit über die Komplexität der
+tar Befehle unterhalten und die Millionen
+[Archivetypen](http://www.linux-fuer-alle.de/doc_show.php?docid=76) die es
 gibt. Habe mir dann etwas gedanken gemacht, wie das ganze leichter zu haben
 wäre und ein kleines Skript geschrieben.
 

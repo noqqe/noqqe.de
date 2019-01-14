@@ -36,9 +36,9 @@ Debian & Ubuntu paketiert
 * logs/ <- ...
 * temp/
 * webapps/ <- "DocumentRoots"
-    * ROOT <- Default "vHost"
-    * JamWiki <- Beispiel Applikation Wiki
-    * liferay <- Beispiel Applikation CMS
+  * ROOT <- Default "vHost"
+  * JamWiki <- Beispiel Applikation Wiki
+  * liferay <- Beispiel Applikation CMS
 * work/ <- Laufzeit Files
 
 ## Tomcat richtig installieren.

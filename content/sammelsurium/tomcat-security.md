@@ -128,6 +128,7 @@ HTTP Code logging output:
 ### Turn off Directory Listings
 
 in WEB-INF/web.xml
+
 ~~~
 <servlet>
   <servlet-name>default</servlet-name>

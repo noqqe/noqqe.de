@@ -207,7 +207,7 @@ So zum Beispiel
 
 Ausführen
 
-    $ openssl speed
+    openssl speed
 
 Speedcheck auswerten
 

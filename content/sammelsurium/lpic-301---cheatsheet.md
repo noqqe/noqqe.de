@@ -10,12 +10,10 @@ tags:
 
 * Heilloses durcheinander in den 80ern
 * ITU (vorher CCITT) beschliesst den X.500 Standard
-
 * DSP -> Directory System Protocol
 * DAP -> Directory Access Protocol
 * DSA -> Directory Server Agent
 * DUA -> Directory User Agent
-
 * X.500 mit TCP/IP nicht möglich
 * Middleware für TCP/IP Clients
 
@@ -35,7 +33,7 @@ tags:
 
 #### LDIF Dateien
 
-* Neues Personen Objekt
+Neues Personen Objekt
 
 ~~~
 dn: uid=horst,ou=users,dc=example,dc=com
@@ -51,7 +49,7 @@ cn: Horst
 sn: Tappert
 ~~~
 
-* Neue Gruppe
+Neue Gruppe
 
 ~~~
 dn: ou=zwerge,dc=example,dc=com
@@ -60,7 +58,7 @@ objectClass: organizationalUnit
 ou: zwerge
 ~~~
 
-* Modify Kodierung
+Modify Kodierung
 
 ~~~
 dn: uid=horst,ou=users,dc=example,dc=com
@@ -86,15 +84,16 @@ wichtige Dateien:
 
 #### Schemata
 
-* Grundsätzliche Schemata
-    * core.schema (grundlegendes)
-    * cosine.schema (COSINE und Internet-X.500 Schema)
-    * inetorgperson.schema (Personenbezogene Schemata)
-    * misc.schema (experimenteller Shit!)
-    * nis.schema (Network Information Service Schema)
-    * openldap.schema (LDAP spezifischer Kram)
+Grundsätzliche Schemata
 
-* Abhängigkeiten
+* core.schema (grundlegendes)
+* cosine.schema (COSINE und Internet-X.500 Schema)
+* inetorgperson.schema (Personenbezogene Schemata)
+* misc.schema (experimenteller Shit!)
+* nis.schema (Network Information Service Schema)
+* openldap.schema (LDAP spezifischer Kram)
+
+Abhängigkeiten
 
 ~~~
 core.schema <- cosine.schema <- nis.schema
@@ -106,42 +105,47 @@ core.schema <- cosine.schema <- inetorgperson.schema <- openldap.schema
 
 Beispiel Objektklassen
 
-* STRUCTURAL Classes (strukturelle)
-    * person
-    * organizationalPerson
-    * inetOrgPerson
-    * organizationalUnit
-    * groupOfNames
-    * alias
+STRUCTURAL Classes (strukturelle)
 
-* AUXILIARY Classes (ergänzende)
-    * posixAccount
-    * posixGroup
-    * extensibleObject
+* person
+* organizationalPerson
+* inetOrgPerson
+* organizationalUnit
+* groupOfNames
+* alias
 
-* ABSTRACT Classes (nur aus Vererbungsgründen)
-    * top
+AUXILIARY Classes (ergänzende)
 
-* Felder
-    * OID (2.16.840.1.113739.3.2.3)
-    * NAME
-    * DESC
-    * SUP organizationalPerson
-    * TYPE (STRUCTURAL/AUXILIARY)
-    * MUST ( 1 $ 2 $ )
-    * MAY ( 1 $ 2 $ 3 )
+* posixAccount
+* posixGroup
+* extensibleObject
+
+ABSTRACT Classes (nur aus Vererbungsgründen)
+
+* top
+
+Felder
+
+* OID (2.16.840.1.113739.3.2.3)
+* NAME
+* DESC
+* SUP organizationalPerson
+* TYPE (STRUCTURAL/AUXILIARY)
+* MUST ( 1 $ 2 $ )
+* MAY ( 1 $ 2 $ 3 )
 
 #### Attributstypen
 
-* Stichwort im Schema lautet `attributetype`
+Stichwort im Schema lautet `attributetype`
 
-* Felder
-    * NAME
-    * DESC
-    * EQUALITY
-    * ORDERING
-    * SUBSTR
-    * SYNTAX
+Felder
+
+* NAME
+* DESC
+* EQUALITY
+* ORDERING
+* SUBSTR
+* SYNTAX
 
 #### configure Parameter
 
@@ -222,10 +226,7 @@ verwendet. Hier noch eine Übersicht
     --enable-collect    Collect overlay no|yes|mod [no]
     --enable-constraint   Attribute Constraint overlay no|yes|mod [no]
     --enable-dds      Dynamic Directory Services overlay no|yes|mod [no]
-    --enable-deref    Dereference overlay no|yes|mod [no]
-    --enable-dyngroup   Dynamic Group overlay no|yes|mod [no]
-    --enable-dynlist    Dynamic List overlay no|yes|mod [no]
-    --enable-memberof   Reverse Group Membership overlay no|yes|mod [no]
+    --enable-deref    Dereference overlay no|yes|mod [no] --enable-dyngroup   Dynamic Group overlay no|yes|mod [no] --enable-dynlist    Dynamic List overlay no|yes|mod [no] --enable-memberof   Reverse Group Membership overlay no|yes|mod [no]
     --enable-ppolicy    Password Policy overlay no|yes|mod [no]
     --enable-proxycache   Proxy Cache overlay no|yes|mod [no]
     --enable-refint   Referential Integrity overlay no|yes|mod [no]
@@ -408,14 +409,16 @@ UNBIND (eig BIND) ->
 
 #### ACL
 
-* Reihenfolge matters, a lot!
+Reihenfolge matters, a lot!
 
-* Generell
+Generell
 
+```
 access to <was>
        by <wer> <wie>
+```
 
-* Beispiel
+Beispiel
 
 ~~~
 access to *
@@ -426,14 +429,15 @@ access to *
         by * auth
 ~~~
 
-* Access level und deren Privileges
-    * 0 - none (keine Permissions)
-    * d - disclose (Erlaubt Fehlermeldungen anzuzeigen)
-    * x - auth (Zugriff für Auth auf userPassword oder ähnliches)
-    * c - compare (vergleichen)
-    * s - search (NICHT! Suchergebnisse ausgeben, sondern Recht mit Suchfiltern zu suchen9
-    * r - read (ausgabe von Suchergebnissen)
-    * w - write (schreiben
+Access level und deren Privileges
+
+* 0 - none (keine Permissions)
+* d - disclose (Erlaubt Fehlermeldungen anzuzeigen)
+* x - auth (Zugriff für Auth auf userPassword oder ähnliches)
+* c - compare (vergleichen)
+* s - search (NICHT! Suchergebnisse ausgeben, sondern Recht mit Suchfiltern zu suchen9
+* r - read (ausgabe von Suchergebnissen)
+* w - write (schreiben
 
 Beispiel für nutzung von Privileges
 
@@ -566,10 +570,11 @@ TLS_CERT /pfad/
 TLS_KEY /pfad/
 ~~~
 
-* Verbindungsmethoden
-    * ldaps:// (SSL
-    * -Z (TLS, fallback auf unverschlüsselt)
-    * -ZZ (Ohne Fallback mit abbruch der conn)
+Verbindungsmethoden
+
+* ldaps:// (SSL
+* -Z (TLS, fallback auf unverschlüsselt)
+* -ZZ (Ohne Fallback mit abbruch der conn)
 
 #### security Methoden
 
@@ -656,40 +661,43 @@ yptest                   ## Testet Verbindung zum YP Server
 ypwhich -d exaple.com    ## YPServer finden
 ~~~
 
-* Typische Maps
-    * passwd
-    * group
-    * hosts
-    * networks
-    * protocols
-    * services
-    * fstab
-    * aliases
-    * rpc
-    * profile
-    * netgroup
-    * ethers
-    * netmasks
-    * bootparams
+Typische Maps
 
-* Schema Dateien
-    * nis.schema
+* passwd
+* group
+* hosts
+* networks
+* protocols
+* services
+* fstab
+* aliases
+* rpc
+* profile
+* netgroup
+* ethers
+* netmasks
+* bootparams
 
-* ypldapd Konfiguration
-    * ypdomain - NIS DOMAIN
-    * ldaphost - hosts
-    * basedn
-    * binddn
-    * bindcred
-    * ldapversion
+Schema Dateien
+
+* nis.schema
+
+ypldapd Konfiguration
+
+* ypdomain - NIS DOMAIN
+* ldaphost - hosts
+* basedn
+* binddn
+* bindcred
+* ldapversion
 
 #### Pam ldap Modul
 
-* Grober umriss
+Grober umriss
 
 #### nsswitch
 
-* /etc/nsswitch.conf
+/etc/nsswitch.conf
 
 #### NIS
 
@@ -793,13 +801,14 @@ ObjectClasses:
 
 #### ldap zu Samba
 
-* Schemata samba3.schema
+Schemata samba3.schema
 
-* ObjectClasses
-    * sambaSamAccount
-    * sambaGroupMapping
+ObjectClasses
 
-* smb.conf
+* sambaSamAccount
+* sambaGroupMapping
+
+smb.conf
 
 ~~~
 passdb backend = ldapsam:ldap://slapd.example.com
@@ -812,7 +821,7 @@ ldap suffix = dc=example=com
 ldap filter = (&(uid\%u) (objectclass=sambaSamAccount)
 ~~~
 
-* pbedit
+pbedit
 
 ~~~
 pbedit -Lv noqqe     ## user infos aus smb backend
@@ -825,7 +834,7 @@ pbedit -i smbpasswd:/etc/samba/smbpasswd -e ldapsam:ldap://slapd.example.com   #
 
 #### Active Directory und LDAP
 
-* Funktion von AD (KERBEROS)
+Funktion von AD (KERBEROS)
 
 KINIT Command
 
@@ -833,7 +842,7 @@ KINIT Command
 -> TGS (Ticket Granting Service)
 -> TGS (Ticket Granting Service an Server übermitteln)
 
-* Anbindung in ldap.conf des PAM Moduls
+Anbindung in ldap.conf des PAM Moduls
 
 ~~~
 pam_login_attribute sAMAccountName
@@ -841,7 +850,7 @@ pam_filter objectclass=User
 pam_password ad
 ~~~
 
-* Anbindung von Linux an ad (was braucht man?)
+Anbindung von Linux an ad (was braucht man?)
 
 pam_krb5 Modul:
 
@@ -882,20 +891,20 @@ pam = {
 
 #### Kapazitätsplanung
 
-* vmstat
+vmstat
 
 ~~~
 vmstat 5
 ~~~
 
-* iostat
+iostat
 
 ~~~
 iostat -x 1
 iostat -x
 ~~~
 
-* sar
+sar
 
 ~~~
 sar -r    #Speicheraulsastung

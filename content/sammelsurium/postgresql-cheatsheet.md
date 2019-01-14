@@ -1,7 +1,7 @@
 ---
 title: PostgreSQL Cheatsheet
 date: 2015-07-09T15:28:29
-tags: 
+tags:
 - Databases
 - PostgreSQL
 ---
@@ -35,12 +35,12 @@ List Roles
 
 Backup / Dump a single DB
 
-    $ pg_dump db1 > backup.sql
+    pg_dump db1 > backup.sql
 
 Backup all Databases
 
-    $ pg_dumpall > pgbackup.sql
+    pg_dumpall > pgbackup.sql
 
 Restore
 
-    $ psql db1 < backup.sql
+    psql db1 < backup.sql
