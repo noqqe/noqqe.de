@@ -19,7 +19,6 @@ einfach benutzen konnte. Lass ich mir von Unsplash einfach ein zufälliges Bild
 gegeben (anhand von ein paar keywords) und habe schonmal den ersten Schritt
 zum baldigen Social Media Erfolg von Sinnlosem Wissen. Ein Foto.
 
-
 ```python
 def search_image(query, title):
 

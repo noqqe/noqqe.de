@@ -57,7 +57,6 @@ ErrorLog /var/log/apache2/noqqe.de-error.log
 CustomLog /var/log/apache2/noqqe.de-access.log common
 ```
 
-
 Mit der Syntax `[$domain]-[access|error].log` ist es im
 Apache Logdir schön auseinander zu halten auf welchen vhost welche
 Anfragen gingen. Erleichtert die Suche ungemein. Auch Aufgliederung in
@@ -82,18 +81,20 @@ befinden sich manuell angepasste config-Files die z.B. bei Upgrades nicht
 enden und sich im Verzeichnis /var/log/apache2/ befinden wöchentlich bis zu
 10 Wochen rotieren und komprimieren:
 
-    /var/log/apache2/*.log {
-            weekly
-            missingok
-            rotate 10
-            compress
-            delaycompress
-            notifempty
-            create 640 root adm
-            sharedscripts
-            postrotate
-                    if [ -f "`. /etc/apache2/envvars ; echo ${APACHE_PID_FILE:-/var/run/apache2.pid}`" ]; then
-                            /etc/init.d/apache2 reload > /dev/null
-                    fi
-            endscript
-    }
+```
+/var/log/apache2/*.log {
+        weekly
+        missingok
+        rotate 10
+        compress
+        delaycompress
+        notifempty
+        create 640 root adm
+        sharedscripts
+        postrotate
+          if [ -f "`. /etc/apache2/envvars ; echo ${APACHE_PID_FILE:-/var/run/apache2.pid}`" ]; then
+            /etc/init.d/apache2 reload > /dev/null
+          fi
+        endscript
+}
+```

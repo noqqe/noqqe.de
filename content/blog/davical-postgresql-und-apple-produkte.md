@@ -76,7 +76,6 @@ aus:
 
 > http://http//cal.n0q.org/caldav.php/noqqe/addressbook
 
-
 ## Macbook
 
 Hier nun der wirklich lustige Teil. Das Address Book des Macbooks. Selbes

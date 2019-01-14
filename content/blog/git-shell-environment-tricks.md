@@ -145,7 +145,6 @@ function git_info() {
 }
 ```
 
-
 ``` bash
 $ git_info
 git repo overview

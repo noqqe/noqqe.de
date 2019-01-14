@@ -49,10 +49,10 @@ waren auch kuschlig :)
 
 ### Samstag
 
-* 1. Vortrag:Storage - Aber richtig von Martin Gerhard Loschwitz Fand ich
+* 1. Vortrag: Storage - Aber richtig von Martin Gerhard Loschwitz Fand ich
   persönlich interessant, gerade der iSCSI-DRBD-Ansatz um FibreChannel zu
   ersetzen gefiel mir sehr gut.
-* 2. Vortrag:[ Provokante Thesen zur IT-Administration von Peer Heinlein](http://chemnitzer.linux-tage.de/2011/vortraege/745) Ja, Herr
+* 2. Vortrag: [Provokante Thesen zur IT-Administration von Peer Heinlein](http://chemnitzer.linux-tage.de/2011/vortraege/745) Ja, Herr
   Heinlein. Der Autor des Buchs, welches mich durch die LPIC-1 Prüfung
   geführt hat sinnierte auf eher komödiantische Art über die typischen
   Eigenschaften der IT-Dienstleistungsbranche. Hat allerdings Spaß

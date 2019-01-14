@@ -67,7 +67,6 @@ habe ich folgende Änderungen an verschiedenen Stellen eingespielt.
 Vorzugsweise immer in den entsprechenden conf.d/ Verzeichnissen, da die
 Änderungen evtl. beim nächsten Upgrade überschrieben werden könnten.
 
-
 # �
 
 ### Apache2 Charset

@@ -1,7 +1,7 @@
 ---
 title: Versionierungs Schemata
 date: 2016-12-06T09:06:58
-tags: 
+tags:
 - Programming
 ---
 

@@ -29,7 +29,6 @@ meines damaligen Arbeitgebers wechseln durfte). Ein
 Postfix. Warum ich davon immer die ganze Config im Blog gepastet hatte ist mir
 aber ein Rätsel. Wahrscheinlich war ich stolz auf das Gefrickel.
 
-
 {{< figure src="/uploads/2018/03/noqqewhite.png" caption="Banner von ca. 2010 ">}}
 
 Wie man das als anständiger  Blogger so macht, musste natürlich auch an
@@ -43,11 +42,9 @@ wurde mein Blog auch Teil diverser Blog Planeten/Netzwerke
 [planetenblogger.de](http://planetenblogger.de), [osbn.de](https://osbn.de),
 usw..) von den übrigens nichts übrig geblieben ist.
 
-
 {{< figure src="/uploads/2018/03/cloudtheme.png" caption="Eigenes Wordpress Theme von 2009" >}}
 
 {{< figure src="/uploads/2018/03/airnoqqe.jpg" caption="Banner von ca. 2011" >}}
-
 
 Als ich dann den Arbeitgeber wechselte, in die Nähe von Erlangen zog und anfing
 mich im [K4CG](https://k4cg.org) herumzutreiben, migrierte  ich den Blog zu

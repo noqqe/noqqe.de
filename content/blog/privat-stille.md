@@ -39,7 +39,7 @@ Auszugleichen hier bisschen kurz und knackig:
 * [RegExp](http://www.google.com/search?hl=de&q=regexp&btnG=Suche&lr=lang_de)
   - muss man einfach können. Ich kanns nicht deswegen heissts
     weiterbilden...
-* [Ubuntu ](http://ubuntuusers.de)- nur nochn 10 Tage dann ... ;) Jaunty
+* [Ubuntu](http://ubuntuusers.de)- nur nochn 10 Tage dann ... ;) Jaunty
   Release..
 * [IT-Prüfungswissen](http://www.amazon.de/Pr%C3%BCfungsvorbereitung-f%C3%BCr-Berufe-Manfred-W%C3%BCnsche/dp/3834803774/ref=sr_1_5?ie=UTF8&s=books&qid=1239629112&sr=8-5)
   - Ein super klasse Buch auch zur Schulung des Allgemeinwissens. Habs

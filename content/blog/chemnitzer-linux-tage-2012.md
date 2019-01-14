@@ -16,7 +16,6 @@ Mittlerweile das 3. Jahr, dass ich mich bei den Chemnitzer Linux Tagen habe
 blicken lassen. Wie immer war alles sehr super, klasse organisiert (dickes
 Kompliment an die Orga) und interessant :)
 
-
 Kurze Review der Vorträge
 
 * [Penetration Testing mit MetaSploit](http://chemnitzer.linux-tage.de/2012/vortraege/1022)

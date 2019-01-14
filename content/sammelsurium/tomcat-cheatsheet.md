@@ -25,8 +25,8 @@ tags:
 
 Debian & Ubuntu paketiert
 
-    $ apt-get install tomcat7
-    $ /etc/init.d/tomcat7 start
+    apt-get install tomcat7
+    /etc/init.d/tomcat7 start
 
 ### Directories
 
@@ -62,10 +62,10 @@ Eine Installation dieser Art sei wärmstens empfohlen.
 
 #### Tomcat herunterladen
 
-    $ cd /usr/local/
-    $ wget http://tomcat.apache.org/download-70.cgi
-    $ tar xfvz apache-tomcat-XX-VV.tar.gz
-    $ ln -s apache-tomcat-XX-VV tomcat
+    cd /usr/local/
+    wget http://tomcat.apache.org/download-70.cgi
+    tar xfvz apache-tomcat-XX-VV.tar.gz
+    ln -s apache-tomcat-XX-VV tomcat
 
 #### JDK herunterladen
 Auf
@@ -74,17 +74,17 @@ http://www.oracle.com/technetwork/java/javase/downloads/
 
 License Foo auswählen und herunterladen. Am besten den Downloadlink kopieren danach.
 
-    $ cd /usr/local
-    $ wget http://download.oracle.com/otn-pub/java/jdk/7u11-b21/jdk-7u11-linux-x64.tar.gz?AuthParam=1358962018_0709088e98e2b0851395247274a50376
-    $ tar xfvz jdk-7u11-linux-x64.tar.gz
-    $ ln -s jdk-7u11-linux-x64 java
+    cd /usr/local
+    wget http://download.oracle.com/otn-pub/java/jdk/7u11-b21/jdk-7u11-linux-x64.tar.gz?AuthParam=1358962018_0709088e98e2b0851395247274a50376
+    tar xfvz jdk-7u11-linux-x64.tar.gz
+    ln -s jdk-7u11-linux-x64 java
 
 #### 1. Datenstruktur aufbauen
 
-    $ cd /data
-    $ mkdir tomcat/node01
-    $ mkdir bin conf webapps logs work temp
-    $ cp /usr/local/tomcat/conf/web.xml conf/
+    cd /data
+    mkdir tomcat/node01
+    mkdir bin conf webapps logs work temp
+    cp /usr/local/tomcat/conf/web.xml conf/
 
 #### 2. conf/server.xml erstellen
 
@@ -133,7 +133,7 @@ bin/shutdown.sh
     ${CATALINA_HOME}/bin/catalina.sh stop $@
 
 /etc/init.d/ Skripte können nach Bedarf noch gebaut werden.
-Lässt sich auch schön als bestimmter User ausführen via `su user -c ... `
+Lässt sich auch schön als bestimmter User ausführen via `su user -c ...`
 
 #### 4. Glücklich sein
 
@@ -242,7 +242,9 @@ Wie gehts dem Teil und was macht sie gerade?
 * jstat
 * JMX
 
-`-Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=10013 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false`
+```
+-Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=10013 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false
+```
 
 * MBeans
 

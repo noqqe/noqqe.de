@@ -41,7 +41,7 @@ letztlich drauf hinaus das mein Server zwetschge.org für einen GameServer
 herhalten muss :D.
 
 Der Server ist über die MasterServer von Teeworlds erreichbar unter dem
-Namen **[JustForFun]zwetschge.org|noqqe.de ** und wird (was mich wundert)
+Namen **[JustForFun]zwetschge.org|noqqe.de** und wird (was mich wundert)
 mit gutem Ping relativ häufig bespielt(auch via IP-Connect mit
 **zwetschge.org:8303** erreichbar). Sollte jemand das Bedürfnis bekommen
 mich oder die anderen von CodeCocktail mal "ownen" oder "bashen" zu wollen
@@ -50,20 +50,19 @@ mich oder die anderen von CodeCocktail mal "ownen" oder "bashen" zu wollen
 Um aber mal zum technischen Teil zu kommen: Ist ein Teeworlds-Server sehr
 einfach aufzusetzen.
 
-
-  * Aktuelle Version runterladen :
-    [http://teeworlds.com](http://teeworlds.com)
-  * teeworlds0.x.x.tar.gz entpacken (wahlweise mit
-    [unpack](http://zwetschge.org/unpack/) ;) keine Schleichwerbung
-    eigentlich..)
-  * mit dem Wechsel in das entsprechende Verzeichnis und ausführen "
-    ./teeworlds_srv" kann der Server das erste mal gestartet werden
-    (allerdings ohne Konfiguration! nicht zu empfehlen)
-  * Um die gewünschte Konfiguration einzustellen gibt es eine Liste mit
-    Config-Details auf
-    [http://www.teeworlds.com/?page=docs&wiki=SettingUpAServer](http://www.teeworlds.com/?page=docs&wiki=SettingUpAServer)
-  * "vim twserver.cfg" anlegen und  mit Konfigurationen befüllen. Beispiel
-    Konfiguration:
+* Aktuelle Version runterladen:
+  [http://teeworlds.com](http://teeworlds.com)
+* teeworlds0.x.x.tar.gz entpacken (wahlweise mit
+  [unpack](http://zwetschge.org/unpack/) ;) keine Schleichwerbung
+  eigentlich..)
+* mit dem Wechsel in das entsprechende Verzeichnis und ausführen "
+  ./teeworlds_srv" kann der Server das erste mal gestartet werden
+  (allerdings ohne Konfiguration! nicht zu empfehlen)
+* Um die gewünschte Konfiguration einzustellen gibt es eine Liste mit
+  Config-Details auf
+  [http://www.teeworlds.com/?page=docs&wiki=SettingUpAServer](http://www.teeworlds.com/?page=docs&wiki=SettingUpAServer)
+* "vim twserver.cfg" anlegen und  mit Konfigurationen befüllen. Beispiel
+  Konfiguration:
 
 ```
 sv_name Teeworlds sample dm

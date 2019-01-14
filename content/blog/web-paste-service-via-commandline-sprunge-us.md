@@ -45,14 +45,13 @@ title: Web | Paste-Service via CommandLine (Sprunge.us)
 [Sprunge.us](http://sprunge.us) ist ein Paste-Service den ich heute von
 [Chris](http://cryzed.de) gezeigt bekommen habe. Sprunge ist aber außerdem
 noch _awesome_, weil er ohne Registrierung oder Umstände alles annimmt was
-man ihm via `curl -F `übergibt. Von den Entwicklern ist das wie folgt
+man ihm via `curl -F` übergibt. Von den Entwicklern ist das wie folgt
 vorgesehen:
 
 ``` bash
 <command> | curl -F 'sprunge=<-' http://sprunge.us
 INFO: Code: gJIJ
 INFO: URL: http://sprunge.us/gJIJ
-
 ```
 
 Und man kann unter der ausgespuckten URL den SourceCode begutachten. Den

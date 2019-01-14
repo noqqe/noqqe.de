@@ -9,9 +9,11 @@ tags:
 Ein paar Hilfen von Dingen die ich immer wieder vergesse.
 
 ## Commands
+
 * `ZZ` - nicer for closing
 
 ## Editing
+
 * `CTRL+V` - Block select
 * `gg+=+G` -  Whitespace entfernen
 * `<select>+gq` - Block formatieren nach `textwidth`
@@ -31,6 +33,7 @@ Ein paar Hilfen von Dingen die ich immer wieder vergesse.
 * `''` - Zurück zur Stelle vorher springen
 
 ## Windows
+
 * `CTRL+ww` - Switch between windows
 * `CTRL+ws` - Split windows
 * `CTRL+ww` - switch between windows
@@ -38,9 +41,11 @@ Ein paar Hilfen von Dingen die ich immer wieder vergesse.
 * `CTRL+wv` - Split windows vertically
 
 ## Panes
+
 * `ALT+Arrow` - Move between Splitpane
 
 ## Files
+
 * `:bn` - next File
 * `:bp` - previous File
 

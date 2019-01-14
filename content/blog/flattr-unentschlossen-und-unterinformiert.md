@@ -32,7 +32,7 @@ Projekts. Ich laß viele Blogposts und Meinungen darüber.
 interessant finde und sich über das möglicherweise Werbung ersetztende
 System ausschüttet.
 
-Von[Jan (virtualpixel.de)](http://www.virtualpixel.de/2010/06/01/flattr-jan-gefaellt-das/#more-1696) der,
+Von [Jan (virtualpixel.de)](http://www.virtualpixel.de/2010/06/01/flattr-jan-gefaellt-das/#more-1696) der,
 wie viele andere, dass Konzept sehr mag und seinen Blog in Flattr
 integriert hat (oder umgekehrt?). Was ich auch verstehe weil viel zu viel
 guter Content viel zu wenig gefördert wird.
@@ -42,7 +42,7 @@ Datenschutzes seiner Leser auf diesen Service verzichten möchte. Auch
 diesen Ansatz kann ich sehr nachvollziehen und ist meiner Meinung auch der
 größte negativ Punkt innerhalb der Story.
 
-Auch Nico Hofmann hat treffend (wenn auch etwas unernst)[ getwittert](https://twitter.com/nicohofmann/status/15324649751):
+Auch Nico Hofmann hat treffend (wenn auch etwas unernst)[getwittert](https://twitter.com/nicohofmann/status/15324649751):
 
 > Wann #flattr wohl die AGB-Änderung mit der Abtretung der Rechte am Content bekannt gibt?
 

@@ -32,7 +32,6 @@ arbeitet. Angenommen ich habe bereits in einem bestehenden Projekt ca. 5
 Commits und möchte aber vom Inital-commit noch einmal anfangen, um in eine
 andere Richtung weiterzuentwickeln.
 
-
                 Master
                 |
     o--o--o--o--o
@@ -41,11 +40,9 @@ Sieht das ca so aus. Es besteht nun die Möglichkeit (und das ist der Grund
 warum ich diesen Post hier verfasse) eine neue "Entwicklungssparte" aka
 Branch zu starten und auf Anfang zu setzen.
 
-
     Initial     Master
     |           |
     o--o--o--o--o
-
 
 ```
 # Neuen Branch erstellen namens inital
@@ -84,12 +81,10 @@ git push origin initial
 Weiterhin angenommen ich entwickle in der neuen Spalte "initial" weiter und
 commite das wiederrum dürfte das bild so aussehen:
 
-
     Initial
        |
     o--o        Master
     |           |
     o--o--o--o--o
-
 
 <3 Git.

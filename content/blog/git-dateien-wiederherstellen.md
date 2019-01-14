@@ -22,7 +22,6 @@ aus aktuellem HEAD wiederherstellen:
 $ git checkout HEAD -- verloren.txt
 ```
 
-
 ### Datei hat vor gewisser Zeit einmal existiert
 
 Aus vorher gegangenem Commit, Branch oder Tag. Feststellen, wo das File

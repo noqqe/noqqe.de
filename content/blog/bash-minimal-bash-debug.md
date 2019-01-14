@@ -29,9 +29,8 @@ if [ "$_DEBUG" == "true" ]; then echo "some debug informations" ; fi
 Auch schön fand ich den eingebauten Debug Modus der Shell:
 
 ```
-$ sh -x script.sh
+sh -x script.sh
 ```
-
 
 Aber auch sehr umfangreiche Tools wie
 [log4sh](http://log4sh.svn.sourceforge.net/svnroot/log4sh/trunk/source/1.5/doc/log4sh.html)
@@ -57,9 +56,9 @@ mich dann doch einigermaßen zufrieden gestellt.
 
 ### Download
 
-    $ cd path/to/your/bashscript
-    $ wget http://github.com/noqqe/minimal-bash-debug/raw/master/.minimal-bash-debug
-    $ chmod +x .minimal-bash-debug
+    cd path/to/your/bashscript
+    wget http://github.com/noqqe/minimal-bash-debug/raw/master/.minimal-bash-debug
+    chmod +x .minimal-bash-debug
 
 ### Implementation
 

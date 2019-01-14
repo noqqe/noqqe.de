@@ -44,7 +44,6 @@ Mithilfe eines Passworts lässt sich dann die Session betreten und mehrere
 Dokumente bearbeiten/anlegen. Dadurch sind wir dann auf die Idee gekommen
 uns unsere eigene kleine Welt zusammenzubasteln.
 
-
 ``` python
 #!/usr/bin/python
 

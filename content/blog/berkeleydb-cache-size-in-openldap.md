@@ -102,7 +102,6 @@ $ db_stat -h /usr/local/var/openldap-data/ -d id2entry.bdb
 
 ### Berechnung der Cache Size
 
-
 dn2id: ( `1 root Page` + `3 internal` + `29 leaf` ) * `4KB` = `132 KB`
 
 id2entry: ( `1 root Page` + `1 internal` + `29 leaf` ) * `16KB` = `496 KB`

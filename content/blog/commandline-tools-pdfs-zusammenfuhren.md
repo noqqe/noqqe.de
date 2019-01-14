@@ -89,7 +89,7 @@ für [Debian](http://packages.debian.org/squeeze/pdftk) und
 [Ubuntu](http://packages.ubuntu.com/natty/pdftk) paketiert.
 
 ```
-$ sudo aptitude install pdftk
+sudo aptitude install pdftk
 ```
 
 Ich muss trotzdem zugeben, dass die Syntax mir etwas ungewöhnlich erschien,
@@ -97,14 +97,16 @@ aber nicht unbezwingbar ist :) Nach ein paar Blicken in die Manpage, kam
 ich auch da an wo ich wollte.
 
 
-    $ pdftk novell-cert.pdf ripe.pdf lpic-1.pdf cisco-ccna1.pdf cat output Zertifikate.pdf
-      ___/ ________________________________________________/  _/ ____________________/
-        |                            |                           |             |
-        |                            |                           |             - Ausgabe an
-        |                            |                           |                Zertifikate.pdf
-        |                            |                           |
-        |                            |                           - Ausgabe der PDFs
-        |                            |
-        |                            - Angabe aller zu kombinierenden PDFs
-        |
-        - Programmaufruf
+```
+$ pdftk novell-cert.pdf ripe.pdf lpic-1.pdf cisco-ccna1.pdf cat output Zertifikate.pdf
+  ___/ ________________________________________________/  _/ ____________________/
+    |                            |                           |             |
+    |                            |                           |             - Ausgabe an
+    |                            |                           |                Zertifikate.pdf
+    |                            |                           |
+    |                            |                           - Ausgabe der PDFs
+    |                            |
+    |                            - Angabe aller zu kombinierenden PDFs
+    |
+    - Programmaufruf
+```

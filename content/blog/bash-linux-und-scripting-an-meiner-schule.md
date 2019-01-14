@@ -35,8 +35,7 @@ unserer relativ begeisterter Linux-Benutzer und schiebt an allen Enden
 etwas Linux Know-How mit ein. Das ist sehr schön weil ich Bash und Linux
 sehr mag.
 
-# ****#!/bin/bash****
-
+`#!/bin/bash`
 
 Morgen wird es einen Test geben, bei dem wir innerhalb 30 Minuten eine
 bestimmte Aufgabe scripten sollen und als "Abgabe" sozusagen vorführen
@@ -51,7 +50,6 @@ Eine Vorbereitung für diesen Test lautete wie folgt:
 >
 > Usage Beispiel:
 > ./zeitausgabe 2 10 modus
-
 
 Naja. Bevor wieder diverse Trolle in den Kommentaren ihrem Ruf gerecht
 werden: Die Klasse ist bis auf einen %-Anteil von ca 5 komplett

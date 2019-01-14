@@ -1,7 +1,7 @@
 ---
 title: Hadoop Upgrade
 date: 2015-07-06T08:41:52
-tags: 
+tags:
 - Software
 - Hadoop
 ---
@@ -57,7 +57,6 @@ Using puppet
 
 Alternatives to change back to normal Hadoop Configuration
 
-
     sudo update-alternatives --install /etc/hadoop/conf hadoop-conf /etc/hadoop/conf.noqqe/ 100
     for x in /etc/init.d/hadoop-* ; do sudo $x restart; done
 
@@ -107,5 +106,3 @@ After a few weeks
     sudo -u hdfs hdfs dfsadmin -finalizeUpgrade
     Finalize upgrade successful for hd1.example.com/10.4.3.10:8020
     Finalize upgrade successful for hd2.example.com/10.4.4.10:8020
-
-

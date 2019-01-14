@@ -13,15 +13,12 @@ title: Commandline Bookmarks don't work (for me)
 [bm](https://github.com/noqqe/bm) und später [rvo](https://github.com/noqqe/rvo).
 Jetzt wieder zurück zu [Pinboard](https://pinboard.in).
 
-
 Fast 1,5 Jahre sammle ich nun Lesezeichen und Weblinks in der Commandline.
 Besser gesagt wurde `rvo` dafür etwas umfunktioniert.
 
 {{< figure src="/uploads/2016/12/wowcommandline.jpg" >}}
 
-Warum hab ich nun meine Lesezeichen wieder zurück nach Pinboard gezogen?
-Auch nach der ganzen Zeit fällt es mir immernoch schwer
-mich zu motivieren für etwas wirklich ein Lesezeichen _anzulegen_. Es ist
+Warum hab ich nun meine Lesezeichen wieder zurück nach Pinboard gezogen? Auch nach der ganzen Zeit fällt es mir immernoch schwer mich zu motivieren für etwas wirklich ein Lesezeichen _anzulegen_. Es ist
 eben ein Wechsel des Programms. Man verliert den Fokus im Browser um das gefundene
 kurz mal ins Terminal zu klopfen. Dadurch machte ich gefühlt viel viel
 weniger Bookmarks und erwischte mich häufig dabei zum 3. mal nach dem

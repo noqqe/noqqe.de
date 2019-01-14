@@ -58,7 +58,6 @@ Software zu Betreiben und um der
 [Dependency-Hölle](https://en.wikipedia.org/wiki/Dependency_hell) zu
 entkommen.  Auch dieser Blogpost wurde in so einer LXC-VM gebaut.
 
-
 ### Mirroring
 
 Natürlich fällt bei (im Schnitt) 20-25 VMs zusätzlicher Verwaltungsaufwand an,

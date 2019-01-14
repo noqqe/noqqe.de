@@ -92,7 +92,7 @@ alt:auth.log(stdregexp): failregex = vsftpd: (pam_unix) authentication failure; 
 neut:vsftpd.log(mysqlregexp): failregex = .* FAIL LOGIN: Client "<HOST>"$
 ```
 
-
-Fail2ban neu starten, glücklich sein.  Um zukünftigen Usern diesen Schritt
-zu erleichtern habe ich natürlich die [Änderungen unter das How-To kommentiert](http://www.howtoforge.com/vsftpd_mysql_debian_etch_p2#comment-22234).
+Fail2ban neu starten, glücklich sein.  Um zukünftigen Usern diesen Schritt zu
+erleichtern habe ich natürlich die
+[Änderungen unter das How-To kommentiert](http://www.howtoforge.com/vsftpd_mysql_debian_etch_p2#comment-22234).
 Awating Moderation btw.

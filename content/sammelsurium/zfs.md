@@ -1,11 +1,11 @@
 ---
 title: ZFS
 date: 2012-01-27T15:42:15
-tags: 
+tags:
 - Filesystems
 ---
 
-## Generelle Befehle #
+# Generelle Befehle
 
 Status ausgeben
 
@@ -15,9 +15,9 @@ Alle pools anzeigen
 
     $ zpool list
 
-## Platten ersetzen #
+# Platten ersetzen
 
-#### Platten anzeigen ###
+## Platten anzeigen
 
     $ zpool status | less
 
@@ -56,12 +56,12 @@ Alle pools anzeigen
           c6t6d0          ONLINE       0     0     0
           c6t7d0          ONLINE       0     0     0
 
-#### Platten replacen ###
+### Platten replacen
 
     zpool replace data c5t3d0
     zpool replace data c6t4d0
 
-#### Platten werden resilvered ###
+### Platten werden resilvered
 
         NAME                STATE     READ WRITE CKSUM
         data                DEGRADED     0     0     0
@@ -102,7 +102,7 @@ Alle pools anzeigen
             c6t6d0          ONLINE       0     0     0
             c6t7d0          ONLINE       0     0     0
 
-#### Platten sind resilvered ###
+### Platten sind resilvered
 
       pool: data
      state: ONLINE

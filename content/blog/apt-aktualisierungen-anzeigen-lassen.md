@@ -78,7 +78,6 @@ apt-get -s upgrade
 aptitude search ~U
 ```
 
-
 Ich fand allerdings die erste Möglichkeit am Einleuchtensten.  Die Ausgabe
 ist zwar nicht zwingend Script geeignet, aber das lässt sich ja ändern:
 
