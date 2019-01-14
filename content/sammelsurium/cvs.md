@@ -1,7 +1,7 @@
 ---
 title: cvs
 date: 2015-11-05T14:29:45
-tags: 
+tags:
 - Software
 - cvs
 ---
@@ -18,5 +18,4 @@ Show tags
 
     cvs status -v
 
-Nice other Cheatsheet
-http://www.slac.stanford.edu/grp/cd/soft/cvs/cvs_cheatsheet.html
+Nice other [Cheatsheet](http://www.slac.stanford.edu/grp/cd/soft/cvs/cvs_cheatsheet.html)

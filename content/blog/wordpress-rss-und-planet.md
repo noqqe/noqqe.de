@@ -26,9 +26,9 @@ Ubuntuusers-Team ergab sich aber das mit dem generierten Feed was nicht
 stimmt. **<published>** und **<updated>** Tags würden fehlen und somit
 liess sich der Feed nicht in den Planeten einbinden. Ich begann meinen Feed
 mit anderen Blogfeeds des Planeten zu vergleichen. Diese rief ich immer mit
-**http://blog.de/?feed=rss **auf. Mysteriöserweise erkannte ich nie
+`http://blog.de/?feed=rss` auf. Mysteriöserweise erkannte ich nie
 Unterschiede.
 
 Am End war trotzdem nur eine einzige Ziffer ausschlaggebend.
-**/?feed=rss&cat=ID_364 /?feed=rss2&cat=ID_364** Wer erkennt den
+`/?feed=rss&cat=ID_364` -> `/?feed=rss2&cat=ID_364` Wer erkennt den
 Unterschied?  Kopf -> Tisch.

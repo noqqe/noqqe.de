@@ -1,7 +1,7 @@
 ---
 title: Windows Service Control
 date: 2012-02-17T17:41:57
-tags: 
+tags:
 - OS
 - Windows
 ---
@@ -28,7 +28,7 @@ Status, Starten, Stoppen von Prozessen
 
 ## NFS unter Windows
 
-http://blogs.msdn.com/b/sfu/archive/2008/04/14/all-well-almost-about-client-for-nfs-configuration-and-performance.aspx
+[NFS Configuration for Windows](http://blogs.msdn.com/b/sfu/archive/2008/04/14/all-well-almost-about-client-for-nfs-configuration-and-performance.aspx)
 
 ## Proxy Einstellungen ins Terminal importieren
 

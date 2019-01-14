@@ -112,4 +112,4 @@ delete keys
 
 #### Links
 
-http://www.madboa.com/geek/gpg-quickstart/
+[GPG Quickstart](http://www.madboa.com/geek/gpg-quickstart/)

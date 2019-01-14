@@ -1,27 +1,4 @@
 ---
-comments:
-- author: Pacer
-  content: "<p>Hi,</p><p>thanks for your description. I followd it, but needed to
-    enter the complete URL into the field Principal-URL (http://[host]/davical/pacer/contats/)</p><p>When
-    I left http://[host] away, I always got an error in the debug log, saying that
-    this URL is not supported. With the full URL I don't get any errors.\_</p><p>BUT:
-    I don't see any contacts from the CardDAV server in my Contacts-App. Don't know
-    why.</p><p>To make it even more strange, I see the apache request in the access_log:</p><p>212.91.225.xx
-    - pacer [27/Apr/2012:20:12:29 +0200] \"PROPFIND /davical/caldav.php/pacer/contacts/
-    HTTP/1.1\" 207 1396 \"-\" \"iOS/5.1 (9B176) dataaccessd/1.0\"</p><p>... which
-    looks ok to me.</p><p>I looked for another CardDAV Client to test if the server
-    works. I tested Evolution in openSuse, and it quickly and successfully read my
-    two test contacts. But evolutions access_log entries look a little different:</p><p>212.91.225.xx
-    - pacer [27/Apr/2012:20:17:35 +0200] \"PROPFIND /davical/caldav.php/pacer/contacts/
-    HTTP/1.1\" 207 878 \"-\" \"Evolution/3.2.1\"212.91.225.xx - pacer [27/Apr/2012:20:17:35
-    +0200] \"PROPFIND /davical/caldav.php/pacer/contacts/ HTTP/1.1\" 207 338 \"-\"
-    \"Evolution/3.2.1\"212.91.225.xx - pacer [27/Apr/2012:20:17:35 +0200] \"PROPFIND
-    /davical/caldav.php/pacer/contacts/ HTTP/1.1\" 207 878 \"-\" \"Evolution/3.2.1\"212.91.225.xx
-    - pacer [27/Apr/2012:20:17:36 +0200] \"GET /davical/caldav.php/pacer/contacts/000000006ECBCBE9F133AD46925453EB1E78012B64002000.vcf
-    HTTP/1.1\" 200 233 \"-\" \"Evolution/3.2.1\"212.91.225.xx - pacer [27/Apr/2012:20:17:36
-    +0200] \"GET /davical/caldav.php/pacer/contacts/000000006ECBCBE9F133AD46925453EB1E78012B24002000.vcf
-    HTTP/1.1\" 200 319 \"-\" \"Evolution/3.2.1\"</p><p>Do you have an idea?</p>"
-  date: '2012-04-27T18:25:11'
 date: '2012-04-09T18:05:00'
 tags:
 - web
@@ -58,7 +35,7 @@ davon nichts aufgetaucht. Nach bisschen wälzen in der Dokumentation hier
 und da:
 
 > CardDav-Accounts only could set up via iPhone configuration utility. It had to
-> set up a principal url (e.g. https://domain.tld/caldav.php/username/contacts)
+> set up a principal url (e.g. `https://domain.tld/caldav.php/username/contacts`)
 > for a working account.
 
 Das [iPhone configuration utility](http://www.apple.com/support/iphone/enterprise/) also.
@@ -66,15 +43,15 @@ So ganz leicht fand ich das damit nicht... Ich hab aber gelernt das man super
 Debuggen kann über die eingebaute Consolen Funktion in dem Tool. Im iPhone wird
 man nach dem ServerPath gefragt. Den ich mit
 
-> http://cal.n0q.org/caldav.php/noqqe/addressbook
+    http://cal.n0q.org/caldav.php/noqqe/addressbook
 
 Mein Fehler war eben genau die Angabe des Protokolls. Ich meine sorry.
 Apple probiert hier gefühlte 1,3 mio (nichtmal wirklich RFC spezifizierte) Orte
 an denen meine Kontakte serverseitig wohl liegen könnten durch und am Ende
-können die nichtmal ein führendes http:// wegparsen? Egal. Fehler sah wie folgt
+können die nichtmal ein führendes `http://` wegparsen? Egal. Fehler sah wie folgt
 aus:
 
-> http://http//cal.n0q.org/caldav.php/noqqe/addressbook
+    http://http//cal.n0q.org/caldav.php/noqqe/addressbook
 
 ## Macbook
 

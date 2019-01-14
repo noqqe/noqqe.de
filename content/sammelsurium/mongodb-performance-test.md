@@ -32,8 +32,9 @@ while (i < 1000000):
 
 > times.txt
 
-https://blog.serverdensity.com/mongodb-benchmarks/
-http://api.mongodb.org/python/current/tutorial.html
+[Benchmarks](https://blog.serverdensity.com/mongodb-benchmarks/)
+
+[API Tutorial](http://api.mongodb.org/python/current/tutorial.html)
 
 ## Script with Auth
 

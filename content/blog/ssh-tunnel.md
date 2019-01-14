@@ -55,7 +55,7 @@ Falle die Firewall des Kunden) und steuere über diese eine beliebige
 Interne IP(`zielrechner)` an. Dann kann ich den Port 80 (`zielport)(`HTTP -
 eben fürs Webinterface) der Drucker IP auf einen frei wählbaren
 Port(`lokalerport)` auf localhost legen und anschließend simpl im Browser
-unter http://localhost:port abrufen! Und das alles mit diesem einen Befehl
+unter `http://localhost:port` abrufen! Und das alles mit diesem einen Befehl
 :)
 
 Enter gedrückt und schon kann ich den Internen NetzDrucker vom Kunden

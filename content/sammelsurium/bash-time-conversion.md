@@ -1,14 +1,12 @@
 ---
 title: Bash Time Conversion
 date: 2012-08-26T10:12:26
-tags: 
+tags:
 - Programming
 - Bash
 ---
 
-Gefunden auf:
-
-http://unstableme.blogspot.de/2009/01/convert-seconds-to-hour-minute-seconds.html
+Gefunden auf [unstableme](http://unstableme.blogspot.de/2009/01/convert-seconds-to-hour-minute-seconds.html)
 
 ~~~ { .bash }
 #!/bin/sh

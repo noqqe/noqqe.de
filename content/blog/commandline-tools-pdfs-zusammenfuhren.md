@@ -13,23 +13,14 @@ comments:
     C=Dokument3.pdf cat A2-5 B1-3 A1 C6-10 output Gesamtdokument.pdf</p><p>So kann
     man sich sehr einfach seine PDFs zusammenw\xFCrfeln.</p>"
   date: '2011-04-20T14:51:47'
-- author: Mario
-  content: '<p>Wenn ein GUI-Programm bevorzugt wird: <a href="http://live.gnome.org/PdfMod"
-    rel="nofollow">http://live.gnome.org/PdfMod</a><br><a href="http://www.pdfsam.org/"
-    rel="nofollow">http://www.pdfsam.org/</a><br><a href="http://sourceforge.net/projects/pdfshuffler/"
-    rel="nofollow">http://sourceforge.net/projects/pdfshuffler/</a></p>'
-  date: '2011-04-20T14:54:27'
 - author: Niko
   content: "<p>Ich stand vor einiger Zeit auch vor dem Problem, dass ich eine Hand
-    voll PDFs zu einem zusammenf\xFChren musste.</p><p>Ich habe damals pdfmod (<a
-    href=\"http://live.gnome.org/PdfMod)\" rel=\"nofollow\">http://live.gnome.org/PdfMod)</a>
-    verwendet. Wer eine GUI m\xF6chte, der wird vermutlich darauf zur\xFCckgreifen
+    voll PDFs zu einem zusammenf\xFChren musste.</p><p>Ich habe damals pdfmod
+    Wer eine GUI m\xF6chte, der wird vermutlich darauf zur\xFCckgreifen
     wollen.</p>"
   date: '2011-04-20T14:58:12'
 - author: sinusQ
-  content: <p>Wie auch Niko schon sagte.. Ich verwende meistens PDF MOD. </p><p><a
-    href="http://wiki.ubuntuusers.de/PDF?highlight=Pw%20Tbaustell%20Zpdfmod#PDF-Mod"
-    rel="nofollow">http://wiki.ubuntuusers.de/PDF?highlight=Pw%20Tbaustell%20Zpdfmod#PDF-Mod</a></p>
+  content: <p>Wie auch Niko schon sagte.. Ich verwende meistens PDF MOD.</p>
   date: '2011-04-20T16:43:01'
 - author: Funatiker
   content: <p>Und was genau spricht gegen die Verwendung von pdfjoin?</p>
@@ -59,11 +50,10 @@ comments:
     -sDEVICE=pdfwrite -sOutputFile=out.pdf namePDF1.pdf namePDF2.pdf</p>
   date: '2011-04-20T19:54:13'
 - author: Thomas
-  content: <p>Versuch' es mal mit PDF Split and Merge. <a href="http://www.pdfsam.org/"
-    rel="nofollow">http://www.pdfsam.org/</a><br>Dort hast Du es auch noch grafisch.</p>
+  content: <p>Versuch' es mal mit PDF Split and Merge. www.pdfsam.org<br>Dort hast Du es auch noch grafisch.</p>
   date: '2011-04-20T23:01:03'
 - author: Maria Amman
-  content: "Hi schaut euch mal http://yumpu.com/de/pdfs-zusammenfuegen an. Das ist
+  content: "Hi schaut euch mal yumpu.com/de/pdfs-zusammenfuegen an. Das ist
     auch sehr n\xFCtzlich!"
   date: '2015-02-03T15:18:57.196778'
 date: '2011-04-20T10:14:50'

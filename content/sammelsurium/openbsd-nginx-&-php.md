@@ -1,7 +1,7 @@
 ---
 title: OpenBSD nginx & php
 date: 2012-11-04T19:40:48
-tags: 
+tags:
 - OS
 - OpenBSD
 ---
@@ -55,4 +55,4 @@ You can enable this module by creating a symbolic link from
 php-gd is broken and could not be loaded
 with php-5.3 -m
 
-http://blog.endpoint.com/2011/02/debugging-php-extensions-with-dynamic.html
+[Debugging PHP Extensions](http://blog.endpoint.com/2011/02/debugging-php-extensions-with-dynamic.html)

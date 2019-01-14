@@ -8,4 +8,4 @@ tags:
 title: Organic Entropy
 ---
 
-https://organic-entropy.org
+[https://organic-entropy.org](https://organic-entropy.org)

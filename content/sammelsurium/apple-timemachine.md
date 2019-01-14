@@ -1,7 +1,7 @@
 ---
 title: Apple TimeMachine
 date: 2011-06-10T14:47:55
-tags: 
+tags:
 - Software
 - Apple
 - Timemachine
@@ -35,5 +35,4 @@ Es kann sein das SetFile nicht standardmäßig vorhanden ist, sondern
 zusammen mit den Developer Tools installiert wird. Auf meinem MBP ist der
 Befehl da, ich habe aber auch XCode installiert.
 
-Mehr dazu in diesem Thread:
-http://discussions.apple.com/thread....readID=2383738
+Mehr dazu in diesem [Thread](http://discussions.apple.com/thread....readID=2383738)

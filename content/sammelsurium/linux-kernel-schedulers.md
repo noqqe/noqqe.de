@@ -1,7 +1,7 @@
 ---
 title: Linux Kernel Schedulers
 date: 2012-02-27T15:08:27
-tags: 
+tags:
 - Filesystems
 ---
 
@@ -23,8 +23,8 @@ Ein Test auf VMware waere mal interessant ob es sich hier anders verhaelt.
 
 Hintergrund:
 
-http://lonesysadmin.net/2008/02/21/elevatornoop/
+[Elevator NOOP](http://lonesysadmin.net/2008/02/21/elevatornoop/)
 
 Umsetzen in Live Betrieb:
 
-http://www.cyberciti.biz/faq/linux-change-io-scheduler-for-harddisk/
+[Change IO Scheduler](http://www.cyberciti.biz/faq/linux-change-io-scheduler-for-harddisk/)

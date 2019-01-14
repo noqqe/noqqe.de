@@ -1,7 +1,7 @@
 ---
 title: fcgi and mpm-worker
 date: 2012-03-06T13:54:01
-tags: 
+tags:
 - Software
 - Apache
 ---
@@ -26,7 +26,7 @@ fcgi ist die Weiterentwicklung von fastcgi.
 ## TimeOuts oder Exceeds
 
 Kann sein das die Max Request Len zu kurz ist für Files zum Uploaden
-Dann will mann in /etc/apache2/mods-available/fcgid.conf
+Dann will mann in `/etc/apache2/mods-available/fcgid.conf`
 
 ~~~
 <IfModule mod_fcgid.c>
@@ -38,7 +38,7 @@ Dann will mann in /etc/apache2/mods-available/fcgid.conf
 
 ## Links
 
-http://2bits.com/articles/apache-fcgid-acceptable-performance-and-better-resource-utilization.html
+[Apache FCGID Performace](http://2bits.com/articles/apache-fcgid-acceptable-performance-and-better-resource-utilization.html)
 
 ## puppet fastcgi & worker & php
 

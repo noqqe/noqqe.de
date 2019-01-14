@@ -210,4 +210,4 @@ mongos> db.stats()
 }
 ```
 
-Sharded Cluster Visualisierung CC-NC-BY-SA MongoDB: http://docs.mongodb.org/manual/core/sharded-cluster-query-router/
+Sharded Cluster Visualisierung CC-NC-BY-SA [MongoDB](http://docs.mongodb.org/manual/core/sharded-cluster-query-router/)

@@ -45,7 +45,7 @@ w /sys/devices/system/cpu/cpu<%= x %>/cpufreq/scaling_governor - - - - performan
 
 braucht man ja
 
-http://docs.puppetlabs.com/learning/templates.html
+[Puppet Templates](http://docs.puppetlabs.com/learning/templates.html)
 
 ### Hiera
 

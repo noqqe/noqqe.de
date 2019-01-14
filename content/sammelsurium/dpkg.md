@@ -1,7 +1,7 @@
 ---
 title: dpkg
 date: 2012-01-12T12:53:04
-tags: 
+tags:
 - Software
 - dpkg
 ---
@@ -28,8 +28,7 @@ $ LANG=C dpkg -l 2>/dev/null | awk '{print $3}' | egrep -v '^[[:digit:]]'
 
 ### Lösung 1
 
-Wenns im Available vorkommt
-http://www.linuxquestions.org/questions/debian-26/dpkg-is-dead-error-in-var-lib-dpkg-available-225508/
+Wenns im Available vorkommt. [DPKG Error](http://www.linuxquestions.org/questions/debian-26/dpkg-is-dead-error-in-var-lib-dpkg-available-225508/)
 
 ~~~
 dpkg --clear-avail

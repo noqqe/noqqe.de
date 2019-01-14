@@ -1,18 +1,18 @@
 ---
 title: spdy
 date: 2012-02-01T17:44:24
-tags: 
+tags:
 - Software
 - Apache
 ---
 
-http://code.google.com/p/mod-spdy/issues/detail?id=19
+[Issue](http://code.google.com/p/mod-spdy/issues/detail?id=19)
 
-http://code.google.com/p/mod-spdy/wiki/GettingStarted
+[Getting Started](http://code.google.com/p/mod-spdy/wiki/GettingStarted)
 
-http://code.google.com/p/mod-spdy/wiki/HowToBuild
+[HowToBuild](http://code.google.com/p/mod-spdy/wiki/HowToBuild)
 
-http://japhr.blogspot.com/2011/04/dont-bother-with-modspdy.html
+[ModSpdy](http://japhr.blogspot.com/2011/04/dont-bother-with-modspdy.html)
 
 ## Quick Build for new version #
 

@@ -144,7 +144,7 @@ Gibt alle Seiten aus, die auf die angegebene Seite verweisen.
     link:www.gaijin.at
 
 findet beispielsweise alle Seiten, die einen Link zu [http://www.gaijin.at/](http://www.gaijin.at/)
-enthalten. Das Präfix "http://" kann jedoch weggelassen werden. Die Suche
+enthalten. Das Präfix "`http://`" kann jedoch weggelassen werden. Die Suche
 mit "link:" ist jedoch nicht sehr genau.
 
 #### cache:

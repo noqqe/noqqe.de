@@ -5,9 +5,7 @@ tags:
 - SSL
 - TLS
 - Software
----
-
-#### HTTP vs HTTPS
+--- #### HTTP vs HTTPS
 
 * Brauch ich ja keinem erklären.
 * Sicher & Toll.
@@ -67,7 +65,7 @@ Elyptische Kurven
 
 ABER: Zum Glück muss man das nicht alles selber machen.
 Es gibt fertige und ständig aktualisierte Cyphersuites die man fuer
-Webserver, SSH und sonstigen Käse verwenden kann: https://bettercrypto.org
+Webserver, SSH und sonstigen Käse verwenden kann: [bettercrypto.org](https://bettercrypto.org)
 
 #### SSL/TLS Software
 

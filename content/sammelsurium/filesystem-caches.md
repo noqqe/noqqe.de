@@ -10,7 +10,7 @@ tags:
     $ sync
     $ echo 1 > /proc/sys/vm/drop_caches
 
-http://www.linuxquestions.org/questions/linux-kernel-70/how-to-disable-filesystem-cache-627012/
+[linuxquestions.org](http://www.linuxquestions.org/questions/linux-kernel-70/how-to-disable-filesystem-cache-627012/)
 
 ### drop_caches
 

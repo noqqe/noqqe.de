@@ -36,7 +36,7 @@ comments:
   content: "<p>@Jensel: Achso jetzt verstehe ich. Du hast Recht DDG macht etwas \xE4hnliches,
     allerdings im viel breiterem Spektrum. Es fragt auch nicht _nur_ andere Suchfunktionen,
     sondern l\xE4sst sich auch irgendwie nach Themen sortieren. Schau dir doch mal
-    die Liste von den !Bangs an: <a href=\"http://duckduckgo.com/bang.html\" rel=\"nofollow\">http://duckduckgo.com/bang.html</a></p>"
+    die Liste von den !Bangs an: /bang.html
   date: '2011-02-08T00:49:49'
 - author: name
   content: "<p>Nach ein paar Wochen mit Dukgo bin ich wieder zur\xFCck zu Google,
@@ -106,7 +106,7 @@ Stattdessen gilt es, noch folgende Anpassungen zu machen:
   * about:config in die Adresszeile tippen
   * Nach dem Begriff "keyword.URL" suchen
   * Das Feld doppelklicken (standardmäßig dürfte es leer sein)
-  * "**http://duckduckgo.com/?q=**" als String einfügen
+  * `http://duckduckgo.com/?q=**` als String einfügen
 
 Anschließend Firefox Neustart. Nein ich habe kein Geld für diesen Post
 bekommen. Schon wieder nicht.

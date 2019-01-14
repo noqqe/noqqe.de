@@ -35,9 +35,7 @@ beispielsweise mein Wunschmodell: Asus EeePC:
 
 Xubuntu für den EeePC deswegen weil es Ressourcen spart und es auch noch
 eine speziell angepasste Version für den Eee gibt. Das ganze nennt sich
-"eeeXubuntu". Zu finden unter folgendem Link:
-
-http://wiki.eee-pc.de/index.php/EeeXubuntu
+"eeeXubuntu". Zu finden unter folgendem [Link](http://wiki.eee-pc.de/index.php/EeeXubuntu)
 
 Installieren ging fix und zurechtfinden eigentlich auch. Ein bisschen
 Umgewöhnung hat man bei neuen Benutzeroberflächen immer. Xubuntu verwendet

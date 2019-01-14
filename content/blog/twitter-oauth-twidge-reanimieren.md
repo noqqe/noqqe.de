@@ -29,7 +29,7 @@ gelangen. Was auch gut so ist.
 
 Da ich Twidge aber auch außerhalb des Logfiles sehr gerne benutze, behob
 ich das Problem durch Installieren der Testing-Version. Zu finden unter
-http://packages.debian.org/squeeze/twidge
+[packages.debian.org](http://packages.debian.org/squeeze/twidge)
 
 ```
 $ twidge -v

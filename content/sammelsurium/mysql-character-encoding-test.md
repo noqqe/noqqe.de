@@ -1,7 +1,7 @@
 ---
 title: MySQL Character Encoding Test
 date: 2012-02-22T13:41:55
-tags: 
+tags:
 - Databases
 - MySQL
 ---
@@ -82,6 +82,6 @@ mysql --default-character-set="UTF8" db < db_utf8.sql
 
 ## Links #
 
-http://www.gerd-riesselmann.de/softwareentwicklung/php-und-utf-8-eine-anleitung-teil-1-mysql
+[PHP-UTF8 Anleitung](http://www.gerd-riesselmann.de/softwareentwicklung/php-und-utf-8-eine-anleitung-teil-1-mysql)
 
-http://dev.mysql.com/doc/refman/5.1/de/charset-connection.html
+[Charset Connection](http://dev.mysql.com/doc/refman/5.1/de/charset-connection.html)
