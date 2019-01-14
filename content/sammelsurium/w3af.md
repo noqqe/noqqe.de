@@ -13,7 +13,7 @@ Normaler aufruf mit Script
 
 Normales Ablauf Skript mit konfigurierten reports in html und txt
 
-~~~
+```
 http-settings
 set userAgent "Mozilla/5.0 (X11; U; Linux i686; it; rv:1.9.2.13) Gecko/20101206 Ubuntu/10.10 (maverick) Firefox/3.6.13"
 set timeout 5
@@ -39,15 +39,15 @@ target
 set target http://hack.example.com/auth/login.php
 back
 start
-~~~
+```
 
 Volle Discovery und Audit Einstellungen:
 
-~~~
+```
 discovery MSNSpider,afd,allowedMethods,archiveDotOrg,content_negotiation,detectReverseProxy,detectTransparentProxy,digitSum,dir_bruter,dnsWildcard,domain_dot,dotNetErrors,favicon_identification,findBackdoor,
 findCaptchas,findvhost,fingerGoogle,fingerMSN,fingerPKS,fingerprint_WAF,fingerprint_os,frontpage_version,ghdb,googleSpider,halberd,hmap,importResults,oracleDiscovery,phishtank,phpEggs,phpinfo,
 ria_enumerator,robotsReader,serverHeader,serverStatus,sharedHosting,sitemapReader,slash,spiderMan,urlFuzzer,userDir,webDiff,webSpider,wordnet,wordpress_fingerprint,wsdlFinder,
 xssedDotCom,yahooSiteExplorer,zone_h
 
 audit LDAPi,blindSqli,buffOverflow,dav,eval,fileUpload,formatString,frontpage,generic,globalRedirect,htaccessMethods,localFileInclude,mxInjection, osCommanding,phishingVector,preg_replace,redos,remoteFileInclude,responseSplitting,sqli,ssi,sslCertificate,unSSL,xpath,xsrf,xss,xst
-~~~
+```

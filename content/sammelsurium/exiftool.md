@@ -40,7 +40,7 @@ Complete Workflow
 
 ## Meta Data
 
-~~~
+```
 $ exiv2 gasthauszumbernd.jpg
 File name       : gasthauszumbernd.jpg
 File size       : 2793568 Bytes
@@ -67,15 +67,15 @@ White balance   : Auto
 Thumbnail       : image/jpeg, 9844 Bytes
 Copyright       :
 Exif comment    :
-~~~
+```
 
 Mit entfernten Meta Daten
 
-~~~
+```
 $ exiv2 gasthauszumbernd.jpg
 File name       : gasthauszumbernd.jpg
 File size       : 2781280 Bytes
 MIME type       : image/jpeg
 Image size      : 3264 x 2448
 gasthauszumbernd.jpg: No Exif data found in the file
-~~~
+```

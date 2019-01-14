@@ -9,7 +9,7 @@ If you need to simply loop through multiple iterations, simply use a definition.
 
 With definition you are able to use "title" as the iteration variable. Here's a example
 
-~~~
+```
   define flumeports {
     @@nagios_service { "check_flume_port_${title}_${hostname}":
       use => "generic-service",
@@ -21,7 +21,7 @@ With definition you are able to use "title" as the iteration variable. Here's a 
       target => "/etc/icinga/modules/service_check_flume_port_${title}_${::fqdn}.cfg",
     }
   }
-~~~
+```
 
 Call the defined class with an array of objects:
 
@@ -31,23 +31,23 @@ Call the defined class with an array of objects:
 
 Definition
 
-~~~
+```
 class echo_class ($to_echo = "default value") {
   notify {"What are we echoing? ${to_echo}.":}
 }
-~~~
+```
 
 Class Call
 
-~~~
+```
 class {'echo_class':
   to_echo => 'Custom value',
 }
-~~~
+```
 
 ## Array Iteration
 
-~~~
+```
 $my_env => [ shared1, shared2, shared3 ]
 
 define myResource {
@@ -60,7 +60,7 @@ define myResource {
   }
 }
 myResource { $my_env: }
-~~~
+```
 
 ## Debug a module
 

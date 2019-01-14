@@ -6,7 +6,7 @@ tags:
 - OpenBSD
 ---
 
-~~~
+```
 http://www.openbsd.org/cgi-bin/man.cgi?query=sem_open&apropos=0&sektion=0&manpath=OpenBSD+Current&arch=amd64&format=html
 
 ## uwsgi --ini /home/isso/uwsgi.cfg
@@ -68,4 +68,4 @@ ipcrm -s $id
 
 12:16 root@o0:/etc/rc.d (master*) ## sysctl kern.seminfo.semmni=50
 kern.seminfo.semmni: 10 -> 50
-~~~
+```

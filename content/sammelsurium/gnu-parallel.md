@@ -7,7 +7,7 @@ tags:
 - parallel
 ---
 
-~~~
+```
 ## time seq 1 10000 | parallel 'echo {}| md5sum &> /dev/null '
 
 real  0m20.102s
@@ -19,11 +19,11 @@ sys 0m24.918s
 real  0m13.504s
 user  0m2.368s
 sys 0m3.948s
-~~~
+```
 
 Das dreht sich aber schnell sobald die Aufgaben groesser werden:
 
-~~~
+```
 ## time seq 1 1000 | parallel 'cat /dev/urandom | head -c 100000 | gzip &> /dev/null'
 
 real  0m7.845s
@@ -35,7 +35,7 @@ sys 0m20.485s
 real  0m31.869s
 user  0m8.301s
 sys 0m33.658s
-~~~
+```
 
 multiple Greps auf ein File
 

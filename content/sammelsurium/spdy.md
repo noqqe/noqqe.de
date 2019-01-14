@@ -16,14 +16,14 @@ tags:
 
 ## Quick Build for new version
 
-~~~
+```
 cd ~/Code/spdy/mod_spdy
 ../depot_tools/gclient update --force
 cd src
 make
 sudo cp out/Debug/libmod_spdy.so /usr/lib/apache2/modules/libmod_spdy.so
 /etc/init.d/apache2 restart
-~~~
+```
 
 ## Load Apache2 File
 

@@ -12,7 +12,7 @@ tags:
 
 ## Debug gzipped Connections
 
-~~~
+```
 curl --compressed -s -D - http://cdn.example.com//lib/dashboardAPI/v2.13.42/library.min.js?t=1382096123 -o /dev/null
 HTTP/1.1 200 OK
 Date: Thu, 07 Nov 2013 12:05:08 GMT
@@ -23,11 +23,11 @@ Accept-Ranges: bytes
 Content-Length: 1612605
 Vary: User-Agent
 Content-Type: text/x-js
-~~~
+```
 
 normalerweise sollte das dann so aussehen
 
-~~~
+```
 curl --compressed -s -D - http://cdn.example.com//lib/dashboardAPI/ -o /dev/null
 HTTP/1.1 403 Forbidden
 Date: Thu, 07 Nov 2013 12:14:47 GMT
@@ -37,4 +37,4 @@ Vary: Accept-Encoding,User-Agent
 Content-Encoding: gzip
 Content-Length: 1030
 Content-Type: text/html
-~~~
+```

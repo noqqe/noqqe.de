@@ -15,10 +15,10 @@ tags:
 
 Creating the file (downloaded from somewhere) and assing the name to a value and read it with readChar
 
-~~~
+```
 f <- '/tmp/pin.json'
 j <- readChar(f,file.info(f)$size)
-~~~
+```
 
 after that you can use this string object for the library
 

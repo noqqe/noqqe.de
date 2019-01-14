@@ -30,7 +30,7 @@ Archiv oder Home mit dem richtigen Seitentitel bestückt werden ist die
 
 <!--more-->
 
-~~~ html
+``` html
 <!-- Twitter Cards -->
 <meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="{{ .Site.Params.Twitter }}">
@@ -39,13 +39,13 @@ Archiv oder Home mit dem richtigen Seitentitel bestückt werden ist die
 <meta name="twitter:url" content="{{ .Permalink }}">
 <meta name="twitter:image" content="{{ .Site.BaseURL }}/images/noqqe_square.png">
 <meta name="twitter:description" content="{{if .IsPage}}{{ .Summary }}{{else}}{{.Site.Params.Description}}{{end}}">
-~~~
+```
 
 Die sonstigen Inhalte werden aus der `config.yaml` geholt.
 
-~~~ yaml
+``` yaml
 params:
  Description: "No advertising, no support, no bug fixes, payment in advance."
  Author: "Florian Baumann"
  Twitter: "@noqqe"
-~~~
+```

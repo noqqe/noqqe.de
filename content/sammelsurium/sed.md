@@ -10,13 +10,13 @@ tags:
 
 #### Date Converting
 
-~~~
+```
 sed -e 's#Jan#01#' -e 's#Feb#02#' -e 's#Mar#03#' -e 's#Apr#04#' -e 's#May#05#' -e 's#Jun#06#' -e 's#Jul#07#' -e 's#Aug#08#' -e 's#Sep#09#' -e 's#Oct#10#' -e 's#Nov#11#' -e 's#Dec#12#'
-~~~
+```
 
 #### Suchen bis zum nächste $AUSDRUCK multiline
 
-~~~
+```
 sed -ne '/^<gpx/,/">/p' 2012-10-10-1328.gpx
 
 ^<gpx - Suche anfang
@@ -24,7 +24,7 @@ sed -ne '/^<gpx/,/">/p' 2012-10-10-1328.gpx
 "> - Suche ende
 
 p oder d für löschen
-~~~
+```
 
 ## Tutorial
 

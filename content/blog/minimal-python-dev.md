@@ -35,10 +35,10 @@ nicht alles selbst machen zu müssen.
 Package Scopes waren für mich immer etwas fragwürdig. Vor allem Imports. Wie
 importiere ich jetzt selbstgeschrieben Module?
 
-~~~ python
+``` python
 # import foo ? nein.
 import rvo.foo
-~~~
+```
 
 {{< figure src="/uploads/2016/03/breaking.png" >}}
 
@@ -60,7 +60,7 @@ Commits. `gitchangelog` nutzt dafür Regexes um die Commits zu kategorisieren
 und git tags um die Versionen zu kennzeichnen. Alles Dinge, die ich sowieso
 schon tue.
 
-~~~ python
+``` python
 $ vim .gitchangelog.rc
 section_regexps = [
   ('Feature',
@@ -72,7 +72,7 @@ tag_filter_regexp = r'^[0-9]+\.[0-9]+(\.[0-9]+)?$'
 output_engine = mustache("restructuredtext")
 
 $ gitchangelog > CHANGELOG.rst
-~~~
+```
 
 Man braucht zwar etwas Disziplin beim committen, aber das ist halbwegs erträglich.
 
@@ -113,7 +113,7 @@ angewendet. Das "entschleunigt" das Programmiererleben so sehr, dass es
 nervt. Ich habe das so umgebogen, dass die Überprüfung nur angestoßen wird,
 wenn ich es will.
 
-~~~ vim
+``` vim
 let b:syntastic_mode = "passive"
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_check_on_open = 0
@@ -125,7 +125,7 @@ let g:syntastic_loc_list_height = 5
 let g:syntastic_aggregate_errors = 1
 
 nmap <silent> <leader>e :SyntasticCheck<CR>:Errors<CR>
-~~~
+```
 
 Und das wars auch schon. Mehr braucht es eigentlich nicht. Mein `vim` ist
 mittlerweile wieder etwas schmaler geworden. Bis vor kurzer Zeit hatte ich
@@ -163,27 +163,27 @@ Wo will ich meine Versionsinformationen überall haben?
 Die stressfreiste Variante ist, sie _nur_ in der setup.py zu definieren und
 sie an allen anderen Stellen zu importieren.
 
-~~~ python
+``` python
 setup(
     name='rvo',
     version='10.0.0',
     ...
 )
-~~~
+```
 
 In der `__init__.py` holt man sie sich via
 
-~~~ python
+``` python
 #!/usr/bin/env python2.7
 from pkg_resources import get_distribution
 __version__ = get_distribution('rvo').version
-~~~
+```
 
 Und kann es an den verschiedensten Stellen einbauen mit
 
-~~~ python
+``` python
 from rvo import __version__
-~~~
+```
 
 ### PyPI
 

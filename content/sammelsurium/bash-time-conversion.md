@@ -8,7 +8,7 @@ tags:
 
 Gefunden auf [unstableme](http://unstableme.blogspot.de/2009/01/convert-seconds-to-hour-minute-seconds.html)
 
-~~~ { .bash }
+``` { .bash }
 #!/bin/sh
 #Convert seconds to h:m:s format
 
@@ -23,4 +23,4 @@ _hms()
 }
 
 _hms ${secs}
-~~~
+```

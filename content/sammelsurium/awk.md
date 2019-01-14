@@ -48,16 +48,16 @@ $ awk -v sq="'" 'BEGIN { print "Here is a single quote <" sq ">" }'
 
 For Loop für multiple Spalten echos
 
-~~~
+```
 awk -F, '{ for (i = 1; i <= NF; i++)
          print $i
 }'
-~~~
+```
 
 ## Quotes in awk print
 
 `\x27` heisst das Zauberwort
 
-~~~
+```
 echo $x | awk -F, '{print "date.addColumn(\x27" $2 "\x27, \x27" $1 "\x27);" }'
-~~~
+```

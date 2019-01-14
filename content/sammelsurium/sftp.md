@@ -8,7 +8,7 @@ tags:
 
 ## Chroot
 
-~~~
+```
 #Subsystem      sftp    /usr/lib/ssh/sftp-server
 Subsystem       sftp    internal-sftp
 
@@ -22,7 +22,7 @@ Match group sftpacc
     X11Forwarding no
     AllowTcpForwarding no
     ForceCommand internal-sftp
-~~~
+```
 
 Startverzeichnis DARF NICHT für die User schreibbar sein. sprich das
 ChrootDirectory Schreiben darfst du immer erst eine Verzeichnisebene

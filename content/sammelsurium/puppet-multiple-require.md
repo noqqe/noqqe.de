@@ -5,6 +5,6 @@ tags:
 - Puppet
 ---
 
-~~~
+```
  require    => [ Group[users], Group[admin] ],
-~~~
+```

@@ -8,7 +8,7 @@ tags:
 
 ### Example Config
 
-~~~
+```
 sv_name zwetschge.org X [GER][DM]
 sv_map dm1
 sv_maprotation dm1 dm6 dm8
@@ -23,4 +23,4 @@ sv_register
 sv_port 830X
 
 ./teeworlds_srv -f dm.cfg >> /var/log/teeworldsX.log
-~~~
+```

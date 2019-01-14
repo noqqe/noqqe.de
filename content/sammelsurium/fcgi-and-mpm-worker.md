@@ -12,7 +12,7 @@ fcgi ist die Weiterentwicklung von fastcgi.
 
 ## Handler einfuegen
 
-~~~
+```
 <Directory /var/www/>
         Options -Indexes FollowSymLinks -MultiViews +ExecCGI
         AddHandler fcgid-script .php
@@ -21,20 +21,20 @@ fcgi ist die Weiterentwicklung von fastcgi.
         Order allow,deny
         allow from all
 </Directory>
-~~~
+```
 
 ## TimeOuts oder Exceeds
 
 Kann sein das die Max Request Len zu kurz ist für Files zum Uploaden
 Dann will mann in `/etc/apache2/mods-available/fcgid.conf`
 
-~~~
+```
 <IfModule mod_fcgid.c>
   AddHandler    fcgid-script .fcgi
   FcgidConnectTimeout 20
   MaxRequestLen 15728640
 </IfModule>
-~~~
+```
 
 ## Links
 
@@ -42,7 +42,7 @@ Dann will mann in `/etc/apache2/mods-available/fcgid.conf`
 
 ## puppet fastcgi & worker & php
 
-~~~ { .puppet }
+``` { .puppet }
  class { 'apache':
         mpm_module => "worker",
         default_vhost => false,
@@ -63,4 +63,4 @@ Dann will mann in `/etc/apache2/mods-available/fcgid.conf`
           custom_fragment => 'FCGIWrapper "/usr/lib/cgi-bin/php5" .php',
         }, ]
  }
-~~~
+```

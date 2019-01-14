@@ -6,7 +6,7 @@ tags:
 - OpenLDAP
 ---
 
-~~~
+```
 ## ls -lah /usr/local/var/openldap-data
 total 1.1M
 drwxr-sr-x 2 root staff 4.0K Feb 20 20:59 .
@@ -26,14 +26,14 @@ drwxr-sr-x 4 root staff   36 Feb 15 17:43 ..
 -rw------- 1 root staff 8.0K Feb 20 20:59 objectClass.bdb
 -rw------- 1 root staff 8.0K Feb 20 20:59 sn.bdb
 -rw------- 1 root staff 8.0K Feb 20 20:59 uid.bdb
-~~~
+```
 
 Inital und Übersicht
 
-~~~
+```
 aptitude install db-util
 db_stat -h /usr/local/var/openldap-data/ -m
-~~~
+```
 
 * Spezielle Einstellungen für kontretes Backend
 
@@ -41,20 +41,20 @@ db_stat -h /usr/local/var/openldap-data/ -m
 
 * Übersicht aller Datenbanken:
 
-~~~
+```
 db_stat -h /usr/local/var/openldap-data/ -m
-~~~
+```
 
 * Konkrete Datenbanken auslesen
 
-~~~
+```
 db_stat -h /usr/local/var/openldap-data/ -d dn2id.bdb
 db_stat -h /usr/local/var/openldap-data/ -d id2entry.bdb
-~~~
+```
 
 * Korrekte Cachesize errechnen
 
-~~~
+```
 ## db_stat -h /usr/local/var/openldap-data/ -d dn2id.bdb
 Fri Mar  8 09:11:16 2013  Local time
 53162 Btree magic number
@@ -77,14 +77,14 @@ duplicates, sorted duplicates Flags
 0 Number of bytes free in tree overflow pages (0% ff)
 0 Number of empty pages
 0 Number of pages on the free list
-~~~
+```
 
 Die wichtigen Angaben nochmal in kurz
 
-~~~
+```
 3 Number of tree internal pages
 29  Number of tree leaf pages
-~~~
+```
 
 Blockgröße des Dateisystems: 4KB
 
@@ -92,7 +92,7 @@ Formel:
 
     ( 1 root Page + 3 internal Pages + 29 leaf Pages) * 4KB Blocksize = 132 KB Cache Size
 
-~~~
+```
 root@vm29-ldap:~## db_stat -h /usr/local/var/openldap-data/ -d id2entry.bdb
 Fri Mar  8 09:30:37 2013  Local time
 53162 Btree magic number
@@ -115,7 +115,7 @@ Little-endian Byte order
 0 Number of bytes free in tree overflow pages (0% ff)
 0 Number of empty pages
 0 Number of pages on the free list
-~~~
+```
 
 bei der
 
@@ -129,7 +129,7 @@ Einbau
 
 Wichtige Datenbanken der BDB
 
-~~~
+```
 db_stat -h /usr/local/var/openldap-data/ -d dn2id.bdb
 Wed Feb 20 21:10:00 2013        Local time
 53162   Btree magic number
@@ -175,30 +175,30 @@ Little-endian   Byte order
 0       Number of bytes free in tree overflow pages (0% ff)
 0       Number of empty pages
 0       Number of pages on the free list
-~~~
+```
 
 ### Anpassung der Cache Größe
 
-~~~
+```
 ## slapindex
 51252ecd bdb_db_open: warning - no DB_CONFIG file found in directory /usr/local/var/openldap-data: (2).
 Expect poor performance for suffix "dc=example,dc=com".
-~~~
+```
 
 Config File editieren:
 
-~~~
+```
 vim /usr/local/var/openldap-data/DB_CONFIG
 set_cachesize   0       3000000       1
-~~~
+```
 
 Danach nochmal
 
-~~~
+```
 ## slapindex
 51252e44 bdb_db_open: DB_CONFIG for suffix "dc=example,dc=com" has changed.
 51252e44 Performing database recovery to activate new settings.
 51252e44 bdb_monitor_db_open: monitoring disabled; configure monitor database to enable
-~~~
+```
 
 Hurra! Schönere Indexe

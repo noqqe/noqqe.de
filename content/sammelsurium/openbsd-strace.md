@@ -8,7 +8,7 @@ tags:
 
 Wie bei Strace debugging
 
-~~~
+```
 ktrace -t + python 1.py    ## <- Got error like before: "ImportError: Cannot load specified object"
 kdump -f ktrace.out | grep -2 -i 'permission denied'
-~~~
+```

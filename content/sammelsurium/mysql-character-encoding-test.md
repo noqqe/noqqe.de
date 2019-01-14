@@ -13,31 +13,31 @@ werden encoded die LOCALES des Systems die Chars:
 
 Mit UTF8 (wie man glauben möchte der richtige)
 
-~~~
+```
 mysql --default-character-set=UTF8 -e "select id, query from data where query like '%nchen%' limit 1; "
 +----+----------------------------------------------------------+
 | id | query                                                    |
 +----+----------------------------------------------------------+
 |  7 | 81539 MÃ¼nchen, Deutschland                              |
 +----+----------------------------------------------------------+
-~~~
+```
 
 Mit Latin1
 
-~~~
+```
 mysql --default-character-set=LATIN1 -e "select id, query from data where query like '%nchen%' limit 1; "
 +----+-------------------------------------------------------+
 | id | query                                                 |
 +----+-------------------------------------------------------+
 |  7 | 81539 München, Deutschland                            |
 +----+-------------------------------------------------------+
-~~~
+```
 
 ## Charset Configs
 
 ### Latin1
 
-~~~
+```
 [client]
 default-character-set = latin1
 [mysqld]
@@ -52,11 +52,11 @@ default-character-set = latin1
 default-character-set = latin1
 [mysql]
 default-character-set = latin1
-~~~
+```
 
 ### UTF8
 
-~~~
+```
 [client]
 default-character-set = utf8
 [mysqld]
@@ -71,14 +71,14 @@ default-character-set = utf8
 default-character-set = utf8
 [mysql]
 default-character-set = utf8
-~~~
+```
 
 ## Richtig Dumpen
 
-~~~
+```
 mysqldump --default-character-set="UTF8" db > db_utf8.sql
 mysql --default-character-set="UTF8" db < db_utf8.sql
-~~~
+```
 
 ## Links
 

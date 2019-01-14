@@ -20,7 +20,7 @@ Und dann die Datenbank initialiseren
 
 [InitialSetup](http://theforeman.org/manuals/1.3/index.html#3.5.1InitialSetup)
 
-~~~
+```
 /etc/foreman/database.yml
 production:
   adapter: mysql2
@@ -28,7 +28,7 @@ production:
   username: foreman
   password: PASSWORD
   host: localhost
-~~~
+```
 
 #### Pitfalls
 

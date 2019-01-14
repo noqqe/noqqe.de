@@ -6,7 +6,7 @@ tags:
 - OpenBSD
 ---
 
-~~~
+```
 ## export PKG_PATH=ftp://ftp.openbsd.org/pub/OpenBSD/5.2/packages/`machine -a`/
 ## pkg_add -i nginx
 Ambiguous: choose package for nginx
@@ -16,7 +16,7 @@ Ambiguous: choose package for nginx
 Your choice: 1
 
 ## pkg_add php-fpm php-mysql
-~~~
+```
 
 ## Configure
 
@@ -24,15 +24,15 @@ Your choice: 1
 
 Um MySQL nutzen zu können gibts diesen Symlink
 
-~~~
+```
 ## mkdir -p /var/www/var/run/mysql
 ## chown www:daemon /var/www/var/run/mysql
 ## ln -f /var/run/mysql/mysql.sock /var/www/var/run/mysql/mysql.sock
-~~~
+```
 
 mysqli install
 
-~~~
+```
 ##  export PKG_PATH=ftp://ftp.openbsd.org/pub/OpenBSD/5.2/packages/amd64/
 ## echo $PKG_PATH
 ftp://ftp.openbsd.org/pub/OpenBSD/5.2/packages/amd64/
@@ -50,7 +50,7 @@ You can enable this module by creating a symbolic link from
 
     ln -sf /etc/php-5.3.sample/mysqli.ini /etc/php-5.3/mysqli.ini
 ## ln -sf /etc/php-5.3.sample/mysqli.ini /etc/php-5.3/mysqli.ini
-~~~
+```
 
 php-gd is broken and could not be loaded
 with php-5.3 -m

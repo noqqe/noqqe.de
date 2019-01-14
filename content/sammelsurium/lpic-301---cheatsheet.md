@@ -35,7 +35,7 @@ tags:
 
 Neues Personen Objekt
 
-~~~
+```
 dn: uid=horst,ou=users,dc=example,dc=com
 objectClass: top
 objectClass: inetOrgPerson
@@ -47,35 +47,35 @@ homeDirectory: /home/horst
 loginShell: /bin/bash
 cn: Horst
 sn: Tappert
-~~~
+```
 
 Neue Gruppe
 
-~~~
+```
 dn: ou=zwerge,dc=example,dc=com
 objectClass: top
 objectClass: organizationalUnit
 ou: zwerge
-~~~
+```
 
 Modify Kodierung
 
-~~~
+```
 dn: uid=horst,ou=users,dc=example,dc=com
 changetype: modify
 replace: uidNumber
 uidNumber: 10042
-~~~
+```
 
 #### Schema Dateien
 
 wichtige Dateien:
 
-~~~
+```
 /usr/local/etc/openldap/schema/core.schema
 /usr/local/etc/openldap/schema/cosine.schema
 /usr/local/etc/openldap/schema/inetorgperson.schema
-~~~
+```
 
 #### lokale Struktur vs. Domain Struktur
 
@@ -95,11 +95,11 @@ Grundsätzliche Schemata
 
 Abhängigkeiten
 
-~~~
+```
 core.schema <- cosine.schema <- nis.schema
 core.schema <- cosine.schema <- inetorgperson.schema
 core.schema <- cosine.schema <- inetorgperson.schema <- openldap.schema
-~~~
+```
 
 #### Objektklassen
 
@@ -151,9 +151,9 @@ Felder
 
 Beim bauen hab ich
 
-~~~
+```
 ./configure --enable-dynamic --enable-slapd --with-cyrus-sasl --with-tls=openssl --enable-bdb --enable-crypt --enable-syncprov
-~~~
+```
 
 verwendet. Hier noch eine Übersicht
 
@@ -288,20 +288,20 @@ Misc Backends
 
 * Übersicht aller Datenbanken:
 
-~~~
+```
 db_stat -h /usr/local/var/openldap-data/ -m
-~~~
+```
 
 * Konkrete Datenbanken auslesen
 
-~~~
+```
 db_stat -h /usr/local/var/openldap-data/ -d dn2id.bdb
 db_stat -h /usr/local/var/openldap-data/ -d id2entry.bdb
-~~~
+```
 
 * Korrekte Cachesize errechnen
 
-~~~
+```
 ## db_stat -h /usr/local/var/openldap-data/ -d dn2id.bdb
 Fri Mar  8 09:11:16 2013  Local time
 53162 Btree magic number
@@ -324,14 +324,14 @@ duplicates, sorted duplicates Flags
 0 Number of bytes free in tree overflow pages (0% ff)
 0 Number of empty pages
 0 Number of pages on the free list
-~~~
+```
 
 Die wichtigen Angaben nochmal in kurz
 
-~~~
+```
 3 Number of tree internal pages
 29  Number of tree leaf pages
-~~~
+```
 
 Blockgröße des Dateisystems: 4KB
 
@@ -339,7 +339,7 @@ Formel:
 
     ( 1 root Page + 3 internal Pages + 29 leaf Pages) * 4KB Blocksize = 132 KB Cache Size
 
-~~~
+```
 root@vm29-ldap:~## db_stat -h /usr/local/var/openldap-data/ -d id2entry.bdb
 Fri Mar  8 09:30:37 2013  Local time
 53162 Btree magic number
@@ -362,7 +362,7 @@ Little-endian Byte order
 0 Number of bytes free in tree overflow pages (0% ff)
 0 Number of empty pages
 0 Number of pages on the free list
-~~~
+```
 
 bei der
 
@@ -420,14 +420,14 @@ access to <was>
 
 Beispiel
 
-~~~
+```
 access to *
         by self write
         by dn.exact="cn=repl,dc=example,dc=com" read
         by dn.exact="cn=auth,dc=example,dc=com" read
         by users read
         by * auth
-~~~
+```
 
 Access level und deren Privileges
 
@@ -441,11 +441,11 @@ Access level und deren Privileges
 
 Beispiel für nutzung von Privileges
 
-~~~
+```
 access to dn.base=ou=manager usw
        by self +rw
        by * +x
-~~~
+```
 
 #### DN Styles
 
@@ -466,28 +466,28 @@ access to dn.base=ou=manager usw
 
 Am Master
 
-~~~
+```
 replogfile $file
 replica uri=""
         binddn=""
         bindmethod=simple
         credentials=secret
         starttls=yes
-~~~
+```
 
 Am Slave
 
-~~~
+```
 updatedn "cn=repl..." (User füer Schreibende Zugriffe)
 updateref "ldap://" (Host an den schreibzugriffe weitergeleitet werden
-~~~
+```
 
 Danach Inital dump erstellen und dann einspielen:
 
-~~~
+```
 slapcat > master.ldif
 slapadd -f slapd.conf -l master.ldif
-~~~
+```
 
 danach
 
@@ -501,9 +501,9 @@ danach
 
 * Manuell die repliaktion wieder starten:
 
-~~~
+```
 slurpd -r /usr/local/var/openldap-slurp/replica/slave.example.com\:389.rej -o
-~~~
+```
 
 Auch one-Shot mode genannt.
 
@@ -519,17 +519,17 @@ Auch one-Shot mode genannt.
 
 * Konfiguration am Master
 
-~~~
+```
 overlay syncprov
 syncprov-checkpoint     100     10
 syncprov-sessionlog     100
 
 limits dn.exact="cn=repl,dc=example,dc=com" size=unlimited time=unlimited
-~~~
+```
 
 * Konfiguration am Slave
 
-~~~
+```
 ## Replica Consumer
 syncrepl        rid=001
                 provider=ldaps://10.10.0.29
@@ -546,29 +546,29 @@ syncrepl        rid=001
                 tls_reqcert=never
                 timelimit=unlimited
                 sizelimit=unlimited
-~~~
+```
 
 #### Verschlüsselte Verbindung zum LDAP
 
 * Serverseitig
 
-~~~
+```
 TLSCertificateFile
 TLSCertificateKeyFile
 TLSCACertificateFile
 TLSVerfiyClient never,allow,try,demand(hard)
-~~~
+```
 
 * Clientseitig
 
-~~~
+```
 TLS_CACERT /pfad/ (allgemein)
 TLS_REQCERT never,allow,try,demand(hard)
 
 ## mit client auth
 TLS_CERT /pfad/
 TLS_KEY /pfad/
-~~~
+```
 
 Verbindungsmethoden
 
@@ -621,7 +621,7 @@ Bind durch: -Y DIGEST-MD5 -U user@example.com
 
 #### Loglevel
 
-~~~
+```
 0 - none
 1 - trace (Systemaufrufe)
 2 - packets
@@ -639,28 +639,28 @@ Bind durch: -Y DIGEST-MD5 -U user@example.com
 8192 - index
 16384 - sync
 -1 - all
-~~~
+```
 
 #### Referals in LDAP
 
 * Referenzieren auf andere Verzeichnisbäume
 * Inhalt der nicht im lokalen DIT ist wird weitergeleitet
 
-~~~
+```
 DEREF never
-~~~
+```
 
 #### yp Dienste / white Pages
 
 * Befehle
 
-~~~
+```
 ypcat -x                 ## alle Maps ausgeben
 ypcat passwd             ## passwd NIS ausgeben
 yptest                   ## Testet Verbindung zum YP Server
 /etc/yp.conf             ## enthält ypserver nis.example.com)
 ypwhich -d exaple.com    ## YPServer finden
-~~~
+```
 
 Typische Maps
 
@@ -721,7 +721,7 @@ Ebenfalls Einbindung über pam
 auth-ldap (Zum Authentifizieren)
 Beispiel:
 
-~~~
+```
 <Directory /var/www>
  AuthType Basic
  AuthName Restricted
@@ -729,7 +729,7 @@ Beispiel:
  AuthLDAPUrl ldap://127.0.0.1:389/ou=users,dc=example,dc=com?uid?one?objectClass=posixAccount
  require valid-user
 </Directory>
-~~~
+```
 
 mod-ldap (Cache tuning zum LDAP Server)
 
@@ -742,7 +742,7 @@ mod-ldap (Cache tuning zum LDAP Server)
 
 Anbindung über Modules
 
-~~~
+```
 modules {
  ldap {
   server = "ldap.example.com"
@@ -761,7 +761,7 @@ modules {
   }
  }
 }
-~~~
+```
 
 ##### Cups
 
@@ -771,7 +771,7 @@ den scheiss tu ich mir nicht an.
 
 Über Postmap Files gelöst
 
-~~~
+```
 cat /etc/postfix/
 server_host = ldap://
 search_base = dc=...
@@ -785,7 +785,7 @@ tls_key_file =
 tls_require_cert = yes
 bind = sasl
 sasl_mechs = EXTERNAL
-~~~
+```
 
 ##### Sendmail
 
@@ -811,7 +811,7 @@ ObjectClasses
 
 smb.conf
 
-~~~
+```
 passdb backend = ldapsam:ldap://slapd.example.com
 ldap admin dn = "cn..."
 ldap ssl = start tls
@@ -820,18 +820,18 @@ ldap group suffix = ou=groups
 ldap machine suffix = ou=computers
 ldap suffix = dc=example=com
 ldap filter = (&(uid\%u) (objectclass=sambaSamAccount)
-~~~
+```
 
 pbedit
 
-~~~
+```
 pbedit -Lv noqqe     ## user infos aus smb backend
 pbedit -Lv rechner$  ## rechner infos
 pbedit -Lw noqqe     ## altes smbpasswd format
 pbedit -a noqqe      ## neuen benutzer anlegen
 
 pbedit -i smbpasswd:/etc/samba/smbpasswd -e ldapsam:ldap://slapd.example.com   ## import smbpasswd und export nach ldap
-~~~
+```
 
 #### Active Directory und LDAP
 
@@ -845,26 +845,26 @@ KINIT Command
 
 Anbindung in ldap.conf des PAM Moduls
 
-~~~
+```
 pam_login_attribute sAMAccountName
 pam_filter objectclass=User
 pam_password ad
-~~~
+```
 
 Anbindung von Linux an ad (was braucht man?)
 
 pam_krb5 Modul:
 
-~~~
+```
 auth sufficient pam_krb5.so
 session required pam_krb5.so
 account required pam_krb5.so
 password sufficient pam_krb5.so
-~~~
+```
 
 /etc/krb5.conf
 
-~~~
+```
 [libdefaults]
 default_realm = EXAMPLE.COM
 dns_lookup_realm = true
@@ -888,30 +888,30 @@ pam = {
  forewardable = true
  krb4_convert = false
 }
-~~~
+```
 
 #### Kapazitätsplanung
 
 vmstat
 
-~~~
+```
 vmstat 5
-~~~
+```
 
 iostat
 
-~~~
+```
 iostat -x 1
 iostat -x
-~~~
+```
 
 sar
 
-~~~
+```
 sar -r    #Speicheraulsastung
 sar -n DEV   ## Netzwerkauslastung
 sar -d -p  #Festplattenauslastung
 sar -f /path/ #bestimmtes file nutzen
 sar -s 10:00:00 -e 12:00:00
 sar -A     ## alles des aktuellen tages
-~~~
+```

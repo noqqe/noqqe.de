@@ -46,7 +46,7 @@ in der php.ini setzen:
 
 ## Directory Indexing
 
-~~~
+```
  Alias /doc/ "/usr/share/doc/"
  <Directory "/usr/share/doc/">
      Options '''Indexes''' MultiViews FollowSymLinks
@@ -55,7 +55,7 @@ in der php.ini setzen:
      Deny from all
      Allow from 127.0.0.0/255.0.0.0 ::1/128
  </Directory>
-~~~
+```
 
 Sollte da umbedingt rausgenommen werden. Generell ist zu überlegen ob der
 /doc/ Alias überhaupt gebraucht werden kann.
@@ -81,7 +81,7 @@ lesen.
 
 ## Example Config
 
-~~~
+```
 1. Apache Config:
 FileETag MTime Size
 => ETag Information Leak
@@ -102,4 +102,4 @@ ServerSignature Off
 
 6. php.ini
 expose_php = off
-~~~
+```

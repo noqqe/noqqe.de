@@ -8,7 +8,7 @@ tags:
 
 Validieren von Email in Bash
 
-~~~ { .bash }
+``` { .bash }
 regex="^[a-z0-9!#\$%&'*+/=?^_\`{|}~-]+(\.[a-z0-9!#$%&'*+/=?^_\`{|}~-]+)*@([a-z0-9]([a-z0-9-]*[a-z0-9])?\.)+[a-z0-9]([a-z0-9-]*[a-z0-9])?\$"
 
 i="test@terra.es"
@@ -17,4 +17,4 @@ if [[ $i =~ $regex ]] ; then
 else
    echo "not OK"
 fi
-~~~
+```

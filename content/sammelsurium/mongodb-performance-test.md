@@ -8,7 +8,7 @@ tags:
 
 writes
 
-~~~ { .python }
+``` { .python }
 import time
 import pymongo
 m = pymongo.MongoClient()
@@ -28,7 +28,7 @@ while (i < 1000000):
   print executionTime
 
   i = i + 1
-~~~
+```
 
 > times.txt
 
@@ -38,7 +38,7 @@ while (i < 1000000):
 
 ## Script with Auth
 
-~~~
+```
 !/usr/bin/python
 import time
 import pymongo
@@ -59,11 +59,11 @@ i = 0
 while (i < 1000000):
         m.Loyalty.insertTest.insert(doc, manipulate=False, w=1)
         i = i + 1
-~~~
+```
 
 ## Verify the tests
 
-~~~ { .json }
+``` { .json }
 mongos> use devopstest
 mongos> db.stats()
 {
@@ -115,13 +115,13 @@ mongos> db.stats()
         "fileSize" : 402653184,
         "ok" : 1
 }
-~~~
+```
 
 ## Overview 1 Mio Queries from 1 Machine
 
 Auswertung mit R
 
-~~~
+```
 > x <- read.csv("C:/cygwin64/home/noqqe/single.txt", as.is=T, header=F)
 > head(x)
          V1
@@ -149,4 +149,4 @@ hist(x[x>=100&x<1000],main="Distribution of big queries")
 > summary(y)
      Min.   1st Qu.    Median      Mean   3rd Qu.      Max.
     0.325     0.598     0.786     1.773     1.186 23870.000
-~~~
+```

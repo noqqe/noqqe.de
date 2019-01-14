@@ -161,7 +161,7 @@ Einer der unschönen Teile des Tomcat
 
 ### HTTP/1.1 Connector parametisiert (SSL)
 
-~~~
+```
 <Connector port="8443"
     executor="Catalina-Threads"
     protocol="org.apache.coyote.http11.Http11AprProtocol"
@@ -173,7 +173,7 @@ Einer der unschönen Teile des Tomcat
   SSLCertificateKeyFile="${catalina.base}/conf/tomcatkey.pem"
   SSLPassword="tomcat"
      />
-~~~
+```
 
 ## MySQL Ressource
 
