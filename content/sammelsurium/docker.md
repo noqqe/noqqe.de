@@ -58,3 +58,11 @@ Upload Docker image to Nexus
 docker tag 916a0128c7e4 nexus.acme.com:8087/library/r35:0.0.1
 docker push nexus.acme.com:8087/library/r35:0.0.1
 ```
+
+Delete all containers
+
+    docker rm $(docker ps -a -q)
+
+Delete all images
+
+    docker rmi $(docker images -q)
