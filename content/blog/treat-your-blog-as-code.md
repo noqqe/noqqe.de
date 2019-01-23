@@ -184,10 +184,10 @@ Setting einfügen kann.
 
 Tatsächlich ist das der erste Blogpost den ich mit der vollautomatischen
 Chain hier deploye.  Ich denke ich werde wenn das alles sich als sinnvoll
-herausstellt auch noch [entbehrlich.es](j) automatisieren, da gibt es noch
+herausstellt auch noch [entbehrlich.es](https://entbehrlich.es) automatisieren, da gibt es noch
 ein paar Steps die ich bisher immer per Hand mache.
 
-Wenn das Endresultat interessiert kann sich auf [Github](h) die `.travis.yml`
+Wen das Endresultat interessiert kann sich auf [Github](https://github.com/noqqe/noqqe.de/blob/master/.travis.yml) die `.travis.yml`
 nochmal anschauen, in der alle 3 Steps zusammengefasst sind.
 
 Natürlich auch die Build Logs für den aktuellen Blogpost kann man
