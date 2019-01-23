@@ -42,9 +42,3 @@ Patches / Pull Requests regarding
 * CSS
 
 are very welcome.
-
-# Deploy
-
-```
-rm -rf public/ ; hugo ; /usr/local/bin/rsync -avi --delete --iconv=utf-8-mac,utf-8 --exclude='.DS_Store' public/ <host>:/var/www/htdocs/noqqe.de/
-```
