@@ -25,6 +25,3 @@ deploy:
   script: rsync -avi public/ $PRODUCTION_SERVER_USER@$PRODUCTION_SERVER:public/
   on:
     branch: master
-
-before_install:
-  - openssl aes-256-cbc -K $encrypted_a01276847ef6_key -iv $encrypted_a01276847ef6_iv -in deploy_rsa.enc -out deploy_rsa -d
