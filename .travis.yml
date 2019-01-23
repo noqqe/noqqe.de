@@ -5,15 +5,13 @@ go:
 install:
   - go get github.com/gohugoio/hugo
   - npm install -g markdownlint-cli
+  - echo $KNOWN_HOSTS_KEY >> $HOME/.ssh/known_hosts
 
 script:
   - markdownlint content/*.md
   - markdownlint content/blog/*.md
   - markdownlint content/sammelsurium/*.md
   - hugo
-
-addons:
-  ssh_known_hosts: $PRODUCTION_SERVER
 
 before_deploy:
   - openssl aes-256-cbc -K $encrypted_a01276847ef6_key -iv $encrypted_a01276847ef6_iv -in deploy_rsa.enc -out /tmp/deploy_rsa -d
