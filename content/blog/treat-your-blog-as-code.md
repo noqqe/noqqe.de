@@ -66,7 +66,7 @@ Sehr viel Handarbeit.
 
 ## CI mit Travis
 
-Nachdem das jetzt alles “schön” war hab ich mich von [Poschi3](h) mit
+Nachdem das jetzt alles “schön” war hab ich mich von [Poschi3](https://twitter.com/Poschi3) mit
 [travis-ci.org](https://travis-ci.org) anfixen lassen.
 
 Ich wollte `markdownlint` bei jedem Commit über mein Repo laufen lassen.
