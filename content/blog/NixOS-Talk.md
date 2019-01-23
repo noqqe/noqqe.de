@@ -24,10 +24,8 @@ Markdown
 
 Um das System zu verändern
 
-```
-vim /etc/nixos/configuration.nix
-nixos-rebuild switch
-```
+    vim /etc/nixos/configuration.nix
+    nixos-rebuild switch
 
 Demo Time!
 
