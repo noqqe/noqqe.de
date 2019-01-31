@@ -22,6 +22,6 @@ before_deploy:
 deploy:
 - provider: script
   skip_cleanup: true
-  script: rsync -avi public/ $PRODUCTION_SERVER_USER@$PRODUCTION_SERVER:public/
+  script: rsync -avi --delete public/ $PRODUCTION_SERVER_USER@$PRODUCTION_SERVER:public/
   on:
     branch: master
