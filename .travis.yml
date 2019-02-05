@@ -1,27 +1,38 @@
-language: go
-go:
-  - '1.11'
 
-install:
-  - go get github.com/gohugoio/hugo
-  - npm install -g markdownlint-cli
-  - echo $KNOWN_HOSTS_KEY >> $HOME/.ssh/known_hosts
-
-script:
-  - markdownlint content/*.md
-  - markdownlint content/blog/*.md
-  - markdownlint content/sammelsurium/*.md
-  - hugo
-
-before_deploy:
-  - openssl aes-256-cbc -K $encrypted_a01276847ef6_key -iv $encrypted_a01276847ef6_iv -in deploy_rsa.enc -out /tmp/deploy_rsa -d
-  - eval "$(ssh-agent -s)"
-  - chmod 600 /tmp/deploy_rsa
-  - ssh-add /tmp/deploy_rsa
-
-deploy:
-- provider: script
-  skip_cleanup: true
-  script: rsync -avi --delete public/ $PRODUCTION_SERVER_USER@$PRODUCTION_SERVER:public/
-  on:
-    branch: master
+jobs:
+  include:
+    - language: node_js
+      stage: test
+      node_js: 10.15
+      install:
+        - npm install -g markdownlint-cli
+      script:
+        - markdownlint content/*.md
+        - markdownlint content/blog/*.md
+        - markdownlint content/sammelsurium/*.md
+    - language: go
+      stage: test
+      go: 1.11
+      install:
+        - go get github.com/gohugoio/hugo
+      script:
+        - hugo
+    - language: go
+      stage: deploy
+      go: 1.11
+      install:
+        - go get github.com/gohugoio/hugo
+        - echo $KNOWN_HOSTS_KEY >> $HOME/.ssh/known_hosts
+      script:
+        - hugo
+      before_deploy:
+        - openssl aes-256-cbc -K $encrypted_a01276847ef6_key -iv $encrypted_a01276847ef6_iv -in deploy_rsa.enc -out /tmp/deploy_rsa -d
+        - eval "$(ssh-agent -s)"
+        - chmod 600 /tmp/deploy_rsa
+        - ssh-add /tmp/deploy_rsa
+      deploy:
+        - provider: script
+          skip_cleanup: true
+          script: rsync -avi --delete public/ $PRODUCTION_SERVER_USER@$PRODUCTION_SERVER:public/
+          on:
+            branch: master
