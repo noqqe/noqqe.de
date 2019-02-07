@@ -23,4 +23,3 @@ Anzeigen lassen was neu ist
 Commit
 
     darcs record -m "<message>"
-
