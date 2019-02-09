@@ -32,8 +32,8 @@ Ein paar Hilfen von Dingen die ich immer wieder vergesse.
 * `'x` - Zur markierten Zeile zurückspringen
 * `''` - Zurück zur Stelle vorher springen
 
-* `f<char>` moves your cursor to the first occurrence of <char> to the right.
-* `F<char>` moves your cursor to the first occurrence of <char> to the left.
+* `f(char)` moves your cursor to the first occurrence of (char) to the right.
+* `F(char)` moves your cursor to the first occurrence of (char) to the left.
 
 ## Windows
 
