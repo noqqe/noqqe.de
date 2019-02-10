@@ -38,6 +38,7 @@ Was dann compiled ungefähr so aussieht
 
 Die Folien als PDF kann man hier sehen
 
-[Folien](/uploads/2018/12/nixos.pdf)
+* [Folien](/uploads/2018/12/nixos.pdf)
+* [Repo](https://github.com/noqqe/nixos-talk)
 
 Feedback immer gerne :)
