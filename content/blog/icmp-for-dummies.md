@@ -124,7 +124,6 @@ macOS:
 
 {{< figure src="/uploads/2019/02/packetmac.png" >}}
 
-
 OpenBSD:
 
 ```
@@ -136,7 +135,6 @@ OpenBSD:
 
 {{< figure src="/uploads/2019/02/packetopenbsd.png" >}}
 
-
 ## Summary
 
 Das war mal wieder ein längerer Blogpost, in der ich mit viel so low-level
@@ -146,8 +144,3 @@ benutzt und Dinge gelernt. Ob dieser Randomization Part jetzt tatsächlich
 dazu beiträgt das ICMP Packets weniger gut zum OS Fingerprinting beitragen
 bleibt für mich etwas rätselhaft. Was allerdings gut ist, ist das kein
 Timestamp im ICMP Paket drin steht.
-
-
-
-
-
