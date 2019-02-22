@@ -7,7 +7,7 @@ tags:
 - OpenBSD
 ---
 
-Letztens habe ich wegen einer kleinen Recherche für ein anderes Projekt mich
+Letztens habe ich mich (wegen einer kleinen Recherche für ein anderes Projekt)
 mit `ping` in OpenBSD beschäftigt.
 
 Anfang 2015 gab es diesen
@@ -52,10 +52,10 @@ Das Ergebnis sieht dann so aus.
 
 ## macOS ping
 
-Mit meinem Paketfilter war ich also schonmal gut unterwegs mir anzuschauen.
-Etwas freudig schickte ich also einen `ICMP Echo Request` vom MacBook zu
-meinem OpenBSD Server (und nach kurzer `pf` Konfiguration) erhielt ich auch
-ein `ICMP Echo Reply`. Freudig schaute ich mir die Daten an.
+Mit meinem Paketfilter war ich also schonmal gut unterwegs mir anzuschauen
+was da so passiert. Etwas freudig schickte ich also einen `ICMP Echo Request`
+vom MacBook zu meinem OpenBSD Server (und nach kurzer `pf` Konfiguration)
+erhielt ich auch ein `ICMP Echo Reply`. Freudig schaute ich mir die Daten an.
 
 ```
 Feb 16, 2019 10:18:10.755628000 UTC     08090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
@@ -89,7 +89,7 @@ Echo Request, mit dem selben Content antworten des es empfangen hat. Ein
 **ECHO** eben.
 
 Also dieses mal `tshark` auf dem OpenBSD angeworfen, nicht auf dem MacBook.
-Meine Server 1 pingt nun Server 2. Und es sieht… anders aus.
+Mein Server 1 pingt nun Server 2. Und es sieht… anders aus.
 
 ```
 $ tshark -T fields -e icmp.data_time -e data 'icmp'
@@ -134,6 +134,11 @@ OpenBSD:
 ```
 
 {{< figure src="/uploads/2019/02/packetopenbsd.png" >}}
+
+Wo in der macOS Packet payload einfach von `08` nach `37` hochgezählt wird,
+randomisiert OpenBSD den ersten teil der Daten mit dem oben im Commit
+verlinkten Mechanismus. So siehte jede Packet Load anders aus als die
+vorhergehende.
 
 ## Summary
 
