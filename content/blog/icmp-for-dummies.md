@@ -136,9 +136,9 @@ OpenBSD:
 {{< figure src="/uploads/2019/02/packetopenbsd.png" >}}
 
 Wo in der macOS Packet payload einfach von `08` nach `37` hochgezählt wird,
-randomisiert OpenBSD den ersten teil der Daten mit dem oben im Commit
+randomisiert OpenBSD den ersten Teil der Daten mit dem oben im Commit
 verlinkten Mechanismus. So siehte jede Packet Load anders aus als die
-vorhergehende.
+Vorhergehende.
 
 ## Summary
 
@@ -146,6 +146,7 @@ Das war mal wieder ein längerer Blogpost, in der ich mit viel so low-level
 Kram herumgetan hab. Low dabei im doppelten Sinne: im Layer und im Anspruch.
 Kompliziert ist das eigentlich alles nicht, aber ich hab mal wieder Tools
 benutzt und Dinge gelernt. Ob dieser Randomization Part jetzt tatsächlich
-dazu beiträgt das ICMP Packets weniger gut zum OS Fingerprinting beitragen
+dazu beiträgt das ICMP Packets weniger gut beim OS Fingerprinting erkannt
+werden
 bleibt für mich etwas rätselhaft. Was allerdings gut ist, ist das kein
 Timestamp im ICMP Paket drin steht.
