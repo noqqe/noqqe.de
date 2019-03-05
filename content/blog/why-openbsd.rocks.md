@@ -15,7 +15,6 @@ schicken können und dann vielleicht die gleichen Aha-Momente triggern, wie
 bei mir damals in der K4CG, bzw. wie es mir immernoch passiert wenn ich
 `tech@` Mailingliste lese.
 
-
 Es ist ein Projekt für das ich ziemlich lange irgendwelche Schnipsel und
 Fakten gesammelt und strukturiert habe. Tatsächlich habe ich die Notiz in
 [Bear](https://bear.app) schon Ende 2017 angefangen. Nachdem der Content
@@ -35,7 +34,6 @@ Bei den News Aggregatoren:
 {{< figure src="/uploads/2019/03/reddit.png" >}}
 {{< figure src="/uploads/2019/03/hackernews.png" >}}
 {{< figure src="/uploads/2019/03/lobsters.png" >}}
-
 
 Besonders Toll waren die vielen Kommentare zum Inhalt. Einiges war falsch,
 einiges nur halb richtig, anderes wurde neu hinzugefügt in 24 Pull Requests
