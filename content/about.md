@@ -16,13 +16,16 @@ und Cheatsheets der sich über die Jahre als Admin angesammelt halt.
 
 Neben [Projekten](/projects/) wie
 [devnull-as-a-service.com](https://devnull-as-a-service.com) und
-[entbehrlich.es](https://entbehrlich.es) und [Organic
-Entropy](https://organic-entropy.org), arbeitete ich als Sysadmin in
+[entbehrlich.es](https://entbehrlich.es) und [Why OpenBSD
+rocks](https://why-openbsd.rocks), arbeitete ich als System Admin in
 [Bayreuth](https://de.wikipedia.org/wiki/Bayreuth) und mittlerweile als
-DevOp in [Nürnberg](https://de.wikipedia.org/wiki/Nürnberg).
+[SRE](https://en.wikipedia.org/wiki/Site_Reliability_Engineering) in [Nürnberg](https://de.wikipedia.org/wiki/Nürnberg).
 
 Neben dem ganzen Kram interessiert mich [OpenBSD](/tags/openbsd), [Python](/tags/python) oder der
 Hackerspace [K4CG](https://k4cg.org).
+
+Neuerdings mache ich auch etwas mit einer Kamera herum. Siehe
+[Flickr](https://www.flickr.com/photos/144855651@N08/).
 
 Erreichen kann man mich auf Twitter unter
 [@noqqe](https://twitter.com/noqqe), per Mail <code class="rev">ed.eqqon@olf</code> und lieber noch per Mail via
