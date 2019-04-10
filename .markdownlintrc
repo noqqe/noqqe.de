@@ -8,6 +8,9 @@
   "no-trailing-punctuation": false,
   "first-line-h1": false,
   "line-length": false,
+  "MD025": false,
+  "MD037": false,
+  "MD022": false,
   "ul-style": false,
   "no-inline-html": {
      "allowed_elements": [ "code" ]
