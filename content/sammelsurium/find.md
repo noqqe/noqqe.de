@@ -12,7 +12,7 @@ Files finden die älter als 3 Tage sind
 
 Files finden die jünger als 3 Tage sind
 
-    find . -type f -mtime +3
+    find . -type f -mtime -3
 
 Ordner finden welche vom User und Other schreibbar sind
 
