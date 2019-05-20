@@ -11,6 +11,8 @@
   "MD025": false,
   "MD037": false,
   "MD022": false,
+  "MD046": false,
+  "MD047": false,
   "ul-style": false,
   "no-inline-html": {
      "allowed_elements": [ "code" ]

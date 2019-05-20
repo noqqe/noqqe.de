@@ -116,7 +116,7 @@ aber viel zu aufgeblasen erschien. Im Grunde benutzt aber auch r10k den Multi
 Environment Ansatz.
 
 Ebenfalls denkbar sind Puppet-Dev Kisten in denen statt eines `--environment
-XXX` eben `--server <puppet-dev>` auf Agent-Seite mitgegeben wird.
+XXX` eben `--server puppetdev` auf Agent-Seite mitgegeben wird.
 
 Ich kenne auch Teams die ein Set aus Virtualbox VMs mittels
 [Vagrant](https://www.vagrantup.com) auf ihrem Laptop herumtragen und damit ihr
