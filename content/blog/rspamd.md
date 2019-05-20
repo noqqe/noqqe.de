@@ -61,7 +61,9 @@ match auth from any for any action "relay"
 
 Man hätte jetzt auch direkt via Dovecot LDA die Mail in die Mailbox delivern
 können, irgendwie wollte ich aber `LMTP`. Deshalb habe ich da dieses kleine
-Wrapper Script `lda2lmtp`.
+Wrapper Script
+[lda2lmtp](https://brnrd.eu/freebsd/2018-05-27/improving-my-mail-server-setup.html).
+Losgelöst ob das jetzt eine schöne Lösung ist oder nicht, ist der verlinkte Blogpost jedenfalls lesenswert.
 
 Auch der Bayesian Filter von `rspamd` will angelernt werden.
 Dazu ein bisschen Shell Script via Cronjob.
