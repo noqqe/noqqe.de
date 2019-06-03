@@ -79,4 +79,4 @@ networking.firewall = {
 Ich hab hierbei einen festen Port gewählt, normalerweise wird dieser von
 WireGuard dynamisch basierend auf dem Hostname gewählt.
 
-Danke WireGuard das ihr ihr VPN erträglich gemacht habt.
+Danke WireGuard das ihr VPN erträglich gemacht habt.
