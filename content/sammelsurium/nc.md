@@ -17,3 +17,4 @@ Host2:
 
     echo foo | nc -u Host1 51666
 
+Man sollte dann foo auf Host1 sehen.
