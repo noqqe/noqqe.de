@@ -21,6 +21,11 @@ List all databases
 
     postgres=## \l
 
+Make root a super user (ignore switching to postgres first)
+
+    CREATE USER root;
+    ALTER USER root WITH SUPERUSER;
+
 Use Database
 
     postgres=## \c teamvault
