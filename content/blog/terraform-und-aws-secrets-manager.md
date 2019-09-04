@@ -9,12 +9,12 @@ tags:
 Passwörter. Ein Quell der Freude, gerade beim Thema Infrastructure as Code
 (in meinem Fall mittels [terraform](https://terraform.io))
 
-Ich habe im Moment an einem neuen Projekt in der Arbeit in der ich
+Ich arbeite im Moment an einem neuen Projekt in der Arbeit in der ich
 4 identische Umgebungen in [AWS](https://aws.amazon.com/) aufbauen darf und
 natürlich werden dort diverse Systeme angebunden welche sich mittels
 Authentifizierung unterhalten.
 
-Vorher sah meine Codebase ungefähr so aus, Credentials wo man hinsah.
+Vorher sah meine Codebase ungefähr so aus. Credentials wo man hinsah.
 
 ```
 module "mysql_db" {
@@ -49,7 +49,7 @@ module "ecs_task" {
   ]
 ```
 
-Natürlich bin ich nicht der einzige mit solchen Problemen.
+Natürlich bin ich nicht der Einzige mit solchen Problemen.
 Es gab dann mehrere Optionen wie ich damit umgehe.
 
 * Ignorieren (wie in anderen Projekten)
