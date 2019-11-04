@@ -9,6 +9,7 @@
   "first-line-h1": false,
   "line-length": false,
   "MD025": false,
+  "MD014": false,
   "MD037": false,
   "MD022": false,
   "MD046": false,
