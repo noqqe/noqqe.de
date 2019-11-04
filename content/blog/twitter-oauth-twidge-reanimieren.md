@@ -29,7 +29,7 @@ gelangen. Was auch gut so ist.
 
 Da ich Twidge aber auch außerhalb des Logfiles sehr gerne benutze, behob
 ich das Problem durch Installieren der Testing-Version. Zu finden unter
-http://packages.debian.org/squeeze/twidge
+[packages.debian.org](http://packages.debian.org/squeeze/twidge)
 
 ```
 $ twidge -v
@@ -71,12 +71,13 @@ Successfully authenticated!
 Twidge has now been configured for you and is ready to use.
 ```
 
-Hat irgendwie fast ein bisschen was von Wizard ;). Im Endeffekt sind es aber nur ein paar kleine Schritte:
+Hat irgendwie fast ein bisschen was von Wizard ;). Im Endeffekt sind es aber
+nur ein paar kleine Schritte:
 
-  * Url öffnen
-  * "App" autorisieren oder "Erlauben"
-  * App-Authkey kopieren
-  * Twidge vorwerfen
+* Url öffnen
+* "App" autorisieren oder "Erlauben"
+* App-Authkey kopieren
+* Twidge vorwerfen
 
 Danach kann man das Internet wieder mit dem eigenen daily Nonsense füllen.
 Mit einem CLI-Client :). Was mich nebenbei noch fasziniert hat:

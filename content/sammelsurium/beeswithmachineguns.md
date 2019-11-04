@@ -19,7 +19,7 @@ The shitty part is with zones. Can easily end up in exceptions.
 Example config.
 Zone specification does not work.. nevermind.
 
-~~~
+```
 [Credentials]
 aws_access_key_id = AAABBBCCC
 aws_secret_access_key = AAABBBCCC
@@ -30,4 +30,4 @@ num_retries = 10
 ec2_region_name = us-west-1
 cs_region_name = us-west-1
 placement = us-west-1
-~~~
+```

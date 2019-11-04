@@ -70,7 +70,6 @@ isize = self.available_sizes[resolution_index]
 IndexError: list index out of range
 ```
 
-
 Absolut Klasse. Im moment verbring ich meine Zeit damit entwerder
 Herrauszufinden wo das problem liegt bei GKSU oder ich probiere Wahllos
 irgendwelche 22" WideScreens aus ob es klappen könnte!

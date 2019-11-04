@@ -10,7 +10,7 @@ tags:
 
 Mit simple Bind (-x)
 
-~~~
+```
 ./ldapsearch -x -b dc=example,dc=com
 ./ldapsearch -x -b dc=example,dc=com '(objectClass=organizationalUnit)'
 
@@ -20,25 +20,24 @@ dn: ou=users,dc=example,dc=com
 
 dn: ou=groups,dc=example,dc=com
 
-
-~~~
+```
 
 ### Wer bin ich eigentlich?
 
-~~~
+```
 ## ./ldapwhoami -xWD "cn=admin,dc=example,dc=com"
 Enter LDAP Password:
 dn:cn=admin,dc=example,dc=com
 
 ## ./ldapwhoami -x
 anonymous
-~~~
+```
 
 ### Erste Entries adden in live
 
 Solche Files sehen dann unter umständen so aus:
 
-~~~
+```
 dn: uid=horst,ou=users,dc=example,dc=com
 objectClass: top
 objectClass: inetOrgPerson
@@ -50,35 +49,35 @@ homeDirectory: /home/horst
 loginShell: /bin/bash
 cn: Horst
 sn: Tappert
-~~~
+```
 
 Als anonymous failed das natürlich(gut!)
 
-~~~
+```
 ## ./ldapmodify -a -x -f /usr/local/etc/horst.ldif
 adding new entry "uid=horst,ou=users,dc=example,dc=com"
 ldap_add: Strong(er) authentication required (8)
         additional info: modifications require authentication
-~~~
+```
 
 Zum Auth als Admin das folgende tun
 
-~~~
+```
 ## ./ldapmodify -a -xWD "cn=admin,dc=example,dc=com" -f /usr/local/etc/bkodera.ldif
 Enter LDAP Password:
 adding new entry "uid=horst,ou=users,dc=example,dc=com"
-~~~
+```
 
 ### Entries löschen
 
-~~~
+```
 ## ./ldapdelete -xWD "cn=admin,dc=example,dc=com" "uid=horst,ou=users,dc=n0q,dc=org"
 Enter LDAP Password:
-~~~
+```
 
 ### Löschen mehrerer Einträge
 
-~~~
+```
 ## ./ldapdelete -xWD "cn=admin,dc=example,dc=com" << EOF
 > uid=bbergebunker,ou=zwerge,dc=example,dc=com
 > uid=vbergebunker,ou=zwerge,dc=example,dc=com
@@ -89,8 +88,7 @@ Enter LDAP Password:
 > uid=cgoldlob,ou=zwerge,dc=example,dc=com
 > uid=ngoldlob,ou=zwerge,dc=example,dc=com
 > EOF
-~~~
-
+```
 
 ### Entries modifizieren
 
@@ -98,23 +96,23 @@ Enter LDAP Password:
 
 modify.ldif:
 
-~~~
+```
 dn: uid=horst,ou=users,dc=example,dc=com
 changetype: modify
 replace: loginShell
 loginShell: /bin/sh
-~~~
+```
 
 Einspielen via
 
-~~~
+```
 ./ldapmodify -xWD "cn=admin,dc=example,dc=com" -f
 /usr/local/etc/horst-modify.ldif
-~~~
+```
 
 #### Interactive Mode
 
-~~~
+```
 ## ./ldapmodify -xWD "cn=admin,dc=example,dc=com" << EOF
 > dn: uid=horst,ou=users,dc=example,dc=com
 > changetype: modify
@@ -123,28 +121,27 @@ Einspielen via
 > EOF
 Enter LDAP Password:
 modifying entry "uid=horst,ou=users,dc=example,dc=com"
-~~~
+```
 
 ### Relative disinguished  Name (RDN) anpassen
 
-~~~
+```
 ## ./ldapmodrdn -xWD "cn=admin,dc=example,dc=com" "uid=horsty,ou=users,dc=n0q,dc=org" uid=horst
 Enter LDAP Password:
-~~~
-
+```
 
 ## Neue Gruppe anlegen
 
 Neues .ldif File anlegen
 
-~~~
+```
 dn: ou=zwerge,dc=example,dc=com
 objectClass: top
 objectClass: organizationalUnit
 ou: zwerge
-~~~
+```
 
-~~~
+```
 ## ldapmodify -axWD "cn=admin,dc=example,dc=com" << EOF
 dn: ou=oberzwerge,dc=example,dc=com
 objectClass: top
@@ -153,27 +150,26 @@ ou: oberzwerge
 EOF
 Enter LDAP Password:
 adding new entry "ou=oberzwerge,dc=example,dc=com"
-~~~
+```
 
 Modify mit -a für add
 
-~~~
+```
 ./ldapmodify -a -xWD "cn=admin,dc=example,dc=com" -f /usr/local/etc/ldif/zwerge-group.ldif
 ./ldapsearch -x
-~~~
+```
 
 ### LDAP passwd ändern
 
-~~~
+```
  ldappasswd -xWD "cn=admin,dc=example,dc=com" -s foo "uid=vvorschlaghammer,ou=zwerge,dc=n0q,dc=org"
-~~~
+```
 
 oder interaktiv mit -S
 
-
 ### Ein Alias Objekt erstellen
 
-~~~
+```
 ## ldapmodify -axWD "cn=admin,dc=example,dc=com" << EOF
 dn: uid=vvorschlaghammer,ou=oberzwerge,dc=example,dc=com
 objectclass: alias
@@ -181,14 +177,13 @@ objectclass: extensibleObject
 uid: vvorschlaghammer
 aliasedobjectname: uid=vvorschlaghammer,ou=zwerge,dc=example,dc=com
 EOF
-~~~
-
+```
 
 ### Erweiterte Konfiguration der Clienttools
 
 ldap.conf
 
-~~~
+```
 BASE    dc=example,dc=com
 URI     ldap://localhost
 
@@ -197,22 +192,21 @@ URI     ldap://localhost
 SIZELIMIT       50
 TIMELIMIT       15
 DEREF           never
-~~~
-
+```
 
 ### Gruppen Admins einrichten
 
 erstmal das password durch den Admin setzen für vvorschlanghammer.
 
-~~~
+```
 ## ldappasswd -xWD "uid=vvorschlaghammer,ou=zwerge,dc=example,dc=com"
 Enter LDAP Password:
 New password: xxx
-~~~
+```
 
 Bisher sieht ein Modify so aus:
 
-~~~
+```
 ## ldapmodify -xWD "uid=vvorschlaghammer,ou=zwerge,dc=example,dc=com" << EOF
 > dn: uid=jaxthieb,ou=zwerge,dc=example,dc=com
 > changetype: modify
@@ -222,12 +216,12 @@ Bisher sieht ein Modify so aus:
 Enter LDAP Password:
 modifying entry "uid=jaxthieb,ou=zwerge,dc=example,dc=com"
 ldap_modify: Insufficient access (50)
-~~~
+```
 
 Das heisst wir brauchen erstmal Admin Permissions für den User vvorschlaghammer.
 Mit folgenden Access rules funktioniert das:
 
-~~~
+```
 access to dn.children="ou=zwerge,dc=example,dc=com"
         by dn.exact="uid=vvorschlaghammer,ou=zwerge,dc=example,dc=com" write
         by self write
@@ -239,16 +233,14 @@ access to *
         by users read
         by * auth
 
-
 access to *
         by dn.exact="cn=repl,dc=example,dc=com"
         by * break
-~~~
-
+```
 
 Test mit Modify:
 
-~~~
+```
 ## ldapmodify -w foo -xD "uid=vvorschlaghammer,ou=zwerge,dc=example,dc=com" << EOF
 dn: uid=jaxthieb,ou=zwerge,dc=example,dc=com
 changetype: modify
@@ -256,4 +248,4 @@ replace: loginShell
 loginShell: /bin/zsh
 EOF
 modifying entry "uid=jaxthieb,ou=zwerge,dc=example,dc=com"
-~~~
+```

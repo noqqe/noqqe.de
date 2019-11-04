@@ -1,7 +1,7 @@
 ---
 title: Golang Cheatsheet
 date: 2016-12-18T12:04:06
-tags: 
+tags:
 - Programming
 - go
 - golang
@@ -53,7 +53,7 @@ output, err := cmd.CombinedOutput()
 
 // check for errors
 if err != nil {
-	log.Fatal("rvo crashed and burned.")
+  log.Fatal("rvo crashed and burned.")
 }
 
 ```
@@ -62,7 +62,7 @@ if err != nil {
 
 In Python kann ich einfach
 
-	if "string" in list:
+  if "string" in list:
 
 In Go brauch ich dafuer die Hilfe dieser kleinen Funktion
 
@@ -111,5 +111,3 @@ type Document struct {
   Categories []string `json:"categories"`
 }
 ```
-
-

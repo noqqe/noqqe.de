@@ -1,7 +1,7 @@
 ---
 title: Git
 date: 2012-06-18T02:00:00
-tags: 
+tags:
 - Software
 - git
 ---
@@ -35,7 +35,7 @@ ist verwenden.
 
 Wenn ich ein git repository wieder aufräumen möchte.
 
-    http://git-scm.com/docs/git-gc
+[http://git-scm.com/docs/git-gc](http://git-scm.com/docs/git-gc)
 
 ## git proxy
 
@@ -95,7 +95,6 @@ To remove a submodule you need to:
 * Delete the relevant section from .git/config.
 * Run git rm --cached path_to_submodule (no trailing slash).
 
-
     $ git rm --cached bundle/R.vim
     rm 'bundle/R.vim'
 
@@ -109,26 +108,26 @@ sauber die Versionen zu taggen und sucht, wann die version angehoben wurde.
 
     $ git log --pretty=short -u -L 16,16:setup.py
 
-		commit 2ec513539add777f1dcc7a5e803538f5180fa2eb
-		Author: Florian Baumann <wa1@noqqe.de>
+    commit 2ec513539add777f1dcc7a5e803538f5180fa2eb
+    Author: Florian Baumann <wa1@noqqe.de>
 
-		    version bump
+        version bump
 
-		diff --git a/setup.py b/setup.py
-		--- a/setup.py
-		+++ b/setup.py
-		@@ -16,1 +16,1 @@
-		-    version='18.0.0',
-		+    version='19.0.0',
+    diff --git a/setup.py b/setup.py
+    --- a/setup.py
+    +++ b/setup.py
+    @@ -16,1 +16,1 @@
+    -    version='18.0.0',
+    +    version='19.0.0',
 
-		commit 30c5f4ea436ca7b1c63c8ba647b971af024ee1e6
-		Author: Florian Baumann <wa1@noqqe.de>
+    commit 30c5f4ea436ca7b1c63c8ba647b971af024ee1e6
+    Author: Florian Baumann <wa1@noqqe.de>
 
-		    version bump
+        version bump
 
-		diff --git a/setup.py b/setup.py
-		--- a/setup.py
-		+++ b/setup.py
-		@@ -16,1 +16,1 @@
-		-    version='17.0.0',
-		+    version='18.0.0',
+    diff --git a/setup.py b/setup.py
+    --- a/setup.py
+    +++ b/setup.py
+    @@ -16,1 +16,1 @@
+    -    version='17.0.0',
+    +    version='18.0.0',

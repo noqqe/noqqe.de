@@ -40,7 +40,7 @@ passieren:
 Die Informationen stehen im Superblock einer Parition. Das Tool dumpe2fs
 stellt diese zur Verfügung:
 
-    $ dumpe2fs -h /dev/sda1
+    dumpe2fs -h /dev/sda1
 
 Das ganze hab ich dann verskriptet. Es "scanned" alle gemounteten ext
 Parititonen und warnt einen, falls die maximalen Mounts oder die zyklischen

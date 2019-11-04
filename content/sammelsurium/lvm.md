@@ -9,11 +9,11 @@ tags:
 
 Informationen von Volume anzeigen
 
-    $ vgdisplay
+    vgdisplay
 
 Kurze Info über Free/Used des Volumes:
 
-    $ vgdisplay -s
+    vgdisplay -s
 
 Alle Platten anzeigen
 
@@ -45,12 +45,10 @@ Erstellen, formatieren und mounten.
     $ resize2fs /dev/mapper/root
     $ resize2fs /dev/system/root
 
-
 ## Volume Group Rename
 
     vgrename gnar1 gnar2
     dpkg-reconfigure linux-image-2.6.
-
 
 ## Rescan des SCSI-Hostbuses
 
@@ -64,8 +62,7 @@ Trigger rescan
 
 danach wieder ansehen
 
-    lsscsi
+    $ lsscsi
     [1:0:0:0]    cd/dvd  NECVMWar VMware IDE CDR10 1.00  /dev/sr0
     [2:0:0:0]    disk    VMware   Virtual disk     1.0   /dev/sda
     [2:0:1:0]    disk    VMware   Virtual disk     1.0   /dev/sdb
-

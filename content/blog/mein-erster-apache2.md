@@ -13,7 +13,6 @@ title: Mein erster Apache2
 
 Hier in aller Kürze und ohne großartige Comments: die apache2.conf
 
-
 ```
 ServerRoot "/etc/apache2"
 LockFile /var/lock/apache2/accept.lock
@@ -75,6 +74,6 @@ export APACHE_PID_FILE=/var/run/apache2.pid
 Im großen und ganzen installiert man nur kurz das deb Paket apache2, nimmt
 kurze Anpassungen an den Configs vor und schon ist unter 127.0.0.1 der
 Webserver abzurufen. Garkein so großes Kunststück wie ich dachte. Hier
-zuerst die index.html (http://127.0.0.1)
+zuerst die index.html (`http://127.0.0.1`)
 
 Linux is like a Wigwam. Apache inside and no windows.

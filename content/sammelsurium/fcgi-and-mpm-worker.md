@@ -1,7 +1,7 @@
 ---
 title: fcgi and mpm-worker
 date: 2012-03-06T13:54:01
-tags: 
+tags:
 - Software
 - Apache
 ---
@@ -12,7 +12,7 @@ fcgi ist die Weiterentwicklung von fastcgi.
 
 ## Handler einfuegen
 
-~~~
+```
 <Directory /var/www/>
         Options -Indexes FollowSymLinks -MultiViews +ExecCGI
         AddHandler fcgid-script .php
@@ -21,28 +21,28 @@ fcgi ist die Weiterentwicklung von fastcgi.
         Order allow,deny
         allow from all
 </Directory>
-~~~
+```
 
 ## TimeOuts oder Exceeds
 
 Kann sein das die Max Request Len zu kurz ist für Files zum Uploaden
-Dann will mann in /etc/apache2/mods-available/fcgid.conf
+Dann will mann in `/etc/apache2/mods-available/fcgid.conf`
 
-~~~
+```
 <IfModule mod_fcgid.c>
   AddHandler    fcgid-script .fcgi
   FcgidConnectTimeout 20
   MaxRequestLen 15728640
 </IfModule>
-~~~
+```
 
 ## Links
 
-http://2bits.com/articles/apache-fcgid-acceptable-performance-and-better-resource-utilization.html
+[Apache FCGID Performace](http://2bits.com/articles/apache-fcgid-acceptable-performance-and-better-resource-utilization.html)
 
 ## puppet fastcgi & worker & php
 
-~~~ { .puppet }
+``` { .puppet }
  class { 'apache':
         mpm_module => "worker",
         default_vhost => false,
@@ -63,4 +63,4 @@ http://2bits.com/articles/apache-fcgid-acceptable-performance-and-better-resourc
           custom_fragment => 'FCGIWrapper "/usr/lib/cgi-bin/php5" .php',
         }, ]
  }
-~~~
+```

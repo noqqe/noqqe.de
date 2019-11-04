@@ -4,11 +4,11 @@ aliases:
 - /blog/2008/12/05/unpack-entpackt-sie-alle-marke-eigenbau/
 comments:
 - author: Marc
-  content: "<p>Das ist ja mal ein n\xFCtzliches Skript, kann ich gut gebrauchen.<br>Vielleicht
-    bringe ich das sogar noch irgendwann in meinem Adventskalender. ;)</p>"
+  content: 'Das ist ja mal ein n\xFCtzliches Skript, kann ich gut gebrauchen.Vielleicht
+    bringe ich das sogar noch irgendwann in meinem Adventskalender. ;)'
   date: '2008-12-08T12:56:17'
 - author: Marc
-  content: <p>Schreib mal Marc, statt "MarcBoe". ;)</p>
+  content: 'Schreib mal Marc, statt "MarcBoe". ;)'
   date: '2008-12-09T17:37:15'
 date: '2008-12-05T13:37:56'
 slug: unpack-entpackt-sie-alle-marke-eigenbau
@@ -28,9 +28,9 @@ tags:
 title: unpack - Entpackt sie alle - Marke Eigenbau
 ---
 
-Vor ein paar Tagen erst haben wir uns in der Arbeit über die [Komplexität
-der tar Befehle unterhalten und die Millionen
-Archivetypen](http://www.linux-fuer-alle.de/doc_show.php?docid=76) die es
+Vor ein paar Tagen erst haben wir uns in der Arbeit über die Komplexität der
+tar Befehle unterhalten und die Millionen
+[Archivetypen](http://www.linux-fuer-alle.de/doc_show.php?docid=76) die es
 gibt. Habe mir dann etwas gedanken gemacht, wie das ganze leichter zu haben
 wäre und ein kleines Skript geschrieben.
 
@@ -51,11 +51,11 @@ machen und diverse neue/alte Formate einfügen sowie die Struktur
 * Skript [downloaden](http://zwetschge.org/unpack/) |
   [Quellcode](http://paste.pocoo.org/show/93956/)
 * in /home/user/.bashrc alias eintragen:
-  ` alias unpack = 'sh /pfad/zum/skript'`
+  `alias unpack = 'sh /pfad/zum/skript'`
 * Ausführbar machen
-  `$ chmod +x /pfad/zum/skript`
+  `chmod +x /pfad/zum/skript`
 * Skript ausführen:
-  `$ unpack /pfad/zum/archiv`
+  `unpack /pfad/zum/archiv`
 * Entpackte Dateien befinden sich im aktuellen Verzeichnis! (Daran werde
   ich noch arbeiten :) )
 

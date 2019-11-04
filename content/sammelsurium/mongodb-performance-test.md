@@ -1,14 +1,14 @@
 ---
 title: MongoDB Performance Test
 date: 2014-03-31T14:38:08
-tags: 
+tags:
 - Databases
 - MongoDB
 ---
 
 writes
 
-~~~ { .python }
+``` { .python }
 import time
 import pymongo
 m = pymongo.MongoClient()
@@ -19,25 +19,26 @@ i = 0
 
 while (i < 1000000):
 
-	start = time.time()
-	m.tests.insertTest.insert(doc, manipulate=False, w=1)
-	end = time.time()
+  start = time.time()
+  m.tests.insertTest.insert(doc, manipulate=False, w=1)
+  end = time.time()
 
-	executionTime = (end - start) * 1000 ## Convert to ms
+  executionTime = (end - start) * 1000 ## Convert to ms
 
-	print executionTime
+  print executionTime
 
-	i = i + 1
-~~~
+  i = i + 1
+```
 
 > times.txt
 
-https://blog.serverdensity.com/mongodb-benchmarks/
-http://api.mongodb.org/python/current/tutorial.html
+[Benchmarks](https://blog.serverdensity.com/mongodb-benchmarks/)
+
+[API Tutorial](http://api.mongodb.org/python/current/tutorial.html)
 
 ## Script with Auth
 
-~~~
+```
 !/usr/bin/python
 import time
 import pymongo
@@ -58,11 +59,11 @@ i = 0
 while (i < 1000000):
         m.Loyalty.insertTest.insert(doc, manipulate=False, w=1)
         i = i + 1
-~~~
+```
 
 ## Verify the tests
 
-~~~ { .json }
+``` { .json }
 mongos> use devopstest
 mongos> db.stats()
 {
@@ -114,13 +115,13 @@ mongos> db.stats()
         "fileSize" : 402653184,
         "ok" : 1
 }
-~~~
+```
 
 ## Overview 1 Mio Queries from 1 Machine
 
 Auswertung mit R
 
-~~~
+```
 > x <- read.csv("C:/cygwin64/home/noqqe/single.txt", as.is=T, header=F)
 > head(x)
          V1
@@ -148,5 +149,4 @@ hist(x[x>=100&x<1000],main="Distribution of big queries")
 > summary(y)
      Min.   1st Qu.    Median      Mean   3rd Qu.      Max.
     0.325     0.598     0.786     1.773     1.186 23870.000
-~~~
-
+```

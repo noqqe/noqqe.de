@@ -38,8 +38,6 @@ title: Gnome 2.24
 
 Na endlich, es tut sich mal wieder etwas.
 
-![](http://wiki.ubuntuusers.de/_image?width=200&target=Empathy%2Fempathy_contact_list.png)
-
 Neben diversen Fehlerkorrekturen dürfen wir Gnome-User standardmäßig
 Empathy als Messenger begrüßen (passt mir speziell nicht so weil Pidgin
 gerade anfing gut auszusehen, aber das ist ja zum Glück ein freies

@@ -36,7 +36,6 @@ Eine IPv6-Adresse ist sensationelle 128Bit lang, eine IPv4 Adresse nur
 Das ist die komplette Korrekte schreibweise. Allerdings wird diese mit
 diversen Schreibweisen noch durch vereinfacht.  Dazu mehr weiter unten.
 
-
 #### Wie bekomme ich eine IPv6-Adresse?
 
 Eine IPv6-Adresse zu bekommen ist garnicht so schwer. Eine Site die unter
@@ -113,7 +112,6 @@ ich :)
 
 #### Private Adressen? PAT/NAT System?
 
-
 Vermisst da jemand die 192.168.0.1 ? :) PAT/NAT ist definitv Schnee von
 gestern. Warum auch ? Wir haben genügend IP Adressen um jedem Sandkorn der
 Erde eine eindeutige Nummerzuzuweisen. Wenn man überlegt dass das NAT/PAT
@@ -123,9 +121,7 @@ aber nachzuvollziehen. Dennoch gibts auch bei IPv6 wieder Private IPs.
 Beginnen mit fc00: in einem /7 er "Netz" Genauso Site-locale Adressen.
 Ersetzt ULA (Unique Local Adress)
 
-
 #### MutliCasting wie vorher?
-
 
 Mh nicht ganz.
 

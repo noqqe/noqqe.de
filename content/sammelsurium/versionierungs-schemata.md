@@ -1,7 +1,7 @@
 ---
 title: Versionierungs Schemata
 date: 2016-12-06T09:06:58
-tags: 
+tags:
 - Programming
 ---
 
@@ -83,7 +83,6 @@ Auch wird gerne mal die 13 übersprungen
 > customers.
 > -- Wikipedia
 
-
 #### OpenSSL
 
 lol.
@@ -96,7 +95,7 @@ lol.
 * 1.0.1a
 * 1.0.2
 
-#### Overengineered.
+#### Overengineered
 
 > Our R&D department uses 1.0.0.0.0.000:
 > MAJOR.minor.patch.audience.critical_situation.build

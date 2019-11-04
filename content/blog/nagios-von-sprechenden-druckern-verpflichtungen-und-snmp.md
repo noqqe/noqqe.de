@@ -111,11 +111,8 @@ Damit lässt sich arbeiten. Für jedes Papierfach des Druckers eine
 OID-Nummer. snmpget lässt ein Gerät explizit nach einer OID fragen, oder
 ihren Descriptor.
 
-
     snmpget -v1 -Cf -c public 192.168.1.200 mib-2.43.8.2.1.10.1.1
     SNMPv2-SMI::mib-2.43.8.2.1.10.1.1 = INTEGER: 385
-
-
 
 Im ersten Fach sind also 385 Blätter. Schätzungsweise. So ist es also
 möglich den aktuellen Stand der Papierfächer abzufragen, ohne aufstehen zu
@@ -142,14 +139,11 @@ Fragen stellen wie mit snmpget. Einzige Veränderung: Schwellwerte für
 Warning (-w) und Critical (-c) müssen mitgegeben werden. Ich erstellte also
 einen sogenannten "Check".
 
-
     /etc/nagios3/conf.d/z_check_papertray:
     define command{
              command_name    check_papertray
              command_line    /usr/lib/nagios/plugins/check_snmp -H '$HOSTADDRESS$' -C '$ARG1$' -o mib-2.43.8.2.1.10.1.$ARG2$ -w '$ARG3$': -c '$ARG4$':
     }
-
-
 
 Die -H Hostadresse wird aus der angegebenen Adresse im Hostfile  gewonnen
 in dem der Check später als "Service" eingebunden wird. Außerdem noch jede
@@ -168,7 +162,6 @@ In der Hostdatei kann der definierte Check jetzt als Service eingebunden werden.
             service_description             PAPERTRAY 1 DinA4
             check_command                   check_papertray!public!1!150!56
             }
-
 
 Das ganze 4 mal. Für jedes Papierfach einmal. check_command ist dabei der
 ausschlaggebende Punkt. Nagios zieht aus jedem Wert nach ! seine Argumente.

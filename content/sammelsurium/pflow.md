@@ -1,7 +1,7 @@
 ---
 title: pflow
 date: 2015-02-21T00:03:45
-tags: 
+tags:
 - OS
 - OpenBSD
 ---
@@ -23,7 +23,7 @@ und in der pf.conf
 
 Obacht, nur Regeln die mit state pflow versehen sind, werden wirklich zum Collector geschickt. Mehr dazu hier
 
-https://books.google.de/books?id=oSQBBQAAQBAJ&pg=PA177&lpg=PA177&dq=openbsd+pf+pflow+setup&source=bl&ots=cBYa2yah88&sig=MPPwQWcx3tFpVgXDgD6Uh4O-_sI&hl=de&sa=X&ei=ILnnVOnrOYqqPNucgIAO&ved=0CGUQ6AEwCA#v=onepage&q=openbsd%20pf%20pflow%20setup&f=false
+[Google Books](https://books.google.de/books?id=oSQBBQAAQBAJ&pg=PA177&lpg=PA177&dq=openbsd+pf+pflow+setup&source=bl&ots=cBYa2yah88&sig=MPPwQWcx3tFpVgXDgD6Uh4O-_sI&hl=de&sa=X&ei=ILnnVOnrOYqqPNucgIAO&ved=0CGUQ6AEwCA#v=onepage&q=openbsd%20pf%20pflow%20setup&f=false)
 
 #### Collector installieren
 
@@ -39,5 +39,5 @@ https://books.google.de/books?id=oSQBBQAAQBAJ&pg=PA177&lpg=PA177&dq=openbsd+pf+p
 
 #### Anschauen
 
-    $ tcpdump -nettti pflow0
-    $ tcpdump -nettti pflog0 host 192.168.1.19 and port 9995
+    tcpdump -nettti pflow0
+    tcpdump -nettti pflog0 host 192.168.1.19 and port 9995

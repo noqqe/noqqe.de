@@ -21,8 +21,6 @@ tags:
 title: Creative Commons | Freies Wissen und Inhalte
 ---
 
-{{< figure src="http://i.creativecommons.net/p/noqqe/" >}}
-
 Vor kurzem habe ich aufgrund der [Catalysts Grant](http://wiki.creativecommons.org/Grants) Aktion an die
 [Creative Commons Organisation](http://creativecommons.org/about/) etwas Geld
 gespendet. 100.000 $ sollen an Ersteller freier Inhalte gehen. Ich fand das
@@ -37,6 +35,7 @@ komplett frei benutzt, verändert und weitergegeben werden. Unter ein paar
 winzigen Bedinungen.
 
 [CC-BY-NC-SA](http://creativecommons.org/licenses/by-nc-sa/3.0/de/)
+
 1. Namensnennung
 2. Keine kommerzielle Nutzung der Inhalte
 3. Weitergabe unter gleichen Bedingungen

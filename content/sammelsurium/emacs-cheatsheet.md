@@ -1,7 +1,7 @@
 ---
 title: Emacs Cheatsheet
 date: 2016-02-16T21:17:51
-tags: 
+tags:
 - Software
 - emacs
 ---
@@ -9,7 +9,7 @@ tags:
 * C = CTRL
 * M = META (ALT auf OSX)
 
-OSX Keymapping http://xor.lonnen.com/2013/01/04/emacs-on-osx.html
+[OSX Keymapping](http://xor.lonnen.com/2013/01/04/emacs-on-osx.html)
 
 Alle Befehle die mit dem gleichen Kürzel anfangen
 können einfach durchgehend gedrückt werden! WTF!
@@ -20,7 +20,7 @@ können einfach durchgehend gedrückt werden! WTF!
 * Kommando abbrechen: c-g
 * Neues File öffnen: c-x c-f
 
-* Neuen Buffer erstellen: c-x b <name>
+* Neuen Buffer erstellen: c-x b `<name>`
 * Buffer schliessen: c-x k
 * Alle Buffers anzeigen: c-x c-b
 * Switch Buffer: c-x b
@@ -49,5 +49,3 @@ können einfach durchgehend gedrückt werden! WTF!
 #### Misc
 
 * c-h h - Zeigt lustige UTF-8 Zeug an
-
-

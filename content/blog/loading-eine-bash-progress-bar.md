@@ -57,12 +57,10 @@ die Bar in ein Skript einbaut werden wäre die Bedingung dem Skript
 anzupassen. Ob das jetzt ein test -e auf ein File ist das getouched wird
 oder eine Art Counter bleibt jedem selbst überlassen.
 
-
     $ git clone git://github.com/noqqe/bash-progress-bar.git
     $ cd /bash-progress-bar/
     $ ./loading.sh
     > [            #####       ]
-
 
 Alle Parameter sind natürlich anpassbar. Ich habe versucht so gut wie alles
 anpassbar zu halten. Ich hoffe das ist mir gelungen ;)

@@ -28,10 +28,10 @@ Als erstes muss das Verzeichnis initial eingerichtet werden.
 Initialisierung, hinzufügen aller Dateien und ersten Commit erstellen.
 
 ```
-$ cd $HOME/.minecraft
-$ git init
-$ git add .
-$ git commit -a -m "Initialer Commit"
+cd $HOME/.minecraft
+git init
+git add .
+git commit -a -m "Initialer Commit"
 ```
 
 Spielstände manuell Laden und Verwalten (Commits)
@@ -48,7 +48,7 @@ Creeper, Berg oder sonst was ist erstmal egal. Könnte auf jeden Fall
 kritisch für meinen Minecraft Character enden.
 
 ```
-$ git commit -a -m "Ob man den Sprung ueberlebt?"
+git commit -a -m "Ob man den Sprung ueberlebt?"
 ```
 
 Nach einem kurzen Tab in die Konsole, sollte das Spiel erstmal gesichert
@@ -102,7 +102,7 @@ zermürbend. Daher habe ich mir diese "Arbeit" von einer kleinen Bash Zeile
 abnehmen lassen.
 
 ```
-$ SEKUNDEN=10 ; while true ; do git add . ; git commit -a -m "AutoSave $(date)" ; sleep $SEKUNDEN ; done
+SEKUNDEN=10 ; while true ; do git add . ; git commit -a -m "AutoSave $(date)" ; sleep $SEKUNDEN ; done
 ```
 
 Ich denke es ist Geschmacksache wie oft bzw. in welcher Frequenz die
@@ -139,8 +139,8 @@ sich Pigs und Sheeps in Minecarts herum. Die Abzweigung lässt sich wie
 folgt bewerkstelligen.
 
 ```
-$ git branch blowup
-$ git checkout blowup
+git branch blowup
+git checkout blowup
 ```
 
 Jetzt kann man in aller Seelen Ruhe TNT verteilen und auch mal Destroyer
@@ -151,7 +151,7 @@ vielleicht wann anders ein Blogpost. Irgendwann wird aber auch das dann zur
 Routine und man wechselt via
 
 ```
-$ git checkout master
+git checkout master
 ```
 
 wieder zu den Schäfchen. Der Branch "blowup" bleibt aber bestehen und lässt
@@ -173,8 +173,8 @@ Datenmengen (ca. 300MB bei mir derzeit) und der fehlenden Privatsphäre
 flach. Remote-Server hinterlegen und aktuellen Stand pushen:
 
 ```
-$ git remote add origin git@gitserver.com:minecraft
-$ git push origin master
+git remote add origin git@gitserver.com:minecraft
+git push origin master
 ```
 
 Remote-Server auf anderen hosts klonen:

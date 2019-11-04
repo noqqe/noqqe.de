@@ -119,7 +119,6 @@ ist eine Versinnbildlichung für das [KISS Prinzip](https://en.wikipedia.org/wik
 
 > A twin-engine airplane has twice as many engine problems as a single-engine airplane
 
-
 Quellen:
 [Werner Heisenberg](https://en.wikipedia.org/wiki/File:Bundesarchiv_Bild183-R57262,_Werner_Heisenberg.jpg),
 [Grace Hopper](https://en.wikipedia.org/wiki/File:Grace_Hopper_and_UNIVAC.jpg),

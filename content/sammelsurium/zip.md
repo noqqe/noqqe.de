@@ -1,7 +1,7 @@
 ---
 title: zip
 date: 2016-03-22T16:20:21
-tags: 
+tags:
 - zip
 - Software
 ---
@@ -23,5 +23,3 @@ Watch the contents of a zip file
 Unzip
 
     unzip head.zip
-
-

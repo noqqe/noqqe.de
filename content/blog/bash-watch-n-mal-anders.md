@@ -18,20 +18,21 @@ Angewohnheit, den aktuellen Screen immer zu leeren. Gerade beim oberen
 Beispiel ist das von Nachteil (IP-Konflikt nachvollziehen), da der
 Vergleichswert weg fällt. Quick&Dirty die Lösung:
 
-
-    while true; do arp -a | grep 192.168.1.12 ; sleep 0.2 ; done
-    _________/ |  ____/  ________________/   _______/  ____/
-         |      |     |             |               |         |
-         |      |     |             |               |         - Schleifenen
-         |      |     |             |               |            de
-         |      |     |             |               |
-         |      |     |             |               - danach 0.2 Sekunden
-         |      |     |             |                  pausieren
-         |      |     |             |
-         |      |     |             - nach bestimmter Adresse suchen
-         |      |     |
-         |      |     - arp-table ausgeben
-         |      |
-         |      - fuehre aus
-         |
-         - bis strg+c
+```
+while true; do arp -a | grep 192.168.1.12 ; sleep 0.2 ; done
+\________/ |  ____/  ________________/   _______/  ____/
+     |      |     |             |               |         |
+     |      |     |             |               |         - Schleifenen
+     |      |     |             |               |            de
+     |      |     |             |               |
+     |      |     |             |               - danach 0.2 Sekunden
+     |      |     |             |                  pausieren
+     |      |     |             |
+     |      |     |             - nach bestimmter Adresse suchen
+     |      |     |
+     |      |     - arp-table ausgeben
+     |      |
+     |      - fuehre aus
+     |
+     - bis strg+c
+```

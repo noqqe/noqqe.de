@@ -62,7 +62,7 @@ arbeiten. Diese KeyCodes müssen nun Keysyms zugeordnet werden.
 Der X11 bringt hier automatisch eine kleine Übersicht mit die es sich
 lohnt mal anzusehen:
 
-    $ less /usr/share/X11/XKeysymDB
+    less /usr/share/X11/XKeysymDB
 
 Obacht: Man kann keine neuen Keysyms definieren. Man muss Keysyms aus dem DB
 File benutzen um diese dann auf den Keycode zu mappen. Dieses Mapping
@@ -73,7 +73,7 @@ findet folgendem File statt:
 
 Anschliessend kann man die Xmodmap neu laden:
 
-    $ xmodmap ~/.Xmodmap
+    xmodmap ~/.Xmodmap
 
 ## xfce Keymapping
 
@@ -86,7 +86,7 @@ Tastenkombinationen(!) hinterlegt werden. Keine Keysyms.
 Aber das macht nichts. Wie so ziemlich alles gibts ein xml File in dem die Werte
 stehen:
 
-    $ vim .config/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml
+    vim .config/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml
 
 ``` xml
 <property name="custom" type="empty">
@@ -97,6 +97,7 @@ stehen:
   <property name="hpModelock1" type="string" value="/usr/bin/i3lock"/>
 </property>
 ```
+
 Der letzte Eintrag wurde von mir per Hand eingetragen und funktioniert. Mit
 fn+F2 kann ich jetzt (wie auf meinem Keyboard belabelt) meinen Bildschirm
 sperren.

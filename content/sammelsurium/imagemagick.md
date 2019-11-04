@@ -26,4 +26,3 @@ annehmbares Maß.
 
     convert -resize 768x576 -delay 60 -loop 1 in*.JPG out.gif
     convert -resize 20% -delay 60 -loop 1 in*.JPG out.gif
-

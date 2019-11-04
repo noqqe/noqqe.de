@@ -1,24 +1,26 @@
 ---
 title: Foreman
 date: 2013-11-21T13:59:09
-tags: 
+tags:
 - Puppet
 ---
 
 ## Anleitung
 
-http://theforeman.org/manuals/1.3/index.html#3.3.3DebianPackages
+[Debian Packages](http://theforeman.org/manuals/1.3/index.html#3.3.3DebianPackages)
 
     aptitude install foreman foreman-mysql2 mysql-server mysql-client
+
+Und dann die Datenbank initialiseren
 
     create database foreman
     GRANT ALL ON foreman.* TO 'foreman'@'localhost' IDENTIFIED BY 'XXX';
 
 ## Configuration
 
-http://theforeman.org/manuals/1.3/index.html#3.5.1InitialSetup
+[InitialSetup](http://theforeman.org/manuals/1.3/index.html#3.5.1InitialSetup)
 
-~~~
+```
 /etc/foreman/database.yml
 production:
   adapter: mysql2
@@ -26,7 +28,7 @@ production:
   username: foreman
   password: PASSWORD
   host: localhost
-~~~
+```
 
 #### Pitfalls
 
@@ -68,4 +70,3 @@ node_terminus = exec
 * Update `Trusted puppetmaster hosts` to correct puppet master (as an
   array!)
 * **IMPORTANT** Set `ENC environment` to `No`!
-

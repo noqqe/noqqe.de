@@ -1,18 +1,18 @@
 ---
 title: tarsnap
 date: 2014-12-12T13:52:35
-tags: 
+tags:
 - Software
 - tarsnap
 ---
 
-### Install
+## Install
 
-#### Register
+### Register
 
     tarsnap-keygen --keyfile /root/tarsnap.key --user wa1@noqqe.de --machine noc
 
-#### Config
+### Config
 
     cachedir /var/cache/tarsnap/
     keyfile /etc/tarsnap.key
@@ -21,13 +21,12 @@ tags:
     totals
     normalmem
 
-### Useful
-#### Info
+## Useful Info
 
     tarsnap --print-stats --configfile /etc/tarsnap.conf
     tarsnap --list-archives --configfile /etc/tarsnap.conf
 
-#### Files anzeigen in einem dump
+## Files anzeigen in einem dump
 
     tarsnap --configfile /etc/tarsnap.conf -tf vim2
 
@@ -35,15 +34,15 @@ Nach bestimmten File suchen mit Liste ausgeben
 
     for x in $(tarsnap --configfile /etc/tarsnap.conf --list-archives | sort | grep home) ; do echo $x ; tarsnap --configfile /etc/tarsnap.conf -tf $x ; done  > /tmp/filelist.txt
 
-#### Dump an aktueller stelle auspacken
+## Dump an aktueller stelle auspacken
 
     tarsnap --configfile /etc/tarsnap.conf -xf vim2
 
-#### Testbackup
+## Testbackup
 
     tarsnap -c -f vim --configfile /etc/tarsnap.conf /home/noqqe/.vim/
 
-#### Cronjob
+## Cronjob
 
     ## tarsnap backup
     10      0       *       *       *       /usr/local/bin/tarsnap -c -f home-$(date +\%F-\%H-\%M) --configfile /etc/tarsnap.conf /home/noqqe/

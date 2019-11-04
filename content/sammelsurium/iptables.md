@@ -29,4 +29,3 @@ iptables -t raw -X
 Redhat default iptables deaktivieren
 
     systemctl disable firewalld
-

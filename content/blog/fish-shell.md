@@ -69,7 +69,7 @@ als sehr angenehm, da ich eine ähnliche Vorgehensweise schon in meinem `vim`
 habe. So kann ich mir via
 
 ```
-$ fisher barnybug/docker-fish-completion
+fisher barnybug/docker-fish-completion
 ```
 
 einfach die Tab Completion für `docker` holen, so ich sie denn brauche.

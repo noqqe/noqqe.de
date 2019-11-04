@@ -29,7 +29,7 @@ Bei Blocksize von 512bytes * 2048 Blöcke:
 
 Wenns fertig ist sieht das so aus:
 
-~~~
+```
 
 ## fdisk -l
 
@@ -80,5 +80,4 @@ Sector size (logical/physical): 512 bytes / 512 bytes
 I/O size (minimum/optimal): 512 bytes / 512 bytes
 Disk identifier: 0x000eac13
 
-~~~
-
+```

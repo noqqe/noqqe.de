@@ -28,7 +28,7 @@ Alles ist toll, Debian installiert, Funktionstasten gehen fast alle
 Out-of-the-Box. Nur das wlan musste kurz nachgebaut werden, weil non-free
 Firmware:
 
-    $ apt-get install firmware-iwlwifi
+    apt-get install firmware-iwlwifi
 
 Wenn ich mich jetzt noch dran gewöhnen könnte den roten Nippel zu nutzen
 statt das kleine Touchpad ist alles gut. Zumindest wurde mir das Nahe

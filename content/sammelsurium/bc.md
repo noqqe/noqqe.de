@@ -8,7 +8,7 @@ tags:
 
 ## pure bc syntax
 
-~~~ { .bc }
+``` { .bc }
 scale=2;
 r=7.8+0.5-(50 - 234) / 60 / 60);
 g=(($(date +%s ) - $begin) / 60 / 60)-0.5;
@@ -20,11 +20,11 @@ print "Gearbeitet: ";
  if(g<1) print 0;
 print g ;
 print "\n";
-~~~
+```
 
 ## Programmatisches Beispiel in Bash
 
-~~~ { .bash }
+``` { .bash }
  begin=$(date +%s -d "$1")
  (
  echo "scale=2;"
@@ -37,4 +37,4 @@ print "\n";
  ## calc finish time
  end=$((begin+29880))
  echo "Ende: $(date +%H:%M:%S -d @${end})"
-~~~
+```

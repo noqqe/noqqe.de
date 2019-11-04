@@ -31,9 +31,7 @@ gut, ein deutsches Jabber Portal zu starten und involvierte mich in Form
 von 2-3 HowTo's. Die Idee dafür hatte zero selbst und eben diese Fand in
 der Ubuntuusers-Community viel Anklang.
 
-
 **[einfachJabber.de](http://einfachjabber.de)**
-
 
 Außerdem finde ich, dass die technische Umsetzung des Portals glänzt. Der
 SourceCode der Plattform ist einsehbar unter:

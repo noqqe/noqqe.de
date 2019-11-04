@@ -71,15 +71,15 @@ Eckdaten des Tests:
 * Netzwerk über eine lokale Ethernet Bridge
 * Auslieferung der Apache2 Default HTML Page
 * Konfigurationen der MPMs alle Paket default behalten
-* Alle Benchmarks sind mit `ab` durchgeführt. Dieses Apache Benchmark Tool wird
-mit dem Paket `apache2-utils` ausgeliefert.
+* Alle Benchmarks sind mit `ab` durchgeführt. Dieses Apache Benchmark Tool
+  wird mit dem Paket `apache2-utils` ausgeliefert.
 
 ## Max Requests
 
 Ein typischer Apache Bench mit `ab` sieht ungefähr so aus:
 
 ```
-$ ab -c 200 -n 2500 http://host.example.org/
+ab -c 200 -n 2500 http://host.example.org/
 ```
 
 * `-c` gibt die Anzahl der gleichzeitigen Verbindungen an

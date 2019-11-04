@@ -46,7 +46,6 @@ SCCS zu (unter anderem) git. Die Vortragsfolien können
 [hier](http://chemnitzer.linux-tage.de/2012/vortraege/folien/941_SCCS.pdf)
 angesehen werden.
 
-
 ## Die Repository Initalisierung
 
 Initalisierung aller OpenSolaris Source Files:
@@ -120,7 +119,6 @@ betreibt. Teile aus den Blobs werden einmalig aufgehoben, wenn sie idientisch
 sind. So lässt sich viel Platz sparen und das Konstrukt des "Hochrechnens"
 bricht zusammen. Selbst wenn ich das jetzt nur verdopple kommen dabei 24 GB
 statt 15 TB raus.
-
 
 ## Die Zeit
 

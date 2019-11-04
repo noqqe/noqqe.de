@@ -1,7 +1,7 @@
 ---
 title: Apache2 Hardening
 date: 2012-01-17T12:46:54
-tags: 
+tags:
 - Software
 - Apache
 ---
@@ -28,13 +28,13 @@ Um im Browser bei der Fehlerseite zb. bei 404 keine "Signatur" anzeigen zu lasse
 
     ServerSignature Off
 
-## TRACE deaktivieren #
+## TRACE deaktivieren
 
     TraceEnable Off
 
 Durch Traces kann man den Request inkl. Header zurückgeben. Dadurch sind XSS-Attacken möglich.
 
-## PHP Informationen unterdrücken #
+## PHP Informationen unterdrücken
 
 Damit im Header auch keine PHP Informationen mehr auftauchen:
 
@@ -44,9 +44,9 @@ in der php.ini setzen:
 
     expose_php = Off
 
-=== Directory Indexing ===
+## Directory Indexing
 
-~~~
+```
  Alias /doc/ "/usr/share/doc/"
  <Directory "/usr/share/doc/">
      Options '''Indexes''' MultiViews FollowSymLinks
@@ -55,12 +55,12 @@ in der php.ini setzen:
      Deny from all
      Allow from 127.0.0.0/255.0.0.0 ::1/128
  </Directory>
-~~~
+```
 
 Sollte da umbedingt rausgenommen werden. Generell ist zu überlegen ob der
 /doc/ Alias überhaupt gebraucht werden kann.
 
-## Apache Default Readme File #
+## Apache Default Readme File
 
 Diese Files will man evtl. löschen da sie 1. total unnütz sind und 2. auf
 die Version des Apache2 schliessen lassen.
@@ -68,20 +68,20 @@ die Version des Apache2 schliessen lassen.
     /usr/share/apache2/icons/README
     /usr/share/apache2/icons/README.html
 
-## ETag Headers #
+## ETag Headers
+
+In Apache2
 
     Header unset ETag
     FileETag None
 
 dazu will man auch mal den Blogpost
-http://www.lavluda.com/2008/10/20/website-optimization-01-disable-etag-in-apache-debianubuntu/
+[Disable ETAG](http://www.lavluda.com/2008/10/20/website-optimization-01-disable-etag-in-apache-debianubuntu/)
 lesen.
-
-
 
 ## Example Config
 
-~~~
+```
 1. Apache Config:
 FileETag MTime Size
 => ETag Information Leak
@@ -102,4 +102,4 @@ ServerSignature Off
 
 6. php.ini
 expose_php = off
-~~~
+```

@@ -11,7 +11,6 @@ Wie ich das Raid auf z0idberg erstellt hab:
 
 ## mismatch_cnt Reparieren
 
-
     cat /proc/mdstat
     cat /sys/block/md0/md/mismatch_cnt
 

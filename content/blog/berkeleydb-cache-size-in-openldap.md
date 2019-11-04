@@ -38,8 +38,8 @@ Um die Files der Berkely DB zu finden und auswerten zu können werden extra Tool
 benötigt.
 
 ``` bash
-$ aptitude install db-util
-$ db_stat -h /usr/local/var/openldap-data/ -m
+aptitude install db-util
+db_stat -h /usr/local/var/openldap-data/ -m
 ```
 
 So werden erstmal alle statistischen Daten zu den einzelnen Datenbankfiles
@@ -101,7 +101,6 @@ $ db_stat -h /usr/local/var/openldap-data/ -d id2entry.bdb
 ```
 
 ### Berechnung der Cache Size
-
 
 dn2id: ( `1 root Page` + `3 internal` + `29 leaf` ) * `4KB` = `132 KB`
 

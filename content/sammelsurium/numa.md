@@ -55,5 +55,5 @@ cat /sys/devices/system/node/node*/numastat
 
 ## Links
 
-* https://linux.die.net/man/8/numactl
-* https://queue.acm.org/detail.cfm?id=2513149
+* [numactl](https://linux.die.net/man/8/numactl)
+* [acm](https://queue.acm.org/detail.cfm?id=2513149)

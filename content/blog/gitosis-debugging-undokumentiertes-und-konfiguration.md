@@ -57,20 +57,19 @@ title: Gitosis | Debugging, Undokumentiertes und Konfiguration
 ---
 
 Aktuell setze ich mich mit
-[Gitosis](http://eagain.net/gitweb/?p=gitosis.git;a=summary) auseinander.
-Ja, auseinander setzen ist gut ausgedrückt. Dieses  widerspenstige,
+[Gitosis](http://eagain.net/gitweb/?p=gitosis.git;a=summary) auseinander. Ja,
+auseinander setzen ist gut ausgedrückt. Dieses  widerspenstige,
 (standardmäßig) wenig gesprächige und nur [oberflächlich dokumentierte](http://eagain.net/gitweb/?p=gitosis.git;a=blob;f=README.rst;h=92047762c38cdf018a901b48a5a092796f51500e;hb=dedb3dc63f413ed6eeba8082b7e93ad136b16d0d)
 Stück Software sträubt sich vehement gegen den  tieferen Einsatz und
 komplexeren Ordnerhierarchien.
 
-Also im Klartext: Ich finde Gitosis super. Der Ansatz ist gut.
-Definierbare Rechte und Gruppenorganisation für Git-Repositories. Im Web
-findet man
+Also im Klartext: Ich finde Gitosis super. Der Ansatz ist gut. Definierbare
+Rechte und Gruppenorganisation für Git-Repositories. Im Web findet man
 [unzählige](http://scie.nti.st/2007/11/14/hosting-git-repositories-the-easy-and-secure-way)
 [How](http://bogdan.org.ua/2009/02/20/gitosis-how-to-add-new-repository.html)-[To's](http://www.mantisbt.org/wiki/doku.php/mantisbt:gitosis_management)
 die eine Standardinstallation wirklich gut und übersichtlich  dokumentieren
-bzw. dazu anleiten. Speziellere Anpassungen und kleinere  Grauzonen
-hingegen leider gar nicht.
+bzw. dazu anleiten. Speziellere Anpassungen und kleinere Grauzonen hingegen
+leider gar nicht.
 
 Um den Überblick über kleinere Mängel zu behalten und auch zu
 dokumentieren:
@@ -89,6 +88,7 @@ dokumentiert ist.
 ```
 ERROR:gitosis.serve.main:Repository read access denied fatal: The remote end hung up unexpectedly
 ```
+
 Nach dem  das Master-Repo die gepushte Version von Gitosis erhält, führt es
 einen  sogenannten
 [Hook](http://www.kernel.org/pub/software/scm/git/docs/githooks.html) aus.
@@ -175,7 +175,6 @@ verdeutlichen, habe ich kurz eine kleine Umgebung angelegt und mit _tree -L
         |   `-- test.git
         -- subdir3
 ```
-
 
 Angelege und initalisierte Repos werden zwar in der DEBUG-Ausgabe von
 Gitosis wargenommen (siehe 3.), aber einfach übergangen. Stattdessen wird

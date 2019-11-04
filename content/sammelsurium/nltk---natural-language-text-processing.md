@@ -1,7 +1,7 @@
 ---
 title: NLTK - Natural Language Text Processing
 date: 2016-04-13T17:01:08
-tags: 
+tags:
 - python
 - Programming
 - nltk
@@ -57,4 +57,4 @@ Find Long Words:
 
 #### Links
 
-http://nltk-trainer.readthedocs.org/en/latest/train_classifier.html
+[Train Classifier](http://nltk-trainer.readthedocs.org/en/latest/train_classifier.html)

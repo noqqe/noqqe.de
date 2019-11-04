@@ -1,17 +1,17 @@
 ---
 title: Python
 date: 2013-07-26T09:29:26
-tags: 
+tags:
 - Programming
 - Python
 ---
 
 #### Unix Epoch to ISO 8601
 
-   	import pytz
-		from datetime import datetime
-		tz = pytz.timezone('Europe/Berlin')
-		datetime.fromtimestamp(140000000, tz).isoformat()
+    import pytz
+    from datetime import datetime
+    tz = pytz.timezone('Europe/Berlin')
+    datetime.fromtimestamp(140000000, tz).isoformat()
 
 #### Crypto Example
 
@@ -49,4 +49,3 @@ tags:
         data = json.load(data_file)
 
     pprint(data)
-

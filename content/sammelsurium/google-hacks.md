@@ -1,7 +1,7 @@
 ---
 title: Google Hacks
 date: 2012-01-06T12:58:40
-tags: 
+tags:
 - Software
 ---
 
@@ -120,6 +120,7 @@ Durchsucht nur den Seiteninhalt nach den darauffolgenden Begriffen.
 "allintext" sollte nicht mit anderen Spezialausdrücken verwendet werden.
 
 #### inanchor:
+
 Mit diesem Ausdruck können nur die Linkbeschreibungen in den Seiten
 durchsucht werden. Lautet der HTML-Quelltext eines Links
 
@@ -143,8 +144,8 @@ Gibt alle Seiten aus, die auf die angegebene Seite verweisen.
 
     link:www.gaijin.at
 
-findet beispielsweise alle Seiten, die einen Link zu http://www.gaijin.at/
-enthalten. Das Präfix "http://" kann jedoch weggelassen werden. Die Suche
+findet beispielsweise alle Seiten, die einen Link zu [http://www.gaijin.at/](http://www.gaijin.at/)
+enthalten. Das Präfix "`http://`" kann jedoch weggelassen werden. Die Suche
 mit "link:" ist jedoch nicht sehr genau.
 
 #### cache:

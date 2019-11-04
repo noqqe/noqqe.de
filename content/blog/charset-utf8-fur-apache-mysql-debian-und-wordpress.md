@@ -67,7 +67,6 @@ habe ich folgende Änderungen an verschiedenen Stellen eingespielt.
 Vorzugsweise immer in den entsprechenden conf.d/ Verzeichnissen, da die
 Änderungen evtl. beim nächsten Upgrade überschrieben werden könnten.
 
-
 # �
 
 ### Apache2 Charset
@@ -122,7 +121,7 @@ define('WPLANG', 'de_DE.UTF-8');
 ### Debian Locales
 
 ```
-$ dpkg-reconfigure locales
+dpkg-reconfigure locales
 ```
 
 Sollte ich es mal wieder brauchen, lese ich hier nach.

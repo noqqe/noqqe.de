@@ -48,9 +48,9 @@ Ich dachte es wäre eine gute Idee einfach ein paar md5 Summen zu bilden.
 
 ```
 $ time seq 1 10000 | parallel 'echo {}| md5sum &> /dev/null '
-real	0m20.102s
-user	0m35.082s
-sys	0m24.918s
+real  0m20.102s
+user  0m35.082s
+sys 0m24.918s
 ```
 
 Nun. Ich bilde nicht so oft 10.000 md5 Summen. War das jetzt viel? Oder
@@ -59,9 +59,9 @@ wie das ohne Parallel so aussieht.
 
 ```
 $ time for x in $(seq 1 10000); do echo $x | md5sum &> /dev/null; done
-real	0m13.504s
-user	0m2.368s
-sys	0m3.948s
+real  0m13.504s
+user  0m2.368s
+sys 0m3.948s
 ```
 
 Ziemlich seltsam. Obwohl ich 10.000 md5 Summen gebildet habe war die
@@ -73,9 +73,9 @@ Summenbildung abbilden sollte. Ich entschied mich dazu 1000 mal eine
 
 ```
 $ time seq 1 1000 | parallel 'cat /dev/urandom | head -c 100000 | gzip &> /dev/null'
-real	0m7.845s
-user	0m4.064s
-sys	0m20.485s
+real  0m7.845s
+user  0m4.064s
+sys 0m20.485s
 ```
 
 7 Sekunden. Sieht eigentlich ganz nett aus. Und in der Schleife
@@ -83,9 +83,9 @@ sequenziell?
 
 ```
 $ time for x in $(seq 1 1000); do cat /dev/urandom | head -c 100000 | gzip &> /dev/null; done
-real	0m31.869s
-user	0m8.301s
-sys	0m33.658s
+real  0m31.869s
+user  0m8.301s
+sys 0m33.658s
 ```
 
 Okay. Jetzt weiss ich, das GNU Parallel eher was für (rechen-)intensivere

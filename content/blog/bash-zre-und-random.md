@@ -35,7 +35,7 @@ mal getroffen. Wie oft habe ich wohl ca. gespielt? Traurig.
 Wenn dieser Case eintritt, nimmt die Simulation einen etwas schrägen
 Verlauf.
 
-  * Wachsende Bevölkerung: Die Anzahl der Mitglieder einer Seite wird mit
+* Wachsende Bevölkerung: Die Anzahl der Mitglieder einer Seite wird mit
 
 ``` bash
 local size=$(($RANDOM % $humans + 1))
@@ -44,7 +44,7 @@ humans=$(($humans + $size))
 
 berechnet.
 
-  * Maximale Opfer eines Angriffs: Die Anzahl der $victims ermittelt ZRE folgendermaßen:
+* Maximale Opfer eines Angriffs: Die Anzahl der $victims ermittelt ZRE folgendermaßen:
 
 ``` bash
 defenders=$(($RANDOM % $zombies +1))

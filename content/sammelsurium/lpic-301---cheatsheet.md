@@ -1,7 +1,7 @@
 ---
 title: LPIC 301 - Cheatsheet
 date: 2013-03-06T19:21:04
-tags: 
+tags:
 - Software
 - OpenLDAP
 ---
@@ -10,12 +10,10 @@ tags:
 
 * Heilloses durcheinander in den 80ern
 * ITU (vorher CCITT) beschliesst den X.500 Standard
-
 * DSP -> Directory System Protocol
 * DAP -> Directory Access Protocol
 * DSA -> Directory Server Agent
 * DUA -> Directory User Agent
-
 * X.500 mit TCP/IP nicht möglich
 * Middleware für TCP/IP Clients
 
@@ -35,9 +33,9 @@ tags:
 
 #### LDIF Dateien
 
-* Neues Personen Objekt
+Neues Personen Objekt
 
-~~~
+```
 dn: uid=horst,ou=users,dc=example,dc=com
 objectClass: top
 objectClass: inetOrgPerson
@@ -49,36 +47,35 @@ homeDirectory: /home/horst
 loginShell: /bin/bash
 cn: Horst
 sn: Tappert
-~~~
+```
 
-* Neue Gruppe
+Neue Gruppe
 
-~~~
+```
 dn: ou=zwerge,dc=example,dc=com
 objectClass: top
 objectClass: organizationalUnit
 ou: zwerge
-~~~
+```
 
-* Modify Kodierung
+Modify Kodierung
 
-~~~
+```
 dn: uid=horst,ou=users,dc=example,dc=com
 changetype: modify
 replace: uidNumber
 uidNumber: 10042
-~~~
+```
 
 #### Schema Dateien
 
 wichtige Dateien:
 
-~~~
+```
 /usr/local/etc/openldap/schema/core.schema
 /usr/local/etc/openldap/schema/cosine.schema
 /usr/local/etc/openldap/schema/inetorgperson.schema
-~~~
-
+```
 
 #### lokale Struktur vs. Domain Struktur
 
@@ -87,75 +84,76 @@ wichtige Dateien:
 
 #### Schemata
 
-* Grundsätzliche Schemata
-    * core.schema (grundlegendes)
-    * cosine.schema (COSINE und Internet-X.500 Schema)
-    * inetorgperson.schema (Personenbezogene Schemata)
-    * misc.schema (experimenteller Shit!)
-    * nis.schema (Network Information Service Schema)
-    * openldap.schema (LDAP spezifischer Kram)
+Grundsätzliche Schemata
 
+* core.schema (grundlegendes)
+* cosine.schema (COSINE und Internet-X.500 Schema)
+* inetorgperson.schema (Personenbezogene Schemata)
+* misc.schema (experimenteller Shit!)
+* nis.schema (Network Information Service Schema)
+* openldap.schema (LDAP spezifischer Kram)
 
-* Abhängigkeiten
+Abhängigkeiten
 
-~~~
+```
 core.schema <- cosine.schema <- nis.schema
 core.schema <- cosine.schema <- inetorgperson.schema
 core.schema <- cosine.schema <- inetorgperson.schema <- openldap.schema
-~~~
-
+```
 
 #### Objektklassen
 
 Beispiel Objektklassen
 
-* STRUCTURAL Classes (strukturelle)
-    * person
-    * organizationalPerson
-    * inetOrgPerson
-    * organizationalUnit
-    * groupOfNames
-    * alias
+STRUCTURAL Classes (strukturelle)
 
-* AUXILIARY Classes (ergänzende)
-    * posixAccount
-    * posixGroup
-    * extensibleObject
+* person
+* organizationalPerson
+* inetOrgPerson
+* organizationalUnit
+* groupOfNames
+* alias
 
-* ABSTRACT Classes (nur aus Vererbungsgründen)
-    * top
+AUXILIARY Classes (ergänzende)
 
+* posixAccount
+* posixGroup
+* extensibleObject
 
-* Felder
-    * OID (2.16.840.1.113739.3.2.3)
-    * NAME
-    * DESC
-    * SUP organizationalPerson
-    * TYPE (STRUCTURAL/AUXILIARY)
-    * MUST ( 1 $ 2 $ )
-    * MAY ( 1 $ 2 $ 3 )
+ABSTRACT Classes (nur aus Vererbungsgründen)
 
+* top
+
+Felder
+
+* OID (2.16.840.1.113739.3.2.3)
+* NAME
+* DESC
+* SUP organizationalPerson
+* TYPE (STRUCTURAL/AUXILIARY)
+* MUST ( 1 $ 2 $ )
+* MAY ( 1 $ 2 $ 3 )
 
 #### Attributstypen
 
-* Stichwort im Schema lautet `attributetype`
+Stichwort im Schema lautet `attributetype`
 
-* Felder
-    * NAME
-    * DESC
-    * EQUALITY
-    * ORDERING
-    * SUBSTR
-    * SYNTAX
+Felder
 
+* NAME
+* DESC
+* EQUALITY
+* ORDERING
+* SUBSTR
+* SYNTAX
 
 #### configure Parameter
 
 Beim bauen hab ich
 
-~~~
+```
 ./configure --enable-dynamic --enable-slapd --with-cyrus-sasl --with-tls=openssl --enable-bdb --enable-crypt --enable-syncprov
-~~~
+```
 
 verwendet. Hier noch eine Übersicht
 
@@ -187,59 +185,56 @@ verwendet. Hier noch eine Übersicht
     --disable-option-checking  ignore unrecognized --enable/--with options
     --disable-FEATURE       do not include FEATURE (same as --enable-FEATURE=no)
     --enable-FEATURE[=ARG]  include FEATURE [ARG=yes]
-    --enable-debug 	  enable debugging no|yes|traditional [yes]
-    --enable-dynamic	  enable linking built binaries with dynamic libs [no]
-    --enable-syslog	  enable syslog support [auto]
-    --enable-proctitle	  enable proctitle support [yes]
-    --enable-ipv6 	  enable IPv6 support [auto]
-    --enable-local	  enable AF_LOCAL (AF_UNIX) socket support [auto]
-    --enable-slapd	  enable building slapd [yes]
-    --enable-dynacl	  enable run-time loadable ACL support (experimental) [no]
-    --enable-aci	  enable per-object ACIs (experimental) no|yes|mod [no]
-    --enable-cleartext	  enable cleartext passwords [yes]
-    --enable-crypt	  enable crypt(3) passwords [no]
-    --enable-lmpasswd	  enable LAN Manager passwords [no]
-    --enable-spasswd	  enable (Cyrus) SASL password verification [no]
-    --enable-modules	  enable dynamic module support [no]
-    --enable-rewrite	  enable DN rewriting in back-ldap and rwm overlay [auto]
-    --enable-rlookups	  enable reverse lookups of client hostnames [no]
+    --enable-debug    enable debugging no|yes|traditional [yes]
+    --enable-dynamic    enable linking built binaries with dynamic libs [no]
+    --enable-syslog   enable syslog support [auto]
+    --enable-proctitle    enable proctitle support [yes]
+    --enable-ipv6     enable IPv6 support [auto]
+    --enable-local    enable AF_LOCAL (AF_UNIX) socket support [auto]
+    --enable-slapd    enable building slapd [yes]
+    --enable-dynacl   enable run-time loadable ACL support (experimental) [no]
+    --enable-aci    enable per-object ACIs (experimental) no|yes|mod [no]
+    --enable-cleartext    enable cleartext passwords [yes]
+    --enable-crypt    enable crypt(3) passwords [no]
+    --enable-lmpasswd   enable LAN Manager passwords [no]
+    --enable-spasswd    enable (Cyrus) SASL password verification [no]
+    --enable-modules    enable dynamic module support [no]
+    --enable-rewrite    enable DN rewriting in back-ldap and rwm overlay [auto]
+    --enable-rlookups   enable reverse lookups of client hostnames [no]
     --enable-slapi        enable SLAPI support (experimental) [no]
     --enable-slp          enable SLPv2 support [no]
-    --enable-wrappers	  enable tcp wrapper support [no]
-    --enable-backends	  enable all available backends no|yes|mod
-    --enable-bdb	  enable Berkeley DB backend no|yes|mod [yes]
-    --enable-dnssrv	  enable dnssrv backend no|yes|mod [no]
-    --enable-hdb	  enable Hierarchical DB backend no|yes|mod [yes]
-    --enable-ldap	  enable ldap backend no|yes|mod [no]
-    --enable-mdb	  enable mdb database backend no|yes|mod [yes]
-    --enable-meta	  enable metadirectory backend no|yes|mod [no]
-    --enable-monitor	  enable monitor backend no|yes|mod [yes]
-    --enable-ndb	  enable MySQL NDB Cluster backend no|yes|mod [no]
-    --enable-null	  enable null backend no|yes|mod [no]
-    --enable-passwd	  enable passwd backend no|yes|mod [no]
-    --enable-perl	  enable perl backend no|yes|mod [no]
-    --enable-relay  	  enable relay backend no|yes|mod [yes]
-    --enable-shell	  enable shell backend no|yes|mod [no]
-    --enable-sock	  enable sock backend no|yes|mod [no]
-    --enable-sql	  enable sql backend no|yes|mod [no]
-    --enable-overlays	  enable all available overlays no|yes|mod
-    --enable-accesslog	  In-Directory Access Logging overlay no|yes|mod [no]
-    --enable-auditlog	  Audit Logging overlay no|yes|mod [no]
-    --enable-collect	  Collect overlay no|yes|mod [no]
-    --enable-constraint	  Attribute Constraint overlay no|yes|mod [no]
-    --enable-dds  	  Dynamic Directory Services overlay no|yes|mod [no]
-    --enable-deref	  Dereference overlay no|yes|mod [no]
-    --enable-dyngroup	  Dynamic Group overlay no|yes|mod [no]
-    --enable-dynlist	  Dynamic List overlay no|yes|mod [no]
-    --enable-memberof	  Reverse Group Membership overlay no|yes|mod [no]
-    --enable-ppolicy	  Password Policy overlay no|yes|mod [no]
-    --enable-proxycache	  Proxy Cache overlay no|yes|mod [no]
-    --enable-refint	  Referential Integrity overlay no|yes|mod [no]
-    --enable-retcode	  Return Code testing overlay no|yes|mod [no]
-    --enable-rwm       	  Rewrite/Remap overlay no|yes|mod [no]
-    --enable-seqmod	  Sequential Modify overlay no|yes|mod [no]
-    --enable-sssvlv	  ServerSideSort/VLV overlay no|yes|mod [no]
-    --enable-syncprov	  Syncrepl Provider overlay no|yes|mod [yes]
+    --enable-wrappers   enable tcp wrapper support [no]
+    --enable-backends   enable all available backends no|yes|mod
+    --enable-bdb    enable Berkeley DB backend no|yes|mod [yes]
+    --enable-dnssrv   enable dnssrv backend no|yes|mod [no]
+    --enable-hdb    enable Hierarchical DB backend no|yes|mod [yes]
+    --enable-ldap   enable ldap backend no|yes|mod [no]
+    --enable-mdb    enable mdb database backend no|yes|mod [yes]
+    --enable-meta   enable metadirectory backend no|yes|mod [no]
+    --enable-monitor    enable monitor backend no|yes|mod [yes]
+    --enable-ndb    enable MySQL NDB Cluster backend no|yes|mod [no]
+    --enable-null   enable null backend no|yes|mod [no]
+    --enable-passwd   enable passwd backend no|yes|mod [no]
+    --enable-perl   enable perl backend no|yes|mod [no]
+    --enable-relay      enable relay backend no|yes|mod [yes]
+    --enable-shell    enable shell backend no|yes|mod [no]
+    --enable-sock   enable sock backend no|yes|mod [no]
+    --enable-sql    enable sql backend no|yes|mod [no]
+    --enable-overlays   enable all available overlays no|yes|mod
+    --enable-accesslog    In-Directory Access Logging overlay no|yes|mod [no]
+    --enable-auditlog   Audit Logging overlay no|yes|mod [no]
+    --enable-collect    Collect overlay no|yes|mod [no]
+    --enable-constraint   Attribute Constraint overlay no|yes|mod [no]
+    --enable-dds      Dynamic Directory Services overlay no|yes|mod [no]
+    --enable-deref    Dereference overlay no|yes|mod [no] --enable-dyngroup   Dynamic Group overlay no|yes|mod [no] --enable-dynlist    Dynamic List overlay no|yes|mod [no] --enable-memberof   Reverse Group Membership overlay no|yes|mod [no]
+    --enable-ppolicy    Password Policy overlay no|yes|mod [no]
+    --enable-proxycache   Proxy Cache overlay no|yes|mod [no]
+    --enable-refint   Referential Integrity overlay no|yes|mod [no]
+    --enable-retcode    Return Code testing overlay no|yes|mod [no]
+    --enable-rwm          Rewrite/Remap overlay no|yes|mod [no]
+    --enable-seqmod   Sequential Modify overlay no|yes|mod [no]
+    --enable-sssvlv   ServerSideSort/VLV overlay no|yes|mod [no]
+    --enable-syncprov   Syncrepl Provider overlay no|yes|mod [yes]
     --enable-translucent  Translucent Proxy overlay no|yes|mod [no]
     --enable-unique       Attribute Uniqueness overlay no|yes|mod [no]
     --enable-valsort      Value Sorting overlay no|yes|mod [no]
@@ -252,10 +247,10 @@ verwendet. Hier noch eine Übersicht
     --with-PACKAGE[=ARG]    use PACKAGE [ARG=yes]
     --without-PACKAGE       do not use PACKAGE (same as --with-PACKAGE=no)
     --with-subdir=DIR       change default subdirectory used for installs
-    --with-cyrus-sasl	  with Cyrus SASL support [auto]
-    --with-fetch		  with fetch(3) URL support [auto]
-    --with-threads	  with threads [auto]
-    --with-tls		  with TLS/SSL support auto|openssl|gnutls|moznss [auto]
+    --with-cyrus-sasl   with Cyrus SASL support [auto]
+    --with-fetch      with fetch(3) URL support [auto]
+    --with-threads    with threads [auto]
+    --with-tls      with TLS/SSL support auto|openssl|gnutls|moznss [auto]
     --with-yielding-select  with implicitly yielding select [auto]
     --with-mp               with multiple precision statistics auto|longlong|long|bignum|gmp [auto]
     --with-odbc             with specific ODBC support iodbc|unixodbc|odbc32|auto [auto]
@@ -293,50 +288,50 @@ Misc Backends
 
 * Übersicht aller Datenbanken:
 
-~~~
+```
 db_stat -h /usr/local/var/openldap-data/ -m
-~~~
+```
 
 * Konkrete Datenbanken auslesen
 
-~~~
+```
 db_stat -h /usr/local/var/openldap-data/ -d dn2id.bdb
 db_stat -h /usr/local/var/openldap-data/ -d id2entry.bdb
-~~~
+```
 
 * Korrekte Cachesize errechnen
 
-~~~
+```
 ## db_stat -h /usr/local/var/openldap-data/ -d dn2id.bdb
-Fri Mar  8 09:11:16 2013	Local time
-53162	Btree magic number
-9	Btree version number
-Little-endian	Byte order
-duplicates, sorted duplicates	Flags
-2	Minimum keys per-page
-4096	Underlying database page size
-1007	Overflow key/data size
-2	Number of levels in the tree
-1149	Number of unique keys in the tree
-2281	Number of data items in the tree
-3	Number of tree internal pages
-11444	Number of bytes free in tree internal pages (6% ff)
-29	Number of tree leaf pages
-48174	Number of bytes free in tree leaf pages (59% ff)
-4	Number of tree duplicate pages
-642	Number of bytes free in tree duplicate pages (96% ff)
-0	Number of tree overflow pages
-0	Number of bytes free in tree overflow pages (0% ff)
-0	Number of empty pages
-0	Number of pages on the free list
-~~~
+Fri Mar  8 09:11:16 2013  Local time
+53162 Btree magic number
+9 Btree version number
+Little-endian Byte order
+duplicates, sorted duplicates Flags
+2 Minimum keys per-page
+4096  Underlying database page size
+1007  Overflow key/data size
+2 Number of levels in the tree
+1149  Number of unique keys in the tree
+2281  Number of data items in the tree
+3 Number of tree internal pages
+11444 Number of bytes free in tree internal pages (6% ff)
+29  Number of tree leaf pages
+48174 Number of bytes free in tree leaf pages (59% ff)
+4 Number of tree duplicate pages
+642 Number of bytes free in tree duplicate pages (96% ff)
+0 Number of tree overflow pages
+0 Number of bytes free in tree overflow pages (0% ff)
+0 Number of empty pages
+0 Number of pages on the free list
+```
 
 Die wichtigen Angaben nochmal in kurz
 
-~~~
-3	Number of tree internal pages
-29	Number of tree leaf pages
-~~~
+```
+3 Number of tree internal pages
+29  Number of tree leaf pages
+```
 
 Blockgröße des Dateisystems: 4KB
 
@@ -344,30 +339,30 @@ Formel:
 
     ( 1 root Page + 3 internal Pages + 29 leaf Pages) * 4KB Blocksize = 132 KB Cache Size
 
-~~~
+```
 root@vm29-ldap:~## db_stat -h /usr/local/var/openldap-data/ -d id2entry.bdb
-Fri Mar  8 09:30:37 2013	Local time
-53162	Btree magic number
-9	Btree version number
-Little-endian	Byte order
-	Flags
-2	Minimum keys per-page
-16384	Underlying database page size
-4079	Overflow key/data size
-2	Number of levels in the tree
-573	Number of unique keys in the tree
-573	Number of data items in the tree
-1	Number of tree internal pages
-15728	Number of bytes free in tree internal pages (4% ff)
-29	Number of tree leaf pages
-45622	Number of bytes free in tree leaf pages (90% ff)
-0	Number of tree duplicate pages
-0	Number of bytes free in tree duplicate pages (0% ff)
-0	Number of tree overflow pages
-0	Number of bytes free in tree overflow pages (0% ff)
-0	Number of empty pages
-0	Number of pages on the free list
-~~~
+Fri Mar  8 09:30:37 2013  Local time
+53162 Btree magic number
+9 Btree version number
+Little-endian Byte order
+  Flags
+2 Minimum keys per-page
+16384 Underlying database page size
+4079  Overflow key/data size
+2 Number of levels in the tree
+573 Number of unique keys in the tree
+573 Number of data items in the tree
+1 Number of tree internal pages
+15728 Number of bytes free in tree internal pages (4% ff)
+29  Number of tree leaf pages
+45622 Number of bytes free in tree leaf pages (90% ff)
+0 Number of tree duplicate pages
+0 Number of bytes free in tree duplicate pages (0% ff)
+0 Number of tree overflow pages
+0 Number of bytes free in tree overflow pages (0% ff)
+0 Number of empty pages
+0 Number of pages on the free list
+```
 
 bei der
 
@@ -378,7 +373,6 @@ Einbau
     DB_CONFIG
     set_cachesize 2 524288000 1
     dbconfig set_cachesize 2 524288000 1
-
 
 #### net::ldap Perl Modul
 
@@ -391,7 +385,6 @@ Einbau
                             filter => "(&(sn=Barr) (o=Texas Instruments))"
                           );
 
-
      $result = $ldap->add( 'cn=Barbara Jensen, o=University of Michigan, c=US',
                            attrs => [
                              'cn'   => ['Barbara Jensen', 'Barbs Jensen'],
@@ -403,10 +396,7 @@ Einbau
                            ]
                          );
 
-
      $mesg = $ldap->unbind;   ## take down session
-
-
 
 #### Ablauf einer LDAP Session
 
@@ -419,40 +409,43 @@ UNBIND (eig BIND) ->
 
 #### ACL
 
-* Reihenfolge matters, a lot!
+Reihenfolge matters, a lot!
 
-* Generell
+Generell
 
+```
 access to <was>
        by <wer> <wie>
+```
 
-* Beispiel
+Beispiel
 
-~~~
+```
 access to *
         by self write
         by dn.exact="cn=repl,dc=example,dc=com" read
         by dn.exact="cn=auth,dc=example,dc=com" read
         by users read
         by * auth
-~~~
+```
 
-* Access level und deren Privileges
-    * 0 - none (keine Permissions)
-    * d - disclose (Erlaubt Fehlermeldungen anzuzeigen)
-    * x - auth (Zugriff für Auth auf userPassword oder ähnliches)
-    * c - compare (vergleichen)
-    * s - search (NICHT! Suchergebnisse ausgeben, sondern Recht mit Suchfiltern zu suchen9
-    * r - read (ausgabe von Suchergebnissen)
-    * w - write (schreiben
+Access level und deren Privileges
+
+* 0 - none (keine Permissions)
+* d - disclose (Erlaubt Fehlermeldungen anzuzeigen)
+* x - auth (Zugriff für Auth auf userPassword oder ähnliches)
+* c - compare (vergleichen)
+* s - search (NICHT! Suchergebnisse ausgeben, sondern Recht mit Suchfiltern zu suchen9
+* r - read (ausgabe von Suchergebnissen)
+* w - write (schreiben
 
 Beispiel für nutzung von Privileges
 
-~~~
+```
 access to dn.base=ou=manager usw
        by self +rw
        by * +x
-~~~
+```
 
 #### DN Styles
 
@@ -473,28 +466,28 @@ access to dn.base=ou=manager usw
 
 Am Master
 
-~~~
+```
 replogfile $file
 replica uri=""
         binddn=""
         bindmethod=simple
         credentials=secret
         starttls=yes
-~~~
+```
 
 Am Slave
 
-~~~
+```
 updatedn "cn=repl..." (User füer Schreibende Zugriffe)
 updateref "ldap://" (Host an den schreibzugriffe weitergeleitet werden
-~~~
+```
 
 Danach Inital dump erstellen und dann einspielen:
 
-~~~
+```
 slapcat > master.ldif
 slapadd -f slapd.conf -l master.ldif
-~~~
+```
 
 danach
 
@@ -508,9 +501,9 @@ danach
 
 * Manuell die repliaktion wieder starten:
 
-~~~
+```
 slurpd -r /usr/local/var/openldap-slurp/replica/slave.example.com\:389.rej -o
-~~~
+```
 
 Auch one-Shot mode genannt.
 
@@ -526,17 +519,17 @@ Auch one-Shot mode genannt.
 
 * Konfiguration am Master
 
-~~~
+```
 overlay syncprov
 syncprov-checkpoint     100     10
 syncprov-sessionlog     100
 
 limits dn.exact="cn=repl,dc=example,dc=com" size=unlimited time=unlimited
-~~~
+```
 
 * Konfiguration am Slave
 
-~~~
+```
 ## Replica Consumer
 syncrepl        rid=001
                 provider=ldaps://10.10.0.29
@@ -553,35 +546,35 @@ syncrepl        rid=001
                 tls_reqcert=never
                 timelimit=unlimited
                 sizelimit=unlimited
-~~~
-
+```
 
 #### Verschlüsselte Verbindung zum LDAP
 
 * Serverseitig
 
-~~~
+```
 TLSCertificateFile
 TLSCertificateKeyFile
 TLSCACertificateFile
 TLSVerfiyClient never,allow,try,demand(hard)
-~~~
+```
 
 * Clientseitig
 
-~~~
+```
 TLS_CACERT /pfad/ (allgemein)
 TLS_REQCERT never,allow,try,demand(hard)
 
 ## mit client auth
 TLS_CERT /pfad/
 TLS_KEY /pfad/
-~~~
+```
 
-* Verbindungsmethoden
-    * ldaps:// (SSL
-    * -Z (TLS, fallback auf unverschlüsselt)
-    * -ZZ (Ohne Fallback mit abbruch der conn)
+Verbindungsmethoden
+
+* ldaps:// (SSL
+* -Z (TLS, fallback auf unverschlüsselt)
+* -ZZ (Ohne Fallback mit abbruch der conn)
 
 #### security Methoden
 
@@ -597,15 +590,15 @@ TLS_KEY /pfad/
 
 #### SASL
 
-* Mechs
-    * PLAIN
-    * CRAM-MD5
-    * DIGEST-MD5
-    * GSSAPI (Kerberos)
-    * EXTERNAL
+Mechs
 
-* Bind durch: -Y DIGEST-MD5 -U user@example.com
+* PLAIN
+* CRAM-MD5
+* DIGEST-MD5
+* GSSAPI (Kerberos)
+* EXTERNAL
 
+Bind durch: -Y DIGEST-MD5 -U user@example.com
 
 #### Wichtige Konfigurationsparameter slapd.conf
 
@@ -628,7 +621,7 @@ TLS_KEY /pfad/
 
 #### Loglevel
 
-~~~
+```
 0 - none
 1 - trace (Systemaufrufe)
 2 - packets
@@ -646,63 +639,66 @@ TLS_KEY /pfad/
 8192 - index
 16384 - sync
 -1 - all
-~~~
+```
 
 #### Referals in LDAP
 
 * Referenzieren auf andere Verzeichnisbäume
 * Inhalt der nicht im lokalen DIT ist wird weitergeleitet
 
-~~~
+```
 DEREF never
-~~~
+```
 
 #### yp Dienste / white Pages
 
 * Befehle
 
-~~~
+```
 ypcat -x                 ## alle Maps ausgeben
 ypcat passwd             ## passwd NIS ausgeben
 yptest                   ## Testet Verbindung zum YP Server
 /etc/yp.conf             ## enthält ypserver nis.example.com)
 ypwhich -d exaple.com    ## YPServer finden
-~~~
+```
 
-* Typische Maps
-    * passwd
-    * group
-    * hosts
-    * networks
-    * protocols
-    * services
-    * fstab
-    * aliases
-    * rpc
-    * profile
-    * netgroup
-    * ethers
-    * netmasks
-    * bootparams
+Typische Maps
 
-* Schema Dateien
-    * nis.schema
+* passwd
+* group
+* hosts
+* networks
+* protocols
+* services
+* fstab
+* aliases
+* rpc
+* profile
+* netgroup
+* ethers
+* netmasks
+* bootparams
 
-* ypldapd Konfiguration
-    * ypdomain - NIS DOMAIN
-    * ldaphost - hosts
-    * basedn
-    * binddn
-    * bindcred
-    * ldapversion
+Schema Dateien
+
+* nis.schema
+
+ypldapd Konfiguration
+
+* ypdomain - NIS DOMAIN
+* ldaphost - hosts
+* basedn
+* binddn
+* bindcred
+* ldapversion
 
 #### Pam ldap Modul
 
-* Grober umriss
+Grober umriss
 
 #### nsswitch
 
-* /etc/nsswitch.conf
+/etc/nsswitch.conf
 
 #### NIS
 
@@ -725,7 +721,7 @@ Ebenfalls Einbindung über pam
 auth-ldap (Zum Authentifizieren)
 Beispiel:
 
-~~~
+```
 <Directory /var/www>
  AuthType Basic
  AuthName Restricted
@@ -733,7 +729,7 @@ Beispiel:
  AuthLDAPUrl ldap://127.0.0.1:389/ou=users,dc=example,dc=com?uid?one?objectClass=posixAccount
  require valid-user
 </Directory>
-~~~
+```
 
 mod-ldap (Cache tuning zum LDAP Server)
 
@@ -746,7 +742,7 @@ mod-ldap (Cache tuning zum LDAP Server)
 
 Anbindung über Modules
 
-~~~
+```
 modules {
  ldap {
   server = "ldap.example.com"
@@ -765,7 +761,7 @@ modules {
   }
  }
 }
-~~~
+```
 
 ##### Cups
 
@@ -775,7 +771,7 @@ den scheiss tu ich mir nicht an.
 
 Über Postmap Files gelöst
 
-~~~
+```
 cat /etc/postfix/
 server_host = ldap://
 search_base = dc=...
@@ -789,7 +785,7 @@ tls_key_file =
 tls_require_cert = yes
 bind = sasl
 sasl_mechs = EXTERNAL
-~~~
+```
 
 ##### Sendmail
 
@@ -806,15 +802,16 @@ ObjectClasses:
 
 #### ldap zu Samba
 
-* Schemata samba3.schema
+Schemata samba3.schema
 
-* ObjectClasses
-    * sambaSamAccount
-    * sambaGroupMapping
+ObjectClasses
 
-* smb.conf
+* sambaSamAccount
+* sambaGroupMapping
 
-~~~
+smb.conf
+
+```
 passdb backend = ldapsam:ldap://slapd.example.com
 ldap admin dn = "cn..."
 ldap ssl = start tls
@@ -823,23 +820,22 @@ ldap group suffix = ou=groups
 ldap machine suffix = ou=computers
 ldap suffix = dc=example=com
 ldap filter = (&(uid\%u) (objectclass=sambaSamAccount)
-~~~
+```
 
+pbedit
 
-* pbedit
-
-~~~
+```
 pbedit -Lv noqqe     ## user infos aus smb backend
 pbedit -Lv rechner$  ## rechner infos
 pbedit -Lw noqqe     ## altes smbpasswd format
 pbedit -a noqqe      ## neuen benutzer anlegen
 
 pbedit -i smbpasswd:/etc/samba/smbpasswd -e ldapsam:ldap://slapd.example.com   ## import smbpasswd und export nach ldap
-~~~
+```
 
 #### Active Directory und LDAP
 
-* Funktion von AD (KERBEROS)
+Funktion von AD (KERBEROS)
 
 KINIT Command
 
@@ -847,28 +843,28 @@ KINIT Command
 -> TGS (Ticket Granting Service)
 -> TGS (Ticket Granting Service an Server übermitteln)
 
-* Anbindung in ldap.conf des PAM Moduls
+Anbindung in ldap.conf des PAM Moduls
 
-~~~
+```
 pam_login_attribute sAMAccountName
 pam_filter objectclass=User
 pam_password ad
-~~~
+```
 
-* Anbindung von Linux an ad (was braucht man?)
+Anbindung von Linux an ad (was braucht man?)
 
 pam_krb5 Modul:
 
-~~~
+```
 auth sufficient pam_krb5.so
 session required pam_krb5.so
 account required pam_krb5.so
 password sufficient pam_krb5.so
-~~~
+```
 
 /etc/krb5.conf
 
-~~~
+```
 [libdefaults]
 default_realm = EXAMPLE.COM
 dns_lookup_realm = true
@@ -892,30 +888,30 @@ pam = {
  forewardable = true
  krb4_convert = false
 }
-~~~
+```
 
 #### Kapazitätsplanung
 
-* vmstat
+vmstat
 
-~~~
+```
 vmstat 5
-~~~
+```
 
-* iostat
+iostat
 
-~~~
+```
 iostat -x 1
 iostat -x
-~~~
+```
 
-* sar
+sar
 
-~~~
+```
 sar -r    #Speicheraulsastung
 sar -n DEV   ## Netzwerkauslastung
 sar -d -p  #Festplattenauslastung
 sar -f /path/ #bestimmtes file nutzen
 sar -s 10:00:00 -e 12:00:00
 sar -A     ## alles des aktuellen tages
-~~~
+```

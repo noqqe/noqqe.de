@@ -1,7 +1,7 @@
 ---
 title: Filesystem ACLs
 date: 2011-11-28T14:46:45
-tags: 
+tags:
 - Filesystems
 ---
 
@@ -19,7 +19,7 @@ Setzen (Gruppe biertrinker darf rw auf die services):
 
     setfacl -m g:biertrinker:rw- /etc/services
 
-Für Mehr einfach hier schaun: http://www.vanemery.com/Linux/ACL/linux-acl.html
+Für Mehr einfach hier schaun: [Linux ACLs](http://www.vanemery.com/Linux/ACL/linux-acl.html)
 Weitere Beispiele
 
     setfacl -R -m mensch:rwx ordner/

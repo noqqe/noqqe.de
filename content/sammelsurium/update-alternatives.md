@@ -7,7 +7,7 @@ tags:
 
 from debian
 
-~~~
+```
 sudo update-alternatives --install /usr/bin/x-www-browser x-www-browser /usr/local/bin/firefox/firefox 500
 sudo update-alternatives --config x-www-browser
-~~~
+```

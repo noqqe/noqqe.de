@@ -49,14 +49,12 @@ hier:
 [George Notaras](http://www.g-loaded.eu/2005/09/30/change-the-console-resolution/)
 hat für **grub 1 und 2(!)** folgende wunderschöne Tabelle gebastelt.
 
-
          | 640x480  800x600  1024x768 1280x1024
     ----+-------------------------------------
     256 |  0x301   0x303    0x305    0x307
     32k |  0x310   0x313    0x316    0x319
     64k |  0x311   0x314    0x317    0x31A
     16M |  0x312   0x315    0x318    0x31B
-
 
 Dieser Hex-Wert muss als zusätzlicher Parameter in **/boot/grub/menu.lst**
 an den Kernel angehängt werden. Folgendermaßen kann sowas aussehen:

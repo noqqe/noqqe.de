@@ -45,7 +45,6 @@ Größe eines Ordners anschaeun
 
     hadoop fs -du <target_on_HDFS>
 
-
 #### Administratives
 
 Übersicht
@@ -106,7 +105,6 @@ Get current master
   er wird für allerhand meta daten information missbrauchtn.
   Wenn der Primary down ist, hilft auch der Secondary nichts.
 
-
 #### Namenode Reformat
 
     n1: /etc/init.d/hadoop-hdfs-namenode stop
@@ -139,10 +137,10 @@ Get current master
 
 as a superuser in hadoop (hdfs)
 
-~~~
+```
 $ mapred job -list
 2 jobs currently running
 JobId   State   StartTime       UserName        Priority        SchedulingInfo
 job_201403191443_0007   1       1395240869633   ubuntu  NORMAL  NA
 job_201403191443_0010   1       1395241066090   ubuntu  NORMAL  NA
-~~~
+```

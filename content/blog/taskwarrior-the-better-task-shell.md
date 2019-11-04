@@ -64,28 +64,28 @@ die im großen und ganzen auf einer Bash basiert.
 
 ### Features
 
-  * History vorwärts und rückwärts via Pfeiltasten
-  * Cursorbewegung vorwärts und rückwerts in der aktuellen Zeile
-  * Alle Kommandos nativ benutzbar ( $ add pri:H pro:Living Miete zahlen )
-  * ID's direkt nutzbar ( $ 34 edit oder $ 12 pri:H )
-  * separate Logging Funktion in $HOME/.better-task-shell_history
-  * OS Befehle weiterhin nutzbar! ( $ vim /home/user/foobar.txt )
-  * Automatische Erkennung von doppelten Aliases
-  * Automatische Alias Generierung fuer os-binaries ( $ ls  = task ls  ; os-ls = /bin/ls )
-  * Auto-Komplettierung aller Taskwarrior Befehle und definierte Aliase
+* History vorwärts und rückwärts via Pfeiltasten
+* Cursorbewegung vorwärts und rückwerts in der aktuellen Zeile
+* Alle Kommandos nativ benutzbar ( $ add pri:H pro:Living Miete zahlen )
+* ID's direkt nutzbar ( $ 34 edit oder $ 12 pri:H )
+* separate Logging Funktion in $HOME/.better-task-shell_history
+* OS Befehle weiterhin nutzbar! ( $ vim /home/user/foobar.txt )
+* Automatische Erkennung von doppelten Aliases
+* Automatische Alias Generierung fuer os-binaries ( $ ls  = task ls  ; os-ls = /bin/ls )
+* Auto-Komplettierung aller Taskwarrior Befehle und definierte Aliase
 
 ### Known Bugs
 
+* Neu angelegt tasks  können derzeit noch nicht via ID aufgerufen werden.
 
-  * Neu angelegt tasks  können derzeit noch nicht via ID aufgerufen werden.
 ```
 $ add Uberweisung einwerfen
 Created Task 45
 $ 45 pri:H
 bash: 45: Kommando nicht gefunden
 ```
-  * Mode -v ist bis jetzt noch nicht benutzbar aber bereits implementiert.
 
+* Mode -v ist bis jetzt noch nicht benutzbar aber bereits implementiert.
 
 Das ganze gibts jetzt unter
 [http://github.com/noqqe/better-task-shell](http://github.com/noqqe/better-task-shell)
@@ -94,6 +94,6 @@ Das ganze gibts jetzt unter
 
 ```
 git clone git@github.com:noqqe/better-task-shell.git
-$ cd better-task-shell
-$ ./better-task-shell
+cd better-task-shell
+./better-task-shell
 ```

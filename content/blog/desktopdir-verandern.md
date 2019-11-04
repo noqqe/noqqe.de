@@ -22,17 +22,17 @@ Falls jemand also bock hat das home verzeichnis als Desktop zu haben:
 Einfach wie ich (*depp*) /home/user/Desktop nach /dev/null verschieben oder
 einfach oben definieren ;) (Tipp: ich würde letzteres wählen...)
 
-Das ganze sieht dann ungefähr so aus :
+Das ganze sieht dann ungefähr so aus:
 
-
-    XDG_DESKTOP_DIR="$HOME/<span class="highlight">Desktop</span>"
-    XDG_DOWNLOAD_DIR="$HOME/<span class="highlight">Desktop</span>"
-    XDG_TEMPLATES_DIR="$HOME/Templates"
-    XDG_PUBLICSHARE_DIR="$HOME/Public"
-    XDG_DOCUMENTS_DIR="$HOME/Documents"
-    XDG_MUSIC_DIR="$HOME/Music"
-    XDG_PICTURES_DIR="$HOME/Pictures"
-    XDG_VIDEOS_DIR="$HOME/Videos"
-
+```
+XDG_DESKTOP_DIR="$HOME/<span class="highlight">Desktop</span>"
+XDG_DOWNLOAD_DIR="$HOME/<span class="highlight">Desktop</span>"
+XDG_TEMPLATES_DIR="$HOME/Templates"
+XDG_PUBLICSHARE_DIR="$HOME/Public"
+XDG_DOCUMENTS_DIR="$HOME/Documents"
+XDG_MUSIC_DIR="$HOME/Music"
+XDG_PICTURES_DIR="$HOME/Pictures"
+XDG_VIDEOS_DIR="$HOME/Videos"
+```
 
 Aber naja ich sag das nur mal so ... *grrr*

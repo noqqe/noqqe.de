@@ -44,7 +44,6 @@ dabei heraus.
 
 Wesentliche Änderungen:
 
-
 * .deb Paket und dadurch weder Probleme mit Installation/Anpassung ans
   System oder nicht vorhandenen Abhängigkeiten wie tar, unrar und bzip2.
   Diese werden jetzt automatisch mit installiert falls nicht vorhanden.

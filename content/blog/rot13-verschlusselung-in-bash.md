@@ -59,7 +59,7 @@ implementieren. Nach kurzem googlen findet man immer wieder eine kleine
 wirklich ausgefuchste, trickreiche Zeile:
 
 ``` bash
-$ tr A-Za-z N-ZA-Mn-za-m
+tr A-Za-z N-ZA-Mn-za-m
 ```
 
 Irgendwie war mir das aber zu langweilig, mir die Arbeit von einem
@@ -86,7 +86,7 @@ hello world
 
 ```
 # Zeichentabelle anzeigen
- $ ./rot13 -t
+$ ./rot13 -t
 ```
 
 Sollten Zeichen vorkommen, die sicht nicht im Table befinden, werden diese

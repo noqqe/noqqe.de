@@ -44,7 +44,6 @@ Der Plan war: In einen Unterordner content/ für jede Seite ein
 werden. Umgeben Natürlich von header.tmpl und footer.tmpl. Auf dem
 Filesystem sieht das in etwa so aus:
 
-
 ```
     |-- content
     |   |-- 001.impressum.markdown

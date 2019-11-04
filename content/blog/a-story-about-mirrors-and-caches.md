@@ -58,7 +58,6 @@ Software zu Betreiben und um der
 [Dependency-Hölle](https://en.wikipedia.org/wiki/Dependency_hell) zu
 entkommen.  Auch dieser Blogpost wurde in so einer LXC-VM gebaut.
 
-
 ### Mirroring
 
 Natürlich fällt bei (im Schnitt) 20-25 VMs zusätzlicher Verwaltungsaufwand an,
@@ -88,8 +87,8 @@ möchte man [apt-cacher-ng](https://www.unix-ag.uni-kl.de/~bloch/acng/) nutzen.
 konfigurierten Debian Mirror.
 
 ```
-$ sudo aptitude install apt-cacher-ng
-$ sudo /etc/init.d/apt-cacher-ng start
+sudo aptitude install apt-cacher-ng
+sudo /etc/init.d/apt-cacher-ng start
 ```
 
 Möchte ein Client Updates herunterladen, bemüht sich apt-cacher-ng nach

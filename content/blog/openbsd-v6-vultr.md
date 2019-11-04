@@ -100,13 +100,12 @@ genau braucht einfach in Wikipedia/RFC nachlesen.
 Aber jetzt...
 
 ```
-$ pfctl -f /etc/pf.conf
-$ sh /etc/netstart vio0
-$ rcctl restart slaacd
+pfctl -f /etc/pf.conf
+sh /etc/netstart vio0
+rcctl restart slaacd
 ```
 
 und zack, hab ich ein funktionierendes v6.
-
 
 ```
 # slaacctl show interface vio0
@@ -139,7 +138,6 @@ vio0:
                 Preference: Medium
                 updated: 2018-02-04 16:11:41; 342s ago, timeout:       1443s
 ```
-
 
 Und sogar `ping6 heise.de` tickt fröhlich vor sich hin.
 

@@ -2,12 +2,8 @@
 comments:
 - author: Martin
   content: 'FreeBSD hat auch weiterhin newsyslog: https://github.com/freebsd/freebsd/tree/master/usr.sbin/newsyslog
-
-
     Probier doch mal ob es unter OpenBSD kompiliert, wahrscheinlich erfordert es nur
-    kleine Anpassungen der includes.
-
-'
+    kleine Anpassungen der includes.'
   date: '2014-03-02T16:46:15.344601'
 - author: noqqe
   content: "Oh, hab auch bei FreeBSD in usr.bin/ gesucht. Thx!\n\nBei compilen bin
@@ -16,11 +12,7 @@ comments:
   date: '2014-03-02T19:35:17.954852'
 - author: waldner
   content: 'Das $(ls -1 ...) ist nicht notwendig, man kann einfach:
-
-
-    for x in /var/www/logs/*.log; do ...
-
-'
+    for x in /var/www/logs/*.log; do ...'
   date: '2014-03-06T22:20:32.983181'
 - author: noqqe
   content: Jap, vollkommen richtig. Beim basteln entsteht sowas manchmal, man kennt
@@ -69,18 +61,20 @@ $ newsyslog -nv
 Unter [FreeBSD](http://www.freebsd.org/cgi/man.cgi?query=newsyslog.conf&sektion=5)
 enthält die newsyslog Version das Flag `G`.
 
-> G   indicates that the specified logfile_name is a shell pat-
->     tern, and that newsyslog(8) should archive all filenames
->     matching that pattern using the other options on this
->     line.  See glob(3) for details on syntax and matching
->     rules.
+```
+G   indicates that the specified logfile_name is a shell pat-
+    tern, and that newsyslog(8) should archive all filenames
+    matching that pattern using the other options on this
+    line.  See glob(3) for details on syntax and matching
+    rules.
+```
 
 Unter oBSD ist dieser Modus leider nicht verfügbar. Was für Lösungen sind also möglich? Ich hab mich
 vorerst dafür entschieden die Liste der Entries mit einem Einzeiler zu
 generieren.
 
 ``` bash
-$ for x in $(ls -1 /var/www/logs/*.log) ; do echo -e "$x\t\t" '644  7     *    24    Z' ; done
+for x in $(ls -1 /var/www/logs/*.log) ; do echo -e "$x\t\t" '644  7     *    24    Z' ; done
 ```
 
 und beim letzten Eintrag den entsprechenden nginx reload Command anfügen.

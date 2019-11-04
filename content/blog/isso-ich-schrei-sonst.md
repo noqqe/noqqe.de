@@ -9,7 +9,6 @@ comments:
   content: '"Privacy!" Mhm, ja, soso. Das Flattr-Script in deiner Sidebar kommt dir
     nicht komisch vor?
 
-
     Ach, wen frag'' ich das eigentlich...'
   date: '2013-11-10T16:24:11.743617'
 - author: noqqe
@@ -58,8 +57,8 @@ Installation dank guter Python Packages unter [OpenBSD](http://openbsd.org)
 easy.
 
 ``` bash
-$ sudo pkg_add py-pip
-$ sudo pip install isso
+sudo pkg_add py-pip
+sudo pip install isso
 ```
 
 Der Rest läuft dann genauso, wie unter anderen Distributionen auch. Zusätzlich

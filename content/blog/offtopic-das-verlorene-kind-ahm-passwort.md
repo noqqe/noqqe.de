@@ -43,8 +43,8 @@ title: Offtopic | Das verlorene Kind...ahm, Passwort
 Mich verwunderte heute die Konnektierung zu meinem ICQ Account. Anstatt einer Hand
 voll Kontakten begrüsste mich in Adium eine unschöne Fehlermeldung (ohne jetzt das
 Layout oder die Forumlierung der Fehlkonnektion Adiums in Frage stellen zu wollen).
-Mit der üblichen Protokollumstellung hatte ich gerechnet. <yoda> Einspielen, ich
-tat, das Update</yoda>. Erst nach erneutem Versuch fiel mir der Inhalt der Fehlermeldung
+Mit der üblichen Protokollumstellung hatte ich gerechnet. \<yoda\> Einspielen, ich
+tat, das Update\</yoda\>. Erst nach erneutem Versuch fiel mir der Inhalt der Fehlermeldung
 auf. Die Flüssigkeitskristalle des LCD-Displays meines Macbooks bildeten mit Tausenden
 von Pixel die beiden Wörter "Falsches Passwort".
 

@@ -44,10 +44,7 @@ zu ragen. Unbegründet finde ich.
 Auf Twitter erklärt jemand Map-Reduce mithilfe einer Versinnbildlichung
 unter Unix.
 
-<blockquote class="twitter-tweet"><p>Explaining map/reduce to Unix folks <a
-href="http://t.co/mtF3SvFMaC">pic.twitter.com/mtF3SvFMaC</a></p>&mdash; Todor Genov (@tgenov) <a
-href="https://twitter.com/tgenov/statuses/374915872932237312">September 3,2013</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+{{< figure src="/uploads/2013/09/twitter.png" >}}
 
 Was in den Replies alles auftaucht sollte jetzt keine Überraschung mehr sein.
 Mich beschleicht das Gefühl, dass mittlerweile mehr aus Gewohnheit drauf los

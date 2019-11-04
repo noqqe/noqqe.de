@@ -40,7 +40,7 @@ werden. Seit 6 Releases mach ich das jetzt so.
 
 ### Pre-Upgrade
 
-* Upgrade Manual auf http://www.openbsd.org/faq/upgrade5X.html genauestens durchlesen
+* Upgrade Manual auf [http://www.openbsd.org/faq/upgrade5X.html](http://www.openbsd.org/faq/upgrade5X.html) genauestens durchlesen
 * Downtime im Monitoring eintragen
 * root Login direkt über sshd sicherstellen
 * Sicherstellen dass root eine /bin/ksh zugewiesen hat
@@ -73,18 +73,24 @@ wget https://ftp.uni-erlangen.de/openbsd/$VER/$ARCH/SHA256.sig
 
 * Packages: PKG_PATH in ksh/bash aktualisieren und updaten
 
-		export PKG_PATH=https://ftp.uni-erlangen.de/openbsd/$(uname -r)/packages/$(uname -m)/
-		pkg_add -u
+```
+export PKG_PATH=https://ftp.uni-erlangen.de/openbsd/$(uname -r)/packages/$(uname -m)/
+pkg_add -u
+```
 
 * CVS src Tree updaten
 
-		cd /usr
-		cvs -qd anoncvs@ftp.hostserver.de:/cvs get -rOPENBSD_6_X -P src
+```
+cd /usr
+cvs -qd anoncvs@ftp.hostserver.de:/cvs get -rOPENBSD_6_X -P src
+```
 
 * CVS ports Tree updaten
 
-		cd /usr
-		cvs -qd anoncvs@ftp.hostserver.de:/cvs get -rOPENBSD_6_X -P ports
+```
+cd /usr
+cvs -qd anoncvs@ftp.hostserver.de:/cvs get -rOPENBSD_6_X -P ports
+```
 
 ### Errata
 

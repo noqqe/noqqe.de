@@ -12,7 +12,7 @@ tags:
 
 ## Demo Template
 
-~~~
+```
 #cloud-config
 apt_upgrade: false
 
@@ -29,4 +29,4 @@ puppet:
     agent:
       server: "{{puppet_server}}"
       environment: "staging"
-~~~
+```

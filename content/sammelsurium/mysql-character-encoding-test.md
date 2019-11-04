@@ -1,7 +1,7 @@
 ---
 title: MySQL Character Encoding Test
 date: 2012-02-22T13:41:55
-tags: 
+tags:
 - Databases
 - MySQL
 ---
@@ -13,31 +13,31 @@ werden encoded die LOCALES des Systems die Chars:
 
 Mit UTF8 (wie man glauben möchte der richtige)
 
-~~~
+```
 mysql --default-character-set=UTF8 -e "select id, query from data where query like '%nchen%' limit 1; "
 +----+----------------------------------------------------------+
 | id | query                                                    |
 +----+----------------------------------------------------------+
 |  7 | 81539 MÃ¼nchen, Deutschland                              |
 +----+----------------------------------------------------------+
-~~~
+```
 
 Mit Latin1
 
-~~~
+```
 mysql --default-character-set=LATIN1 -e "select id, query from data where query like '%nchen%' limit 1; "
 +----+-------------------------------------------------------+
 | id | query                                                 |
 +----+-------------------------------------------------------+
 |  7 | 81539 München, Deutschland                            |
 +----+-------------------------------------------------------+
-~~~
+```
 
-## Charset Configs #
+## Charset Configs
 
-### Latin1 ##
+### Latin1
 
-~~~
+```
 [client]
 default-character-set = latin1
 [mysqld]
@@ -52,11 +52,11 @@ default-character-set = latin1
 default-character-set = latin1
 [mysql]
 default-character-set = latin1
-~~~
+```
 
-### UTF8 ##
+### UTF8
 
-~~~
+```
 [client]
 default-character-set = utf8
 [mysqld]
@@ -71,17 +71,17 @@ default-character-set = utf8
 default-character-set = utf8
 [mysql]
 default-character-set = utf8
-~~~
+```
 
-## Richtig Dumpen #
+## Richtig Dumpen
 
-~~~
+```
 mysqldump --default-character-set="UTF8" db > db_utf8.sql
 mysql --default-character-set="UTF8" db < db_utf8.sql
-~~~
+```
 
-## Links #
+## Links
 
-http://www.gerd-riesselmann.de/softwareentwicklung/php-und-utf-8-eine-anleitung-teil-1-mysql
+[PHP-UTF8 Anleitung](http://www.gerd-riesselmann.de/softwareentwicklung/php-und-utf-8-eine-anleitung-teil-1-mysql)
 
-http://dev.mysql.com/doc/refman/5.1/de/charset-connection.html
+[Charset Connection](http://dev.mysql.com/doc/refman/5.1/de/charset-connection.html)

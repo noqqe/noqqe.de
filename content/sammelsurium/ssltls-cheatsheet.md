@@ -1,7 +1,7 @@
 ---
 title: SSL/TLS Cheatsheet
 date: 2011-11-15T14:46:15
-tags: 
+tags:
 - SSL
 - TLS
 - Software
@@ -20,7 +20,7 @@ tags:
 
 * TCP Verbindung, SSL Handshake, HTTP über Secure Layer.
 
-https://www.identrustssl.com/images/learn_ssl_diagram.gif
+[SSL Diagram](https://www.identrustssl.com/images/learn_ssl_diagram.gif)
 
 #### Protokolle
 
@@ -67,7 +67,7 @@ Elyptische Kurven
 
 ABER: Zum Glück muss man das nicht alles selber machen.
 Es gibt fertige und ständig aktualisierte Cyphersuites die man fuer
-Webserver, SSH und sonstigen Käse verwenden kann: https://bettercrypto.org
+Webserver, SSH und sonstigen Käse verwenden kann: [bettercrypto.org](https://bettercrypto.org)
 
 #### SSL/TLS Software
 
@@ -139,7 +139,6 @@ Wenn man wissen will ob intermediate Zertifikat zum eigentlichen Zertifikat pass
     $ openssl x509 -in intermediate.pem -subject_hash -noout
     b204d74a
 
-
 #### Selbsterstellte Zertifikate
 
 * Generating key
@@ -208,7 +207,7 @@ So zum Beispiel
 
 Ausführen
 
-    $ openssl speed
+    openssl speed
 
 Speedcheck auswerten
 

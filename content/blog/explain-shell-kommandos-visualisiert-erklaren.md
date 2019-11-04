@@ -74,48 +74,49 @@ finde ich das mehr als sinnvoll. Es erstellt aus einem simpel gestricktem
 Markdown File eine ASCII-Art ähnliche Erläuterung des Kommandos.
 Beispielsweise:
 
-
-    $ ./explain.py command.markdown
-    find . -iname '*.png' -exec echo '<br><img src="{}">' ; > gallery.html
-    \_/ | ___________/  ________/ ___________________/ |  ___________/
-      |  |       |             |               |           |        |
-      |  |       |             |               |           |        - Ausgeben nach
-      |  |       |             |               |           |           gallery.html
-      |  |       |             |               |           |
-      |  |       |             |               |           - find Syntax Ende.
-      |  |       |             |               |
-      |  |       |             |               - mit folgendem Inhalt aus.
-      |  |       |             |
-      |  |       |             - und führe echo
-      |  |       |
-      |  |       - alle Dateien die mit .png enden
-      |  |
-      |  - im aktuellen Verzeichnis
-      |
-      - Finde (via find)
-
+```
+$ ./explain.py command.markdown
+find . -iname '*.png' -exec echo '<br><img src="{}">' ; > gallery.html
+\_/ | ___________/  ________/ ___________________/ |  ___________/
+  |  |       |             |               |           |        |
+  |  |       |             |               |           |        - Ausgeben nach
+  |  |       |             |               |           |           gallery.html
+  |  |       |             |               |           |
+  |  |       |             |               |           - find Syntax Ende.
+  |  |       |             |               |
+  |  |       |             |               - mit folgendem Inhalt aus.
+  |  |       |             |
+  |  |       |             - und führe echo
+  |  |       |
+  |  |       - alle Dateien die mit .png enden
+  |  |
+  |  - im aktuellen Verzeichnis
+  |
+  - Finde (via find)
+```
 
 (PlainText: [/uploads/2009/09/015](/uploads/2009/09/015))
 
 Die Syntax des Files das zur Deklaration der Ausgabe dient:
 
+```
+find . -iname '*.png' -exec echo '<br><img src="{}">' ; > gallery.html
+---- ! -------------  ---------- --------------------- ! -------------
 
-    find . -iname '*.png' -exec echo '<br><img src="{}">' ; > gallery.html
-    ---- ! -------------  ---------- --------------------- ! -------------
+Finde (via find)
 
-    Finde (via find)
+im aktuellen Verzeichnis
 
-    im aktuellen Verzeichnis
+alle Dateien die mit .png enden
 
-    alle Dateien die mit .png enden
+und führe echo
 
-    und führe echo
+mit folgendem Inhalt aus.
 
-    mit folgendem Inhalt aus.
+find Syntax Ende.
 
-    find Syntax Ende.
-
-    Ausgeben nach gallery.html
+Ausgeben nach gallery.html
+```
 
 Die Trennzeichen  sind via Parameter austauschbar und auch ansonsten tut
 das kleine Python Script seinen Job hervorragend. Sollte demnächst mal

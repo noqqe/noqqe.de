@@ -109,10 +109,10 @@ Um zu testen ob die Migration erfolgreich wahr, hab ich ein Repo in `tmp/`
 ausgecheckt und es mit dem letzten Stand auf dem alten Server verglichen.
 
 ```
-$ cd /tmp
-$ git clone git@$newServer:repo repo
-$ cd repo
-$ git log -1
+cd /tmp
+git clone git@$newServer:repo repo
+cd repo
+git log -1
 ```
 
 ## Repos umarbeiten

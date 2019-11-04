@@ -19,9 +19,8 @@ ich trotzdem kurz einen Post, wie sich Dateien mit Git zurückholen lassen.
 aus aktuellem HEAD wiederherstellen:
 
 ```
-$ git checkout HEAD -- verloren.txt
+git checkout HEAD -- verloren.txt
 ```
-
 
 ### Datei hat vor gewisser Zeit einmal existiert
 

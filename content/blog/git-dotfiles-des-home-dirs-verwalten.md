@@ -120,7 +120,6 @@ dotfiles/
 -- .vimrc
 ```
 
-
 (Aus Gründen der Lesbarkeit gekürzt)
 
 Alle Änderungen, die für die Configs anstehen, kann ich nun hier tätigen.
@@ -152,7 +151,6 @@ for x in $dotfiles; do
     if [ $mode != "--hook" ]; then /bin/cp -i $x $HOME/ ; fi
 done
 ```
-
 
 Git bietet weiterhin noch schöne Möglichkeiten, Operationen bei Änderungen
 automatisch ausführen zu lassen.

@@ -62,15 +62,16 @@ tags:
 title: roborobo | selfmade robot
 ---
 
-![Robot-icon](/uploads/2010/04/Robot-icon.png) Auf dem Weg durch die
-Filesysteme meiner Rechner/Laptops/Server kam ich immer wieder in
-Situationen, in denen ich gerne Files (die mir wichtig waren) an einer
-bestimmten Stelle aufheben wollte. Ich hab über die Monate bzw. fast schon
-Jahre hin immer andere Systeme, Praktiken und Plätze entwickelt in denen
-ich diese Configs und ähnliches ablege. Über kurz oder lang ist aber jede
-dieser Methoden zu aufwändig oder zu unstrukturiert. Wenn ich
+{{< figure src="/uploads/2010/04/Robot-icon.png" >}}
+
+Auf dem Weg durch die Filesysteme meiner Rechner/Laptops/Server kam ich immer
+wieder in Situationen, in denen ich gerne Files (die mir wichtig waren) an
+einer bestimmten Stelle aufheben wollte. Ich hab über die Monate bzw. fast
+schon Jahre hin immer andere Systeme, Praktiken und Plätze entwickelt in
+denen ich diese Configs und ähnliches ablege. Über kurz oder lang ist aber
+jede dieser Methoden zu aufwändig oder zu unstrukturiert. Wenn ich
 Konfigurationsdateien von Daemons editierte, kopierte ich vorher die alten
-Files an eine bestimmte Stelle. Ziemlich Standart. Der Vorgang ist an sich
+Files an eine bestimmte Stelle. Ziemlich Standard. Der Vorgang ist an sich
 ziemlich mühsam. Wirr liegen irgendwo irgendwelche Files rum.
 
 Vor ein paar Wochen habe ich dann angefangen mir ein kleines Helferlein zu
@@ -81,31 +82,34 @@ Was er tut ? Ich gebe meinem Helfer einfach das File "in die Hand". Alles
 andere erledigt er.
 
 File hinzufügen
+
 ```
-$ roborobo /etc/postfix/main.cf`
+roborobo /etc/postfix/main.cf`
 ```
 
 Alle bekannten Files updaten:
+
 ```
-$ roborobo
+roborobo
 ```
 
 Er nimmt das File an, ordnet es ein und sichert es in seinem Verzeichnis
 mit dem kompletten Verzeichnispfad nach Baumstruktur-Art. Außerdem prüft
-roborobo jetzt jede Stunde anhand der sha1sum ob sich in dem File seit der
+roborobo jetzt jede Stunde anhand der `sha1sum` ob sich in dem File seit der
 letzten Prüfung etwas getan hat. Falls Veränderungen da sind, wird das File
 mit neuem Datum wieder abgespeichert. Das sieht ungefähr so aus:
 
-    .roborobo/
-    |-- etc
-    |   |-- hosts
-    |   |   |-- hosts-20100409-1348
-    |   |   `-- hosts-20100409-1651
-    |   `-- network
-    |       `-- interfaces
-    |           |-- interfaces-20100409-1654
-    |           `-- interfaces-20100409-1655
-
+```
+.roborobo/
+|-- etc
+|   |-- hosts
+|   |   |-- hosts-20100409-1348
+|   |   `-- hosts-20100409-1651
+|   `-- network
+|       `-- interfaces
+|           |-- interfaces-20100409-1654
+|           `-- interfaces-20100409-1655
+```
 
 Ich brauche mich somit um _nichts_ mehr kümmern. Gebe dem "kleinen" die
 Files die mir wichtig sind und er passt darauf auf. Fühlt sich irgendwie an
@@ -124,26 +128,26 @@ Wer sich dafür interessiert oder mal testen mag:
 Content:
 
 ```
-    roborobo
-    |-- DEBIAN
-    |   `-- control
-    |-- etc
-    |   |-- cron.d
-    |   |   `-- roborobo
+roborobo
+|-- DEBIAN
+|   `-- control
+|-- etc
+|   |-- cron.d
+|   |   `-- roborobo
+|   `-- roborobo
+|       |-- roborobo.conf
+|       `-- roborobo.path
+-- usr
+    |-- bin
     |   `-- roborobo
-    |       |-- roborobo.conf
-    |       `-- roborobo.path
-    -- usr
-        |-- bin
+    -- share
+        |-- doc
         |   `-- roborobo
-        -- share
-            |-- doc
-            |   `-- roborobo
-            |       |-- changelog
-            |       `-- copyright
-            -- man
-            -- man1
-                `-- roborobo.1
+        |       |-- changelog
+        |       `-- copyright
+        -- man
+        -- man1
+            `-- roborobo.1
 ```
 
 Das ganze wie alles was ich tue, unter GPLv3.

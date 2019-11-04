@@ -6,7 +6,6 @@ tags:
 - pdf
 ---
 
-
 # PDF Passwort entfernen
 
     qpdf --password=passw0rd --decrypt foo.pdf unsecure-foo.pdf
@@ -23,4 +22,3 @@ entfernen
 # PDFs aufteilen
 
     pdftk foo.pdf cat 1-12 output bar.pdf
-

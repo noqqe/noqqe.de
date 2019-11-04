@@ -61,16 +61,17 @@ herumexperimentieren damit bin ich nun auf den [PerlGuide vom deutschen Perlboar
 wunderschönes Tutorial. Jedes Kapitel endet mit Übungen, Praxis-Programmen
 und Zusatzfragen.
 
-``` print "Perl hat manchmal geile Syntax" and die if ! defined @ARGV ; ```
+```
+print "Perl hat manchmal geile Syntax" and die if ! defined @ARGV ;
+```
 
-
-Danach, fand ich brauchte ich noch ein Buch. Also ein analoges Medium aus
-dem ich auch mal auf der Couch lesen kann. Meine Wahl fiel nicht (wie
-meistens) auf ein [O'Reilly Buch](http://www.amazon.de/Programmieren-mit-Perl-Larry-Wall/dp/3897211440/ref=sr_1_5?ie=UTF8&s=books&qid=1278231152&sr=8-5).
+Danach, fand ich brauchte ich noch ein Buch. Also ein analoges Medium aus dem
+ich auch mal auf der Couch lesen kann. Meine Wahl fiel nicht (wie meistens)
+auf ein [O'Reilly Buch](http://www.amazon.de/Programmieren-mit-Perl-Larry-Wall/dp/3897211440/ref=sr_1_5?ie=UTF8&s=books&qid=1278231152&sr=8-5).
 Sondern auf das bereits oben erwähnte Programmieren in Perl. Nachher erfuhr
 ich (unter anderem aus dem wunderbaren [1. O'Reilly Podcast](http://community.oreilly.de/blog/2010/06/25/kol001-das-oreilly-universum/)
-mit [Tim Pritlove](http://tim.geekheim.de/)) dass das Perl-Buch von
-O'Reilly eines der Besten sein soll, die dort je herausgebracht wurden.
+mit [Tim Pritlove](http://tim.geekheim.de/)) dass das Perl-Buch von O'Reilly
+eines der Besten sein soll, die dort je herausgebracht wurden.
 
 Bereue meinen Kauf. Allerdings mache ich trotzdem Fortschritte mit Perl.
 Wie immer arbeite ich mit den Skripten in einem Git-Repo. Wen'S

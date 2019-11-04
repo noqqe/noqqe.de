@@ -46,14 +46,14 @@ Prozess aber auf irgendeine Weise gestorben.  Also machte ich mich auf die
 Suche nach dem Prozess, der den Port blockiert.
 
 ``` bash
-$ netstat -tapn | grep 3005
-$ lsof -Pnl +M -i4 | grep 3005
-$ fuser 3005/tcp
-$ lsof -i :3005
-$ socklist | grep 3005
-$ cat /proc/net/tcp
-$ cat /proc/net/udp
-$ ss -pl |grep 3005
+netstat -tapn | grep 3005
+lsof -Pnl +M -i4 | grep 3005
+fuser 3005/tcp
+lsof -i :3005
+socklist | grep 3005
+cat /proc/net/tcp
+cat /proc/net/udp
+ss -pl |grep 3005
 ```
 
 Man sieht schon, ich hab "ein bisschen was" versucht um das herauszubekommen.

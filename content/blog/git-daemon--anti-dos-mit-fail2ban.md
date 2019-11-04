@@ -25,7 +25,7 @@ git-daemon "geDOSt" wird. Also bei ca 10 Downloads die Klappe für die IP
 schliessen.  unter:
 
 ```
-$ git clone git://zwetschge.org/roborobo.git
+git clone git://zwetschge.org/roborobo.git
 ```
 
 lässt sich über den Daemon ein Repo auschecken. Der Logeintrag bei Access
@@ -38,7 +38,7 @@ sieht folgendermaßen aus:
 Nun lässt sich über ein einfaches Script, beispielsweise:
 
 ```
-$ for i in $(seq 1 100) ; do git clone git://zwetschge.org/roborobo.git gitrepodos$i ; done
+for i in $(seq 1 100) ; do git clone git://zwetschge.org/roborobo.git gitrepodos$i ; done
 ```
 
 den Server total auslasten. Gerade bei grossen Repos wäre das fatal.  Über
@@ -74,17 +74,17 @@ ausprobiere.
 Statusabfrage des Jails:
 
 ```
-    $ fail2ban-client status git-daemon
+$ fail2ban-client status git-daemon
 
-    Status for the jail: git-daemon
-    |- filter
-    |  |- File list:    /var/log/git-daemon/current
-    |  |- Currently failed:    0
-    |  `- Total failed:    0
-          - action
-    |- Currently banned:    0
-    |  `- IP list:
-    - Total banned:    0
+Status for the jail: git-daemon
+|- filter
+|  |- File list:    /var/log/git-daemon/current
+|  |- Currently failed:    0
+|  `- Total failed:    0
+      - action
+|- Currently banned:    0
+|  `- IP list:
+- Total banned:    0
 ```
 
 Ich weiss mir gerade nicht zu helfen. Obwohl ich das selbe Spiel mit vsftp

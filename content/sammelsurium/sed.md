@@ -1,7 +1,7 @@
 ---
 title: sed
 date: 2011-09-29T16:23:32
-tags: 
+tags:
 - Programming
 - Bash
 ---
@@ -10,13 +10,13 @@ tags:
 
 #### Date Converting
 
-~~~
+```
 sed -e 's#Jan#01#' -e 's#Feb#02#' -e 's#Mar#03#' -e 's#Apr#04#' -e 's#May#05#' -e 's#Jun#06#' -e 's#Jul#07#' -e 's#Aug#08#' -e 's#Sep#09#' -e 's#Oct#10#' -e 's#Nov#11#' -e 's#Dec#12#'
-~~~
+```
 
 #### Suchen bis zum nächste $AUSDRUCK multiline
 
-~~~
+```
 sed -ne '/^<gpx/,/">/p' 2012-10-10-1328.gpx
 
 ^<gpx - Suche anfang
@@ -24,11 +24,11 @@ sed -ne '/^<gpx/,/">/p' 2012-10-10-1328.gpx
 "> - Suche ende
 
 p oder d für löschen
-~~~
+```
 
 ## Tutorial
 
-#### FILE SPACING ###
+#### FILE SPACING
 
 double space a file
 
@@ -59,7 +59,7 @@ insert a blank line above and below every line which matches "regex"
 
     sed '/regex/{x;p;x;G;}'
 
-#### NUMBERING ###
+#### NUMBERING
 
 number each line of a file (simple left alignment). Using a tab (see
 note on '\t' at end of file) instead of space will preserve margins.
@@ -78,7 +78,7 @@ count lines (emulates "wc -l")
 
     sed -n '$='
 
-#### TEXT CONVERSION AND SUBSTITUTION: ###
+#### TEXT CONVERSION AND SUBSTITUTION:
 
 IN UNIX ENVIRONMENT: convert DOS newlines (CR/LF) to Unix format.
 
@@ -176,7 +176,7 @@ add a blank line every 5 lines (after lines 5, 10, 15, 20, etc.)
     gsed '0~5G'                  ## GNU sed only
     sed 'n;n;n;n;G;'             ## other seds
 
-#### SELECTIVE PRINTING OF CERTAIN LINES: ###
+#### SELECTIVE PRINTING OF CERTAIN LINES:
 
 print first 10 lines of file (emulates behavior of "head")
 
@@ -290,7 +290,7 @@ print section of file between two regular expressions (inclusive)
 
     sed -n '/Iowa/,/Montana/p'             ## case sensitive
 
-#### SELECTIVE DELETION OF CERTAIN LINES ###
+#### SELECTIVE DELETION OF CERTAIN LINES
 
 print all of file EXCEPT section between 2 regular expressions
 
@@ -364,7 +364,7 @@ delete the last line of each paragraph
 
     sed -n '/^$/{p;h;};/./{x;/./p;}'
 
-#### SPECIAL APPLICATIONS ####
+#### SPECIAL APPLICATIONS
 
 remove nroff overstrikes (char, backspace) from man pages. The 'echo'
 command may need an -e switch if you use Unix System V or bash shell.

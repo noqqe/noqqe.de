@@ -38,7 +38,6 @@ Netz ist voll von schönen Spielereien für diese Tools. Hier mein Setup.
 
 Bash-Script: [http://gist.github.com/525385](http://gist.github.com/525385)
 
-
 ``` bash
 ESC=$(printf "e")
 echo "$ESC[34;47mDATE$ESC[0m"

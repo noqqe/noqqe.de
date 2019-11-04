@@ -50,7 +50,6 @@ ZRE als Daemon (ja, der Teil kommt auch noch) hat die Eigenschaft im zufällig w
 
 Zuerst musste ich also den PHP Parser Teil schreiben, der mir die letzten 20 Zeilen, oder falls weniger eben diese aus meiner game.txt ausließt.
 
-
     $input = file($zreoutput);
     $resultArray = "";
     $index = 20;
@@ -64,9 +63,7 @@ Zuerst musste ich also den PHP Parser Teil schreiben, der mir die letzten 20 Zei
     }
     return $resultArray;
 
-
 Als nächstes war es dann noch nötig diesen zurecht gebogenen Output dann noch selbst aktualisierend in meine Index Datei zu portieren. Dazu ist dann eine JavaScript nötig um die Funktion zu definieren.
-
 
     setInterval(
         function() {
@@ -74,16 +71,12 @@ Als nächstes war es dann noch nötig diesen zurecht gebogenen Output dann noch 
           }, 2000
     );
 
-
 Jetzt mussten sowohl jQuery als auch das JavaScript Snippet in die Index Datei eingebunden werden. Über Kritik und Anregung freue ich mich natürlich wie immer.
-
 
     <!-- game informations -->
     <script src="js/jquery-min.js" type="text/javascript"></script>
     <script src="js/gamebox.js" type="text/javascript"></script>
     <!-- game results -->
     <div id="gamebox"></div>
-
-
 
 An der Stelle hatte ich gleich mal tatkräftige Hilfe eines Arbeitskollegen ;) Danke an dieser Stelle.

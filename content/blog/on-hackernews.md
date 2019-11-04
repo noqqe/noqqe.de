@@ -52,7 +52,7 @@ etwas verrückt; was folgt ist eine stichpunktartige Zusammenfassung.
 
 * die Zugriffszahlen des 1. Monats
 
-<iframe id="igraph" src="https://plot.ly/~noqqe/47/640/420/" width="640" height="420" seamless="seamless" scrolling="no"></iframe>
+{{< figure src="/uploads/2013/12/visits.png" >}}
 
 * 127.326 Visits
 * 438.461 Page Views (Actions)

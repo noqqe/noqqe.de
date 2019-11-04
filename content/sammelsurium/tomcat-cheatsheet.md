@@ -1,7 +1,7 @@
 ---
 title: Tomcat Cheatsheet
 date: 2013-01-06T13:24:55
-tags: 
+tags:
 - Software
 - Tomcat
 ---
@@ -25,8 +25,8 @@ tags:
 
 Debian & Ubuntu paketiert
 
-    $ apt-get install tomcat7
-    $ /etc/init.d/tomcat7 start
+    apt-get install tomcat7
+    /etc/init.d/tomcat7 start
 
 ### Directories
 
@@ -36,9 +36,9 @@ Debian & Ubuntu paketiert
 * logs/ <- ...
 * temp/
 * webapps/ <- "DocumentRoots"
-    * ROOT <- Default "vHost"
-    * JamWiki <- Beispiel Applikation Wiki
-    * liferay <- Beispiel Applikation CMS
+  * ROOT <- Default "vHost"
+  * JamWiki <- Beispiel Applikation Wiki
+  * liferay <- Beispiel Applikation CMS
 * work/ <- Laufzeit Files
 
 ## Tomcat richtig installieren.
@@ -50,8 +50,10 @@ Eine Installation dieser Art sei wärmstens empfohlen.
 
 ### Vorteile
 
-* Ihr entscheidet wann es upgedated wird ("omg, apt-get hat unser Tomcat-Setup zerstört")
-* Kein überflüssiger Unsinn im Tomcat (Docs, Manageranwendung, default Passwörter, minimale Installation)
+* Ihr entscheidet wann es upgedated wird ("omg, apt-get hat unser
+  Tomcat-Setup zerstört")
+* Kein überflüssiger Unsinn im Tomcat (Docs, Manageranwendung, default
+  Passwörter, minimale Installation)
 * Konfiguration lesbar und verständlich (Stichwort Kommentare)
 * Update von Tomcat testweise auf neue Version
 * Update von Java testweise auf neue Version
@@ -60,29 +62,30 @@ Eine Installation dieser Art sei wärmstens empfohlen.
 
 #### Tomcat herunterladen
 
-    $ cd /usr/local/
-    $ wget http://tomcat.apache.org/download-70.cgi
-    $ tar xfvz apache-tomcat-XX-VV.tar.gz
-    $ ln -s apache-tomcat-XX-VV tomcat
+    cd /usr/local/
+    wget http://tomcat.apache.org/download-70.cgi
+    tar xfvz apache-tomcat-XX-VV.tar.gz
+    ln -s apache-tomcat-XX-VV tomcat
 
 #### JDK herunterladen
+
 Auf
 
-http://www.oracle.com/technetwork/java/javase/downloads/
+[Oracle Downloads](http://www.oracle.com/technetwork/java/javase/downloads/)
 
 License Foo auswählen und herunterladen. Am besten den Downloadlink kopieren danach.
 
-    $ cd /usr/local
-    $ wget http://download.oracle.com/otn-pub/java/jdk/7u11-b21/jdk-7u11-linux-x64.tar.gz?AuthParam=1358962018_0709088e98e2b0851395247274a50376
-    $ tar xfvz jdk-7u11-linux-x64.tar.gz
-    $ ln -s jdk-7u11-linux-x64 java
+    cd /usr/local
+    wget http://download.oracle.com/otn-pub/java/jdk/7u11-b21/jdk-7u11-linux-x64.tar.gz?AuthParam=1358962018_0709088e98e2b0851395247274a50376
+    tar xfvz jdk-7u11-linux-x64.tar.gz
+    ln -s jdk-7u11-linux-x64 java
 
 #### 1. Datenstruktur aufbauen
 
-    $ cd /data
-    $ mkdir tomcat/node01
-    $ mkdir bin conf webapps logs work temp
-    $ cp /usr/local/tomcat/conf/web.xml conf/
+    cd /data
+    mkdir tomcat/node01
+    mkdir bin conf webapps logs work temp
+    cp /usr/local/tomcat/conf/web.xml conf/
 
 #### 2. conf/server.xml erstellen
 
@@ -95,7 +98,7 @@ Voll funktionsfähige minimale Konfiguration:
     <Server port="8005" shutdown="SHUTDOWN">
       <Listener className="org.apache.catalina.core.JasperListener" />
       <Listener className="org.apache.catalina.core.JreMemoryLeakPreventionListener" />
-     
+
       <Service name="Catalina">
         <Connector port="8080" protocol="HTTP/1.1" />
         <Connector port="8009" protocol="AJP/1.3" />
@@ -131,7 +134,7 @@ bin/shutdown.sh
     ${CATALINA_HOME}/bin/catalina.sh stop $@
 
 /etc/init.d/ Skripte können nach Bedarf noch gebaut werden.
-Lässt sich auch schön als bestimmter User ausführen via `su user -c ... `
+Lässt sich auch schön als bestimmter User ausführen via `su user -c ...`
 
 #### 4. Glücklich sein
 
@@ -156,22 +159,21 @@ Einer der unschönen Teile des Tomcat
     <Connector port="8090" executor="Catalina-Threads" protocol="org.apache.coyote.http11.Http11NioProtocol" />
     <Connector port="8070" executor="Catalina-Threads" protocol="org.apache.coyote.http11.Http11AprProtocol" />
 
-
 ### HTTP/1.1 Connector parametisiert (SSL)
 
-~~~
+```
 <Connector port="8443"
     executor="Catalina-Threads"
     protocol="org.apache.coyote.http11.Http11AprProtocol"
     scheme="https"
     secure="true"
     sslProtocol="TLS"
-	SSLEnabled="true"
-	SSLCertificateFile="${catalina.base}/conf/tomcatcert.pem"
-	SSLCertificateKeyFile="${catalina.base}/conf/tomcatkey.pem"
-	SSLPassword="tomcat"
+  SSLEnabled="true"
+  SSLCertificateFile="${catalina.base}/conf/tomcatcert.pem"
+  SSLCertificateKeyFile="${catalina.base}/conf/tomcatkey.pem"
+  SSLPassword="tomcat"
      />
-~~~
+```
 
 ## MySQL Ressource
 
@@ -186,7 +188,7 @@ Einer der unschönen Teile des Tomcat
               maxActive="20"
               maxIdle="10"
               maxWait="15000"
-    	  removeAbandoned="true"
+        removeAbandoned="true"
               validationQuery="SELECT 1"
               testOnBorrow="true"
               testWhileIdle="true"
@@ -240,7 +242,9 @@ Wie gehts dem Teil und was macht sie gerade?
 * jstat
 * JMX
 
-`-Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=10013 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false`
+```
+-Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=10013 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false
+```
 
 * MBeans
 

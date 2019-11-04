@@ -12,13 +12,13 @@ tags:
 
 ### enable auth
 
-~~~
+```
 openssl rand -base64 741 > /etc/mongodb.keyfile
-~~~
+```
 
 add to config
 
-~~~
+```
 configdb = mongo01.example.com,mongo02.example.com,mongo03.example.com
 where to log
 logpath=/var/log/mongodb/mongos.log
@@ -26,7 +26,7 @@ logappend=true
 port = 27017
 pidfilepath = /var/run/mongodb/routesrv.pid
 keyFile = /etc/mongodb.keyfile ## KEYFILE
-~~~
+```
 
 ### create replica sets
 
@@ -39,10 +39,9 @@ in the config file do:
 
 restart all shard servers. than connect to the local shard directly
 
-
 #### on 01
 
-~~~
+```
 rs0:PRIMARY> rs.initiate()
 rs0:PRIMARY> rs.add("mongo02:27018")
 rs0:PRIMARY> rs.conf()
@@ -100,11 +99,11 @@ rs0:PRIMARY> rs.status()
         ],
         "ok" : 1
 }
-~~~
+```
 
 #### on 03
 
-~~~
+```
 rs0:PRIMARY> rs.initiate()
 rs0:PRIMARY> rs.add("mongo04:27018")
 rs1:PRIMARY> rs.conf()
@@ -162,11 +161,11 @@ rs1:PRIMARY> rs.status()
         ],
         "ok" : 1
 }
-~~~
+```
 
 ### add shards to replica sets
 
-~~~
+```
 mongos> sh.addShard("rs0/mongo01:27018,mongo02:27018")
 mongos> sh.addShard("rs1/mongo03:27018,mongo04:27018")
 mongos> sh.status()
@@ -184,13 +183,11 @@ mongos> sh.status()
   databases:
         {  "_id" : "admin",  "partitioned" : false,  "primary" : "config" }
 
-
-
-~~~
+```
 
 ### add sharded database
 
-~~~
+```
 use DATABASE
 sh.enableSharding("DATABASE")
 mongos> sh.status()
@@ -210,14 +207,12 @@ mongos> sh.status()
         {  "_id" : "Daphne",  "partitioned" : true,  "primary" : "rs0" }
         {  "_id" : "Loyalty",  "partitioned" : true,  "primary" : "rs0" }
         {  "_id" : "test",  "partitioned" : false,  "primary" : "rs1" }
-~~~
+```
 
 ### mongo Primary switch
 
 on primary to become secondary
 
-~~~
+```
 rs.stepDown()
-~~~
-
-
+```

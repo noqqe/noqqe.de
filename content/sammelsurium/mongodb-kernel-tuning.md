@@ -11,19 +11,19 @@ tags:
 2 bedeutet nur so viel overcommit wieder Swapspace hergibt.
 80 ist die Ratio der Swap benutzt werden darf.
 
-~~~
+```
 echo 2 > /proc/sys/vm/overcommit_memory
 echo 80 > /proc/sys/vm/overcommit_ratio
 vm.overcommit_memory=2
 sysctl -p
-~~~
+```
 
 Eventuell will man auch echo 1 machen wegen dem Journaling
 
-~~~
+```
 "Thu Mar 20 14:16:55.481 [initandlisten] ** WARNING: /proc/sys/vm/overcommit_memory is 2",
 "Thu Mar 20 14:16:55.481 [initandlisten] **          Journaling works best with it set to 0 or 1",
-~~~
+```
 
 #### no atime
 
@@ -33,11 +33,11 @@ atime auf partition ausschalten
 
 Einmalig:
 
-    $ blockdev --setra 4096 /dev/sdb
+    blockdev --setra 4096 /dev/sdb
 
 Readahead warnings ausschalten, persistent
 
-~~~
+```
 ## anzeigen der readahead einstellungen
 blockdev --report |grep sdb
 
@@ -58,7 +58,7 @@ udevadm trigger
 
 ## verifizieren
 blockdev --report |grep sdb
-~~~
+```
 
 weiterführende links
 
@@ -72,25 +72,25 @@ weiterführende links
 
 Fehlerbild
 
-~~~
+```
 ERROR: mmap private failed with out of memory. (64 bit build)
 Assertion: 13636:file /docdata/mongodb/data/xxx_letters.5 open/create failed in createPrivateMap (look in log for more information)
-~~~
+```
 
 Folgende Werte sollten eingestellt sein.
 
-~~~
+```
 -f (file size): unlimited
 -t (cpu time): unlimited
 -v (virtual memory): unlimited [1]
 -n (open files): 64000
 -m (memory size): unlimited [1]
 -u (processes/threads): 32000
-~~~
+```
 
 zum verifizieren kann folgende Bash funktion benutzt werden
 
-~~~ { .bash }
+``` { .bash }
 return-limits(){
 
      for process in $@; do
@@ -108,9 +108,9 @@ return-limits(){
      done
 
 }
-~~~
+```
 
-~~~
+```
 /etc/security/limits.conf
 * soft nofile 64000
 * hard nofile 64000
@@ -120,4 +120,4 @@ return-limits(){
 * hard as unlimited
 * soft nproc 32000
 * hard nproc 32000
-~~~
+```

@@ -73,7 +73,6 @@ Wenn ich aber bei allen meinen Rechnern die Zeile einbinde, hat das
 irgendwie ein bisschen was von DOS-Attacke. Muss ja nicht sein. Mit einem
 Einzeiler hab ich mir die Quotes erstmal alle besorgt:
 
-
     target="/path/to/file/018" ; while true ; do quote="$(curl -Is slashdot.org |sed -n '5p' |sed 's/^X-//')" ; if [ $(grep "$quote" $target |wc -l) -lt 1 ]; then echo $quote >> $target ; echo $quote ; sleep 1 ; fi ; done
 
 Hier gibt's alle Quotes die der Einzeiler bis jetzt gesammelt hat:

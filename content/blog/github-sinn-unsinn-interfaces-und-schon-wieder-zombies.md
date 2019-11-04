@@ -40,7 +40,6 @@ title: github | Sinn, Unsinn, Interfaces und schon wieder Zombies
 creative commons @ jeremy kendall on
 [flickr](http://www.flickr.com/photos/jeremykendall/5145916501/sizes/m/in/photostream/)
 
-
 ## Unsinn
 
 Dort gibt es viele Projekte die mich interessieren, ich ihnen aber
@@ -61,7 +60,6 @@ lassen? Denke die Jungs von Github müssen erst noch lernen solche
 hyperaktiven anständig mit der Plattform zu handlen. Sollte jemand die
 nötigen Links für mich haben, bitte immer her damit.
 
-
 ## Sinn
 
 Andererseits nehme ich auch an ein paar wirklich schönen Sachen teil. Unter
@@ -70,7 +68,6 @@ kann vorher ohne ausgekommen zu sein.
 
 [revans/bash-it](http://github.com/revans/bash-it)
 [jgoerzen/twidge](http://github.com/jgoerzen/twidge)
-
 
 ## Zombies
 

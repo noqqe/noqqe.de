@@ -29,9 +29,9 @@ Kommentar eines Users zum Launch von FreeBSD bei DigitalOcean. Einfach nur w0rd.
 >
 > FreeBSD, on the other hand, is becoming more of a testbed for experimental,
 > some would even say unnecessary technologies:
-> https://news.ycombinator.com/item?id=8546756 ... It's also having a hard
+> [https://news.ycombinator.com/item?id=8546756](https://news.ycombinator.com/item?id=8546756) ... It's also having a hard
 > time catching up to OpenBSD:
-> http://itwire.com/business-it-news/open-source/62641-crypto-freebsd-playing-catch-up-says-de-raadt
+> [http://itwire.com/business-it-news/open-source/62641-crypto-freebsd-playing-catch-up-says-de-raadt](http://itwire.com/business-it-news/open-source/62641-crypto-freebsd-playing-catch-up-says-de-raadt])
 
 Ziemlich interessante Diskussion in der Kommentarsektion. Weiterlesen lohnt.
 

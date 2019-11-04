@@ -1,7 +1,7 @@
 ---
 title: Redis
 date: 2015-04-09T14:45:47
-tags: 
+tags:
 - Databases
 - Redis
 ---
@@ -73,13 +73,12 @@ Query a Redis Sentinel for current master
 
 Access a remote database
 
-    $ redis-cli -h host -p 6379
+    redis-cli -h host -p 6379
 
 Authenticate with password
 
-    $ redis-cli -a CXXX
+    redis-cli -a CXXX
 
 Useful queries from commandline example
 
-    $ echo "SENTINEL get-master-addr-by-name master01" | redis-cli -h host -p 26379 -x
-
+    echo "SENTINEL get-master-addr-by-name master01" | redis-cli -h host -p 26379 -x

@@ -1,7 +1,7 @@
 ---
 title: cntlm
 date: 2015-02-16T14:03:05
-tags: 
+tags:
 - Software
 - cntlm
 ---
@@ -24,7 +24,7 @@ Damit sich das ding automatisch startet
 
 #### Authoxy wieder deinstallieren
 
-Gefunden auf https://paikialog.wordpress.com/2012/05/23/uninstall-authoxy/
+Gefunden auf [https://paikialog.wordpress.com/2012/05/23/uninstall-authoxy/](https://paikialog.wordpress.com/2012/05/23/uninstall-authoxy/)
 
     $ ps aux | grep cnt
     root           11328   0.0  0.0  2451268    376   ??  Ss    1:59PM 0:00.00 /usr/local/opt/cntlm/bin/cntlm

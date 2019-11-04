@@ -44,35 +44,34 @@ Mithilfe eines Passworts lässt sich dann die Session betreten und mehrere
 Dokumente bearbeiten/anlegen. Dadurch sind wir dann auf die Idee gekommen
 uns unsere eigene kleine Welt zusammenzubasteln.
 
-
 ``` python
 #!/usr/bin/python
 
 class Person:
-	bevoelkerung = 0
+  bevoelkerung = 0
  def __init__(self, name, url):
- 	self.name = name
- 	self.url = url
- 	print'%s Wird geboren' % self.name
- 	Person.bevoelkerung +=1
+  self.name = name
+  self.url = url
+  print'%s Wird geboren' % self.name
+  Person.bevoelkerung +=1
 
-	def blog(self):
- 	print 'Visit me on %s'  % self.url
+  def blog(self):
+  print 'Visit me on %s'  % self.url
 
-	def __del__(self):
- 	print '%s ist tot!' % self.name
-		Person.bevoelkerung -=1
+  def __del__(self):
+  print '%s ist tot!' % self.name
+    Person.bevoelkerung -=1
 
-		if Person.bevoelkerung == 0:
-			print'ich bin der letzte'
-		else:
-			print'Es gibt noch %d Leute.' % Person.bevoelkerung
- 	def sagHallo(self):
-		print 'Servus ich bin %s' % self.name
-	def wieViele(self):
-	if Person.bevoelkerung == 1:
-	  print 'ich bin ganz alleine hier*angst*'
-	else:
+    if Person.bevoelkerung == 0:
+      print'ich bin der letzte'
+    else:
+      print'Es gibt noch %d Leute.' % Person.bevoelkerung
+  def sagHallo(self):
+    print 'Servus ich bin %s' % self.name
+  def wieViele(self):
+  if Person.bevoelkerung == 1:
+    print 'ich bin ganz alleine hier*angst*'
+  else:
     print 'Es leben hier %d Leute' % Person.bevoelkerung
 
 noqqe = Person('noqqe', 'noqqe.de' )

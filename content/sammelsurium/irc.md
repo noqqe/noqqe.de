@@ -44,7 +44,6 @@ Generelle Infos
 
 Überprüfen ob User registriert ist
 
-
     /msg NickServ ACC <username>
 
      0 - account or user does not exist
@@ -52,8 +51,6 @@ Generelle Infos
      2 - user is not logged in but recognized (see ACCESS)
      3 - user is logged in
 
-
 ## Topic setzen
 
     /topic foo bar
-

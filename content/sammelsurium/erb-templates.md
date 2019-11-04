@@ -7,17 +7,17 @@ tags:
 
 ## If Else Entscheidungen
 
-~~~
+```
 <%- if @role0 == "datanode" or @role0 == "namenode" -%>
 command[check_load]=/usr/lib/nagios/plugins/check_load -w 25,22,20 -c 35,32,30
 <%- else -%>
 command[check_load]=/usr/lib/nagios/plugins/check_load -w 15,10,5 -c 30,25,20
 <%- end -%>
-~~~
+```
 
 ## Template Limiter
 
-~~~
+```
 <% i += 1 %> ## ruby code
 
 <%= i += 1 %> ## mit print
@@ -27,7 +27,7 @@ command[check_load]=/usr/lib/nagios/plugins/check_load -w 15,10,5 -c 30,25,20
 <%- i += 1 -%> ## suppress newline at the end
 
 <%## comment %>
-~~~
+```
 
 ## Count Schleife
 
@@ -45,39 +45,39 @@ w /sys/devices/system/cpu/cpu<%= x %>/cpufreq/scaling_governor - - - - performan
 
 braucht man ja
 
-http://docs.puppetlabs.com/learning/templates.html
+[Puppet Templates](http://docs.puppetlabs.com/learning/templates.html)
 
 ### Hiera
 
 Im Endeffekt eine Liste daraus machen
 
-~~~
+```
 hadoop::zookeeper:
   - "zk11.example.com"
   - "zk12.example.com"
   - "zk13.example.com"
-~~~
+```
 
 ### Manifest
 
-~~~
+```
 class hadoop::zookeeper_base ($zookeepersrv = hiera(hadoop::zookeeper, '')) {
 
   file { "/etc/zookeeper/conf.noqqe/zoo.cfg":
     content => template("hadoop/zoo.cfg.erb"),
   }
 }
-~~~
+```
 
 ### Template
 
 Im template file \*.erb
 
-~~~
+```
 <% @zookeepersrv.each do |x| -%>
 server.<%= x.count %> <%= x %>:2888:3888
 <% end -%>
-~~~
+```
 
 ### Testen des Templates
 
@@ -85,7 +85,7 @@ server.<%= x.count %> <%= x %>:2888:3888
 
 ## Loop mit Kommas in einer Zeile
 
-~~~
+```
 <value>
  <%- i= 0 ; @zookeepersrv.each do |x| -%> ## Loop
   <%= ',' if i > 0 %> ## Wenn erstes element, dann kein Komma
@@ -93,14 +93,14 @@ server.<%= x.count %> <%= x %>:2888:3888
   <%- i += 1 -%> ## Increase counter für Komma
  <%- end -%>
 </value>
-~~~
+```
 
 Ergebnis
 
-~~~
+```
 +    <value>zk11.example.com:2181</value>
 +    <value>zk11.example.com:2181,zk12.example.com:2181,zk13.example.com:2181</value>
-~~~
+```
 
 ## Hiera in Template Komplettbeispiel
 

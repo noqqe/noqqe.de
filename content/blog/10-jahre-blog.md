@@ -24,36 +24,32 @@ meine [eigene Instanz](https://noqqe.de/blog/2009/02/23/noqqede-relaunch-des-blo
 registrierte noqqe.de.  So langsam ging es dann auch los mit Server
 Administration (was auch daran lag, dass ich endlich in die Technik-Abteilung
 meines damaligen Arbeitgebers wechseln durfte). Ein
-[Squid](https://noqqe.de/blog/2008/08/30/squid-opensource-proxyserver/), ein
-[Apache2](https://noqqe.de/blog/2008/09/10/mein-erster-apache2/) und ein
+[Squid](/blog/2008/08/30/squid-opensource-proxyserver/), ein
+[Apache2](/blog/2008/09/10/mein-erster-apache2/) und ein
 Postfix. Warum ich davon immer die ganze Config im Blog gepastet hatte ist mir
 aber ein Rätsel. Wahrscheinlich war ich stolz auf das Gefrickel.
-
 
 {{< figure src="/uploads/2018/03/noqqewhite.png" caption="Banner von ca. 2010 ">}}
 
 Wie man das als anständiger  Blogger so macht, musste natürlich auch an
 Wordpress herumgepfuscht werden. So hat dann auch der
-[eine](https://noqqe.de/blog/2010/04/05/wordpress-archive-page-erstellen/)
-oder [andere](https://noqqe.de/blog/2009/12/17/wordpress-rss-und-planet/)
-Artikel über [Wordpress](https://noqqe.de/tags/wordpress/) hier Einzug
+[eine](/blog/2010/04/05/wordpress-archive-page-erstellen/)
+oder [andere](/blog/2009/12/17/wordpress-rss-und-planet/)
+Artikel über [Wordpress](/tags/wordpress/) hier Einzug
 gefunden. Es war furchtbar wenn ich so darüber nachdenke. Ungefähr zu der Zeit
 wurde mein Blog auch Teil diverser Blog Planeten/Netzwerke
 ([ubuntuusers.de](https://ubuntuusers.de),
 [planetenblogger.de](http://planetenblogger.de), [osbn.de](https://osbn.de),
 usw..) von den übrigens nichts übrig geblieben ist.
 
-
 {{< figure src="/uploads/2018/03/cloudtheme.png" caption="Eigenes Wordpress Theme von 2009" >}}
 
 {{< figure src="/uploads/2018/03/airnoqqe.jpg" caption="Banner von ca. 2011" >}}
 
-
 Als ich dann den Arbeitgeber wechselte, in die Nähe von Erlangen zog und anfing
 mich im [K4CG](https://k4cg.org) herumzutreiben, migrierte  ich den Blog zu
 [octopress](https://octopress.org). Statische Blog-Generatoren waren 2012
-schliesslich der heiße Scheiss ([Switched to Octopress
-- noqqe.de](https://noqqe.de/blog/2012/03/05/switched-to-octopress/))! Auch
+schliesslich der heiße Scheiss ([Switched to Octopress - noqqe.de](/blog/2012/03/05/switched-to-octopress/))! Auch
 sonst entfernte sich der Blog immer mehr von Linux Desktop Anwender hin zu
 Server Systemen und insbesondere [OpenBSD](https://noqqe.de/tags/openbsd/).
 

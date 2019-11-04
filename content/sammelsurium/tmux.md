@@ -21,4 +21,3 @@ oder innerhalb der session:
 Automatisch weechat starten
 
     @reboot tmux -u new-session -s base -d -n irc '/bin/bash -lc "weechat-curses"'
-

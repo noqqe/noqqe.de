@@ -20,7 +20,6 @@ comments:
 - author: tux.
   content: 'Octopress ist furchtbar. ;-)
 
-
     Keine Eile. Rennt nicht weg.'
   date: '2014-03-24T22:56:51.097115'
 - author: Martin

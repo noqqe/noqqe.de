@@ -1,0 +1,23 @@
+{
+  "comment": "https://github.com/DavidAnson/markdownlint",
+
+  "default": true,
+  "fenced-code-language": false,
+  "first-heading-h1": false,
+  "heading-increment": false,
+  "no-trailing-punctuation": false,
+  "first-line-h1": false,
+  "line-length": false,
+  "MD025": false,
+  "MD037": false,
+  "MD022": false,
+  "MD046": false,
+  "MD047": false,
+  "ul-style": false,
+  "no-inline-html": {
+     "allowed_elements": [ "code" ]
+  },
+  "header-style": {
+    "style": "atx"
+  }
+}

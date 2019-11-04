@@ -25,7 +25,7 @@ Das liegt zu großen Teilen an `rvo`, aber auch an entbehrlich.es.
 Ein Projekt, dass aus etwas entstanden ist, dass ich mir seit einiger Zeit
 angewöhnen will. Mehr Wikipedia lesen. May I introduce to you..
 
-https://entbehrlich.es/
+[https://entbehrlich.es/](https://entbehrlich.es)
 
 Was ich dabei so finde und interessant ist, landet auf entbehrlich.es.
-Details auch auf der About Page: https://entbehrlich.es/about/
+Details auch auf der [About Page](https://entbehrlich.es/about/).

@@ -22,17 +22,17 @@ Ablage der wirklichen Backups auf
 
 Im SQL Server Studio auf "New Query" drücken, dass einfügen:
 
-~~~
+```
 SELECT name FROM SYS.DATABASES WHERE recovery_model!=1 AND name NOT IN
 ('master','tempdb','msdb','ReportServerTempDB');
-~~~
+```
 
 und dann execute. Unter anderem findet das Verwendung in dem NRPE Check:
 
-~~~
+```
 C:\nrpe\plugins\check_mssql_nt.exe
 /H:db.example.com /U:monitoring /P:xxx /CHK_QUERY:"SELECT
 COUNT(name) FROM SYS.DATABASES WHERE recovery_model!=1 AND name NOT IN
 ('master','tempdb','msdb','ReportServerTempDB')" /FO: "%d Datenbanken ohne
 Recovery-Model=Full" /Wv:1
-~~~
+```

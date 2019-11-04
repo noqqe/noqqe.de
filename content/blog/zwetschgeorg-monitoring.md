@@ -29,11 +29,8 @@ war das aber ganz einfach ;)
 Im groben kurz nochmal:
 
 * rrdtolls und collectd installieren
-
 * /etc/collectd/collectd.conf anpassen
-
 * /etc/monitoring anlegen und mit :
-
 
 ``` bash
 #!/bin/bash
@@ -56,7 +53,10 @@ rrdtool graph ${GPATH}traffic-eth0-d.png -w 300 -h 100 -t "Tagesstatistik Eth0" 
 
 befüllen.
 
-* in die /etc/cron.d/monitoring und */5 * * * * root sh /etc/monitoring
-  eintragen
+In die /etc/cron.d/monitoring und
 
-Schon aktualisiert sich alle 5 min der Ticker.
+```
+*/5 * * * * root sh /etc/monitoring
+```
+
+eintragen. Schon aktualisiert sich alle 5 min der Ticker.

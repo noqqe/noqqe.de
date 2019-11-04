@@ -30,7 +30,7 @@ Eine der einfachsten Varianten ein unixoides Betriebssystem abzuschiessen
 ist mir heute über den Weg gelaufen. Wurde 2002 von Jaromill verfasst und
 lautet wie folgt:
 
-``` x(){ x|x& };x ```
+```x(){ x|x& };x```
 
 Im Endeffekt wird die Funktion "x" definiert und darin zweimal aufgerufen.
 Somit entstehen Prozesse, ich weiss garnicht wie viele ungefähr, vielleicht

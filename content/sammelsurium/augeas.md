@@ -7,18 +7,18 @@ tags:
 
 Interactive
 
-~~~
+```
 $ aptitude install augeas-tools
 $ augtool -b #make backup file
 augtool> set KexAlgorithms diffie-hellman-group-exchange-sha256,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1
 augtool> save
-~~~
+```
 
 ## Show errors
 
 ## Augeas within puppet
 
-~~~
+```
  ## permit root login no and switch off ubuntu
   augeas { "sshd_config":
     context => "/files/etc/ssh/sshd_config",
@@ -33,7 +33,7 @@ augtool> save
       "set MACs/4    hmac-ripemd160",
     ],
   }
-~~~
+```
 
 ## Strange usage syntax for sshd lense
 

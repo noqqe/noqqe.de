@@ -1,12 +1,12 @@
 ---
 title: Semaphores
 date: 2014-03-29T12:11:52
-tags: 
+tags:
 - OS
 - OpenBSD
 ---
 
-~~~
+```
 http://www.openbsd.org/cgi-bin/man.cgi?query=sem_open&apropos=0&sektion=0&manpath=OpenBSD+Current&arch=amd64&format=html
 
 ## uwsgi --ini /home/isso/uwsgi.cfg
@@ -29,8 +29,6 @@ lock engine: ipcsem
 uwsgi_lock_ipcsem_init()/semget(): No space left on device [core/lock.c line 507]
 uwsgi_ipcsem_clear()/semctl(): Invalid argument [core/lock.c line 631]
 
-
-
 12:07 root@o0:/etc/rc.d (master*) ## sysctl kern.seminfo
 kern.seminfo.semmni=10
 kern.seminfo.semmns=60
@@ -41,7 +39,6 @@ kern.seminfo.semume=10
 kern.seminfo.semusz=112
 kern.seminfo.semvmx=32767
 kern.seminfo.semaem=16384
-
 
 ipcs
 
@@ -65,19 +62,10 @@ s   655367          0 --rw-rw-rw-     isso    wheel
 s   655368          0 --rw-rw-rw-     isso    wheel
 s   655369          0 --rw-rw-rw-     isso    wheel
 
-
 for x in $(ipcs | grep ^s | grep isso | awk '{print $2}') ; do echo $x ; done
-
 
 ipcrm -s $id
 
 12:16 root@o0:/etc/rc.d (master*) ## sysctl kern.seminfo.semmni=50
 kern.seminfo.semmni: 10 -> 50
-
-
-
-~~~
-
-
-
-Sema
+```

@@ -38,7 +38,6 @@ und in der Database Section
 
 Um hier bei Replikation alles zu finden
 
-
 ### Konfiguration am Slave
 
 In die Database Section:

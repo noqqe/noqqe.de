@@ -46,8 +46,8 @@ geht es um statistische Auswertung des Contents.
 Praktisch wird `bogofilter` trainiert. Was ist Ham, was Spam.
 
 ```
-$ bogofilter -s -B /home/noqqe/Maildir/.Spam/
-$ bogofilter -n -B /home/noqqe/Maildir/INBOX
+bogofilter -s -B /home/noqqe/Maildir/.Spam/
+bogofilter -n -B /home/noqqe/Maildir/INBOX
 ```
 
 Einmal angelernt ensteht eine wordlist.db im BerkeleyDB Format in der die

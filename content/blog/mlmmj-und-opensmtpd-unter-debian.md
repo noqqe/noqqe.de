@@ -33,8 +33,8 @@ TamTam.
 Bei der Konfiguration kann man sich ohne Bedenken von `mlmmj-make-ml` leiten lassen.
 
 ``` bash
-$ sudo aptitude install mlmmj
-$ mlmmj-make-ml
+sudo aptitude install mlmmj
+mlmmj-make-ml
 ```
 
 Nachdem die selbsterklärende Installation abgeschlossen ist, noch in `/etc/aliases`
@@ -43,7 +43,6 @@ eine Pipe einfügen für den entsprechenden User.
 ``` bash
 k4cg:     "|/usr/bin/mlmmj-receive -L /var/spool/mlmmj/k4cg"
 ```
-
 
 ### OpenSMTPD
 
@@ -55,7 +54,7 @@ Konfigurationsanleitung zwar bei, aber hat ja irgendwie auch jeder und ist
 für unsere Zwecke viel zu bloated.
 
 ``` bash
-$ sudo aptitude install opensmtpd
+sudo aptitude install opensmtpd
 ```
 
 Die einzige Config, die es bei OpenSMTPD gibt, `/etc/smtpd.conf` liesst

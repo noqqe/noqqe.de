@@ -59,10 +59,9 @@ Zu danken habe ich dabei hauptsächlich all den wunderbaren OpenSource
 Tools, die mir zur Erstellung und Umsetzung gedient haben. Um einige zu
 nennen:
 
-
-  * [LaTeX](http://www.latex-project.org/) bzw. [TeX-Live](http://www.tug.org/texlive/) (Dokumentation)
-  * HTML & [Slidy](http://www.w3.org/2005/03/slideshow.html) (Präsentation)
-  * [git](http://git-scm.com/) (Projektinhalt)
-  * [etckeeper](http://kitenet.net/~joey/code/etckeeper/) von Joey Hess (Projektinhalt)
-  * [gitolite](https://github.com/sitaramc/gitolite#start) (Projektinhalt)
-  * und natürlich allen Debian Developern, die die genannte Software paketiert haben :)
+* [LaTeX](http://www.latex-project.org/) bzw. [TeX-Live](http://www.tug.org/texlive/) (Dokumentation)
+* HTML & [Slidy](http://www.w3.org/2005/03/slideshow.html) (Präsentation)
+* [git](http://git-scm.com/) (Projektinhalt)
+* [etckeeper](http://kitenet.net/~joey/code/etckeeper/) von Joey Hess (Projektinhalt)
+* [gitolite](https://github.com/sitaramc/gitolite#start) (Projektinhalt)
+* und natürlich allen Debian Developern, die die genannte Software paketiert haben :)

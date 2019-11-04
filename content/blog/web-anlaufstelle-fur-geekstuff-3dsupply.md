@@ -39,4 +39,4 @@ auftaucht, der auf die Aktion hinweist. Finde ich sehr nett muss ich sagen
 Aufgrund meiner [Neigung zu Futurama](http://www.3dsupply.de/products/666-gehirnschnecke/)
 musste es natürlich folgendes werden:
 
-![](/uploads/2010/08/666_1269620096.0_180_180.png)
+{{< figure src="/uploads/2010/08/666_1269620096.0_180_180.png" >}}

@@ -1,7 +1,7 @@
 ---
 title: Apache Solr
 date: 2013-04-25T17:53:44
-tags: 
+tags:
 - Software
 - solr
 ---
@@ -19,7 +19,6 @@ Löschen
 Mass Delete
 
       for x in $PSS ; do curl --silent "http://solr01.example.com:8080/solr/admin/collections?action=DELETE&name=${x}_${i}" ; sleep 2 ; done
-
 
 ## Cores API
 
@@ -48,4 +47,3 @@ Status
 Löschen
 
     curl --silent "http://admin:xxx@cl01.example.com:8080/db/contextLinks?command=deleteIndex&indexId=#NAME#"
-
