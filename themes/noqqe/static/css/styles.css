@@ -126,14 +126,6 @@ div.itemcontent {
 	padding-right: 10px;
 }
 
-div.itemcontent img {
-	-ms-interpolation-mode: bicubic;
-    margin: 0 auto;
-    border-radius: 5px;
-    max-width: 100%;
-    display: block;
-}
-
 body.item header,
 body.item div#contentwrapper {
 	margin-left: auto;
