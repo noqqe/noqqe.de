@@ -5,6 +5,9 @@ theme: "noqqe"
 path: "blog"
 publishdir: "public"
 metaDataFormat: "yaml"
+disableKinds:
+  - "taxonomy"
+  - "taxonomyTerm"
 
 params:
   Description: "No advertising, no support, no bug fixes, payment in advance. &mdash; AT&T Unix Policy (1984)"
@@ -21,6 +24,7 @@ permalinks:
   blog: "blog/:year/:month/:day/:filename/"
   sammelsurium: "sammelsurium/:filename/"
   links: "links/:filename/"
+
 
 menu:
   main:
