@@ -6,5 +6,5 @@ tags:
 - Hackspace
 ---
 
-{{< gallery hover-effect="grow" caption-position="none" hover-transition="none" dir="/uploads/2019/01/2019110518deffa5a61f130f6947cbe5840929186ba92d5ac4fba36233ace4d7865a9770/" />}}
+{{< gallery hover-effect="grow" caption-position="none" hover-transition="none" dir="/albums/2019/2019110518deffa5a61f130f6947cbe5840929186ba92d5ac4fba36233ace4d7865a9770/" />}}
 {{< load-photoswipe >}}

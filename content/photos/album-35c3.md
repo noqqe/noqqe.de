@@ -7,5 +7,5 @@ tags:
 - 35c3
 ---
 
-{{< gallery hover-effect="grow" caption-position="none" hover-transition="none" dir="/uploads/2018/12/2019110591864eb5e0629c598f222bfd3532ce18121d6f0d1eb5fd959ff8bbc3da3c3f7a/" />}}
+{{< gallery hover-effect="grow" caption-position="none" hover-transition="none" dir="/albums/2018/2019110591864eb5e0629c598f222bfd3532ce18121d6f0d1eb5fd959ff8bbc3da3c3f7a/" />}}
 {{< load-photoswipe >}}
