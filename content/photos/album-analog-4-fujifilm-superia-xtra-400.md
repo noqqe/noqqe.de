@@ -1,5 +1,5 @@
 ---
-title: "Album: Analog #4 Fujifilm Superia Xtra 400"
+title: "Album: Analog #4 - Fujifilm Superia Xtra 400"
 date: 2019-11-04T14:30:33+01:00
 tags:
 - Leica M6

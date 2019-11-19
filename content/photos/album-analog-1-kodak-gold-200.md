@@ -1,5 +1,5 @@
 ---
-title: "Album: Analog #1 Kodak Gold 200"
+title: "Album: Analog #1 - Kodak Gold 200"
 date: 2019-07-17T08:02:51+01:00
 tags:
 - Leica M6
