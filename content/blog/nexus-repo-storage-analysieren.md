@@ -40,7 +40,7 @@ Dabei heraus kommt eine Datei in ungefähr folgender Struktur.
 }
 ```
 
-Um das jetzt aber irgendwie lesen zu können, habe ich kurz hingesetzt und ein
+Um das jetzt aber irgendwie lesen zu können, habe ich mich kurz hingesetzt und ein
 Python Script gebaut.
 
 ```python
