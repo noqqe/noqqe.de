@@ -24,8 +24,8 @@ rocks](https://why-openbsd.rocks), arbeitete ich als System Admin in
 Neben dem ganzen Kram interessiert mich [OpenBSD](/tags/openbsd), [Python](/tags/python) oder der
 Hackerspace [K4CG](https://k4cg.org).
 
-Neuerdings mache ich auch etwas mit einer Kamera herum. Siehe
-[Flickr](https://www.flickr.com/photos/144855651@N08/).
+Neuerdings (2018) mache ich auch etwas mit meinen beiden Kameras herum. Siehe
+[photos](/photos/)
 
 Erreichen kann man mich auf Twitter unter
 [@noqqe](https://twitter.com/noqqe), per Mail <code class="rev">ed.eqqon@olf</code> und lieber noch per Mail via
