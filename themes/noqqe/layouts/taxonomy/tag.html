@@ -26,4 +26,16 @@
     {{ end }}
     </ul>
 
+
+    <h4>photos</h4>
+    <ul>
+    {{ range (where .Data.Pages  "Type" "photos")}}
+        <li>
+            <span>{{ .Date.Format "2006.01.02" }}</span>
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
+        </li>
+    {{ end }}
+    </ul>
+
+
 {{ partial "footer.html" . }}

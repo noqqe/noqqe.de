@@ -6,7 +6,6 @@ path: "blog"
 publishdir: "public"
 metaDataFormat: "yaml"
 disableKinds:
-  - "taxonomy"
   - "taxonomyTerm"
 
 params:
