@@ -11,7 +11,12 @@ alias: 'archives/434'
 
 ## 2019
 
-* [why-openbsd.rocks](https://why-openbsd.rocks)
+* [downwards](https://pypi.org/project/downwards/) Wikipedia auf der
+  Kommandozeile als Manpage lesen
+* [Podcast Entbehrliches](https://podcast.entbehrlich.es) Podcast über
+  entbehrliches Wissen aus der Wikipedia
+* [why-openbsd.rocks](https://why-openbsd.rocks) Projekt das zeigt warum
+  OpenBSD rockt!
 * [heiko](https://github.com/k4cg/heiko) Heiko ist ein Frontend für [MaaS](https://github.com/k4cg/matomat-service)
 
 ## 2018

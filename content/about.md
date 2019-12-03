@@ -27,6 +27,11 @@ Hackerspace [K4CG](https://k4cg.org).
 Neuerdings (2018) mache ich auch etwas mit meinen beiden Kameras herum. Siehe
 [photos](/photos/)
 
+Noch neuerer: Zusammen mit [Flo](https://twitter.com/poschi3) bin ich im
+Podcast [Entbehrliches](https://podcast.entbehrlich.es) zu hören. Dort
+unterhalten wir uns regelmäßig über Quatsch den wir auf Wikipedia gelesen
+haben.
+
 Erreichen kann man mich auf Twitter unter
 [@noqqe](https://twitter.com/noqqe), per Mail <code class="rev">ed.eqqon@olf</code> und lieber noch per Mail via
 [PGP](/pgp/) Key ID `CDA4B775` und Fingerprint `227E 8E2D E6C7 A7F5 280C 9431 BFE7 8B80 CDA4 B775`.
