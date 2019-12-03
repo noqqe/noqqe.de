@@ -1,14 +1,5 @@
 jobs:
   include:
-    - language: node_js
-      stage: test
-      node_js: 10.15
-      install:
-        - npm install -g markdownlint-cli
-      script:
-        - markdownlint content/*.md
-        - markdownlint content/blog/*.md
-        - markdownlint content/sammelsurium/*.md
     - language: go
       stage: test
       go: 1.11
