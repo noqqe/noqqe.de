@@ -9,7 +9,12 @@ tags:
 Dieser Eintrag ist tatsächlich eine Art Mixtur aus `man`, `roff` und `mandoc`
 von OpenBSD
 
-Wie kann ich mir ein roff Dokument anzeigen?
+## mdoc
+
+Ist das format, was für `manpages` erschaffen wurde, anders als `roff` ist es
+angelegt aber kein vollständiges Textsatz System
+
+Wie kann ich mir ein `mdoc` Dokument anzeigen?
 
 ```
 man /tmp/motd.5
@@ -19,10 +24,31 @@ Easy as that. Okay.
 
 Ich will aber noch ein bisschen mehr...
 
-## Spickzettel
+## mandoc
+
+Ein halbwegs taugliches HTML generieren:
+
+```
+mandoc -o style=https://man.openbsd.org/mandoc.css -T html ./lol.1 > lol.html
+```
+
+## Syntax
+
+`NAME` muss als Section enthalten sein, sonst komisches Verhalten
 
 `.Sh` - Section
 `.Xr` - verweis auf andere Sektion
+
+Aufzählung von Listen
+
+```
+.Sh Links
+.Bl -column LOCAL -compact
+.It Li ANSI-Escapesequenz
+.It Li AT-Befehlssatz
+.It Li Anweisung (Programmierung)
+.El
+```
 
 Ein normales `roff` Dokument sieht in etwa so aus. Genau gesagt liegt hier
 ein `mdoc` Format vor.
