@@ -1,20 +1,28 @@
+env:
+  - hugo_version=0.56.3
+
 jobs:
   include:
     - language: go
       stage: test
       go: 1.11
       install:
-        - go get github.com/gohugoio/hugo
+        - wget https://github.com/gohugoio/hugo/releases/download/v${hugo_version}/hugo_${hugo_version}_Linux-64bit.tar.gz -O hugo.tar.gz
+        - tar xvfz hugo.tar.gz
+        - ./hugo version
       script:
-        - hugo
+        - ./hugo
     - language: go
       stage: deploy
-      go: 1.11
       install:
-        - go get github.com/gohugoio/hugo
+      go: '1.11'
+      install:
+        - wget https://github.com/gohugoio/hugo/releases/download/v${hugo_version}/hugo_${hugo_version}_Linux-64bit.tar.gz -O hugo.tar.gz
+        - tar xvfz hugo.tar.gz
+        - ./hugo version
         - echo $KNOWN_HOSTS_KEY >> $HOME/.ssh/known_hosts
       script:
-        - hugo
+        - ./hugo
       before_deploy:
         - openssl aes-256-cbc -K $encrypted_a01276847ef6_key -iv $encrypted_a01276847ef6_iv -in deploy_rsa.enc -out /tmp/deploy_rsa -d
         - eval "$(ssh-agent -s)"
