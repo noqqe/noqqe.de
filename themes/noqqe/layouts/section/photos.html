@@ -1,17 +1,19 @@
 {{ partial "header.html" . }}
 
-    <h1>Photos</h1>
-    <div class="itemcontent">
-    {{ range (where .Site.Pages "Type" "photos").GroupByDate "2006"  }}
-    <h2>{{ .Key }}</h2>
-    <ul>
-      {{ range where .Pages ".Title" "!=" "Photos" }}
-      <li>
-          <span>{{ .Date.Format "02.01" }}</span>
-          <a href="{{ .Permalink }}">{{ .Title }}</a>
-      </li>
+  <div class="itemcontent">
+  {{ range (where .Site.Pages "Type" "photos").GroupByDate "2006"  }}
+    {{ range where .Pages ".Title" "!=" "Photos" }}
+  <div class="indexitem">
+      <a href="{{ .Permalink }}">{{ .Title }}</a><br/>
+      <div class="itemdetails">
+     {{ .Date.Format "2006-01-02" }} @
+      {{ with .Params.tags }}
+        {{ $sort := sort . }}
+        {{ $clean := apply $sort "chomp" "." }}
+        {{ delimit $clean ", " }}
       {{ end }}
-    </ul>
+  </div>
+  </div>
     {{ end }}
-
+  {{ end }}
 {{ partial "footer.html" . }}
