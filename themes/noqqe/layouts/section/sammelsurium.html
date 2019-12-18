@@ -1,126 +1,82 @@
 {{ partial "header.html" . }}
 
-  <div class="itemcontent">
-
-    <h2>Operating Systems</h2>
+    <h1>Sammelsurium</h1>
+    <div class="itemcontent">
+    <h3>Operating Systems</h3>
+    <ul>
     {{ range where .Data.Pages.ByTitle "Type" "sammelsurium" }}
       {{ if in .Params.tags "OS" }}
-  <div class="indexitem">
-      <a href="{{ .Permalink }}">{{ .Title }}</a><br/>
-      <div class="itemdetails">
-     {{ .Date.Format "2006-01-02" }} @
-      {{ with .Params.tags }}
-        {{ $sort := sort . }}
-        {{ $clean := apply $sort "chomp" "." }}
-        {{ delimit $clean ", " }}
+      <li>
+          <a href="{{ .Permalink }}">{{ .Title }}</a>
+      </li>
       {{ end }}
-  </div>
-  </div>
     {{ end }}
-  {{ end }}
+    </ul>
 
-
-    <h2>Databases</h2>
+    <h3>Databases</h3>
+    <ul>
     {{ range where .Data.Pages.ByTitle "Type" "sammelsurium" }}
       {{ if in .Params.tags "Databases" }}
-  <div class="indexitem">
-      <a href="{{ .Permalink }}">{{ .Title }}</a><br/>
-      <div class="itemdetails">
-     {{ .Date.Format "2006-01-02" }} @
-      {{ with .Params.tags }}
-        {{ $sort := sort . }}
-        {{ $clean := apply $sort "chomp" "." }}
-        {{ delimit $clean ", " }}
+      <li>
+          <a href="{{ .Permalink }}">{{ .Title }}</a>
+      </li>
       {{ end }}
-  </div>
-  </div>
     {{ end }}
-  {{ end }}
+    </ul>
 
-    <h2>Software</h2>
+    <h3>Software</h3>
+    <ul>
     {{ range where .Data.Pages.ByTitle "Type" "sammelsurium" }}
       {{ if in .Params.tags "Software" }}
-  <div class="indexitem">
-      <a href="{{ .Permalink }}">{{ .Title }}</a><br/>
-      <div class="itemdetails">
-     {{ .Date.Format "2006-01-02" }} @
-      {{ with .Params.tags }}
-        {{ $sort := sort . }}
-        {{ $clean := apply $sort "chomp" "." }}
-        {{ delimit $clean ", " }}
+      <li>
+          <a href="{{ .Permalink }}">{{ .Title }}</a>
+      </li>
       {{ end }}
-  </div>
-  </div>
     {{ end }}
-  {{ end }}
+    </ul>
 
-    <h2>Programming</h2>
+    <h3>Programming</h3>
+    <ul>
     {{ range where .Data.Pages.ByTitle "Type" "sammelsurium" }}
       {{ if in .Params.tags "Programming" }}
-  <div class="indexitem">
-      <a href="{{ .Permalink }}">{{ .Title }}</a><br/>
-      <div class="itemdetails">
-     {{ .Date.Format "2006-01-02" }} @
-      {{ with .Params.tags }}
-        {{ $sort := sort . }}
-        {{ $clean := apply $sort "chomp" "." }}
-        {{ delimit $clean ", " }}
+      <li>
+          <a href="{{ .Permalink }}">{{ .Title }}</a>
+      </li>
       {{ end }}
-  </div>
-  </div>
     {{ end }}
-  {{ end }}
+    </ul>
 
-    <h2>Puppet</h2>
+    <h3>Puppet</h3>
+    <ul>
     {{ range where .Data.Pages.ByTitle "Type" "sammelsurium" }}
       {{ if in .Params.tags "Puppet" }}
-  <div class="indexitem">
-      <a href="{{ .Permalink }}">{{ .Title }}</a><br/>
-      <div class="itemdetails">
-     {{ .Date.Format "2006-01-02" }} @
-      {{ with .Params.tags }}
-        {{ $sort := sort . }}
-        {{ $clean := apply $sort "chomp" "." }}
-        {{ delimit $clean ", " }}
+      <li>
+          <a href="{{ .Permalink }}">{{ .Title }}</a>
+      </li>
       {{ end }}
-  </div>
-  </div>
     {{ end }}
-  {{ end }}
+    </ul>
 
-    <h2>Filesystems</h2>
+    <h3>Filesystems</h3>
+    <ul>
     {{ range where .Data.Pages.ByTitle "Type" "sammelsurium" }}
       {{ if in .Params.tags "Filesystems" }}
-  <div class="indexitem">
-      <a href="{{ .Permalink }}">{{ .Title }}</a><br/>
-      <div class="itemdetails">
-     {{ .Date.Format "2006-01-02" }} @
-      {{ with .Params.tags }}
-        {{ $sort := sort . }}
-        {{ $clean := apply $sort "chomp" "." }}
-        {{ delimit $clean ", " }}
+      <li>
+          <a href="{{ .Permalink }}">{{ .Title }}</a>
+      </li>
       {{ end }}
-  </div>
-  </div>
     {{ end }}
-  {{ end }}
+    </ul>
 
-
-    <h2>HowTos</h2>
+    <h3>HowTos</h3>
+    <ul>
     {{ range where .Data.Pages.ByTitle "Type" "sammelsurium" }}
       {{ if in .Params.tags "HowTos" }}
-  <div class="indexitem">
-      <a href="{{ .Permalink }}">{{ .Title }}</a><br/>
-      <div class="itemdetails">
-     {{ .Date.Format "2006-01-02" }} @
-      {{ with .Params.tags }}
-        {{ $sort := sort . }}
-        {{ $clean := apply $sort "chomp" "." }}
-        {{ delimit $clean ", " }}
+      <li>
+          <a href="{{ .Permalink }}">{{ .Title }}</a>
+      </li>
       {{ end }}
-  </div>
-  </div>
     {{ end }}
-  {{ end }}
+    </ul>
 
 {{ partial "footer.html" . }}
