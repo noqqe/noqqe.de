@@ -1,8 +1,7 @@
 {{ partial "header.html" . }}
 
-    <h1>Sammelsurium</h1>
     <div class="itemcontent">
-    <h3>Operating Systems</h3>
+    <h2>Operating Systems</h2>
     <ul>
     {{ range where .Data.Pages.ByTitle "Type" "sammelsurium" }}
       {{ if in .Params.tags "OS" }}
@@ -13,7 +12,7 @@
     {{ end }}
     </ul>
 
-    <h3>Databases</h3>
+    <h2>Databases</h2>
     <ul>
     {{ range where .Data.Pages.ByTitle "Type" "sammelsurium" }}
       {{ if in .Params.tags "Databases" }}
@@ -24,7 +23,7 @@
     {{ end }}
     </ul>
 
-    <h3>Software</h3>
+    <h2>Software</h2>
     <ul>
     {{ range where .Data.Pages.ByTitle "Type" "sammelsurium" }}
       {{ if in .Params.tags "Software" }}
@@ -35,7 +34,7 @@
     {{ end }}
     </ul>
 
-    <h3>Programming</h3>
+    <h2>Programming</h2>
     <ul>
     {{ range where .Data.Pages.ByTitle "Type" "sammelsurium" }}
       {{ if in .Params.tags "Programming" }}
@@ -46,7 +45,7 @@
     {{ end }}
     </ul>
 
-    <h3>Puppet</h3>
+    <h2>Puppet</h2>
     <ul>
     {{ range where .Data.Pages.ByTitle "Type" "sammelsurium" }}
       {{ if in .Params.tags "Puppet" }}
@@ -57,7 +56,7 @@
     {{ end }}
     </ul>
 
-    <h3>Filesystems</h3>
+    <h2>Filesystems</h2>
     <ul>
     {{ range where .Data.Pages.ByTitle "Type" "sammelsurium" }}
       {{ if in .Params.tags "Filesystems" }}
@@ -68,7 +67,7 @@
     {{ end }}
     </ul>
 
-    <h3>HowTos</h3>
+    <h2>HowTos</h2>
     <ul>
     {{ range where .Data.Pages.ByTitle "Type" "sammelsurium" }}
       {{ if in .Params.tags "HowTos" }}
