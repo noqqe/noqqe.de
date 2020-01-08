@@ -15,12 +15,12 @@
   <meta name="twitter:image" content="{{ .Site.BaseURL }}/images/logo.png">
   <meta name="twitter:site" content="{{ .Site.Params.Twitter }}">
   <meta name="twitter:creator" content="{{ .Site.Params.Twitter }}">
-  <meta name="twitter:title" content="{{ $isHomePage := eq .Title .Site.Title }}{{ .Title }}{{ if eq $isHomePage false }} - {{ .Site.Title }}{{ end }}">
+  <meta name="twitter:title" content="{{ $isHomePage := eq .Title .Site.Title }}{{ .Title }}{{ if eq $isHomePage false }} ({{ .Site.Title }}){{ end }}">
   <meta name="twitter:url" content="{{ .Permalink }}">
   <meta name="twitter:description" content="{{if .IsPage}}{{ .Summary }}{{else}}{{.Site.Params.Description}}{{end}}">
 
   <!-- Title -->
-  <title>{{ $isHomePage := eq .Title .Site.Title }}{{ .Title }}{{ if eq $isHomePage false }} - {{ .Site.Title }}{{ end }}</title>
+  <title>{{ $isHomePage := eq .Title .Site.Title }}{{ .Title }}{{ if eq $isHomePage false }} ({{ .Site.Title }}){{ end }}</title>
 
   <!-- Icons -->
   <link rel="apple-touch-icon" sizes="57x57" href="/images/apple-icon-57x57.png">
@@ -58,15 +58,40 @@
         <a href="{{ .Site.BaseURL }}">noqqe</a>
       </h2>
       <br>
+
+      {{ if eq .Title "Blogs" }}
+      <a class="menubar" href="{{ .Site.BaseURL }}/blog"><i>blog</i></a>
+      {{else}}
       <a class="menubar" href="{{ .Site.BaseURL }}/blog">blog</a>
+      {{end}}
       <span class="bar">|</span>
+
+      {{ if eq .Title "Sammelsuria" }}
+      <a class="menubar" href="{{ .Site.BaseURL }}/sammelsurium"><i>sammelsurium</i></a>
+      {{else}}
       <a class="menubar" href="{{ .Site.BaseURL }}/sammelsurium">sammelsurium</a>
+      {{end}}
       <span class="bar">|</span>
+
+      {{ if eq .Title "Photos" }}
+      <a class="menubar" href="{{ .Site.BaseURL }}/photos"><i>photos</i></a>
+      {{else}}
       <a class="menubar" href="{{ .Site.BaseURL }}/photos">photos</a>
+      {{end}}
       <span class="bar">|</span>
+
+      {{ if eq .Title "Projects" }}
+      <a class="menubar" href="{{ .Site.BaseURL }}/projects"><i>projects</i></a>
+      {{else}}
       <a class="menubar" href="{{ .Site.BaseURL }}/projects">projects</a>
+      {{end}}
       <span class="bar">|</span>
+
+      {{ if eq .Title "About" }}
+      <a class="menubar" href="/about"><i>about</i></a>
+      {{else}}
       <a class="menubar" href="/about">about</a>
+      {{end}}
     </header>
 
     <div id="contentwrapper">
