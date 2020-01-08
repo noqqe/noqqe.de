@@ -9,13 +9,11 @@ html {
 	-ms-text-size-adjust: 100%;
 }
 
-html, body, h1, h2 {
+html, body, h1, h2, h3, h4 {
 	font-size: 18px;
+    color: black;
 }
-h1, h2 {
-	font-size: 14pt;
-	font-weight: bold;
-}
+
 pre, code {
 	font-family: monospace;
 	font-size: 11pt;
@@ -49,8 +47,8 @@ blockquote {
 	border-left: 4px solid #ccc;
 	padding-left: 1em;
 }
-code,
-pre code {
+
+code, pre code {
 	background-color: #f5f5f5;
 }
 
@@ -141,7 +139,7 @@ div.itemwrapper h1 {
 
 div.itemwrapper h1,
 div.itemwrapper h1 a {
-	color: #333;
+	color: black;
 	text-decoration: none;
 }
 
