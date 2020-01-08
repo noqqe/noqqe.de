@@ -119,7 +119,7 @@ der freien Lizenz umgegangen und diese umgesetzt wird.
 
 Am Ende wollte ich einen Namen für ein kleines Side-Project finden und habe
 garnicht mal so wenig Zeit in diese kleine Recherche gesteckt. Welches Level
-an Yak-Shaving ist das bitte? Und dann geht es auch noch um ein YAK! 
+an [Yak-Shaving](https://en.wiktionary.org/wiki/yak_shaving) ist das bitte? Und dann geht es auch noch um ein YAK! 
 
 Letzter Funfact am Rande: Ein Künstler fand das Foto offenbar so schön
 das er Gemälde davon herstellt welche man im Netz kaufen kann! Wie es da wohl
