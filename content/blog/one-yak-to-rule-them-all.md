@@ -1,5 +1,5 @@
 ---
-title: "One Yak to Rule Them All"
+title: "One yak to rule them all"
 date: 2020-01-07T20:47:22+01:00
 tags:
 - Yak
@@ -14,8 +14,8 @@ ich eine Webseite besucht um zufällige Tiere anzeigen zu lassen.
 
 Bei einem davon, dem [Yak](https://www.randomlists.com/img/animals/yak.jpg),
 dachte ich kurz "Warte, ich kenne das Bild doch von irgendwoher". Ich
-überlegte kurz und mir fiel wieder ein, dass das Cover vom 2017er Album der
-Beatsteaks "Yours" kenne. Ich googelte kurz und fand:
+überlegte und mir fiel wieder ein, dass das Cover vom 2017er Album der
+[Beatsteaks](https://wikipedia.de/wiki/Beatsteaks) "Yours" kenne. Ich googelte kurz und fand wonach ich suchte.
 
 {{< figure src="/uploads/2020/01/tourbanner.png" caption="Quelle https://beatsteaks.com/supportacts-yours-tour-2017/" >}}
 
@@ -26,13 +26,13 @@ interessieren und ich warf die URL des Bildes in die Google
 [Bildersuche](https://www.google.com/imghp). Heraus kam ich beim Wikipedia
 Artikel zu domestizierten Yaks [en.wikipedia.org/wiki/Domestic_yak](https://en.wikipedia.org/wiki/Domestic_yak)
 
-Ein Gewisser "Dennis Jarvis" hat das Bild 2006 aufgenommen und 2012 in Wikipedia
+Dort hatte wiederrum ein gewisser "Dennis Jarvis" das Bild 2006 aufgenommen und 2012 in Wikipedia
 Commons [veröffentlicht](https://commons.wikimedia.org/wiki/File:Bos_grunniens_at_Yundrok_Yumtso_Lake.jpg).
 
 {{< figure src="/uploads/2020/01/yak.png" >}}
 
-Interessant dabei, die Lizenz! CC-BY-SA. Man darf es also Verändern und unter
-gleichen Bedingungen weitergeben.
+Interessant dabei, die Lizenz! [Creative Commons](https://creativecommons.org) BY (Namensnennung) SA (Share-alike). Man
+darf es also Verändern und unter gleichen Bedingungen weitergeben.
 
 {{< figure src="/uploads/2020/01/lizenz.png" >}}
 
@@ -65,8 +65,8 @@ welches ich gefunden hatte ebenfalls unterschiedlich sind.
 
 {{< figure src="/uploads/2020/01/cover.jpg" caption="Quelle https://beatsteaks.com/recordreleasekonzert/">}}
 
-Das Cover ist im Grunde nur eine zugeschnittene Version des wirklich
-originalen Bildes mit dem Bandschriftzug darüber. Da das Foto nicht mit NC
+Das Cover ist im Grunde nur eine zugeschnittene Version des originalen Bildes
+von Dennis Jarvis mit dem Bandschriftzug darüber. Da das Foto nicht mit NC
 (Non-commercial) lizensiert ist, ist das ja ebenfalls in Ordnung.
 
 An dieser Stelle war ich mir schon völlig bewusst, das ich nur noch Zeit
@@ -81,9 +81,55 @@ Bei [discogs.com](https://www.discogs.com/Beatsteaks-Yours/release/1076553://www
 
 {{< figure src="/uploads/2020/01/discogs.png" >}}
 
-Durch etwas herumgoogeln bin ich dann noch auf "Rocket & Wink" gestossen, die
-scheinbar das Artwork / Konzept für die Band gemacht haben.
+Das ist doch super :) Bei discogs ist außerdem "Rocket & Wink" als Artwork
+Urheber ausgezeichnet. Die Agentur arbeitet scheinbar auch für Rammstein und
+Fritz Kola. Auf der Webseite findet sich das Konzept für
+das Album "Yours":
+[rocketandwink.com/work/20662/beatsteaks-yours](https://www.rocketandwink.com/work/20662/beatsteaks-yours).
 
-https://www.rocketandwink.com/work/20662/beatsteaks-yours
+{{< figure src="/uploads/2020/01/wink.png" >}}
 
+Dort findet sich aber am Ende der Page "Copyright by Rocket & Wink", von dem
+Urheber des eigentlichen Werks kein Hinweis.
 
+Es stellten sich mir ein paar Fragen. Müsste das dort stehen? Was passiert
+wenn jemand ein CC-SA Werk modifiziert und unter anderer Lizenz weitergibt?
+
+{{< figure src="/uploads/2020/01/mod.png" >}}
+
+Wäre man trotz "falscher" Auszeichnung dazu berechtigt solche (siehe oben)
+Werke zu verändern? Also vererbt sich die Lizenz, egal wie sonst
+ausgezeichnet?
+
+Ich wollte es genauer wissen und schrieb eine Mail an die Design Agentur und
+fragte nett nach, wie es sich mit der Lizenz des Covers verhält und ob das
+Album Cover nun auch unter Creative Commons Lizenz stünde. Ich bekam bereits
+**am nächsten Tag** eine nette und sachliche Antwort, welche mich ein ganzes
+Stück schlauer machte. Demnach besteht eine Vereinbarung mit Dennis Jarvis,
+welche uneingeschränkte Rechte für die Agentur einräumt.
+
+Puh. Gut. Schade.
+
+{{< figure src="/uploads/2020/01/sad.gif" >}}
+
+Das ist ein bisschen traurig. Ich weiss nicht so recht was ich mir erhofft
+hatte. Vielleicht einfach herauszufinden das das Album Cover Creative Commons
+lizensiert ist. Oder auch weil ich wissen wollte wie in der Musik Branche mit
+der freien Lizenz umgegangen und diese umgesetzt wird.
+
+Am Ende wollte ich einen Namen für ein kleines Side-Project finden und habe
+garnicht mal so wenig Zeit in diese kleine Recherche gesteckt. Welches Level
+an Yak-Shaving ist das bitte? Und dann geht es auch noch um ein YAK! 
+
+Letzter Funfact am Rande: Ein Künstler fand das Foto offenbar so schön
+das er Gemälde davon herstellt welche man im Netz kaufen kann! Wie es da wohl
+wieder mit der Lizenz aussieht?
+
+{{< figure src="/uploads/2020/01/art.png" caption="Quelle: https://www.1stdibs.co.uk/art/paintings/animal-paintings/yuvak-tuladhar-yak-against-blue-sky/id-a_3884902/" >}}
+
+Das war dann doch .. ein ganz schon langer Artikel mal ohne wirklichen
+Technikbezug wie sonst hier im Blog. Feedback höre ich dazu trotzdem gern,
+oder auch eigene Erfahrungen und Anmerkungen wo euch Creative Commons
+schonmal begegnet ist :)
+
+Happy yak shaving!
