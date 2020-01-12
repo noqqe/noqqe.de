@@ -9,10 +9,13 @@ title: Projects
 alias: 'archives/434'
 ---
 
-## 2019
+## 2020
 
 * [stramap](https://github.com/noqqe/stramap/) Strava Aktivitäten auf eine Karte
   plotten
+
+## 2019
+
 * [downwards](https://pypi.org/project/downwards/) Wikipedia auf der
   Kommandozeile als Manpage lesen
 * [Podcast Entbehrliches](https://podcast.entbehrlich.es) Podcast über
