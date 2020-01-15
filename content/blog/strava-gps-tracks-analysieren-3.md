@@ -62,12 +62,6 @@ unzip  *.gz
 for x in *.fit
   gpsbabel -i garmin_fit -f $x -o gpx -F $x.gpx
 end
-
-# Good old minifier friend, aus Teil 2
-for f in *.gpx
-  set -l points (math (grep -c "trkpt" $f) / 30)
-  gpsbabel -rt -i gpx -f $f -x simplify,count={$points} -o gpx -F SIMPLIFIED-$f
-end
 ```
 
 Obacht, `fish` Syntax, kein `bash`.
