@@ -1,16 +1,34 @@
 {{ partial "header.html" . }}
 
   <div class="itemcontent">
-  {{ range (where .Site.Pages "Type" "blog").GroupByDate "2006"  }}
-  <h2>{{ .Key }}</h2>
-  <ul>
+  {{ range first 8 ((where .Site.Pages "Type" "blog").GroupByDate "2006")  }}
     {{ range where .Pages ".Title" "!=" "Blogs" }}
-    <li>
-        <span>{{ .Date.Format "02.01" }}</span>
-        <a href="{{ .Permalink }}">{{ .Title }}</a>
-    </li>
+
+  <div class="itemdetails">
+  <h1 itemprop="headline">
+      <a itemprop="mainEntityOfPage" href="{{ .Permalink }}">{{ .Title }}</a>
+  </h1>
+   <span class="date" itemprop="datePublished dateModified">{{ .Date.Format "2006-01-02" }}</span>
+   @
+   <span itemprop="keywords">
+      {{ with .Params.tags }}
+        {{ $sort := sort . }}
+        {{ $links := apply $sort "partial" "link" "." }}
+        {{ $clean := apply $links "chomp" "." }}
+        {{ delimit $clean ", " }}
+      {{ end }}
+   </span>
+  </div>
+    <div class="itemcontent" itemprop="articleBody">
+      {{ .Summary }}
+    </div>
+  <div>
+    <a itemprop="mainEntityOfPage" href="{{ .Permalink }}">Weiter lesen...</a>
+    </br>
+    </br>
+  </div>
+
     {{ end }}
-  </ul>
   {{ end }}
 
 {{ partial "footer.html" . }}
