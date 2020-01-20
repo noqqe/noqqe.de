@@ -64,12 +64,17 @@ code.rev {
 }
 
 header {
-	height: 3em;
+    color: black;
 	margin-bottom: 20px;
 	margin-top: 10px;
 	padding: 14px 0 0 0;
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
+}
+
+header img {
+    width: 100%;
+    height: auto;
 }
 
 header .bar {
@@ -85,18 +90,6 @@ header h2 {
 	display: inline;
 	-moz-osx-font-smoothing: auto;
 	-webkit-font-smoothing: auto;
-}
-header a {
-	text-decoration: none;
-}
-
-header a,
-header a:visited {
-	color: black;
-}
-
-header .menubar {
-    text-decoration: underline;
 }
 
 footer {
@@ -144,7 +137,7 @@ div.itemwrapper h1 a {
 }
 
 div.itemdetails {
-	font-size: 11pt;
+	font-size: 0.9em;
 }
 
 div.itemdetails {
