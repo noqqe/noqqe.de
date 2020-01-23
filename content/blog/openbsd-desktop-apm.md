@@ -56,7 +56,7 @@ Also, CPU Performance mit 100% starten, alle 30 Sekunden den Batterie Status
 loggen und bei 5% verbleibender Batterie die Maschine in Hibernate Modus
 schicken. Ziemlich geil!
 
-Ich will auch wenn ich meinen "Deckel" zu mache das mein Bildschrim gesperrt
+Ich will auch wenn ich meinen "Deckel" zu mache das mein Bildschirm gesperrt
 ist. Ich kann via folgenden Dateien
 
 
