@@ -15,3 +15,12 @@ DELETE 138
 puppetdb=# delete from resource_params where value like '%hostname%';
 DELETE 29
 ```
+
+Find resources based on their name
+
+```
+SELECT catalog_resources.file, certnames.certname
+FROM catalog_resources
+INNER JOIN certnames ON catalog_resources.certname_id = certnames.id
+WHERE title LIKE '%<name of resource>%';
+```
