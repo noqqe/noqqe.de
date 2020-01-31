@@ -18,8 +18,8 @@ Die Basis ist auch dieses mal wieder die Liste mit Tupeln, die ich von
 [ (255,255,255), (0,0,0), ... ]
 ```
 
-Im folgenden habe ich mir zwei Helper-Funktionen geschrieben, um ein
-existierendes Bild einzulesen und eine um ein Bild mit Veränderten Werten
+Im Folgenden habe ich mir zwei Helper-Funktionen geschrieben, um ein
+existierendes Bild einzulesen und eine um ein Bild mit veränderten Werten
 schreiben zu können.
 
 ```
@@ -39,8 +39,8 @@ def new_image(x, y, out, data):
 ## Fotos abdunkeln/aufhellen
 
 Was passiert zum Beispiel wenn ich die Daten eines Bildes einlese, überall
-`20` Punkte abziehe und das Bild abspeichere? Ich hatte davon keine Ahnung
-etwas herumgespielt.
+`20` Punkte abziehe und das Bild abspeichere? Ich hatte keine Ahnung
+und dann etwas herumgespielt, was man so verändern könnte:
 
 ```
 # alt
@@ -51,6 +51,8 @@ etwas herumgespielt.
 ```
 
 Was passiert ist, dass ich damit die **Helligkeit** des Fotos verändere!
+
+{{< figure src="/uploads/2020/01/darkcat.png" >}}
 
 Ich habe mir also eine kleine Funktion gebaut, welches über alle Tuples
 iteriert und einen konfigurierbaren Wert abzieht.
@@ -76,9 +78,7 @@ darken("cat.png", "dark.png", 20)
 Zum Verdeutlichen habe ich mir mal eine kleine süße Katze von
 [unsplash](https://unsplash.com) runtergeladen.
 
-{{< figure src="/uploads/2020/01/darkcat.png" >}}
-
-Yeah. Am Ende ist es einfach genau das, was Programme tun wenn man am
+Am Ende ist es einfach genau das, was Programme tun wenn man am
 Helligkeits Slider herumspielt?! Wenn ich die Werte addiere, wird das Bild
 dementsprechend heller.
 
@@ -96,7 +96,7 @@ RGB besteht ja wie der Name schon sagt aus 3 Farben, Rot, Grün, Blau.
 (145,77,83)
 ```
 
-Das heisst, um ein Bild kälter wirken zu lassen (und nicht Putin drauf sein
+Das heisst, um ein Bild kälter wirken zu lassen (ohne das ein Bärenreitender Putin darauf sein
 soll) kann ziehe ich bei Rot etwas ab und gebe  es bei Blau hinzu. So bekommt
 ein Bild einen Blaustich und es wirkt kalt.
 
@@ -106,8 +106,8 @@ ein Bild einen Blaustich und es wirkt kalt.
 [ (210, 155, 50), ... ]
 ```
 
-Um das zu tun nehme ich ehrlich gesagt fast die gleiche Funktion zu Hand und
-ändere sie nur etwas. Zum Beispiel für Abkühlung
+Um das zu tun nehme ich ehrlich gesagt fast die gleiche Funktion wie bei der
+Helligkeit zur Hand und ändere sie etwas. Zum Beispiel für Abkühlung
 
 ```
 def cooling(inf, outf, dec):
@@ -118,8 +118,6 @@ def cooling(inf, outf, dec):
         l = list(triples)
         l[0] = l[0] - dec
         l[2] = l[2] + dec
-
-
         npixels.append(tuple(l))
 
     new_image(x, y, outf, npixels)
@@ -129,12 +127,7 @@ cooling("cat2.png", "cooling.png", 20)
 
 {{< figure src="/uploads/2020/01/coldcats.png" >}}
 
+Das erste der 3 Bilder wurde eben umgekehrt (rot +20, blau -20) verändert
+und wirkt daher wärmer... :)
 
-## Flatten
-
-## ISO
-
-## Randomisieren
-
-... So. Jetzt ist der Schritt zum eigenen Instagram Filter eigentlich nicht
-mehr weit. Nur wie finde ich jetzt coole Muster?
+Next up: Kontrast & Flattening
