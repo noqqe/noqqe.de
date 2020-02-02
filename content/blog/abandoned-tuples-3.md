@@ -117,9 +117,59 @@ Fertig wäre ein Teil unseres Hipster Analog Filters...
 
 ## Kontrast
 
+Kontraste sind nicht ganz so einfach zu berechnen, da ich zu einem bestimmten
+Pixel wissen muss wie ich die Farbe "intensiviere". Kontrast erhöhen bedeutet
+ja im Endeffekt das die Farbe des Pixels kräftiger wird.
+
+Dazu habe ich mir die Formel eines schlauen [Menschen geklaut](https://www.dfstudios.co.uk/articles/programming/image-programming-algorithms/image-processing-algorithms-part-5-contrast-adjustment/).
+
+Das heisst ich muss jeder RGB Wert eines Pixels wird mit einem Faktor
+multipliziert und verändert. Die Verarbeitung läuft in 2 Schritten. Faktor
+berechnen und Faktor auf normalisierten Wert anwenden.
+
+```
+# Kontrast +90
+[103, 148, 205]
+[76, 169, 287]
+
+# Beispiel für Blau
+((103 - 128) * 2.073) + 128 = 76
+```
+
+In diesem Fall wird das Blau einfach etwas "leuchtender"
+
+{{< figure src="/uploads/2020/01/contrast.png" >}}
+
+Das habe ich nun in meine Funktion eingebaut
+
+```
+def contrast(inf, outf, contrast=90):
+    x, y, pixels = get_image(inf)
+
+    factor = (259 * (contrast + 255)) / (255 * (259 - contrast))
+
+    npixels = []
+    for triples in pixels:
+        l = list(triples)
+
+        l[0] = int(factor * (l[0] - 128) + 128)
+        l[1] = int(factor * (l[1] - 128) + 128)
+        l[2] = int(factor * (l[2] - 128) + 128)
+
+        npixels.append(tuple(l))
+
+    new_image(x, y, outf, npixels)
+
+contrast("treppen.png", "inccontrast.png", 60)
+contrast("treppen.png", "redcontrast.png", -60)
+```
+
+Angewendet sieht das ganze dann so aus:
+
+{{< figure src="/uploads/2020/01/contrastcomp.png" >}}
+
 ... So. Jetzt ist der Schritt zum eigenen Instagram Filter eigentlich nicht
 mehr weit. Nur wie finde ich jetzt coole Muster?
-
 
 ## Ende
 
