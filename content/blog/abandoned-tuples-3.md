@@ -1,20 +1,21 @@
 ---
 title: "Abandoned Tuples - Teil 3"
-date: 2020-01-29T17:48:21+01:00
+date: 2020-02-02T17:48:21+01:00
 tags:
 - Fotos
 - Python
 - Pillow
 ---
 
-Nach [Teil 1] und [Teil 2] will ich noch ein paar weitere Effekte basteln die man aus
-der Fotografie kennt.
+Nach [Teil 1](/blog/2020/01/29/abandoned-tuples/) und [Teil 2](/blog/2020/01/29/abandoned-tuples-2/)
+wollte ich noch ein paar weitere Effekte basteln die man aus der Fotografie
+kennt.
 
 ## Flatten
 
 Eine Sache die viele gängige Filter benutzten ist so eine Art
 "flattening". Was beim Fotografieren unter Dynamic Range eigentlich
-erstrebenswert ist, wird bei Instagram Filtern für Coffeehouse und ähnlichem
+erstrebenswert ist, wird bei Instagram Filtern für viele Brauntöne wie Kaffee und Ähnlichem
 bewusst weggemischt.
 
 Wie kann man hier vorgehen?
@@ -56,7 +57,7 @@ def flatten(inf, outf, fn):
 
     new_image(x, y, outf, npixels)
 
-
+flatten("coffee.png", out, 50)
 ```
 
 {{< figure src="/uploads/2020/01/coffee.png" >}}
@@ -168,16 +169,14 @@ Angewendet sieht das ganze dann so aus:
 
 {{< figure src="/uploads/2020/01/contrastcomp.png" >}}
 
-... So. Jetzt ist der Schritt zum eigenen Instagram Filter eigentlich nicht
-mehr weit. Nur wie finde ich jetzt coole Muster?
-
-## Ende
+## Fazit
 
 Das schöne ist, das ich wirklich immer nur jedes einzelne Pixel betrachtet
 habe und Modifikationen an eben diesem mache. Ich habe nie berücksichtigt wo
-es liegt im Bild, welche Nachbarn es unter umständen hat. Welche Farbe es
-ungefähr sein könnte oder ähnliches. Das alles ist völlig egal wenn man den
+es liegt im Bild, welche Nachbarn es unter Umständen hat. Welche Farbe es
+ungefähr sein könnte oder Ähnliches. Das alles ist völlig egal wenn man den
 RGB Farbwert hernimmt und diesen nach einem bestimmten Muster verändert.
 
-Wo ich aufhöre, fängt natürlich auch professionelle Foto Software an. HSL
-Kurven bearbeitung und alles das...
+Nachdem ich jetzt ungefähr alles an Grundwerkzeug habe, kann ich anfangen an
+meinem eigenen Instagram Filter zu bauen. Im nächsten Teil. Hatte ich
+eigentlich schon erwähnt das ich Instagram garnicht nutze? :P

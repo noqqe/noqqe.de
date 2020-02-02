@@ -1,6 +1,6 @@
 ---
 title: "Abandoned Tuples - Teil 2"
-date: 2020-01-29T17:48:21+01:00
+date: 2020-01-30T17:48:21+01:00
 tags:
 - Fotos
 - Python
