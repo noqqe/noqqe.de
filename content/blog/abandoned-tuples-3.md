@@ -69,7 +69,7 @@ inkrementiert habe.
 ## ISO
 
 Ebenfalls viele Filter gibt es zum Thema "Analog". Filme haben eine feste
-ISO. Oder Körnung mit anderen Worten. Wie könnte man das am einfachsten
+ISO. Oder Körnung mit anderen Worten. Wie könnte man das am Einfachsten
 herbei führen.
 
 Körnung bedeutet ja im Endeffekt ein bisschen rauschen. Also Punkte die
@@ -124,7 +124,7 @@ ja im Endeffekt das die Farbe des Pixels kräftiger wird.
 
 Dazu habe ich mir die Formel eines schlauen [Menschen geklaut](https://www.dfstudios.co.uk/articles/programming/image-programming-algorithms/image-processing-algorithms-part-5-contrast-adjustment/).
 
-Das heisst ich muss jeder RGB Wert eines Pixels wird mit einem Faktor
+Das heisst jeder RGB Wert eines Pixels wird mit einem Faktor
 multipliziert und verändert. Die Verarbeitung läuft in 2 Schritten. Faktor
 berechnen und Faktor auf normalisierten Wert anwenden.
 
