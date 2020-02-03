@@ -62,8 +62,8 @@ def darken(inf, outf, dec):
     x, y, pixels = get_image(inf)
 
     npixels = []
-    for triples in pixels:
-        l = list(triples)
+    for pixel in pixels:
+        l = list(pixel)
         l[0] = l[0] - dec
         l[1] = l[1] - dec
         l[2] = l[2] - dec
@@ -114,8 +114,8 @@ def cooling(inf, outf, dec):
     x, y, pixels = get_image(inf)
 
     npixels = []
-    for triples in pixels:
-        l = list(triples)
+    for pixel in pixels:
+        l = list(pixel)
         l[0] = l[0] - dec
         l[2] = l[2] + dec
         npixels.append(tuple(l))

@@ -41,8 +41,8 @@ def flatten(inf, outf, fn):
     x, y, pixels = get_image(inf)
 
     npixels = []
-    for triples in pixels:
-        l = list(triples)
+    for pixel in pixels:
+        l = list(pixel)
 
         if l[0] < fn:
             l[0] = fn
@@ -102,8 +102,8 @@ def iso(inf, outf):
     x, y, pixels = get_image(inf)
 
     npixels = []
-    for triples in pixels:
-        l = list(triples)
+    for pixel in pixels:
+        l = list(pixel)
         r = random.randint(0,90)
         l[0] = l[0] + r
         l[1] = l[1] + r
@@ -150,8 +150,8 @@ def contrast(inf, outf, contrast=90):
     factor = (259 * (contrast + 255)) / (255 * (259 - contrast))
 
     npixels = []
-    for triples in pixels:
-        l = list(triples)
+    for pixel in pixels:
+        l = list(pixel)
 
         l[0] = int(factor * (l[0] - 128) + 128)
         l[1] = int(factor * (l[1] - 128) + 128)
