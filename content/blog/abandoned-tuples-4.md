@@ -7,14 +7,15 @@ tags:
 - Pillow
 ---
 
-Nachdem ich jetzt, zufällige Bilder generiert, Helligkeiten, ISO, Kontrast
-und Temperatur Filter erstellt.
+Nachdem ich jetzt zufällige Bilder generiert, Helligkeiten, ISO, Kontrast und
+Temperatur Filter erstellt und vor allem verstanden habe, ist es Zeit etwas
+Tooling herum zu bauen.
 
 # Tooling
 
-Jetzt ist es Zeit etwas Tooling herum zu bauen. Ich habe
-[argparse](https://docs.python.org/3/library/argparse.html) verwendet um ein
-kleines Kommandozeilen Tool zu bauen
+Dazu habe ich [argparse](https://docs.python.org/3/library/argparse.html)
+verwendet. Via Argparse kann ich nun die einzelnen Filter in Reihe schalten
+und per Flag die Werte aus den Commandline Parametern abrufen.
 
 ```
 ./abandoned-tuples \
@@ -32,7 +33,7 @@ Das Tool ist auf [Github unter Abandoned-Tuples](https://github.com/noqqe/abando
 
 {{< figure src="/uploads/2020/02/out3.png" >}}
 
-Dann habe ich noch etwas Meta Informationen eingebaut. Memory und Dauer der
+Dann habe ich noch etwas Meta Informationen eingebaut. Speicherverbauch und Dauer der
 Laufzeit.
 
 ```
