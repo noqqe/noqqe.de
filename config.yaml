@@ -13,7 +13,7 @@ params:
   Copyright: "Content is licensed under a Creative Commons Attribution 4.0 International License"
   Author: "Florian Baumann"
   githubuser: "noqqe"
-  Keywords: "OpenBSD, Administration, bash, BSD, Code, Crypto, DevOps, Linux, Debian, Ubuntu, Mail, Statistik"
+  Keywords: "OpenBSD, Administration, Code, Crypto, DevOps, Linux, OpenBSD, Sysadmin, SRE"
   Twitter: "noqqe"
 
 taxonomies:
@@ -21,24 +21,5 @@ taxonomies:
 
 permalinks:
   blog: "blog/:year/:month/:day/:filename/"
+  photos: "photos/:year/:month/:day/:filename/"
   sammelsurium: "sammelsurium/:filename/"
-  links: "links/:filename/"
-
-
-menu:
-  main:
-  - name: "blog"
-    weight: 10
-    url: "/blog/"
-  - name: "projects"
-    weight: 20
-    url: "/projects/"
-  - name: "pgp"
-    weight: 30
-    url: "/pgp/"
-  - name: "books"
-    weight: 40
-    url: "/books/"
-  - name: "about"
-    weight: 40
-    url: "/about/"
