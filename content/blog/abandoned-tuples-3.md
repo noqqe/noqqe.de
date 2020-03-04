@@ -11,6 +11,8 @@ Nach [Teil 1](/blog/2020/01/29/abandoned-tuples/) und [Teil 2](/blog/2020/01/29/
 wollte ich noch ein paar weitere Effekte basteln die man aus der Fotografie
 kennt.
 
+<!--more-->
+
 ## Flatten
 
 Eine Sache die viele gängige Filter benutzten ist so eine Art

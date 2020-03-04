@@ -17,6 +17,8 @@ Dazu habe ich [argparse](https://docs.python.org/3/library/argparse.html)
 verwendet. Via Argparse kann ich nun die einzelnen Filter in Reihe schalten
 und per Flag die Werte aus den Commandline Parametern abrufen.
 
+<!--more-->
+
 ```
 ./abandoned-tuples \
   --contrast -20 \

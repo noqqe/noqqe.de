@@ -1,8 +1,7 @@
 {{ partial "header.html" . }}
 
   <div class="itemcontent">
-  {{ range first 8 ((where .Site.Pages "Type" "blog").GroupByDate "2006")  }}
-    {{ range where .Pages ".Title" "!=" "Blogs" }}
+    {{ range first 50 (where .Site.Pages "Kind" "page") }}
 
   <div class="itemdetails">
   <h1 itemprop="headline">
@@ -28,7 +27,6 @@
     </br>
   </div>
 
-    {{ end }}
   {{ end }}
 
 {{ partial "footer.html" . }}

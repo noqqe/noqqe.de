@@ -14,6 +14,9 @@ bestehenden Bildern so machen kann.
 Die Basis ist auch dieses mal wieder die Liste mit Tupeln, die ich von
 `Image.getdata()` bekomme.
 
+<!--more-->
+
+
 ```
 [ (255,255,255), (0,0,0), ... ]
 ```

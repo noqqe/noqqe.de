@@ -2,7 +2,19 @@
 vim:ts=4:sw=4:
 */
 
+@font-face {
+    font-family: "Wremena";
+    src: url("/fonts/WremenaRegular.woff") format('woff');
+}
+
+@font-face {
+    font-family: "Wremena";
+    src: url("/fonts/WremenaBold.woff") format('woff');
+    font-weight: bold;
+}
+
 html {
+    font-family: Wremena;
 	overflow: -moz-scrollbars-vertical !important;
 	font-size: 100%;
 	-webkit-text-size-adjust: 100%;
@@ -10,13 +22,13 @@ html {
 }
 
 html, body, h1, h2, h3, h4 {
-	font-size: 18px;
+	font-size: 20px;
     color: black;
 }
 
 pre, code {
 	font-family: monospace;
-	font-size: 11pt;
+	font-size: 12pt;
 }
 
 body {
@@ -103,7 +115,7 @@ footer a:visited {
 }
 
 div.itemcontent {
-	color: #555;
+	color: #312f2f;
 	margin-top: 0.75em;
 	padding-right: 10px;
 }
@@ -123,7 +135,7 @@ body.item div#contentwrapper {
 div.itemwrapper h1 {
 	color: #333;
 	font-weight: bold;
-    font-size: 25px;
+    font-size: 30px;
 	padding: 0;
 	margin: 0;
 }
@@ -135,14 +147,12 @@ div.itemwrapper h1 a {
 }
 
 div.itemdetails {
+    border-left: 5px solid gray;
 	font-size: 0.9em;
-}
-
-div.itemdetails {
 	color: #bbb;
 	margin: 0;
 	margin-top: 2px;
-	padding: 0;
+	padding: 0 0 0 10px;
 }
 
 div.itemdetails a {

@@ -11,7 +11,7 @@ Es ist ja mittlerweile völlig normal seine Fotos in irgend einer Weise zu
 bearbeiten. Auf Twitter gibt's den Zauberstab, Instagram stellt dutzende
 Filter zur Verfügung, das eigene mobile Betriebssystem hat allerhand
 Bordmittel dabei um Fotos zu bearbeiten.
-
+<!--more-->
 Seit 1-2 Jahren schieße (witizg, weil es eine Leica gibt die wirklich wie ein
 Gewehr
 [aussieht](https://petapixel.com/2015/06/09/leica-camera-rifle-prototype-valued-at-over-350000/))

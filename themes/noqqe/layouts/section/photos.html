@@ -2,7 +2,7 @@
 
     <div class="itemcontent">
     {{ range (where .Site.Pages "Type" "photos").GroupByDate "2006"  }}
-    <h2>{{ .Key }}</h2>
+    <h2>Posts {{ .Key }}</h2>
     <ul>
       {{ range where .Pages ".Title" "!=" "Photos" }}
       <li>
