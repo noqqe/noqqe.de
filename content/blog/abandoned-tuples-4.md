@@ -11,7 +11,7 @@ Nachdem ich jetzt zufällige Bilder generiert, Helligkeiten, ISO, Kontrast und
 Temperatur Filter erstellt und vor allem verstanden habe, ist es Zeit etwas
 Tooling herum zu bauen.
 
-# Tooling
+## Tooling
 
 Dazu habe ich [argparse](https://docs.python.org/3/library/argparse.html)
 verwendet. Via Argparse kann ich nun die einzelnen Filter in Reihe schalten
