@@ -1,12 +1,12 @@
 ---
 title: Git
-date: 2012-06-18T02:00:00
+date: 2020-03-05T12:00:00
 tags:
 - Software
 - git
 ---
 
-## Deletions
+## Gelöschte Dateien
 
 Files mit bestimmten Suffix aus Git History finden
 
@@ -20,24 +20,29 @@ File aus History löschen
 
     git filter-branch -f --tree-filter "rm -f foo/bar/baz.RData" HEAD
 
-## Checkout remote branch
+## Squash
 
-Remote branch auschecken ist was anderes als einen lokalen Branch erstellen
-und den remote branch pullen. Merging baby.
+Manchmal dauert es 1-18 Commits um ein Feature fertigzustellen. Da man das
+aber nicht in `master` haben will, muss man ein bisschen was dazu tun.
 
-Die Zeilen holen alle Meta daten und man kann den remote Branch so wie er
-ist verwenden.
+```
+[ on current messed up feature branch "TICK-1337-MESSY" with too many commits ]
+git checkout master
+git checkout -b TICK-1337-Feature
+git merge --squash TICK-1337-MESSY
+git add .
+git commit -a -m "Add feature XYZ for TICK-1337"
+git push
+[ pull request ]
+```
 
-    git fetch
-    git checkout test
-
-## git gc
-
-Wenn ich ein git repository wieder aufräumen möchte.
-
-[http://git-scm.com/docs/git-gc](http://git-scm.com/docs/git-gc)
+So bekommt man quasi alle Changes die seit `master` im Feature Branch
+TICK-1337-MESSY passiert sind in den neuen Branch TICK-1337-Feature überführt
+und kann dann eine schöne Commit Message formulieren.
 
 ## git proxy
+
+Manchmal kommt man in die Verl
 
     [http]
         sslVerify = false
@@ -76,7 +81,10 @@ expression regexp1 and lines of text matching regular expression regexp2:
 
     git grep -l --all-match -e <regexp1> -e <regexp2>
 
-## Fucking Submodules
+## Submodules
+
+Git Submodules sind ultimativ kaputt, meine Meinung. Ich versuche Software wo
+es geht zu meiden die solche einsetzt.
 
     $ git submodule sync
     No submodule mapping found in .gitmodules for path 'bundle/Screen-vim---gnu-screentmux'
@@ -89,16 +97,18 @@ Infos suchen:
 
     git config -l
 
-To remove a submodule you need to:
+Submodule löschen:
 
 * Delete the relevant line from the .gitmodules file.
 * Delete the relevant section from .git/config.
 * Run git rm --cached path_to_submodule (no trailing slash).
 
-    $ git rm --cached bundle/R.vim
-    rm 'bundle/R.vim'
+```
+$ git rm --cached bundle/R.vim
+rm 'bundle/R.vim'
+```
 
-* Commit the superproject.
+* Commit the project.
 * Delete the now untracked submodule files.
 
 ## Inspect all versions for 1 specific line in one file
@@ -131,3 +141,9 @@ sauber die Versionen zu taggen und sucht, wann die version angehoben wurde.
     @@ -16,1 +16,1 @@
     -    version='17.0.0',
     +    version='18.0.0',
+
+## git gc
+
+Wenn ich ein git repository wieder aufräumen möchte.
+
+[http://git-scm.com/docs/git-gc](http://git-scm.com/docs/git-gc)
