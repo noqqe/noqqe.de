@@ -12,6 +12,8 @@ Files mit bestimmten Suffix aus Git History finden
 
     git log --all --summary -- '*.Rdata'
 
+<!-- more -->
+
 Gelöschte Files aus History anzeigen
 
     git log --diff-filter=D --summary
@@ -39,6 +41,18 @@ git push
 So bekommt man quasi alle Changes die seit `master` im Feature Branch
 TICK-1337-MESSY passiert sind in den neuen Branch TICK-1337-Feature überführt
 und kann dann eine schöne Commit Message formulieren.
+
+
+## Ein einzelnes File aus einem Repo holen
+
+Man kann ein einzelnes (bzw. auch mehrere Files) aus einem Repo holen, wenn
+man `git archive` dafür verwendet
+
+```
+git archive -o out.tar --remote=ssh://github.com/noqqe/foo.git HEAD:master <file>
+```
+
+Super für Automatisierung oder ähnliches.
 
 ## git proxy
 
