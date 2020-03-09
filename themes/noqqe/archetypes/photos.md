@@ -2,5 +2,12 @@
 title: "{{ replace .TranslationBaseName "-" " " | title }}"
 date: {{ .Date }}
 tags:
-- Sony
+- Sony Alpha 6300
+- Fotografie
+- Leica M6
 ---
+
+...
+
+{{< gallery hover-effect="grow" caption-position="none" hover-transition="none" dir="/albums/2020/trier/" />}}
+{{< load-photoswipe >}}
