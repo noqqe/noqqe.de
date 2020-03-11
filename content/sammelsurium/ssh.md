@@ -14,7 +14,7 @@ Passwort Auth erzwingen
 ssh host -o PasswordAuthentication=yes -o PubkeyAuthentication=no
 ```
 
-<!-- more -->
+<!--more-->
 
 Speziellen Port angeben
 

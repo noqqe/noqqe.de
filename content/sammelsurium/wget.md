@@ -11,7 +11,7 @@ tags:
 Wenn man einen Download beginnt, kann dieser (sofern vom Server unterstützt)
 wieder fortgesetzt werden.
 
-<!-- more -->
+<!--more-->
 
 ```
 wget https://ftp.fau.de/kiwix/zim/wikipedia/wikipedia_de_all_maxi_2019-08.zim

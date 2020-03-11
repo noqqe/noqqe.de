@@ -12,7 +12,7 @@ Files mit bestimmten Suffix aus Git History finden
 
     git log --all --summary -- '*.Rdata'
 
-<!-- more -->
+<!--more-->
 
 Gelöschte Files aus History anzeigen
 
