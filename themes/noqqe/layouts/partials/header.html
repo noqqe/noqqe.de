@@ -54,44 +54,39 @@
   <div id="sitewrapper">
 
     <header>
-      <h2>
-        <a href="{{ .Site.BaseURL }}"><img src="/images/banner.png"></a>
-      </h2>
-      <br>
-
       <a class="menubar" href="{{ .Site.BaseURL }}/">noqqe@roz</a> &raquo;
       {{ if eq .Title "Blogs" }}
-      <a class="menubar" href="{{ .Site.BaseURL }}/blog"><i>blog</i></a>
+      <a class="color-blog menubar menubar-active-blog" href="{{ .Site.BaseURL }}/blog">blog</a>
       {{else}}
-      <a class="menubar" href="{{ .Site.BaseURL }}/blog">blog</a>
+      <a class="color-blog menubar" href="{{ .Site.BaseURL }}/blog">blog</a>
       {{end}}
       <span class="bar">|</span>
 
       {{ if eq .Title "Sammelsuria" }}
-      <a class="menubar" href="{{ .Site.BaseURL }}/sammelsurium"><i>sammelsurium</i></a>
+      <a class="color-sammelsurium menubar menubar-active-sammelsurium" href="{{ .Site.BaseURL }}/sammelsurium">sammelsurium</a>
       {{else}}
-      <a class="menubar" href="{{ .Site.BaseURL }}/sammelsurium">sammelsurium</a>
+      <a class="menubar color-sammelsurium" href="{{ .Site.BaseURL }}/sammelsurium">sammelsurium</a>
       {{end}}
       <span class="bar">|</span>
 
       {{ if eq .Title "Photos" }}
-      <a class="menubar" href="{{ .Site.BaseURL }}/photos"><i>photos</i></a>
+      <a class="color-photos menubar menubar-active-photos" href="{{ .Site.BaseURL }}/photos">photos</a>
       {{else}}
-      <a class="menubar" href="{{ .Site.BaseURL }}/photos">photos</a>
+      <a class="menubar color-photos" href="{{ .Site.BaseURL }}/photos">photos</a>
       {{end}}
       <span class="bar">|</span>
 
       {{ if eq .Title "Projects" }}
-      <a class="menubar" href="{{ .Site.BaseURL }}/projects"><i>projects</i></a>
+      <a class="color-projects menubar menubar-active-projects" href="{{ .Site.BaseURL }}/projects">projects</a>
       {{else}}
-      <a class="menubar" href="{{ .Site.BaseURL }}/projects">projects</a>
+      <a class="color-projects menubar" href="{{ .Site.BaseURL }}/projects">projects</a>
       {{end}}
       <span class="bar">|</span>
 
       {{ if eq .Title "About" }}
-      <a class="menubar" href="/about"><i>about</i></a>
+      <a class="menubar menubar-active color-about" href="/about">about</a>
       {{else}}
-      <a class="menubar" href="/about">about</a>
+      <a class="menubar color-about" href="/about">about</a>
       {{end}}
     </header>
 

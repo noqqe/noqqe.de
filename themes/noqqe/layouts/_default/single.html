@@ -1,7 +1,14 @@
 {{ partial "header.html" . }}
 
-
+  {{ if eq .Section "photos" }}
+  <div class="itemdetails color-photos">
+  {{ else if eq .Section "sammelsurium" }}
+  <div class="itemdetails color-sammelsurium">
+  {{ else if eq .Section "blog" }}
+  <div class="itemdetails color-blog">
+  {{ else }}
   <div class="itemdetails">
+  {{ end }}
   <h1 itemprop="headline">
       <a itemprop="mainEntityOfPage" href="{{ .Permalink }}">{{ .Title }}</a>
   </h1>
@@ -14,6 +21,7 @@
         {{ $clean := apply $links "chomp" "." }}
         {{ delimit $clean ", " }}
       {{ end }}
+      {{ .Params.section }}
    </span>
 
    <div class="hidden" itemprop="author publisher">

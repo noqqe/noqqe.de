@@ -2,6 +2,7 @@
 vim:ts=4:sw=4:
 */
 
+
 @font-face {
     font-family: "Wremena";
     src: url("/fonts/WremenaRegular.woff") format('woff');
@@ -23,17 +24,13 @@ html {
 
 html, body, h1, h2, h3, h4 {
 	font-size: 19px;
-    color: black;
+    color: white;
 }
 
-pre, code {
-	font-family: monospace;
-	font-size: 12pt;
-}
 
 body {
-	background-color: #fdfdfd;
-	line-height: 1.45em;
+	background-color: #282a36;
+	line-height: 1.55em;
 	margin: 0;
 	padding: 10px;
 	padding-top: 0;
@@ -45,23 +42,86 @@ figcaption {
 }
 
 a, a:visited {
-	color: black;
+	color: white;
 }
+
+/* Blog */
+
+a.menubar-active-blog {
+    border-bottom: 4px solid #50fa7b;
+}
+
+a.color-blog {
+    color: #50fa7b !important;
+}
+
+div.color-blog {
+    border-left: 5px solid #50fa7b !important;
+}
+
+/* Photos */
+
+a.menubar-active-photos {
+    border-bottom: 4px solid #bd93f9;
+}
+
+a.color-photos {
+    color: #bd93f9 !important;
+}
+
+div.color-photos {
+    border-left: 5px solid #bd93f9 !important;
+}
+
+/* Sammelsurium */
+
+a.menubar-active-sammelsurium {
+    border-bottom: 4px solid #ff79c6;
+}
+
+a.color-sammelsurium {
+    color: #ff79c6 !important;
+}
+
+div.color-sammelsurium {
+    border-left: 5px solid #ff79c6 !important;
+}
+
+/* projects */
+
+a.menubar-active-projects {
+    border-bottom: 4px solid #f1fa8c;
+}
+
+a.color-projects {
+    color: #f1fa8c !important;
+}
+
+div.color-projects {
+    border-left: 5px solid #f1fa8c !important;
+}
+
+/* Code */
 
 pre {
-	background-color: #f5f5f5;
-	border: 1px solid #eee;
-	padding: 1em;
-	text-align: left;
+	background-color: black;
+	padding: 0.7em;
 	overflow: auto;
-}
-blockquote {
-	border-left: 4px solid #ccc;
-	padding-left: 1em;
+    color: white;
+    line-height: 1em;
 }
 
-code, pre code {
-	background-color: #f5f5f5;
+code {
+	font-family: monospace;
+	font-size: 11pt;
+	background-color: black;
+    color: white;
+    padding: 3px;
+}
+
+/* Ignore padding for code blocks inside pre */
+pre code {
+    padding: 0px;
 }
 
 /* anti spam from the 90s */
@@ -75,14 +135,25 @@ code.rev {
   display: none
 }
 
+/* Quotes */
+
+blockquote {
+	border-left: 4px solid #ccc;
+	padding-left: 1em;
+}
+
 header {
-    color: black;
+    color: #f8f8f2;
 	margin-bottom: 30px;
 	margin-top: 10px;
 	padding: 14px 0 0 0;
     font-size: 1em;
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
+}
+
+header a {
+    text-decoration: none;
 }
 
 header img {
@@ -103,7 +174,7 @@ header h2 {
 }
 
 footer {
-	color: #aaa;
+	color: #6272a4;
 	margin-bottom: 2em;
 	padding-right: 10px;
 	text-align: center;
@@ -111,11 +182,10 @@ footer {
 
 footer a,
 footer a:visited {
-	color: black;
+	color: #6272a4;
 }
 
 div.itemcontent {
-	color: #312f2f;
 	margin-top: 0.75em;
 	padding-right: 10px;
 }
@@ -133,30 +203,29 @@ body.item div#contentwrapper {
 }
 
 div.itemwrapper h1 {
-	color: #333;
+    color: white;
 	font-weight: bold;
     font-size: 30px;
 	padding: 0;
 	margin: 0;
 }
 
-div.itemwrapper h1,
 div.itemwrapper h1 a {
-	color: black;
+    color: white;
 	text-decoration: none;
 }
 
 div.itemdetails {
     border-left: 5px solid gray;
 	font-size: 0.9em;
-	color: #bbb;
+	color: #6272a4;
 	margin: 0;
 	margin-top: 2px;
 	padding: 0 0 0 10px;
 }
 
 div.itemdetails a {
-	color: #999;
+	color: #6272a4;
 	text-decoration: none;
 }
 
