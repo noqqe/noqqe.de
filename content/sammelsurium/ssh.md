@@ -78,7 +78,6 @@ The following connections are open:
 * `~B` Send a BREAK to the remote system (only useful for SSH protocol version 2 and if the peer supports it).
 * `~C` Open command line. Currently this allows the addition of port forwardings using the -L and -R options (see above).
 * `~R` Request rekeying of the connection (only useful for SSH protocol version 2 and if the peer supports it).
-```
 
 ## Terminal Description
 
