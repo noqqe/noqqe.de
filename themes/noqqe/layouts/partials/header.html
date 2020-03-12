@@ -55,36 +55,36 @@
 
     <header>
       <a class="menubar" href="{{ .Site.BaseURL }}/">noqqe@roz</a> &raquo;
-      {{ if eq .Title "Blogs" }}
+      {{ if (or (eq .Title "Blogs") (eq .Page.Section "blog")) }}
       <a class="color-blog menubar menubar-active-blog" href="{{ .Site.BaseURL }}/blog">blog</a>
       {{else}}
       <a class="color-blog menubar" href="{{ .Site.BaseURL }}/blog">blog</a>
       {{end}}
       <span class="bar">|</span>
 
-      {{ if eq .Title "Sammelsuria" }}
+      {{ if (or (eq .Title "Sammelsuria") (eq .Page.Section "sammelsurium")) }}
       <a class="color-sammelsurium menubar menubar-active-sammelsurium" href="{{ .Site.BaseURL }}/sammelsurium">sammelsurium</a>
       {{else}}
       <a class="menubar color-sammelsurium" href="{{ .Site.BaseURL }}/sammelsurium">sammelsurium</a>
       {{end}}
       <span class="bar">|</span>
 
-      {{ if eq .Title "Photos" }}
+      {{ if (or (eq .Title "Photos") (eq .Page.Section "photos")) }}
       <a class="color-photos menubar menubar-active-photos" href="{{ .Site.BaseURL }}/photos">photos</a>
       {{else}}
       <a class="menubar color-photos" href="{{ .Site.BaseURL }}/photos">photos</a>
       {{end}}
       <span class="bar">|</span>
 
-      {{ if eq .Title "Projects" }}
+      {{ if (or (eq .Title "Projects") (eq .Page.Section "projects")) }}
       <a class="color-projects menubar menubar-active-projects" href="{{ .Site.BaseURL }}/projects">projects</a>
       {{else}}
       <a class="color-projects menubar" href="{{ .Site.BaseURL }}/projects">projects</a>
       {{end}}
       <span class="bar">|</span>
 
-      {{ if eq .Title "About" }}
-      <a class="menubar menubar-active color-about" href="/about">about</a>
+      {{ if (or (eq .Title "About") (eq .Page.Section "about")) }}
+      <a class="color-about menubar menubar-active-about" href="/about">about</a>
       {{else}}
       <a class="menubar color-about" href="/about">about</a>
       {{end}}

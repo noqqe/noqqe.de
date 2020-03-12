@@ -102,6 +102,20 @@ div.color-projects {
     border-left: 5px solid #f1fa8c !important;
 }
 
+/* about */
+
+a.menubar-active-about {
+    border-bottom: 4px solid white;
+}
+
+a.color-about {
+    color: white !important;
+}
+
+div.color-about {
+    border-left: 5px solid white !important;
+}
+
 /* Code */
 
 pre {
