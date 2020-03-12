@@ -13,7 +13,7 @@ Hier nun mein Cheatsheet
 
 <!--more-->
 
-# Class vs. ID
+## Class vs. ID
 
 Ich denke ich werde es mir nie merken können. Deshalb schreib ich es hier
 auf.
@@ -36,7 +36,7 @@ Eine ID
 }
 ```
 
-# Verschachtelte HTML Tags
+## Verschachtelte HTML Tags
 
 > Select and style every <p> element that is inside <div> elements
 
@@ -46,7 +46,7 @@ div p {
 }
 ```
 
-# Attribute überschreiben
+## Attribute überschreiben
 
 Manchmal schreiben 2 Definitionen in das gleiche Element
 
@@ -56,7 +56,7 @@ Manchmal schreiben 2 Definitionen in das gleiche Element
  }
 ```
 
-# Mobile Ansicht
+## Mobile Ansicht
 
 Um responsive zu sei kann man mit `media` views auf die Screenauflösung gehen
 und dann Elemente anders anzeigen bzw verstecken.
