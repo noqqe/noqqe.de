@@ -23,3 +23,16 @@ permalinks:
   blog: "blog/:year/:month/:day/:filename/"
   photos: "photos/:year/:month/:day/:filename/"
   sammelsurium: "sammelsurium/:filename/"
+
+markup:
+  highlight:
+    codeFences: false
+    guessSyntax: false
+    hl_Lines: ""
+    lineNoStart: 1
+    lineNos: false
+    lineNumbersInTable: true
+    noClasses: true
+    style: monokai
+    tabWidth: 2
+
