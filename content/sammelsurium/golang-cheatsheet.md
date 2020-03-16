@@ -1,26 +1,127 @@
 ---
 title: Golang Cheatsheet
-date: 2016-12-18T12:04:06
+date: 2020-03-16T14:26:35
 tags:
 - Programming
 - go
 - golang
 ---
 
-#### Logging
+## Datentypen
+
+* Boolean types
+* Numeric types
+* String types
+* Derived types
+** Pointer types
+** Array types
+** Structure types
+** Union types and
+** Function types
+** Slice types
+** Interface types
+** Map types
+** Channel Types
+
+## builtin's
+
+```
+len()
+make()
+```
+
+## fmt
+
+Mal ein paar Notizen zu `fmt`
+
+Um eine einzelne Zeile auszugeben, wie `echo` in der Normalbenutzung
+
+    fmt.Println("foo")
+
+Wenn ich noch den Filedescriptor angeben will, muss ich eine andere Funktion
+benutzen
+
+    fmt.Fprintln(os.Stderr, "foo")
+
+Und wenn ich diverse Formatzeichen nutzen will, ebenso.
+
+    fmt.Printf("%s %d", lol, foo)
+
+
+## bufio
+
+`bufio` ist eine Standard Library mit sich unter anderen Files lesen lassen.
+Buffered IO halt.
+
+    fhandle, err := os.Open("/path/to/file")
+    input := bufio.NewScanner(fhandle)
+
+Um den Input dann zu verarbeiten
+
+    for input.Scan() {
+      fmt.Println(input.Text())
+    }
+
+
+## os
+
+OS hat ein paar Toole Bindings
+
+Eine Datei oeffnen und ein Filehandle zurück bekommen
+
+    os.Open("file")
+
+Von Stdin lesen
+
+    os.Stdin
+
+
+## Fehlerbehandlung
+
+Die meisten Funktionen geben auch einen `err` zurück beim Aufruf
+
+    file, err := os.Open("/file/that/does/not/exist.txt")
+    if err != nil {
+      fmt.Printf("%v\n", err)
+    }
+
+`nil` ist dabei ein eingebauter Datentyp speziell für Fehler in Go.
+
+## const
+
+Konstanten werden speziell markiert. Sie bleiben zur Compilezeit gleich
+und werden niemals verändert.
+
+```
+const (
+  foo = "lol"
+  bar = 42
+)
+```
+
+oder auch in Funtkionen
+
+```
+func countlines () {
+  const (
+    foo = "lol"
+    bar = 42
+  )
+  [...]
+}
+```
+
+## Logging
 
 Besser als einfach nur fmt.Println mit
 
 ``` golang
 import log
 
-log.Printf("%s\n", string(output))
-log.Println("foo")
-
 log.Fatal("Process crashed and burned. Error: ", err)
 ```
 
-#### Structs
+## Structs
 
 Definieren
 
@@ -43,7 +144,9 @@ Abrufen
 log.Println(c.path)
 ```
 
-#### Command Execution
+## Command Execution
+
+Natürlich kann ich auch einfach Shell Commands wrappen in Go.
 
 ``` golang
 // execute commands
@@ -58,13 +161,9 @@ if err != nil {
 
 ```
 
-#### Slices
+## Slices
 
-In Python kann ich einfach
-
-  if "string" in list:
-
-In Go brauch ich dafuer die Hilfe dieser kleinen Funktion
+Wie finde ich einen String in einem `Slice`
 
 ```
 // check if slice contains string
@@ -78,9 +177,7 @@ func stringInSlice(a string, list []string) bool {
 }
 ```
 
-#### JSON
-
-Parse JSON from string
+## json
 
 ``` golang
 // convert to bytes and read json
@@ -89,25 +186,4 @@ var documents []Document
 json.Unmarshal(bytes, &documents)
 
 log.Printf("Entries found: %d", len(documents))
-```
-
-Ein JSON Objekt mit nested documents
-
-``` golang
-type Document struct {
-  Updated struct {
-    Date int64 `json:"$date"`
-  } `json:"updated"`
-  Created struct {
-    Date int64 `json:"$date"`
-  } `json:"created"`
-  Encrypted bool `json:"encrypted"`
-  Tags []string `json:"tags"`
-  Content string `json:"content"`
-  Title string `json:"title"`
-  ID struct {
-    Oid string `json:"$oid"`
-  } `json:"_id"`
-  Categories []string `json:"categories"`
-}
 ```
