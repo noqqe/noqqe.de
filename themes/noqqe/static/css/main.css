@@ -23,11 +23,30 @@ html {
     text-rendering: optimizeLegibility;
 }
 
-html, body, h1, h2, h3, h4 {
+html, body {
 	font-size: 19px;
     color: white;
 }
 
+h1, h2, h3, h4 {
+    color: white;
+}
+
+h1 {
+    font-size: 1.3em;
+}
+
+h2 {
+    font-size: 1.3em;
+}
+
+h3 {
+    font-size: 1.2em;
+}
+
+h4 {
+    font-size: 1.1em;
+}
 
 body {
 	background-color: #282a36;
