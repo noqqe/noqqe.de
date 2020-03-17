@@ -208,8 +208,8 @@ header h2 {
 footer {
 	color: #6272a4;
 	margin-bottom: 2em;
-	padding-right: 10px;
-	text-align: center;
+    padding-top: 0.8em;
+	font-size: 0.9em;
 }
 
 footer a,

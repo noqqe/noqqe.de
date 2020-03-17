@@ -1,38 +1,43 @@
 {{ partial "header.html" . }}
 
-  <div class="itemcontent">
-    {{ range first 10 (where .Site.Pages "Kind" "page") }}
+  {{ range first 10 (where .Site.Pages "Kind" "page") }}
 
-  {{ if eq .Section "photos" }}
-  <div class="itemdetails color-photos">
-  {{ else if eq .Section "sammelsurium" }}
-  <div class="itemdetails color-sammelsurium">
-  {{ else if eq .Section "blog" }}
-  <div class="itemdetails color-blog">
-  {{ else }}
-  <div class="itemdetails">
-  {{ end }}
-  <h1 itemprop="headline">
-      <a itemprop="mainEntityOfPage" href="{{ .Permalink }}">{{ .Title }}</a>
-  </h1>
-   <span class="date" itemprop="datePublished dateModified">{{ .Date.Format "2006-01-02" }}</span>
-   @
-   <span itemprop="keywords">
-      {{ with .Params.tags }}
-        {{ $sort := sort . }}
-        {{ $links := apply $sort "partial" "link" "." }}
-        {{ $clean := apply $links "chomp" "." }}
-        {{ delimit $clean ", " }}
-      {{ end }}
-   </span>
-  </div>
+  <div class="itemwrapper" itemscope itemType="http://schema.org/BlogPosting">
+
+    {{ if eq .Section "photos" }}
+    <div class="itemdetails color-photos">
+    {{ else if eq .Section "sammelsurium" }}
+    <div class="itemdetails color-sammelsurium">
+    {{ else if eq .Section "blog" }}
+    <div class="itemdetails color-blog">
+    {{ else }}
+    <div class="itemdetails">
+    {{ end }}
+
+      <h1 itemprop="headline">
+        <a itemprop="mainEntityOfPage" href="{{ .Permalink }}">{{ .Title }}</a>
+      </h1>
+
+      <span class="date" itemprop="datePublished dateModified">{{ .Date.Format "2006-01-02" }}</span>
+      @
+      <span itemprop="keywords">
+        {{ with .Params.tags }}
+          {{ $sort := sort . }}
+          {{ $links := apply $sort "partial" "link" "." }}
+          {{ $clean := apply $links "chomp" "." }}
+          {{ delimit $clean ", " }}
+        {{ end }}
+      </span>
+    </div>
+
     <div class="itemcontent" itemprop="articleBody">
       {{ .Summary }}
     </div>
-  <div>
-    <a itemprop="mainEntityOfPage" href="{{ .Permalink }}">Weiterlesen...</a>
-    </br>
-    </br>
+    <div class="continue-reading">
+      <a itemprop="mainEntityOfPage" href="{{ .Permalink }}">Weiterlesen...</a>
+      </br>
+      </br>
+    </div>
   </div>
 
   {{ end }}

@@ -1,5 +1,6 @@
 {{ partial "header.html" . }}
 
+  <div class="itemwrapper" itemscope itemType="http://schema.org/BlogPosting">
   {{ if eq .Section "photos" }}
   <div class="itemdetails color-photos">
   {{ else if eq .Section "sammelsurium" }}
