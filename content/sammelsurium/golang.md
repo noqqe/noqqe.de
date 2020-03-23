@@ -25,8 +25,41 @@ tags:
 
 ```
 len()
+```
+
+```
 make()
 ```
+
+## new
+
+`new()` ist eine Builtin Funktion
+Um einen `int` ohne Namen zu erzeugen und aus einer Funktion
+zurück zu geben.
+
+```
+new()
+```
+
+So bewirkt
+
+```
+func newInt() *int {
+  return new(int)
+}
+```
+
+das Gleiche wie
+
+```
+func newInt() *int {
+  var dummy int
+  return &dummy
+}
+```
+
+Aber ist schöner und kürzer, weil man sich keinen Namen ausdenken muss der
+unnötig wäre.
 
 ## fmt
 
@@ -73,15 +106,44 @@ Von Stdin lesen
 
     os.Stdin
 
+`os` beherrscht auch Argumente des Programms
+
+    os.Args[1]
+
+## strings
+
+Stringmanipluationen aller Art bietet `strings`. Zum Beispiel ein `Slice` zu
+einem `String` verwandeln
+
+    strings.join(Slice, sep)
+
+## flag
+
+Flag ist sozusagen das `os.Args` auf Steroiden. Der eingebaute
+Argumentenparser kann auch Flags von Argumenten unterscheiden
+
+```
+var n = flag.Bool("n", false, "no newline")
+
+func main() {
+  flag.Parse()
+  fmt.Print(strings.Join(flag.Args(), " "))
+  if !*n {
+    fmt.Println()
+  }
+}
+```
 
 ## Fehlerbehandlung
 
 Die meisten Funktionen geben auch einen `err` zurück beim Aufruf
 
-    file, err := os.Open("/file/that/does/not/exist.txt")
-    if err != nil {
-      fmt.Printf("%v\n", err)
-    }
+```
+file, err := os.Open("/file/that/does/not/exist.txt")
+if err != nil {
+  fmt.Printf("%v\n", err)
+}
+```
 
 `nil` ist dabei ein eingebauter Datentyp speziell für Fehler in Go.
 
