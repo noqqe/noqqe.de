@@ -51,7 +51,25 @@ Jetzt das generierte PKCS12 File in den (proprietären) Keystore
 keytool -v -importkeystore -srckeystore certs.pkcs12 -srcstoretype PKCS12 -destkeystore keystore.ks -deststoretype JKS
 ```
 
-Selbes kann auch für einen **Truststore** durchgeführt werden.
+Selbes kann auch für einen **Truststore** durchgeführt werden. Der Befehl
+dafür lautet:
+
+```
+keytool -import -v -trustcacerts -alias tomcat-ca -file certs.pem -keystore truststore.ks
+```
+
+Beachten: Hier wird das `PEM` File benutzt.
+
+## System Truststores
+
+Die Trust Stores des System werden direkt mit dem JRE ausgeliefert.
+
+```
+<java_home>/jre/lib/security/cacerts
+
+i.e.
+/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/security/cacerts
+```
 
 ## Test
 
@@ -60,3 +78,15 @@ Den angelegten Keystore testen
 ```
 java -Djavax.net.ssl.trustStore=ssl/keystore.jks -Djavax.net.ssl.trustStorePassword=<xxx> https://<nameofcert>
 ```
+
+Oder mit dem Tool [SSLPoke](https://github.com/MichalHecko/SSLPoke)
+
+```
+$ /usr/lib/jvm/java-11-openjdk-amd64/bin/java \
+  -Djavax.net.ssl.trustStore=/usr/lib/jvm/java-11-openjdk-amd64/jre/lib/security/cacerts \
+  -Djavax.net.ssl.trustStorePassword=changeit \
+  -jar SSLPoke-1.0.jar <host> 443
+
+Successfully connected
+```
+
