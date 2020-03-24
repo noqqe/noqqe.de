@@ -9,5 +9,7 @@ tags:
 
 ...
 
+<!--more-->
+
 {{< gallery hover-effect="grow" caption-position="none" hover-transition="none" dir="/albums/2020/trier/" />}}
 {{< load-photoswipe >}}
