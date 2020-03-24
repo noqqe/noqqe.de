@@ -3,8 +3,6 @@ title: "Java Keytool"
 date: 2020-03-23T10:04:11+01:00
 tags:
 - Software
-- Databases
-- OS
 ---
 
 "Kannst du mal eben ein Tomcat Zertifikat austauschen?". Gänsehaut.
