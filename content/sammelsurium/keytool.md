@@ -26,10 +26,10 @@ Ein herkömmliches `PEM` File kann zu einem `JKS` konvertiert werden.
 
 Das `PEM` muss dazu wie folgt aussehen
 
-* <private>
-* <cert>
-* <chain cert>
-* <root cert>
+* `private`
+* `cert`
+* `chain cert`
+* `root cert`
 
 Wenn das gegeben ist, PEM in `PKCS12` konvertieren.
 
