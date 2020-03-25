@@ -68,7 +68,7 @@ eigenen, unbenutzen(!) Adressbereich.
 
 ## Docker Daemon
 
-Zur Kommunikation zwischen den Containern legt Docker legt ein neues Netzwerk
+Zur Kommunikation zwischen den Containern legt Docker ein neues Netzwerk
 `docker0` an. Wie man dieses umkonfiguriert zeigt die
 [Dokumentation](https://docs.docker.com/network/bridge/)
 
