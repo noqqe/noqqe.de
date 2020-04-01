@@ -1,6 +1,6 @@
 ---
 title: "NIU Mini 40%"
-date:2020-04-01T20:14:48+02:00
+date: 2020-04-01T20:14:48+02:00
 tags:
 - Niu Mini
 - Mechanical Keyboard
