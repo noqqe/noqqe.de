@@ -18,21 +18,21 @@ Meine Notizen aus "Deutsch für Junge Profis"
 
 <!--more-->
 
-1. Der erste Satz
+## 1. Der erste Satz
 
 Muss catchy sein.
 
 > "Wir trafen Jesus in der Mittagspause kurz vor der Kreuzigung." Und wer nach
 > diesem ersten Satz den zweiten nicht liest, der ist nicht von dieser Welt.
 
-2. Die ersten 350 Zeichen
+## 2. Die ersten 350 Zeichen
 
 Müssen das Interesse wecken und hoch halten
 
 > Oft habe ich mich gefragt, woraus ein Hot Dog eigentlich besteht. Nun weiß
 > ich es. Aber lieber wüsste ich es nicht.
 
-3. Konkret sein
+## 3. Konkret sein
 
 Der sicherste Weg, die Aufmerksamkeit des Lesers zu wecken und
 wachzuhalten, ist der, besonders, bestimmt und konkret
@@ -45,7 +45,7 @@ zu sein.
 Zimt und Pfeffer sagen, statt "Gewürze"
 Keine Backwaren, sondern "Vollkornbrötchen" und Schokotorte!
 
-4. Nicht immer alles ausformulieren
+## 4. Nicht immer alles ausformulieren
 
 Nur weil 7 Dinge passiert sind, muss man diese nicht aufzählen, man kann auch
 nur obskure rausfiltern.
@@ -54,7 +54,7 @@ nur obskure rausfiltern.
 > mit zwei bedeutenden Vorzügen.
 > «Der Sommer kam mit Erdbeeren, Sondermeldungen und Badewetter.»
 
-5. Keine Füllwörter
+## 5. Keine Füllwörter
 
 Alle nachfolgenden Wörter sagen rein garnichts aus. Weglassen.
 
@@ -63,7 +63,7 @@ Alle nachfolgenden Wörter sagen rein garnichts aus. Weglassen.
 > erheblich, sehr, freilich, sozusagen, ganz, überaus, gänzlich, überhaupt, genau
 > völlig, geradezu, wohl, gern, ziemlich, gewissermaßen,
 
-6. Bildhafte Redundanz
+## 6. Bildhafte Redundanz
 
 Zu viel Information ist zu dicht, zu viel Information aber langweilig.
 Ausschmücken mit Bildern!
@@ -77,7 +77,7 @@ Ausschmücken mit Bildern!
 > wäre, ist eine der größten Torheiten,
 > die ein Schreiber begehen kann.
 
-7. Witz & Ironie
+## 7. Witz & Ironie
 
 Nötig, aber kritisch zu betrachten. Zu nah liegt der Fehler, dass es albern
 oder Ironie nicht erkannt wird.
@@ -90,14 +90,14 @@ oder Ironie nicht erkannt wird.
 > gebrauchen», ebenso wie die Verspottung der anderen: «Ich denke – also bin
 > ich hier falsch.»
 
-8. Kurze und einfache Wörter
+## 8. Kurze und einfache Wörter
 
 Benutze nie ein langes Wort, wenn ein kurzes es auch tut
 
 > Wetter liest sich leichter als «Witterungsbedingungen»
 > Leere Betten sind anschaulicher als «Kapazitätsüberhänge im Beherbergungsgewerbe»
 
-9. Mehr Verben!
+## 9. Mehr Verben!
 
 Wo ein Verbum passt, wird es dem Substantiv vorgezogen.
 
@@ -107,12 +107,12 @@ Wo ein Verbum passt, wird es dem Substantiv vorgezogen.
 > Und nicht: «Hier erfuhr er die Ursache der ganzen Entwicklung», sondern:
 > Hier erfuhr er, wie alles gekommen war.
 
-10. Mit Adjektiven knausern
+## 10. Mit Adjektiven knausern
 
 Rat: Adjektive haben anzuklopfen, ehe wir sie einlassen, und die meisten
 bleiben einfach draußen.
 
-11. Der Krampf der Synonyme
+## 11. Der Krampf der Synonyme
 
 Es muss nicht immer für alles ein Synonym her!
 
@@ -120,11 +120,11 @@ Es muss nicht immer für alles ein Synonym her!
 > Domstadt» muss es heißen; Frankfurt die «Mainmetropole»,
 und der Elefant darf nur als «Dickhäuter» wiederkehren.
 
-12. Sexismus
+## 12. Sexismus
 
 Mehr auf feminine Formen achten!
 
-13. Anglizismen
+## 13. Anglizismen
 
 Nur vorsichtig verwenden.
 
@@ -133,21 +133,21 @@ Nur vorsichtig verwenden.
 > akzeptierten Anglizismen verlassen will, denke dreimal nach: Er könnte auf
 > Unverständnis stoßen oder Antipathie produzieren.
 
-14. Keine toten Sprichwörter
+## 14. Keine toten Sprichwörter
 
 Bloß kein "Friede, Freude, Eierkuchen". Sprichwörter wie diese sind so
 verkommen, dass sie nichts mehr bedeuten.
 
 > das kühle Nass, die Blechlawine und das Ende der Fahnenstange;
 
-15. Verständliches Ausdrücken
+## 15. Verständliches Ausdrücken
 
 Der schlimmste Feind verständlicher, kraftvoller Wörter ist das
 Imponiergehabe, der Einschüchterungsjargon – gepflegt von Bürokraten,
 Wissenschaftlern und in der Wirtschaft vor allem von Marktforschern und
 Vorstandsassistenten.
 
-16. Einfache Sätze
+## 16. Einfache Sätze
 
 Kurze, prägnante Hauptsätze bilden.
 
@@ -163,7 +163,7 @@ Steht er vor dem Hauptsatz? «Als der Nebel sich lichtete, brachen wir auf»:
 Dann heißt er Vorsatz oder vorangestellter Nebensatz
 
 
-17. Eingebettete Nebensätze vermeiden
+## 17. Eingebettete Nebensätze vermeiden
 
 A1 - B - A2. Unbedingt vermeiden.
 
@@ -171,7 +171,7 @@ A1 - B - A2. Unbedingt vermeiden.
 > auf» – dann heißt er Zwischensatz oder eingeschobener Nebensatz und ist
 > (wie man beim lauten Lesen hört) eine Missgeburt.
 
-18. Nebensätze
+## 18. Nebensätze
 
 Nebensätze sollten keine Handlung tragen, nur zusätzlich beschreiben.
 
@@ -185,13 +185,13 @@ Nur prägnante Hauptsätze bilden aber keine schöne Sprachmelodie. Daraus folgt
 als Faustregel: Jeder dritte Hauptsatz könnte/sollte mit einem angehängten
 Nebensatz ausklingen.
 
-19. Hauptsätze
+## 19. Hauptsätze
 
 Hauptsätze sind die erste Wahl. Jeder Schreiber versuche, zuallererst sie zu nutzen;
 
 > «Stell dir vor, es ist Krieg, und keiner geht hin.»
 
-20. Maximal 6 eingeschobene Wörter
+## 20. Maximal 6 eingeschobene Wörter
 
 Besteht ein Tätigkeitswort aus zwei Teilen:
 
@@ -207,7 +207,7 @@ Sätze sind nicht dazu da, ihre Leser nach langer Fahrt durch eine Nebelsuppe
 in ihren Vermutungen zu enttäuschen oder zu bestätigen – ein Satz hat zu
 sagen , was er sagen will.
 
-21. Sage Zeitig was du willst
+## 21. Sage Zeitig was du willst
 
 Schlechtes Beispiel:
 
@@ -220,7 +220,7 @@ Besser:
 
 > «Ins AR D-Hauptstadtstudio kamen gestern Abend …»
 
-22. Sätze wie Pfeile
+## 22. Sätze wie Pfeile
 
 Der Inhalt sollte sich in einem Satz vorwärts bewegen
 
@@ -228,9 +228,10 @@ Der Inhalt sollte sich in einem Satz vorwärts bewegen
 > brausende Flut und teilt mit gewaltigen Armen den Strom, und ein Gott hat
 > Erbarmen.»
 
-23. Abwechselnde Anfänge in Hauptsätzen
+## 23. Abwechselnde Anfänge in Hauptsätzen
 
 Dafür gibt es 4 Möglichkeiten:
+
 * Umstandsangaben sind solche der Zeit («Morgen werde ich …»)
 * Mit dem Objekt beginnen. Man sollte dies sogar, wenn ein Text oder ein
   Redner sein Thema wechselt: «Den Ausgang des Krieges in Afghanistan nannte
