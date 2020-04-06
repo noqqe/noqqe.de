@@ -1,6 +1,6 @@
 ---
 title: "Schreibregeln"
-date: 2017-03-30T08:42:25+02:00
+date: 2020-03-30T08:42:25+02:00
 ---
 
 Meine Notizen aus "Deutsch für Junge Profis"
