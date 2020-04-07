@@ -21,45 +21,29 @@ tags:
   * Map types
   * Channel Types
 
-## builtin's
+## Slice
 
-```
-len()
-```
+Länge eines `Slice` bestimmen
 
-```
-make()
-```
+    len(foo)
 
-## new
+Slice initialisieren mit default werten
 
-`new()` ist eine Builtin Funktion
-Um einen `int` ohne Namen zu erzeugen und aus einer Funktion
-zurück zu geben.
+    var foo []string = []{"foo", "bar"}
+    var foo []int = []{1, 2, 3}
 
-```
-new()
-```
+Content für Element setzen
 
-So bewirkt
+    foo[1] = "rofl"
 
-```
-func newInt() *int {
-  return new(int)
-}
-```
+Ein bestehendes Slice erweitern
 
-das Gleiche wie
+    s = append(s, "e", "f")
 
-```
-func newInt() *int {
-  var dummy int
-  return &dummy
-}
-```
+Slice mit Dimensionierung initialisieren
 
-Aber ist schöner und kürzer, weil man sich keinen Namen ausdenken muss der
-unnötig wäre.
+    s := make([]string, 3)
+
 
 ## fmt
 
@@ -78,6 +62,13 @@ Und wenn ich diverse Formatzeichen nutzen will, ebenso.
 
     fmt.Printf("%s %d", lol, foo)
 
+Formatstrings (wird noch fortgeführt)
+
+```
+%.2f float64 with 2 zeros
+%s string
+%i int
+```
 
 ## bufio
 
@@ -116,6 +107,14 @@ Stringmanipluationen aller Art bietet `strings`. Zum Beispiel ein `Slice` zu
 einem `String` verwandeln
 
     strings.join(Slice, sep)
+
+## strconv
+
+Einen `string` zum `int` braucht einen Fehlerfall (Input: aaa?)
+
+```
+port, err := strconv.Atoi("8080")
+```
 
 ## flag
 
@@ -237,6 +236,36 @@ func stringInSlice(a string, list []string) bool {
 }
 ```
 
+## new
+
+`new()` ist eine Builtin Funktion
+Um einen `int` ohne Namen zu erzeugen und aus einer Funktion
+zurück zu geben.
+
+```
+new()
+```
+
+So bewirkt
+
+```
+func newInt() *int {
+  return new(int)
+}
+```
+
+das Gleiche wie
+
+```
+func newInt() *int {
+  var dummy int
+  return &dummy
+}
+```
+
+Aber ist schöner und kürzer, weil man sich keinen Namen ausdenken muss der
+unnötig wäre.
+
 ## json
 
 ``` golang
@@ -247,3 +276,55 @@ json.Unmarshal(bytes, &documents)
 
 log.Printf("Entries found: %d", len(documents))
 ```
+
+
+## yaml
+
+Beispiel YAML
+
+```yaml
+challenges:
+  - Och ja... ich weiss auch nicht
+  - "Test"
+  - Ich weiss nicht
+```
+
+Und zum Ausgeben der Daten:
+
+```golang
+package main
+
+import (
+  "fmt"
+  "log"
+  "io/ioutil" "gopkg.in/yaml.v2")
+
+type Challenges struct {
+    Challenge []string `challenges`
+}
+
+func (c *Challenges) getConf() *Challenges{
+
+    yamlFile, _ := ioutil.ReadFile("challenges.yml")
+
+    err = yaml.Unmarshal(yamlFile, c)
+    if err != nil {
+        log.Fatalf("Unmarshal: %v", err)
+    }
+
+    return c
+}
+
+func main() {
+
+    var c Challenges
+    c.getConf()
+
+    for _, x := range c.Challenge{
+      fmt.Println(x)
+    }
+}
+```
+
+Das `Struct` Challenges bekommt also eine Methode `getConf()` zum Laden und
+gibt ein befülltes `Struct` zurück.
