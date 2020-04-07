@@ -42,8 +42,7 @@ wichtig überhaupt das **Format** zu kennen. Die Größe eines Boards wird von
 eben TKL (Ten-Keyless) nur bedeutet dass es keinen Nummernblock gibt.
 
 {{< figure src="/uploads/2016/07/keyboardold.jpg" >}}
-_Quelle:
-[Wikipedia](https://de.wikipedia.org/wiki/Olympia_Werke#/media/File:Keyboard_on_a_typewriter.jpg)
+*Quelle: [Wikipedia](https://de.wikipedia.org/wiki/Olympia_Werke#/media/File:Keyboard_on_a_typewriter.jpg)*
 
 **Layout**. Die meisten Keyboards haben US Layout. Ich war eigentlich
 bisher immer mit DE Layout unterwegs. Der Wechsel auf US ist auch Teil der
