@@ -1,6 +1,6 @@
 ---
 title: "HTTP Debugging: MaxUploadSize"
-date: 2020-04-08T11:19:43+02:00
+date: 2020-04-08T15:44:39
 tags:
 - golang
 - HTTP
@@ -44,15 +44,26 @@ Die Go HTTP Library `net/http` ist einfach zu bedienen und die
 viel.
 
 ```golang
-func handle_post(w http.ResponseWriter, r *http.Request) {
+func post(w http.ResponseWriter, r *http.Request) {
 
-  // fetch http header field and convert to megabytes
-  size, _:= strconv.parseFloat(r.Header["Content-Length"][0], 64)
-  mb := size/1000000
+  // fetch header size
+  size, err := strconv.Atoi(r.Header["Content-Length"][0])
+  if err != nil {
+    log.Fatal(err)
+  }
 
-  // http response
+  // fetch body size
+  buf := new(bytes.Buffer)
+  buf.ReadFrom(r.Body)
+  body := len(buf.String())
+
+  // bytes to mb
+  mbh := float64(size)/1000000
+  mbb := float64(body)/1000000
+
   w.WriteHeader(200)
-  fmt.Fprintf(w, "Size: %.2f MB!\n", mb)
+  fmt.Fprintf(w, "Header: %.2f MB, Body: %.2f MB!\n", mbh, mbb)
+  fmt.Printf("Header: %.2f, Body: %.2f MB!\n", mbh, mbb)
 }
 ```
 
@@ -98,12 +109,12 @@ $ for x in 1M 5M 10M 100M 1G 10G
   curl -X POST --data-binary @/tmp/$x.bin localhost:8000
 end
 
-Size: 1.048576 MB!
-Size: 5.24288 MB!
-Size: 10.48576 MB!
-Size: 104.8576 MB!
-Size: 1073.741824 MB!
-Size: 10737.41824 MB!
+Header: 1.05 MB, Body: 1.05 MB!
+Header: 5.24 MB, Body: 5.24 MB!
+Header: 10.49 MB, Body: 10.49 MB!
+Header: 104.86 MB, Body: 104.86 MB!
+Header: 1073.74 MB, Body: 1073.74 MB!
+Header: 10737.42 MB, Body: 10737.42 MB!
 ```
 
 Mist(?). Der Loadbalancer hat also kein Problem mit 10G im `HTTP POST` Body. Mhpf.
@@ -113,3 +124,9 @@ der MaxUploadSize jetzt ausgeschlossen. Und ein bisschen Go geübt.
 
 Der Source für dieses kleine Go Projekt ist hier zu finden:
 [gist.github.com](https://gist.github.com/noqqe/f5cb617897eb495ea60a9f68be5ca412)
+
+**Update**: [Morris](https://twitter.com/MorrisJobke) hat mich darauf
+[hingewiesen](https://twitter.com/MorrisJobke/status/1247874283810029568) das
+die ursprüngliche Version nur die HTTP Headers analysiert hat. Diese werden
+von `curl` generiert und haben keine Aussage ob der Body des Requests
+vollständig ankommt. Daher hab ich den `Go` Teil aktualisiert. Danke!
