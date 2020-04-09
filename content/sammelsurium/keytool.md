@@ -18,6 +18,7 @@ keytool -list -keystore ssl/keystore.jks
 keytool -list -v -keystore ssl/keystore.jks
 ```
 
+
 ## PEM zu JKS konvertieren
 
 Ein herkömmliches `PEM` File kann zu einem `JKS` konvertiert werden.
@@ -57,6 +58,16 @@ keytool -import -v -trustcacerts -alias tomcat-ca -file certs.pem -keystore trus
 ```
 
 Beachten: Hier wird das `PEM` File benutzt.
+
+## Storepasswort ändern
+
+    keytool -storepasswd -new newpassword -keystore keystore.ks
+
+## Key Passwort im Store ändern
+
+Auch Keys in einem Store mit Passwort können nochmal Passwörter enthalten
+
+    keytool -keypasswd -alias MyKeyAlias -new newpassword -keystore keystore.ks
 
 ## System Truststores
 
