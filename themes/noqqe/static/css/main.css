@@ -138,7 +138,7 @@ div.color-about {
 /* Code */
 
 pre {
-	background-color: black;
+	background-color: #1a1818;
 	padding: 0.7em;
 	overflow: auto;
     color: white;
@@ -148,7 +148,7 @@ pre {
 code {
 	font-family: monospace;
 	font-size: 11pt;
-	background-color: black;
+	background-color: #1a1818;
     color: white;
     padding: 3px;
 }
