@@ -84,6 +84,13 @@ Um den Input dann zu verarbeiten
       fmt.Println(input.Text())
     }
 
+Buffer zu String Konvertieren
+
+    // response.Body = io.ReadCloser
+    response, _ := http.Get("https://golangcode.com/")
+    buf := new(bytes.Buffer)
+    buf.ReadFrom(response.Body)
+    newStr := buf.String()
 
 ## os
 
