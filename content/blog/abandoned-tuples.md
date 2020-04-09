@@ -38,14 +38,14 @@ Nach guter, alter
 Fand ich heraus das es eigentlich nur eine Liste mit 3er Tupeln braucht um
 mit Pillow ein Leeres Bild mit Daten zu befüllen.
 
-```
+```python
 >>> # Pillow Datenstruktur
 >>> [ (255,255,255), (0,0,0) ]
 ```
 
 Ich hab mir das ein sehr rudimentäres Script gebaut.
 
-```
+```python
 import random
 from PIL import Image
 
@@ -81,7 +81,7 @@ Pixeldaten angeht.
 Im Schnippsel von oben war dann schon recht viel Krepel dabei, weshalb ich das ein kleines
 bisschen wiederverwendbarer gestalten wollte.
 
-```
+```python
 import sys
 import random
 from PIL import Image
@@ -117,7 +117,7 @@ wirkliche Lernerlebnis war, dass die Datenstruktur der Bilder so simpel ist.
 Eine völlig neue Liste mit Tupeln erzeugen ist ja ganz nett. Aber ich kann
 auch die Liste eines existierenden Bildes auslesen....
 
-```
+```python
 from PIL import Image
 pixels = Image.open("foo.png").getdata()
 ```

@@ -38,7 +38,7 @@ So werden dunkle Stellen zu einem eher grauen Einheitsbrei und viele Details
 gehen verloren, was einen durchaus schönen Effekt haben kann. Vor allem bei
 Holz/Kaffee kann das oft gut aussehen.
 
-```
+```python
 def flatten(inf, outf, fn):
     x, y, pixels = get_image(inf)
 
@@ -99,7 +99,7 @@ würde es ein "buntes Rauschen" werden. Und so aussehen:
 
 Und das sieht einfach nicht schön aus.
 
-```
+```python
 def iso(inf, outf):
     x, y, pixels = get_image(inf)
 
@@ -145,7 +145,7 @@ In diesem Fall wird das Blau einfach etwas "leuchtender"
 
 Das habe ich nun in meine Funktion eingebaut
 
-```
+```python
 def contrast(inf, outf, contrast=90):
     x, y, pixels = get_image(inf)
 

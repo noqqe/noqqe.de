@@ -25,7 +25,7 @@ Im Folgenden habe ich mir zwei Helper-Funktionen geschrieben, um ein
 existierendes Bild einzulesen und eine um ein Bild mit veränderten Werten
 schreiben zu können.
 
-```
+```python
 # Bild auslesen
 def get_image(inf):
     x, y = Image.open(inf).size
@@ -60,7 +60,7 @@ Was passiert ist, dass ich damit die **Helligkeit** des Fotos verändere!
 Ich habe mir also eine kleine Funktion gebaut, welches über alle Tuples
 iteriert und einen konfigurierbaren Wert abzieht.
 
-```
+```python
 def darken(inf, outf, dec):
     x, y, pixels = get_image(inf)
 
@@ -112,7 +112,7 @@ ein Bild einen Blaustich und es wirkt kalt.
 Um das zu tun nehme ich ehrlich gesagt fast die gleiche Funktion wie bei der
 Helligkeit zur Hand und ändere sie etwas. Zum Beispiel für Abkühlung
 
-```
+```python
 def cooling(inf, outf, dec):
     x, y, pixels = get_image(inf)
 

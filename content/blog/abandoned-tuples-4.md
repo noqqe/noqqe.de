@@ -50,7 +50,7 @@ was die Funktionen angeht. Anstatt eine neue Liste aufzubauen `npixels`
 (siehe Vorherige Code Beispiele) habe ich nun die aktuelle Liste bearbeitet
 und mittels `enumerate` die originale Liste aktualisiert.
 
-```
+```python
 for i, pixel in enumerate(pixels):
     l = list(pixel)
     r = random.randint(0, dec)
@@ -82,7 +82,7 @@ Bilder in allen möglichen Werten generieren lassen. Quasi explorativ neue
 Instagram Filter finden. Hier mal 200 Varianten
 eines Bildes welches ich als Argument übergeben kann.
 
-```
+```python
 for i in range(0,200):
     # read file
     x, y, pixels = get_image(sys.argv[1])
