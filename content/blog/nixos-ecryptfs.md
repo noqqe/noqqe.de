@@ -18,7 +18,7 @@ Volume via `ecryptfs` aufsetzen.
 
 Also erstmal in die `/etc/nixos/configuration.nix` das `ecryptfs` hinzugefügt.
 
-```
+``` nix
 environment.systemPackages = with pkgs; [
   tmux
   ecryptfs
@@ -29,7 +29,7 @@ Via `nixos-rebuild switch` hab ich die neue Konfiguration dann angewendet.
 Scheinbar reicht aber das reine Paket nicht aus um `ecryptfs` zu benutzen. Ich
 muss das Kernel Modul noch laden!
 
-```
+``` nix
 boot.kernelModules = [
   "ecryptfs"
 ];
@@ -38,9 +38,8 @@ boot.kernelModules = [
 Ist das geil oder was? Natürlich hab ich mich zu früh gefreut. Ich hab auch
 gleich den `mount` Block eingebaut, weswegen die Maschine nicht mehr bootete.
 
-```
-fileSystems."/data" = {
-  neededForBoot = false;
+``` nix
+fileSystems."/data" = { neededForBoot = false;
   mountPoint = "/data";
   device = "/data";
   fsType = "ecryptfs";
@@ -65,7 +64,7 @@ fixen. Was übrigens nur ein `noauto` in den Optionen von `fstab` war.
 
 Wenn meine VM nun bootet, mounte ich via
 
-```
+``` bash
 # mount /data
 > Passphrase: xxx
 ```
