@@ -73,7 +73,7 @@ getauft und auf Github gestellt.
 
 Im Skript kurz die Config anpassen und `./stramap` ausführen.
 
-``` R
+``` python
 # gpxfiles = [ 'test.gpx', 'test2.gpx' ]
 gpxfiles = glob.glob('./activities/*.gpx')
 
