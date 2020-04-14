@@ -1,7 +1,7 @@
 ---
 title: PHP MySQL
 date: 2012-01-21T10:56:40
-tags: 
+tags:
 - Databases
 - MySQL
 ---
