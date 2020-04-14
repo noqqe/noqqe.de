@@ -84,13 +84,13 @@ i.e.
 
 Den angelegten Keystore testen
 
-```
+``` bash
 java -Djavax.net.ssl.trustStore=ssl/keystore.jks -Djavax.net.ssl.trustStorePassword=<xxx> https://<nameofcert>
 ```
 
 Oder mit dem Tool [SSLPoke](https://github.com/MichalHecko/SSLPoke)
 
-```
+``` bash
 $ /usr/lib/jvm/java-11-openjdk-amd64/bin/java \
   -Djavax.net.ssl.trustStore=/usr/lib/jvm/java-11-openjdk-amd64/jre/lib/security/cacerts \
   -Djavax.net.ssl.trustStorePassword=changeit \

@@ -13,7 +13,7 @@ werden encoded die LOCALES des Systems die Chars:
 
 Mit UTF8 (wie man glauben möchte der richtige)
 
-```
+``` bash
 mysql --default-character-set=UTF8 -e "select id, query from data where query like '%nchen%' limit 1; "
 +----+----------------------------------------------------------+
 | id | query                                                    |
@@ -24,7 +24,7 @@ mysql --default-character-set=UTF8 -e "select id, query from data where query li
 
 Mit Latin1
 
-```
+``` bash
 mysql --default-character-set=LATIN1 -e "select id, query from data where query like '%nchen%' limit 1; "
 +----+-------------------------------------------------------+
 | id | query                                                 |

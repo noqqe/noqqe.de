@@ -40,7 +40,7 @@ rake preview
 
 ## Disqus neben TIME
 
-```
+``` html
 in octopress/source/_includes/article.html
 {% if site.disqus_short_name and page.comments != false and post.comments != false and site.disqus_show_comment_count == true %}
 | <a href="{% if index %}{{ root_url }}{{ post.url }}{% endif %}#disqus_thread">Comments</a>
