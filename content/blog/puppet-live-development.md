@@ -59,7 +59,7 @@ das ich das auch umkonfigurieren kann. Um mein neues Puppet Feature zu
 entwickeln, klone ich das Repo mit anderem Namen in das Directory und
 installiere meine Libraries nach.
 
-```
+``` bash
 git clone git@server:puppet.git JIRA-1337
 cd JIRA-1337
 git checkout -b JIRA-1337

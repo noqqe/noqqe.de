@@ -39,7 +39,7 @@ Errors sondern eher Style Warnings.
 Mit etwas Konfiguration, welche Regeln ich nicht ausgewertet haben möchte,
 hab ich dann die `.markdownlintrc` gebaut:
 
-```
+``` json
 {
   "default": true,
   "fenced-code-language": false,
@@ -73,7 +73,7 @@ Ich wollte `markdownlint` bei jedem Commit über mein Repo laufen lassen.
 Dafür hab ich mich dort eingeloggt und das Repo `github.com/noqqe/noqqe.de` aktiviert.
 Danach die `.travis.yml` mit folgendem Inhalt gefüllt.
 
-```
+``` yaml
 language: generic
 
 install:
@@ -102,7 +102,7 @@ Das geht nun wieder etwas anders. Diesmal muss ich der `.travis.yml` noch
 beibringen, `go` und das zugehörige Paket `hugo` zu installieren und
 schliesslich auszuführen.
 
-```
+``` yaml
 language: go
 go:
   - '1.11'
@@ -144,7 +144,7 @@ paar “geheime” Variablen im Build Job setze, die ich nachher verwenden kann.
 Um den Deploy zu erledigen gibt es bei Travis `deploy` und `before_deploy`.
 Meine aktuelle Lösung sieht so aus:
 
-```
+``` yaml
 install:
   - echo $KNOWN_HOSTS_KEY >> $HOME/.ssh/known_hosts
 

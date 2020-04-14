@@ -46,7 +46,7 @@ Bin heute morgen über ein Easter-Egg von Slashdot.org
 [gestolpert](http://www.eastereggs.svensoltmann.de/content/view/686/26/).
 HTTP-Header:
 
-```
+``` bash
 $ curl -Is slashdot.org
 HTTP/1.1 200 OK
 Server: Apache/1.3.41 (Unix) mod_perl/1.31-rc4
@@ -62,7 +62,7 @@ Bei so ziemlich jeder Anfrage steht an der Stelle ein neues Zitat. Da ich
 sowieso total [auf Futurama stehe](/archives/995), dachte ich mir ich baue
 die Zitate als Welcome-Message in meine Rechner ein:
 
-```
+``` bash
 $ curl -Is slashdot.org | sed -n '5p' | sed 's/^X-//'
 Bender: OK, but I don't want anyone thinking we're robosexuals.
 $ curl -Is slashdot.org | sed -n '5p' | sed 's/^X-//'

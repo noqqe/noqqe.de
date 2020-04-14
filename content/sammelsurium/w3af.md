@@ -13,7 +13,7 @@ Normaler aufruf mit Script
 
 Normales Ablauf Skript mit konfigurierten reports in html und txt
 
-```
+``` bash
 http-settings
 set userAgent "Mozilla/5.0 (X11; U; Linux i686; it; rv:1.9.2.13) Gecko/20101206 Ubuntu/10.10 (maverick) Firefox/3.6.13"
 set timeout 5

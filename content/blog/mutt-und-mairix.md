@@ -115,7 +115,7 @@ habe ich mir dann die folgende Lösung überlegt.
 offlineimap täglich (reicht mir) synce, und gibt dir Ergebnisse in eine
 separate mbox `Search`.
 
-```
+``` bash
 sudo aptitude install mairix offlineimap
 ```
 

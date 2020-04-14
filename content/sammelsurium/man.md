@@ -16,7 +16,7 @@ angelegt aber kein vollständiges Textsatz System
 
 Wie kann ich mir ein `mdoc` Dokument anzeigen?
 
-```
+``` bash
 man /tmp/motd.5
 ```
 
@@ -28,7 +28,7 @@ Ich will aber noch ein bisschen mehr...
 
 Ein halbwegs taugliches HTML generieren:
 
-```
+``` bash
 mandoc -o style=https://man.openbsd.org/mandoc.css -T html ./lol.1 > lol.html
 ```
 

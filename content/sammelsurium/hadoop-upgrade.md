@@ -44,7 +44,7 @@ Save Meta Data
 
 Using puppet
 
-```
+``` diff
      apt::source { "cloudera":
      location          => $repository,
 -    release           => "precise-cdh5.0.1",

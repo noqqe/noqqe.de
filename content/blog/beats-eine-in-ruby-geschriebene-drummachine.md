@@ -67,7 +67,7 @@ Benutzung:
 Ins jeweilige Verzeichnis mit den Roh-Daten kopieren/wechseln und Skript
 ausführen.
 
-```
+``` bash
 git clone http://github.com/noqqe/randombeats
 cp randombeats/randombeats.bash /path/to/music
 cd /path/to/music

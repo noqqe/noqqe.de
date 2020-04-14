@@ -84,7 +84,7 @@ $ echo "hello world" | ./rot13 | ./rot13
 hello world
 ```
 
-```
+``` bash
 # Zeichentabelle anzeigen
 $ ./rot13 -t
 ```
@@ -92,7 +92,7 @@ $ ./rot13 -t
 Sollten Zeichen vorkommen, die sicht nicht im Table befinden, werden diese
 automatisch erkannt und bleiben unverschlüsselt.
 
-```
+``` bash
 $ ./rot13 "Ich wollte nur [...] und dann ist das Universum explodiert."
 Ipu jbyygr ahe [...] haq qnaa vfg qnf Uavirefhz rkcybqvreg.
 ```

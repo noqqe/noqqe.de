@@ -19,7 +19,7 @@ The shitty part is with zones. Can easily end up in exceptions.
 Example config.
 Zone specification does not work.. nevermind.
 
-```
+``` ini
 [Credentials]
 aws_access_key_id = AAABBBCCC
 aws_secret_access_key = AAABBBCCC

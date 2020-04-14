@@ -30,7 +30,7 @@ drwxr-sr-x 4 root staff   36 Feb 15 17:43 ..
 
 Inital und Übersicht
 
-```
+``` bash
 aptitude install db-util
 db_stat -h /usr/local/var/openldap-data/ -m
 ```
@@ -41,13 +41,13 @@ db_stat -h /usr/local/var/openldap-data/ -m
 
 * Übersicht aller Datenbanken:
 
-```
+``` bash
 db_stat -h /usr/local/var/openldap-data/ -m
 ```
 
 * Konkrete Datenbanken auslesen
 
-```
+``` bash
 db_stat -h /usr/local/var/openldap-data/ -d dn2id.bdb
 db_stat -h /usr/local/var/openldap-data/ -d id2entry.bdb
 ```

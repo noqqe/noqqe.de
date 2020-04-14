@@ -21,7 +21,7 @@ wegen verschiedenen `vim` Versionen auf Servern und Clients. Genau gesagt `vim 7
 
 Mein Lieblingskandidat ist diese Zeile.
 
-```
+``` vim
 set clipboard+=unnamedplus
 ```
 
@@ -31,21 +31,21 @@ kann. Der wichtige Teil: Auch zwischen 2 verschiedenen Files hin und her.
 Wie man die Maus deaktiviert hatte ich zwar schon im letzten Post geklärt,
 aber um meinen Hass auszudrücken hier nochmal. Warum zur Hölle vim 8?!
 
-```
+``` vim
 set mouse=r
 ```
 
 Aber auch nur für mich nützliche Sachen wie einen Zeitstempel einfügen,
 haben den Weg in meine private Vim Config gefunden.
 
-```
+``` vim
 nmap <silent> <leader>d :print=strftime('%F %H:%M')<CR>A
 ```
 
 oder automatische Fehlerkorrektur via `spellcheck`, die ich nun schon
 länger für zum Beispiel [jrnl](http://jrnl.sh) nutze.
 
-```
+``` vim
 nmap <silent> <leader>f z=1<CR><CR>
 ```
 
@@ -55,7 +55,7 @@ gleich mitgeben. Mit der nachfolgenden `bash` Funktion kann ich rekursiv
 nach einem String in files "greppen" und alle Files mit Treffern öffnen und
 den gesuchten String gleichzeitig in `vim` highlighten. Nice!
 
-```
+``` bash
 function agvim () {
   local files=$(ag -l "$@")
   vim +/"$@" $files

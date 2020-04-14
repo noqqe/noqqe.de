@@ -68,7 +68,7 @@ Die Funktionalität Plugins mittels
 als sehr angenehm, da ich eine ähnliche Vorgehensweise schon in meinem `vim`
 habe. So kann ich mir via
 
-```
+``` fish
 fisher barnybug/docker-fish-completion
 ```
 

@@ -22,7 +22,7 @@ wunderbare Option Bindings zur Verfügung stellt. Statt Kommandos und Befehle
 ins Terminal zu tippern, funktioniert die Konfiguration wie gewohnt in
 `configuration.nix`
 
-```
+``` nix
 networking.wireguard.interfaces.wg0 = {
   ips = [ "192.168.42.1/24" ];
   privateKey = "..secret..";
@@ -43,7 +43,7 @@ Und fertig ist schon der WireGuard VPN Server.
 Um jetzt den Client in meinem Beispiel eines anderen NixOS anzubinden, sieht
 ähnlich aus.
 
-```
+``` nix
 networking.wireguard.interfaces.wg0 = {
   ips = [ "192.168.42.2/24" ];
   privateKey = "..other secret..";
@@ -63,7 +63,7 @@ Roaming Modus läuft.
 Ein bisschen Firewalling muss man halt noch betreiben, aber das funktioniert
 im NixOS Stil sehr ähnlich
 
-```
+``` nix
 networking.firewall = {
   enable = true;
   rejectPackets = true;

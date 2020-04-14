@@ -75,7 +75,7 @@ wahrscheinlich erstmal alle Dienste beenden, die auf dem MySQL zugreifen
 (Apache, Tomcat, whatever). In der my.cnf habe ich dann folgende Optionen
 für die InnoDB spezifiziert.
 
-```
+``` ini
 defaulot-storage-engine = InnoDB
 innodb_buffer_pool_size = 16M
 innodb_additional_mem_pool_size = 2M

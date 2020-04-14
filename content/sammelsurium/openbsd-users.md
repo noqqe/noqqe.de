@@ -8,7 +8,7 @@ tags:
 
 Switch to a user with disabled account.
 
-```
+``` bash
 $ su _nrpe -s /bin/ksh
 This account is currently not available.
 

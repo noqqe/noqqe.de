@@ -21,12 +21,12 @@ cpan[1]> install JMX::Jmx4Perl
 
 shell
 
-```
+``` bash
 perl -MCPAN -e "install JMX::Jmx4Perl"
 ```
 
 shell ohne tests
 
-```
+``` bash
 perl -MCPAN -e "CPAN::Shell->notest('install', 'JMX::Jmx4Perl')"
 ```

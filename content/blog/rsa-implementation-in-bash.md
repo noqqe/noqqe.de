@@ -89,7 +89,7 @@ Manchem mag auffallen, wie im
 statischer "Zufall" im Header kodiert ist. Für den Anfang ist das okay um
 zu verstehen wie RSA so tickt.
 
-```
+``` bash
 $ ./rsa.bash 999
 orig msg: 999
 encr msg: 2146

@@ -16,7 +16,7 @@ Authentifizierung unterhalten.
 
 Vorher sah meine Codebase ungefähr so aus. Credentials wo man hinsah.
 
-```
+``` terraform
 module "mysql_db" {
   source = "../../modules/rds"
 
@@ -80,7 +80,7 @@ Code zu pasten.
 Im `data.tf` File der jeweiligen Umgebung kann ich mir die Resourcen jetzt
 zum Weiterverarbeiten abholen:
 
-```
+``` terraform
 data "aws_secretsmanager_secret" "db" {
   arn = "arn:aws:secretsmanager:eu-central-1:xxx"
 }
@@ -93,7 +93,7 @@ data "aws_secretsmanager_secret_version" "db" {
 Wenn ich dann die Secrets im Code brauche, rufe ich sie über
 `data.aws_secretsmanager_secret_version` ab.
 
-```
+``` terraform
 module "mysql_db" {
   source = "../../modules/rds"
 

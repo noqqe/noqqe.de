@@ -67,7 +67,7 @@ title: Versteckte Prozessparameter in UNIX
 Passwörter für Datenbanken beispielsweise sind Optionen die sich als Commandline Argument direkt im Aufruf mitgeben lassen.
 Bei MySQL oder MongoDB ist das angegebene Passwort aber in der Prozessliste durch `xxxx` ersetzt.
 
-```
+``` bash
 $ mysql -u noqqe -ppassw0rd -h localhost
 $ ps auxfww
 sshd: noqqe@pts/0
@@ -158,7 +158,7 @@ int main(int argc, char **argv) {
 Dabei kann auch der eigentliche Name des Programms überschrieben werden. Total
 evil-haxx0r.
 
-```
+``` bash
 $ gcc hide.c -o hide
 $ ./hide tolorlerolero
   PID TTY      STAT   TIME COMMAND

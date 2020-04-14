@@ -92,7 +92,7 @@ Das ganze gibts jetzt unter
 
 ### Usage
 
-```
+``` bash
 git clone git@github.com:noqqe/better-task-shell.git
 cd better-task-shell
 ./better-task-shell

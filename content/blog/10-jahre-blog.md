@@ -76,7 +76,7 @@ Sammelsurium Posts
 
 Btw, auch das nochmal schön weil ich das mit `wc`
 
-```
+``` bash
 wc content/blog/*
 ls content/blog/* | wc
 ```

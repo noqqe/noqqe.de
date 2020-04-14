@@ -26,6 +26,6 @@ eingebaut. Aus dem Logo das auch schon im Banner ist. Muss zugeben es ist
 nicht optimal für eine 16x16 Auflösung geeignet aber das geht glaube ich
 ok. Ein Favicon wird in der header.php im head-Bereich eingefügt.
 
-```
+``` html
 <link rel="shortcut icon" href="/uploads/2010/08/favicon.ico" >
 ```

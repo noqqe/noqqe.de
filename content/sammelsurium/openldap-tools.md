@@ -10,14 +10,14 @@ tags:
 
 Sicherung wie mysqldump:
 
-```
+``` bash
 slapcat > HOLYSHIT.ldif
 slapcat -I HOLYSHIT.ldif
 ```
 
 Hinzufügen der initialen DB
 
-```
+``` bash
 slapadd -f /usr/local/etc/openldap/slapd.conf -l HOLYSHIT.ldif
 ```
 

@@ -65,7 +65,7 @@ DPkg::Pre-Install-Pkgs   { "if [ -x /usr/local/bin/ext-verify.sh ]; then echo 'V
 
 Bei jedem apt-get/aptitude wird das nun ausgeführt.
 
-```
+``` bash
 $ aptitude install whois
 Die folgenden NEUEN Pakete werden zusätzlich installiert:
   whois

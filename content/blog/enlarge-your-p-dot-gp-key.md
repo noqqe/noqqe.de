@@ -56,7 +56,7 @@ Generierung führen.
 Beim Revoken des alten Keys, ist es sinnvoll die korrekte Begründung
 auszuwählen. In meinem Fall Ersetzung durch einen neuen Key, also superseded.
 
-```
+``` bash
 $ gpg --gen-revoke oldkeyid
 
 Create a revocation certificate for this key? (y/N) y
@@ -111,7 +111,7 @@ Genauso der neue Publickey.
   signing-party die entsprechende key2ps Tools. Diese kann dann zum PDF
   umgewandelt und ausgedruckt werden.
 
-```
+``` bash
 aptitude install signing-party ghostscript
 gpg-key2ps -p a4 CDA4B775 > key.ps
 ps2pdf key.ps

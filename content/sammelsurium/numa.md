@@ -14,7 +14,7 @@ schaltet man das aus.
 
 Herausfinden ob NUMA aktiviert ist, lässt sich über den Kernel.
 
-```
+``` bash
 $ dmesg | grep -i numa
 [    0.000000] No NUMA configuration found
 ```
@@ -22,7 +22,7 @@ $ dmesg | grep -i numa
 Manchmal ist die Meldung aber zu sehr am Anfang, weswegen man lieber im Log
 nachsieht.
 
-```
+``` bash
 zgrep -i numa /var/log/messages*
 kernel: [    0.000000] NUMA: Node 0 [mem 0x00000000-0x0009ffff] + [mem 0x00100000-0x0fffffff] -> [mem 0x00000000-0x0fffffff]
 ```
@@ -49,7 +49,7 @@ sudo sysctl -w vm.zone_reclaim_mode=0
 
 Anzeigen der NUMA Statistiken (Cache Hits..)
 
-```
+``` bash
 cat /sys/devices/system/node/node*/numastat
 ```
 

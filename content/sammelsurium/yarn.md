@@ -11,7 +11,7 @@ Yarn ist der "neue" Jobscheduler
 
 Anschauen aller Jobs
 
-```
+``` bash
 yarn application -list
 
 Total number of applications (application-types: [] and states: [SUBMITTED, ACCEPTED, RUNNING]):7
@@ -26,6 +26,6 @@ application_1533623521450_1589         Hive on Spark                   SPARK    
 
 Beenden eines Jobs
 
-```
+``` bash
 yarn application -kill $id
 ```

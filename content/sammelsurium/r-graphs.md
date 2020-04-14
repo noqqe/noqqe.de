@@ -6,7 +6,7 @@ tags:
 - R
 ---
 
-```
+``` R
 par(las=2)
 ## create the barchart with colorschema
 barplot(d[,2], cex.names=0.8, names.arg=d[,1], main="Stromverbauch",
@@ -17,7 +17,7 @@ barplot(d[,2], cex.names=0.8, names.arg=d[,1], main="Stromverbauch",
 
 #### Barchart
 
-```
+``` R
 ggplot(d, aes(x=factor(d[,1], levels=d[,1]),y=Verbrauch, colour=Verbrauch, fill=Verbrauch)) +
        geom_bar(stat="bin") +
        xlab("Monat") +
@@ -26,7 +26,7 @@ ggplot(d, aes(x=factor(d[,1], levels=d[,1]),y=Verbrauch, colour=Verbrauch, fill=
 
 #### LineChart
 
-```
+``` R
 ggplot(d, aes(x=factor(d[,1], levels=d[,1]),y=x[,2][2:length(x[,2])])) +
           geom_line(aes(group=1)) +
           geom_point() +

@@ -7,7 +7,7 @@ tags:
 
 Interactive
 
-```
+``` bash
 $ aptitude install augeas-tools
 $ augtool -b #make backup file
 augtool> set KexAlgorithms diffie-hellman-group-exchange-sha256,diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1
@@ -18,7 +18,7 @@ augtool> save
 
 ## Augeas within puppet
 
-```
+``` puppet
  ## permit root login no and switch off ubuntu
   augeas { "sshd_config":
     context => "/files/etc/ssh/sshd_config",

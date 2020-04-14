@@ -132,7 +132,7 @@ aber mir fiel nicht blöderes ein ohne SQL sprechen zu müssen.
 
 Danach baut mir das Shellscript die GnuPlots und die HTML Site
 
-```
+``` bash
 ./runkeeper-statistics
 ```
 

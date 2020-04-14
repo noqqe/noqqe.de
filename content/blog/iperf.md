@@ -12,7 +12,7 @@ tags:
 
 Dazu braucht man 2 Linux Boxen. Einen Server:
 
-```
+``` bash
 $ iperf -s -p 4001
 ------------------------------------------------------------
 Server listening on TCP port 4001
@@ -22,7 +22,7 @@ TCP window size: 85.3 KByte (default)
 
 und einen Client
 
-```
+``` bash
 $ iperf -c 172.27.37.26 -n 1000M -p 4001
 ------------------------------------------------------------
 Client connecting to 172.27.37.26, TCP port 4001

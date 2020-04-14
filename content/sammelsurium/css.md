@@ -20,7 +20,7 @@ auf.
 
 Eine Klasse
 
-```
+``` html
 <div class="menu">
 .menu {
   color: black;
@@ -29,7 +29,7 @@ Eine Klasse
 
 Eine ID
 
-```
+``` html
 <div id="menu">
 #menu {
   color: black;
@@ -40,7 +40,7 @@ Eine ID
 
 > Select and style every <p> element that is inside <div> elements
 
-```
+``` css
 div p {
   background-color: yellow;
 }
@@ -50,7 +50,7 @@ div p {
 
 Manchmal schreiben 2 Definitionen in das gleiche Element
 
-```
+``` css
  a.color-projects {
      color: #f1fa8c !important;
  }
@@ -61,7 +61,7 @@ Manchmal schreiben 2 Definitionen in das gleiche Element
 Um responsive zu sei kann man mit `media` views auf die Screenauflösung gehen
 und dann Elemente anders anzeigen bzw verstecken.
 
-```
+``` css
 @media only screen and (max-width: 640px) {
   div#contentwrapper {
     max-width: 100%;

@@ -12,7 +12,7 @@ Alle Regeln anzeigen
 
 Alle Regeln entfernen
 
-```
+``` bash
 iptables -P INPUT ACCEPT
 iptables -P FORWARD ACCEPT
 iptables -P OUTPUT ACCEPT

@@ -8,7 +8,7 @@ tags:
 
 Dockerfile Beispiel
 
-```
+``` Docker
 FROM rocker/r-devel:latest
 
 [more changes...]
@@ -45,7 +45,7 @@ Docker Login to Nexus
 Dafür muss mann das Repo anlegen, einen User+Role und dann nen HTTPS Port
 freigeben
 
-```
+``` bash
 > docker login nexus.acme.com:8087
 Username: max-docker
 Password:
@@ -54,7 +54,7 @@ Login Succeeded
 
 Upload Docker image to Nexus
 
-```
+``` bash
 docker tag 916a0128c7e4 nexus.acme.com:8087/library/r35:0.0.1
 docker push nexus.acme.com:8087/library/r35:0.0.1
 ```

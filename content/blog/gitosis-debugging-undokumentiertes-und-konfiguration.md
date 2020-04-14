@@ -189,7 +189,7 @@ git remote add origin git@gitserver.org:subdir1/repo2.git
 
 gitosis.conf:
 
-```
+``` init
 [group subrepo]
 members = user@host.com
 writable = subdir1/repo2.git

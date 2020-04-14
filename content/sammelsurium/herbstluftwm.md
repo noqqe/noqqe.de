@@ -10,7 +10,7 @@ tags:
 
 Setze Auflösung für Dell Monitor zuhause
 
-```
+``` bash
 xrandr --output DP1 --primary
 xrandr -s 1920x1200
 herbstclient detect_monitors

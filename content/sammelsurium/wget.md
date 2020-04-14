@@ -13,7 +13,7 @@ wieder fortgesetzt werden.
 
 <!--more-->
 
-```
+``` bash
 wget https://ftp.fau.de/kiwix/zim/wikipedia/wikipedia_de_all_maxi_2019-08.zim
 <ctrl+c>
 wget --continue https://ftp.fau.de/kiwix/zim/wikipedia/wikipedia_de_all_maxi_2019-08.zim
@@ -23,7 +23,7 @@ wget --continue https://ftp.fau.de/kiwix/zim/wikipedia/wikipedia_de_all_maxi_201
 
 Für den Offlinegebrauch bietet sich diese wunderbare Zeile an
 
-```
+``` bash
 wget -E -H -k -K -p -nd -nH -p -np http://stackoverflow.com/questions/29681631/tomcat-database-connection-derby
 ```
 

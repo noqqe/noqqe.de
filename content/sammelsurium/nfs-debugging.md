@@ -199,7 +199,7 @@ purposes. There are no plans to convert it into an administrative tool.
 Linux: Run this once while the NFS server is working, and then again when
 the NFS server is having problems:
 
-```
+``` bash
 cat /etc/exports
 cat /proc/fs/nfsd/exports
 grep . /proc/net/rpc/*/content

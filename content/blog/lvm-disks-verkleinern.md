@@ -75,19 +75,19 @@ Pass 5: Checking group summary information
 Hier wird nun der erste Layer, das Filesystem, auf eine bestimmte größe
 reduziert. Das funktioniert überraschend gut.
 
-```
+``` bash
 resize2fs /dev/mapper/test-test 9G
 ```
 
 Dann das Logical Volume auf dem das Filesystem liegt kleiner machen.
 
-```
+``` bash
 lvreduce -L 9g /dev/mapper/test-test
 ```
 
 Das nun kleinere FS wieder mounten.
 
-```
+``` bash
 /dev/mapper/test-test  172M  8.4M  151M   6% /tmp/test
 ```
 

@@ -32,7 +32,7 @@ Homebrew Version heruntergeladen. Die Probleme sind aber die gleichen.
 Viel mehr als die Sources herunterladen und an eine bestimmte Stelle
 auspacken, wird bei der Brew Version auch nicht gemacht.
 
-```
+``` bash
 brew tap homebrew/games
 brew install dwarf-fortress
 ```
@@ -42,7 +42,7 @@ Da Dwarf Fortress auf viel X11 und deren Libraries aufbaut,
 
 ### Fehlerbehebung
 
-```
+``` bash
 $ ./df
 dyld: Library not loaded: /usr/X11R6/lib/libfreetype.6.dylib
   Referenced from:
@@ -54,7 +54,7 @@ dyld: Library not loaded: /usr/X11R6/lib/libfreetype.6.dylib
 Der obige Fehler entsteht, da die default Location der Libraries nicht mit
 Xquartz kommt. Daher diese umkopieren.
 
-```
+``` bash
 sudo mkdir /usr/X11R6
 sudo cp -a /usr/X11/* /usr/X11R6/
 ```
@@ -64,7 +64,7 @@ Standardauflösung bzw. der Darstellungsmodus ist dafür nicht gemacht.
 
 Dafür noch den `PRINT_MODE` von `2D` auf `STANDARD` umstellen.
 
-```
+``` bash
 $ vim /usr/local/Cellar/dwarf-fortress/0.40.23/libexec/data/init/init.txt
 [...]
 [PRINT_MODE:STANDARD]

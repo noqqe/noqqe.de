@@ -24,14 +24,14 @@ show master status;
 
 * Mysql Sklave nutzer überprüfen und anlegen
 
-```
+``` sql
 mysql> CREATE USER 'repl'@'%.mydomain.com' IDENTIFIED BY 'slavepass';
 mysql> GRANT REPLICATION SLAVE ON *.* TO 'repl'@'%.mydomain.com';
 ```
 
 * Table gesperrt
 
-```
+``` sql
 FLUSH TABLES WITH READ LOCK;
 mysqldump --all-databases --master-data >dbdump.db
 UNLOCK TABLES;
@@ -43,7 +43,7 @@ UNLOCK TABLES;
 
 * Master konfigurieren
 
-```
+``` sql
 mysql> CHANGE MASTER TO MASTER_HOST='db00.example.com',
 MASTER_USER='slave', MASTER_PASSWORD='xxx',
 MASTER_LOG_FILE='mysql-bin.000254', MASTER_LOG_POS=106;
@@ -82,7 +82,7 @@ Error 'You cannot 'ALTER' a log table if logging is enabled' on query. Default d
 
 Das Problem liegt wohl an den Slow query Log
 
-```
+``` sql
 STOP SLAVE;
 SET GLOBAL slow_query_log = "OFF";
 START SLAVE;
@@ -108,7 +108,7 @@ show slave status\G
 
 Auf Master die Binlogs mit
 
-```
+``` sql
 PURGE BINARY LOGS TO 'mysql-bin.000685';
 PURGE BINARY LOGS BEFORE '2008-04-02 22:46:26';
 ```

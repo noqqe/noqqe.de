@@ -67,7 +67,7 @@ hcht Hallo, das ist eine kleine Notiz
 
 Natürlich hat mein [Lesen von Stdin Post](/archives/1402) auch einen Sinn gehabt.
 
-```
+``` bash
 cat mail.log | hcht maillog
 ```
 
@@ -76,7 +76,7 @@ cat mail.log | hcht maillog
 Die bashinterne Funktion ist zum Beispiel auch hilfreich. Angenommen man
 hat grade einen total coolen Hack gebastelt und will diesen aufheben:
 
-```
+``` bash
 find . -iname '*.png' -exec echo '<br><img src="{}">'  ; > gallery.html
 hcht !!
 ```

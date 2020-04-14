@@ -46,7 +46,7 @@ das System zu beeinflussen.
 Um den `sshd` im OS zu konfigurieren, sieht die `/etc/nixos/configuration.nix`
 unter anderem so aus..
 
-```
+``` nix
 # SSH
 services.openssh = {
   enable = true;
@@ -60,7 +60,7 @@ services.openssh = {
 
 oder einen neuen Benutzer anlegen
 
-```
+``` nix
 users.extraUsers.noqqe = {
   isNormalUser = true;
   extraGroups = [ "wheel" "networkmanager"];
@@ -71,7 +71,7 @@ users.extraUsers.noqqe = {
 
 oder ein `Tor` Relay aufsetzen
 
-```
+``` nix
 services.tor.relay = {
   nickname = "nixe.k4cg.org";
   portSpec = 9001;

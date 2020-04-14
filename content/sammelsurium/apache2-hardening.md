@@ -46,7 +46,7 @@ in der php.ini setzen:
 
 ## Directory Indexing
 
-```
+``` ApacheConf
  Alias /doc/ "/usr/share/doc/"
  <Directory "/usr/share/doc/">
      Options '''Indexes''' MultiViews FollowSymLinks

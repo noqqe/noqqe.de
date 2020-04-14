@@ -22,7 +22,7 @@ adding new entry "cn=auth,dc=example,dc=com"
 
 Lesender Account anlegen für Auth und lesen:
 
-```
+``` bash
 ldapmodify -a -xWD "cn=admin,dc=example,dc=com" << EOF
 dn: cn=rauth,dc=example,dc=com
 objectClass: organizationalRole
@@ -37,7 +37,7 @@ adding new entry "cn=rauth,dc=example,dc=com"
 
 Dann das PAM Module installieren
 
-```
+``` bash
 aptitude install libpam-ldap
 ```
 

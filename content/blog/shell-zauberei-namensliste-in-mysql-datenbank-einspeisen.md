@@ -21,7 +21,7 @@ title: Namensliste in MySQL Datenbank einspeisen
 
 ### Code
 
-```
+``` bash
 for x in $(mysql --batch -u root --password=passw0rd -e "USE rtdb; SELECT DISTINCT id FROM Users;" | grep -v ^id); do mysql -u root --password=passw0rd -e "USE rtdb; UPDATE Users SET Name="$(sed -n $(($RANDOM % $(cat Names | wc -l) +1 ))p Names)" WHERE id="$x" ;" ; done
 ```
 

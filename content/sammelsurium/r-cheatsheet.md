@@ -8,7 +8,7 @@ tags:
 
 ## Statistics Functions
 
-```
+``` R
 rnorm(100) ## Random Normal Distribution
 mean(x) ## Durchschnitt
 sd(x) ## Standard Deviation
@@ -33,7 +33,7 @@ order(x) ## sortieren mit realtiven index angaben als return
 
 ## Import Funktions
 
-```
+``` R
 read.table("bla.csv",header=FALSE) ## Import von CSV Dateien
 read.table("bla.txt",header=FALSE) ## Import von TXT
 scan(tf,"") ## import von textdateien
@@ -41,7 +41,7 @@ scan(tf,"") ## import von textdateien
 
 ## R Internal Functions for data
 
-```
+``` R
 str(x) ## welche Struktur hat der Vector?
 mode(x) ## was für eine Struktur liegt vor?
 summary(x) ## erzähl mir alles was so geht über x?
@@ -72,7 +72,7 @@ unname(j) ## alle namen entfernen
 
 ## Misc Functions
 
-```
+``` R
 source("file.R") ## Include
 pdf("out.pdf") ## PDF File Output definieren
 hist(x) ## Histogram vom Vector x erstellen
@@ -89,7 +89,7 @@ suppressPackageStartupMessages(library("libaryname",quietly=T)) ## und dann auch
 
 ## Befüllen der Variablen
 
-```
+``` R
 x <- c(1,2,4) ## Itegers
 z <- paste("foo", "bar") ## Strings
 m <- rbind(c(1,4),c(2,3)) ## Matrix
@@ -99,7 +99,7 @@ d <- data.frame(list(drinks=c("Mate","Coffee"),consumption=c(23,42))) ## data Fr
 
 ## Variablen Bearbeitung
 
-```
+``` R
 x ## Vector ausgeben
 print(x) ## Vector ausgeben
 x[3] ## 3. Variable des Vectors ausgeben
@@ -111,7 +111,7 @@ m[2,1] ## Matrix specific
 
 Funktionsdefinition
 
-```
+``` R
 oddcount <- function(x) {
   k <- 0
   for (n in x) {
@@ -125,7 +125,7 @@ oddcount <- function(x) {
 
 #### Vectors
 
-```
+``` R
 > x <- c(1,2,4,5)
 > x
 [1] 1 2 4 5
@@ -133,7 +133,7 @@ oddcount <- function(x) {
 
 #### Character Strings
 
-```
+``` R
 > y <- "aber"
 > y
 [1] "aber"
@@ -146,7 +146,7 @@ oddcount <- function(x) {
 
 Matrix-artige Datenstruktur - rbind = row bind
 
-```
+``` R
 > m <- rbind(c(1,4),c(2,3))
 > m
      [,1] [,2]
@@ -165,7 +165,7 @@ Matrix-artige Datenstruktur - rbind = row bind
 
 Gut für mehrere versch. Datentypen
 
-```
+``` R
 > l <- list(u=2, v="asdf")
 > l
 $u
@@ -184,7 +184,7 @@ $v
 
 #### Dataframes
 
-```
+``` R
 > d <- data.frame(list(drinks=c("Mate","Coffee"),consumption=c(23,42)))
 > d
   drinks consumption
@@ -194,7 +194,7 @@ $v
 
 Sehr gutes Beispiel für DataFrames
 
-```
+``` R
 > people = data.frame (
 age = c(32,34,12,41,18,23,43,22,19,24),
 height = c(177,166,165,174,156,184,191,179,182,180),

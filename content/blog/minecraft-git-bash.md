@@ -27,7 +27,7 @@ Vorteile, die ich hier kurz erläutern möchte :)
 Als erstes muss das Verzeichnis initial eingerichtet werden.
 Initialisierung, hinzufügen aller Dateien und ersten Commit erstellen.
 
-```
+``` bash
 cd $HOME/.minecraft
 git init
 git add .
@@ -47,7 +47,7 @@ Die hypothetische "Herausforderung" scheint sich gerade aufzutun. Ob jetzt
 Creeper, Berg oder sonst was ist erstmal egal. Könnte auf jeden Fall
 kritisch für meinen Minecraft Character enden.
 
-```
+``` bash
 git commit -a -m "Ob man den Sprung ueberlebt?"
 ```
 
@@ -62,7 +62,7 @@ wiederherzustellen. Mit nachfolgendem Kommando verwerfe ich alle seit dem
 letzten Commit entstandenen Änderungen an meinem Spielstand. Vorher
 dringend aufs Minecraft Titelmenü zurückkehren!
 
-```
+``` bash
 $ git stash
 # Update
 # oder alternativ:
@@ -84,7 +84,7 @@ zwischenliegende Commits unberührt bleiben und eventuell in einen großen
 Haufen Datenmüll zerfallen(!). Eher Anwendung für den "Warp" an einen
 früheren Zeitpunkt X findet daher **git-reset**.
 
-```
+``` bash
 $ git reset 66a2594
 # oder
 $ git reset HEAD^
@@ -101,7 +101,7 @@ wird. Immer zwischen Fenstern hin und her zappen ist ja auf Dauer auch eher
 zermürbend. Daher habe ich mir diese "Arbeit" von einer kleinen Bash Zeile
 abnehmen lassen.
 
-```
+``` bash
 SEKUNDEN=10 ; while true ; do git add . ; git commit -a -m "AutoSave $(date)" ; sleep $SEKUNDEN ; done
 ```
 
@@ -179,7 +179,7 @@ git push origin master
 
 Remote-Server auf anderen hosts klonen:
 
-```
+``` bash
 # Ubuntu/Debian
 $ git clone git@gitserver.com:minecraft $HOME/.minecraft
 # Mac OSX

@@ -10,7 +10,7 @@ tags:
 
 ### Readonly setzen
 
-```
+``` sql
 mysql> set GLOBAL read_only = true;
 mysql> INSERT INTO foo VALUES ( 'tata2');
 ERROR 1290 (HY000): The MySQL server is running with the-read-only

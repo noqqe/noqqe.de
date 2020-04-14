@@ -24,7 +24,7 @@ dann ein JSON Dokument ausspuckt, wenn man es als Task in der Nexus Admin Oberfl
 
 Dabei heraus kommt eine Datei in ungefähr folgender Struktur.
 
-```
+``` json
 {
   "docker": {
     "repositories": {

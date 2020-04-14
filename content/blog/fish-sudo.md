@@ -11,7 +11,7 @@ Neben `ctrl`+`r` ist `sudo !!` eine der Funktionalitäten die ich bei der
 
 Aus diesem Thread hab ich dann eine Lösung für mich gefunden.
 
-```
+``` fish
 function bind_bang
   switch (commandline -t)
   case "!"
@@ -52,7 +52,7 @@ Und wie machen Macher von `sudope` das mit dem `fish_user_key_bindings`?
 Richtig! Da wir auch einfach fröhlich am globalen File
 `~/.config/fish/functions/fish_user_key_bindings.fish` herumgepatched.
 
-```
+``` fish
 function fish_user_key_bindings
     ### sudope ###
     set -q sudope_sequence

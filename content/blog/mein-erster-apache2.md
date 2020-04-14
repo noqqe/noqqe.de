@@ -13,7 +13,7 @@ title: Mein erster Apache2
 
 Hier in aller Kürze und ohne großartige Comments: die apache2.conf
 
-```
+``` ApacheConf
 ServerRoot "/etc/apache2"
 LockFile /var/lock/apache2/accept.lock
 PidFile $APACHE_PID_FILE
@@ -65,7 +65,7 @@ Include /etc/apache2/sites-enabled/
 
 Hier mal eben die envvars datei
 
-```
+``` bash
 export fbaumann=APACHE_RUN_USER
 export fbaumann=APACHE_RUN_GROUP
 export APACHE_PID_FILE=/var/run/apache2.pid

@@ -8,13 +8,13 @@ tags:
 
 ### Debian
 
-```
+``` bash
 aptitude install openldap
 ```
 
 ### Download und Compile per Hand
 
-```
+``` bash
 wget ftp://gd.tuwien.ac.at/infosys/network/OpenLDAP/openldap-release/openldap-2.4.33.tgz
 aptitude install libdb-dev libdb++-dev gcc make libsasl2-dev groff-base time ## wegen soelim bei make
 ./configure --enable-dynamic --enable-slapd --with-cyrus-sasl --with-tls=openssl --enable-bdb --enable-crypt --enable-syncprov
@@ -26,7 +26,7 @@ sudo make install
 
 Für leichtes starten und stoppen
 
-```
+``` bash
 #!/bin/bash
 
 case $1 in
@@ -67,7 +67,7 @@ rootpw          {SSHA}njcljmYoBBW9wk+nj/GUMsZcqheYVYvF
 
 Zertifikate erstellen usw.
 
-```
+``` bash
 openssl genrsa -out host.key 2048
 openssl req -new -nodes -key host.key -out host.csr
 openssl x509 -req -days 365 -in host.csr -signkey host.key -out host.crt

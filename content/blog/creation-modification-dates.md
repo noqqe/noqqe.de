@@ -34,7 +34,7 @@ Wenigstens kann die `ssh` Version mittlerweile `ed25519`.
 Egal. `stat` ist jedenfalls eigentlich ganz schön cool! So gibt es mit `-s`
 Shell kompatiblen Output
 
-```
+``` bash
 $ eval $(stat -s foo)
 $ echo $st_mtime
 1488878026
@@ -44,7 +44,7 @@ $ echo $st_ctime
 
 Außerdem kann ich das Datumsformat gleich mit spezifizieren.
 
-```
+``` bash
 $ stat -t %Y%m%d foo
 16777220 47263467 -rw-r--r-- 1 noqqe staff 0 16 "20170307" "20170307" "20170307" "19700505" 4096 8 0 foo
 ```

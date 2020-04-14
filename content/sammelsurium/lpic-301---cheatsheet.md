@@ -71,7 +71,7 @@ uidNumber: 10042
 
 wichtige Dateien:
 
-```
+``` bash
 /usr/local/etc/openldap/schema/core.schema
 /usr/local/etc/openldap/schema/cosine.schema
 /usr/local/etc/openldap/schema/inetorgperson.schema
@@ -151,7 +151,7 @@ Felder
 
 Beim bauen hab ich
 
-```
+``` bash
 ./configure --enable-dynamic --enable-slapd --with-cyrus-sasl --with-tls=openssl --enable-bdb --enable-crypt --enable-syncprov
 ```
 
@@ -288,7 +288,7 @@ Misc Backends
 
 * Übersicht aller Datenbanken:
 
-```
+``` bash
 db_stat -h /usr/local/var/openldap-data/ -m
 ```
 
@@ -654,7 +654,7 @@ DEREF never
 
 * Befehle
 
-```
+``` bash
 ypcat -x                 ## alle Maps ausgeben
 ypcat passwd             ## passwd NIS ausgeben
 yptest                   ## Testet Verbindung zum YP Server
@@ -721,7 +721,7 @@ Ebenfalls Einbindung über pam
 auth-ldap (Zum Authentifizieren)
 Beispiel:
 
-```
+``` ApacheConf
 <Directory /var/www>
  AuthType Basic
  AuthName Restricted
@@ -824,7 +824,7 @@ ldap filter = (&(uid\%u) (objectclass=sambaSamAccount)
 
 pbedit
 
-```
+``` bash
 pbedit -Lv noqqe     ## user infos aus smb backend
 pbedit -Lv rechner$  ## rechner infos
 pbedit -Lw noqqe     ## altes smbpasswd format
@@ -864,7 +864,7 @@ password sufficient pam_krb5.so
 
 /etc/krb5.conf
 
-```
+``` ini
 [libdefaults]
 default_realm = EXAMPLE.COM
 dns_lookup_realm = true

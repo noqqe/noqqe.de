@@ -12,7 +12,7 @@ fcgi ist die Weiterentwicklung von fastcgi.
 
 ## Handler einfuegen
 
-```
+``` ApacheConf
 <Directory /var/www/>
         Options -Indexes FollowSymLinks -MultiViews +ExecCGI
         AddHandler fcgid-script .php
@@ -28,7 +28,7 @@ fcgi ist die Weiterentwicklung von fastcgi.
 Kann sein das die Max Request Len zu kurz ist für Files zum Uploaden
 Dann will mann in `/etc/apache2/mods-available/fcgid.conf`
 
-```
+``` ApacheConf
 <IfModule mod_fcgid.c>
   AddHandler    fcgid-script .fcgi
   FcgidConnectTimeout 20

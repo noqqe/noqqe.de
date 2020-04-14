@@ -60,7 +60,7 @@ Ich begann die Manpage zu lesen.
 Das heisst... das die `int6 autoconf` Option das ich oben in
 `/etc/hostname.vio0` setzte nichts anderes tut als...
 
-```
+``` bash
 # ifconfig vio0
 vio0: flags=208843<UP,BROADCAST,RUNNING,SIMPLEX,MULTICAST,AUTOCONF6> mtu 1500
 ```
@@ -99,7 +99,7 @@ genau braucht einfach in Wikipedia/RFC nachlesen.
 
 Aber jetzt...
 
-```
+``` bash
 pfctl -f /etc/pf.conf
 sh /etc/netstart vio0
 rcctl restart slaacd

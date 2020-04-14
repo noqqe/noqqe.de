@@ -89,7 +89,7 @@ minimalistischsten ist hier `flowd`, der von Damien Miller geschrieben wurde.
 Kann eigentlich nur gut sein. Ein paar Restrictions und das Ziel für das Logfile
 konfiguriert und fertig.
 
-```
+``` bash
 $ pkg_add flowd
 $ cat /etc/flowd.conf
 logfile "/var/log/flowd"
@@ -105,7 +105,7 @@ Der Sensor ist im Grunde ein weiteres Pseudo Interface, dass mit `ifconfig`
 eingerichtet wird. Die Parameter des Interfaces bestimmen Quelle und Ziel der
 Netflow Daten.
 
-```
+``` bash
 $ ifconfig pflow0 flowsrc 127.0.0.1 flowdst 127.0.0.1:3001
 $ ifconfig pflow0
 pflow0: flags=20041<UP,RUNNING,NOINET6> mtu 1492

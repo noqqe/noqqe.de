@@ -6,7 +6,7 @@ tags:
 - Tomcat
 ---
 
-```
+``` xml
 <Connector port="8443"
  executor="Catalina-Threads"
  protocol="org.apache.coyote.http11.Http11Protocol"
@@ -41,7 +41,7 @@ sslscan frontend01.example.com | grep Accepted
 
 ### DENY HTTP Methods
 
-```
+``` xml
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
 <web-app xmlns="http://java.sun.com/xml/ns/javaee"
@@ -72,7 +72,7 @@ sslscan frontend01.example.com | grep Accepted
 
 Überprüfung mit curl
 
-```
+``` bash
 for x in PATCH CONNECT GET TRACE POST PUT OPTIONS HEAD ; do echo -ne "$x:    \t" ; curl -v --insecure -X $x https://frontend01.example.com/ 2>&1 | grep '< HTTP' ; done
 PATCH:          < HTTP/1.1 403 Forbidden
 CONNECT:        < HTTP/1.1 403 Forbidden
@@ -116,7 +116,7 @@ start
 
 HTTP Code logging output:
 
-```
+``` bash
 ## grep HTTP /root/w3af/report.txt | grep -v "200"
 [ Mon May 27 14:45:41 2013 - debug ] OPTIONS https://frontend01.example.com/ returned HTTP code "403" - id: 2
 [ Mon May 27 14:45:41 2013 - debug ] PATCH https://frontend01.example.com/ returned HTTP code "403" - id: 13
@@ -129,7 +129,7 @@ HTTP Code logging output:
 
 in WEB-INF/web.xml
 
-```
+``` xml
 <servlet>
   <servlet-name>default</servlet-name>
   <servlet-class>org.apache.catalina.servlets.DefaultServlet</servlet-class>
@@ -147,7 +147,7 @@ in WEB-INF/web.xml
 
 ### Set Port 8005 SHUTDOWN
 
-```
+``` xml
  <Server port="8005" shutdown="ReallyComplexWord">
 
 or
@@ -162,7 +162,7 @@ aber OBACHT!
 The file ${tomcat_home}/conf/tomcat-users.xml stores user names and
 passwords. By default the passwords are in clear text, e.g.:
 
-```
+``` xml
 <?xml version='1.0' encoding='utf-8'?>
 <tomcat-users>
   <role rolename="tdsConfig"/>
@@ -175,7 +175,7 @@ passwords. By default the passwords are in clear text, e.g.:
 
 Store them instead in digested form. First generate the digest (do this for each user):
 
-```
+``` bash
   > cd  ${tomcat_home}/bin
   > ./digest.sh -a SHA yrPassword
   > yrPassword:ff01ea2afaae56c2b7da5e25ec18c505e58f12d7
@@ -188,7 +188,7 @@ Server:yrPassword. See this for more details.
 
 Then cut and paste the digested passwords into the tomcat-users.xml:
 
-```
+``` xml
 <?xml version='1.0' encoding='utf-8'?>
 <tomcat-users>
   <role rolename="tdsConfig"/>
@@ -202,7 +202,7 @@ Then cut and paste the digested passwords into the tomcat-users.xml:
 Then change the server.xml file to tell it to use digested passwords, by
 adding this `<Realm>` element to the `<Host>` element named localhost:
 
-```
+``` xml
 <Host name="localhost" debug="0" appBase="/opt/tomcat/webapps" unpackWARs="true" autoDeploy="true"
      xmlValidation="false" xmlNamespaceAware="false">
   <Realm className="org.apache.catalina.realm.MemoryRealm" digest="SHA" />

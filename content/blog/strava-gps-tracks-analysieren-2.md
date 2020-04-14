@@ -15,7 +15,7 @@ R zu visualisieren. Also wieder über Strava Einstellungen ein Archiv aller
 Aktivitäten anfordern, dann auspacken und im Ordner `activities` die GPX
 Dateien finden. Abhängigkeiten installieren:
 
-```
+``` R
 $ R
 > p <- c("plotKML", "maps", "ggmap")
 > install.packages(p)
@@ -61,7 +61,7 @@ das Bild halbwegs repräsentativ darstellen zu können? TL;DR: 3%.
 Um alle Trackpoints (`<trkpt>`) aller Jahre zu rendern brauche ich **38 Min**.
 Wenn ich nun `gpsbabel` benutze um ein GPX File zu verkleinern,
 
-```
+``` fish
 gpsbabel -rt -i gpx -f 20180505-123412.gpx -x simplify,count=2000 -o gpx -F smoothed.gpx
 ```
 
@@ -70,7 +70,7 @@ kann, sondern man eine **absolute** Zahl an Trackpoints angeben muss. Um meine
 Tracks angemessen reduzieren zu können muss ich die Gesamtzahl kennen und dann
 einen Prozentwert ausrechnen.
 
-```
+``` fish
 $ grep -c "trkpt" 20180505-123412.gpx
 > 4000
 ```
@@ -78,7 +78,7 @@ $ grep -c "trkpt" 20180505-123412.gpx
 Da ich aber mehr als 300 Aktivitäten von Strava heruntergeladen habe wollte
 ich das automatisieren. Zeit für etwas `fish` Shell.
 
-```
+``` fish
 for f in *-Ride.gpx
   set -l points (math (grep -c "trkpt" $f) / 30)
   gpsbabel -rt -i gpx -f $f -x simplify,count={$points} -o gpx -F SIMPLIFIED-$f

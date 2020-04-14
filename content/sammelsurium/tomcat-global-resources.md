@@ -8,7 +8,7 @@ tags:
 
 ## Globale Ressource definieren
 
-```
+``` xml
 <GlobalNamingResources>
 
       <Resource name="jdbc/dbname" auth="Container" driverClassName="com.sybase.jdbc3.jdbc.SybDataSource"
@@ -28,7 +28,7 @@ Context definieren und Ressource verlinken
 
 Webapp liegt beispielsweise in /var/lib/tomcat7/webapps/appmobile-webapp.war
 
-```
+``` xml
 <Host name="localhost"  appBase="webapps"
       unpackWARs="true" autoDeploy="true">
 

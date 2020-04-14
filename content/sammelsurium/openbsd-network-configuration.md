@@ -10,14 +10,14 @@ tags:
 
 #### DHCP
 
-```
+``` bash
 $ cat /etc/hostname.em0
 dhcp
 ```
 
 ### Static
 
-```
+``` bash
 $ cat /etc/hostname.fxp0
 inet 10.0.0.38 255.255.255.0 NONE
 ```
@@ -30,7 +30,7 @@ in /etc/mygate
 
 das ist wohl das pendant zum networking restart aus Debian
 
-```
+``` bash
 sh /etc/netstart
 ```
 

@@ -12,7 +12,7 @@ Dazu muss ich aber ein paar Sachen selbst tun, zum Beispiel Thumbnails
 generieren. Dazu hab ich in meine `fish` Shell ein kleines Snippet gebaut was
 ich einfach im jeweiligen Albumordner ausführen kann.
 
-```
+``` fish
 # Create a thumbnail image for all pictures in current folder
 function create_thumbs ()
 

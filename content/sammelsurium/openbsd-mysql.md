@@ -6,14 +6,14 @@ tags:
 - OpenBSD
 ---
 
-```
+``` bash
 ## export PKG_PATH=ftp://ftp.openbsd.org/pub/OpenBSD/5.2/packages/`machine -a`/
 ## pkg_add mysql-server
 ```
 
 ## Initiales einrichten und starten
 
-```
+``` bash
 ## /usr/local/bin/mysql_install_db
 ## mysqld_safe &
 ## /usr/local/bin/mysql_secure_installation
@@ -41,7 +41,7 @@ _mysql:\
 
 /etc/rc.mysql
 
-```
+``` bash
 ## Start MySQL server
 if [ -x /usr/local/bin/mysqld_safe ] ; then
         su -c _mysql root -c '/usr/local/bin/mysqld_safe &' > /dev/null & echo -n ' mysql'
@@ -50,7 +50,7 @@ fi
 
 /etc/rc.local
 
-```
+``` bash
 if [ -x /etc/rc.mysql ] ; then
         /etc/rc.mysql
 fi

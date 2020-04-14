@@ -20,7 +20,7 @@ title: Gitweb | URLs einbinden
 Ich habe heute längerfristig das Web durchforsten müssen, wie ich eine URL
 für den
 
-```
+``` bash
 git clone git://zwetschge.org/roborobo.git
 ```
 
@@ -30,7 +30,7 @@ PublicProjects darüber auszuchecken. Damit gitweb nun diese URL kennt, ist
 es nötig in dem Remote-Verzeichnis die Datei cloneurl anlegen. Kurz und
 prägnant damit ich es nicht wieder vergesse:
 
-```
+``` bash
 echo "git://zwetschge.org/roborobo.git" > /home/git/public/roborobo.git/.git/cloneurl
 ```
 

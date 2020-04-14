@@ -40,7 +40,7 @@ funktioniert das auch mit E-Mails.
 
 Via Telnet-Verbindung zum Port 25 des Mailservers:
 
-```
+``` bash
 telnet zwetschge.org 25
 ```
 

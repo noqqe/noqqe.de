@@ -10,7 +10,7 @@ tags:
 
 Passwort Auth erzwingen
 
-```
+``` bash
 ssh host -o PasswordAuthentication=yes -o PubkeyAuthentication=no
 ```
 
@@ -18,7 +18,7 @@ ssh host -o PasswordAuthentication=yes -o PubkeyAuthentication=no
 
 Speziellen Port angeben
 
-```
+``` bash
 ssh host -p22
 ```
 
@@ -45,7 +45,7 @@ ssh host -l noqqe -i ~/.ssh/private
 Zuweilen kommt es vor, dass man Public Keys nicht mehr findet und nur noch
 die Private Keys hat. Zum Glück lassen sich diese 1:1 wieder generieren
 
-```
+``` bash
 ssh-keygen -y -f ~/.ssh/id_rsa > ~/.ssh/id_rsa.pub
 ```
 

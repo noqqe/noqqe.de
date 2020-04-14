@@ -72,7 +72,7 @@ Zur Kommunikation zwischen den Containern legt Docker ein neues Netzwerk
 `docker0` an. Wie man dieses umkonfiguriert zeigt die
 [Dokumentation](https://docs.docker.com/network/bridge/)
 
-```
+``` json
 $ cat /etc/docker/daemon.json
 {
   "bip": "192.168.1.5/24",
@@ -86,7 +86,7 @@ Docker Daemon war soweit entschärft, aber mein eigentliches Problem entsprang
 einer anderen Quelle. Docker Compose baut eigene Netzwerke. So müssen auch
 diese konfiguriert werden. `docker-compose.yaml`:
 
-```
+``` yaml
 networks:
   nexus:
     driver: bridge

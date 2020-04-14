@@ -7,7 +7,7 @@ tags:
 - parallel
 ---
 
-```
+``` bash
 ## time seq 1 10000 | parallel 'echo {}| md5sum &> /dev/null '
 
 real  0m20.102s
@@ -23,7 +23,7 @@ sys 0m3.948s
 
 Das dreht sich aber schnell sobald die Aufgaben groesser werden:
 
-```
+``` bash
 ## time seq 1 1000 | parallel 'cat /dev/urandom | head -c 100000 | gzip &> /dev/null'
 
 real  0m7.845s

@@ -58,14 +58,14 @@ Ich mache vielleicht etwas falsch, aber wenn ich 1000 Queries in MySQL
 kippe, dauert nur einen Bruchteil so lange wie in postgreSQL. Um das zu
 veranschaulichen:
 
-```
+``` bash
 $ time for x in $(seq 1 1000) ; do mysql -u root -ppw -e "insert into foobar.foo values ($x, now());" ; done
 real    0m7.349s
 user    0m0.060s
 sys     0m0.380s
 ```
 
-```
+``` bash
 $ time for x in $(seq 1 1000) ; do psql --quiet -d foobar -c "insert into foobar values ($x, now());" ; done
 real    1m28.363s
 user    0m37.450s

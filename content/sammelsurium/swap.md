@@ -11,7 +11,7 @@ tags:
 
 Das Filesystem muss Swapfiles auch unterstützen. BTRFS tut das zum Beispiel nicht.
 
-```
+``` bash
 swapon -s # anzeigen lassen
 dd if=/dev/zero of=tempswap bs=1M count=1024
 sudo mkswap tempswap

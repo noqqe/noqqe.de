@@ -70,7 +70,7 @@ Es fordert im Endeffekt die Liste aller Indices und deren Size an, welche ich
 dann mit der tollen Library `humanfriendly` in Bytes konvertiere und
 zusammenrechnen kann.
 
-```
+``` python
 > humanfriendly.parse_size('140g')
 > 140000000000
 >
@@ -82,7 +82,7 @@ Das Script ist natürlich total spartanisch, aber es tut was es soll. Um das
 angeben der Max Size komme ich nicht herum, da das Cluster leider nicht unter
 meiner Kontrolle steht.
 
-```
+``` bash
 $ ./check_elastic_storage.py <url>/_cat/indices?v 80 90 1TB
 > 50% used (500 GB/1 TB) | percentage=50; used=500000000000; max=1000000000000;
 ```

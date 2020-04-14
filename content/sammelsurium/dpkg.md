@@ -30,7 +30,7 @@ $ LANG=C dpkg -l 2>/dev/null | awk '{print $3}' | egrep -v '^[[:digit:]]'
 
 Wenns im Available vorkommt. [DPKG Error](http://www.linuxquestions.org/questions/debian-26/dpkg-is-dead-error-in-var-lib-dpkg-available-225508/)
 
-```
+``` bash
 dpkg --clear-avail
 apt-get update
 ```

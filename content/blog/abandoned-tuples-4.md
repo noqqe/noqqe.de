@@ -19,7 +19,7 @@ und per Flag die Werte aus den Commandline Parametern abrufen.
 
 <!--more-->
 
-```
+``` bash
 ./abandoned-tuples \
   --contrast -20 \
   --iso 30 \
@@ -38,7 +38,7 @@ Das Tool ist auf [Github unter Abandoned-Tuples](https://github.com/noqqe/abando
 Dann habe ich noch etwas Meta Informationen eingebaut. Speicherverbauch und Dauer der
 Laufzeit.
 
-```
+``` bash
 ./abandoned-tuples -c 30 kreta_48223742362_o.jpg  out2.png
 Time:  14.00934251
 Memory: 1.0 GG
@@ -65,7 +65,7 @@ gesehen) habe ich es nicht bekommen. Zwischenzeitlich habe ich versucht
 anstatt der Tuple->List Conversion direkt das Tuple zu bearbeiten (bzw zu
 konkatinieren) aber das war noch langsamer als die List Conversion.
 
-```
+``` bash
 ./abandoned-tuples -c 30 kreta_48223742362_o.jpg  out2.png
 Time:  13.686766427
 Memory: 0.56 GB

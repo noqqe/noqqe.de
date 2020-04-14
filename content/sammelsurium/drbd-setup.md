@@ -26,7 +26,7 @@ iface eth5 inet static
 
 ### Installation
 
-```
+``` bash
 aptitude install drbd-utils
 ```
 
@@ -137,7 +137,7 @@ iface eth5 inet static
 
 ### Installation Heartbeat
 
-```
+``` bash
 aptitude install heartbeat
 ```
 

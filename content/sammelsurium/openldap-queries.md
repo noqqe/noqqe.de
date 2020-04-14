@@ -53,7 +53,7 @@ sn: Tappert
 
 Als anonymous failed das natürlich(gut!)
 
-```
+``` bash
 ## ./ldapmodify -a -x -f /usr/local/etc/horst.ldif
 adding new entry "uid=horst,ou=users,dc=example,dc=com"
 ldap_add: Strong(er) authentication required (8)
@@ -62,7 +62,7 @@ ldap_add: Strong(er) authentication required (8)
 
 Zum Auth als Admin das folgende tun
 
-```
+``` bash
 ## ./ldapmodify -a -xWD "cn=admin,dc=example,dc=com" -f /usr/local/etc/bkodera.ldif
 Enter LDAP Password:
 adding new entry "uid=horst,ou=users,dc=example,dc=com"
@@ -70,14 +70,14 @@ adding new entry "uid=horst,ou=users,dc=example,dc=com"
 
 ### Entries löschen
 
-```
+``` bash
 ## ./ldapdelete -xWD "cn=admin,dc=example,dc=com" "uid=horst,ou=users,dc=n0q,dc=org"
 Enter LDAP Password:
 ```
 
 ### Löschen mehrerer Einträge
 
-```
+``` bash
 ## ./ldapdelete -xWD "cn=admin,dc=example,dc=com" << EOF
 > uid=bbergebunker,ou=zwerge,dc=example,dc=com
 > uid=vbergebunker,ou=zwerge,dc=example,dc=com
@@ -96,7 +96,7 @@ Enter LDAP Password:
 
 modify.ldif:
 
-```
+``` bash
 dn: uid=horst,ou=users,dc=example,dc=com
 changetype: modify
 replace: loginShell
@@ -105,7 +105,7 @@ loginShell: /bin/sh
 
 Einspielen via
 
-```
+``` bash
 ./ldapmodify -xWD "cn=admin,dc=example,dc=com" -f
 /usr/local/etc/horst-modify.ldif
 ```

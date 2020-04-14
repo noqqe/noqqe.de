@@ -78,7 +78,7 @@ Eckdaten des Tests:
 
 Ein typischer Apache Bench mit `ab` sieht ungefähr so aus:
 
-```
+``` bash
 ab -c 200 -n 2500 http://host.example.org/
 ```
 

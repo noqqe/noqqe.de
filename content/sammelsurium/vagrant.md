@@ -8,7 +8,7 @@ tags:
 
 multi machine example
 
-```
+``` ruby
 ## -*- mode: ruby -*-
 ## vi: set ft=ruby :
 

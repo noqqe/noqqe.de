@@ -9,7 +9,7 @@ If you need to simply loop through multiple iterations, simply use a definition.
 
 With definition you are able to use "title" as the iteration variable. Here's a example
 
-```
+``` puppet
   define flumeports {
     @@nagios_service { "check_flume_port_${title}_${hostname}":
       use => "generic-service",
@@ -31,7 +31,7 @@ Call the defined class with an array of objects:
 
 Definition
 
-```
+``` puppet
 class echo_class ($to_echo = "default value") {
   notify {"What are we echoing? ${to_echo}.":}
 }
@@ -39,7 +39,7 @@ class echo_class ($to_echo = "default value") {
 
 Class Call
 
-```
+``` puppet
 class {'echo_class':
   to_echo => 'Custom value',
 }
@@ -47,7 +47,7 @@ class {'echo_class':
 
 ## Array Iteration
 
-```
+``` puppet
 $my_env => [ shared1, shared2, shared3 ]
 
 define myResource {

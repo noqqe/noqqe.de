@@ -20,7 +20,7 @@ herumkonfiguriert. Ich will lediglich ein schwarzes Terminal haben, weshalb
 ich den "Neues Terminal"-Shortcut ueberschreiben und einen weiteren um meinen
 Bildschrim zu sperren.
 
-```
+``` bash
 > cat .cwmrc
 bind-key CM-Return "xterm -bg black -fg white +sb"
 bind-key CM-q "slock"
@@ -69,7 +69,7 @@ Heimatverzeichnisses geschrieben. Siehe [$HOME, sweet
 $HOME](https://morr.cc/home-sweet-home/). Dieses Konzept habe ich mir zueigen
 gemacht und mein `$HOME` dementsprechend eingerichtet.
 
-```
+``` fish
 > find ~ -type d -maxdepth 2
 library
 library/xresources

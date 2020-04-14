@@ -25,7 +25,7 @@ title: Dateiberechtigungen und ihr Sinn
 
 Neulich Abend hab ich mal wieder bisschen mit der Shell rumgespielt und mich gefragt was wohl im Detail die Ausgabe von
 
-```
+``` bash
 ls -l
 ```
 

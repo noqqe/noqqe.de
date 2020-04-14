@@ -37,7 +37,7 @@ mysql --default-character-set=LATIN1 -e "select id, query from data where query 
 
 ### Latin1
 
-```
+``` ini
 [client]
 default-character-set = latin1
 [mysqld]
@@ -56,7 +56,7 @@ default-character-set = latin1
 
 ### UTF8
 
-```
+``` ini
 [client]
 default-character-set = utf8
 [mysqld]
@@ -75,7 +75,7 @@ default-character-set = utf8
 
 ## Richtig Dumpen
 
-```
+``` bash
 mysqldump --default-character-set="UTF8" db > db_utf8.sql
 mysql --default-character-set="UTF8" db < db_utf8.sql
 ```

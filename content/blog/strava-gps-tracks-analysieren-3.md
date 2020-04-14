@@ -54,7 +54,7 @@ Formatierten Dateien.
 
 Wir wollen möglichst alles davon als minifiziertes GPX haben.
 
-```
+``` fish
 cd activities/
 
 unzip  *.gz
@@ -73,7 +73,7 @@ getauft und auf Github gestellt.
 
 Im Skript kurz die Config anpassen und `./stramap` ausführen.
 
-```
+``` R
 # gpxfiles = [ 'test.gpx', 'test2.gpx' ]
 gpxfiles = glob.glob('./activities/*.gpx')
 

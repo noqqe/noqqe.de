@@ -78,7 +78,7 @@ Das Commandline Tool
 für [Debian](http://packages.debian.org/squeeze/pdftk) und
 [Ubuntu](http://packages.ubuntu.com/natty/pdftk) paketiert.
 
-```
+``` bash
 sudo aptitude install pdftk
 ```
 

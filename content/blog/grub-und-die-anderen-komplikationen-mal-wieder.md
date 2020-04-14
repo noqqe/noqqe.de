@@ -20,7 +20,7 @@ booten zu können!
 
 Meine Versuche sahen, unter anderem, wie folgt aus:
 
-```
+``` bash
 root@Knoppix:~# grub-install --root-directory=/media/sda1 /dev/sda
 rm: Entfernen von >>/media/sda1/boot/grub/stage1<< nicht möglich: Das Dateisystem ist nur lesbar
 ```
@@ -28,7 +28,7 @@ rm: Entfernen von >>/media/sda1/boot/grub/stage1<< nicht möglich: Das Dateisyst
 Aus irgendwelchen Grüden stellt es sich als problematisch dar, die Rechte
 für die sda1 Partition zu ändern..
 
-```
+``` bash
 root@Knoppix:~# grub-install --recheck /media/sda
 ```
 

@@ -20,7 +20,7 @@ Und dann die Datenbank initialiseren
 
 [InitialSetup](http://theforeman.org/manuals/1.3/index.html#3.5.1InitialSetup)
 
-```
+``` yaml
 /etc/foreman/database.yml
 production:
   adapter: mysql2
@@ -37,7 +37,7 @@ decoupled from your puppet master, pay attention to the following things
 
 * Set puppet.conf on master to
 
-```
+``` ini
 [master]
 reports = foreman
 external_nodes = /etc/puppet/node.rb

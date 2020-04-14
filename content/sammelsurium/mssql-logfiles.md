@@ -22,7 +22,7 @@ Ablage der wirklichen Backups auf
 
 Im SQL Server Studio auf "New Query" drücken, dass einfügen:
 
-```
+``` sql
 SELECT name FROM SYS.DATABASES WHERE recovery_model!=1 AND name NOT IN
 ('master','tempdb','msdb','ReportServerTempDB');
 ```

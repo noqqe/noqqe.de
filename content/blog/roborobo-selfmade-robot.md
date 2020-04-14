@@ -83,13 +83,13 @@ andere erledigt er.
 
 File hinzufügen
 
-```
+``` bash
 roborobo /etc/postfix/main.cf`
 ```
 
 Alle bekannten Files updaten:
 
-```
+``` bash
 roborobo
 ```
 

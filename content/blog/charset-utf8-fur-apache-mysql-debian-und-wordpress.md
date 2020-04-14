@@ -78,7 +78,7 @@ AddDefaultCharset UTF-8
 
 ### PHP5 Charset
 
-```
+``` ini
 $ vim /etc/php5/apache2/conf.d/charset.ini
 [PHP]
 default_charset = "utf-8"
@@ -111,7 +111,7 @@ default-character-set = utf8
 
 ### Debian Wordpress Config
 
-```
+``` php
 $ vim /etc/wordpress/config-blog.url.php
 define('DB_CHARSET', 'utf8');
 define('DB_COLLATE', '');

@@ -8,7 +8,7 @@ tags:
 
 `strace` an einen laufenden Prozess hängen.
 
-```
+``` bash
 strace -p 6637
 ```
 
@@ -20,7 +20,7 @@ Mit `-e` können Syscalls getracked werden. Nützliche sind:
 
 Beispiel
 
-```
+``` bash
 strace -p 22212 -o output.txt -e open
 ```
 

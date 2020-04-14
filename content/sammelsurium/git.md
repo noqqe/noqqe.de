@@ -27,7 +27,7 @@ File aus History löschen
 Manchmal dauert es 1-18 Commits um ein Feature fertigzustellen. Da man das
 aber nicht in `master` haben will, muss man ein bisschen was dazu tun.
 
-```
+``` bash
 [ on current messed up feature branch "TICK-1337-MESSY" with too many commits ]
 git checkout master
 git checkout -b TICK-1337-Feature
@@ -48,7 +48,7 @@ und kann dann eine schöne Commit Message formulieren.
 Man kann ein einzelnes (bzw. auch mehrere Files) aus einem Repo holen, wenn
 man `git archive` dafür verwendet
 
-```
+``` bash
 git archive -o out.tar --remote=ssh://github.com/noqqe/foo.git HEAD:master <file>
 ```
 
@@ -117,7 +117,7 @@ Submodule löschen:
 * Delete the relevant section from .git/config.
 * Run git rm --cached path_to_submodule (no trailing slash).
 
-```
+``` bash
 $ git rm --cached bundle/R.vim
 rm 'bundle/R.vim'
 ```

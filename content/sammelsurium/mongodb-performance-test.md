@@ -38,7 +38,7 @@ while (i < 1000000):
 
 ## Script with Auth
 
-```
+``` python
 !/usr/bin/python
 import time
 import pymongo
@@ -121,7 +121,7 @@ mongos> db.stats()
 
 Auswertung mit R
 
-```
+``` R
 > x <- read.csv("C:/cygwin64/home/noqqe/single.txt", as.is=T, header=F)
 > head(x)
          V1

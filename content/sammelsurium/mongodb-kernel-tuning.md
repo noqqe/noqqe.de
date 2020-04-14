@@ -11,7 +11,7 @@ tags:
 2 bedeutet nur so viel overcommit wieder Swapspace hergibt.
 80 ist die Ratio der Swap benutzt werden darf.
 
-```
+``` bash
 echo 2 > /proc/sys/vm/overcommit_memory
 echo 80 > /proc/sys/vm/overcommit_ratio
 vm.overcommit_memory=2
@@ -37,7 +37,7 @@ Einmalig:
 
 Readahead warnings ausschalten, persistent
 
-```
+``` bash
 ## anzeigen der readahead einstellungen
 blockdev --report |grep sdb
 

@@ -6,7 +6,7 @@ tags:
 - OpenBSD
 ---
 
-```
+``` bash
 ## export PKG_PATH=ftp://ftp.openbsd.org/pub/OpenBSD/5.2/packages/`machine -a`/
 ## pkg_add -i nginx
 Ambiguous: choose package for nginx
@@ -24,7 +24,7 @@ Your choice: 1
 
 Um MySQL nutzen zu können gibts diesen Symlink
 
-```
+``` bash
 ## mkdir -p /var/www/var/run/mysql
 ## chown www:daemon /var/www/var/run/mysql
 ## ln -f /var/run/mysql/mysql.sock /var/www/var/run/mysql/mysql.sock
@@ -32,7 +32,7 @@ Um MySQL nutzen zu können gibts diesen Symlink
 
 mysqli install
 
-```
+``` bash
 ##  export PKG_PATH=ftp://ftp.openbsd.org/pub/OpenBSD/5.2/packages/amd64/
 ## echo $PKG_PATH
 ftp://ftp.openbsd.org/pub/OpenBSD/5.2/packages/amd64/

@@ -11,7 +11,7 @@ Software laufen, welches Websockets zwingend erfordert. So möchte ich
 natürlich TLS Terminierung auf einem Reverse Proxy machen. In diesem Fall
 Apache 2.4
 
-```
+``` ApacheConf
 <VirtualHost *:443>
   ServerName <hostname>
 

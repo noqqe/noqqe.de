@@ -15,7 +15,7 @@ tags:
 
 Creating the file (downloaded from somewhere) and assing the name to a value and read it with readChar
 
-```
+``` R
 f <- '/tmp/pin.json'
 j <- readChar(f,file.info(f)$size)
 ```

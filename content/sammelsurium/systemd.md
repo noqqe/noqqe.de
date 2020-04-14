@@ -10,7 +10,7 @@ tags:
 
 Als Beispiel mal der von Grafana, da er sehr schön ist.
 
-```
+``` ini
 [Unit]
 Description=Grafana instance
 Documentation=http://docs.grafana.org
@@ -38,13 +38,13 @@ WantedBy=multi-user.target
 
 Wie gewohnt... erstmal mit einem einfachen Service interagieren.
 
-```
+``` bash
 systemctl restart/start/stop/status/cat <service>.service
 ```
 
 ### Verzeichnisse
 
-```
+``` bash
 /etc/systemd/system/
 /lib/systemd/system/
 /usr/lib/systemd/system/
@@ -54,13 +54,13 @@ systemctl restart/start/stop/status/cat <service>.service
 
 Config des Systemd reloaden
 
-```
+``` bash
 systemctl daemon-reload
 ```
 
 Alle laufenden Services anzeigen
 
-```
+``` bash
 systemctl status
 ```
 
@@ -71,13 +71,13 @@ immer wieder aus.
 
 Alle Timer anzeigen
 
-```
+``` bash
 systemctl list-timers
 ```
 
 Timer Config
 
-```
+``` bash
 $ systemctl cat <servicename>.timer
 [Unit]
 Wants=network.target
@@ -89,7 +89,7 @@ OnUnitActiveSec=5min
 
 Der Service wird ueber Pattern Matching des Timer Names gemachted
 
-```
+``` ini
 $ systemctl cat <servicename>.service
 [Unit]
 Description=<servicename>
@@ -108,7 +108,7 @@ WorkingDirectory=/tmp/
 Man kann auch via Systemd tmpfiles anlegen lassen. Die configs dazu liegen
 hier:
 
-```
+``` bash
 /etc/tmpfiles.d/*.conf
 /run/tmpfiles.d/*.conf
 /usr/lib/tmpfiles.d/*.conf
@@ -116,7 +116,7 @@ hier:
 
 und eines davon sieht dann ungefähr so aus:
 
-```
+``` bash
 # Type Path        Mode UID  GID  Age Argument
   d    /var/run/mongodb 0755 mongodb mongodb - -
 ```

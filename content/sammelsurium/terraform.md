@@ -8,7 +8,7 @@ tags:
 
 Bevor man irgendwas macht, muss die Codebase Initialisiert sein.
 
-```
+``` bash
 export TF_VAR_access_key=XXX
 export TF_VAR_secret_key=XXX
 terraform init
@@ -16,7 +16,7 @@ terraform init
 
 Änderungen übernehmen/löschen
 
-```
+``` bash
 terraform apply
 terraform plan
 terraform destroy
@@ -37,7 +37,7 @@ terraform providers
 
 Module updaten
 
-```
+``` bash
 terraform get -update
 ```
 
@@ -46,7 +46,7 @@ Remote State
 Damit der State nicht nur lokal vorhanden ist sondern auch für andere
 Kollegen, sollte man einen Terraform.
 
-```
+``` terraform
 terraform {
   backend "s3" {
     bucket = "terraform-state"

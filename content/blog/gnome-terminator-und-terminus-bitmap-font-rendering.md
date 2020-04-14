@@ -23,7 +23,7 @@ Terminator](http://www.tenshu.net/p/terminator.html) ausgebe.
 Habe dann jeweils mit dem alten Font und mit Terminus die selbe Datei
 ausgegeben und micht etwas gewundert:
 
-```
+``` bash
 $ wc -l /var/log/syslog
 946 syslog
 $ cat /var/log/syslog

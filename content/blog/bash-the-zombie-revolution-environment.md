@@ -79,7 +79,7 @@ nicht wirklich was es ist, aber es unterhält mich.
 
 Usage ist relativ einfach.
 
-```
+``` bash
 wget http://github.com/noqqe/zombie-revolution-environment/raw/master/zre.bash
 ./zre.bash
 ```

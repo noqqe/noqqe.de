@@ -37,7 +37,7 @@ sieht folgendermaßen aus:
 
 Nun lässt sich über ein einfaches Script, beispielsweise:
 
-```
+``` bash
 for i in $(seq 1 100) ; do git clone git://zwetschge.org/roborobo.git gitrepodos$i ; done
 ```
 

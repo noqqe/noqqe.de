@@ -15,7 +15,7 @@ ziemlich lustig war. Deshalb wollte ich daraus wirklich ein Video machen.
 Zuerst mal alle Bilder etwas verkleinert, 6000x4000 ist da etwas arg groß
 gewesen. ImageMagick <3
 
-```
+``` fish
 for x in DSC*
   convert  $x -resize 30% -auto-orient medium-$x
 end
@@ -36,7 +36,7 @@ Gedanken gemacht.
 
 Den Optionshaufen dann mit meinem vermischt und fertig.
 
-```
+``` fish
 ffmpeg
   -framerate 8
   -pattern_type glob

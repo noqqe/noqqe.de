@@ -8,12 +8,12 @@ tags:
 Manchmal kann man auf Excel oder in Windows / Unix gemischten Dingen mit
 Tabs.
 
-```
+``` bash
 $ file file.tab
 file.tab:      ASCII text, with CRLF line terminators
 ```
 
-```
+``` bash
 $ cat file.tab
 Friday  145720  user@aol.com       Chuck    Honk    PartnerLead     Returning       Male
 Friday  153740  user@yahoo.co.uk     Horst    Tappert   User    Returning       Male
@@ -21,7 +21,7 @@ Friday  153740  user@yahoo.co.uk     Horst    Tappert   User    Returning       
 
 selbes mit -A (Tabs als ^I und ^M ist newline mit $ als limiter)
 
-```
+``` bash
 $ cat -A file.tab
 Friday^I65584^user@hotmail.com^IChuck^IHonk^IUser^IReturning^IMale
 Friday^I145720^user@aol.com^IHorst^ITappert^IUser^IReturning^IMale
@@ -30,7 +30,7 @@ Friday^I145720^user@aol.com^IHorst^ITappert^IUser^IReturning^IMale
 Man kann dieses File auch mit Hexdump anschauen. die \\t sind hierbei die
 Tabs. Logischerweise
 
-```
+``` bash
 $ hexdump -c head.txt
 0000000   I   d  \t   A   c   t   i   o   n   D   a   t   e  \t   C   u
 0000010   s   t   o   m   e   r   I   D  \t   E   m   a   i   l   A   d
@@ -45,7 +45,7 @@ $ hexdump -c head.txt
 Bei normalen Tabs in Vi entstehen (zumindest in meiner Konfiguration)
 garkeine Tabs sonder spaces.
 
-```
+``` bash
 $ cat -A foo
 1   2   8$
 3   4   4$
@@ -57,7 +57,7 @@ $ cat -A foo
 Wenn man das abschalten will kann man in Vi mit `CTRL`+`v`+`Tab` einen
 solchen echten Tab einfügen
 
-```
+``` bash
 $ cat -A foo
 1   2   8$
 3   4   4$
@@ -68,7 +68,7 @@ $ cat -A foo
 
 Das gleiche mit Vi erzeugt
 
-```
+``` bash
 $ hexdump -c foo
 0000000  \t   1  \t   2  \t   3  \n  \t   1  \t   2  \t   3  \n  \t   1
 0000010  \t   2  \t   3  \n  \t   1  \t   2  \t   3  \n

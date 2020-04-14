@@ -52,7 +52,7 @@ müssen für die Bash noch escaped werden. Desweiteren noch den Ausdruck auf
 den die Beschreibung zutrifft durch 1 ersetzen. Wurden aber nicht weniger
 Domains.
 
-```
+``` bash
 cat KundenDomainliste.txt | sed -e 's/^.*.(.*)/1/' | uniq | sort
 ```
 

@@ -13,7 +13,7 @@ Oracles Werkzeug zur Zertifikatsverwaltung macht keinen Spass.
 
 Anzeigen der Inhalte eines Keystores.
 
-```
+``` bash
 keytool -list -keystore ssl/keystore.jks
 keytool -list -v -keystore ssl/keystore.jks
 ```
@@ -32,28 +32,28 @@ Das `PEM` muss dazu wie folgt aussehen
 
 Wenn das gegeben ist, PEM in `PKCS12` konvertieren.
 
-```
+``` bash
 openssl pkcs12 -export -in certs.pem -out certs.pkcs12
 ```
 
 Es muss ein leerer Keystore angelegt werden. Dies geschieht mittels erzeugen
 und leeren eines frisch generierten Keystores.
 
-```
+``` bash
 keytool -genkey -keyalg RSA -alias tomcat -keystore keystore.ks
 keytool -delete -alias tomcat -keystore keystore.ks
 ```
 
 Jetzt das generierte PKCS12 File in den (proprietären) Keystore
 
-```
+``` bash
 keytool -v -importkeystore -srckeystore certs.pkcs12 -srcstoretype PKCS12 -destkeystore keystore.ks -deststoretype JKS
 ```
 
 Selbes kann auch für einen **Truststore** durchgeführt werden. Der Befehl
 dafür lautet:
 
-```
+``` bash
 keytool -import -v -trustcacerts -alias tomcat-ca -file certs.pem -keystore truststore.ks
 ```
 
