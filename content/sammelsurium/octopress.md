@@ -30,7 +30,7 @@ Damit wieder alles neu generiert wird
 
 ## Haudrauf Hammer wenn nix mehr geht
 
-```
+``` bash
 git pull octopress master
 bundle update
 rake update_source

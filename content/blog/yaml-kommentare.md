@@ -33,7 +33,7 @@ So zumindest die Idee. Zuerst hab ich mal Dummie Daten in einen Post
 gebastelt und den Templating Code in `hugo` geschrieben. Dazu einfach in
 dem `partial` meinen Footer angepasst:
 
-```
+``` html
 {{ if isset .Params "comments" }}
   <div class="comments">
     <h4>Comments ({{ .Params.comments | len }})</h4>

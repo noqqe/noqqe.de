@@ -7,7 +7,7 @@ tags:
 
 ## If Else Entscheidungen
 
-```
+``` ruby
 <%- if @role0 == "datanode" or @role0 == "namenode" -%>
 command[check_load]=/usr/lib/nagios/plugins/check_load -w 25,22,20 -c 35,32,30
 <%- else -%>
@@ -17,7 +17,7 @@ command[check_load]=/usr/lib/nagios/plugins/check_load -w 15,10,5 -c 30,25,20
 
 ## Template Limiter
 
-```
+``` ruby
 <% i += 1 %> ## ruby code
 
 <%= i += 1 %> ## mit print
@@ -31,7 +31,7 @@ command[check_load]=/usr/lib/nagios/plugins/check_load -w 15,10,5 -c 30,25,20
 
 ## Count Schleife
 
-```
+``` ruby
 # reduce count by 1 because we start at 0
 <% cpus = @processors['count'].to_i - 1 -%>
 
@@ -51,7 +51,7 @@ braucht man ja
 
 Im Endeffekt eine Liste daraus machen
 
-```
+``` yaml
 hadoop::zookeeper:
   - "zk11.example.com"
   - "zk12.example.com"
@@ -60,7 +60,7 @@ hadoop::zookeeper:
 
 ### Manifest
 
-```
+``` puppet
 class hadoop::zookeeper_base ($zookeepersrv = hiera(hadoop::zookeeper, '')) {
 
   file { "/etc/zookeeper/conf.noqqe/zoo.cfg":
@@ -73,7 +73,7 @@ class hadoop::zookeeper_base ($zookeepersrv = hiera(hadoop::zookeeper, '')) {
 
 Im template file \*.erb
 
-```
+``` ruby
 <% @zookeepersrv.each do |x| -%>
 server.<%= x.count %> <%= x %>:2888:3888
 <% end -%>
@@ -85,7 +85,7 @@ server.<%= x.count %> <%= x %>:2888:3888
 
 ## Loop mit Kommas in einer Zeile
 
-```
+``` ruby
 <value>
  <%- i= 0 ; @zookeepersrv.each do |x| -%> ## Loop
   <%= ',' if i > 0 %> ## Wenn erstes element, dann kein Komma
@@ -97,7 +97,7 @@ server.<%= x.count %> <%= x %>:2888:3888
 
 Ergebnis
 
-```
+``` xml
 +    <value>zk11.example.com:2181</value>
 +    <value>zk11.example.com:2181,zk12.example.com:2181,zk13.example.com:2181</value>
 ```
@@ -106,7 +106,7 @@ Ergebnis
 
 Das hiera File (hieradata/tiers/production.yaml)
 
-```
+``` yaml
 ---
 profiles::daemon::username: user
 profiles::daemon::password: passw0rd
@@ -114,7 +114,7 @@ profiles::daemon::password: passw0rd
 
 Das Manifest (site/profiles/manifests/daemon.pp)
 
-```
+``` puppet
 class profiles::daemon (
   $username,
   $password,
@@ -132,7 +132,7 @@ class profiles::daemon (
 
 Das Template (site/profiles/templates/daemon/config.erb)
 
-```
+``` yaml
 memorylimit: 9001
 user: <%= @username %>
 password: <%= @password %>

@@ -16,7 +16,7 @@ tags:
 
 ## Quick Build for new version
 
-```
+``` bash
 cd ~/Code/spdy/mod_spdy
 ../depot_tools/gclient update --force
 cd src

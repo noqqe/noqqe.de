@@ -5,7 +5,7 @@ tags:
 - Filesystems
 ---
 
-```
+``` bash
 $ echo "- - -" > /sys/class/scsi_host/host2/scan
 $ fdisk -l
 $ cfdisk /dev/sdb

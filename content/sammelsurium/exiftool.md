@@ -40,7 +40,7 @@ Complete Workflow
 
 ## Meta Data
 
-```
+``` bash
 $ exiv2 gasthauszumbernd.jpg
 File name       : gasthauszumbernd.jpg
 File size       : 2793568 Bytes
@@ -71,7 +71,7 @@ Exif comment    :
 
 Mit entfernten Meta Daten
 
-```
+``` bash
 $ exiv2 gasthauszumbernd.jpg
 File name       : gasthauszumbernd.jpg
 File size       : 2781280 Bytes

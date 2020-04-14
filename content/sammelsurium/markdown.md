@@ -6,7 +6,7 @@ tags:
 - Programming
 ---
 
-```
+``` markdown
 
 ## Header 1 #
 ### Header 2 ##
@@ -54,7 +54,7 @@ if (this_is_more_code == true && !indented) {
     // tild wrapped code blocks, also not indented
 }
 
-```
+``` markdown
 
 Text with
 two trailing spaces

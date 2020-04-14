@@ -64,7 +64,7 @@ Und wenn ich diverse Formatzeichen nutzen will, ebenso.
 
 Formatstrings (wird noch fortgeführt)
 
-```
+``` python
 %.2f float64 with 2 zeros
 %s string
 %i int
@@ -119,7 +119,7 @@ einem `String` verwandeln
 
 Einen `string` zum `int` braucht einen Fehlerfall (Input: aaa?)
 
-```
+``` go
 port, err := strconv.Atoi("8080")
 ```
 
@@ -128,7 +128,7 @@ port, err := strconv.Atoi("8080")
 Flag ist sozusagen das `os.Args` auf Steroiden. Der eingebaute
 Argumentenparser kann auch Flags von Argumenten unterscheiden
 
-```
+``` go
 var n = flag.Bool("n", false, "no newline")
 
 func main() {
@@ -144,7 +144,7 @@ func main() {
 
 Die meisten Funktionen geben auch einen `err` zurück beim Aufruf
 
-```
+``` go
 file, err := os.Open("/file/that/does/not/exist.txt")
 if err != nil {
   fmt.Printf("%v\n", err)
@@ -158,7 +158,7 @@ if err != nil {
 Konstanten werden speziell markiert. Sie bleiben zur Compilezeit gleich
 und werden niemals verändert.
 
-```
+``` go
 const (
   foo = "lol"
   bar = 42
@@ -167,7 +167,7 @@ const (
 
 oder auch in Funtkionen
 
-```
+``` go
 func countlines () {
   const (
     foo = "lol"
@@ -231,7 +231,7 @@ if err != nil {
 
 Wie finde ich einen String in einem `Slice`
 
-```
+``` go
 // check if slice contains string
 func stringInSlice(a string, list []string) bool {
     for _, b := range list {
@@ -249,13 +249,13 @@ func stringInSlice(a string, list []string) bool {
 Um einen `int` ohne Namen zu erzeugen und aus einer Funktion
 zurück zu geben.
 
-```
+``` go
 new()
 ```
 
 So bewirkt
 
-```
+``` go
 func newInt() *int {
   return new(int)
 }
@@ -263,7 +263,7 @@ func newInt() *int {
 
 das Gleiche wie
 
-```
+``` go
 func newInt() *int {
   var dummy int
   return &dummy

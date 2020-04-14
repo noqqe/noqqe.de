@@ -12,7 +12,7 @@ tags:
 
 ## Demo Template
 
-```
+``` yaml
 #cloud-config
 apt_upgrade: false
 

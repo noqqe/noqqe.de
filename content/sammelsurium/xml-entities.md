@@ -11,7 +11,7 @@ Inhalt des Files /data/x6/crawler/common/y.Timestamp.ent
 
 File in das inkludiert wird
 
-```
+``` xml
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE crawlerConfig SYSTEM "config.dtd" [
         <!ENTITY config SYSTEM "/data/x6/crawler/common/y.configKapitel.ent">
