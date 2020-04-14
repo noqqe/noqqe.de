@@ -40,7 +40,7 @@ nichts tun. Ich bastelte `jeezus`. Das Python Script `bind()`ed sich auf
 einen Port, spricht dort SMTP, liesst den Content ein, wendet Bogofilter
 darauf an und sendet die Mail via SMTP wieder raus. Wie ein kleiner Proxy.
 
-```
+``` bash
 ./jeezus --listen 127.0.0.1:12001 \
   --pipe-command '/usr/local/bin/bogofilter -u -e -R' \
   --deliver 127.0.0.1:12002

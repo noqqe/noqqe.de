@@ -46,7 +46,7 @@ Also erstmal `openssl` angeworfen um damit zu schauen was
 die Serverseite so erzählt. Zuvor aber Username und Password
 in BASE64 encodiert vorbereiten:
 
-```
+``` bash
 perl -MMIME::Base64 -e 'print encode_base64("passwort");'
 perl -MMIME::Base64 -e 'print encode_base64("username");'
 ```

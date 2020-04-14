@@ -65,7 +65,7 @@ funktioniert natürlich auch mit den Tonern.
 
 Beschreibung der Fächer mit snmpwalk abholen:
 
-```
+``` bash
 snmpwalk -Os -c public -v 1 192.168.1.200
 ```
 

@@ -30,7 +30,7 @@ es mit größeren Datenmengen?
 Diesbezüglich wollte ich eine kleine For-Schleife benutzen um mehrere
 zufällige Werte zu generieren und in statistical  zu pipen.
 
-```
+``` bash
 time for x in $(seq 1 6000); do echo "$x:$RANDOM" ; done | statistical > /dev/null
 ```
 
@@ -41,7 +41,7 @@ statistical hingewiesen. In [seinem
 Fork](https://github.com/vain/statistical), hat er alle extern spawnenden
 Befehle gegen Bash interne Funktionen ausgetauscht. Siehe da:
 
-```
+``` bash
 real    0m7.788s
 user    0m7.610s
 sys     0m0.250s

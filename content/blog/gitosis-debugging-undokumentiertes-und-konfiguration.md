@@ -97,7 +97,7 @@ Konfiguration der Authentifizierungsstelle von Gitosis einließt. Der erste
 Fehler der (wirklich häufig) passiert ist, dass dieses Skript schlicht weg
 einfach nicht ausführbar  ist. Das lässt sich natürlich sehr einfach durch
 
-```
+``` bash
 chmod 755  /home/git/repositories/gitosis-admin.git/hooks/post-update
 ```
 
@@ -131,7 +131,7 @@ haben sich also gelohnt.
 Ein weniger behütetes Geheimnis, ist die Gesprächigkeit von Gitosis. Im
 Konfigurationsfile lässt sich das LogLevel deklarieren.
 
-```
+``` ini
 [gitosis]
 loglevel = DEBUG
 gitweb = no
@@ -183,7 +183,7 @@ Konfiguration folgt, wie sie in 95% der Fällen im Netz zu finden ist. Als
 Faustregel für Unterordner gilt also: Zwingend jeden(!) Pfad mit Angabe des
 Subdirs angeben.  Remote add:
 
-```
+``` bash
 git remote add origin git@gitserver.org:subdir1/repo2.git
 ```
 

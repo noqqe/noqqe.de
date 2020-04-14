@@ -154,7 +154,7 @@ Wünschenswert:
 
 Aber auch das hab ich dann noch hinbekommen.
 
-```
+``` bash
 sed -i -e 's#.*\[![^\(]*(\([^\)]*\).*#&#123;&#37; img center \1 &#37;&#125;#g' *
 ```
 

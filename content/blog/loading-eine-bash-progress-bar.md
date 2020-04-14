@@ -65,7 +65,7 @@ oder eine Art Counter bleibt jedem selbst überlassen.
 Alle Parameter sind natürlich anpassbar. Ich habe versucht so gut wie alles
 anpassbar zu halten. Ich hoffe das ist mir gelungen ;)
 
-```
+``` bash
 ./loading.sh Groesse Geschwindigkeit Rahmen-Anfang Füllcharacter Rahmen-Ende
 ./loading.sh 50 0.02 [ "######" ]
 ```

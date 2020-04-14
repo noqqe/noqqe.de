@@ -51,7 +51,7 @@ aliasadd <alias> <recepient>
 
 Via echo lässt sich mysql (nach Authentifizierung) einen Befehl übergeben:
 
-```
+``` bash
 echo "use maildb; insert into aliases values ('$1', '$2');" | mysql -u <user> --password=<pass>
 ```
 
@@ -61,7 +61,7 @@ soll. Ein Skript muss zuverlässlich sicherstellen das die Aufgabe
 ausgeführt wurde und dies dem Benutzer nach Möglichkeit auch noch
 mitteilen.
 
-```
+``` bash
 echo "use maildb; select * from aliases where address = '$1';" | mysql -u <user> --password=<pass>
 ```
 
@@ -73,7 +73,7 @@ Aber für die 4-5 mal im Monat in denen ich es benutze wäre das übertrieben.
 
 Fertig sieht das ganze dann wie folgt aus:
 
-```
+``` bash
 #!/bin/bash
 echo "use maildb; insert into aliases values ('$1', '$2');" | mysql -u <user> --password=<pass>
 echo "use maildb; select * from aliases where address = '$1';" | mysql -u <user> --password=<pass>

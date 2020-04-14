@@ -24,7 +24,7 @@ das entsprechend ein.
 Wenn man zum Beispiel eine Statusbar oder so etwas bauen und nur den
 Prozentsatz der verbleibenden Batterielaufzeit haben will:
 
-```
+``` bash
 > apm -l
 69
 ```
@@ -32,7 +32,7 @@ Prozentsatz der verbleibenden Batterielaufzeit haben will:
 APM kontrolliert ausserdem auch die CPU Power. Die Performance auf 100%
 aufdrehen geht zum Beispiel so:
 
-```
+``` bash
 apm -H
 ```
 
@@ -40,7 +40,7 @@ Nach der Installation hatte ich mit der CPU Power aber auch ein Problem. APM
 hatte diese auf `1` gestellt, sodass ich nur mit 1% der Leistung unterwegs
 war.
 
-```
+``` bash
 $ doas sysctl hw.setperf=100
 hw.setperf: 1 -> 100
 ```
@@ -49,7 +49,7 @@ In welcher Art und Weise der Daemon diesen Wert bestimmt verstehe ich noch
 nicht ganz, das muss ich noch herausfinden. Was ich jetzt aber unternommen
 habe ist, die Flags via `rcctl` zu setzen.
 
-```
+``` bash
 apmd_flags=-H -t 30 -Z 5
 ```
 Also, CPU Performance mit 100% starten, alle 30 Sekunden den Batterie Status
@@ -71,7 +71,7 @@ ist. Ich kann via folgenden Dateien
 Scripte hinterlegen die ausgefuehrt werden, sobald eines der folgenden Events
 den `apmd` triggern. Um nun den Bildschrim zu locken, baue ich erst
 
-```
+``` bash
 xidle -timeout 300 -program "/usr/local/bin/slock"
 ```
 
@@ -80,7 +80,7 @@ Bildschirm gesperrt wird.  Um das Locking beim Decek zuklappen zu triggern
 schicke ich in `/etc/apm/hibernate/` via kill noch ein Signal an xidle, um
 das Lock Programm sofort zu triggern.
 
-```
+``` bash
 pkill -USR1 xidle
 ```
 

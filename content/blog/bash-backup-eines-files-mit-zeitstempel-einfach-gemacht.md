@@ -79,7 +79,7 @@ Und wie man das eben von dem erfahrenen Linux-Benutzer seines Vertrauens
 (oder dem UbuntuUsersWiki) gelernt hat, sichert man vorher die
 Konfigurationsdatei mit dem obligatorischen:
 
-```
+``` bash
 cp xorg.conf xorg.conf.bak
 ```
 

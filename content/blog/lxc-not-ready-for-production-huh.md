@@ -86,7 +86,7 @@ davon abraten virtuelle Maschinen an Dritte abzugeben.
 Trotz allem reizt mich das Thema. Installiert wird das wie so ziemlich alles
 über
 
-```
+``` bash
 apt-get install lxc bridge-utils debootstrap
 ```
 

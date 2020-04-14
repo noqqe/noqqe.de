@@ -18,7 +18,7 @@ ich trotzdem kurz einen Post, wie sich Dateien mit Git zurückholen lassen.
 
 aus aktuellem HEAD wiederherstellen:
 
-```
+``` bash
 git checkout HEAD -- verloren.txt
 ```
 
@@ -54,6 +54,6 @@ git add verloren.txt
 
 und Commit absetzen.
 
-```
+``` bash
 git commit -a -m "Ich werde ab jetzt besser aufpassen"
 ```

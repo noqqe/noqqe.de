@@ -49,7 +49,7 @@ Branch zu starten und auf Anfang zu setzen.
 git branch initial
 ```
 
-```
+``` bash
 # Branches anzeigen
 git branch -a -v
 * master                 0bfb896 removed r_error() and added some comments
@@ -58,22 +58,22 @@ remotes/origin/initial d6600f1 First inital commit
 remotes/origin/master  0bfb896 removed r_error() and added some comments
 ```
 
-```
+``` bash
 # Branche initial auf spezielle Commitnummer setzen
 echo "d6600f10479bb2d0d69aa8086ebe4e3149d4ef76" >> roborobo.git/.git/refs/heads/initial
 ```
 
-```
+``` bash
 # In den neu erstellten Branch wechseln
 git checkout initial
 ```
 
-```
+``` bash
 # Via git log kontrollieren
 git log
 ```
 
-```
+``` bash
 # neuen Branch zum Server pushen
 git push origin initial
 ```

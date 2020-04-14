@@ -17,7 +17,7 @@ Die Basis ist auch dieses mal wieder die Liste mit Tupeln, die ich von
 <!--more-->
 
 
-```
+``` python
 [ (255,255,255), (0,0,0), ... ]
 ```
 
@@ -45,7 +45,7 @@ Was passiert zum Beispiel wenn ich die Daten eines Bildes einlese, überall
 `20` Punkte abziehe und das Bild abspeichere? Ich hatte keine Ahnung
 und dann etwas herumgespielt, was man so verändern könnte:
 
-```
+``` python
 # alt
 [ (255,255,255), (145,77,83), ... ]
 
@@ -103,7 +103,7 @@ Das heisst, um ein Bild kälter wirken zu lassen (ohne das ein Bärenreitender P
 soll) kann ziehe ich bei Rot etwas ab und gebe  es bei Blau hinzu. So bekommt
 ein Bild einen Blaustich und es wirkt kalt.
 
-```
+``` python
 [ (230, 155, 30), ... ]
    -20,   0, +20
 [ (210, 155, 50), ... ]

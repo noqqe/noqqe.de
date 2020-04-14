@@ -61,7 +61,7 @@ herumexperimentieren damit bin ich nun auf den [PerlGuide vom deutschen Perlboar
 wunderschönes Tutorial. Jedes Kapitel endet mit Übungen, Praxis-Programmen
 und Zusatzfragen.
 
-```
+``` perl
 print "Perl hat manchmal geile Syntax" and die if ! defined @ARGV ;
 ```
 

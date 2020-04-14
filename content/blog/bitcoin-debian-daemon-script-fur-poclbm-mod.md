@@ -99,7 +99,7 @@ Aus diesem Grund habe ich ein kleines Skript gebastelt. Einen
 Start-Stop-Daemon für **/etc/init.d/**. Es startet automatisch wenn mein
 Rechner hochfährt und hört auf wenn ich Ihn herunterfahre. Ganz einfach
 
-```
+``` bash
 wget -O /etc/init.d/bitcoin https://gist.github.com/raw/1007794/bitcoin.sh
 chmod +x /etc/init.d/bitcoin
 update-rc.d bitcoin defaults

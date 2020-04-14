@@ -30,7 +30,7 @@ Software nicht mehr weg denken. Ich finde Twidge erntet allgemein zu wenig
 Beachtung. Wie dem auch sei, sieht eine durchschnittliche Nutzung von
 Twidge wie folgt aus:
 
-```
+``` bash
 $ twidge setup
 $ twidge lsrecent
 <timpritlove> Verkannt, ignoriert, nahezu vergessen - aber sinnvoll, nützlich und wertvoll: das Semikolon!

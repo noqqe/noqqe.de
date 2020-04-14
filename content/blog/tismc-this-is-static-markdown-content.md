@@ -63,7 +63,7 @@ Filesystem sieht das in etwa so aus:
 Ein kleines Bashscript durchsucht den content/-Ordner und baut für jedes
 gefundene .markdown-File die HTML-Page.
 
-```
+``` bash
 $ ./tismc.bash
 page-dir is now /path/to/homepage
 --- parsing impressum.html

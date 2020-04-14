@@ -64,7 +64,7 @@ Absteigend sortiert. Ausserdem lässt sich eine Quelle definieren. Welches Progr
 
 So ergibt sich eine Schreibweise wie zb:
 
-```
+``` bash
 logger -p local0.err -t FILEBACKUP Files Backup failed
 ```
 
@@ -74,7 +74,7 @@ so das phänomenale Überfeature. Allerdings lässt sich unser rsyslogd sagen
 was wer wie wann wo und warum mit welcher Meldung aus welcher Quelle und
 mit welcher Stufe er Logmeldungen in welches File verarbeiten soll.
 
-```
+``` bash
 rsyslog.conf
 *.err  /var/log/error.log
 ```

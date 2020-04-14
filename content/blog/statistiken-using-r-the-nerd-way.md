@@ -121,7 +121,7 @@ $ grep '^<' tweets | awk '{print $1}' | sort | uniq -c | sort -n  | tail -20 > t
 
 Und damit das ganze auch was aussagt, kann man sogar eine kleine Legende anfügen.
 
-```
+``` R
 > legend( 1, 60,twittertimeline20$User, cex=0.6,  fill=rainbow(20))
 ```
 

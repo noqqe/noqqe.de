@@ -56,7 +56,7 @@ können was ich brauchte.
 Zuerst mal den Title, eine einfach Box in der der Artikel Titel steht auf
 bestimmten Koordinaten im Bild.
 
-```
+``` python
 def draw_title(image, title):
 
     # get dimensions of text element
@@ -85,7 +85,7 @@ Länge des Textes in Pixel ausrechnen den ich in die Box werfen will,
 gleichzeitig muss ich wissen wie gross die Box sein soll um den Text dann für
 die Box passend mit Linebreaks zu versehen.
 
-```
+``` python
 def draw_text(image, text):
     log('Drawing description text')
 

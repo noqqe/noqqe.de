@@ -24,7 +24,7 @@ einfach oben definieren ;) (Tipp: ich würde letzteres wählen...)
 
 Das ganze sieht dann ungefähr so aus:
 
-```
+``` bash
 XDG_DESKTOP_DIR="$HOME/<span class="highlight">Desktop</span>"
 XDG_DOWNLOAD_DIR="$HOME/<span class="highlight">Desktop</span>"
 XDG_TEMPLATES_DIR="$HOME/Templates"

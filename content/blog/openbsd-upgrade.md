@@ -52,7 +52,7 @@ werden. Seit 6 Releases mach ich das jetzt so.
 * Sicherstellen ob der Mirror, den man benutzt schon gesynct ist.
 * Base Sets und Kernel und Signaturen ziehen.
 
-```
+``` bash
 VER=6.3
 ARCH=$(uname -m)
 wget -r --no-parent -A.tgz https://ftp.uni-erlangen.de/openbsd/$VER/$ARCH/
@@ -73,21 +73,21 @@ wget https://ftp.uni-erlangen.de/openbsd/$VER/$ARCH/SHA256.sig
 
 * Packages: PKG_PATH in ksh/bash aktualisieren und updaten
 
-```
+``` bash
 export PKG_PATH=https://ftp.uni-erlangen.de/openbsd/$(uname -r)/packages/$(uname -m)/
 pkg_add -u
 ```
 
 * CVS src Tree updaten
 
-```
+``` bash
 cd /usr
 cvs -qd anoncvs@ftp.hostserver.de:/cvs get -rOPENBSD_6_X -P src
 ```
 
 * CVS ports Tree updaten
 
-```
+``` bash
 cd /usr
 cvs -qd anoncvs@ftp.hostserver.de:/cvs get -rOPENBSD_6_X -P ports
 ```

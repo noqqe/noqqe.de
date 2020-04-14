@@ -56,7 +56,7 @@ Automatic merge failed; fix conflicts and then commit the result.
 
 Der ausgezeichnete Conflict sollte dann ungefähr so aussehen:
 
-```
+``` diff
 gitolite-admin (master*)$ vim conf/gitolite.conf
 <<<<<<< HEAD
 <YOUR CONFIGURATION HERE>
@@ -99,7 +99,7 @@ To git@$newServer:gitolite-admin
 Auf dem neuen Server kann man dann einfach via rsync die Repository Inhalte
 nachziehen.
 
-```
+``` bash
 rsync -av root@$oldServer:/home/git/repositories/* repositories/
 ```
 
@@ -108,7 +108,7 @@ rsync -av root@$oldServer:/home/git/repositories/* repositories/
 Um zu testen ob die Migration erfolgreich wahr, hab ich ein Repo in `tmp/`
 ausgecheckt und es mit dem letzten Stand auf dem alten Server verglichen.
 
-```
+``` bash
 cd /tmp
 git clone git@$newServer:repo repo
 cd repo
@@ -122,7 +122,7 @@ alle .git/config Files zu finden und diese umzuschreiben
 
 Evaluieren:
 
-```
+``` bash
 for x in $(locate --regex '/home/noqqe/Code/.*/.git/config$'); do
   fgrep '$oldServer' $x
 done
@@ -130,7 +130,7 @@ done
 
 Renaming:
 
-```
+``` bash
 for x in $(locate --regex '/home/noqqe/Code/.*/.git/config$') ; do
   sed -i -e 's#$oldServer#$newServer#' $x
 done

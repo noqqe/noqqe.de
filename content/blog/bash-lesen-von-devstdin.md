@@ -36,7 +36,7 @@ title: Bash | Lesen von /dev/stdin
 Gestern hat mich eine Idee für ein Skript beschäftigt. Im Detail wollte ich
 die Syntax:
 
-```
+``` bash
 cat any_file.txt | script.sh
 ```
 
@@ -50,7 +50,7 @@ eingehen ;)
 Nach kurzem bemühen einer Suchmaschine fand ich heraus, dass /dev/stdin das
 magische Schlüsselwort der Sache ist. Wie also von Standard Input lesen?
 
-```
+``` bash
 cat /dev/stdin
 cat /dev/stdin > /tmp/foobar
 ```
@@ -60,7 +60,7 @@ Inhalt zwar ausgegeben wird, aber nicht in dem File steht. Erkenntnis
 daraus: File Descriptor 0 lässt sich anscheinend nur einmal auslesen.
 Zweiter Versuch:
 
-```
+``` bash
 INPUT=$(cat /dev/stdin)
 ```
 
@@ -72,7 +72,7 @@ verschluckt werden.
 
 Anstatt hier weiterhin mit erfolglosen Lösungsansätzen herum zu schmeissen:
 
-```
+``` bash
 cat < /dev/stdin >> /tmp/foobar
 ```
 
@@ -83,7 +83,7 @@ Sieht unlogisch aus, funktioniert aber besser als alle Anderen.
 Ich habe es nicht geschafft, nach dem einlesen von /dev/stdin eine
 bedienbare
 
-```
+``` bash
 read irgendeinevariable
 ```
 

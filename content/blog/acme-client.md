@@ -75,7 +75,7 @@ aber das zu machen wie beschrieben.
 Jeden Tag? Ja. Sollte das Cert noch zu lange gültig sein, wird es erst
 garnicht erneuert.
 
-```
+``` bash
 # acme-client -v noqqe.de
 acme-client: /etc/ssl/noqqe.de.crt: certificate valid: 86 days left
 ```
@@ -83,7 +83,7 @@ acme-client: /etc/ssl/noqqe.de.crt: certificate valid: 86 days left
 Zertifikate die früher per Hand erstellen musste (siehe [TLS Cheatsheet](https://noqqe.de/sammelsurium/ssltls-cheatsheet/))
 kann nun ebenfalls `acme-client` direkt.
 
-```
+``` bash
 acme-client -dv newdomain.org
 ```
 

@@ -45,7 +45,7 @@ nexus.acme.com/library/software:0.0.3
 In Terraform definiere ich aber welche Version in welcher der 4 Umgebungen
 läuft.
 
-```
+``` terraform
 module "ecs_software" {
   source = "../../modules/ecs"
 
@@ -89,7 +89,7 @@ Was also passiert ist, das pro Umgebung ein Docker Tag (dev, alpha, stage,
 prod) in unserer Registry gepflegt wird, welches in Terraform als solches
 hinterlegt ist.
 
-```
+``` terraform
 module "ecs_software" {
   source = "../../modules/ecs"
 
@@ -118,7 +118,7 @@ Als Letztes folgt dann der eingangs angesprochene API Call Richtung AWS, doch bi
 Dazu loggt sich ein AWS IAM User mit `ecs:UpdateService` Permissions
 über `awscli` ein und redeployed den ECS Service.
 
-```
+``` bash
 aws ecs update-service \
   --service my-software-service \
   --cluster my-software-cluster \

@@ -116,7 +116,7 @@ Variante 1:
 
 Direkt in der von BDB dafür vorgesehenen Datei `DB_CONFIG`
 
-```
+``` bash
 vim /usr/local/var/openldap-data/DB_CONFIG
 # Cache      GB  Bytes   Anzahl
 set_cachesize 0  643072  1

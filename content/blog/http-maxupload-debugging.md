@@ -96,7 +96,7 @@ Jetzt sind alle kompoenenten des Tests beisammen. Also Applikation hinter dem
 Loadbalancer herunterfahren, `maxupload.go` kompilieren und an den Start
 bringen.
 
-```
+``` bash
 > go build maxupload.go
 > ./maxupload 8080
 ```

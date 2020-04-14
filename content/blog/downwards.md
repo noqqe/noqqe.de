@@ -23,7 +23,7 @@ Um damit etwas mehr spielen zu können, habe ich ein
 welches einen Wikipedia Artikel herunterlädt, den Mediawiki Text parsed und
 dann ein `mdoc` file generiert.
 
-```
+``` bash
 $ pip3 install downwards
 $ downwards -l en 'Blood Quran'
 $ downwards --help

@@ -42,7 +42,7 @@ dürfen allerdings keinen direkten SSH-Zugriff bekommen. Soweit die Theorie.
 Wenn man seinen Public-Key also Gitosis zur automatischen Authentifizierung
 vorwirft, wird man in das System der Git-Benutzer eingespeißt.
 
-```
+``` bash
 cp id_rsa.pub ~/gitosis/keydir/user@host.pub
 git add keydir/*
 git commit -a -m "user hinzugefügt"
@@ -51,7 +51,7 @@ git push
 
 Bei erneuter Anmeldung an das System passiert folgendes:
 
-```
+``` bash
 $ ssh user@gitserver.domain.com
 PTY allocation request failed on channel 0
 ERROR:gitosis.serve.main:Need SSH_ORIGINAL_COMMAND in environment.

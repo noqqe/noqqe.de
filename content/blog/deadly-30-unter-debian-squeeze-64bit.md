@@ -54,7 +54,7 @@ cannot open shared object file: No such file or directory
 
 Mh. Da ich nicht zwischen 32 und 64bit wählen durfte wahrscheinlich 32bit?
 
-```
+``` bash
 $ file Deadly\ 30
 Deadly 30: ELF 32-bit LSB executable, Intel 80386, version 1 (SYSV), dynamically
 linked (uses shared libs), for GNU/Linux 2.6.15, stripped
@@ -64,7 +64,7 @@ Also die nötigen 32bit Libraries runterladen und einbauen.
 
 ## 1. /usr/lib32/ Backup erstellen
 
-```
+``` bash
 tar cfvz $HOME/usr-lib32.tar.gz /usr/lib32
 ```
 
@@ -72,7 +72,7 @@ tar cfvz $HOME/usr-lib32.tar.gz /usr/lib32
 
 * [http://packages.debian.org/squeeze/libgstreamer0.10-0](http://packages.debian.org/squeeze/libgstreamer0.10-0)
 
-```
+``` bash
 cd /tmp
 wget http://ftp.de.debian.org/debian/pool/main/g/gstreamer0.10/libgstreamer0.10-0_0.10.30-1_i386.deb
 ar -x libgstreamer0.10-0_0.10.30-1_i386.deb
@@ -84,7 +84,7 @@ sudo cp -av /tmp/usr/lib/* /usr/lib32/
 
 * [http://packages.debian.org/squeeze/libgstreamer-plugins-base0.10-0](http://packages.debian.org/squeeze/libgstreamer-plugins-base0.10-0)
 
-```
+``` bash
 cd /tmp
 wget http://ftp.de.debian.org/debian/pool/main/g/gst-plugins-base0.10/libgstreamer-plugins-base0.10-0_0.10.30-1_i386.deb
 ar -x libgstreamer-plugins-base0.10-0_0.10.30-1_i386.deb

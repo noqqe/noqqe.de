@@ -86,7 +86,7 @@ möchte man [apt-cacher-ng](https://www.unix-ag.uni-kl.de/~bloch/acng/) nutzen.
 `apt-cacher-ng` agiert jetzt quasi als Proxy zwischen den Containern und dem
 konfigurierten Debian Mirror.
 
-```
+``` bash
 sudo aptitude install apt-cacher-ng
 sudo /etc/init.d/apt-cacher-ng start
 ```
@@ -113,7 +113,7 @@ begründen, fühlt sich aber besser an.
 Ausrollen konnte ich die Konfiguration gegen apt-cacher-ng einfach über das
 Puppetlabs [apt](https://forge.puppetlabs.com/puppetlabs/apt) Modul.
 
-```
+``` puppet
 class { 'apt':
   always_apt_update    => false,
   proxy_host           => '10.10.0.10',

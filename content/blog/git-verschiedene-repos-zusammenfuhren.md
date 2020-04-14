@@ -43,7 +43,7 @@ Hierfür hat [Zrajm C Akfohg](http://zrajm.org/) schon eine [wunderbare
 schnelle Lösung](http://zrajm.org/ref/git-repo-merging.html) gefunden.
 Zuerst ein neues Repo erstellen:
 
-```
+``` bash
 mkdir ~/repos/noqqe.git
 cd ~/repos/noqqe.git
 git init
@@ -51,7 +51,7 @@ git init
 
 Im Grunde wird jedes Repository in einen separaten Branch gefetched:
 
-```
+``` bash
 git fetch ~/repos/dotfiles master:dotfiles
 mkdir dotfiles #Subdir fuer dotfiles
 ```
@@ -73,7 +73,7 @@ git filter-branch --index-filter
 Wenn alles erfolgreich war, kann man den neuen Branch mit dem Master
 zusammenführen:
 
-```
+``` bash
 git merge dotfiles
 ```
 

@@ -92,7 +92,7 @@ erstellt, die ich nun weiter verwenden kann.
 Eine modifizierte Version der Inbox Line baut mir die Daten in das folgende
 Format:
 
-```
+``` csv
 '2010-01', 155
 '2010-02', 102
 '2010-03', 50

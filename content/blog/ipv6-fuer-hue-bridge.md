@@ -26,7 +26,7 @@ Am Anfang hab ich's mit `pf` versucht, aber das endet mit dem Error `AF
 Mismatch`. Danach wurde es eine Lösung mit einem Netzwerktool, das wohl so
 ziemlich alles kann: `socat`.
 
-```
+``` bash
 /usr/local/bin/socat TCP6-LISTEN:1337,fork TCP4:10.0.0.17:80
 ```
 

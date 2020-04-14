@@ -38,7 +38,7 @@ war das ~~relativ schnell~~ geschafft. Allerdings kann ich mir beim
 besten Willen nicht merken wie ich ein  Repository für ein neues Projekt
 erstelle. An der Stelle setzt der Blogpost an.
 
-```
+``` bash
 Serverside:
 $ mkdir /home/git/repositories/project.git #Simpler Ordner
 $ cd /home/git/repositories/project.git #Selbsterklärend

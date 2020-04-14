@@ -42,11 +42,11 @@ häufig über /etc/passwd als System User authentifiziert. Um nicht noch eine
 zusätzliche htpasswd Datei pflegen zu müssen, bietet sich das Apache2 Modul
 mod_auth_pam an. Allerdings nur wenn man weiss wie.
 
-```
+``` bash
 aptitude install libapache2-mod-auth-pam
 ```
 
-```
+``` ApacheConf
 $ vim /etc/apache2/sites-availabe/ftp.domain.com
 <Location /dir>
 AuthType Basic
@@ -61,7 +61,7 @@ Sehr wichtig an dieser Stelle AuthBasicAuthoritative Off. Ansonsten
 Internal Server Error. Die Schnittstelle mit der sich Apache2 gegen PAM
 anmeldet, wird automatisch definiert.
 
-```
+``` ApacheConf
 # cat /etc/pam.d/apache2
 @include common-auth
 @include common-account

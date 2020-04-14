@@ -41,7 +41,7 @@ DocumentRoot /var/www/blog/
 
 Unter anderem auch die Anweisung für logging:
 
-```
+``` ApacheConf
 LogLevel warn
 CustomLog /var/log/apache2/access.log combined
 ```
@@ -51,7 +51,7 @@ das selbe File. Dieser Umstand wird relativ schnell zum Problem. Ständiges
 greppen und ähnliches an der Tagesordnung. Apache ist aber eben auch in der
 Lage für jeden vhost eine extra Logfile zu generieren.
 
-```
+``` ApacheConf
 LogLevel warn
 ErrorLog /var/log/apache2/noqqe.de-error.log
 CustomLog /var/log/apache2/noqqe.de-access.log common

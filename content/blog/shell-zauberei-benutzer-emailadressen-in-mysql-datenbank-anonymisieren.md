@@ -18,7 +18,7 @@ title: Emailadressen in MySQL Datenbank anonymisieren
 
 ### Code
 
-```
+``` bash
 for x in $(mysql -u root --password=passw0rd --batch -e "use rtdb; select id from Users" | grep -v ^id); do mysql -u root --password=passw0rd -e "use rtdb; UPDATE Users SET EmailAddress="$x@mail.com" WHERE id="$x"; "; done
 ```
 

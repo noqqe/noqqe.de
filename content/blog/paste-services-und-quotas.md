@@ -59,7 +59,7 @@ fbc4391bb6b72c36.k /home ffs rw,nodev,nosuid,userquota=/var/quotas/home.user 1 2
 Mit `edquota` die Größe (4GB) setzen (natürlich dem separaten User `paste`
 vorausgesetzt).
 
-```
+``` bash
 $ edquota paste
 Quotas for user paste:
 /home: KBytes in use: 28990, limits (soft = 400000, hard = 400000)
@@ -68,7 +68,7 @@ Quotas for user paste:
 
 Quota überprüfen
 
-```
+``` bash
 $ quota -u paste
 Disk quotas for user paste (uid 1006):
   Filesystem  KBytes    quota   limit   grace    files   quota   limit   grace
