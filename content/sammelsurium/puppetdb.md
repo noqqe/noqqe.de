@@ -10,10 +10,8 @@ tags:
 Delete a node
 
 ``` sql
-puppetdb=# delete from catalog_resources where title like '%hostname%';
-DELETE 138
-puppetdb=# delete from resource_params where value like '%hostname%';
-DELETE 29
+delete from catalog_resources where title like '%hostname%';
+delete from resource_params where value like '%hostname%';
 ```
 
 Find resources based on their name
