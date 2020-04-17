@@ -24,13 +24,13 @@ Zeug das ich eigentlich immer wieder brauche...
 Zusammenzählen alle Werte einer Spalte
 
 ``` bash
-awk '{ SUM += $1} END { print SUM * 48 }' /tmp/fos
+awk '{ SUM += $1} END { print SUM }' <file>
 ```
 
 Einfache Loop
 
 ``` bash
-awk '{for(i=3;i<=NF;++i)print $i}'
+awk '{ for(i=3;i<=NF;++i) print $i}'
 ```
 
 Zeige die Anzahl der Chars der längsten Input Zeile
