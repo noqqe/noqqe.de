@@ -1,5 +1,5 @@
 ---
-title: Puppet Client
+title: Puppet
 date: 2013-06-30T16:44:25
 tags:
 - Software
