@@ -3,8 +3,9 @@ title: "PuppetDB"
 date: 2017-12-18T15:58:58+01:00
 draft: false
 tags:
-  - Puppet
-  - PuppetDB
+- Puppet
+- PuppetDB
+- Software
 ---
 
 Delete a node

@@ -1,8 +1,10 @@
 ---
 title: Augeas
 date: 2014-01-07T13:40:15
-tags: 
+tags:
 - Puppet
+- Software
+- Augeas
 ---
 
 Interactive

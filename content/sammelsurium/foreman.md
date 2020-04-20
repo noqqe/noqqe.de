@@ -3,6 +3,8 @@ title: Foreman
 date: 2013-11-21T13:59:09
 tags:
 - Puppet
+- Software
+- Foreman
 ---
 
 ## Anleitung

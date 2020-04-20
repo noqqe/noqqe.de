@@ -3,6 +3,7 @@ title: erb Templates
 date: 2013-12-02T14:27:02
 tags:
 - Puppet
+- Software
 ---
 
 ## If Else Entscheidungen

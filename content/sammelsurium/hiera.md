@@ -4,6 +4,7 @@ date: 2015-01-29T15:38:39
 tags:
 - Puppet
 - Hiera
+- Software
 ---
 
 Hiera Cheatsheet

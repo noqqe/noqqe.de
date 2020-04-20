@@ -45,17 +45,6 @@
     {{ end }}
     </ul>
 
-    <h2>Puppet</h2>
-    <ul>
-    {{ range where .Data.Pages.ByTitle "Type" "sammelsurium" }}
-      {{ if in .Params.tags "Puppet" }}
-      <li>
-          <a href="{{ .Permalink }}">{{ .Title }}</a>
-      </li>
-      {{ end }}
-    {{ end }}
-    </ul>
-
     <h2>Filesystems</h2>
     <ul>
     {{ range where .Data.Pages.ByTitle "Type" "sammelsurium" }}
