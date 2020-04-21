@@ -6,7 +6,7 @@
     <ul>
       {{ range where .Pages ".Title" "!=" "Photos" }}
       <li>
-          <span>{{ .Date.Format "02.01" }}</span>
+          <span class="timestamp-list">{{ .Date.Format "02.01" }}</span>
           <a href="{{ .Permalink }}">{{ .Title }}</a>
       </li>
       {{ end }}
