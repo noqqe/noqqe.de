@@ -47,40 +47,40 @@
   <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
 
   <!-- CSS -->
-  <link href="{{ .Site.BaseURL }}/css/main.css" media="all" rel="stylesheet" />
-  <link href="{{ .Site.BaseURL }}/css/pygments.css" media="all" rel="stylesheet" />
+  <link href="/css/main.css" media="all" rel="stylesheet" />
+  <link href="/css/pygments.css" media="all" rel="stylesheet" />
 </head>
 
 <body class="item" itemscope="" itemtype="http://schema.org/Blog">
   <div id="sitewrapper">
 
     <header>
-      <a class="menubar" href="{{ .Site.BaseURL }}/">noqqe@roz</a> &raquo;
+      <a class="menubar" href="/">noqqe</a> &raquo;
       {{ if (or (eq .Title "Blogs") (eq .Page.Section "blog")) }}
-      <a class="color-blog menubar menubar-active-blog" href="{{ .Site.BaseURL }}/blog">blog</a>
+      <a class="color-blog menubar menubar-active-blog" href="/blog">blog</a>
       {{else}}
-      <a class="color-blog menubar" href="{{ .Site.BaseURL }}/blog">blog</a>
+      <a class="color-blog menubar" href="/blog">blog</a>
       {{end}}
       <span class="bar">|</span>
 
       {{ if (or (eq .Title "Sammelsuria") (eq .Page.Section "sammelsurium")) }}
-      <a class="color-sammelsurium menubar menubar-active-sammelsurium" href="{{ .Site.BaseURL }}/sammelsurium">sammelsurium</a>
+      <a class="color-sammelsurium menubar menubar-active-sammelsurium" href="/sammelsurium">sammelsurium</a>
       {{else}}
-      <a class="menubar color-sammelsurium" href="{{ .Site.BaseURL }}/sammelsurium">sammelsurium</a>
+      <a class="menubar color-sammelsurium" href="/sammelsurium">sammelsurium</a>
       {{end}}
       <span class="bar">|</span>
 
       {{ if (or (eq .Title "Photos") (eq .Page.Section "photos")) }}
-      <a class="color-photos menubar menubar-active-photos" href="{{ .Site.BaseURL }}/photos">photos</a>
+      <a class="color-photos menubar menubar-active-photos" href="/photos">photos</a>
       {{else}}
-      <a class="menubar color-photos" href="{{ .Site.BaseURL }}/photos">photos</a>
+      <a class="menubar color-photos" href="/photos">photos</a>
       {{end}}
       <span class="bar">|</span>
 
       {{ if (or (eq .Title "Projects") (eq .Page.Section "projects")) }}
-      <a class="color-projects menubar menubar-active-projects" href="{{ .Site.BaseURL }}/projects">projects</a>
+      <a class="color-projects menubar menubar-active-projects" href="/projects">projects</a>
       {{else}}
-      <a class="color-projects menubar" href="{{ .Site.BaseURL }}/projects">projects</a>
+      <a class="color-projects menubar" href="/projects">projects</a>
       {{end}}
       <span class="bar">|</span>
 
