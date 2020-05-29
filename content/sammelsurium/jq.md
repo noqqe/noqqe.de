@@ -27,7 +27,7 @@ Wenn das Feld ausgelesen werden soll `def`
 }]
 ```
 
-```
+```bash
 jq '.[].aux[].def' file.json
 ```
 
@@ -54,8 +54,19 @@ Dabei sind Arrays `[]` und Attribute davon `.aux` bzw. `.def`
 }
 ```
 
+Ich kann also nach allen Feldern in denen "region" "eu-central-1" ist, suchen
+in dem ich den `select` Command benuzte
 
-
-```
+```bash
 jq '.prefixes[] | select(.region == "eu-central-1")' f
 ```
+
+## Multiple Filter
+
+Filter (wie `select`) können mittelns `|` gechained werden.
+
+```bash
+jq '.prefixes[] | select(.region == "eu-central-1") | select(.ip_prefix | startswith("3."))' f`
+```
+
+Hier verbinde ich 2 Suchkritierien (json selbes wie oben)
