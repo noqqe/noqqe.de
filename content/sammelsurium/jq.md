@@ -7,7 +7,7 @@ tags:
 - jq
 ---
 
-`jq` ist sozusagen das `sed` unter für `JSON`.
+`jq` ist sozusagen das `sed` für `JSON`.
 
 <!--more-->
 
