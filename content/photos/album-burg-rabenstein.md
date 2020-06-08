@@ -8,7 +8,7 @@ tags:
 
 Es hat zwar viel geregnet, aber das hat uns nicht abgehalten ein bisschen die
 Fränkische Schweiz zu durchqueren. [Burg Rabenstein](https://de.wikipedia.org/wiki/Burg_Rabenstein_(Oberfranken)) hat
-eine interessante Geschichte und Landschaftlich bzw. das Umland bietet viel.
+eine interessante Geschichte und das Umland bietet viel.
 Unter anderem die Sophienhöhle.
 
 <!--more-->
