@@ -6,7 +6,7 @@ tags:
 - AWS
 ---
 
-Bevor man irgendwas macht, muss die Codebase Initialisiert sein.
+## Bevor man irgendwas macht, muss die Codebase Initialisiert sein.
 
 ``` bash
 export TF_VAR_access_key=XXX
@@ -14,7 +14,7 @@ export TF_VAR_secret_key=XXX
 terraform init
 ```
 
-Änderungen übernehmen/löschen
+## Änderungen übernehmen/löschen
 
 ``` bash
 terraform apply
@@ -22,7 +22,7 @@ terraform plan
 terraform destroy
 ```
 
-Alle Module anzeigen
+## Alle Module anzeigen
 
 ```
 terraform providers
@@ -35,13 +35,13 @@ terraform providers
     └── provider.aws (inherited)
 ```
 
-Module updaten
+## Module updaten
 
 ``` bash
 terraform get -update
 ```
 
-Remote State
+## Remote State
 
 Damit der State nicht nur lokal vorhanden ist sondern auch für andere
 Kollegen, sollte man einen Terraform.
@@ -52,6 +52,43 @@ terraform {
     bucket = "terraform-state"
     key    = "<myproject>.tfstate"
     region = "eu-central-1"
+  }
+}
+```
+
+## If/Else Statement
+
+Wenn man aufgrund einer Variable entscheiden will ob eine Ressource erstellt
+werden soll oder nicht:
+
+```
+resource "aws_alb" "internal" {
+  count           = var.create_internal_lb == true ? 1 : 0
+  name            = "foo"
+  subnets         = var.subnet_ids
+}
+```
+
+## Dynamic Blocks
+
+Man kann dynamische blocks wie zum Beispiel
+
+```
+default_action {
+  type             = "forward"
+  target_group_arn = aws_alb_target_group.app.id
+}
+```
+
+auch an eine Condition knüpfen. Dazu kann man mit dem Keyword `dynamic`
+via `for_each` jene Bedingung abbilden.
+
+```
+dynamic "default_action" {
+  for_each = var.http_redirect_to_https == false ? [var.http_redirect_to_https] : []
+  content {
+    type             = "forward"
+    target_group_arn = aws_alb_target_group.app.id
   }
 }
 ```
