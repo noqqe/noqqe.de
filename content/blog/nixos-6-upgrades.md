@@ -22,7 +22,8 @@ gesagt weiss ich nichtmal welche Komponente das macht. Linux Kerneltreiber?
 Systemd? NixOS? Egal.
 
 Allerdings war es mit 500MB RAM ein bisschen knapp und so lief ich in ein
-paar `OOM` Nachrichten im `dmesg`. Ich kann fix ein Swap File einbauen:
+paar `OOM` Nachrichten im `dmesg`. An der Stelle merkt man eben dass ganze
+Graph aufbauen usw. Der Fix, ein Swap File:
 
 ```nix
 swapDevices = [
@@ -31,8 +32,10 @@ swapDevices = [
   }
 ];
 ```
+Initialisieren (`mkswap` & `dd`) muss man es allerdings selbst.
 
-Dann liefen auch die OS Upgrades einfacher. Initialisieren (`mkswap` & `dd`)
-muss man es allerdings selbst.
+NixOS hat  sich m.E. nicht nur als coole Konzept-Eintagsfliege erwiesen
+sondern in den letzten Jahren kontinuierlich gute Arbeit geliefert und
+Upgradeprozesse wie diese Beweisen das.
 
-Auch unter Linux kann es seamless Upgrades geben :)
+Bin davon sehr angetan. Gute Entscheidung [damals](/blog/2015/09/05/nixos/)
