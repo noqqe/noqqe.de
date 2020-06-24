@@ -108,6 +108,14 @@ schweigen von einen Cronjob der dann ein Shell Script ausführt um die
 LetsEncrypt Zertifikate zu erneuern. All das ist jetzt "under the hood" der
 Neuimplementierung des `httpd` Services.
 
+Was man vielleicht garnicht so sieht: `security.acme` fragt nicht nur
+"chaostreff-nuernberg.de" für die Zertifikate an, sondern fügt auch noch alle
+weiteren DNS Namen aus dem
+`services.httpd.virtualHosts."chaostreff-nuernberg.de".serverAliases` Array
+als DNS alternative Names in das angefragte Zertifikat ein, obwohl diese
+Informationen dem eigentlichen Tool (Lego) so direkt nicht zur Verfügung
+stehen. Geil oder?
+
 Besonders hervorheben will ich noch die neuen [SSL Optionen](https://nixos.org/nixos/options.html#httpd+ssl)
 
 ``` nix
