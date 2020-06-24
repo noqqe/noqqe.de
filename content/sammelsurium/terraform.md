@@ -56,12 +56,35 @@ terraform {
 }
 ```
 
+## Eine Liste erweitern
+
+Ein einfaches `concat` auf alle Elemente die in der neuen Liste sein sollen.
+
+``` terraform
+concat(data.aws_vpc.oozie_vpc.ids, ["vpc-xxx"])
+```
+
+## Data Provider Filters
+
+Um eine Liste von allen Subnets in einem AWS VPC zu erhalten kann man
+dynamisch auf Tag Namen filtern.
+
+```
+data "aws_subnet_ids" "xxx_subnets" {
+  vpc_id = data.aws_vpc.xxx_vpc.id
+
+  tags = {
+    Name = "*-private-*"
+  }
+}
+```
+
 ## If/Else Statement
 
 Wenn man aufgrund einer Variable entscheiden will ob eine Ressource erstellt
 werden soll oder nicht:
 
-```
+``` terraform
 resource "aws_alb" "internal" {
   count           = var.create_internal_lb == true ? 1 : 0
   name            = "foo"
@@ -73,7 +96,7 @@ resource "aws_alb" "internal" {
 
 Man kann dynamische blocks wie zum Beispiel
 
-```
+``` terraform
 default_action {
   type             = "forward"
   target_group_arn = aws_alb_target_group.app.id
