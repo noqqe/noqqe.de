@@ -69,7 +69,7 @@ concat(data.aws_vpc.oozie_vpc.ids, ["vpc-xxx"])
 Um eine Liste von allen Subnets in einem AWS VPC zu erhalten kann man
 dynamisch auf Tag Namen filtern.
 
-```
+``` terraform
 data "aws_subnet_ids" "xxx_subnets" {
   vpc_id = data.aws_vpc.xxx_vpc.id
 
@@ -106,7 +106,7 @@ default_action {
 auch an eine Condition knüpfen. Dazu kann man mit dem Keyword `dynamic`
 via `for_each` jene Bedingung abbilden.
 
-```
+``` terraform
 dynamic "default_action" {
   for_each = var.http_redirect_to_https == false ? [var.http_redirect_to_https] : []
   content {
