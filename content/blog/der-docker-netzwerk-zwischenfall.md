@@ -76,7 +76,12 @@ Zur Kommunikation zwischen den Containern legt Docker ein neues Netzwerk
 $ cat /etc/docker/daemon.json
 {
   "bip": "192.168.1.5/24",
-  "fixed-cidr": "192.168.1.5/25"
+  "fixed-cidr": "192.168.1.5/25",
+  "default-address-pools":
+  [
+       {"base":"192.168.2.0/24","size":27}
+  ],
+  "dns": ["10.2.1.10", "10.2.11.10"]
 }
 ```
 
