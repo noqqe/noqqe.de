@@ -15,12 +15,12 @@
   <meta name="twitter:image" content="{{ .Site.BaseURL }}/images/logo.png">
   <meta name="twitter:site" content="{{ .Site.Params.Twitter }}">
   <meta name="twitter:creator" content="{{ .Site.Params.Twitter }}">
-  <meta name="twitter:title" content="{{ $isHomePage := eq .Title .Site.Title }}{{ .Title }}{{ if eq $isHomePage false }} ({{ .Site.Title }}){{ end }}">
+  <meta name="twitter:title" content="{{ $isHomePage := eq .Title .Site.Title }}{{ .Title }}{{ if eq $isHomePage false }}{{ end }}">
   <meta name="twitter:url" content="{{ .Permalink }}">
   <meta name="twitter:description" content="{{if .IsPage}}{{ .Summary }}{{else}}{{.Site.Params.Description}}{{end}}">
 
   <!-- Title -->
-  <title>{{ $isHomePage := eq .Title .Site.Title }}{{ .Title }}{{ if eq $isHomePage false }} ({{ .Site.Title }}){{ end }}</title>
+  <title>{{ $isHomePage := eq .Title .Site.Title }}{{ .Title }}{{ if eq $isHomePage false }}{{ end }}</title>
 
   <!-- Icons -->
   <link rel="apple-touch-icon" sizes="57x57" href="/images/apple-icon-57x57.png">
