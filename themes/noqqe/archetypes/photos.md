@@ -5,6 +5,8 @@ tags:
 - Sony Alpha 6300
 - Fotografie
 - Leica M6
+- Mamiya C330
+- Polaroid 600
 ---
 
 ...
