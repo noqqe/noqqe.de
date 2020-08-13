@@ -229,7 +229,7 @@ div.itemcontent {
 	padding-right: 10px;
 }
 
-div.itemcontent img {
+.img img {
 	-ms-interpolation-mode: bicubic;
     max-width: 100%;
 }
