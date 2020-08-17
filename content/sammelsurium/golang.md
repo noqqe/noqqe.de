@@ -153,7 +153,7 @@ if err != nil {
 
 `nil` ist dabei ein eingebauter Datentyp speziell für Fehler in Go.
 
-## const
+## Konstanten const
 
 Konstanten werden speziell markiert. Sie bleiben zur Compilezeit gleich
 und werden niemals verändert.
@@ -176,6 +176,9 @@ func countlines () {
   [...]
 }
 ```
+
+Fun Fact: Konstaten können wesentlich mehr Nachkommastellen enthalten als
+Variablen
 
 ## Logging
 
@@ -335,3 +338,44 @@ func main() {
 
 Das `Struct` Challenges bekommt also eine Methode `getConf()` zum Laden und
 gibt ein befülltes `Struct` zurück.
+
+## Testing
+
+Go hat eine eigene Test Suite dabei. Dafür muss man nur ein File
+`xxx_test.go` in das gleiche Verzeichnis legen und eine Funktion mit
+`TestXxx` benennen. Beispiel:
+
+```
+// Simple substract Test
+func TestSubInt(t *testing.T) {
+  var want uint32 = 20
+  if got := subInt(60, 40); got != want {
+    t.Errorf("%d, want %d", got, want)
+  }
+```
+
+```
+go test -v
+```
+
+## Coverage
+
+Auch Coverage kann man gleich im eingebauten Tool abfrühstücken:
+
+```
+> go test -cover -v
+=== RUN   TestBrighten
+--- PASS: TestBrighten (0.00s)
+=== RUN   TestDarken
+--- PASS: TestDarken (0.00s)
+=== RUN   TestIso
+    TestIso: nept_test.go:122: 20655, want 44247>20000
+    TestIso: nept_test.go:122: 37364, want 10>32777
+--- FAIL: TestIso (0.00s)
+=== RUN   TestFlatten
+--- PASS: TestFlatten (0.00s)
+FAIL
+coverage: 34.9% of statements
+```
+
+<3
