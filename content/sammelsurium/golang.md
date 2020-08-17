@@ -278,7 +278,7 @@ unnötig wäre.
 
 ## json
 
-``` golang
+``` go
 // convert to bytes and read json
 bytes := []byte(output)
 var documents []Document
@@ -301,7 +301,7 @@ challenges:
 
 Und zum Ausgeben der Daten:
 
-```golang
+```go
 package main
 
 import (
@@ -345,7 +345,9 @@ Go hat eine eigene Test Suite dabei. Dafür muss man nur ein File
 `xxx_test.go` in das gleiche Verzeichnis legen und eine Funktion mit
 `TestXxx` benennen. Beispiel:
 
-```
+``` go
+import testing
+
 // Simple substract Test
 func TestSubInt(t *testing.T) {
   var want uint32 = 20
@@ -378,4 +380,31 @@ FAIL
 coverage: 34.9% of statements
 ```
 
-<3
+## Go Routines
+
+Man kann sehr einfach Go Routines einbauen die für das bestehende Programm
+Paralellität mit Threads einbaut.
+
+``` go
+
+import (
+  "sync"
+)
+
+func main() {
+  var wg sync.WaitGroup
+
+  for a := 0; a < 10; a++ {
+    wg.Add(1)
+	  go edit(x, y)
+  }
+
+  wg.Wait()
+}
+
+func edit() {
+  defer wg.Done()
+  fmt.Println(x+y)
+  time.sleep(1)
+}
+```
