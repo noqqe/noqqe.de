@@ -46,6 +46,12 @@ Backup all Databases
 
     pg_dumpall > pgbackup.sql
 
+Backup a remote database
+
+    pg_dump -d <dbname> -h <hostname> -p5432 --username postgres  > /tmp/all.sql
+
 Restore
 
     psql db1 < backup.sql
+
+
