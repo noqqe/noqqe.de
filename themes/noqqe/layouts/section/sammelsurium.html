@@ -56,6 +56,17 @@
     {{ end }}
     </ul>
 
+    <h2>AWS</h2>
+    <ul>
+    {{ range where .Data.Pages.ByTitle "Type" "sammelsurium" }}
+      {{ if in .Params.tags "AWS" }}
+      <li>
+          <a href="{{ .Permalink }}">{{ .Title }}</a>
+      </li>
+      {{ end }}
+    {{ end }}
+    </ul>
+
     <h2>HowTos</h2>
     <ul>
     {{ range where .Data.Pages.ByTitle "Type" "sammelsurium" }}

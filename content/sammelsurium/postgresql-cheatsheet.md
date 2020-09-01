@@ -96,3 +96,24 @@ WHERE table_name='airflow';
 (14 rows)
 ```
 
+Show all roles available on the instance
+
+```sql
+SELECT rolname FROM pg_roles;
+
+       rolname
+----------------------
+ pg_monitor
+ pg_read_all_settings
+ pg_read_all_stats
+ pg_stat_scan_tables
+ pg_signal_backend
+ rds_superuser
+ rds_replication
+ rds_iam
+ rds_password
+ rdsadmin
+ rdsrepladmin
+ lambda
+ postgres
+```

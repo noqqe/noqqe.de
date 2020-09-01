@@ -5,6 +5,7 @@ tags:
 - Software
 - Databases
 - OS
+- AWS
 ---
 
 <!--more-->
