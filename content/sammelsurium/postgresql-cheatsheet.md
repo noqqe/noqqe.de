@@ -19,7 +19,17 @@ Create Database
 
 List all databases
 
-    postgres=## \l
+```
+postgres=## \l
+         List of databases
+   Name    |  Owner   |   Access privileges
+-----------+----------+-----------------------
+ airflow   | postgres |
+ configs   | postgres | =Tc/postgres         +
+           |          | postgres=CTc/postgres+
+           |          | lambda=c/postgres
+ postgres  | postgres |
+```
 
 Make root a super user (ignore switching to postgres first)
 
@@ -32,7 +42,13 @@ Use Database
 
 Show Tables
 
-    postgres=## \dt
+```
+configs=> \dt
+          List of relations
+ Schema |  Name   | Type  |  Owner
+--------+---------+-------+----------
+ public | airflow | table | postgres
+```
 
 List Roles
 
@@ -54,4 +70,29 @@ Restore
 
     psql db1 < backup.sql
 
+Get Permissions for a specific table
+
+```sql
+SELECT grantee, privilege_type
+FROM information_schema.role_table_grants
+WHERE table_name='airflow';
+
+ grantee  | privilege_type
+----------+----------------
+ postgres | INSERT
+ postgres | SELECT
+ postgres | UPDATE
+ postgres | DELETE
+ postgres | TRUNCATE
+ postgres | REFERENCES
+ postgres | TRIGGER
+ lambda   | INSERT
+ lambda   | SELECT
+ lambda   | UPDATE
+ lambda   | DELETE
+ lambda   | TRUNCATE
+ lambda   | REFERENCES
+ lambda   | TRIGGER
+(14 rows)
+```
 
