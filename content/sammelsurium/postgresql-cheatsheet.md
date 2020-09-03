@@ -58,6 +58,14 @@ Backup / Dump a single DB
 
     pg_dump db1 > backup.sql
 
+Backup only the Schema
+
+    pg_dump --schema-only -d db1 > /tmp/foo.sql
+
+Backup only Schema of one Table
+
+    pg_dump --schema-only -t settings -d db1 > /tmp/foo.sql
+
 Backup all Databases
 
     pg_dumpall > pgbackup.sql

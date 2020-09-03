@@ -1,7 +1,7 @@
 ---
 title: OpenLDAP Queries
 date: 2013-03-06T18:52:38
-tags: 
+tags:
 - Software
 - OpenLDAP
 ---
@@ -20,6 +20,13 @@ dn: ou=users,dc=example,dc=com
 
 dn: ou=groups,dc=example,dc=com
 
+```
+
+Mit authenticated Bind
+
+```
+ldapsearch -x -H ldap://<hostname> -b dc=<company>,dc=com -D "CN=<user>,DC=com"
+  -w <password> '(&(objectClass=user)(sAMAccountName=<usertofind>))'
 ```
 
 ### Wer bin ich eigentlich?
