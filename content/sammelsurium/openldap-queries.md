@@ -29,6 +29,14 @@ ldapsearch -x -H ldap://<hostname> -b dc=<company>,dc=com -D "CN=<user>,DC=com"
   -w <password> '(&(objectClass=user)(sAMAccountName=<usertofind>))'
 ```
 
+Authenticated mit eingebautem Paging im AD
+
+```
+ldapsearch -x -H ldap://<hostname> -b dc=<company>,dc=com -D "CN=<user>,DC=com"
+  -w <password> '(&(objectClass=user)(sAMAccountName=<usertofind>))'
+  -E pr=2147483647/noprompt
+```
+
 ### Wer bin ich eigentlich?
 
 ```
