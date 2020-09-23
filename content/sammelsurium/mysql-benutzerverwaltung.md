@@ -33,6 +33,23 @@ tags:
 
     SHOW GRANTS;
 
+## Aktuelle Verbindungen anzeigen
+
+Um anzuschauen welche hosts, users und queries gerade ausgeführt werden.
+
+```
+mysql> show processlist;
++--------+---------+-------------------------------+-------------------+---------+------+----------+------------------+
+| Id     | User    | Host                          | db                | Command | Time | State    | Info             |
++--------+---------+-------------------------------+-------------------+---------+------+----------+------------------+
+| 390611 | acme    | 172.17.17.117:48472           | acme  config_beta | Sleep   |   23 |          | NULL             |
+| 390612 | acme    | 172.17.17.117:48474           | acme  config_beta | Sleep   |   24 |          | NULL             |
+| 390614 | acme    | 172.17.17.72:47630            | acme  config_beta | Sleep   |   23 |          | NULL             |
+| 390615 | acme    | 172.17.17.72:47632            | acme  config_beta | Sleep   |   24 |          | NULL             |
+| 390616 | root    | localhost                     | NULL              | Query   |    0 | starting | show processlist |
++--------+---------+-------------------------------+-------------------+---------+------+----------+------------------+
+```
+
 ## Update Old MySQL Password Hashes to new ones
 
 ```
