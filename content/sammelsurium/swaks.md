@@ -19,7 +19,7 @@ Um einen Mailserver zu debuggen der keine validen DNS Records besitzt kann
 man
 
 ```
-swaks --from flo@noqe.de --to hostmaster@n0q.org --server 127.0.0.1:12002
+swaks --from from@example.net --to to@example.net --server 127.0.0.1:12002
 ```
 
 ## Empfänger Email verifizieren
