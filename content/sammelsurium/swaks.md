@@ -3,9 +3,6 @@ title: "Swaks"
 date: 2020-09-24T16:20:38+02:00
 tags:
 - Software
-- Databases
-- OS
-- AWS
 ---
 
 Swaks is einfach das beste Tool um irgendwas mit Email zu machen.
