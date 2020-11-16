@@ -3,9 +3,6 @@ title: "Fish"
 date: 2020-11-16T14:54:06+01:00
 tags:
 - Software
-- Databases
-- OS
-- AWS
 ---
 
 Fish Cheatsheet
