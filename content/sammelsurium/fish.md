@@ -9,6 +9,14 @@ Fish Cheatsheet
 
 <!--more-->
 
+## Functions
+
+```fish
+function ll
+    ls -l $argv
+end
+```
+
 ## Loops
 
 Ohne do und done
