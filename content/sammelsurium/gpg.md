@@ -38,6 +38,10 @@ delete keys
 
     gpg --delete-keys
 
+encrypt in scripting
+
+    echo $PASSPHRASE | gpg --batch --passphrase-fd 0 -c foo.txt
+
 #### Key Regeneration
 
 * fuer entropy sorgen.
