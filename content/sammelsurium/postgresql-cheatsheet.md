@@ -40,6 +40,16 @@ Use Database
 
     postgres=## \c teamvault
 
+Delete all Tables
+
+```
+DROP SCHEMA public CASCADE;
+CREATE SCHEMA public;
+GRANT ALL ON SCHEMA public TO <role>;
+GRANT ALL ON SCHEMA public TO public;
+```
+
+
 Show Tables
 
 ```
