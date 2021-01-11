@@ -6,33 +6,44 @@ status: publish
 title: About
 ---
 
-Ich (Florian Baumann,
-[noqqe](/blog/2008/07/04/noqqede/)) begann diesen Blog
-[2008](/blog/2008/03/24/hallo-welt-2/) als ich anfing
+Ich (Florian Baumann, [noqqe](/blog/2008/07/04/noqqede/)) arbeite seit
+Jahren als [System Administrator](https://de.wikipedia.org/wiki/Systemadministrator) (angefangen in [Bayreuth](https://de.wikipedia.org/wiki/Bayreuth)) und
+mittlerweile als
+[Site Reliability Engineer](https://en.wikipedia.org/wiki/Site_Reliability_Engineering) in
+[Nürnberg](https://de.wikipedia.org/wiki/Nürnberg).
+
+Begonnen hat diese Webseite als Blog [`2008`](/blog/2008/03/24/hallo-welt-2/) als ich anfing
 [Linux](https://de.wikipedia.org/wiki/Linux) zu benutzen.
 
-Danach (2016) kam das [Sammelsurium](/sammelsurium/) hinzu. Ein unsortierter Wust aus Notizen
-und Cheatsheets der sich über die Jahre als Admin angesammelt halt.
+Durch Jahrelanges herumwerkeln als Sysadmin mit unterschiedlichsten Technologien sind
+Unmengen an Cheatsheets und Notizen entstanden. Seit `2016` pflege ich diese
+öffentlich in der Kategorie [Sammelsurium](/sammelsurium/).
 
-Neben [Projekten](/projects/) wie
+[Projekten](/projects/) wie
 [devnull-as-a-service.com](https://devnull-as-a-service.com) und
 [entbehrlich.es](https://entbehrlich.es) und [Why OpenBSD
-rocks](https://why-openbsd.rocks), arbeitete ich als System Admin in
-[Bayreuth](https://de.wikipedia.org/wiki/Bayreuth) und mittlerweile als
-[SRE](https://en.wikipedia.org/wiki/Site_Reliability_Engineering) in [Nürnberg](https://de.wikipedia.org/wiki/Nürnberg).
+rocks](https://why-openbsd.rocks), arbeitete ich
 
-Neben dem ganzen Kram interessiert mich [OpenBSD](/tags/openbsd), [Python](/tags/python) oder der
-Hackerspace [K4CG](https://k4cg.org).
+Ich beschäftige mich beruflich wie privat viel mit Betriebssystemen wie
+[OpenBSD](/tags/openbsd) & [NixOS](https://nixos.org), Programmiersprachen wie
+[Python](/tags/python) &
+[Go](https://de.wikipedia.org/wiki/Go_(Programmiersprache)) und bin Fan von
+Konfigurationsmanagement und [Infrastructure as Code](https://en.wikipedia.org/wiki/Infrastructure_as_code) mit
+[Puppet](https://puppetlabs.com) und [Terraform](https://www.terraform.io/)
+Seit langem auch Teil des Nürnberger Hackspace [K4CG](https://k4cg.org).
 
-Neuerdings (2018) mache ich auch etwas mit meinen beiden Kameras herum. Siehe
-[photos](/photos/)
+Seit `2018` setze ich mich auch mit Fotografie auseinander. Angefangen mit
+einer **Sony Alpha 6300** bin ich schnell in den analogen Bereich mit einer **Leica
+M6** bzw **Mamiya c330** gewechselt.
+Ein paar Fotos dazu habe ich auf [photos](/photos/) eingepflegt.
 
-Noch neuerer: Zusammen mit [Flo](https://twitter.com/poschi3) bin ich im
+Zusammen mit [Flo](https://twitter.com/poschi3) bin ich im
 Podcast [Entbehrliches](https://podcast.entbehrlich.es) zu hören. Dort
 unterhalten wir uns regelmäßig über Quatsch den wir auf Wikipedia gelesen
-haben.
+haben. Hört gerne mal rein :)
 
 Erreichen kann man mich auf Twitter unter
-[@noqqe](https://twitter.com/noqqe), per Mail <code class="rev">ed.eqqon@olf</code>.
+[@noqqe](https://twitter.com/noqqe), per Mail an `flo` unter der Domain oder auf
+[GitHub](https://github.com/noqqe/)
 
 kkthxbai und :wq!

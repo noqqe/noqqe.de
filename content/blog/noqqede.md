@@ -14,14 +14,22 @@ title: noqqe.de
 
 Anstatt mir immer irgendwelche Abänderungen von Flo (flooohooo, Flooo, Fl0,
 ELM) oder sowas als Nickname zu geben hab ich mir die letzten Tage einen
-ausgedacht der jetzt vereinheitlicht wird und zugleich Name meiner Domain
-ist.
+eigenen ausgedacht der jetzt vereinheitlicht wird und zugleich Name meiner
+Domain ist.
 
-Bedeutung hat er nicht so Recht. Kriterien waren:
+Ausgedacht ist ein bisschen übertrieben, der Kommandozeilen Passwortgenerator
+`pwgen` war hierbei eine große Inspiration.
+
+```
+> pwgen 7 5
+Ae3aich cu3Shoo Yithe3m iaNea8o ooQuu9c
+```
+
+Bedeutung hat `noqqe` keine. Kriterien waren:
 
 * Kurz
 * Einfach
 * (einigermaßen) einmalig
 
 Denke das passt schon so.
-Blog ist ab jetzt auch unter [noqqe.de](http://noqqe.de) zu finden
+Blog ist ab jetzt auch unter [noqqe.de](https://noqqe.de) zu finden
