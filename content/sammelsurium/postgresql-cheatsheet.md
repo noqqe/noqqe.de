@@ -1,5 +1,5 @@
 ---
-title: PostgreSQL Cheatsheet
+title: PostgreSQL
 date: 2015-07-09T15:28:29
 tags:
 - Databases
@@ -35,6 +35,14 @@ Make root a super user (ignore switching to postgres first)
 
     CREATE USER root;
     ALTER USER root WITH SUPERUSER;
+
+Create new Database with user:
+
+```
+create database mydb;
+create user myuser with encrypted password 'mypass';
+grant all privileges on database mydb to myuser;
+```
 
 Use Database
 
