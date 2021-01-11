@@ -19,10 +19,10 @@ Durch Jahrelanges herumwerkeln als Sysadmin mit unterschiedlichsten Technologien
 Unmengen an Cheatsheets und Notizen entstanden. Seit `2016` pflege ich diese
 öffentlich in der Kategorie [Sammelsurium](/sammelsurium/).
 
-[Projekten](/projects/) wie
+Dabei sind auch einige Projekte wie
 [devnull-as-a-service.com](https://devnull-as-a-service.com) und
 [entbehrlich.es](https://entbehrlich.es) und [Why OpenBSD
-rocks](https://why-openbsd.rocks), arbeitete ich
+rocks](https://why-openbsd.rocks) entstanden. Für mehr siehe [Projekten](/projects/)
 
 Ich beschäftige mich beruflich wie privat viel mit Betriebssystemen wie
 [OpenBSD](/tags/openbsd) & [NixOS](https://nixos.org), Programmiersprachen wie
