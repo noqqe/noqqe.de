@@ -22,6 +22,9 @@ Docker Image starten
 
     docker run -t r-devel
 
+Docker Image
+
+
 Docker Images ansehen
 
 ```
@@ -66,30 +69,3 @@ Delete all containers
 Delete all images
 
     docker rmi $(docker images -q)
-
-## Docker Compose
-
-Docker Network zu anderen docker-compose Installationen auf der selben
-Instanz. Mittels externe Netzwerke für Beispielsweise einen HTTP Ingress
-Reverse Proxy
-
-``` yaml
-services:
-  tls:
-    image: caddy
-    restart: unless-stopped
-    networks:
-      - retro
-      - status
-    ports:
-      - "80:80"
-      - "443:443"
-
-networks:
-  status:
-    external:
-      name: cachet-docker_cachet
-  retro:
-    external:
-      name: retro-board_retro
-```

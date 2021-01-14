@@ -18,7 +18,6 @@ Create Database
     $ createdb db1
 
 List all databases
-
 ```
 postgres=## \l
          List of databases
@@ -142,4 +141,41 @@ SELECT rolname FROM pg_roles;
  rdsrepladmin
  lambda
  postgres
+```
+
+## Docker-Compose
+
+Ein einfaches Postgres `docker-compose` Setup mit Backup
+
+```
+  postgres:
+      image: postgres
+      restart: always
+      volumes:
+        - postgres_data:/var/lib/postgresql/data
+      environment:
+        POSTGRES_DB: postgres
+        POSTGRES_USER: root
+        POSTGRES_PASSWORD: 'xxx'
+
+  pgbackups:
+    image: prodrigestivill/postgres-backup-local
+    restart: always
+    ports:
+      - "9876:9876"
+    volumes:
+      - 'pgbackup:/backups'
+    depends_on:
+      - postgres
+    environment:
+      POSTGRES_HOST: postgres
+      POSTGRES_DB: postgres
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: 'xxx'
+      POSTGRES_EXTRA_OPTS: '-Z9 --schema=public --blobs'
+      SCHEDULE: '@daily'
+      BACKUP_KEEP_DAYS: 7
+      BACKUP_KEEP_WEEKS: 4
+      BACKUP_KEEP_MONTHS: 6
+      HEALTHCHECK_PORT: 9876`
 ```
