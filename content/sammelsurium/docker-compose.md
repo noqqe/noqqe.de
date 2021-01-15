@@ -9,6 +9,8 @@ tags:
 Mit `docker-compose` lassen sich mehrere Docker Container in einem File
 spezifizieren und dadurch eine "Deployment Definition" erstellen.
 
+<!-- more -->
+
 ## Commands
 
 ```

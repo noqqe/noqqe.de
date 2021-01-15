@@ -6,24 +6,9 @@ tags:
 - docker
 ---
 
-Dockerfile Beispiel
+Ein kleines Cheatsheet für Docker
 
-``` Docker
-FROM rocker/r-devel:latest
-
-[more changes...]
-```
-
-Ein Dockerfile bauen und somit zum Image machen
-
-    docker build -t r-devel .
-
-Docker Image starten
-
-    docker run -t r-devel
-
-Docker Image
-
+<!-- more -->
 
 Docker Images ansehen
 
