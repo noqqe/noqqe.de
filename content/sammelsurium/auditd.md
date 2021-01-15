@@ -48,6 +48,12 @@ backlog 0
 loginuid_immutable 0 unlocked
 ```
 
+Nach angepasstem Regelset anwenden:
+
+```
+augenrules --load
+```
+
 ## Kernel
 
 Da das Kernelmodul `audit` geladen werden muss, kommt in die `grub` Config:
@@ -65,13 +71,24 @@ File
 -w /var/log/auth.log -p aw -k access
 ```
 
+Ein Directory excluden
+
+```
+-A exit,never -F dir=/home/bamboo/bamboo-agent-home-2/xml-data/build-dir -k exclude_dir
+```
+
 Events ([Liste](https://access.redhat.com/articles/4409591#audit-record-types-2))
 
-Syscalls disablen
+Kernel Module monitoren
 
 ```
 -a always,exit -F arch=b32 -S init_module,finit_module -F key=module-load
 -a always,exit -F arch=b64 -S init_module,finit_module -F key=module-load
+```
+
+Syscalls disablen
+
+```
 -a task,never
 ```
 
