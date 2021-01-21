@@ -42,6 +42,10 @@ encrypt in scripting
 
     echo $PASSPHRASE | gpg --batch --passphrase-fd 0 -c foo.txt
 
+export secret key
+
+     gpg --export-secret-keys --armor 7B... > /root/key.key
+
 #### Key Regeneration
 
 * fuer entropy sorgen.
