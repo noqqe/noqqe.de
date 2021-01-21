@@ -6,7 +6,9 @@ tags:
 - tarsnap
 ---
 
-## Install
+Tarsnap ist eine Backupsoftware und sein Service
+
+<!-- more -->
 
 ### Register
 
@@ -32,7 +34,11 @@ tags:
 
 Nach bestimmten File suchen mit Liste ausgeben
 
-    for x in $(tarsnap --configfile /etc/tarsnap.conf --list-archives | sort | grep home) ; do echo $x ; tarsnap --configfile /etc/tarsnap.conf -tf $x ; done  > /tmp/filelist.txt
+```bash
+for x in $(tarsnap --list-archives | sort | grep home) ; do
+  echo $x ; tarsnap -tf $x ;
+done
+```
 
 ## Dump an aktueller stelle auspacken
 
@@ -42,7 +48,12 @@ Nach bestimmten File suchen mit Liste ausgeben
 
     tarsnap -c -f vim --configfile /etc/tarsnap.conf /home/noqqe/.vim/
 
-## Cronjob
+## Cleanup
 
-    ## tarsnap backup
-    10      0       *       *       *       /usr/local/bin/tarsnap -c -f home-$(date +\%F-\%H-\%M) --configfile /etc/tarsnap.conf /home/noqqe/
+Alle Backups löschen
+
+```bash
+for x in $(tarsnap --list-archives); do
+  tarsnap -d -f $x
+done
+```
