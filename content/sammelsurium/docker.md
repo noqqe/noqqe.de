@@ -8,7 +8,7 @@ tags:
 
 Ein kleines Cheatsheet für Docker
 
-<!-- more -->
+<!--more-->
 
 Docker Images ansehen
 

@@ -10,7 +10,7 @@ tags:
 Restic ist eine Backup Software die so ziemlich alle Kriterien erfüllt die
 ich brauche.
 
-<!-- more -->
+<!--more-->
 
 ## Configuration
 

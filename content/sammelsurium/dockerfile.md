@@ -10,7 +10,7 @@ tags:
 Um einen Container zu bauen wird ein Dockerfile zu einem Image gebaut und das
 Image kann dann ausgeführt werden zum laufenden Container.
 
-<!-- more -->
+<!--more-->
 
 ## Beispiel
 

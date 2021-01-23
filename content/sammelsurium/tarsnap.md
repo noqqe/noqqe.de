@@ -8,7 +8,7 @@ tags:
 
 Tarsnap ist eine Backupsoftware und sein Service
 
-<!-- more -->
+<!--more-->
 
 ### Register
 
