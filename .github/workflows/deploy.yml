@@ -25,5 +25,8 @@ jobs:
         echo "IdentityFile ~/.ssh/my_rsync_key" >> ~/.ssh/config
         chmod -R 700 ~/.ssh
     - name: Rsync deployment
+      env:
+        RSYNC_USER: ${{ secrets.RSYNC_USER }}
+        HOST: ${{ secrets.HOST }}
       run: |
         rsync -avz -e ssh --delete public/ ${RSYNC_USER}@${HOST}:public/
