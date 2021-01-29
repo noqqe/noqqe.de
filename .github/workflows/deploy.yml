@@ -16,8 +16,8 @@ jobs:
         hugo
     - name: SSH setup
       env:
-        DEPLOY_KEY: ${{ secrets.deploy_key }}
-        KNOWN_HOSTS: ${{ secrets.known_hosts }}
+        DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
+        KNOWN_HOSTS: ${{ secrets.KNOWN_HOSTS }}
       run: |
         mkdir -p ~/.ssh
         echo "${KNOWN_HOSTS}" >> ~/.ssh/known_hosts
