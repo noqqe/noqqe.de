@@ -6,6 +6,10 @@ tags:
 - NixOS
 ---
 
+Mein kleines aber feines Cheatsheet für [NixOS](https://nixos.org).
+
+<!--more-->
+
 ## System Commands
 
 Um das System zu verändern
