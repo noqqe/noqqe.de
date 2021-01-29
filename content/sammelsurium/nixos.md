@@ -1,12 +1,12 @@
 ---
 title: NixOS
-date: 2015-08-20T08:43:56
+date: 2021-01-29T13:40:58
 tags:
 - OS
 - NixOS
 ---
 
-#### System Commands
+## System Commands
 
 Um das System zu verändern
 
@@ -21,68 +21,177 @@ Einen Rollback zur letzten Version machen
 
     nixos-rebuild switch --rollback
 
-#### Nix Paket Manager
+## Configuration
 
-Nach einem Paket suchen
+Was folgt ist eine Sammlung an coolen Schnippseln die ich immer wieder
+verwende.
 
-    nix-env -qa | grep firefox
+### Packages Installieren
 
-Pakete anzeigen und Status anzeigen lassen
+Pakete am besten nicht für einzelne User installieren (mittels `nix`) sondern
+in der Configuration von NixOS.
 
-    nix-env -qas
+```nix
+environment.systemPackages = with pkgs; [
+  bzip2
+  curl
+  file
+  fzf
+  git
+  gzip
+  htop
+];
+```
 
-Paket installieren
+### User Anlegen
 
-    nix-env -i firefox
+```
+```nix
+users.extraUsers.noqqe = {
+  isNormalUser = true;
+  uid = 1000;
+  extraGroups = [ "wheel" "networkmanager" ];
+  openssh.authorizedKeys.keys = [
+    "ssh-ed25519 xxxx
+    "ssh-ed25519 xxx
+  ];
+};
+```
 
-Ein Paket entfernen
+### SSH Configuration
 
-    nix-env -e firefox
+Im Grunde muss man da wenig machen.
 
-Channel updaten
+```nix
+# SSH
+services.openssh = {
+ enable = true;
+ allowSFTP = true;
+ forwardX11 = false;
+ permitRootLogin = "yes";
+ passwordAuthentication = true;
+ challengeResponseAuthentication = false;
+};
+```
 
-    nix-channel --update nixpkgs
+### Fish als default Shell
 
-Upgrade aller Pakete machen
+```nix
+# Fish
+programs.fish.enable = true;
 
-    nix-env -u '*'
-    nix-env -u
-    ## oder dry run
-    nix-env -u --dry-run
+users.extraUsers.noqqe = {
+  isNormalUser = true;
+  shell = pkgs.fish;
+};
+```
 
-Aktion von nix-env rückgängig machen
+### Selbstverwaltung und Cleanup
 
-    nix-env --rollback
+Garbage Collector des Nix Paketstores automatisch triggern lassen
+um mehr Plattenplatz freizugeben.
 
-Alte unbenutzte Pakete aufräumen um Platz zu sparen
+```nix
+nix.gc = {
+  automatic = true;
+  options = "--delete-older-than 30d";
+};
+```
 
-    nix-env --delete-generations old
-    nix-collect-garbage -d
-    nix-store --gc --print-dead
+Mittels `nix-store --optimise` werden Pakete durch Hardlinks ersetzt und
+dabei meist gut Plattenplatz frei. Das geht auch automatisch via systemd
+Timer
 
-## Secure Passwords in configuration.nix
+```nix
+nix.optimise.automatic = true;
+```
 
-    { pkgs, ... }:
+### Autmatische Systemupdates
 
-    let
-      passwords = import ./passwords.nix;
-    in
-    {
-      systemd.services.snmpd = let
-        snmpconfig = pkgs.writeTextFile {
-          name = "snmpd.conf";
-          text = ''
-            rocommunity ${passwords.snmp}
-            disk / 10000
-          '';
-        };
-      in {
-        description = "net-snmp daemon";
-        wantedBy = [ "multi-user.target" ];
-        serviceConfig = {
-          ExecStart = "${pkgs.net_snmp}/bin/snmpd -f -c ${snmpconfig}";
-          KillMode = "process";
-          Restart = "always";
-        };
-      };
-    }
+NixOS kann sich gut selbst verwalten, und wenn etwas schief geht kann man
+jederzeit via `grub` die alte Konfiguration hochbooten.
+
+```nix
+system.autoUpgrade = {
+  enable = true;
+  allowReboot = true;
+};
+```
+
+## systemd Unit
+
+Eigene `systemd` Units
+
+```nix
+systemd.services.rezeptionistin = {
+  enable = true;
+  description = "Rezeptionistin IRC BOT";
+  wants = [ "network.target" ];
+  wantedBy = [ "multi-user.target"];
+  environment = {
+OPENSSL_CONF = "/etc/ssl/";
+SSL_CERT_FILE = "/etc/ssl/certs/ca-certificates.crt";
+LC_ALL="C";
+  };
+  serviceConfig = {
+    ExecStart = "/usr/local/rezeptionistin/main.py -c /usr/local/rezeptionistin/config.ini";
+    WorkingDirectory = "/usr/local/rezeptionistin/";
+    User = "ircbot";
+    Restart = "always";
+    RestartSec = 30;
+  };
+};
+```
+
+## systemd Timer
+
+Timer braucht natürlich eine Referenz auf einen Service vom Typ `oneshot`
+
+```nix
+systemd.services.offsitebackup = {
+  enable = true;
+  wants = [ "network.target" "multi-user.target"];
+  path = [ "/run/current-system/sw/bin" pkgs.openssh ];
+  serviceConfig = {
+    Type = "oneshot";
+    StandardOutput = "journal";
+    ExecStart = "restic backup <path>";
+    User = "root";
+  };
+};
+
+# Trigger the oneshot service once a day
+systemd.timers.offsitebackup = {
+  enable = true;
+  wantedBy = [ "multi-user.target"];
+  timerConfig = {
+    OnBootSec = "15min";
+    OnUnitActiveSec = "1d";
+  };
+};
+```
+
+## Passwörter
+
+Um die Files unter Versionsverwaltung stellen zu können lohnt es sich die
+Passwörter in eine Art Passwordstore File auszulagern. In Klartext stehen sie
+dort aber immernoch!
+
+```nix
+{ pkgs, ... }:
+
+let
+  passwords = import ./passwords.nix;
+in
+{
+  systemd.services.snmpd = let
+    snmpconfig = pkgs.writeTextFile {
+      name = "snmpd.conf";
+      text = ''
+        rocommunity ${passwords.snmp}
+        disk / 10000
+      '';
+  };
+};
+}
+```
