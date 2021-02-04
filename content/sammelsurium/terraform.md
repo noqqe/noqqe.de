@@ -115,3 +115,44 @@ dynamic "default_action" {
   }
 }
 ```
+
+## Data Blocks für Policies
+
+Anstelle von blöden File Includes (relative Pfade, Lesbarkeit, etc..) können
+`json` Policy Objekte auch in Terraform nativ kodiert und dann als `.json`
+Methode aus dem `data` Provider abgerufen werden
+
+```terraform
+data "aws_iam_policy_document" "this" {
+  statement {
+    actions = [
+      "s3:ListBucket",
+      "s3:ListBucketMultipartUploads",
+      "s3:ListBucketVersions",
+      "s3:ListMultipartUploadParts",
+      "s3:PutObject",
+      "s3:GetObject",
+      "s3:DeleteObject",
+      "s3:GetObjectVersion",
+      "s3:DeleteObjectVersion",
+      "s3:PutObjectAcl",
+      "s3:GetObjectAcl",
+    ]
+    resources = [
+      aws_s3_bucket.this.arn,
+      "${aws_s3_bucket.this.arn}/*",
+    ]
+    effect = "Allow"
+  }
+}
+```
+
+Aufruf:
+
+```terraform
+resource "aws_iam_user_policy" "this" {
+  name   = "Access${aws_iam_user.this.name}"
+  user   = aws_iam_user.this.name
+  policy = data.aws_iam_policy_document.this.json
+}
+```
