@@ -5,10 +5,10 @@ tags:
 - NixOS
 - Podman
 - Docker
-- NextCloud
+- Nextcloud
 ---
 
-Ich nutze schon länger eine kleine [NextCloud](https://nextcloud.com) Instanz
+Ich nutze schon länger eine kleine [Nextcloud](https://nextcloud.com) Instanz
 um hier und da ein paar kleine Dateien zwischen verschiedenen Endgeräten im
 Sync zu halten.
 
@@ -20,7 +20,7 @@ nicht mehr ganz so klein wie ich anfangs dachte, oh shit das kost ja Geld"
 Block-Storage ist teuer. 25GB davon kosten bei meinem Provider
 [2,50$/Monat](https://www.vultr.com/products/block-storage/).
 
-NextCloud ist aber in der Lage Object Stores als Primär Storage zu verwenden.
+Nextcloud ist aber in der Lage Object Stores als Primär Storage zu verwenden.
 Dieser muss AWS S3 Kompatibel sein. Bei
 [backblaze.com](https://backblaze.com) kosten diese 25GB nur
 [0,125$/Monat](https://www.backblaze.com/b2/cloud-storage.html). Das ist 20x
@@ -112,13 +112,13 @@ ich hauptsächlich nutze um mit dem Containern zu interagieren.
 
 Nice!
 
-## NextCloud
+## Nextcloud
 
 Zur eigentlichen Sache zurück. Ich will ja schliesslich Geld sparen mit
-NextClouds Object Store Backend.
+Nextclouds Object Store Backend.
 
-Der NextCloud Container wird genauso initialisiert wie alle anderen auch, nur
-mit einem Set an Umgebungsvariablen. Datenbank, Initiales NextCloud Passwort
+Der Nextcloud Container wird genauso initialisiert wie alle anderen auch, nur
+mit einem Set an Umgebungsvariablen. Datenbank, Initiales Nextcloud Passwort
 und natürlich der Object Store.
 
 ```nix
