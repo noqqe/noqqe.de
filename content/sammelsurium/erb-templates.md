@@ -6,19 +6,32 @@ tags:
 - Software
 ---
 
-## If Else Entscheidungen
+## Puppet Variables
 
-``` ruby
-<%- if @role0 == "datanode" or @role0 == "namenode" -%>
-command[check_load]=/usr/lib/nagios/plugins/check_load -w 25,22,20 -c 35,32,30
-<%- else -%>
-command[check_load]=/usr/lib/nagios/plugins/check_load -w 15,10,5 -c 30,25,20
-<%- end -%>
+An einem Beispiel mit `yaml`
+
+``` yaml
+user: <%= @username %>
+password: <%= @password %>
 ```
 
-## Template Limiter
+oder HTML
 
-``` ruby
+```
+<body>
+  <h1><%= @sname %></h1>
+</body>
+```
+
+## Kommentar
+
+```ruby
+<%# This is a great comment! %>
+```
+
+## Variables
+
+```ruby
 <% i += 1 %> ## ruby code
 
 <%= i += 1 %> ## mit print
@@ -26,8 +39,26 @@ command[check_load]=/usr/lib/nagios/plugins/check_load -w 15,10,5 -c 30,25,20
 <%- i += 1 %> ## suppress newline at front
 
 <%- i += 1 -%> ## suppress newline at the end
+```
 
-<%## comment %>
+## if Entscheidungen
+
+```html
+ <%- if site.split(":")[0] == @sname -%>
+ <li>
+   <a href="https://<%= site %>">
+ </li>
+ <% end -%>
+```
+
+Multiple Konditionen
+
+``` ruby
+<%- if @role0 == "datanode" or @role0 == "namenode" -%>
+command[check_load]=/usr/lib/nagios/plugins/check_load -w 25,22,20 -c 35,32,30
+<%- else -%>
+command[check_load]=/usr/lib/nagios/plugins/check_load -w 15,10,5 -c 30,25,20
+<%- end -%>
 ```
 
 ## Count Schleife
