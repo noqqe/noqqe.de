@@ -1,5 +1,5 @@
 ---
-title: "Album: Analog #13 - Nyhavn"
+title: "Album: Analog #13 - Nyhavn - Kodak Gold 200"
 date: 2020-08-30T09:45:49+02:00
 tags:
 - Fotografie
