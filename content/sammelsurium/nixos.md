@@ -49,7 +49,6 @@ environment.systemPackages = with pkgs; [
 
 ### User Anlegen
 
-```
 ```nix
 users.extraUsers.noqqe = {
   isNormalUser = true;
