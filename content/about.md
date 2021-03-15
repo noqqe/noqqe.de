@@ -25,11 +25,12 @@ Dabei sind auch einige Projekte wie
 rocks](https://why-openbsd.rocks) entstanden. Für mehr siehe [Projekten](/projects/)
 
 Ich beschäftige mich beruflich wie privat viel mit Betriebssystemen wie
-[OpenBSD](/tags/openbsd) & [NixOS](https://nixos.org), Programmiersprachen wie
+[Linux](/tags/linux), [OpenBSD](/tags/openbsd) & [NixOS](https://nixos.org), Programmiersprachen wie
 [Python](/tags/python) &
 [Go](https://de.wikipedia.org/wiki/Go_(Programmiersprache)) und bin Fan von
 Konfigurationsmanagement und [Infrastructure as Code](https://en.wikipedia.org/wiki/Infrastructure_as_code) mit
 [Puppet](https://puppetlabs.com) und [Terraform](https://www.terraform.io/)
+über [AWS](https://aws.amazon.com).
 Seit langem auch Teil des Nürnberger Hackspace [K4CG](https://k4cg.org).
 
 Seit `2018` setze ich mich auch mit Fotografie auseinander. Angefangen mit
@@ -39,7 +40,8 @@ Ein paar Fotos dazu habe ich auf [photos](/photos/) eingepflegt.
 
 Zusammen mit [Flo](https://twitter.com/poschi3) bin ich im
 Podcast [Entbehrliches](https://podcast.entbehrlich.es) zu hören. Dort
-unterhalten wir uns regelmäßig über Quatsch den wir auf Wikipedia gelesen
+unterhalten wir uns regelmäßig über Quatsch den wir auf
+[Wikipedia](https://de.wikipedia.org) gelesen
 haben. Hört gerne mal rein :)
 
 Erreichen kann man mich auf Twitter unter
