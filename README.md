@@ -4,7 +4,8 @@ This is the source of [noqqe.de](https://noqqe.de).
 
 # Build
 
-[![Build Status](https://travis-ci.org/noqqe/noqqe.de.svg?branch=master)](https://travis-ci.org/noqqe/noqqe.de)
+[![Deploy](https://github.com/noqqe/noqqe.de/actions/workflows/deploy.yml/badge.svg?branch=master)](https://github.com/noqqe/noqqe.de/actions/workflows/deploy.yml)
+
 
 Build an run the blog on `localhost:1313`
 
