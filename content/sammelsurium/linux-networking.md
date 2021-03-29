@@ -36,6 +36,17 @@ Weil ich es einfach immer wieder vergesse.
 
     ip link delete docker0
 
+### Löschen von Bridge Interfaces
+
+Mehrere Möglichkeiten
+
+    ip link set br0 down
+    brctl delbr br0
+
+oder
+
+     ip link delete br0 type bridge
+
 ### Einzelnes Programm
 
 Um zu verfolgen welchen Traffic ein einzelnes Programm erzeugt lässt sich gut
