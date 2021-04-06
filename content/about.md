@@ -22,7 +22,7 @@ Unmengen an Cheatsheets und Notizen entstanden. Seit `2016` pflege ich diese
 Dabei sind auch einige Projekte wie
 [devnull-as-a-service.com](https://devnull-as-a-service.com) und
 [entbehrlich.es](https://entbehrlich.es) und [Why OpenBSD
-rocks](https://why-openbsd.rocks) entstanden. Für mehr siehe [Projekten](/projects/)
+rocks](https://why-openbsd.rocks) entstanden. Für mehr siehe [Projekte](/projects/).
 
 Ich beschäftige mich beruflich wie privat viel mit Betriebssystemen wie
 [Linux](/tags/linux), [OpenBSD](/tags/openbsd) & [NixOS](https://nixos.org), Programmiersprachen wie
