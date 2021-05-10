@@ -6,6 +6,10 @@ tags:
 - Linux
 ---
 
+Ein paar kleine Kniffe und Linux Networking Foo.
+
+<!--more-->
+
 ### Offene Verbindungen anzeigen
 
 Es gibt mehrere Wege
@@ -27,7 +31,8 @@ Weil ich es einfach immer wieder vergesse.
         netmask 255.255.0.0
         gateway 10.42.10.1
 
-    resolv.conf
+DNS in `resolv.conf`
+
     nameserver 10.42.10.50
     nameserver 217.145.99.9
 

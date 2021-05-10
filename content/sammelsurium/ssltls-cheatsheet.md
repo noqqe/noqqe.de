@@ -7,14 +7,24 @@ tags:
 - Software
 ---
 
-## Auslesen
+Cheatsheet mit Theorie und HowTo zu TLS \& SSL
 
-CRT auslesen:
+## Informationen auslesen
+
+CRT von File auslesen:
 
     openssl x509 -text -in host.crt
     openssl x509 -noout -text -in host.crt
 
-CSR ansehen
+CRT von Webseite auslesen
+
+    openssl s_client -connect www.akamai.com:443 < /dev/null 2>&1 |  sed -n '/-----BEGIN/,/-----END/p' > cert.crt
+
+Intermediate Cert von Webseite auslesen
+
+    openssl s_client -showcerts -connect www.akamai.com:443 < /dev/null 2>&1 |  sed -n '/-----BEGIN/,/-----END/p' > chain.crt
+
+Erstellten CSR ansehen
 
     openssl req -noout -text -in host.csr
 
@@ -72,6 +82,21 @@ Wenn man wissen will ob intermediate Zertifikat zum eigentlichen Zertifikat pass
 
     $ openssl x509 -in intermediate.pem -subject_hash -noout
     b204d74a
+
+## OCSP Stapling
+
+OCSP ist kurz gesagt eine Liste die Status über ausgestellte Zertifikate
+führt. So ist es möglich ein noch zeitlich valides Zertifikat zu
+invalidieren.
+
+Im Zertifikat steht ein Feld, dass den Server angibt der den Status über HTTP abfragt.
+
+    # download cert first, see above
+    openssl x509 -noout -ocsp_uri -in cert.crt
+
+dann kann man mit der rausgefundenen URL die Zertifikate überprüfen
+
+    openssl ocsp -issuer issuer.crt -cert certificate.pem -text -url http://ocsp.sectigo.co
 
 ## Theorie
 
