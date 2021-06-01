@@ -9,8 +9,21 @@ title: Projects
 alias: 'archives/434'
 ---
 
+## 2021
+
+* [tijd](https://github.com/noqqe/tijd) Go Tool zum Arbeiten mit verteilten Teams. Zeitzonen in konfigurierbar!
+* [ipcalc](https://github.com/noqqe/ipcalc) Go Replacement für das
+traditionelle `ipcalc` mit vielen Zustatzfeatures
+
+
 ## 2020
 
+* [nept](https://github.com/noqqe/nept) Go Image Manipulation über die
+Kommandozeile
+* [typist](https://github.com/noqqe/stramap/) Go Tipptrainer mit `yaml`
+Übungsdateien
+* [purple-yak](https://github.com/noqqe/purple-yak) Text Analyse mit Shannon Entropy und Zipf
+Distribution
 * [stramap](https://github.com/noqqe/stramap/) Strava Aktivitäten auf eine Karte
   plotten
 
