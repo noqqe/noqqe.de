@@ -149,3 +149,9 @@ networks:
     external:
       name: retro-board_retro
 ```
+
+## Overrides
+
+In deiner docker-compose.override.yaml können Values neu gesetzt werden.
+Dabei ist aber wichtig das Single Values überschrieben und Arrays gemerged
+werden. Details zum Verhalten bestimmter Felder: https://docs.docker.com/compose/extends/#adding-and-overriding-configuration
