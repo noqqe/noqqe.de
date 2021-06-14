@@ -22,6 +22,20 @@ File aus History löschen
 
     git filter-branch -f --tree-filter "rm -f foo/bar/baz.RData" HEAD
 
+
+## Username setzen
+
+Damit ich es einfach kopieren kann:
+
+    git config user.name "Mona Lisa"
+    git config user.email "wa1@noqqe.de"
+
+oder Global
+
+    git config --global user.name "Mona Lisa"
+    git config --global user.email "wa1@noqqe.de"
+
+
 ## Squash
 
 Manchmal dauert es 1-18 Commits um ein Feature fertigzustellen. Da man das
