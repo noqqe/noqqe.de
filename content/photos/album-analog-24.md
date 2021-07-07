@@ -1,5 +1,5 @@
 ---
-title: "Album Analog 24"
+title: "Album: Analog #24"
 date: 2021-07-07T12:02:11+02:00
 tags:
 - Rollei 35S
