@@ -11,6 +11,8 @@ alias: 'archives/434'
 
 ## 2021
 
+* [veilig](https://github.com/noqqe/veilig) Go Certificate Viewer für
+Kommandozeile für Files, TCP und HTTPS
 * [tijd](https://github.com/noqqe/tijd) Go Tool zum Arbeiten mit verteilten Teams. Zeitzonen in konfigurierbar!
 * [ipcalc](https://github.com/noqqe/ipcalc) Go Replacement für das
 traditionelle `ipcalc` mit vielen Zustatzfeatures
