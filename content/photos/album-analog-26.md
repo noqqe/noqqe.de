@@ -1,5 +1,5 @@
 ---
-title: "Album: Analog #26 Ektar 100"
+title: "Album: Analog #26 - Kodak Ektar 100"
 date: 2021-08-02T21:49:17+02:00
 tags:
 - Fotografie
