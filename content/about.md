@@ -15,7 +15,7 @@ mittlerweile als
 Begonnen hat diese Webseite als Blog [`2008`](/blog/2008/03/24/hallo-welt-2/) als ich anfing
 [Linux](https://de.wikipedia.org/wiki/Linux) zu benutzen.
 
-Durch Jahrelanges herumwerkeln als Sysadmin mit unterschiedlichsten Technologien sind
+Durch jahrelanges Herumwerkeln als Sysadmin mit unterschiedlichsten Technologien sind
 Unmengen an Cheatsheets und Notizen entstanden. Seit `2016` pflege ich diese
 öffentlich in der Kategorie [Sammelsurium](/sammelsurium/).
 

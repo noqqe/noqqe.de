@@ -1,6 +1,12 @@
 {{ partial "header.html" . }}
 
     <div class="itemcontent">
+
+      <p>Arbeiten als Sysadmin bedeutet, sich mit unterschiedlichsten
+      Technologien und Software auseinanderzusetzen. Über die Jahre sind
+      Unmengen an Cheatsheets und Notizen entstanden, die ich seit 2016
+      öffentlich hier sammle. Im Sammelsurium.</p>
+
     <h2>Operating Systems</h2>
     <ul>
     {{ range where .Data.Pages.ByTitle "Type" "sammelsurium" }}
