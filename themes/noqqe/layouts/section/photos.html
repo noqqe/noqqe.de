@@ -1,10 +1,10 @@
 {{ partial "header.html" . }}
 
     <div class="itemcontent">
-    {{ range (where .Site.Pages "Type" "photos").GroupByDate "2006"  }}
     <p>Fotografie. Poste hier Sachen die ich gelernt habe (Technik),
     interessant fand (Referenzen, Fotografen) oder selbst gemacht habe (Alben,
     Fotos). Besonders Analog hat es mir angetan.</p>
+    {{ range (where .Site.Pages "Type" "photos").GroupByDate "2006"  }}
     <h2>Photos {{ .Key }}</h2>
     <ul>
       {{ range where .Pages ".Title" "!=" "Photos" }}
