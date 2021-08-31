@@ -56,6 +56,26 @@ terraform {
 }
 ```
 
+## Terraform State
+
+Der State ist eine wichtige Komponente, mit der man viel mehr machen muss als
+anfangs mal gedacht.
+
+```
+terraform state show
+terraform state rm
+```
+
+Seit 0.13 gibt es eine neue Schreibweise für Terraform Provider
+damit man im alten State einen neue Provider für bereits bestehende
+Ressourcen umkonvertieren kann, gibt es folgenden Command
+
+```
+terraform state replace-provider "registry.terraform.io/-/google" \
+"hashicorp/google"
+```
+
+
 ## Eine Liste erweitern
 
 Ein einfaches `concat` auf alle Elemente die in der neuen Liste sein sollen.
