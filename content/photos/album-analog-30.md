@@ -10,7 +10,7 @@ Deutschlandtour! Um ehrlich zu sein hatte ich ganz andere Pläne
 wie die Fotos aussehen sollen die ich an dem Tag machen wollte, aber es hat
 sich weder ergeben noch hatte ich den Skill dazu.
 
-Wie Radsport Doku Fotografie in den früher funktioniert hat ist einfach
+Wie Radsport Doku Fotografie früher in Zeiten von Analog Fotografie funktioniert hat ist einfach
 unglaublich.
 
 <!--more-->
