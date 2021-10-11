@@ -10,25 +10,41 @@ Ein kleines Cheatsheet für Docker
 
 <!--more-->
 
-Docker Images ansehen
+## Zum laufenden Container verbinden
 
-```
-> docker images
-REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
-hello-world         latest              fce289e99eb9        8 days ago          1.84kB
-r-devel             latest              14efdbbdfc99        2 weeks ago         3.75GB
-rocker/r-devel      latest              14efdbbdfc99        2 weeks ago         3.75GB
-```
+Je nach Image...
+
+    docker exec -it <name> /bin/bash
+    docker exec -it <name> /bin/sh
+
+## Neuen Container
+
+Interaktiven Container starten
+
+    docker run --rm ubuntu
 
 Docker Image mit Port Mappings
 
     docker run -p 80:80 -p 1220:22 -p 1109:109 -d r-devel
 
-Docker Stop all instances
+## Docker Images
 
-    docker stop $(docker ps -a -q)
+Delete all images
 
-Docker Login to Nexus
+    docker rmi $(docker images -q)
+    docker images prune -a
+
+Images die nicht mehr referenziert sind älter als 6 Stunden löschen.
+
+    docker image prune -a -f --filter "until=6h"
+
+## Networking
+
+Alle netzwerke entfernen. Manchmal ist ein Bridge Device Stuck
+
+    docker volume prune -f
+
+## Custom Registry Image Upload
 
 Dafür muss mann das Repo anlegen, einen User+Role und dann nen HTTPS Port
 freigeben
@@ -47,10 +63,28 @@ docker tag 916a0128c7e4 nexus.acme.com:8087/library/r35:0.0.1
 docker push nexus.acme.com:8087/library/r35:0.0.1
 ```
 
-Delete all containers
+## Disk Space
 
-    docker rm $(docker ps -a -q)
+Wenn man sehen will wie viel Space Docker Installationen verbrauchen
 
-Delete all images
+    docker system df
 
-    docker rmi $(docker images -q)
+## Logs
+
+Es kann passieren dass der Docker Container viel loggt.
+
+Log truncaten
+
+```
+echo "" > $(docker inspect --format='{{.LogPath}}' <name>)
+```
+
+Und für Produktion empfielt sich dieses Limit auch gleich via den Daemon
+automatisch einzubauen.
+
+```json
+{
+  "log-driver": "json-file",
+  "log-opts": {"max-size": "50m", "max-file": "3"}
+}
+```
