@@ -23,6 +23,10 @@ Interaktiven Container starten
 
     docker run --rm ubuntu
 
+Verbinden
+
+    docker run -it --rm google/cloud-sdk:alpine /bin/bash
+
 Docker Image mit Port Mappings
 
     docker run -p 80:80 -p 1220:22 -p 1109:109 -d r-devel
