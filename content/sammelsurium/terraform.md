@@ -176,3 +176,51 @@ resource "aws_iam_user_policy" "this" {
   policy = data.aws_iam_policy_document.this.json
 }
 ```
+
+## Terraform Secrets
+
+Seit TF14 können secrets nur noch sensitiv als output ausgegeben werden.
+Das ist vor allem eins: nervig.
+
+```
+> terraform state pull | jq '.resources[] | select(.type == "aws_iam_access_key") | .instances[0].attributes'
+{
+  "create_date": "2019-11-05T08:39:56Z",
+  "encrypted_secret": null,
+  "encrypted_ses_smtp_password_v4": null,
+  "id": "AKIA.....",
+  "key_fingerprint": null,
+  "pgp_key": null,
+  "secret": "...",
+  "ses_smtp_password_v4": null,
+  "status": "Active",
+  "user": "<username>"
+}
+```
+
+Interaktiv auf Resource zugreifen:
+
+```
+$ terraform console
+> nonsensitive(aws_iam_access_key.<user>.encrypted_secret)
+```
+
+Workaround um trotzdem in normalen TF Run die Variable ausgeben zu können
+
+```
+resource "aws_iam_access_key" "brand_new_user" {
+  user = aws_iam_user.brand_new_user.name
+}
+
+output "brand_new_user_id" {
+  value = aws_iam_access_key.brand_new_user.id
+}
+
+data "template_file" "secret" {
+  template = aws_iam_access_key.brand_new_user.encrypted_secret
+}
+
+output "brand_new_user_secret" {
+  value     = data.template_file.secret.rendered
+}
+```
