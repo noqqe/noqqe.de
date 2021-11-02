@@ -21,6 +21,46 @@ tags:
   * Map types
   * Channel Types
 
+## Ordner Struktur
+
+Leeres Git Repo
+
+    go mot init practice
+
+Folder angenommen:
+
+```
+- practice
+    - go.mod
+    - app.go
+    - models
+       - a.go
+       - b.go
+    - routers
+       - a.go
+       - b.go
+```
+
+Kann dann so abgerufen werden
+
+```
+import (
+  "practice/routers"
+  "practice/models"
+  ...
+)
+```
+
+Access zu Methoden
+
+```
+func main() {
+  http.HandleFunc("/a", models.AHandler)
+  http.HandleFunc("/b", models.BHandler)
+  http.ListenAndServe(":8080", nil)
+}
+```
+
 ## Slice
 
 Länge eines `Slice` bestimmen
@@ -31,6 +71,16 @@ Slice initialisieren mit default werten
 
     var foo []string = []{"foo", "bar"}
     var foo []int = []{1, 2, 3}
+
+Slice mit Custom types initialisieren
+
+    type Bar struct {
+      x, y int
+    }
+
+    var foo []Bar
+
+    foo[]Bar{Bar{1,1}}
 
 Content für Element setzen
 
