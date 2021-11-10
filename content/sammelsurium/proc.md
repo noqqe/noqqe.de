@@ -30,6 +30,11 @@ Prozessname
     cat /proc/11988/comm
     chrome
 
+Konsumierter I/O Traffic
+
+    cat /proc/11988/io
+
+
 ## Mounts
 
 Anstelle von `mount` kann man auch als fstab formatiertes File ausgeben:
