@@ -40,6 +40,25 @@ Speziellen Key angeben. Nicht das .pub!
 ssh host -l noqqe -i ~/.ssh/private
 ```
 
+Speziellen Key angeben, während ein Agent läuft. Das ist ziemlich beschissen,
+obwohl man `-i` explizit gesetzt hat, was sich auch im Log wiederspiegelt
+(`explicit`), werden erst 3 Agent Keys abgeprüft. Das führt dazu
+
+```
+ssh -v host.acme.com -l root -i /tmp/f
+debug1: Will attempt key: ~/.ssh/id_dsa RSA SHA256:xxx agent
+debug1: Will attempt key: ~/.ssh/id_rsa RSA SHA256:xxx agent
+debug1: Will attempt key: <key> ED25519 SHA256:xxx agent
+debug1: Will attempt key: /tmp/f  explicit
+Received disconnect from 10.11.70.27 port 22:2: Too many authentication failures
+```
+
+Lösung dafür ist nur:
+
+```
+ssh -v host.acme.com -l root -i /tmp/f -o IdentitiesOnly=yes
+```
+
 ## Public Key aus Private Key generieren
 
 Zuweilen kommt es vor, dass man Public Keys nicht mehr findet und nur noch
