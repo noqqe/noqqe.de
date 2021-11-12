@@ -70,3 +70,10 @@ Hilfreich:
 Cpus anzeigen
 
     cat /proc/cpuinfo
+
+## Threads
+
+Maximale Threads anzeigen
+
+    cat /proc/sys/kernel/threads-max
+    2039325
