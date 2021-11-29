@@ -1,16 +1,49 @@
 ---
 title: cloudinit
 date: 2013-12-02T08:11:47
-tags: 
+tags:
 - Software
 - cloudconfig
 ---
 
 ## Running Command
 
-    /usr/bin/python /usr/bin/cloud-init-cfg all config
+    cloud-init init
 
-## Demo Template
+## Scripts
+
+Um ausgeführte runcmd
+
+    cat /var/lib/cloud/instance/scripts/runcmd
+
+Darf maximal 16kb sein, sonst:
+
+    Error: expected length of user_data to be in the range (0 - 16384), got #cloud-config
+
+## Befehle ausführen
+
+```
+bootcmd:
+ - mkdir /reports
+
+runcmd:
+ - echo foo
+```
+
+## User anlegen
+
+```
+users:
+  - name: foo
+    gecos: foo
+    sudo: ALL=(ALL) NOPASSWD:ALL
+    groups: users, admin
+    lock_passwd: true
+    ssh_authorized_keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAA...
+```
+
+## Puppet Template
 
 ``` yaml
 #cloud-config

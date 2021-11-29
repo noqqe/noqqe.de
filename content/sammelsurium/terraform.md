@@ -112,6 +112,24 @@ resource "aws_alb" "internal" {
 }
 ```
 
+## for_each mit Liste
+
+```
+ locals {
+   mail_receipients = [
+     "foo@example.net",
+     "bar@example.net",
+   ]
+ }
+
+module "sns_email" {
+  source = "github.com/noqqe/terraform-modules-aws-sns-email-notification?ref=v0.3.0"
+
+  for_each              = toset(local.mail_receipients)
+  application_name      = "my-cloudwatch-alert"
+  notification_endpoint = each.key
+}
+
 ## Dynamic Blocks
 
 Man kann dynamische blocks wie zum Beispiel
