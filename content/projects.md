@@ -22,7 +22,7 @@ traditionelle `ipcalc` mit vielen Zustatzfeatures
 
 * [nept](https://github.com/noqqe/nept) Go Image Manipulation über die
 Kommandozeile
-* [typist](https://github.com/noqqe/stramap/) Go Tipptrainer mit `yaml`
+* [typist](https://github.com/noqqe/typist) Go Tipptrainer mit `yaml`
 Übungsdateien
 * [purple-yak](https://github.com/noqqe/purple-yak) Text Analyse mit Shannon Entropy und Zipf
 Distribution
