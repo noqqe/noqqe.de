@@ -129,6 +129,7 @@ module "sns_email" {
   application_name      = "my-cloudwatch-alert"
   notification_endpoint = each.key
 }
+```
 
 ## Dynamic Blocks
 
