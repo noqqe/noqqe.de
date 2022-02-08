@@ -5,6 +5,16 @@ tags:
 - Programming
 ---
 
+## Warum go?
+
+Ein Standard, nicht 100 Tools Eco System.
+
+* test system
+* module system
+* `go vet`
+* go routines
+* `go fmt`
+
 ## Ordner Struktur
 
 Leeres Git Repo
