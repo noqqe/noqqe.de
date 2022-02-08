@@ -5,22 +5,6 @@ tags:
 - Programming
 ---
 
-## Datentypen
-
-* Boolean types
-* Numeric types
-* String types
-* Derived types
-  * Pointer types
-  * Array types
-  * Structure types
-  * Union types and
-  * Function types
-  * Slice types
-  * Interface types
-  * Map types
-  * Channel Types
-
 ## Ordner Struktur
 
 Leeres Git Repo
@@ -63,14 +47,22 @@ func main() {
 
 ## Slice
 
-Länge eines `Slice` bestimmen
+Content für Element setzen
 
-    len(foo)
+    foo[1] = "rofl"
 
 Slice initialisieren mit default werten
 
     var foo []string = []{"foo", "bar"}
     var foo []int = []{1, 2, 3}
+
+Ein bestehendes Slice erweitern
+
+    s = append(s, "e", "f")
+
+Slice mit Dimensionierung initialisieren
+
+    s := make([]string, 3)
 
 Slice mit Custom types initialisieren
 
@@ -82,18 +74,93 @@ Slice mit Custom types initialisieren
 
     foo[]Bar{Bar{1,1}}
 
-Content für Element setzen
+Länge eines `Slice` bestimmen
 
-    foo[1] = "rofl"
+    len(foo)
 
-Ein bestehendes Slice erweitern
+Wie finde ich einen String in einem `Slice`
 
-    s = append(s, "e", "f")
+``` go
+// check if slice contains string
+func stringInSlice(a string, list []string) bool {
+  for _, b := range list {
+    if b == a {
+      return true
+    }
+  }
+  return false
+}
+```
 
-Slice mit Dimensionierung initialisieren
+## strings
 
-    s := make([]string, 3)
+Stringmanipluationen aller Art bietet `strings`. Zum Beispiel ein `Slice` zu
+einem `String` verwandeln
 
+    strings.join(Slice, sep)
+
+## Konstanten const
+
+Konstanten werden speziell markiert. Sie bleiben zur Compilezeit gleich
+und werden niemals verändert.
+
+``` go
+const (
+  foo = "lol"
+  bar = 42
+)
+```
+
+oder auch in Funtkionen
+
+``` go
+func countlines () {
+  const (
+    foo = "lol"
+    bar = 42
+  )
+  [...]
+}
+```
+
+## Structs
+
+Definieren
+
+``` golang
+type Config struct {
+  path string
+  timeout int64
+}
+```
+
+Objekt des Typs Config erstellen
+
+``` golang
+c := Config{path:"/foo/bar", timeout: 256}
+```
+
+Abrufen
+
+``` golang
+log.Println(c.path)
+```
+
+Fun Fact: Konstaten können wesentlich mehr Nachkommastellen enthalten als
+Variablen
+
+## Fehlerbehandlung
+
+Die meisten Funktionen geben auch einen `err` zurück beim Aufruf
+
+``` go
+file, err := os.Open("/file/that/does/not/exist.txt")
+if err != nil {
+  fmt.Printf("%v\n", err)
+}
+```
+
+`nil` ist dabei ein eingebauter Datentyp speziell für Fehler in Go.
 
 ## fmt
 
@@ -114,10 +181,12 @@ Und wenn ich diverse Formatzeichen nutzen will, ebenso.
 
 Formatstrings (wird noch fortgeführt)
 
-``` python
+```
 %.2f float64 with 2 zeros
 %s string
 %i int
+%v interface
+%T show type of var
 ```
 
 ## bufio
@@ -158,13 +227,6 @@ Von Stdin lesen
 
     os.Args[1]
 
-## strings
-
-Stringmanipluationen aller Art bietet `strings`. Zum Beispiel ein `Slice` zu
-einem `String` verwandeln
-
-    strings.join(Slice, sep)
-
 ## strconv
 
 Einen `string` zum `int` braucht einen Fehlerfall (Input: aaa?)
@@ -190,46 +252,6 @@ func main() {
 }
 ```
 
-## Fehlerbehandlung
-
-Die meisten Funktionen geben auch einen `err` zurück beim Aufruf
-
-``` go
-file, err := os.Open("/file/that/does/not/exist.txt")
-if err != nil {
-  fmt.Printf("%v\n", err)
-}
-```
-
-`nil` ist dabei ein eingebauter Datentyp speziell für Fehler in Go.
-
-## Konstanten const
-
-Konstanten werden speziell markiert. Sie bleiben zur Compilezeit gleich
-und werden niemals verändert.
-
-``` go
-const (
-  foo = "lol"
-  bar = 42
-)
-```
-
-oder auch in Funtkionen
-
-``` go
-func countlines () {
-  const (
-    foo = "lol"
-    bar = 42
-  )
-  [...]
-}
-```
-
-Fun Fact: Konstaten können wesentlich mehr Nachkommastellen enthalten als
-Variablen
-
 ## Logging
 
 Besser als einfach nur fmt.Println mit
@@ -240,34 +262,11 @@ import log
 log.Fatal("Process crashed and burned. Error: ", err)
 ```
 
-## Structs
-
-Definieren
-
-``` golang
-type Config struct {
-  path string
-  timeout int64
-}
-```
-
-Objekt des Typs Config erstellen
-
-``` golang
-c := Config{path:"/foo/bar", timeout: 256}
-```
-
-Abrufen
-
-``` golang
-log.Println(c.path)
-```
-
 ## Command Execution
 
 Natürlich kann ich auch einfach Shell Commands wrappen in Go.
 
-``` golang
+``` go
 // execute commands
 cmd := exec.Command(command, args...)
 cmd := exec.Command("ls", "-lah", "-r")
@@ -278,22 +277,6 @@ if err != nil {
   log.Fatal("rvo crashed and burned.")
 }
 
-```
-
-## Slices
-
-Wie finde ich einen String in einem `Slice`
-
-``` go
-// check if slice contains string
-func stringInSlice(a string, list []string) bool {
-    for _, b := range list {
-        if b == a {
-            return true
-        }
-    }
-    return false
-}
 ```
 
 ## new
@@ -325,69 +308,6 @@ func newInt() *int {
 
 Aber ist schöner und kürzer, weil man sich keinen Namen ausdenken muss der
 unnötig wäre.
-
-## json
-
-``` go
-// convert to bytes and read json
-bytes := []byte(output)
-var documents []Document
-json.Unmarshal(bytes, &documents)
-
-log.Printf("Entries found: %d", len(documents))
-```
-
-
-## yaml
-
-Beispiel YAML
-
-```yaml
-challenges:
-  - Och ja... ich weiss auch nicht
-  - "Test"
-  - Ich weiss nicht
-```
-
-Und zum Ausgeben der Daten:
-
-```go
-package main
-
-import (
-  "fmt"
-  "log"
-  "io/ioutil" "gopkg.in/yaml.v2")
-
-type Challenges struct {
-    Challenge []string `challenges`
-}
-
-func (c *Challenges) getConf() *Challenges{
-
-    yamlFile, _ := ioutil.ReadFile("challenges.yml")
-
-    err = yaml.Unmarshal(yamlFile, c)
-    if err != nil {
-        log.Fatalf("Unmarshal: %v", err)
-    }
-
-    return c
-}
-
-func main() {
-
-    var c Challenges
-    c.getConf()
-
-    for _, x := range c.Challenge{
-      fmt.Println(x)
-    }
-}
-```
-
-Das `Struct` Challenges bekommt also eine Methode `getConf()` zum Laden und
-gibt ein befülltes `Struct` zurück.
 
 ## Testing
 
@@ -446,7 +366,7 @@ func main() {
 
   for a := 0; a < 10; a++ {
     wg.Add(1)
-	  go edit(x, y)
+    go edit(x, y)
   }
 
   wg.Wait()
@@ -458,3 +378,68 @@ func edit() {
   time.sleep(1)
 }
 ```
+
+## json
+
+``` go
+// convert to bytes and read json
+bytes := []byte(output)
+var documents []Document
+json.Unmarshal(bytes, &documents)
+
+log.Printf("Entries found: %d", len(documents))
+```
+
+
+## yaml
+
+Beispiel YAML
+
+```yaml
+challenges:
+  - Och ja... ich weiss auch nicht
+  - "Test"
+  - Ich weiss nicht
+```
+
+Und zum Ausgeben der Daten:
+
+```go
+package main
+
+import (
+  "fmt"
+  "log"
+  "io/ioutil" "gopkg.in/yaml.v2"
+)
+
+type Challenges struct {
+    Challenge []string `challenges`
+}
+
+func (c *Challenges) getConf() *Challenges{
+
+    yamlFile, _ := ioutil.ReadFile("challenges.yml")
+
+    err = yaml.Unmarshal(yamlFile, c)
+    if err != nil {
+        log.Fatalf("Unmarshal: %v", err)
+    }
+
+    return c
+}
+
+func main() {
+
+    var c Challenges
+    c.getConf()
+
+    for _, x := range c.Challenge{
+      fmt.Println(x)
+    }
+}
+```
+
+Das `Struct` Challenges bekommt also eine Methode `getConf()` zum Laden und
+gibt ein befülltes `Struct` zurück.
+
