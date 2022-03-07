@@ -14,7 +14,7 @@ Jakob-Fuchs-Str. 35
 
 Kontakt:
 
-E-Mail: <code class="rev">ed.eqqon@olf</code>
+Mail: flo unter dieser Blogdomain
 
 Quelle: eRecht24, Rechtsanwalt für Internetrecht Sören Siebert
 
