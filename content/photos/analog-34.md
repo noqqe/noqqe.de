@@ -1,5 +1,5 @@
 ---
-title: "Analog 34"
+title: "Album: Analog #34 - AGFA APX400"
 date: 2022-03-31T13:29:30+02:00
 tags:
 - Fotografie
