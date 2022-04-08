@@ -8,7 +8,17 @@ tags:
 
 ## Neuen Benutzer anlegen
 
+mysql5.7
+
     GRANT ALL ON testdb.* TO 'testuser'@'%' IDENTIFIED BY 'supergeheim23;
+
+mysql8
+
+```
+CREATE USER 'testuser@'%' IDENTIFIED BY 'secret';
+GRANT ALL PRIVILEGES ON testdb.* TO 'testuser'@'%';
+flush privileges;
+```
 
 ## Benutzer löschen
 
@@ -20,7 +30,17 @@ tags:
 
 ## Root ähnlichen User erzeugen
 
-    GRANT ALL PRIVILEGES ON *.* TO 'root'@'localhost' IDENTIFIED BY PASSWORD 'mypassword' WITH GRANT OPTION
+mysql5.7
+
+    GRANT ALL PRIVILEGES ON *.* TO 'root'@'localhost' IDENTIFIED BY 'mypassword' WITH GRANT OPTION;
+
+mysql8
+
+```
+CREATE USER 'root'@'%' IDENTIFIED BY 'secret';
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' WITH GRANT OPTION;
+flush privileges;
+```
 
 ### Passwort fuer alle root user neu setzen
 
