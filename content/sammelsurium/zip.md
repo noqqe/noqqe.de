@@ -23,3 +23,11 @@ Watch the contents of a zip file
 Unzip
 
     unzip head.zip
+
+List files
+
+    > zip -sf /tmp/canary-dab0b64952ddfe0229dfd85ec6c9a37a-dev-outofsync.zip
+    Archive contains:
+      python/export/export.py
+    Total 1 entries (436 bytes)
+
