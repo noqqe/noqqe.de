@@ -91,6 +91,8 @@ users.extraUsers.noqqe = {
 
 ### Selbstverwaltung und Cleanup
 
+u
+
 Garbage Collector des Nix Paketstores automatisch triggern lassen
 um mehr Plattenplatz freizugeben.
 
@@ -107,6 +109,14 @@ Timer
 
 ```nix
 nix.optimise.automatic = true;
+```
+
+Das ganze geht auch manuell
+
+```shell
+nix-env --delete-generations old
+nix-collect-garbage -d
+nix-store --gc --print-dead
 ```
 
 ### Autmatische Systemupdates
