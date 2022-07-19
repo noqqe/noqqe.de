@@ -31,3 +31,10 @@ List files
       python/export/export.py
     Total 1 entries (436 bytes)
 
+Encrypt an existing zip file
+
+    zipcloak Archive.zip
+
+Decrypt a zip file
+
+    zip -e foo.zip file1
