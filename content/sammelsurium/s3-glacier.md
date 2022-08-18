@@ -1,6 +1,6 @@
 ---
 title: "AWS S3 Glacier"
-date: 2022-08-18T10:23:07
+date: 2022-08-18T10:23:07+02:00
 tags:
 - AWS
 - S3
