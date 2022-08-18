@@ -24,6 +24,7 @@ aws lambda update-function-code --s3-bucket <bucketname> \
   --s3-key path/lambda.zip  --function-name <name>
 ```
 
+
 ## Terraform
 
 ```terraform
@@ -59,3 +60,34 @@ def lambda_handler(event, context):
     print(event)
 ```
 
+## Network debugging
+
+Ich nutze desöfteren dieses kleine Debugging Lambda um VPC Connections zu
+entstören. Runtime Python3.9
+
+```python
+import json
+from urllib.request import urlopen
+import urllib.error
+def is_cnx_active(url):
+
+    try:
+        return urlopen(url,timeout=1).code
+    except urllib.error.HTTPError as e:
+        return e.code
+    except:
+        return False
+
+
+def lambda_handler(event, context):
+
+    ret = dict()
+    ret["heise"] = is_cnx_active("https://heise.de")
+    ret["s3"] = is_cnx_active("https://s3.eu-central-1.amazonaws.com/")
+    ret["secretsmanager"] = is_cnx_active("https://secretsmanager.eu-central-1.amazonaws.com/")
+
+    return {
+        'statusCode': 200,
+        'body': ret
+    }
+```
