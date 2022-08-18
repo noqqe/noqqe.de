@@ -42,4 +42,14 @@ aws s3api head-object --bucket <bucketname> --key path/to/file
 }
 ```
 
+## Glacier Objekt in "Standard" Class überführen
+
+To overwrite the existing object with the Amazon S3 Standard storage class, run the following command:
+
+    aws s3 cp s3://awsexamplebucket/dir1/example.obj s3://awsexamplebucket/dir1/example.obj --storage-class STANDARD
+
+To perform a recursive copy for an entire prefix and overwrite existing objects with the Amazon S3 Standard storage class, run the following command:
+
+    aws s3 cp s3://awsexamplebucket/dir1/ s3://awsexamplebucket/dir1/ --storage-class STANDARD --recursive --force-glacier-transfer
+
 
