@@ -70,6 +70,15 @@ mysql> show processlist;
 +--------+---------+-------------------------------+-------------------+---------+------+----------+------------------+
 ```
 
+Bessere Processlist :)
+
+```
+SELECT ID, TIME, USER, HOST, DB, COMMAND, STATE, INFO
+    FROM INFORMATION_SCHEMA.PROCESSLIST WHERE DB IS NOT NULL
+    AND (`INFO` NOT LIKE '%INFORMATION_SCHEMA%' OR INFO IS NULL)
+    ORDER BY `DB`, `TIME` DESC
+```
+
 ## Update Old MySQL Password Hashes to new ones
 
 ```
