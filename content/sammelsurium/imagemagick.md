@@ -7,6 +7,10 @@ tags:
 - imagemagick
 ---
 
+Bild von einem ins andere Format überführen
+
+    convert image.png image.jpg
+
 Identifizieren von Bildmaßen
 
     identify -format "%[fx:h] %[fx:w] %d/%f\n" {}
@@ -26,3 +30,11 @@ annehmbares Maß.
 
     convert -resize 768x576 -delay 60 -loop 1 in*.JPG out.gif
     convert -resize 20% -delay 60 -loop 1 in*.JPG out.gif
+
+Bilder untereinander konkatinieren
+
+    convert -append image_a.png image_b.png image_c.png output.png
+
+Bilder nebeneinander anreihen
+
+    convert +append image_a.png image_b.png image_c.png output.png
