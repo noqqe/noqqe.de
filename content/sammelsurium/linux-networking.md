@@ -10,16 +10,18 @@ Ein paar kleine Kniffe und Linux Networking Foo.
 
 <!--more-->
 
-### Offene Verbindungen anzeigen
+## Networking mit `ip`
 
-Es gibt mehrere Wege
+IP setzen
 
-    lsof -i tcp
-    netstat -tap
-    netstat -tulpan
-    ss -tulapn
+    ip address add 192.168.1.200/24 dev eth0
 
-### Network Interfaces konfigurieren
+Gateway setzen
+
+    ip route add 0.0.0.0/0 via 192.168.1.1 dev eth0
+
+
+## Networking mit /etc/network/interfaces
 
 Weil ich es einfach immer wieder vergesse.
 
@@ -36,12 +38,50 @@ DNS in `resolv.conf`
     nameserver 10.42.10.50
     nameserver 217.145.99.9
 
+## Networking mit netplan
 
-### Löschen eines Interface
+DHCP
+
+```yaml
+network:
+  version: 2
+  renderer: networkd
+  ethernets:
+    enp0s3:
+      dhcp4: yes
+```
+
+Static IP
+
+```yaml
+network:
+  version: 2
+  renderer: networkd
+  ethernets:
+    enp0s3:
+     dhcp4: no
+     addresses: [192.168.1.222/24]
+     gateway4: 192.168.1.1
+     nameservers:
+       addresses: [8.8.8.8,8.8.4.4]
+
+```
+
+## Offene Verbindungen anzeigen
+
+Es gibt mehrere Wege
+
+    lsof -i tcp
+    netstat -tap
+    netstat -tulpan
+    ss -tulapn
+
+
+## Löschen eines Interface
 
     ip link delete docker0
 
-### Löschen von Bridge Interfaces
+## Löschen von Bridge Interfaces
 
 Mehrere Möglichkeiten
 
@@ -52,7 +92,7 @@ oder
 
      ip link delete br0 type bridge
 
-### Einzelnes Programm
+## Einzelnes Programm
 
 Um zu verfolgen welchen Traffic ein einzelnes Programm erzeugt lässt sich gut
 mit `strace` nachweisen.
