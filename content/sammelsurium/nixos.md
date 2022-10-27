@@ -208,3 +208,88 @@ in
 };
 }
 ```
+
+## Eigene Services / Extending NixOS
+
+Auf Basis von [Extending NixOS](https://nixos.wiki/wiki/Extend_NixOS) ein
+dynamisch gebauter Service
+
+    services.ircClient.enable
+    services.ircClient.user = "username";
+
+also
+
+    services.ircClient.<name>.enable
+    services.ircClient.<name>.user = "username";
+
+Um das zu erreichen braucht man ein bisschen `nix` Code.
+
+```nix
+{config, pkgs, lib, ...}:
+
+with lib;
+let
+  cfg = config.services;
+
+  # define variable for single service option for <name>
+  msgOptions =
+    { ... }: {
+      options = {
+          message = mkOption {
+            default = "nix";
+            type = with types; uniq string;
+            description = ''
+              Message to send.
+            '';
+          };
+      };
+    };
+
+  # define set variable for systemd.service
+  mkService = name: value: let
+  in {
+    wantedBy = [ "multi-user.target" ];
+    after = [ "network.target" ];
+    description = "Send my message.";
+    serviceConfig = {
+      Type = "oneshot";
+      User = "root";
+      StandardOutput = "journal";
+      ExecStart = ''${pkgs.coreutils}/bin/echo "Hello ${value.message}"'';
+    };
+  };
+in
+{
+  # build up 1 option to contain set of all services.msg.* from above
+  options.services = {
+    msg = mkOption {
+      default = {};
+      type = types.attrsOf (types.submodule msgOptions);
+      description = "Top msg service gerne wieder";
+    };
+  };
+
+  # merge all msgOptions to the systemd.services set from the let part above
+  config = lib.mkIf (cfg.msg != {}) (lib.mkMerge [
+    {
+      systemd.services = mapAttrs' (n: v: nameValuePair "msg-${n}" (mkService n v)) cfg.msg;
+    }
+  ]);
+}
+```
+
+und so kann ich dann meinen eigenen dynamischen Service einbauen
+```nix
+{
+   imports = [
+     ./my-service.nix
+   ];
+
+   services.msg.foo.message = "foo";
+   services.msg.bar.message = "bar";
+   services.msg.baz.message = "foo";
+
+}
+```
+Also anstelle von 3 einzelnen systemd services kann ich das auch
+dynamisieren.
