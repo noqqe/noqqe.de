@@ -44,8 +44,8 @@ unterhalten wir uns regelmäßig über Quatsch den wir auf
 [Wikipedia](https://de.wikipedia.org) gelesen
 haben. Hört gerne mal rein :)
 
-Erreichen kann man mich auf Twitter unter
-[@noqqe](https://twitter.com/noqqe), per Mail an `flo` unter der Domain oder auf
+Erreichen kann man mich im Fediverse unter
+[@noqqe](https://chaos.social/@noqqe), per Mail an `flo` unter der Domain oder auf
 [GitHub](https://github.com/noqqe/)
 
 kkthxbai und :wq!
