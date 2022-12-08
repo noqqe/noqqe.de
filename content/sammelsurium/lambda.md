@@ -67,10 +67,11 @@ entstören. Runtime Python3.9
 
 ```python
 import json
+import socket
 from urllib.request import urlopen
 import urllib.error
-def is_cnx_active(url):
 
+def check_http(url):
     try:
         return urlopen(url,timeout=1).code
     except urllib.error.HTTPError as e:
@@ -78,13 +79,26 @@ def is_cnx_active(url):
     except:
         return False
 
+def check_tcp(uri):
+    h = uri.split(":")[0]
+    p = uri.split(":")[1]
+    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    result = sock.connect_ex(h,p)
+    sock.close()
+    if result == 0:
+        return h + ":" + p + " is open"
+    else:
+        return h + ":" + p + " is closed:" + result
+
+
+
 
 def lambda_handler(event, context):
 
     ret = dict()
-    ret["heise"] = is_cnx_active("https://heise.de")
-    ret["s3"] = is_cnx_active("https://s3.eu-central-1.amazonaws.com/")
-    ret["secretsmanager"] = is_cnx_active("https://secretsmanager.eu-central-1.amazonaws.com/")
+    ret["elk"] = check_tcp("10.11.70.26:5044")
+    ret["heise"] = check_http("https://heise.de")
+    ret["s3"] = check_http("https://s3.eu-central-1.amazonaws.com/")
 
     return {
         'statusCode': 200,
