@@ -83,7 +83,7 @@ def check_tcp(uri):
     h = uri.split(":")[0]
     p = uri.split(":")[1]
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    result = sock.connect_ex(h,p)
+    result = sock.connect_ex((h,int(p)))
     sock.close()
     if result == 0:
         return h + ":" + p + " is open"
