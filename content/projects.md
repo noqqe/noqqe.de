@@ -9,6 +9,15 @@ title: Projects
 alias: 'archives/434'
 ---
 
+## 2022
+
+* [relaystation](https://github.com/noqqe/relaystation) Twitter zu Fediverse
+    Forwarder mittels Twitter Stream API v2 in Golang
+* [serra](https://github.com/noqqe/serra) MTG Kartenverwaltung für
+    Kommandozeile mit Golang und MongoDB
+* [radsportsalat](https://github.com/noqqe/radsportsalat) Spielprojekt für Go
+    rand und go-html Templating für Radsport Teams
+
 ## 2021
 
 * [veilig](https://github.com/noqqe/veilig) Go Certificate Viewer für
