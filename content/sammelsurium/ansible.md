@@ -137,3 +137,19 @@ Create Task dependency
     - rsinit is changed
 
 ```
+
+Fetch AWS Secret
+
+```yaml
+
+- name: Fetch AWS Secrets for Admin
+  set_fact:
+    password: "{{ lookup('amazon.aws.aws_secret', 'documentdb_root.password', nested=true) }}"
+    username: "{{ lookup('amazon.aws.aws_secret', 'documentdb_root.username', nested=true) }}"
+
+- name: Ensure replicaset rs0 exists
+  community.mongodb.mongodb_replicaset:
+    login_host: localhost
+    login_user: {{username}}
+    login_password: {{password}}
+```
