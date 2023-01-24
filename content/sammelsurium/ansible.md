@@ -124,3 +124,16 @@ Mount a volume (AWS EFS Volume, in this case)
     state: present
 ```
 
+Create Task dependency
+
+```yaml
+- name: Ensure replicaset rs0 exists
+  #[...]
+  register: rsinit
+
+- name: Create local admin
+  #[...]
+  when:
+    - rsinit is changed
+
+```
