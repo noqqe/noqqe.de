@@ -19,17 +19,19 @@ Always create a admin user _BEFORE_ any other user
 
 ## Create new user for a single database
 
-    > use Project1
-    switched to db Project1
-    > db.createUser( { user: "Project1", pwd: "XXX", roles: [ "readWrite", "dbAdmin" ] } )
+read only user
+
+    > use test
+    > db.createUser({user: "user", pwd:  "pass", roles: [ { role: "readWrite", db: "test" } ]})
+
+read only user
+
+    > use test
+    > db.createUser({user: "user", pwd:  "pass", roles: [ { role: "readWrite", db: "test" } ]})
 
 ## Show existing users
 
     > db.system.users.find()
-
-after all, verify login
-
-    mongo --username Project1 -pXXX Project1
 
 ## Update a user
 
