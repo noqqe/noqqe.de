@@ -153,3 +153,21 @@ Fetch AWS Secret
     login_user: {{username}}
     login_password: {{password}}
 ```
+
+Check if OS Env var is set
+
+```yaml
+- name: Check if Variables are defined.
+  fail:
+    msg: "Environment variable AWS_SECRET_ACCESS_KEY is not defined or empty"
+  when: lookup('env', "AWS_SECRET_ACCESS_KEY") | length < 0
+```
+
+Check if OS Env var contains a certain string
+
+```yaml
+- name: Check if correct environment is set in AWS
+  fail:
+    msg: "Environment variable AWS_ENV does not match {{ aws_env }}. Did you configure your environment correctly?"
+  when: lookup('env', "AWS_ENV") != aws_env
+```
