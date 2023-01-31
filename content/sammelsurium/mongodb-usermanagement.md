@@ -46,3 +46,19 @@ read only user
 
     > use Project1
     > db.dropUser("Project1", {w: "majority", wtimeout: 5000})
+
+## Show active connections
+
+```json
+db.serverStatus().connections
+{
+  current: 49,
+  available: 51151,
+  totalCreated: 202,
+  active: 16,
+  threaded: 49,
+  exhaustIsMaster: 2,
+  exhaustHello: 11,
+  awaitingTopologyChanges: 13
+}
+```
