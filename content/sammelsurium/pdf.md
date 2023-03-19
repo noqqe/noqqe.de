@@ -19,6 +19,8 @@ entfernen
 
     pdftk novell-cert.pdf ripe.pdf lpic-1.pdf cisco-ccna1.pdf cat output Zertifikate.pdf
 
+    qpdf --empty --pages novell-cert.pdf ripe.pdf lpic-1.pdf cisco-ccna1.pdf -- all.pdf
+
 # PDFs aufteilen
 
     pdftk foo.pdf cat 1-12 output bar.pdf
