@@ -8,7 +8,13 @@ tags:
 
 ## Backup
 
+Simple local backup
+
     mongodump --db test --out /tmp/dump
+
+or with Auth
+
+    mongodump  -u root -p root --authenticationDatabase admin -d serra -o /backup/
 
 ## Restore
 

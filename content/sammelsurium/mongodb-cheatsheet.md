@@ -71,6 +71,10 @@ $exist
 
 default query ist AND mit ","
 
+## mongoexport
+
+    mongoexport  -u root -p root --authenticationDatabase admin -d serra -c cards.json
+
 ## mongoimport
 
     mongoimport --db lolo --collection products < products.json
