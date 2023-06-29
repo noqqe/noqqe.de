@@ -86,3 +86,12 @@ möglich sind. Die aufrufende Komponente braucht folgende `IAM` Komponente:
     ]
 }
 ```
+
+## MySQL Dump
+
+MySQL aus RDS dumpen ist nicht so straight forward. Wegen Permissions usw.
+
+```
+mysql -u root -p<pw> -h <host> -e "show databases"
+mysqldump --set-gtid-purged=OFF -u root -p<pw> -h <host> --databases <db1> <db2> <db3> > dump.sql
+```
