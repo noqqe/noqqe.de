@@ -45,7 +45,7 @@ unterhalten wir uns regelmäßig über Quatsch den wir auf
 haben. Hört gerne mal rein :)
 
 Erreichen kann man mich im Fediverse unter
-[@noqqe](https://chaos.social/@noqqe), per Mail an `flo` unter der Domain oder auf
+[@noqqe](https://tilde.zone/@noqqe), per Mail an `flo` unter der Domain oder auf
 [GitHub](https://github.com/noqqe/)
 
 kkthxbai und :wq!
