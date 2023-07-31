@@ -12,7 +12,7 @@ Der Nix Paket Manager.
 In seltenen Fällen benutze / brauche ich den `Nix` Paketmanager.
 Ich benutze ihn eigentlich nur unter `NixOS`, weswegen die meisten dieser
 Befehle bessere Pendants in `configuration.nix` haben. Hierfür siehe
-[NixOS](/sammelsurium/nixos.md)
+[NixOS](/sammelsurium/nixos)
 
 <!--more-->
 
