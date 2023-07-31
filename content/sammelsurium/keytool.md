@@ -33,7 +33,7 @@ Das `PEM` muss dazu wie folgt aussehen
 Wenn das gegeben ist, PEM in `PKCS12` konvertieren.
 
 ``` bash
-openssl pkcs12 -export -in certs.pem -out certs.pkcs12
+openssl pkcs12 -export -in certs.pem -out certs.pkcs12 -name tomcat
 ```
 
 Es muss ein leerer Keystore angelegt werden. Dies geschieht mittels erzeugen
