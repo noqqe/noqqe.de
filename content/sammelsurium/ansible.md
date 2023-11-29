@@ -54,6 +54,23 @@ Delete a file
 
 ## Playbook Cheatsheet
 
+Often I want to test a ansible snippet locally and struggle with the
+structure. So here it is.
+```yaml
+---
+- name: "Apply locally"
+  hosts: localhost
+  connection: local
+  tasks:
+  - name: test command
+    ansible.builtin.shell: touch /tmp/testkey
+    args:
+      executable: /bin/bash
+      warn: no
+      creates: /tmp/testkey
+
+```
+
 Install a package
 
 ```yaml
