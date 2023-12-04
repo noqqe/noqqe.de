@@ -25,7 +25,7 @@
           {{ $sort := sort . }}
           {{ $links := apply $sort "partial" "link" "." }}
           {{ $clean := apply $links "chomp" "." }}
-          {{ delimit $clean ", " }}
+          {{ delimit $clean ", " | safeHTML }}
         {{ end }}
       </span>
     </div>
