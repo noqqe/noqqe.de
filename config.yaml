@@ -6,7 +6,7 @@ path: "blog"
 publishdir: "public"
 metaDataFormat: "yaml"
 disableKinds:
-  - "taxonomyTerm"
+  - "taxonomy"
 
 params:
   Description: "No advertising, no support, no bug fixes, payment in advance. &mdash; AT&T Unix Policy (1984)"
