@@ -2,15 +2,17 @@
 title: "Python requests hinter'm Proxy"
 date: 2023-12-04T10:16:44+01:00
 tags:
-- fill
+- python
+- tenacity
+- retry
 ---
 
-Der Firmenproxy hinterdem ich arbeite ist oftmals in Verbindung mit VPN
+Der Firmenproxy hinter dem ich arbeite ist oftmals in Verbindung mit VPN
 ziemlich shaky. Das heisst Verbindungen werden nicht verlässlich aufgebaut.
 
 <!--more-->
 
-Gerade arbeite ich ~~gegen~~ mit der Bitbucket Server API. Ich mache viele
+Gerade arbeite ich ~~gegen~~ mit der BitBucket Server API. Ich mache viele
 Requests, lese User Permissions aus und reagiere darauf. Dabei schmiert mein kleines Script immer wieder ab. 
 
 ```
@@ -29,8 +31,8 @@ Retries einbauen kann. Mittels
 [tenacity](https://tenacity.readthedocs.io/en/latest/)!
 
 
-Anstatt irgenwelche `try/except` Lösungen zu bauen, kann ich die Library
-installieren und einen Dekorator verwenden. In diesem definiert man wie lange
+Anstatt irgend welche `try/except` Lösungen zu bauen, kann ich die Library
+installieren und einen Decorator verwenden. In diesem definiert man wie lange
 und mit welchen Backoffintervallen die Funktion retried werden soll.
 
 ```python
