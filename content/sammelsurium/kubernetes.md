@@ -13,15 +13,15 @@ werden usw.
 
 Alle anzeigen
 
-    kubectl get deployments;
-
-Löschen eines Deployments
-
-    kubectl delete deployment hello-node
+    kubectl get deployments
 
 Neues Deployment anlegen
 
     kubectl create deployment hello-node --image=gcr.io/hello-minikube-zero-install/hello-node
+
+Löschen eines Deployments
+
+    kubectl delete deployment hello-node
 
 ### Services
 
@@ -62,6 +62,19 @@ Log von Container eines Pods abholen
     kubectl logs <pod> <container> -n=<name-space>
     kubectl logs weave-net-fcprg weave  -n=kube-system
 
+### Ingress 
+
+Services via Ingress Controller nach aussen sichtbar gemacht. 
+Via nginx-ingress controller oder aws-alb-ingress bei EKS
+
+Ingress Endpoints / URLs anzeigen
+
+    kubectl get ingress --all-namespaces
+
+Speziellen Ingress anzeigen
+
+     kubectl get ingress/<name> -n <namespace>
+
 ### Nodes
 
 Alle Nodes mit allen Details anzeigen
@@ -72,11 +85,11 @@ Alle Nodes mit allen Details anzeigen
 
 Cluster Log
 
-    kubectl get events;
+    kubectl get events
 
 Cluster config
 
-    kubectl config view;
+    kubectl config view
 
 Show kubeadmin init config
 
@@ -86,10 +99,9 @@ Show all avialable resources in the cluster
 
     kubectl api-resource
 
-Cluster Neuinstallation. Auf jedem Node:
+### EKS 
 
-    kubeadm reset
-    rm -rf /var/lib/etcd
+kubeconfig aus aws-cli generieren lassen
 
-und dann die Prozedur aus dem Setup nochmal machen. Siehe dazu
-[hobby-kube](https://github.com/hobby-kube/guide#choosing-a-cloud-provider)
+    aws eks update-kubeconfig --name dev 
+    kubectl get nodes
