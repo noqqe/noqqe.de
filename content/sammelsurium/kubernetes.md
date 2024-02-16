@@ -75,6 +75,14 @@ Speziellen Ingress anzeigen
 
      kubectl get ingress/<name> -n <namespace>
 
+Ingress löschen
+    
+    kubectl delete ingress <name> -n <namespace>
+
+Stuck Ingress löschen (Hintergrund: aws-alb-ingress broken)
+
+    kubectl patch ingress <name> -n <namespace> -p '{"metadata":{"finalizers":[]}}' --type=merge
+
 ### Nodes
 
 Alle Nodes mit allen Details anzeigen
