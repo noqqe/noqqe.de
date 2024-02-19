@@ -93,6 +93,12 @@ Alle Nodes mit allen Details anzeigen
 
     kubectl get nodes -o wide
 
+### Secrets
+
+Secret anlegen
+
+    kubectl create secret generic db-password --from-literal=password='secret123'
+
 ### Kubernetes Cluster
 
 Cluster Log
