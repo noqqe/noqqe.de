@@ -62,6 +62,10 @@ Log von Container eines Pods abholen
     kubectl logs <pod> <container> -n=<name-space>
     kubectl logs weave-net-fcprg weave  -n=kube-system
 
+Ports und IPs von Pod anzeigen
+
+    kubectl get pod vault-0 -o jsonpath='Host:{.status.hostIP} PodIP:{.status.podIP} PodPorts:{.spec.containers[*].ports[*].containerPort}'
+
 ### Ingress 
 
 Services via Ingress Controller nach aussen sichtbar gemacht. 
