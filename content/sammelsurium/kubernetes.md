@@ -95,9 +95,13 @@ Alle Nodes mit allen Details anzeigen
 
 ### Secrets
 
-Secret anlegen
+Secret anlegen (string)
 
     kubectl create secret generic db-password --from-literal=password='secret123'
+
+Secret anlegen (file)
+
+    kubectl create secret generic license --from-file=nexus-repo-license.lic=nexus.lic --dry-run=client --output=yaml
 
 ### Kubernetes Cluster
 
