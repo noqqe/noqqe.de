@@ -38,9 +38,10 @@ Make root a super user (ignore switching to postgres first)
 Create new Database with user:
 
 ```
-create database mydb;
-create user myuser with encrypted password 'mypass';
-grant all privileges on database mydb to myuser;
+CREATE DATABASE mydb;
+CREATE USER myuser WITH ENCRYPTED PASSWORD 'mypass';
+GRANT ALL PRIVILEGES ON DATABASE mydb TO myuser;
+ALTER DATABASE mydb OWNER TO admin;
 ```
 
 Use Database
