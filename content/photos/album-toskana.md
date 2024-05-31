@@ -1,5 +1,5 @@
 ---
-title: "Toskana"
+title: "Album: Toskana"
 date: 2024-03-30T11:24:20+02:00
 tags:
 - Nikon ZF
