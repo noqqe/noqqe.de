@@ -54,3 +54,19 @@ helm install game-2048 game-2048/ -n game-2048 --create-namespace
 ```
 
 und Helm selbst die Erstellung überlassen
+
+Helm Upload
+
+```
+curl -u user:pass https://nexus.prod.acme.net/repository/cps-helm/ --upload-file deployment-user-0.1.1.tgz
+```
+
+Helm Dependency wenn mit auth
+```
+helm repo add nexus https://nexus.prod.acme.net/repository/cps-helm/ --username user --password pass 
+
+dependencies:
+  - name: deployment-user
+    repository: "@nexus"
+    version: "0.1.1"
+```
