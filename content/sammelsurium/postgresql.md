@@ -68,6 +68,12 @@ configs=> \dt
  public | airflow | table | postgres
 ```
 
+Delete all Tables of a database
+
+generates a list of queries that can be executed
+
+    select 'drop table "' || tablename || '" cascade;' from pg_tables;
+
 List Roles
 
     postgres=## \du
