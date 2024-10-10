@@ -57,6 +57,12 @@ Pod zerstören
 
     kubectl delete pod hello-node-78cd77d68f-7q6tn
 
+Besser runter scalen und wieder hoch
+
+    kubectl scale statefulset bamboo --replicas=0
+    kubectl scale statefulset bamboo --replicas=1
+
+
 Log von Container eines Pods abholen
 
     kubectl logs <pod> <container> -n=<name-space>
