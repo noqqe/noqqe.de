@@ -4,6 +4,8 @@ date: "2012-05-29T21:33:00+02:00"
 type: "page"
 ---
 
+## Impressum 
+
 Angaben gemäß § 5 TMG:
 
 ```
@@ -12,15 +14,11 @@ Jakob-Fuchs-Str. 35
 95445 Bayreuth
 ```
 
-Kontakt:
+Kontakt: flo @ diesedomain 
 
-Mail: flo unter dieser Blogdomain
+## Haftungsausschluss
 
-Quelle: eRecht24, Rechtsanwalt für Internetrecht Sören Siebert
-
-Haftungsausschluss:
-
-## Haftung für Inhalte
+### Haftung für Inhalte
 
 Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für die
 Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir jedoch keine
@@ -35,7 +33,7 @@ Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten
 Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden
 Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.
 
-## Haftung für Links
+### Haftung für Links
 
 Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte
 wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch
@@ -48,7 +46,7 @@ jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei
 Bekanntwerden von Rechtsverletzungen werden wir derartige Links umgehend
 entfernen.
 
-## Urheberrecht
+### Urheberrecht
 
 Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten
 unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung,
@@ -62,7 +60,7 @@ Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden,
 bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von
 Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.
 
-## Datenschutz
+### Datenschutz
 
 Die Nutzung unserer Webseite ist in der Regel ohne Angabe personenbezogener
 Daten möglich. Soweit auf unseren Seiten personenbezogene Daten
@@ -78,3 +76,5 @@ Informationsmaterialien wird hiermit ausdrücklich widersprochen. Die
 Betreiber der Seiten behalten sich ausdrücklich rechtliche Schritte im Falle
 der unverlangten Zusendung von Werbeinformationen, etwa durch Spam-Mails,
 vor.
+
+Quelle: eRecht24, Rechtsanwalt für Internetrecht Sören Siebert
